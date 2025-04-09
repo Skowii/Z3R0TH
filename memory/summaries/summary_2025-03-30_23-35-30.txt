@@ -1,0 +1,7 @@
+JavaScript's `Element.insertAdjacentHTML()` method allows you to insert an HTML string before or after a specified element using various positions relative to it. To insert an HTML string before the start of a specified element, use the position 'beforebegin'. To insert it after the start, use the position 'afterend'. Examples provided demonstrate how to achieve both:
+```js
+const insertBefore = (el, htmlString) => el.insertAdjacentHTML('beforebegin', htmlString);
+insertBefore(document.getElementById('myId'), '<p>before</p>');
+const insertAfter = (el, htmlString) => el.insertAdjacentHTML('afterend', htmlString);
+insertAfter(document.getElementById('myId'), '<p>after</p>');
+```

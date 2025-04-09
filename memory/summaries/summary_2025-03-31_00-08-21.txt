@@ -1,0 +1,11 @@
+Cloning an array in JavaScript can be done using various methods:
+
+1. Spread operator: `let y = [...x]`
+2. Array.from(): `let y = Array.from(x)`
+3. Array.prototype.slice(): `let y = x.slice()`
+4. Array.prototype.map(): `let y = x.map(i => i)`
+5. Array.prototype.filter(): `let y = x.filter(() => true)`
+6. Object.assign(): `let y = Object.assign([], x)`
+7. structuredClone() (for deep cloning objects): `const b = structuredClone(a);`
+
+These methods provide different ways to create a shallow or deep clone of an array, depending on your needs and the contents of the array.

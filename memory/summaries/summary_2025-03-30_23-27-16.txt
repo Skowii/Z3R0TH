@@ -1,0 +1,6 @@
+This Python script converts strings to various cases:
+1. Capitalize first letter: s.upper()[0] + s[1:].lower() or capitalize(s, True)
+2. Decapitalize first letter: s.lower()[0] + s[1:].upper() or decapitalize(s, True)
+3. Camel case: sub('(_|-)+', ' ', s).title().replace(' ', '') or camel(s)
+4. Kebab case: '-'.join(sub('(\s|_|-)+', ' ', sub('[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+', lambda mo: ' ' + mo.group(0).lower(), s)).split()) or kebab(s)
+5. Snake case: sub('(_|-)+', '_', s).title().replace(' ', '') or snake_case(s)

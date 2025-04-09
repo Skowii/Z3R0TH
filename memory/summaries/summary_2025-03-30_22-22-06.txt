@@ -1,0 +1,1 @@
+This security policy supports version 13.x.x and advises to report any found vulnerabilities to chalarangelo@gmail.com. Versions below 13.x.0 are not supported.

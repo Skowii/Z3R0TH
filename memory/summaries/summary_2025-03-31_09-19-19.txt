@@ -1,0 +1,1 @@
+Implements a token authentication scheme using the TokenAuth class with a given token in the Authorization header. Makes a GET request to the GitHub API and prints the status code and response text.

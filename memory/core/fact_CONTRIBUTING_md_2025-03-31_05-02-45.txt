@@ -1,0 +1,97 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_05-02-45
+
+- For nodes: Follow the [Node Creation Guidelines](https://github.com/n8n-io/n8n/blob/master/.github/node_creation_guidelines.md) and [Create a New Node](https://docs.n8n.io/integrations/creating-nodes/) instructions.
+- **Existing Node Updates:**
+  - PRs updating existing nodes will be reviewed case by case, with priority given to fixing critical bugs or addressing user feedback.
+- **Other Changes:**
+  - For other types of changes (e.g., UI, backend improvements), follow the general requirements mentioned above and ensure they align with n8n's overall direction and goals.
+
+Please adhere to these guidelines when submitting a PR. This ensures that n8n stays maintainable, consistent, and scalable. If you have any questions or need assistance with your PR, feel free to reach out to the n8n team. They are always happy to help!
+
+# TAGS: mebrew/homebrew-core/blob/master/Formula/node.rb#L195). This ensures that `pnpm` can install packages correctly in your project.
+
+#### Build tools
+
+n8n uses [pnpm](https://pnpm.io/) for package management and has several build tools:
+
+- [Rollup](https://rollupjs.org) - For bundling the frontend code
+- [Lint staged](https://github.com/okonet/lint-staged) - For linting of all scripts before they are being committed
+- [Husky](https://typicode.github.io/husky/) - To hook into git events like pre-commit, pre-push, etc. and run tasks automatically
+
+#### Actual n8n setup
+
+Once you have installed Node.js and pnpm as mentioned above, you should be able to start developing by running:
+
+```bash
+pnpm install
+```
+This will install all dependencies for local development including all workspaces.
+
+### Start
+
+To start the frontend (editor UI) run:
+
+```bash
+pnpm run serve-frontend
+```
+
+To start the backend run:
+
+```bash
+pnpm run serve-backend
+```
+
+## Development cycle
+
+Now, after you have set up everything and started n8n development environment, here's a rough guide on how the development cycle looks like:
+
+1. Write new or change existing code in `packages/core`.
+2. Make sure your changes are compatible with the current stable version of n8n (currently 0.x.y).
+3. Add appropriate tests for your changes. For unit-tests, use the [Jest](https://jestjs.io/) test runner and E2E tests use [Cypress](https://www.cypress.io/).
+4. Run `pnpm run lint` and fix all linter errors if any. This is important to make sure our code follows the same coding standard and ensures maintainability.
+5. Run `pnpm run test` to check if your changes are working as intended and that there are no regressions.
+6. Once you are happy with your changes, open a [Pull Request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) against the main branch of n8n on GitHub.
+7. After your Pull Request is merged, it will be automatically tested again and deployed to our staging environment. This ensures that no issues are present and everything works as expected in our production environments.
+
+Please follow these steps whenever you make changes in the code base. Following this structure will ensure quality, maintainability, and ease of development for everyone involved.
+
+### Community PR Guidelines
+
+Please make sure to follow our [Community PR Guidelines](/CONTRIBUTING.md) when opening a Pull Request. This ensures that all contributors adhere to the same guidelines, making it easier for everyone to work together.
+
+### Test suite
+
+The test suite of n8n consists mainly of unit tests and E2E tests:
+
+#### Unit tests
+
+Unit tests are used to check if single components or functions do what they should do. We use Jest as our test runner and [Jest-DOM](https://github.com/testing-library/jest-dom) for testing DOM interactions.
+
+#### E2E tests
+
+E2E tests are used to check the full user experience of n8n. They make sure that everything works as expected when using the software from start to finish. We use Cypress as our test runner for this purpose.
+
+### Code review
+
+Every Pull Request will be reviewed by one or more core developers and/or maintainers of n8n. This ensures that the code quality stays high, and there are no conflicts with the existing code base.
+
+Please make sure to read [our contribution guidelines](/CONTRIBUTING.md) before opening a Pull Request.
+
+## Releasing a new version
+
+When you've made changes to the core functionality or added significant new features, you should consider releasing a new version of n8n. To do this, please follow these steps:
+
+1. Create a new [Git tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) with a version number (x.y.z format) in the main branch of the repository.
+   - x is the major version, y is the minor version, and z is the patch version.
+   - For example: `v1.5.2`
+2. Open a Pull Request against the newly created tag to merge it into the main branch.
+3. Run all the tests once more with the new version to ensure everything still works as expected.
+4. Deploy the new version to our staging environment and check that it works without any issues.
+5. If everything is fine, deploy the new version to the production environment.
+6. Update the [n8n website](https://www.n8n.io/) with information about the release (description of what's changed, any known issues, etc.).
+7. Optionally, update the npm package to reflect the new version number.
+
+Please contact us in case you need help or have questions.
+
+**IMPORTANT**: Make sure to read our [Code of Conduct](/CODE_OF_CONDUCT.md) and follow it during your contribution process. We want to foster a positive, inclusive, and respectful community.

@@ -1,0 +1,1 @@
+ESLint's "no-restricted-syntax" rule warns against using for...in loops due to their traversal of the entire prototype chain. To avoid this warning, refactor code with these three options: 1) Use Object.keys() as a drop-in replacement; 2) Use Object.values() to return values instead of keys; or 3) Use Object.entries() for key-value pairs.

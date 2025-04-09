@@ -1,0 +1,1 @@
+This information demonstrates how to convert between dictionaries and lists in Python. To convert a dictionary to a list of tuples using `dict.items()` and `list()`, or create a dictionary from two lists using `zip()` and `dict()`. For mapping values of a list to a dictionary, use `map()` before combining the values into a dictionary with `zip()`.

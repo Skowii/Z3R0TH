@@ -1,0 +1,19 @@
+Título: Objeto Parámetro
+Categoría: Comportamiento
+Idioma: es
+Etiqueta: - Extensibilidad
+
+Objetivo: La sintaxis del lenguaje Java no permite declarar métodos con valores predefinidos para parámetros. La mejor opción para conseguir esto en Java es utilizar la sobrecarga de métodos. Sin embargo, esto puede ser problemático cuando un método acepta múltiples parámetros, ya que crear una sobrecarga de métodos para cada posible combinación de parámetros resulta engorroso.
+
+Explicación: El Objeto Parámetro (Parameter Object) es simplemente un objeto envoltorio para todos los parámetros de un método. La ventaja del Objeto Parámetro sobre una lista regular de parámetros de método es que los campos de clase pueden tener valores por defecto. Para resolver este problema, se utiliza el patrón Objeto Parámetro.
+
+Ejemplo programático: Aquí hay un ejemplo de cómo utilizar el Objeto Parámetro en una clase `SearchService` que realiza búsquedas con valores por defecto:
+```java
+public class SearchService {
+    public String search(ParameterObject parameterObject) {
+        return getQuerySummary(parameterObject.getType(), parameterObject.getSortBy(), parameterObject.getSortOrder());
+    }
+}
+```
+
+Resumen: El Objeto Parámetro (Parameter Object) es un patrón de diseño que permite declarar métodos con valores predefinidos en Java, evitando la sobrecarga de métodos y facilitando el uso de valores por defecto. Se utiliza como envoltorio para todos los parámetros de un método y se puede implementar utilizando un patrón de Builder.

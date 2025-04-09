@@ -1,0 +1,7 @@
+Create a JavaScript array initialized with a sequence of generated values using the following methods:
+
+1. Use the `Array()` constructor and `Array.prototype.map()` to create a sequence of values. Fill an array with empty slots first if needed using `Array.prototype.fill()`. Example code snippet: `initializeMappedArray(5); // [0, 1, 2, 3, 4] initializeMappedArray(5, i => `item ${i + 1}`); // ['item 1', 'item 2', 'item 3', 'item 4', 'item 5']`
+
+2. Create an array while a condition is met using a `while` loop and a mapping function to generate the sequence of values. Example code snippet: `initializeArrayWhile( (i, val) => val < 10, (i, val, arr) => (i <= 1 ? 1 : val + arr[i - 2]) ); // [1, 1, 2, 3, 5, 8]`
+
+3. Initialize an array using Ramda's `unfold()` function with a seed value and an iterator function to generate the sequence. Example code snippet: (not provided due to character limit)

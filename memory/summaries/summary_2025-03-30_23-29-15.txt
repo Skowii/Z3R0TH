@@ -1,0 +1,1 @@
+The currently focused DOM element in JavaScript can be selected using `Document.activeElement` property. This is an easier alternative to using `Document.querySelector()`. However, it's essential to remember that focusable elements vary depending on browser and operating system, and focus and selection are not the same thing.

@@ -1,0 +1,1 @@
+Move a specified number of elements to the end of a Python list using slice notation and combining two slices. This method can be used for rotating or reordering list elements. Example: `offset([1, 2, 3, 4, 5], 2)` returns `[3, 4, 5, 1, 2]`.

@@ -1,0 +1,1 @@
+This code creates a Chroma collection of car review data using the given dataset path and embedding function. The collection is queried for positive reviews discussing the car's performance, and the results are printed.

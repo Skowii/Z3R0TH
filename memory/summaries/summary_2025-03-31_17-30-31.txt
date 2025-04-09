@@ -1,0 +1,1 @@
+Memory challenges aim to test AI agents like AutoGPT on their ability to remember and use information during various tasks, such as following instructions, processing text files, and maintaining essential data. These challenges help improve the agent's performance in tasks needing memory usage over time, ultimately enhancing its capabilities for real-world applications.

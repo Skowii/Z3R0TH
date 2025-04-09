@@ -1,0 +1,1 @@
+View differences in Git: Compare your changes with the last commit using `git diff` command. By default, it shows unstaged changes, but you can use `--staged` to compare staged changes instead.

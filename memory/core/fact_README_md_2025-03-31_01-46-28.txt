@@ -1,0 +1,29 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_01-46-28
+
+Scrapy Cluster is a distributed on-demand scraping project that utilizes Redis and Kafka to create large-scale, coordinated crawling clusters. This project aims to distribute seed URLs among many waiting spider instances, whose requests are coordinated via Redis. The output is a set of Kafka topics containing raw HTML and assets.
+
+Key concepts include:
+1. Dynamic, on-demand spiders for arbitrary web page collection
+2. Scale Scrapy instances across single or multiple machines
+3. Coordinate and prioritize scraping effort for desired sites
+4. Persist data across scraping jobs and execute multiple jobs concurrently
+5. Utilize Kafka as a data bus for interaction with the scraping cluster
+6. Throttle crawls from independent instances
+7. Output results to Kafka topics
+
+The `master` branch contains the stable code for Scrapy Cluster 1.2, while the `dev` branch is in active development towards Scrapy Cluster 1.3.
+
+# TAGS: Scrapy Cluster
+Redis
+Kafka
+distributed on demand scraping cluster
+Spider instances
+coordinated requests via Redis
+crawl jobs concurrently
+persist data across scraping jobs
+expose multiple scraping jobs
+dynamic and on-demand spiders
+scale scrapers
+Apache Kafka
+data bus for the scraping cluster

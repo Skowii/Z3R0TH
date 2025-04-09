@@ -1,0 +1,1 @@
+This code defines a function called "is_prime" that checks if a given number is prime or not. It returns False if the number is less than or equal to 1, or if it has factors other than itself and 1 within its range (up to the square root of the number). Otherwise, it returns True for a prime number.

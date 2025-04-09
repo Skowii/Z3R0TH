@@ -1,0 +1,1 @@
+The Sylius/UserBundle is a Symfony project bundle that provides user management features, such as registration, login, and group handling. It requires PHP 7.4 or 8.0 and several other dependencies. It also suggests using the Hwi/Oauth-bundle for OAuth integration.

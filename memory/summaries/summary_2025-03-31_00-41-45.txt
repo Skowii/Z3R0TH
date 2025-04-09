@@ -1,0 +1,9 @@
+Semantic Versioning (SemVer) is a widely used method of versioning in software development to indicate the changes and compatibility levels of a software package. It is commonly employed within the JavaScript ecosystem, especially through npm, the JavaScript package manager. The version number of a package can be found within its `package.json` file and displayed on the npm registry. 
+
+SemVer versions are formatted using three numeric components: major, minor, and patch. These components represent different types of changes made to the software:
+
+1. Major version: Significant changes that may break compatibility with previous versions. Users should carefully review the documentation and test their code against new versions before upgrading.
+2. Minor version: Backwards-compatible additions or improvements that don't break compatibility with previous versions. Users can typically upgrade to a new minor version without worrying about major changes requiring modifications.
+3. Patch version: Backwards-compatible bug fixes, patches, or maintenance releases. These are intended to be safe and should not introduce new features or breaking changes. 
+
+The first version of a software package is usually `1.0.0`, as it represents the major release. Pre-release versions are indicated by appending a hyphen followed by alphanumeric identifiers, like `1.0.0-alpha.1` or `1.0.0-beta.2`. These pre-releases signify that the software is still in active development and not yet ready for production use.

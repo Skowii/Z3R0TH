@@ -1,0 +1,29 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_02-51-31
+
+xchanges/carbon/) | - |
+| `cryptopia_v2` | Cryptopia (Legacy) | DEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/cryptopia-legacy/) | - |
+| `crypto_com` | Crypto.com | CEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/crypto-com/) | - |
+| `deribit_perpetual` | Deribit | DEX | CLOB Perp | [Docs](https://hummingbot.org/exchanges/deribit-perpetual/) | - |
+| `fantom` | Fantom Opera | DEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/fantom/) | - |
+| `huobi_global` | Huobi Global | CEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/huobi-global/) | - |
+| `huobi_dm` | Huobi DM | CEX | CLOB Perp | [Docs](https://hummingbot.org/exchanges/huobi-dm/) | - |
+| `kucoin` | KuCoin | CEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/kucoin/) | - |
+| `liquid_perpetual` | Liquid | DEX | CLOB Perp | [Docs](https://hummingbot.org/exchanges/liquid-perpetual/) | - |
+| `okex` | OKEx | CEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/okex/) | - |
+| `okex_usdt_perpetual` | OKEx USDT Perpetual | CEX | CLOB Perp | [Docs](https://hummingbot.org/exchanges/okex-usdt-perpetual/) | - |
+| `oasis_one` | Oasis One | DEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/oasis-one/) | - |
+| `polygon` | Polygon | DEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/polygon/) | - |
+| `scoin_v2` | Scoin (Legacy) | DEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/scoin-legacy/) | - |
+| `singapore_dex` | Singapore DEX | DEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/singapore-dex/) | - |
+| `starkware` | StarkWare (DEX) | DEX | AMM+CLOB Perp | [Docs](https://hummingbot.org/exchanges/starkware/) | - |
+| `swap_v2` | Swap V2 | DEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/swap-v2/) | - |
+| `tradeqless` | TradeQless | DEX | AMM+CLOB Perp | [Docs](https://hummingbot.org/exchanges/tradeqless/) | - |
+| `uniqliq_perpetual` | Uniqliq | DEX | CLOB Perp | [Docs](https://hummingbot.org/exchanges/uniqliq-perpetual/) | - |
+| `xdex` | XDEX (Legacy) | DEX | CLOB Spot | [Docs](https://hummingbot.org/exchanges/xdex-legacy/) | - |
+| `zrx_v2` | 0x V2 | DEX | AMM+CLOB Perp | [Docs](https://hummingbot.org/exchanges/0x-v2/) | - |
+
+Please see the respective connector's README for any specific instructions and supported features.
+
+# TAGS: key concepts: Hummingbot, open-source framework, automated trading strategies, bots, centralized exchanges, decentralized exchanges, CLOB, perpetual futures markets, exchange connectors, market types, CEX, DEX, Connector ID, Exchange, docs, discount, Binance, Gate.io
+keywords: Hummingbot, automated trading strategies, bots, open-source framework, centralized exchanges, decentralized exchanges, CLOB, perpetual futures markets, exchange connectors, market types, CEX, DEX, Connector ID, Exchange, docs, discount, Binance, Gate.io

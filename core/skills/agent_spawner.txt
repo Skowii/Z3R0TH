@@ -1,0 +1,182 @@
+# Z3R0TH ∴ Agent Spawner Engine v13.0 — GUI/CLI + Sandbox + Reflections Sync
+
+import os, sys, json, signal, subprocess
+from pathlib import Path
+from datetime import datetime
+import tkinter as tk
+from tkinter import ttk, messagebox, scrolledtext
+
+# ━━━━━━━━━━━ Core Paths
+ROOT = Path.home() / "Desktop" / "HEX13-Z3R0TH" / "Z3R0TH_ENV"
+AGENT_DIR     = ROOT / "core" / "agents"
+LOG_DIR       = ROOT / "core" / "logs"
+REFLECT_DIR   = ROOT / "core" / "memory" / "reflections"
+CONTROL_FILE  = ROOT / "core" / "control" / "guardian.json"
+SPAWN_LOG     = LOG_DIR / "spawn_history.json"
+SANDBOX_MODE  = True  # default is sandboxed subprocess (VBox/VM logic hook here)
+
+os.makedirs(LOG_DIR, exist_ok=True)
+os.makedirs(REFLECT_DIR, exist_ok=True)
+
+# ━━━━━━━━━━━ Guardian Handling
+def load_guardian():
+    if CONTROL_FILE.exists():
+        return json.loads(CONTROL_FILE.read_text())
+    default = {"override": True, "kill_switch": False, "allowed_agents": []}
+    CONTROL_FILE.write_text(json.dumps(default, indent=2))
+    return default
+
+# ━━━━━━━━━━━ Utilities
+def list_agents():
+    return sorted([f.stem for f in AGENT_DIR.glob("*.py")])
+
+def is_running(pid):
+    try:
+        os.kill(pid, 0)
+        return True
+    except:
+        return False
+
+def tag_reflection(text):
+    filename = f"agent_spawn_{datetime.now().strftime('%H%M%S')}.txt"
+    (REFLECT_DIR / filename).write_text(f"[{datetime.now()}] {text}")
+
+def log_spawn(agent_name, pid):
+    history = json.loads(SPAWN_LOG.read_text()) if SPAWN_LOG.exists() else []
+    entry = {
+        "agent": agent_name,
+        "pid": pid,
+        "timestamp": datetime.now().isoformat(),
+        "sandboxed": SANDBOX_MODE
+    }
+    history.append(entry)
+    SPAWN_LOG.write_text(json.dumps(history[-200:], indent=2))
+    tag_reflection(f"Agent Spawned: {json.dumps(entry, indent=2)}")
+
+def spawn_agent(agent_name):
+    path = AGENT_DIR / f"{agent_name}.py"
+    if not path.exists():
+        print(f"❌ Agent '{agent_name}' not found.")
+        return
+
+    try:
+        cmd = ["python3", str(path)]
+        if SANDBOX_MODE:
+            # Future VM call or sandbox logic could be inserted here
+            proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        else:
+            proc = subprocess.Popen(cmd)
+
+        log_spawn(agent_name, proc.pid)
+        print(f"✅ Spawned: {agent_name} → PID {proc.pid}")
+    except Exception as e:
+        print(f"⚠ Spawn failed: {e}")
+
+def kill_agent(pid):
+    try:
+        os.kill(int(pid), signal.SIGTERM)
+        print(f"🗡️ Terminated PID {pid}")
+        tag_reflection(f"Agent with PID {pid} terminated.")
+    except:
+        print(f"⚠ PID {pid} not valid or already dead.")
+
+# ━━━━━━━━━━━ GUI Launcher
+def gui_mode():
+    window = tk.Tk()
+    window.title("Z3R0TH ∴ Agent Control Panel")
+    window.geometry("860x620")
+    window.configure(bg="#0d0d0d")
+
+    ttk.Label(window, text="Agent Spawner GUI", font=("Fira Code", 16)).pack(pady=8)
+
+    agent_listbox = tk.Listbox(window, width=60, height=15, bg="#1e1e1e", fg="#00ff88")
+    agent_listbox.pack(pady=10)
+
+    def refresh_list():
+        agent_listbox.delete(0, "end")
+        for a in list_agents():
+            agent_listbox.insert("end", a)
+
+    def gui_spawn():
+        sel = agent_listbox.get("active")
+        if sel:
+            spawn_agent(sel)
+            messagebox.showinfo("Spawned", f"Agent '{sel}' has been launched.")
+
+    def gui_kill():
+        pid = simple_prompt("Enter PID to kill:")
+        if pid: kill_agent(pid)
+
+    def show_log():
+        log_win = tk.Toplevel(window)
+        log_win.title("Spawn History")
+        log_win.geometry("700x400")
+        txt = scrolledtext.ScrolledText(log_win, wrap="word", bg="#111", fg="#39ff14")
+        txt.pack(fill="both", expand=True)
+        txt.insert("end", SPAWN_LOG.read_text() if SPAWN_LOG.exists() else "No logs yet.")
+
+    def simple_prompt(title):
+        def done():
+            result.set(entry.get())
+            prompt.destroy()
+
+        prompt = tk.Toplevel(window)
+        prompt.geometry("300x100")
+        prompt.title(title)
+        result = tk.StringVar()
+        entry = ttk.Entry(prompt)
+        entry.pack(pady=10)
+        ttk.Button(prompt, text="OK", command=done).pack()
+        prompt.wait_window()
+        return result.get()
+
+    ttk.Button(window, text="🚀 Spawn Selected Agent", command=gui_spawn).pack(pady=4)
+    ttk.Button(window, text="🛡 Kill Agent by PID", command=gui_kill).pack(pady=4)
+    ttk.Button(window, text="📜 View Spawn Log", command=show_log).pack(pady=4)
+    ttk.Button(window, text="🔄 Refresh Agent List", command=refresh_list).pack(pady=6)
+
+    refresh_list()
+    window.mainloop()
+
+# ━━━━━━━━━━━ CLI Mode
+def interactive_console():
+    guardian = load_guardian()
+    if guardian.get("kill_switch"):
+        print("🛑 Guardian kill switch is active.")
+        return
+
+    agents = list_agents()
+    print("\n🤖 Agents:")
+    for i, name in enumerate(agents, 1):
+        print(f"{i}. {name}")
+
+    print("\nCommands: agent | list | kill:<pid> | log | exit")
+
+    while True:
+        choice = input("Z3R0TH ∴> ").strip().lower()
+        if choice == "exit":
+            break
+        elif choice == "list":
+            if SPAWN_LOG.exists():
+                active = [e for e in json.loads(SPAWN_LOG.read_text()) if is_running(e["pid"])]
+                for a in active:
+                    print(f"🧠 {a['agent']} — PID {a['pid']} — {a['timestamp']}")
+            else:
+                print("🪵 No active agents logged.")
+        elif choice.startswith("kill:"):
+            kill_agent(choice.split(":")[1])
+        elif choice == "log":
+            print(SPAWN_LOG.read_text() if SPAWN_LOG.exists() else "No log found.")
+        else:
+            name = agents[int(choice)-1] if choice.isdigit() else choice
+            if guardian["override"] or name in guardian["allowed_agents"]:
+                spawn_agent(name)
+            else:
+                print("🚫 Blocked by Guardian.")
+
+# ━━━━━━━━━━━ Entry Point
+if __name__ == "__main__":
+    if "--gui" in sys.argv:
+        gui_mode()
+    else:
+        interactive_console()

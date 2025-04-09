@@ -1,0 +1,15 @@
+Determine if a JavaScript date is a weekday or weekend using the following functions:
+
+```js
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const isWeekend = (date) => date.getDay() % 6 === 0;
+```
+
+Example usage:
+
+```js
+isWeekday(new Date('2024-01-05')) // true
+isWeekend(new Date('2024-01-05')) // false
+isWeekday(new Date('2024-01-06')) // false
+isWeekend(new Date('2024-01-06')) // true
+```

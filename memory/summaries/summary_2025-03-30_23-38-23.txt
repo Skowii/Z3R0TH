@@ -1,0 +1,1 @@
+The article teaches how to convert an asynchronous JavaScript function into one that returns a promise. It explains that in Node.js version 8 or newer, the 'util.promisify' method can be used for this purpose. It demonstrates converting a timeout-based function into one returning a promise, and provides the code required to achieve it.

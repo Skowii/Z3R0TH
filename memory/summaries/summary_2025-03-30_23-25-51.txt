@@ -1,0 +1,1 @@
+Find the list of prime factors of a number using a simple Python function. Iterate through all possible prime factors starting with 2 and use a while loop. If the current factor divides the number exactly, add it to the factors list and divide the number by the factor. Otherwise, increment the factor. Example code provided.

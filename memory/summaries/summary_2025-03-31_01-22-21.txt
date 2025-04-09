@@ -1,0 +1,3 @@
+JavaScript callbacks can be tricky and lead to potential issues if not handled carefully. Common problems include using `parseInt()` as a callback, which may result in incorrect input due to the radix parameter being set incorrectly. To avoid such issues, it's best to create a function to pass the desired arguments instead of using the callback directly.
+
+Additionally, when working with third-party libraries or APIs, it's crucial to create a function to handle data rather than using the callback directly. This ensures that any changes in the library or API do not affect your code unexpectedly.

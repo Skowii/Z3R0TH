@@ -1,0 +1,1 @@
+The information provided is a Python code snippet that defines an RP Renamer entry point script using the rprenamer.py file. It imports the main function from the rprename.app module and executes it when the script is run as the main program.

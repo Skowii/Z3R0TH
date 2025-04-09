@@ -1,0 +1,1 @@
+The script uses requests module to fetch data from a GitHub API, which is a search API for repositories with the keyword "real python". The response is in a format called "application/vnd.github.text-match+json", and the JSON data is used to view the list of `text-matches` related to the search term. The first match is then printed out from this list.

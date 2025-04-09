@@ -1,0 +1,30 @@
+Parsing Reverse Polish Notation, also known as postfix notation, is a simple algorithm that can be implemented in JavaScript using a stack. The key lies in the order of operands and operators. To parse an expression, we push each token to the stack and perform operations when encountering an operator. The result of evaluating the RPN expression will be the single value left in the stack.
+
+Here's how to implement it:
+
+```js
+const operands = {
+  '+': (b, a) => a + b,
+  '-': (b, a) => a - b,
+  '*': (b, a) => a * b,
+  '/': (b, a) => a / b
+};
+const parseRPN = expression => {
+  // If the expression is empty, return 0
+  if (!expression.trim()) return 0;
+  // Split the expression by whitespace
+  const tokens = expression.split(/\s+/g);
+  // Reduce the tokens array to a single value
+  return +tokens.reduce((stack, current) => {
+    // If the current token is an operator, pop the last two operands and perform the operation, then push the result back to the stack. Otherwise, push the current token to the stack.
+    if (current in operands)
+      stack.push(operands[current](+stack.pop(), +stack.pop()));
+    else
+      stack.push(current);
+    return stack;
+  }, []).pop();
+};
+parseRPN('3 4 +'); // 7
+parseRPN('3 4 + 5 *'); // 35
+parseRPN('3 4 + 5 6 * 8 / -'); // 3.25
+```

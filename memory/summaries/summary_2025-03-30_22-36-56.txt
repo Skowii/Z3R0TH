@@ -1,0 +1,1 @@
+This information introduces a custom "useUpdate" hook in React, which forces a component to re-render upon calling it. It achieves this by leveraging `useReducer()`'s ability to create a new object and return its dispatch each time it's updated. The code example provided demonstrates how to use the `useUpdate` hook for this purpose.

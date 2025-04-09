@@ -1,0 +1,1 @@
+This is a JSON object with the key "name" and its value as "example/test-application", indicating a test application named example/test-application.

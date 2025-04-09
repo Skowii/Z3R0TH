@@ -1,0 +1,21 @@
+The problem is to find matching bracket pairs in a string using JavaScript. We can solve this issue by employing the stack-based approach, storing opening and closing parenthesis' indices and finding their corresponding positions. An example solution in JavaScript is as follows:
+
+```js
+const findMatchingParentheses = str => {
+  const { pairs, stack } = [...str].reduce(
+    (acc, char, i) => {
+      if (char === '(') stack.push(i);
+      else if (char === ')') {
+        if (stack.length === 0) throw new Error('Invalid string');
+        pairs.push([stack.pop(), i]);
+      }
+      return acc;
+    },
+    { pairs: [], stack: [] }
+  );
+  if (stack.length > 0) throw new Error('Invalid string');
+  return pairs;
+};
+```
+
+This code will return the array of positions where each opening and closing bracket pair is found in the given string. It will work for other types of matching brackets as well, given suitable modifications to cater to different types of brackets.

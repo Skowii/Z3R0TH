@@ -1,0 +1,1 @@
+The given text is a fragment of code from the Django framework, which allows users to create their own models for use in a database. This helps developers to structure and organize their data efficiently.

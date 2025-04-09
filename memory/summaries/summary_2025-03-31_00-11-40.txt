@@ -1,0 +1,1 @@
+Escape a string for use in a regular expression by using the `String.prototype.replace()` method with the regex `/[.*+?^${}()|[\]\\]/g`. Replace each match with `\\$&`, resulting in an escaped version of the string for regex usage.

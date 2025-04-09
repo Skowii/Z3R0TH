@@ -1,0 +1,1 @@
+Quick sort is a divide and conquer algorithm that sorts an array by dividing it into smaller subarrays, which are then recursively sorted. In JavaScript, quick sort can be implemented using recursion, spread operator, Math.floor(), Array.prototype.reduce() and Array.prototype.push(). It has an average time complexity of O(n log n).

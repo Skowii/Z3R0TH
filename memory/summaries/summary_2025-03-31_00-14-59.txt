@@ -1,0 +1,1 @@
+The Cartesian product of two JavaScript arrays is a new array containing every possible pair from the two input arrays. To create it, use `Array.prototype.reduce()` on the first array and `Array.prototype.map()` on the second array, then concatenate them using the spread operator (`...`).

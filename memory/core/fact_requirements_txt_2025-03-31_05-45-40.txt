@@ -1,0 +1,6 @@
+# SOURCE: requirements.txt
+# TIME: 2025-03-31_05-45-40
+
+Sphinx version 1.8.5 is used, with a dependency on Docutils below version 0.18 for compatibility. PyOpenSSL and the requests library are also needed, specifically the "security" feature of requests. Sphinx-copybutton is utilized to handle code block copying, while sphinx-php is obtained from its Git repository at https://github.com/fabpot/sphinx-php.
+
+# TAGS: sphinx, 1.8.5, docutils, <0.18, pyOpenSSL, requests, security, Sphinx-copybutton, git, github, fabpot, sphinx-php

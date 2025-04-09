@@ -1,0 +1,11 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_09-33-46
+
+AutoGPT Flutter Client is a cross-platform application designed to manage tasks and engage in chat conversations related to these tasks. It requires Flutter 3.x and Dart 3.x. The app features responsive design, supports multiple platforms, and has well-defined project structure. The source code can be found on GitHub at [AutoGPT/frontend](https://github.com/Significant-Gravitas/AutoGPT/tree/main/frontend).
+
+# TAGS: AutoGPT Flutter Client
+Features: List and manage multiple tasks, Engage in chat conversations related to selected tasks
+Installation: Clone repo, navigate to project directory, get Flutter packages, run app
+Project structure: lib/, models/, views/, viewmodels/, services/, test/
+Responsive design: Adapts to different screen sizes and orientations, side by side on larger screens, tab bar controller layout on smaller screens
+License: MIT License (LICENSE)

@@ -1,0 +1,1 @@
+PyQt5 is a version 5.15.2 of the Python-based Qt GUI framework, providing developers with an extensive set of tools and libraries for creating graphical user interfaces in their Python applications.

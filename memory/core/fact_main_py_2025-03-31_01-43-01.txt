@@ -1,0 +1,6 @@
+# SOURCE: main.py
+# TIME: 2025-03-31_01-43-01
+
+Summary: This is a Python script that uses the babyagi library to create an application with a route for home and dashboard pages. An OpenAI key is added to enable text descriptions and embedding of functions. The app runs on port 8080.
+
+# TAGS: babyagi, create_app, dashboard, openai_api_key, os.environ, OPENAI_API_KEY, home function, OpenAI, key wrapper, add_key_wrapper, welcome message, automated descriptions, embedding of functions, app.route, href, main app, visit link, host, port

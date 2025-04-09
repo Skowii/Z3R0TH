@@ -1,0 +1,1 @@
+This script sets the DJANGO_SETTINGS_MODULE environment variable and runs administrative tasks using Django's command-line utility. It verifies that Django is installed correctly and available on PYTHONPATH, ensuring a virtual environment is activated if necessary.

@@ -1,0 +1,1 @@
+This content is an instruction on how to report an issue. It includes sections for expected behavior, current behavior, possible solutions, steps to reproduce, and context (optional). Users are encouraged to provide information on how the issue has affected them or their goals, which will help in providing a solution most beneficial in real-world scenarios.

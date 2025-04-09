@@ -1,0 +1,14 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_03-21-12
+
+developers create, the better. If you want to contribute, please do [follow this guide](https://docs.getleon.ai/how-to/contributing/) or simply start writing a skill for Leon.
+
+## 😊 Thanks
+
+Special thanks to those who are helping in this adventure:
+
+- The [@getleon](https://twitter.com/getleon) team for their work on the project, they are doing a fantastic job.
+- Everyone who uses and contributes to Leon.
+- The [Discord community](https://discord.gg/MNQqqKg), which is super helpful and friendly.
+
+# TAGS: open-source personal assistant

@@ -1,0 +1,4 @@
+Convert decimal numbers to hexadecimal using JavaScript:
+
+- Use `Number.prototype.toString()` with base 16 (e.g., `dec.toString(16)`)
+- For the reverse operation, use `parseInt()` without specifying a base or set it to 16 (e.g., `parseInt(hex, 16)`)

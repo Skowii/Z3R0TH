@@ -1,0 +1,14 @@
+Change the order of arguments in a JavaScript function:
+
+To change the order of arguments in a JavaScript function, you can use higher-order functions that take a function as an argument and return a new function with rearranged arguments. This is useful when currying or partially applying a function. 
+
+You can flip function arguments using argument destructuring and a closure with variadic arguments:
+```js
+const flip = fn => (first, ...rest) => fn(...rest, first);
+```
+
+To rearrange arguments based on a specific order, use argument destructuring and Array.prototype.map() with the spread operator and an array of indexes:
+```js
+const rearg = (fn, indexes) => (...args) => fn(...indexes.map(i => args[i]));
+```
+This allows you to refactor functions for better readability and flexibility when working with APIs or libraries that have less-than-ideal argument signatures.

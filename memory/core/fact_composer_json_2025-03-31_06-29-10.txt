@@ -1,0 +1,20 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-29-10
+
+The Sylius/Channel library is an E-Commerce PHP component for managing different sales channels. It allows for multichannel, multistore management in ecommerce environments. The project is open source with a MIT license and is maintained by various authors including Paweł Jędrzejewski, the Sylius project, and community contributors. The library requires at least PHP 7.4 or 8.0, as well as other dependencies from Sylius and Symfony packages.
+
+# TAGS: Name: sylius/channel
+Type: library
+Description: E-Commerce PHP component for managing different sales channels.
+Keywords: channel, multichannel, multistore, stores, ecommerce, sylius
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Requirements: php (^7.4 || ^8.0), sylius/resource (^1.7), symfony/form (^4.4 || ^5.2), symfony/http-foundation (^4.4 || ^5.2), laminas/laminas-stdlib (^3.2)
+Dev requirements: phpspec/phpspec (^7.0)
+Config: bin-dir (bin)
+Extra: branch-alias (dev-master => 1.9-dev)
+Autoload: psr-4 (Sylius\\Component\\Channel\\), autoload-dev: psr-4 (Sylius\\Component\\Channel\\spec\\ => spec/)
+Repositories: path (type, url: "../../*/*")
+Minimum stability: dev
+Prefer stable: true

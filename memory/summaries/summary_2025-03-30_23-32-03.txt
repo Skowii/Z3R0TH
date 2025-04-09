@@ -1,0 +1,1 @@
+Generate the Fibonacci sequence in JavaScript using either a recursive or iterative approach. The iterative approach uses a for loop and stores values in an array, while the recursive approach calls the function itself until reaching the base case and returns the corresponding array. Both methods return the Fibonacci sequence up to the nth term.

@@ -1,0 +1,1 @@
+Create a fade out siblings on hover effect using CSS by targeting the parent of the hovered element with `:hover` and `:not()` pseudo-class selectors or using the new `:has()` pseudo-class. Set transition for smooth animation and adjust opacity to achieve the desired effect.

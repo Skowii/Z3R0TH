@@ -1,0 +1,7 @@
+# SOURCE: config.py
+# TIME: 2025-03-31_04-13-14
+
+IG_USERNAME: example_username
+IG_PASSWORD: example_password
+
+# TAGS: IG_USERNAME, example_username, IG_PASSWORD, example_password

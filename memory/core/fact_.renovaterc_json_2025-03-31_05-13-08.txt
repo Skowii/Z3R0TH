@@ -1,0 +1,6 @@
+# SOURCE: .renovaterc.json
+# TIME: 2025-03-31_05-13-08
+
+This knowledge is about a configuration file for Renovate, an automation tool. It extends the default settings and customizes the schedule to run after 10pm and before 5:00am in the America/Vancouver timezone.
+
+# TAGS: $schema, extends, github>appium/appium, renovate/default, schedule, after 10pm, before 5:00am, timezone, America/Vancouver

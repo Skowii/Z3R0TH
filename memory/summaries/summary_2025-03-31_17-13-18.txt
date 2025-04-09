@@ -1,0 +1,1 @@
+This code sets up the configuration for the MathJax library in a JavaScript application. It defines options for the tex and options variables, including math delimiters, escape processing, and environment handling. Additionally, it subscribes to the document event to call the MathJax.typesetPromise() method upon changes.

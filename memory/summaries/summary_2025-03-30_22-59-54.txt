@@ -1,0 +1,1 @@
+Define a system font stack in CSS to leverage native fonts and achieve a native app feel. Use the recently introduced `system-ui` for impressive browser support or build your own custom system font stack with various operating system fonts and fallbacks like `sans-serif`.

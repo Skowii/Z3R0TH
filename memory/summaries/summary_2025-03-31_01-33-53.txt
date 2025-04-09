@@ -1,0 +1,15 @@
+Arithmetic progression creates a sequence of numbers where the difference between any two successive members is constant. Geometric progression creates a sequence of numbers where the ratio between any two successive members is constant. Both can be implemented in JavaScript using Array.from(), map function, and mathematical functions like Math.log(). Here are examples for both types of progression:
+
+Arithmetic Progression:
+```js
+const arithmeticProgression = (n, lim) => Array.from({ length: Math.ceil(lim / n) }, (_, i) => (i + 1) * n);
+arithmeticProgression(5, 25); // [5, 10, 15, 20, 25]
+```
+
+Geometric Progression:
+```js
+const geometricProgression = (end, start = 1, step = 2) => Array.from({ length: Math.floor(Math.log(end / start) / Math.log(step)) + 1 }).map((_, i) => start * step ** i);
+geometricProgression(256); // [1, 2, 4, 8, 16, 32, 64, 128, 256]
+geometricProgression(256, 3); // [3, 6, 12, 24, 48, 96, 192]
+geometricProgression(256, 1, 4); // [1, 4, 16, 64, 256]
+```

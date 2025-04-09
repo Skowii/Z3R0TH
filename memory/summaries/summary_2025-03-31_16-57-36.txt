@@ -1,0 +1,1 @@
+This code imports jQuery and assigns it to both the $ and jQuery variables in the global scope, making it accessible throughout the application.

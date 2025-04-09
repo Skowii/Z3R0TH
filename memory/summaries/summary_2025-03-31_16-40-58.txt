@@ -1,0 +1,1 @@
+Sylius, an Open Source eCommerce solution, offers a rich feature set for marketing campaigns in e-commerce projects, including time-based promotions, fixed and percentage discounts, custom actions, rules systems, promotion coupons with usage limits. Documentation is available on docs.sylius.com, and the project uses GitHub issues for bug tracking.

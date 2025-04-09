@@ -1,0 +1,1 @@
+This information is about manipulating URLs in JavaScript. To get the base URL, use a regular expression with replace() method and remove everything after '?' or '#'. For URL parameters as an object, use a regular expression with match() to extract key-value pairs and reduce them into an object using Array.prototype.reduce().

@@ -1,0 +1,7 @@
+Implementing a library for readable regular expressions in JavaScript:
+- Set up environment and designed the API using Vite and Vitest.
+- The project is a simplified, readable, and reusable API on top of regular expression DSL, developed using TDD.
+- The API is designed with users familiar with RegEx in mind, moving towards a more natural language approach.
+- The interface uses simple naming, variadic functions, and named arguments for special cases like groups, lookaheads or quantifier counts.
+- Exported function accepts an array of patterns and flags object to return a regular expression object.
+- Implementation focuses on decision-making with the assumption that any pattern should be possible to test on its own (for TDD feasibility).

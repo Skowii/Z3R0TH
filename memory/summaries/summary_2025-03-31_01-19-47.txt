@@ -1,0 +1,12 @@
+This information is about converting between different color formats such as hexadecimal, RGB, HSL, and HSB using JavaScript. The article covers the definitions of each format and provides conversion formulas for converting between them.
+
+RGB to Hexadecimal:
+- Convert red, green, blue components to their hexadecimal representation
+- Use `Number.prototype.toString()`, `<<` (left-shift) operator, and `String.prototype.padStart()` to ensure a 6-digit hexadecimal value
+
+Hexadecimal to RGB:
+- Isolate color components using bitwise right-shift and mask bits with `&` (and) operator
+- Account for alpha channel and possible 3-digit hexadecimal version
+- Trim prefix `#` from the hexadecimal string
+
+The article provides example code snippets to demonstrate how to perform these conversions in JavaScript.

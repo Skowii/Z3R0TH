@@ -1,0 +1,1 @@
+Create an array of partial sums in JavaScript using `Array.prototype.reduce()` and `Array.prototype.slice()`. Initialize the accumulator with an empty array, and then add new partial sums by using spread operator to combine previous sums. Example: `accumulate(...nums)` calculates partial sums of an array (e.g., [1, 2, 3, 4] would result in [1, 3, 6, 10]).

@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-28-18
+
+Sylius core is an open-source eCommerce solution built using decoupled components and has a powerful API with high quality code. It integrates all other components into a PHP eCommerce framework. Sylius is maintained by its contributors who follow the MIT license and share updates on Twitter, Facebook, and their blog. The documentation can be found at docs.sylius.com and any bug reports should be made via GitHub issues.
+
+# TAGS: Key Concepts: Sylius, Open Source eCommerce solution, PHP, components, API, code quality, Sylius.com, documentation, contributing, development updates, Twitter, Facebook, GitHub issues, MIT License, authors, Paweł Jędrzejewski, contributors

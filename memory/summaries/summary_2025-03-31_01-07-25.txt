@@ -1,0 +1,3 @@
+Title: Modeling complex JavaScript object collections in memory
+
+Summary: This article presents a flexible implementation for modeling JavaScript object collections in memory, inspired by Rails' ActiveRecord. The author discusses the idea and sets up the codebase before delving into the details of their solution.

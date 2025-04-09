@@ -1,0 +1,1 @@
+Django settings for a flashcards project. The file explains how to build paths within the project and provides quick-start development settings. It also defines application, middleware, template, WSGI application, database, password validation, internationalization, and static files settings.

@@ -1,0 +1,1 @@
+The script first prints the Python version and then reads a file with a list of modified files. It filters these to get only C++ files. If any C++ files are found, it runs clang-tidy and clang-format on them. If there are any C++ files containing uppercase characters or spaces/dashes, these are listed. If the number of such files is not zero, the script exits with that number.

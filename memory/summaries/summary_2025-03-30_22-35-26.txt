@@ -1,0 +1,1 @@
+Use primitive dependencies in useEffect() to avoid unnecessary re-runs and improve performance. Instead of passing entire objects as dependencies, only include the parts that are needed for the effect. This is more efficient since comparing primitives is faster than comparing entire objects.

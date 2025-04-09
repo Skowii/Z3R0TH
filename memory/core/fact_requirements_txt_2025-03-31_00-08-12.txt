@@ -1,0 +1,17 @@
+# SOURCE: requirements.txt
+# TIME: 2025-03-31_00-08-12
+
+Discord.py: a Discord bot API library for Python (version 2.3.2)
+Python-dotenv: helps to manage environment variables in code (version 1.0.0)
+Asgiref: supports the asyncio and websockets libraries for Python (version 3.6.0)
+OpenAI: provides an API for OpenAI's natural language processing models (version 1.30.3)
+Selenium: a popular automation testing framework that interacts with browsers (version 4.9.1)
+G4F: a Python library for generating and managing Gantt charts (version 0.3.2.2)
+
+# TAGS: discord.py, 2.3.2
+python-dotenv, 1.0.0
+asgiref, 3.6.0
+openai, 1.30.3
+selenium, 4.9.1
+g4f, 0.3.2.2
+g4f[all]

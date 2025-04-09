@@ -1,0 +1,1 @@
+The API will have a unified way to manage translations for translatable entities, with translations being embedded as objects within `ProductOption`/`ProductOptionValue` resources rather than using IRIs. This decision is made because translations are irrelevant outside of the main object and do not provide any value alone.

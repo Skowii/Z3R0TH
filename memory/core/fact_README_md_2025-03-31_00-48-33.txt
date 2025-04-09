@@ -1,0 +1,14 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_00-48-33
+
+Dropshipping Product Research Bot: An automation tool that assists dropshippers in streamlining the process of researching products by searching for them on Amazon and BestBuy. It filters search results based on price, scrapes data such as product name, price, and customer reviews, performs sentiment analysis on reviews, generates a comprehensive report, and sends it via email in PDF format. The project is built using UiPath Studio and includes features like automating data scraping, sentiment analysis, and email automation.
+
+# TAGS: - Automation tool for dropshipping product research
+- Built with UiPath for automating tasks across Amazon and BestBuy
+- Features:
+  - Automated Product Search
+  - Price Filtering
+  - Data Scraping
+  - Sentiment Analysis
+  - Report Generation
+  - Email Integration

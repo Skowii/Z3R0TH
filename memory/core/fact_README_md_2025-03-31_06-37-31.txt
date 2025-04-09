@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-37-31
+
+Open Source eCommerce solution built from decoupled components with powerful API and the highest quality code - Sylius; Sylius is an Open Source eCommerce solution; Sylius' official blog, Twitter account, and Facebook page can be used to follow updates and news about the platform; GitHub issues are used for bug tracking; MIT License is applied; Paweł Jędrzejewski created the component with various contributors listed on GitHub.
+
+# TAGS: Key Concepts: Attribute Component, Sylius, Open Source eCommerce solution, PHP objects, Decoupled components, API, Highest quality code, Documentation, Contributing, Bug tracking, MIT License, Authors.

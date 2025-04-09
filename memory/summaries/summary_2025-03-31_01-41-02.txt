@@ -1,0 +1,1 @@
+The only value not equal to itself in JavaScript is "NaN" (Not-a-Number), often resulting from invalid math computations. Comparison operators won't consider two NaN values equal, and the `Number.isNaN()` function can be used to check for NaN values.

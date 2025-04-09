@@ -1,0 +1,1 @@
+The HTML `autocomplete` attribute enables secure and accessible password fields by using the `new-password` value in input fields. This prevents accidental filling in of existing passwords while suggesting secure options, ensuring a smoother user experience on signup or reset password forms.

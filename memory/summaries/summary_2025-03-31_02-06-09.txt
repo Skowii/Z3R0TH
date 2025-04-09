@@ -1,0 +1,6 @@
+To remove non-ASCII characters from a JavaScript string, use a regular expression like `[^\x20-\x7E]` to match and replace them with an empty string. This can be done using the String.prototype.replace() method. For example:
+
+```js
+const removeNonASCII = str => str.replace(/[^\x20-\x7E]/g, '');
+removeNonASCII('äÄçÇéÉêlorem-ipsumöÖÐþúÚ'); // 'lorem-ipsum'
+```

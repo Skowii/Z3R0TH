@@ -1,0 +1,1 @@
+Rebase in Git allows updating a branch with another. To do this, switch to the target branch and use 'git rebase' command. Handle merge conflicts or stop, then continue or abort as needed. Example commands: `git checkout patch-1; git rebase master`, `git checkout patch-2; git rebase origin/master`.

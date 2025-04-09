@@ -1,0 +1,14 @@
+# SOURCE: contributing.md
+# TIME: 2025-03-31_08-04-43
+
+Contribution Guide: 
+
+1. Read the full contribution guide in the AutoGPT Wiki.
+2. Contribute to the autogpt_platform folder under the CLA.
+3. Avoid duplicate work and collaborate on bigger tasks from the roadmap.
+4. Create a draft PR for major changes, adhere to code guidelines, and clearly explain your changes.
+5. Test and validate your code before submitting a PR.
+6. Focus on contributing beyond just code, like documentation or discussions in the dev channel.
+7. Catalyze the project by engaging with the team and exploring the wiki.
+
+# TAGS: AutoGPT Contribution Guide, contribution guide, wiki, roadmap, kanban board, autogpt_platform folder, Contribution License Agreement (CLA), Code Guidelines, draft PR, code guidelines, code validation, contributions beyond coding, Catalyzing, Discord, Autogpt discord invite

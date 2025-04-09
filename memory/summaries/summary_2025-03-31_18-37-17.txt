@@ -1,0 +1,1 @@
+The content outlines two tests: TestPlanCreation with a difficulty level of basic, and uses data from the path agbenchmark/challenges/deprecated/content_gen/2_plan/data.json; and TestWriteFile with an interface difficulty level and its data is found at agbenchmark/challenges/deprecated/interface/write_file/data.json.

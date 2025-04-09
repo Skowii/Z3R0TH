@@ -1,0 +1,1 @@
+Learn how to add an event listener that executes at most once in JavaScript using the `EventListener.addEventListener()` function with the `once` flag set to `true`, or a flag-based implementation for older browsers. For jQuery, use the `$.one()` method.

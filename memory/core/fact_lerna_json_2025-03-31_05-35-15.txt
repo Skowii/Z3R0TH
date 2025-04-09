@@ -1,0 +1,14 @@
+# SOURCE: lerna.json
+# TIME: 2025-03-31_05-35-15
+
+The configuration specifies the following settings:
+- Schema: "https://json.schemastore.org/lerna"
+- Changelog preset: "conventional-changelog-conventionalcommits"
+- Add command: exact match
+- Publish command: message is "chore: publish"
+- Run command: concurrency 8
+- Version command: conventional commits, create release on Github for the "master" branch
+- Ignore changes: test files and .md files
+- Nx usage: disabled
+
+# TAGS: key concepts: changelogPreset, conventional-changelog-conventionalcommits, command, add, exact, publish, message, concurrency, run, version, conventionalCommits, createRelease, github, allowBranch, ignoreChanges, useNx, independent

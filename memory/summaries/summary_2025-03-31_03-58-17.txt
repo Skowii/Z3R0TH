@@ -1,0 +1,7 @@
+Game Loop, còn gọi là Chu kỳ trò chơi hay Main Game Loop, là mẫu thiết kế để thực thi liên tục của một trò chơi. Mục tiêu của nó là xử lý đầu vào, cập nhật trạng thái trò chơi và hiển thị lên màn hình, đồng thời duy trì trải nghiệm chơi mượt mà và tương tác.
+
+Trong quá trình thực hiện, Game Loop bao gồm các bước sau: xử lý đầu vào, cập nhật trạng thái trò chơi, và hiển thị trạng thái trò chơi lên màn hình. Nó đảm bảo tốc độ thực thi của trò chơi thông qua việc kiểm soát các quá trình khác như xử lý đầu vào, quản lí bộ nhớ và tính toán.
+
+Ví dụ minh họa: Trong mô hình Game Loop, chúng ta có một đối tượng Bullet (Đạn) để di chuyển trong trò chơi. GameController của chúng ta sẽ quản lí vị trí của đạn bằng cách gọi phương thức moveBullet(). GameLoop là một lớp cha đảm bảo rằng game loop hoạt động đồng nhất.
+
+Vòng lặp trò chơi sẽ được thực hiện và quay lại mỗi khi có đầu vào từ người dùng hoặc động lực tính toán từ trong trò chơi. Nó giúp trò chơi chạy mượt mà bất kể đầu vào của người dùng hoặc thiếu đầu vào.

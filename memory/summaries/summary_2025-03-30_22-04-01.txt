@@ -1,0 +1,15 @@
+To set up LinkUp Full, follow these steps:
+
+1. Update your system with `sudo apt update && sudo apt upgrade -y`.
+2. Install required dependencies: `sudo apt install curl git unzip zip tar wget -y`.
+3. Install Java 17: `sudo apt install openjdk-17-jdk -y` and check the version with `java -version`.
+4. Install Flutter: `wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.16.0-stable.tar.xz && tar -xf flutter_linux_3.16.0-stable.tar.xz`. Add Flutter to PATH and verify the version: `echo 'export PATH="$HOME/linkup/flutter/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc && flutter --version`.
+5. Install Android Studio and configure Android SDK & ADB.
+6. Install Gradle with `sdk install gradle 8.4 gradle -v`.
+7. Set up Firebase in your project: Name it LinkUp, enable Firestore, Authentication, and Storage, and download `google-services.json` and place it in the correct location.
+8. Install Flutter dependencies with `flutter pub get`.
+9. Set up an emulator for testing with `flutter doctor`, create an Emulator, and run it: `~/Android/Sdk/emulator/emulator -avd Pixel_4_API_30` and `flutter emulators --launch Pixel_4_API_30`.
+10. Set up Git for version control with `git init`, `git add .`, `git commit -m "Initial commit for LinkUp"`, and connect with GitHub: `git remote add origin https://github.com/your_username/LinkUp.git && git push -u origin main`.
+11. Run your app with `flutter run` or `flutter run --release` for release mode.
+12. Debug and optimize with `flutter analyze`, `flutter doctor`, and `flutter clean`.
+13. For AI-powered admin dashboard integration, use Firebase Admin SDK and integrate an AI chatbot for automated in-app management.

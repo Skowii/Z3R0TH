@@ -1,0 +1,1 @@
+Injecting CSS into a web page using JavaScript involves creating a new `style` element with `Document.createElement()`, setting its type to `text/css` and innerText to the desired CSS string, then appending it to the document head using `Node.appendChild()`. The newly created element can be returned for reference if needed.

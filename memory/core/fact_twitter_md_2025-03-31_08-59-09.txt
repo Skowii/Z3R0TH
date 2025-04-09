@@ -1,0 +1,71 @@
+# SOURCE: twitter.md
+# TIME: 2025-03-31_08-59-09
+
+retweeter IDs |
+| names | List of retweeter names |
+| usernames | List of retweeter usernames |
+| next_token | Token for retrieving next page [more info](twitter.md#common-output). |
+| data | Complete user data [more info](twitter.md#common-output). |
+| included | Additional requested data [more info](twitter.md#common-output). |
+| meta | Pagination and result metadata [more info](twitter.md#common-output). |
+| error | Error message if request failed
+
+# TAGS: et to exclude from the result (retweets, replies) |
+| expansions | Additional data fields to include |
+| pagination | Token for getting next page of results |
+| since_id | Return results after this tweet ID |
+| until_id | Return results before this tweet ID |
+| sort_order | Order of returned results |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| quote_tweet_ids | List of quote tweet IDs |
+| data | Complete quote tweet data (including retweeted status, quoted status, and user) |
+| included | Additional requested data (if expansions are enabled) |
+| meta | Pagination and result metadata |
+| error | Error message if fetching quotes failed |
+
+### Possible use case
+Analyzing the engagement and impact of a specific tweet.
+
+---
+
+## Twitter Get User Block
+
+### What it is
+A block that retrieves user information from Twitter.
+
+### What it does
+This block fetches detailed information about a specified user using their username or ID.
+
+### How it works
+It uses the Twitter API (Tweepy) to get user details with provided parameters and handles authentication and error cases.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| credentials | Twitter API credentials with required scopes |
+| user_id | User ID or username to fetch data for |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| user_id | User ID of the specified user |
+| name | User's name |
+| screen_name | User's screen (username) |
+| location | User's location |
+| description | User's bio/description |
+| profile_image_url_https | URL to user's profile image |
+| banner_image_url | URL to user's banner image |
+| friends_count | Number of followers |
+| followings_count | Number of users the user is following |
+| listed_count | Number of lists the user is on |
+| statuses_count | Number of tweets by the user |
+| favourites_count | Number of favorites (likes) for the user's tweets |
+| created_at | Account creation date |
+| entity_id | Entity ID (if available, such as for verified accounts) |
+| error | Error message if fetching details failed |
+
+### Possible use case
+Verifying and tracking users on Twitter.

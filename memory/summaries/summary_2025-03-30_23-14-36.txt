@@ -1,0 +1,1 @@
+Customize scrollbar style for elements with scrollable overflow using CSS in WebKit-based browsers (Chrome, Edge, Safari). Use pseudo-elements `::-webkit-scrollbar`, `::-webkit-scrollbar-track`, and `::-webkit-scrollbar-thumb` to style the scrollbar element, track, and thumb respectively. Example code provided in CSS.

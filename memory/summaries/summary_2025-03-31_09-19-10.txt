@@ -1,0 +1,1 @@
+This code uses custom token authentication to access GitHub's API with a personal access token (TOKEN). It makes two requests using the Session() method of the requests library, first for the current user and then again for the same user. The resulting responses are printed.

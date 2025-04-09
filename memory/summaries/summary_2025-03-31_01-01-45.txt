@@ -1,0 +1,1 @@
+Calculate SHA-256 hash in JavaScript using native APIs in both the browser and Node.js. In the browser, use SubtleCrypto API to generate a digest of the given data, return an ArrayBuffer and convert it to hexadecimal representation. In Node.js, use crypto module's createHash() function to calculate the digest of the data and wrap in a Promise for consistency.

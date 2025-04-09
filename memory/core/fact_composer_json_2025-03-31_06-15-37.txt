@@ -1,0 +1,36 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-15-37
+
+Name: sylius/promotion
+Type: Library
+Description: Flexible promotion management for PHP applications
+Keywords: shop, ecommerce, promotion, sylius
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Requirements: PHP 7.4 or 8.0, Doctrine ORM 2.5, Sylius/Registry 1.5, Sylius/Resource 1.7
+Dev dependencies: PhpSpec/PhpSpec 7.0
+Config: Bin-dir "bin"
+Extra: Branch-alias "dev-master" => "1.9-dev"
+Autoload: PSR-4 "Sylius\\Component\\Promotion\\"
+Autoload-dev: PSR-4 "Sylius\\Component\\Promotion\\spec\\": "spec/"
+Repositories: Path, URL "../../*/*"
+Stability: dev
+Prefer-stable: true
+
+# TAGS: name: sylius/promotion
+type: library
+description: Flexible promotion management for PHP applications.
+keywords: [shop, ecommerce, promotion, sylius]
+homepage: https://sylius.com
+license: MIT
+authors: [Paweł Jędrzejewski, Sylius project, Community contributions]
+require: [php, doctrine/orm, sylius/registry, sylius/resource]
+require-dev: [phpspec/phpspec]
+config: {bin-dir}
+extra: {branch-alias}
+autoload: {psr-4}
+autoload-dev: {psr-4}
+repositories: [{type, url}]
+minimum-stability: dev
+prefer-stable: true

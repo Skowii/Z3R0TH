@@ -1,0 +1,14 @@
+# SOURCE: Contributor License Agreement (CLA).md
+# TIME: 2025-03-31_08-00-10
+
+The Contributor License Agreement (Agreement) is a document that outlines the terms under which an individual can contribute software code to the AutoGPT open source project by Determinist Ltd. By submitting a Pull Request modifying the "autogpt_platform" folder, the contributor agrees to:
+1. Grant Determinist the ability to use the Contributions in any way, under various licensing terms including open-source and proprietary licenses.
+2. Provide a patent license to Determinist for making, using, offering to sell, selling, and importing products containing the Contribution or portions of it.
+3. Grant licenses for the duration of applicable patents or intellectual property rights granted in this Agreement.
+4. Authorize sublicenses within the scope of the licenses granted in this Agreement.
+5. Be legally entitled to grant these rights, with the option to authorize on behalf of an employer if necessary.
+6. Ensure that the Contributions are original works and not conflicting with any other agreements.
+7. Understand that Determinist has the discretion to determine which code is included in their products.
+8. Accept that the Contributions are provided on an "AS IS" basis, without warranties or conditions of any kind.
+
+# TAGS: contributor license agreement, determinist ltd, open source project, autoGPT, intellectual property rights, patent licenses, granting licenses, original work, employer rights, sublicenseable

@@ -1,0 +1,14 @@
+# SOURCE: 2020_03_03_api_translations.md
+# TIME: 2025-03-31_05-52-51
+
+API Translations:
+
+- Date: 2020-03-03
+- API Version: 1.8.0 (?)
+- Related PRs: #11136, #11144, #11157
+- Description: Provide a unified way to manage translations for translatable entities in API
+- Solution: Translations should always be embedded as the collection of objects. They're irrelevant outside of the main object and do not provide any value alone.
+
+# TAGS: Key Concepts: translatable entities, API, power from version, PRs, translations, unified way, Problem to solve, solutions, decision, reasoning, translations collection, objects, IRI, Internationalized Resource Identifier.
+
+Keywords: 1.8.0, #11136, #11144, #11157, ProductOption, ProductOptionValue, embedded as objects, irrelevant outside main object, value alone, collection of objects, IRI.

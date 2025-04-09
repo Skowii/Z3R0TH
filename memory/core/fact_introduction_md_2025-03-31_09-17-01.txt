@@ -1,0 +1,12 @@
+# SOURCE: introduction.md
+# TIME: 2025-03-31_09-17-01
+
+- Component Agents
+- Legacy plugins no longer work with AutoGPT, replaced by components
+- New system loads plug-in components
+- Agent composed of components that implement protocols for specific functionality
+- Clear separation of concerns and modular design
+- Flexible and easy to extend
+- No data hiding, direct access between components
+
+# TAGS: Component Agents, Plugins, AutoGPT, Flexible, Modular, Composable, Protocols, Interfaces, Methods, Pipelines, Execution Order, Data Access, Creating Components, Built-in Components, Command Interaction, User Interaction, Tools, Agent Class, Default Pipelines

@@ -1,0 +1,1 @@
+The text provides information about a project's versions, downloads, and documentation availability on Read the Docs platform. It displays the current version, alternative versions, available download formats, and links to relevant pages on the platform. Additionally, it credits Read the Docs for providing free document hosting services.

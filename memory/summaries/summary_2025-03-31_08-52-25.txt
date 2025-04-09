@@ -1,0 +1,7 @@
+The user interface consists of a main Window containing a grid layout for organizing elements. There is a label with a directory path, which cannot be edited and should be displayed at the top of the form. Below this is a QLineEdit widget that displays the path to the directory, but it's set as read-only.
+
+Next, there's a PushButton for loading files into the application. Underneath these components, there is a vertical splitter to manage the size and space of two QWidgets - 'layoutWidget' and 'layoutWidget1'.
+
+The layoutWidget has a QVBoxLayout which hosts a label ('label_2') followed by a list widget ('srcFileList'). The 'layoutWidget1' also has a QVBoxLayout with a label ('label_3') and a dstFileList.
+
+These elements are organized into the main Window using Qt Layouts and QSplitter to manage space, size, and orientation.

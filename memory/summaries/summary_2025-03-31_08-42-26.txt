@@ -1,0 +1,1 @@
+PyInstrument version 4.5.0 is a Python profiling and performance analysis tool that helps developers identify bottlenecks and improve application performance. It works by instrumenting the code to collect runtime data for further analysis, making it easier to optimize and maintain software.

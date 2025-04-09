@@ -1,0 +1,1 @@
+This folder contains example code for the Real Python tutorial on Asynchronous Iterators and Iterables in Python. The tutorial can be found at this link: https://realpython.com/python-async-iterators/.

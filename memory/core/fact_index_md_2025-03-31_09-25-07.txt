@@ -1,0 +1,33 @@
+# SOURCE: index.md
+# TIME: 2025-03-31_09-25-07
+
+oc API Key directly after = without quotes or spaces:
+    ```ini
+    GROQ_API_KEY=sk-groq-api01-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# TAGS: for OpenAI's GPT-3 API, so it's pre-configured to use it.
+You should follow the instructions below for any other provider.
+
+1. Set up an account and get an API key with your desired LLM provider:
+    - [OpenAI](https://openai.com) (GPT-3, GPT-4, etc.)
+    - [Google Cloud Natural Language](https://cloud.google.com/natural-language/)
+    - [Microsoft Azure OpenAI Service](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/)
+    - [IBM Watson Assistant](https://www.ibm.com/products/watson-assistant)
+    - [HuggingFace Inference API](https://huggingface.co/inference-api) (models from the HuggingFace Hub)
+
+2. In your `.env` file, set the corresponding environment variable:
+
+```shell
+# For OpenAI GPT-3 API
+OPENAI_API_KEY=<your-key>
+# For Google Cloud Natural Language
+GOOGLE_CLOUD_NATURAL_LANGUAGE_API_KEY=<your-key>
+# For Microsoft Azure OpenAI Service
+AZURE_OPENAI_API_KEY=<your-key>
+# For IBM Watson Assistant
+IBM_WATSON_ASSISTANT_API_KEY=<your-key>
+# For HuggingFace Inference API
+HUGGINGFACE_INFERENCE_TOKEN=<your-token>
+```
+
+3. Restart AutoGPT with `./autogpt.sh restart`. It will recognize the new settings and start using the selected provider.

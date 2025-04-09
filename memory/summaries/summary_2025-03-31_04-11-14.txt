@@ -1,0 +1,1 @@
+Async Method Invocation 是一种模式，其中多个独立任务可以在无阻塞的线程上并行处理。这些任务的结果将通过回调函数或等待所有任务完成来返回给调用方。示例中的 ThreadAsyncExecutor 实现了 AsyncExecutor 接口，用于管理异步任务的执行。在这个示例中，多个异步火箭发射任务和月球漫游车部署任务通过 ThreadAsyncExecutor 处理，并使用回调函数来获取结果。

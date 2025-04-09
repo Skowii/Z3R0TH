@@ -1,0 +1,18 @@
+To work with cookies in JavaScript, we need to understand their anatomy and format. Cookies are sent to the server as key-value pairs separated by semicolons. We can parse a cookie string into an object using `String.prototype.split()`, `Array.prototype.map()`, and `Array.prototype.reduce()`. Similarly, we can serialize an object into a cookie string using template literals and `encodeURIComponent()`. For example:
+
+- Parse a cookie:
+```js
+const parseCookie = str =>
+  str
+    .split(';')
+    .map(v => v.split('='))
+    .reduce((acc, v) => {
+      acc[decodeURIComponent(v[0].trim())] = decodeURIComponent(v[1].trim());
+      return acc;
+    }, {});
+```
+- Serialize a cookie:
+```js
+const serializeCookie = (name, val) =>
+  `${encodeURIComponent(name)}=${encodeURIComponent(val)}`;
+```

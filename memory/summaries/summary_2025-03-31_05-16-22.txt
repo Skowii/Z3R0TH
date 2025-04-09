@@ -1,0 +1,26 @@
+Collecting Parameter is a behavioral language design pattern that simplifies the process of accumulating data through multiple invocations of a method, rather than each path creating its own private collection. The pattern allows for results to be added to a central collecting parameter instead of having each method create their own data set. This improves code clarity and ease of modification as changes are made only in smaller methods.
+
+An example from the real world: In a large shopping mall, there are shared printers that have different policies for printing. To implement this, we would need to build a program that can accept various printer settings and combine them into a central queue. This involves invoking smaller functions with each setting, adding information to a global data set as they go.
+
+In code, this pattern could look like:
+```java
+public class App {
+    static PrinterQueue printerQueue = PrinterQueue.getInstance();
+    /**
+     * Program entry point.
+     * @param args command line args
+     */
+    public static void main(String[] args) {
+        /* Initialising the printer queue with jobs */
+        printerQueue.addPrinterItem(new PrinterItem(PaperSizes.A4, 5, false, false));
+        printerQueue.addPrinterItem(new PrinterItem(PaperSizes.A3, 2, false, false));
+        printerQueue.addPrinterItem(new PrinterItem(PaperSizes.A2, 5, false, false));
+        /* This variable is the collecting parameter. */
+        var result = new LinkedList<PrinterItem>();
+        /* * Using numerous sub-methods to collaboratively add information to the result collecting parameter */
+        addA4Papers(result);
+        addA3Papers(result);
+        addA2Papers(result);
+    }
+}
+```

@@ -1,0 +1,1 @@
+This code defines a custom jQuery function for managing checkboxes and buttons in the Sylius package. It enables synchronization between multiple checkboxes and their respective buttons, updating button properties based on checkbox status. The function can be called with the 'checkAll()' method.

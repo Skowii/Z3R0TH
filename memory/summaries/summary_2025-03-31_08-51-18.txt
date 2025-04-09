@@ -1,0 +1,1 @@
+PyQt5 is a version of the Python bindings for Qt, an open-source software that provides a cross-platform graphical user interface (GUI) library. The latest available version is 5.15.2 which includes various improvements and updates over previous versions. This allows developers to create GUI applications with ease across multiple platforms.

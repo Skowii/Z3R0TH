@@ -1,0 +1,1 @@
+To work with a Git repository, you need to clone it to your local machine using the URL of the repository. You can clone the repo into a local directory with the name based on the repository or specify a desired directory. The command for this is `git clone <url> [<directory>]`.

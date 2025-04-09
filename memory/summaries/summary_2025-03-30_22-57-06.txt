@@ -1,0 +1,1 @@
+Create engraved and embossed text effects using CSS by clipping the background to the text, setting the color and text-shadow. For engraved text, use a lighter shadow, while for embossed text, use a darker shadow. Adjust the placement of the shadow for each effect. See code example here: https://codepen.io/chalarangelo/pen/dyxMzZd

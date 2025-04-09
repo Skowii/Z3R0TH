@@ -1,0 +1,1 @@
+Minimize DOM access in JavaScript by storing DOM elements or their values in local variables when accessing them multiple times. This trick can improve performance. Store the DOM element in a variable and ensure it is set to `null` if removed to prevent memory leaks.

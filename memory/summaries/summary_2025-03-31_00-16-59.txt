@@ -1,0 +1,1 @@
+The Hamming distance measures the difference between two strings of equal length by counting positions with differing characters. In JavaScript, this can be implemented using the XOR operator (^) to find bit differences and then counting the number of `1`s in the resultant binary string.

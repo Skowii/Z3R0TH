@@ -1,0 +1,6 @@
+# SOURCE: voice.md
+# TIME: 2025-03-31_09-28-38
+
+Text to Speech (TTS) is a feature that can be used with AutoGPT by following certain steps. First, create an account on Eleven Labs and set up the Starter plan. Then, find your API Key in the Profile section. Set the `ELEVENLABS_API_KEY` and `ELEVENLABS_VOICE_1_ID` environment variables in a .env file using the voice ID or name from the list provided above. To enable TTS functionality, run the command `./autogpt.sh --speak`.
+
+# TAGS: text-to-speech, tts, autogpt, eleven labs, api key, voice id, eleventenlabs

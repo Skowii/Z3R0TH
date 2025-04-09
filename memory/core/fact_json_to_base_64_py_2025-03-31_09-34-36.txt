@@ -1,0 +1,8 @@
+# SOURCE: json_to_base_64.py
+# TIME: 2025-03-31_09-34-36
+
+Load JSON data, convert to string, encode into bytes, and convert to base64 string.
+
+tags: JSON, load, stringify, encode, decode, base64
+
+# TAGS: Key concepts: JSON data, file, open, load, JSON object, string, encode, bytes, base64

@@ -1,0 +1,1 @@
+The difference between `Object.is()` and the triple equals operator (`===`) in JavaScript is that both are used for equality checking, but `Object.is()` behaves similarly to the triple equals operator with the exception of treating `NaN`, `+0`, and `-0` differently.

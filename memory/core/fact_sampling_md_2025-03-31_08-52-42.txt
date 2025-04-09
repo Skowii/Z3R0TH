@@ -1,0 +1,9 @@
+# SOURCE: sampling.md
+# TIME: 2025-03-31_08-52-42
+
+"Data Sampling" is a tool used for selecting a subset of data from a larger dataset by applying various sampling methods. It takes a dataset as input and returns a smaller sample based on specified criteria such as random, systematic, top, bottom, stratified, weighted, reservoir, and cluster sampling methods. The inputs include the dataset, sample size, sampling method, accumulate flag for handling data batches, random seed, stratify key for stratified sampling, weight key for weighted sampling, and cluster key for cluster sampling. The outputs are the sampled data and sample indices.
+
+# TAGS: # Data Sampling
+- What it is: A tool for selecting a subset of data from a larger dataset using various sampling methods
+- Inputs: Data, Sample Size, Sampling Method, Accumulate, Random Seed, Stratify Key, Weight Key, Cluster Key
+- Outputs: Sampled Data, Sample Indices

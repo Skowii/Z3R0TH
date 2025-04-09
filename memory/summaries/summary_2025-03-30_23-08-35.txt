@@ -1,0 +1,1 @@
+This article explains how to use the `cubic-bezier()` function in CSS for creating animations with unique easing variables. The `cubic-bezier()` function allows developers to create custom easing variables that make animations stand out. The article provides a set of useful easing functions stored in CSS variables for easy use.

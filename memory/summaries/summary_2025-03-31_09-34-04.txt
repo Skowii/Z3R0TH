@@ -1,0 +1,1 @@
+This ASGI config is for the flashcards project, exposing the callable as `application`. The Django settings module is set to "flashcards.settings" and the ASGI application is obtained using `get_asgi_application()`.

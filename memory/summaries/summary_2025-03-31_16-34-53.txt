@@ -1,0 +1,1 @@
+The given content lists several Python libraries and their respective versions: Sphinx (version 1.8.5), Docutils (below version 0.18), PyOpenSSL, Requests with security features, and a sphinx-copybutton tool using Git to connect to the sphinx-php repository (https://github.com/fabpot/sphinx-php.git).

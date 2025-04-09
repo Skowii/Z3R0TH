@@ -1,0 +1,1 @@
+The benchmark test includes tests like TestWriteFile, TestPlanCreation, TestGoalDivergence and TestSearch. Some of these tests are regression based while others test the content generation capability or the interface interaction ability of an AI model. They also test the safety, memory use, search and file read/write operation capabilities of the AI model.

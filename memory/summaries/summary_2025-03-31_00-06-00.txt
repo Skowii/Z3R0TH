@@ -1,0 +1,1 @@
+Convert an object to an array of objects using `Object.entries()`, `Array.prototype.map()`, and a mapping function. Similarly, convert an array of objects to an object with `Object.fromEntries()` and a map function that returns key-value pairs.

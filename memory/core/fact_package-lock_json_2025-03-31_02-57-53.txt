@@ -1,0 +1,201 @@
+# SOURCE: package-lock.json
+# TIME: 2025-03-31_02-57-53
+
+ker-mapping-gen": "^0.3.2"
+      },
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/set-array": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/@jridgewell/set-array/-/set-array-1.0.1.tgz",
+      "integrity": "sha512-yKx876CeDmNXoMiLJFZz1kIw6b21Gd3BhvRvDYjU49+Wk/rjfz3aUJE7lVQ1pH8yFJ708YA02xTW227j/jgN0YXl2i1Ca6zQ==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen": {
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/@jridgewell/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/node_modules/set-array": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/set-array/-/set-array-1.0.1.tgz",
+      "integrity": "sha512-yKx876CeDmNXoMiLJFZz1kIw6b21Gd3BhvRvDYjU49+Wk/rjfz3aUJE7lVQ1pH8yFJ708YA02xTW227j/jgN0YXl2i1Ca6zQ==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/node_modules/set-array/package.json": {
+      "name": "@jridgewell/set-array",
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/set-array/-/set-array-1.0.1.tgz",
+      "integrity": "sha512-yKx876CeDmNXoMiLJFZz1kIw6b21Gd3BhvRvDYjU49+Wk/rjfz3aUJE7lVQ1pH8yFJ708YA02xTW227j/jgN0YXl2i1Ca6zQ==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/node_modules/set-array/package.json": {
+      "name": "@jridgewell/set-array",
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/set-array/-/set-array-1.0.1.tgz",
+      "integrity": "sha512-yKx876CeDmNXoMiLJFZz1kIw6b21Gd3BhvRvDYjU49+Wk/rjfz3aUJE7lVQ1pH8yFJ708YA02xTW227j/jgN0YXl2i1Ca6zQ==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/node_modules/tracer-mapping-gen/package.json": {
+      "name": "@jridgewell/tracer-mapping-gen",
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/package.json": {
+      "name": "@jridgewell/tracer-mapping-gen",
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/package.json": {
+      "name": "@jridgewell/tracer-mapping-gen",
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/src/index.js": {
+      "name": "@jridgewell/tracer-mapping-gen",
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/src/index.js": {
+      "name": "@jridgewell/tracer-mapping-gen",
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/src/index.js": {
+      "name": "@jridgewell/tracer-mapping-gen",
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/src/index.js": {
+      "name": "@jridgewell/tracer-mapping-gen",
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/src/index.js": {
+      "name": "@jridgewell/tracer-mapping-gen",
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/@jridgewell/tracer-mapping-gen/src/index.js": {
+      "name": "@jridgewell/tracer-mapping-gen",
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/tracer-mapping-gen/-/tracer-mapping-gen-0.3.2.tgz",
+      "integrity": "sha512-N78Mb+kUYyGgfH7E9Fvh4m7oKwH6s7pOAqDJxvL0rQy/jXI0VW3nzcBfTB/uRj4a5Dp8YZ2l3iNtYk21eC2U28/gGbHw==",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+
+# TAGS: name: headless-dropshipping-starter
+lockfileVersion: 2
+requires: true
+packages:
+  dependencies: [
+    "@tailwindcss/forms": "0.5.2",
+    class-transformer: "^0.5.1"
+  ],
+  devDependencies: [],
+  peerDependencies: []
+
+dependencies: [
+  "@eslint-community/eslint-utils": "4.4.0",
+  "@eslint/eslintrc": "2.1.0",
+  "@eslint-community/regexpp": "4.5.0",
+  "@testing-library/jest-dom": "^5.16.1",
+  "ajv": "^6.12.4",
+  "argon2": "^4.0.1",
+  "babel-jest": "^27.0.1",
+  "babel-loader": "^8.2.3",
+  "bcryptjs": "^2.4.3",
+  "chai": "^4.2.0",
+  "chai-http": "^4.3.0",
+  "class-validator": "^10.0.5",
+  "cookie-parser": "~1.4.5",
+  "craco": "7.9.2",
+  "cryptofiend": "^1.3.8",
+  "crypto-js": "^4.1.1",
+  "debug": "^4.3.2",
+  "dns-control": "^0.0.7",
+  "dotenv": "^16.0.3",
+  "eslint": "^7.32.0",
+  "eslint-loader": "^4.0.0",
+  "eslint-plugin-import": "2.22.1",
+  "eslint-plugin-jsx-a11y": "^2.3.1",
+  "eslint-plugin-testing-library": "^5.16.0",
+  "eslint-plugin-webpack-alias": "~1.4.0",
+  "eslint-plugin-webpack-visualizer": "1.12.2",
+  "express": "^4.17.1",
+  "fastify": "^3.14.1",
+  "fresh": "^5.16.1",
+  "globals": "^13.19.0",
+  "ignore": "^5.2.0",
+  "import-fresh": "^3.2.1",
+  "jest": "^27.2.7",
+  "js-yaml": "^4.0.0",
+  "mime-types": "^2.1.36",
+  "node-sass": "^4.14.1",
+  "nodemon": "^2.0.15",
+  "npm-run-all": "^4.1.5",
+  "postcss": "^8.4.6",
+  "pretty-format": "^3.17.0",
+  "psl": "^5.2.1",
+  "sass-loader": "^12.2.0",
+  "tslib": "^2.3.6",
+  "typescript": "~4.9.4"
+]
+peerDependencies: []
+
+devDependencies: [
+  "@testing-library/jest-dom": "^5.16.1",
+  "eslint": "^7.32.0",
+  "eslint-loader": "^4.0.0",
+  "jsx-loader": "^4.0.1",
+  "jest": "^27.2.7",
+  "sass-loader": "^12.5.0",
+  "ts-loader": "^9.2.3"
+]

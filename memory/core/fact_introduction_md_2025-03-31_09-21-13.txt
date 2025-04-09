@@ -1,0 +1,15 @@
+# SOURCE: introduction.md
+# TIME: 2025-03-31_09-21-13
+
+Information Retrieval: AI agents evaluate proficiency in searching, extracting, and presenting relevant info from various sources, including web browsing and unstructured data processing. Tasks include interpreting user queries and filtering through large volumes of information.
+
+# TAGS: # Information Retrieval
+ # AI Agent
+ # AutoGPT
+ # Evaluate Proficiency
+ # Searching
+ # Extracting
+ # Presenting Relevant Information
+ # User Queries
+ # Web Browsing
+ # Unstructured Data

@@ -1,0 +1,1 @@
+The WSGI config for the flashcards project exposes the WSGI callable as 'application', using Django's get_wsgi_application(). The environment variable DJANGO_SETTINGS_MODULE is set to "flashcards.settings".

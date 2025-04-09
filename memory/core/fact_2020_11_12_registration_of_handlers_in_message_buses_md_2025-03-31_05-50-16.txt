@@ -1,0 +1,6 @@
+# SOURCE: 2020_11_12_registration_of_handlers_in_message_buses.md
+# TIME: 2025-03-31_05-50-16
+
+Registration of handlers in message buses: Status accepted, Date 2020-11-12. The chosen option is to "Explicitly declare, where bus should be registered" which provides the most control and flexibility to end users without breaking compatibility for existing applications. This decision allows for adjustments in the future if necessary.
+
+# TAGS: Key concepts: Registration, handlers, message buses, accepted, date, context, problem statement, decision drivers, considered options, good, bad, backward compatible possibility, explicit declaration, end users, predictability, changing behaviour, Sylius commands.

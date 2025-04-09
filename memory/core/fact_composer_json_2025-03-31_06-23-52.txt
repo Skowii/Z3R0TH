@@ -1,0 +1,27 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-23-52
+
+Taxation Library: Flexible taxation system for PHP ecommerce applications.
+
+Name: sylius/taxation
+Type: library
+Description: A flexible taxation system for PHP ecommerce applications.
+Keywords: shop, ecommerce, tax, taxes, taxation, vat, sylius
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Requirements: PHP 7.4 || 8.0, sylius/registry 1.5, sylius/resource 1.7
+Dev requirements: phpspec/phpspec 7.0
+Config: bin-dir: bin
+Branch alias: dev-master: "1.9-dev"
+Autoloading: psr-4: Sylius\Component\Taxation\
+Autoload Dev: psr-4: Sylius\Component\Taxation\spec\
+Repositories: type: path, url: ../../*/*
+Minimum stability: dev
+Prefer stable: true
+
+# TAGS: key concepts: library, flexible taxation system, PHP ecommerce applications, tax, taxes, taxation, vat, sylius
+keywords: shop, ecommerce, tax, taxes, taxation, vat, sylius
+people: Paweł Jędrzejewski, Sylius project, Community contributions
+dates: not provided
+license: MIT

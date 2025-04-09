@@ -1,0 +1,1 @@
+The user is proposing a feature or enhancement suggestion. They provide a detailed description of the proposed change or addition. The reason behind it is important for users and its benefits to others are discussed. Possible implementation along with open questions are mentioned, and they indicate whether they're interested in working on it or not.

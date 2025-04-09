@@ -1,0 +1,8 @@
+MagicPattern offers a wide collection of beautiful CSS background patterns. Here are ten handpicked favorites:
+
+1. .lines-2: A linear gradient background with two colors.
+2. .zigzag: Created using four diagonal color gradients repeated with a 48px background-size.
+3. .polka: Creates a polka dot pattern with radial gradients in white and blue.
+4. .rectangles: Generates a checkered pattern using repeating linear gradients.
+5. .rhombus: Creates a diamond pattern using diagonal color gradients.
+6. .paper: A wavy pattern made by layering multiple diagonal and vertical gradients.

@@ -1,0 +1,7 @@
+This content briefly outlines the setup process for AutoGPT using Docker. Key points include:
+
+1. Ensure Docker is installed (requirements are listed in the index).
+2. Create a project directory and place the `docker-compose.yml` file inside it, following the provided examples.
+3. Download and set up a configuration file, either using the provided template or by uncommenting relevant lines in the compose file.
+4. Pull the latest AutoGPT image from Docker Hub, but avoid modifying the headless browser setting to prevent crashes.
+5. For developers who have cloned the repository, follow the configuration instructions and run AutoGPT as described above.

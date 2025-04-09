@@ -1,0 +1,19 @@
+# SOURCE: tsconfig.base.json
+# TIME: 2025-03-31_00-35-00
+
+Compiler Options:
+- Allow JS
+- Strict mode
+- Check JS
+- Composite files
+- Declaration and map
+- ES Module Interop
+- Incremental compilation
+- Use ES2022 module
+- Bundler resolution
+- No fallthrough cases in switch
+- Disable implicit any, override, returns, this, property access, indexed access, unused locals, and parameters
+- Enable JSON module, resolve type roots, skip lib checks, use source map, strict bind call apply, function types, null checks, and property initialization
+- Target ES2022
+
+# TAGS: compilerOptions, allowJs, alwaysStrict, checkJs, composite, declaration, declarationMap, esModuleInterop, incremental, module, ES2022, moduleResolution, Bundler, noFallthroughCasesInSwitch, noImplicitAny, noImplicitOverride, noImplicitReturns, noImplicitThis, noPropertyAccessFromIndexSignature, noUncheckedIndexedAccess, noUnusedLocals, noUnusedParameters, resolveJsonModule, skipLibCheck, sourceMap, strict, strictBindCallApply, strictFunctionTypes, strictNullChecks, strictPropertyInitialization, target, ES2022, typeRoots

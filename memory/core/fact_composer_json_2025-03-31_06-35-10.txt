@@ -1,0 +1,31 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-35-10
+
+name: sylius/payment
+type: library
+description: Flexible payments system for PHP e-commerce applications.
+keywords: [payments, payment, shop, webshop, ecommerce]
+homepage: https://sylius.com
+license: MIT
+authors: [Paweł Jędrzejewski, Sylius project, Community contributions]
+require: {php: ^7.4 || ^8.0, sylius/registry: ^1.5, sylius/resource: ^1.7}
+require-dev: {phpspec/phpspec: ^7.0}
+config: {bin-dir: "bin"}
+extra: {branch-alias: {dev-master: "1.9-dev"}}
+autoload: {psr-4: {"Sylius\\Component\\Payment\\": ""}}
+autoload-dev: {psr-4: {"Sylius\\Component\\Payment\\spec\\": "spec/"}}
+repositories: [{"type": "path", "url": "../../*/*"}]
+minimum-stability: dev
+prefer-stable: true
+
+# TAGS: - key concepts: flexible payments system, PHP e-commerce applications
+- keywords: payments, payment, shop, webshop, ecommerce
+- people: Paweł Jędrzejewski, Sylius project, Community contributions
+- dates: (not mentioned)
+- homepage: https://sylius.com
+- license: MIT
+- requirements: php 7.4 or 8.0, sylius/registry 1.5, sylius/resource 1.7
+- dev dependencies: phpspec/phpspec 7.0
+- repository type: path
+- minimum stability: dev
+- prefer stable: true

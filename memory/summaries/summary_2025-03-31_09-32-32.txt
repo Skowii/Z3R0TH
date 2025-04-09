@@ -1,0 +1,1 @@
+The Card model has a question and an answer field, a box number (chosen from 1-5), and a date created. It can be moved between boxes based on whether it is solved or not. It uses Django's Model class and provides a string representation of itself as the question.

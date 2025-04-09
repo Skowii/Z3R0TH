@@ -1,0 +1,1 @@
+To create a git commit with a different date, use GIT_AUTHOR_DATE and GIT_COMMITTER_DATE variables. The format can be internal raw git format, RFC 2822, ISO 8601, local, short, or relative. For example: `GIT_AUTHOR_DATE='Mon May 18 19:32:10 2020 -0400'; GIT_COMMITTER_DATE='Mon May 18 19:32:10 2020 -0400'; git commit -m 'Commit from the past'`.

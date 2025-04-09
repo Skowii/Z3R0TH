@@ -1,0 +1,1 @@
+Check if a JavaScript string contains only alpha or alphanumeric characters using regular expressions. For alpha characters, use `/^[a-zA-Z]*$/` and for alphanumeric characters, use `/^[a-z0-9]*$/gi`. The methods can serve as a starting point for more complex string validation patterns.

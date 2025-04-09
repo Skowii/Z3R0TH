@@ -1,0 +1,1 @@
+To configure Git user information, use `git config` to set the email and name for either all repositories (globally) or the current repository. Use the `--global` flag for global configuration. Example commands: `git config [--global] user.email <email>` and `git config [--global] user.name <name>`.

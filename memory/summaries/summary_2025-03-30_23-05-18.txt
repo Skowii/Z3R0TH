@@ -1,0 +1,1 @@
+Reset all styles on an element using the "all" property with the "initial" value in a CSS rule, placed first in the rule for precedence. This will set properties to their initial or inherited values or values specified in another layer. Custom properties and direction/unicode-bidi properties are not affected.

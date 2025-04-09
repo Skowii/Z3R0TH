@@ -1,0 +1,1 @@
+Check if a string is an anagram of another string in JavaScript by normalizing them, removing case-insensitive characters and special characters. Use regular expressions to achieve this. Then, compare the normalized strings to see if they are equal.

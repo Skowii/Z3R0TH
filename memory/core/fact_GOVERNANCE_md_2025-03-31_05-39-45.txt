@@ -1,0 +1,8 @@
+# SOURCE: GOVERNANCE.md
+# TIME: 2025-03-31_05-39-45
+
+e acknowledged on our OpenCollective page. We welcome these contributions as they help sustain our ongoing efforts.
+
+[Emeritus Contributors](#emeritus-contributors) are people who formerly made significant contributions to the project but are no longer actively committing.
+
+# TAGS: Appium Project Governance, Technical Committee, Membership, Company Representation, Changes to Project Governance, Project Committers, Responsibilities of Committers, Proposals and Merging Code, Disputes Resolution, Closing PR or Issue

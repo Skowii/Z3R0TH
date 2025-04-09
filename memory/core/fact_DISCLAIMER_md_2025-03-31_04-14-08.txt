@@ -1,0 +1,12 @@
+# SOURCE: DISCLAIMER.md
+# TIME: 2025-03-31_04-14-08
+
+Disclaimer:
+- gpt-engineer is an experimental application provided without warranty.
+- Users assume all risks associated with its use.
+- The developers and contributors do not accept responsibility for losses, damages, or other consequences.
+- Users are responsible for monitoring token usage and managing costs.
+- Code generated may not align with real-world practices or legal requirements.
+- Users indemnify, defend, and hold harmless the developers, contributors, and affiliated parties from any claims arising from using the software.
+
+# TAGS: disclaimer, experimental application, warranty, risks, data loss, system failure, issues, developers, contributors, responsibility, liability, decisions, actions, consequences, laws, regulations, ethical standards, indemnify, defend, hold harmless, claims, damages, losses, liabilities, costs, expenses, attorneys' fees

@@ -1,0 +1,1 @@
+Get the currently selected text in the browser using JavaScript's `Window.getSelection()` method, which returns a `Selection` object. Extract the text content using `Selection.toString()`.

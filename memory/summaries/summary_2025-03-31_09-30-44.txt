@@ -1,0 +1,1 @@
+The information details the configuration of URL patterns in a Django project. It explains how to route URLs to views using function or class-based views, and includes an example on how to use include() function to add another URLconf. The provided urlpatterns list demonstrates how to define paths for admin site and cards application, which uses the included "cards.urls" file.

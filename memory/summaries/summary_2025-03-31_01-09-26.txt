@@ -1,0 +1,1 @@
+Learn how to get elements from the start or end of a JavaScript array based on a given condition. Use `Array.prototype.findIndex()` and `Array.prototype.slice()` for elements at the start, and `Array.prototype.findLastIndex()` and `Array.prototype.slice()` for elements at the end. Remember to add 1 when using `Array.prototype.slice()` for elements from the end of the array.

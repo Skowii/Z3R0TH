@@ -1,0 +1,9 @@
+# SOURCE: MIGRATE.md
+# TIME: 2025-03-31_04-35-14
+
+Migrating guides for LangChain v0.3, v0.2 and Chains 0.0.x, as well as Upgrading to LangGraph Memory are available. The LangChain CLI can help with automatic upgrades.
+
+# TAGS: Key concepts: migrating, LangChain v0.3, LangChain v0.2, LangChain 0.0.x Chains, LangGraph Memory
+Keywords: Migrate, LangChain CLI, Upgrade, non-deprecated imports
+People: Not mentioned
+Dates: Not mentioned

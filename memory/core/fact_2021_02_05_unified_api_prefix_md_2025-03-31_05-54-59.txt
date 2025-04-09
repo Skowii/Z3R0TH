@@ -1,0 +1,20 @@
+# SOURCE: 2021_02_05_unified_api_prefix.md
+# TIME: 2025-03-31_05-54-59
+
+Unified API prefix problem statement: The current `/new-api` prefix does not clearly indicate the version of the API and is not future-proof.
+
+Considered options for versioning the API:
+1. Using URL based versioning: Change `/new-api` to `/api/v2`.
+   Pros: Easy to understand, easy to use with existing links.
+   Cons: Difficult for clients to migrate a subset of the API, REST principles don't dictate that the version in the URL influences presentation of resources.
+
+2. Using the Accept header with additional vendor information: Change `/new-api` to `/api` and require `Accept: application/vnd.sylius.v1+json`. 
+   Pros: Following best practices, `Accept` header was meant for content negotiation.
+   Cons: Breaks the established pattern with old Admin API (`/api/v1`) and harder to execute in raw form.
+
+3. Using a custom header: Change `/new-api` to `/api`, require header: X-Sylius-API-Version: 1.
+   Cons: No major benefits over usage of the Accept header.
+
+Decision outcome: Adopt URL based versioning by changing `/new-api` to `/api/v2`. This choice offers an easy-to-understand and -use solution, while not blocking future use of the Accept header if needed.
+
+# TAGS: Unified API prefix, status accepted, date 2021-02-05, versioning, URL based versioning, using accept header with vendor information, using custom header

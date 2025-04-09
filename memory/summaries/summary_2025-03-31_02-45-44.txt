@@ -1,0 +1,4 @@
+To replace all occurrences of a string in JavaScript:
+
+1. Use `String.prototype.replaceAll()` for modern browsers (recommended). Example: `const str = 'Hello World'; str.replaceAll('o', 'x'); // 'Hellx Wxrld'`.
+2. Use `String.prototype.replace()` for older browsers. Create a regular expression with the global flag, then pass it to `String.prototype.replace()`. Example: `const escapeRegExp = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); const replaceAll = (str, subStr, newSubStr) => str.replace(new RegExp(escapeRegExp(subStr), 'g'), newSubStr); const str = 'Hello World'; replaceAll(str, 'o', 'x'); // 'Hellx Wxrld'`.

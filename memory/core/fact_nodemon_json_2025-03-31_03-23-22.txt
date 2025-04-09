@@ -1,0 +1,9 @@
+# SOURCE: nodemon.json
+# TIME: 2025-03-31_03-23-22
+
+The given configuration is for a task runner that watches specific directories for changes in files with the extensions .ts, .js, and .json. It ignores certain folders to avoid unnecessary actions. The command executed when a change occurs is "tsx server/src/index.ts".
+
+# TAGS: Key Concepts: server/src, verbose, watch, ext, ignore, exec
+Keywords: ts, js, json
+People: None
+Dates: None

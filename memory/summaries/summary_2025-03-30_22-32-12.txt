@@ -1,0 +1,5 @@
+To implement React's lifecycle methods using hooks, you can replicate their behavior with the following hooks:
+
+1. `useComponentDidMount`: Use `useEffect()` hook with an empty array as the second argument to execute the callback once when the component is mounted.
+2. `useComponentDidUpdate`: Use `useEffect()` hook with a condition as the second argument to execute the callback every time the condition changes.
+3. `useComponentWillUnmount`: Use `useEffect()` hook with an empty array as the second argument to return the provided callback for cleanup before unmounting the component.

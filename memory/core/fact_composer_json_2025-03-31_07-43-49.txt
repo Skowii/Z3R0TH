@@ -1,0 +1,11 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-43-49
+
+{
+    "Project Information": {
+        "name": "example/test-application",
+        "Type": "application"
+    }
+}
+
+# TAGS: name: example/test-application

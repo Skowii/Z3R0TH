@@ -1,0 +1,1 @@
+The code provides a function called 'describe' which determines whether an input Python code snippet is valid and returns "expression", "statement" or "invalid". The function uses 'ast.parse' to check for validity in 'eval' mode for expressions, or 'exec' mode for statements. The main function prompts the user for input, calls 'describe', and repeats until exit.

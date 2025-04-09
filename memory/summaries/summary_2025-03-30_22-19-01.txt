@@ -1,0 +1,1 @@
+This code uses the RELATIVE flag to simplify extracting executable names and iterates through a list of source files (APP_SOURCES). It then creates an executable for each file, sets the target properties, and installs them in a specific destination. If OpenMP is found, it links the libraries accordingly.

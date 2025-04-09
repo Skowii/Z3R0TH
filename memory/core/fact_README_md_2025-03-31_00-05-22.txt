@@ -1,0 +1,31 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_00-05-22
+
+![image](https://user-images.githubusercontent.com/89479282/206565139-2a8e20f9-1bab-490c-a39d-a6c7435493fa.gif)
+
+* `developer mode` the bot would answer like a software developer in AI field
+
+  ![image](https://user-images.githubusercontent.com/89479282/206565294-41e3c93f-ef4c-40a1-b1d3-ceacd316bea1.gif)
+
+* `smart mode` the bot would answer with AIM (Always Intelligent and Machiavellian) 
+
+   ![image](https://user-images.githubusercontent.com/89479282/206565371-f7c0d92c-a9c1-4286-b19e-043450bda2ac.gif)
+
+* `software developer mode` the bot would answer like a software developer who specializes in the AI's area 
+
+   ![image](https://user-images.githubusercontent.com/89479282/206565516-3d5f232b-933e-4c66-b77a-67732aab9ed5.gif)
+
+#### Reset
+
+* `/reset` clear the chatGPT conversation history
+
+    ![image](https://user-images.githubusercontent.com/89479282/206565710-62aadc22-513d-4596-b19e-9e1a7f558ff4.gif)
+
+#### Model Switching
+
+* `/chat-model gpt-4` switch the model to gpt-4
+* `/chat-model Gemini` switch the model to Google Gemini 
+
+    ![image](https://user-images.githubusercontent.com/89479282/206565814-b3fda9e3-0c9d-4c3a-a895-432afdd5f378.gif)
+
+# TAGS: * `/help` Show available commands

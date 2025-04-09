@@ -1,0 +1,5 @@
+Big-O Cheat Sheet for Javascript algorithms and data structures:
+
+- Big-O notation represents an algorithm's worst-case complexity.
+- Complexity notations: O(1), O(log n), O(n), O(n^2), O(n!), Ω, Θ.
+- Average and worst time complexities for common data structures.

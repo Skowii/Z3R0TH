@@ -1,0 +1,50 @@
+# SOURCE: paypal_api_initialize_payment.json
+# TIME: 2025-03-31_06-47-52
+
+Express Checkout Token: EC-9EV13959UR209410U
+Express Checkout Details Timestamp: 2016-02-29T11:19:22Z
+Correlation ID: 90278b4d5eaf9
+ACK: Success
+Version: 65.1
+Build: 18316154
+Currency Code: EUR
+Amount: 19.99
+Item Amount: 19.99
+Shipping Amount: 0.00
+Handling Amount: 0.00
+Tax Amount: 0.00
+Invoice Number: 92757-10268
+Notify URL: http://127.0.0.1:8080/payment/notify/%2dTMb4VEfLDAtynAUVdt_aaWAskDTgdZVzoeu3SlQtDw
+Insurance Amount: 0.00
+Shipping Discount Amount: 0.00
+Quantity (L_QTY0): 1
+Tax Amount 0 (L_TAXAMT0): 0.00
+Amount 0 (L_AMT0): 19.99
+Item Weight Value 0 (%20%20%200.00000): 0.00
+Item Length Value 0 (%20%20%200.e00000): 0.00
+Item Width Value 0 (%20%20%200.00000): 0.00
+Item Height Value 0 (%20%20%200.00000): 0.00
+Currency Code Payment Request 0 (PAYMENTREQUEST_0_CURRENCYCODE): EUR
+Amount Payment Request 0 (PAYMENTREQUEST_0_AMT): 19.99
+Item Amount Payment Request 0 (PAYMENTREQUEST_0_ITEMAMT): 19.99
+Shipping Amount Payment Request 0 (PAYMENTREQUEST_0_SHIPPINGAMT): 0.00
+Handling Amount Payment Request 0 (PAYMENTREQUEST_0_HANDLINGAMT): 0.00
+Tax Amount Payment Request 0 (PAYMENTREQUEST_0_TAXAMT): 0.00
+Invoice Number Payment Request 0 (PAYMENTREQUEST_0_INVNUM): 92757-10268
+Notify URL Payment Request 0 (PAYMENTREQUEST_0_NOTIFYURL): http://127.0.0.1:8080/payment/notify/%2dTMb4VEfLDAtynAUVdt_aaWAskDTgdZVzoeu3SlQtDw
+Insurance Amount Payment Request 0 (PAYMENTREQUEST_0_INSURANCEAMT): 0.00
+Shipping Discount Amount Payment Request 0 (PAYMENTREQUEST_0_SHIPDISCAMT): 0.00
+Insurance Option Offered: false
+Quantity Payment Request 0 (L_PAYMENTREQUEST_0_QTY0): 1
+Tax Amount 0 Payment Request 0 (L_PAYMENTREQUEST_0_TAXAMT0): 0.00
+Amount 0 Payment Request 0 (L_PAYMENTREQUEST_0_AMT0): 19.99
+Item Weight Value 0 Payment Request 0 (%20%20%200.00000): 0.00
+Item Length Value 0 Payment Request 0 (%20%20%200.e00000): 0.00
+Item Width Value 0 Payment Request 0 (%20%20%200.00000): 0.00
+Item Height Value 0 Payment Request 0 (%20%20%200.00000): 0.00
+Error Code (PAYMENTREQUESTINFO_0_ERRORCODE): 0
+
+# TAGS: Key concepts: setExpressCheckout, getExpressCheckoutDetails
+Keywords: TOKEN, TIMESTAMP, CORRELATIONID, ACK, VERSION, BUILD, BILLINGAGREEMENTACCEPTEDSTATUS, CHECKOUTSTATUS, CURRENCYCODE, AMT, ITEMAMT, SHIPPINGAMT, HANDLINGAMT, TAXAMT, INVNUM, NOTIFYURL, INSURANCEAMT, SHIPDISCAMT, L_QTY0, L_TAXAMT0, L_AMT0, L_ITEMWEIGHTVALUE0, L_ITEMLENGTHVALUE0, L_ITEMWIDTHVALUE0, L_ITEMHEIGHTVALUE0, PAYMENTREQUEST_0
+People: (not mentioned)
+Dates: 2016-02-29

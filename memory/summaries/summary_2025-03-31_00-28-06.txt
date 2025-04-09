@@ -1,0 +1,1 @@
+To mock global object methods in Jest, use the `jest.spyOn()` method to return a mock function. This allows you to either return a fixed value or modify the implementation of the mocked method. This is useful for predictable values from mocked functions such as `Math.random()` and `Date.now()`.

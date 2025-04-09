@@ -1,0 +1,1 @@
+Calculate the percentage of numbers in a JavaScript array that are less or equal to a given value using the percentile formula and the `Array.prototype.reduce()` method.

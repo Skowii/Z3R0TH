@@ -1,0 +1,14 @@
+# SOURCE: IDEAS.md
+# TIME: 2025-03-31_05-12-09
+
+Title: Google Summer of Code Ideas for Appium
+
+1. Apple tvOS Support - Build a driver for automating Apple TV apps.
+2. Test App Revamp - Create a cross-platform test app with all needed features.
+3. Tooling and Performance - Instrument Appium to measure performance metrics.
+4. Babel Upgrade - Update repositories with the latest version of Babel.
+5. Unity3D Driver - Develop a driver for automating games built on Unity framework.
+6. Testing Internet of Things (IoT) devices - Create an IoT driver and modify WebDriver protocol.
+7. Driver for X - Build a driver for any platform that Appium doesn't currently support.
+
+# TAGS: Google Summer of Code, Appium, project, list of ideas, Apple tvOS Support, Test App revamp, Tooling and Performance, Babel, Unity3d Driver, Internet of Things, driver for X, Node.js

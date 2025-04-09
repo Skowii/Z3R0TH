@@ -1,0 +1,13 @@
+# SOURCE: renovate.json
+# TIME: 2025-03-31_03-11-11
+
+Automerge is enabled for the main branch. Extends include base configuration, monthly schedule, and disabling dependency dashboard. Major version has automerge disabled.
+
+- extends: config:base, schedule:monthly, :disableDependencyDashboard
+- major: automerge: false
+
+# TAGS: Key Concepts/Keywords: automerge, extends, config:base, schedule:monthly, disableDependencyDashboard, major
+
+People:
+
+Dates: Not available

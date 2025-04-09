@@ -1,0 +1,1 @@
+Display a fallback message when an image fails to load using the ::before and ::after pseudo-elements in CSS. This technique involves treating the <img> element as a text container and only displaying the fallback message when the image doesn't load. Ensure accessibility considerations are taken into account and provide meaningful alt attributes for images.

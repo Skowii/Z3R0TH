@@ -1,0 +1,6 @@
+# SOURCE: example.cookies.json
+# TIME: 2025-03-31_00-14-29
+
+The given knowledge consists of two cookies related to the domain .www.storyblocks.com. Both cookies have the same name "ORGANIC_SESSION" with a value of "1". The first cookie is associated with the path "/video/stock", while the second one has a path set to "/". Both cookies don't expire and are not marked as secure or httpOnly.
+
+# TAGS: Key Concepts: Organic_session, Cookie, Domain, Path, Expires, HttpOnly, Secure

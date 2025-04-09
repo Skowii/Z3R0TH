@@ -1,0 +1,49 @@
+# SOURCE: launch.json
+# TIME: 2025-03-31_07-48-43
+
+This knowledge is about configuration settings for launching a frontend application and backend server in a development environment. The configurations are as follows:
+
+1. Frontend: Server Side - Launches the Node Terminal using "yarn dev" command to run the server-side of the frontend application from the specified directory.
+2. Frontend: Client Side - Launches Microsoft Edge browser with the URL "http://localhost:3000" to access the client side of the frontend application.
+3. Frontend: Full Stack - Runs the Node Terminal using "yarn dev" command to start the server-side and then launches Microsoft Edge browser with the generated localhost URL.
+4. Backend - Launches a Python debugger for the backend application located in the specified directory, with environment variables set from ".env" file.
+5. Marketplace - Launches a Python debugger for the marketplace application using the same settings as the backend configuration.
+6. Everything - Combines all configurations to start everything together, stopping all tasks when finished.
+
+# TAGS: version: 0.2.0
+configurations:
+- name: Frontend: Server Side
+  type: node-terminal
+  request: launch
+  cwd: "${workspaceFolder}/autogpt_platform/frontend"
+  command: "yarn dev"
+- name: Frontend: Client Side
+  type: msedge
+  request: launch
+  url: "http://localhost:3000"
+- name: Frontend: Full Stack
+  type: node-terminal
+  request: launch
+  command: "yarn dev"
+  cwd: "${workspaceFolder}/autogpt_platform/frontend"
+  serverReadyAction:
+    pattern: "- Local:.+(https?://.+)
+    uriFormat: "%s
+    action: debugWithEdge
+- name: Backend
+  type: debugpy
+  request: launch
+  module: backend.app
+  envFile: "${workspaceFolder}/backend/.env"
+  cwd: "${workspaceFolder}/autogpt_platform/backend"
+- name: Marketplace
+  type: debugpy
+  request: launch
+  module: autogpt_platform.market.main
+  env: { ENV: "dev" }
+  envFile: "${workspaceFolder}/market/.env"
+  cwd: "${workspaceFolder}/market"
+compounds:
+- name: Everything
+  configurations: ["Backend", "Frontend: Full Stack"]
+  presentation: { hidden: false, order: 0 }

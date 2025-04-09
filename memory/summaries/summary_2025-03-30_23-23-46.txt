@@ -1,0 +1,7 @@
+The key differences between Python's built-in list sorting methods, list.sort() and sorted(), are:
+
+1. `list.sort()` sorts the list in-place, mutating its indexes and returning None, whereas `sorted()` returns a new sorted list without modifying the original list.
+2. `sorted()` can be used with any iterable, while `list.sort()` is specific to the list class.
+3. Both methods have the same optional 'key' and 'reverse' arguments for sorting.
+
+Use `list.sort()` when mutating the list is desired and original order is not essential. Use `sorted()` for iterables where the goal is a sorted list containing all elements, without changing the original list.

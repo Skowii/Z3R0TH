@@ -1,0 +1,16 @@
+Title: Update Method
+Short title: Behavioral update method
+Category: Behavioral
+Language: es
+Tag: Game programming
+
+Purpose: The Update Method pattern simulates a collection of independent objects, indicating each one to process a behavior frame at a time.
+
+Explanation: In the game world, there is a collection of objects. Each object implements an update method that simulates a behavior frame for the object. In each frame, the game updates each object from the collection. For more information on how the game loop executes and when update methods are invoked, see the Game Loop pattern.
+
+Class Diagram: ![alt text](./etc/update-method.urm.png "Update Method pattern class diagram")
+
+Applicability: If the Game Loop is the bread and butter of a game, then the Update Method is its butter. A wide range of games with living entities that interact with the player use this pattern in one way or another. If the game has space marines, dragons, Martians, ghosts, or athletes, it's likely to use this pattern. However, if the game is more abstract and the movable pieces resemble less like living actors and more like chess board pieces, this pattern doesn't usually fit. In a game like chess, you don't need to simulate all pieces simultaneously, and you probably won't need to tell pawns to update themselves in each frame. The update methods work well when:
+- Your game has a number of objects or systems that need to run simultaneously.
+- Each object's behavior is independent of the others.
+- Objects need to be simulated in time.

@@ -1,0 +1,1 @@
+This Python script is a command-line utility for executing administrative tasks in Django. It sets the DJANGO_SETTINGS_MODULE environment variable, attempts to import Django's management utilities, and executes the given command line arguments. If Django isn't installed or available on the PYTHONPATH environment variable, it raises an exception with suggested fixes.

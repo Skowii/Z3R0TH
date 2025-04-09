@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-52-20
+
+SyliusCustomerBundle: Summary - An Open Source eCommerce solution built from decoupled components with a powerful API and high-quality code, which integrates the Sylius Customer management component into Symfony2. The Sylius project offers extensive documentation on docs.sylius.com, and uses GitHub for bug tracking. It is licensed under the MIT License.
+
+# TAGS: SyliusCustomerBundle, Symfony2, Sylius, eCommerce solution, API, highest quality code, sylius.com, docs.sylius.com, contributing, contributing to Sylius, Official Blog, Twitter, Facebook, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

@@ -1,0 +1,23 @@
+# SOURCE: time_blocks.md
+# TIME: 2025-03-31_08-37-00
+
+Get Current Time:
+- Provides the current time in hours, minutes, and seconds.
+- Outputs a string in HH:MM:SS format (e.g., "14:30:45").
+
+Get Current Date:
+- Provides the current date or a date offset from the current date by a specified number of days.
+- Outputs a string in YYYY-MM-DD format (e.g., "2023-05-15").
+
+Get Current Date and Time:
+- Combines both the current date and time into a single output string.
+- Outputs a string in YYYY-MM-DD HH:MM:SS format (e.g., "2023-05-15 14:30:45").
+
+Countdown Timer:
+- Acts as a countdown timer, waiting for the specified duration before outputting a message.
+- Inputs for days, hours, minutes, and seconds are provided to set the wait time in seconds.
+
+# TAGS: Key concepts: Get Current Time, Get Current Date, Get Current Date and Time, Countdown Timer
+Keywords: block, current time, current date, format, input, output, trigger
+People: not mentioned in the text
+Dates: not specified in the text

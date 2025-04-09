@@ -1,0 +1,15 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-12-39
+
+Sylius - Open Source eCommerce solution built from decoupled components with powerful API and the highest quality code.
+
+Documentation: https://docs.sylius.com
+Contributing: https://docs.sylius.com/en/latest/contributing/index.html
+Follow development: Official Blog, Twitter, Facebook
+Bug tracking: GitHub issues
+License: MIT License
+Authors: Paweł Jędrzejewski and contributors
+
+# TAGS: Key Concepts: Customer Component, Sylius, Open Source eCommerce solution, documentation, contributing, following development updates, bug tracking, MIT License, authors
+
+Keywords: Managing customers, PHP applications, Sylius, documentation, contributing, GitHub issues, MIT License, contributors

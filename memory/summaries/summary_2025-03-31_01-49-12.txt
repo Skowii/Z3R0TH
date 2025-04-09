@@ -1,0 +1,1 @@
+Convert a numeric byte value into a human-readable string using an array of units and calculating the exponent of the number. Truncate the number to a certain number of digits and build the resulting string with options for adding space between the number and unit, or omitting it.

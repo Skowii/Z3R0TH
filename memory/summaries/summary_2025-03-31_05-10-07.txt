@@ -1,0 +1,18 @@
+حاول الإتصال...
+   } catch (IOException | InterruptedException ex) {
+       throw new RuntimeException(ex);
+   }
+   String responseBody = httpGet.send(httpClient).body();
+   return responseBody;
+} } ``` في هذا المثال، `ImageClient` هو ميزة البرنامج التي تستخدم للحصول على معلومات الصورة. تتضمن `ImageClientImpl` طريقة بها عقب `HttpClient` لإكمال الطلب وجمع البيانات من مستودع `localhost:50005/image-path`.
+
+في حالة الأسعار (Price), الشيء المشابه يكون بالإمكان أن يكون مثل التالي: ```java public interface PriceClient {   String getPrice(); } public class PriceClientImpl implements PriceClient {   @Override   public String getPrice() {     var httpClient = HttpClient.newHttpClient();     var httpGet = HttpRequest.newBuilder()         .GET()         .uri(URI.create("http://localhost:50006/price"))         .build();     try {
+       اتصال...
+       } catch (IOException | InterruptedException ex) {
+           throw new RuntimeException(ex);
+       }
+       String responseBody = httpGet.send(httpClient).body();
+       return responseBody;
+   } } ``` هنا، `PriceClient` هي ميزة البرنامج التي تستخدم للحصول على معلومات الأسعار. `PriceClientImpl` يقوم بإكمال الطلب من خلال إستخدام `HttpClient` وجمع البيانات من مستودع `localhost:50006/price`. 
+
+في النهاية، يتضمن نمط البوابة API وظائف مثل إجراء الاستدعاءات المختلفة والحصول على البيانات من خدمات قاموس مختلفة وجمعها في نموذج مشغول.

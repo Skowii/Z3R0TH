@@ -1,0 +1,1 @@
+In JavaScript, there are two ways to check if a string contains a substring: 1) Using `String.prototype.includes()`, which returns a boolean value and is supported in ES6, or 2) Using `String.prototype.indexOf()` if legacy browser support is needed. To make searches case-insensitive, use `String.prototype.toLowerCase()` to convert both strings to lowercase before comparing them.

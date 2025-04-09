@@ -1,0 +1,1 @@
+Mutable default arguments in Python can cause unexpected issues due to shared state created by the function's evaluation when it's first defined. To avoid this, set the default value of mutable arguments to None and check within the function if it's None, assigning the desired value without side effects.

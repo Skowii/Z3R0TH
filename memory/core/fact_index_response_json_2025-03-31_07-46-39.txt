@@ -1,0 +1,29 @@
+# SOURCE: index_response.json
+# TIME: 2025-03-31_07-46-39
+
+{"summary": [
+     {"name": "Breaking bad mug", "code": "MUG_BB"},
+     {"name": "Lotr mug", "code": "MUG_LOTR"},
+     {"name": "Star Wars mug", "code": "MUG_SW"},
+     {"name": "Product 10", "code": "PRODUCT_10"},
+     {"name": "Product 11", "code": "PRODUCT_11"},
+     {"name": "Product 12", "code": "PRODUCT_12"},
+     {"name": "Product 13", "code": "PRODUCT_13"},
+     {"name": "Product 14", "code": "PRODUCT_14"},
+     {"name": "Product 15", "code": "PRODUCT_15"},
+     {"name": "Product 16", "code": "PRODUCT_16"}
+ ]}
+  ,"meta" : {
+        "page": 1,
+        "limit": 10,
+        "pages": 3,
+        "total": 22,
+        "nextPage": "/admin/ajax/products/?page=2&limit=10",
+        "lastPage": "/admin/ajax/products/?page=3&limit=10"
+    }
+}
+
+# TAGS: key concepts: products, pagination, pages, total items
+keywords: mug, Breaking bad, Lotr, Star Wars, product
+people: none
+dates: none

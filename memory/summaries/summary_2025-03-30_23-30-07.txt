@@ -1,0 +1,1 @@
+Determine if a year is a leap year in JavaScript without needing to use math by using the Date object. Create an object for February 29th of the given year, and if the month is February, return true (leap year). Otherwise, return false (not a leap year).

@@ -1,0 +1,7 @@
+Get a nested object property by key or path in JavaScript using the following methods:
+
+1. Use an array of keys to get a nested object property: `const deepGet = (obj, keys) => keys.reduce((xs, x) => xs?.[x] ?? null, obj);`
+2. Use path strings to get a nested object property: `const deepGetByPaths = (obj, ...paths) => paths.map(path => deepGet(obj, path .replace(/[\[\]*(.*?)]/g, '.$1.') .split('.') .filter(t => t !== '')));`
+3. Search for a deeply nested property in an object: `const findInObject = (obj, key) => Object.values(obj).forEach((v) => { if (typeof v == "object") findInObject(v, key); else if (key == null || v === key) return v; });`
+
+Use the nullish coalescing operator (`??`) and optional chaining operator (`?.`) for concise syntax.

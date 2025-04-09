@@ -1,0 +1,1 @@
+Find the key of the min or max value in a Python dictionary using `min()` and `max()` functions with the `key` parameter set to `dict.get()`. This allows you to identify the key associated with the minimum or maximum value in the given dictionary.

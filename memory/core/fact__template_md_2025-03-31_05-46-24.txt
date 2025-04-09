@@ -1,0 +1,26 @@
+# SOURCE: _template.md
+# TIME: 2025-03-31_05-46-24
+
+Context and Problem Statement:
+The problem statement is about the process of summarizing a knowledge that has been already solved into a brief form for memory storage. It focuses on creating a condensed version of the resolved issue along with its decision outcome.
+
+Decision Drivers:
+1. The need to store essential information in an easily accessible and compact format.
+2. Enhance understanding and facilitate quicker retrieval of past decisions or knowledge.
+
+Considered Options:
+1. Option 1: Creating a short summary for each resolved issue, including the status, date, context, problem statement, decision drivers, considered options, and decision outcome.
+2. Option 2: Providing only a brief abstract or main points of the previously solved issues without elaborating on context, considered options, and decision outcomes.
+
+Decision Outcome:
+The chosen option is "[option 1]", as it provides a comprehensive understanding of the issue, its resolution, and reasoning behind the choice. This option effectively allows users to grasp the entirety of a problem-solving process, which contributes to better knowledge retention and faster decision making in similar cases.
+
+# TAGS: short title: "Short title of solved problem and solution"
+proposed | accepted
+Date: YYYY-MM-DD when the decision was last updated
+Context and Problem Statement: Describe the context and problem statement.
+Decision Drivers: [driver 1, e.g., a force, facing concern, …]
+Considered Options:
+Option 1: [example | description | pointer to more information | …]
+Option 2: [example | description | pointer to more information | …]
+Decision Outcome: Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].

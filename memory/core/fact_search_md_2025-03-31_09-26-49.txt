@@ -1,0 +1,16 @@
+# SOURCE: search.md
+# TIME: 2025-03-31_09-26-49
+
+Google API Keys Configuration:
+
+1. Create a new project in Google Cloud Console.
+2. Enable Custom Search API and create an API key, setting it as `GOOGLE_API_KEY` in your .env file.
+3. Set up a custom search engine and save its ID as `CUSTOM_SEARCH_ENGINE_ID` in your .env file.
+4. If necessary, increase daily quota by assigning a billing account to the project.
+
+# TAGS: - Google API Keys Configuration
+- Google Cloud Console
+- Custom Search API
+- .env file
+- Google Custom Search Engine
+- Environment Variables

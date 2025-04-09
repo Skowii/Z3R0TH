@@ -1,0 +1,26 @@
+Callback is a programming concept that allows for post-processing or reacting to the execution of a task. It is used when there's a need to perform an action after a task has been completed, which can be called back or invoked. In simple terms, it involves calling a function (or method) once some operation or process is complete. This allows for code to be executed based on the output or result of the main operation.
+
+In computer programming, callbacks are also referred to as "callback functions" and used when a certain piece of code needs to call another piece of code after a specific task has been completed. In other words, it's a way for one function to invoke another when certain conditions are met.
+
+A straightforward example in Java:
+```java
+public interface Callback {
+   void call();
+}
+```
+Here, we define an interface with a single method called `call`. Now, we can create a task class:
+```java
+public abstract class Task {
+   final void executeWith(Callback callback) {
+      execute();
+      Optional.ofNullable(callback).ifPresent(Callback::call);
+   }
+   public abstract void execute();
+}
+```
+In this example, we define an abstract class called `Task` that executes some action and then calls a method from the specified callback function if it's not null. Let's put it into practice:
+```java
+var task = new SimpleTask();
+task.executeWith(() -> LOGGER.info("I'm done now."));
+```
+In this case, after executing the `SimpleTask`, we call a callback function that prints a message when it's done.

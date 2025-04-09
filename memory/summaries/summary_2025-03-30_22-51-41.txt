@@ -1,0 +1,3 @@
+To view Git commits by a specific author or committer, use the following commands:
+- View commits by a specific author: `git log --author=<author>` (replace <author> with the desired author's name)
+- View commits by a specific committer: `git log --committer=<committer>` (replace <committer> with the desired committer's name)

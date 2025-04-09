@@ -1,0 +1,1 @@
+This article explains how to create a text overlay on an image using CSS. Two techniques are discussed - using the modern `backdrop-filter` property and the more traditional `linear-gradient()` method. The backdrop-filter method applies a blur and adjusts brightness, while the linear-gradient method uses colors, direction, and opacity to create different overlay effects.

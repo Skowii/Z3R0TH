@@ -1,0 +1,1 @@
+The code defines functions to perform basic mathematical operations (addition, subtraction, multiplication, and division), calculates the mean, median, and mode of a dataset using Counter class from collections module. It also raises an exception for dividing by zero.

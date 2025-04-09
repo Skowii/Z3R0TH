@@ -1,0 +1,7 @@
+To set up and run Ollama with AutoGPT, follow these steps:
+1. Complete the AutoGPT setup.
+2. Install Ollama on your machine.
+3. Launch Ollama and start the service.
+4. Start the backend and frontend of the AutoGPT platform.
+5. Use Ollama with AutoGPT by adding an AI Text Generator block and selecting "llama3.2" as the LLM model. Add prompts, save, and run the graph.
+6. If using a remote server, ensure the Ollama server is accessible and update the Ollama Host field in the block settings.

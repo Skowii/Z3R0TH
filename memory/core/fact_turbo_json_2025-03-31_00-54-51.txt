@@ -1,0 +1,17 @@
+# SOURCE: turbo.json
+# TIME: 2025-03-31_00-54-51
+
+Tasks:
+1. generate - Outputs: src/gen/**, Depends On: ^generate, ^build
+2. build - Outputs: bp_modules/**, .botpress/**, Depends On: generate, ^build
+3. @botpress/client#build - Outputs: dist/**, Depends On: generate, ^build
+4. @botpress/chat#build - Outputs: dist/**, Depends On: generate, ^build
+5. @botpress/sdk#build - Outputs: dist/**, Depends On: generate, ^build
+6. @botpress/cli#build - Outputs: dist/**, templates/*/.botpress/**, Depends On: generate, ^build
+7. @botpress/cognitive#build - Outputs: dist/**, Depends On: generate, ^build
+8. @botpress/vai#build - Outputs: dist/**, Depends On: generate, ^build
+9. @botpress/zai#build - Outputs: dist/**, Depends On: generate, ^build
+10. check:type - No Outputs, Depends On: N/A
+11. check:bplint - No Outputs, Depends On: N/A
+
+# TAGS: generate, outputs, dependencies, bp_modules, .botpress, BP_*

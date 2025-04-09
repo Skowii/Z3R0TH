@@ -1,0 +1,1 @@
+The "useEffectOnce" hook is a custom React hook that enables you to run a callback at most once when a condition becomes true. This can be achieved by utilizing the `useRef()` hook to keep track of execution status and control when the effect runs within the `useEffect()`. To use it, pass the callback and condition as arguments, similar to a regular `useEffect()` call.

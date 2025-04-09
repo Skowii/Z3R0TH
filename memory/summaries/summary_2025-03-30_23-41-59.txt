@@ -1,0 +1,1 @@
+There are three ways to remove trailing zeros from a number in JavaScript: using regular expression, multiplying by 1 or using `Number.parseFloat()`. Regular expressions only remove trailing zeros if they are preceded by non-zero digits, while the other two methods account for non-zero digits after the decimal point. The most readable method is using `Number.parseFloat()`.

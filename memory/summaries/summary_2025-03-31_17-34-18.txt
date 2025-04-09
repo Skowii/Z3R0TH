@@ -1,0 +1,1 @@
+This page lists common issues and their fixes. One issue is the Poetry configuration being invalid due to additional properties, which can be resolved by updating Poetry. Another issue involves a Pydantic Validation Error, which requires removing the sqlite agent.db file for compliance with new specs. Migrations will be added later to prevent this problem.

@@ -1,0 +1,25 @@
+# SOURCE: tsconfig.json
+# TIME: 2025-03-31_04-25-08
+
+Compiler Options: 
+- Target: ES2019
+- Module: commonjs
+- Lib: esnext, dom, DOM.Iterable
+- BaseUrl: .
+- Paths: various paths for different packages
+- esModuleInterop: true
+- strict: true
+- allowJs: false
+- jsx: react-jsx
+- resolveJsonModule: true
+- noEmit: true
+- noImplicitOverride: true
+- useUnknownInCatchVariables: false
+- skipLibCheck: true
+
+Project Configuration: 
+- CompileOnSave: true
+- Include: packages
+- Exclude: packages/*/lib, packages/html-reporter/
+
+# TAGS: compilerOptions, target, module, lib, baseUrl, paths, esModuleInterop, strict, allowJs, jsx, resolveJsonModule, noEmit, noImplicitOverride, useUnknownInCatchVariables, skipLibCheck, compileOnSave, include, exclude

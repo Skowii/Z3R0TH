@@ -1,0 +1,1 @@
+This code contains a custom test case for asserting that all values in a list are integers. It includes two tests: one for verifying a list of integers is indeed all integers, and another for raising an AssertionError when testing a mixed list containing non-integers. The main function calls the unittest.main() to execute the tests.

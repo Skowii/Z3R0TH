@@ -1,0 +1,29 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_03-47-40
+
+-n NAME, --name NAME   Run command with the given name (trade by default)
+```
+
+To start trading, simply use the `trade` command followed by your exchange-specific options:
+
+```bash
+freqtrade trade -e binance -A alpaca -U username -K apikey --pair BTCUSDT
+```
+
+Please adjust the command according to your specific configuration. For further details, please refer to the [Trading documentation page](https://www.freqtrade.io/en/stable/trading/).
+
+# TAGS: position size based on it.
+- [x] **Telegram / WebUI control**: Configure, monitor, and control Freqtrade directly from Telegram or WebUI.
+- [x] **Multiple exchanges support**: Support most popular crypto trading platforms out of the box. More are coming.
+- [x] **Multi-currency**: Support for BTC, ETH, USDT, PAX, BNB, LTC, XRP and more currencies.
+- [x] **Paper Trading**: Test your strategy on historical data before risking real money.
+- [x] **Realtime Trading**: Switch between dry-run and live trading without stopping the bot.
+- [x] **Exchange API key encryption**: Encrypt your exchange API keys in the config file, to store them safely.
+- [x] **Easy configuration**: The configuration process is simple and straightforward. It's just a matter of copy-paste.
+- [x] **Open Source**: Freqtrade is completely free and open source software under the MIT License.
+- [x] **Strategies included**: Includes Gamma, Gyro, Trendy, and Pineapple trading strategies out of the box, with more to come!
+- [x] **WebUI support**: Full WebUI support for easy configuration, monitoring and control through a web interface.
+- [x] **Windows support**: Support for Windows OS is included in this release.
+- [x] **Automated updates**: The bot checks periodically if there's an update available. If so, it will download and install the update automatically.
+
+We appreciate any contribution you make to the project, either by providing bug reports, feature requests or code contributions! Please visit our GitHub repository for more information: [github.com/freqtrade/freqtrade](https://github.com/freqtrade/freqtrade)

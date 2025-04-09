@@ -1,0 +1,4 @@
+1. Pull Requests - A GitHub block that retrieves a list of open pull requests from a specified repository, displaying their titles and URLs.
+2. Make Pull Request - A GitHub block creating a new pull request with details like title, body, branch information in the specified repository.
+3. Read Pull Request - A GitHub block retrieving detailed information about a specific pull request, including its title, body, author, and optional changes.
+4. Assign PR Reviewer - A GitHub block that assigns a reviewer to a specific pull request in a given repository.

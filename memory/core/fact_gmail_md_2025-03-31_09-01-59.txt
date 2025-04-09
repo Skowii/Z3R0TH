@@ -1,0 +1,53 @@
+# SOURCE: gmail.md
+# TIME: 2025-03-31_09-01-59
+
+Gmail Read: block that retrieves and reads emails from a Gmail account based on given search criteria. It returns detailed information about each email, including subject, sender, recipient, date, body content, and attachments.
+
+Gmail Send: block for composing and sending emails using a Gmail account. It allows users to create an email with the provided details (recipient, subject, and body) and send it through Gmail's API.
+
+Gmail List Labels: block that fetches all labels (categories) from a user's Gmail account. The output includes a list of label names and their corresponding IDs.
+
+Gmail Add Label: block for adding a new label or an existing one to a specific email in the user's Gmail account.
+
+Gmail Remove Label: block that removes a label from a specific email in a user's Gmail account.
+
+# TAGS: ue ID of the email that needs to be labeled |
+| Label Name | The name of the new label or the existing one that should be added |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Result | Confirmation of the label being successfully added to the email |
+| Error | An error message if something goes wrong during the process |
+
+### Possible use case
+Automating the organization of important emails in a Gmail account by adding specific labels to them based on their content or topic.
+
+---
+
+## Gmail Remove Label
+
+### What it is
+A block that removes a label from a specific email in a Gmail account.
+
+### What it does
+This block allows users to remove an existing label (category) from a particular email message in their Gmail account.
+
+### How it works
+The block checks if the specified label exists on the given email. If it does, it removes the label from the email.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Credentials | The user's Gmail account credentials for authentication |
+| Message ID | The unique ID of the email that needs to have a label removed |
+| Label Name | The name of the label that should be removed from the email |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Result | Confirmation of the label being successfully removed from the email |
+| Error | An error message if something goes wrong during the process |
+
+### Possible use case
+Automating the organization of important emails in a Gmail account by removing specific labels from them based on their content or topic.

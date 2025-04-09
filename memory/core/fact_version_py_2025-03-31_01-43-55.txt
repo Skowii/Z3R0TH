@@ -1,0 +1,6 @@
+# SOURCE: version.py
+# TIME: 2025-03-31_01-43-55
+
+Version information is stored as a tuple with values obtained from the __version__ string by splitting it into parts and converting each part to an integer. The current version is '1.3.0'.
+
+# TAGS: version, 1.3.0, VERSION

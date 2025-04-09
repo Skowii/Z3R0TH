@@ -1,0 +1,7 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-44-22
+
+Tag: Application
+Summary: The provided data contains information about an application named "example/test-application".
+
+# TAGS: name: example/test-application

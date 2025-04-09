@@ -1,0 +1,1 @@
+To merge a branch in Git, switch to the target branch using 'git checkout' and then use 'git merge' to merge the source branch into the target branch. By default, it uses fast-forward merge for a linear history, but you can create a merge commit by using the '--no-ff' flag with the 'git merge' command.

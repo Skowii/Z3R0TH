@@ -1,0 +1,1 @@
+The given code finds the sum of the powers of all numbers from `start` to `end` (inclusive). It uses range() and list comprehension, then adds the values with sum(). For example, sum_of_powers(10) = 385; sum_of_powers(10, 3) = 3025.

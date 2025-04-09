@@ -1,0 +1,7 @@
+# SOURCE: dreamcoder_dataset_loader.py
+# TIME: 2025-03-31_02-48-22
+
+- Summary: This code loads tasks from a folder, filters them based on the provided model, and returns a list of valid tasks.
+- Tags: load_tasks, filter_examples, RulesPredictor, Type, Arrow, List, IOEncoder
+
+# TAGS: Key concepts: Predictions.models, RulesPredictor, glob, pickle, experiment_helper, filter_examples, type_system, typing, load_tasks, get_type, get_type_request, filter_tasks_for_model

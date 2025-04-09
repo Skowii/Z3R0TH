@@ -1,0 +1,6 @@
+Todoist Blocks consist of four main functions:
+1. Todoist Create Label: Creates a new label in Todoist with specified name, order, color, and favorite status.
+2. Todoist List Labels: Retrieves all personal labels from the user's Todoist account.
+3. Todoist Get Label: Fetches details of a specific label using its ID.
+4. Todoist Create Task: Creates a new task in Todoist with specified content, description, project assignment, and other optional parameters.
+5. Todoist Get Tasks: Retrieves active tasks from Todoist based on optional filters such as project, section, or label.

@@ -1,0 +1,1 @@
+The script defines a main function that prints the mutator and special methods in bytearray which are not in bytes. It also prints string members in bytearray. Public_members, magic_methods, and show_string_members helper functions are defined. If executed as a script, the main function will be called.

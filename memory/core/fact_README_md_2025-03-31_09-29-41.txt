@@ -1,0 +1,12 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_09-29-41
+
+Auto-GPT Benchmarks is a tool for objectively measuring the performance of various AI models and agents in categories like code, retrieval, memory, and safety. It automates benchmarking processes to save time and money, enabling users to evaluate their agent's capabilities. Currently, Beebot ranks first, followed by mini-agi and Auto-GPT.
+
+# TAGS: # Auto-GPT Benchmarks
+
+- purpose: benchmarking performance of agents
+- categories: code, retrieval, memory, safety
+- save time and money through automation
+- scores, rankings, and detailed results available
+- more agents coming soon

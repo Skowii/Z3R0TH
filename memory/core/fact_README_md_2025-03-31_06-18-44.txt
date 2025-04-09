@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-18-44
+
+Summary: The addressing component is a tool for managing addresses in eCommerce projects, supporting countries, provinces, and zones systems. It is part of Sylius, an Open Source eCommerce solution with high-quality code and API. Documentation and contribution information can be found on sylius.com.
+
+# TAGS: Addresses management, eCommerce project, PHP application, Countries, Provinces (states), Flexible zones system, Geographical areas, Tax, Shipping systems, Sylius, Open Source eCommerce solution, API, Documentation, Contributing, Official Blog, Twitter, Facebook, GitHub issues, MIT License, Authors

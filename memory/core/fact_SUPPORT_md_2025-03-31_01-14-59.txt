@@ -1,0 +1,12 @@
+# SOURCE: SUPPORT.md
+# TIME: 2025-03-31_01-14-59
+
+Support for Kubernetes:
+
+Resources:
+1. Stack Overflow - Post questions on Kubernetes tagged page.
+2. Documentation - User and Troubleshooting guides available.
+3. Slack - Join #kubernetes-users or #kubernetes-novice channels in the official Kubernetes slack for real-time support.
+4. Official Forum - Discuss on the Kubernetes Official Forum.
+
+# TAGS: Kubernetes, support resources, GitHub, Stack Overflow, user documentation, troubleshooting guide, Slack, Kubernetes-users channel, Kubernetes-novice channel, Kubernetes Official Forum

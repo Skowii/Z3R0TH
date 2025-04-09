@@ -1,0 +1,1 @@
+Create a responsive image mosaic using CSS grid for layout and media queries to adjust the layout for different screen sizes. CSS grid allows you to create complex layouts with ease, making it perfect for creating image mosaics. Wrap styles in media queries to avoid applying them on small screen sizes for optimal device compatibility.

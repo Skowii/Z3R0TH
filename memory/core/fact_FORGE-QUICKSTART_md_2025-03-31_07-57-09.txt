@@ -1,0 +1,15 @@
+# SOURCE: FORGE-QUICKSTART.md
+# TIME: 2025-03-31_07-57-09
+
+To begin creating your own AI agent using AutoGPT, follow these steps:
+1. Fork the repository to clone it into your GitHub account.
+2. Navigate to your local copy of the repo and run `./run setup` to configure your environment for development.
+3. Create an agent by running `./run agent create YOUR_AGENT_NAME`.
+4. Start your agent using `./run agent start YOUR_AGENT_NAME`.
+5. Access the frontend at http://localhost:8000/ and log in using a Google or GitHub account.
+6. Begin issuing tasks to your agent through the chat interface.
+7. Monitor your agent's performance using the benchmarking system, accessible via CLI commands like `./run benchmark categories list`.
+
+# TAGS: `./run setup` command, which will guide you through setting up the system.
+
+Remember, if you have any doubts or face any challenges during the installation process, feel free to reach out for assistance. Happy AI Development!

@@ -1,0 +1,1 @@
+Hide scrollbars on an element while maintaining scrollability using the `overflow` property and vendor-specific properties such as `scrollbar-width` for Firefox and `display: none` on the `::-webkit-scrollbar` pseudo-element for WebKit browsers.

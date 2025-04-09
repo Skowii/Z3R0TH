@@ -1,0 +1,1 @@
+This code contains unit tests for the is_weekday() function using the unittest and mock libraries in Python. It uses patch to mock datetime, and checks if it returns True for a weekday date and False for a weekend date. The code runs the unittest main method with verbosity set to 2 for detailed output.

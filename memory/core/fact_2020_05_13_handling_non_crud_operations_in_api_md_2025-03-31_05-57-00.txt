@@ -1,0 +1,23 @@
+# SOURCE: 2020_05_13_handling_non_crud_operations_in_api.md
+# TIME: 2025-03-31_05-57-00
+
+Non-CRUD operations in API:
+
+* Context and Problem Statement - Handling non-CRUD operation over REST API is not trivial.
+* Decision Drivers - Solution should not be limited by its convention, should allow for an easy understanding of what is expected behavior of its execution, and should provide a clean way of adding additional fields during the execution of requested operations.
+* Considered Options: 1) Enrich resource data with possible operations, 2) Defining custom operations in the style of the command pattern, 3) Taking advantage of the Controller REST archetype, 4) Google recommendation for custom operations.
+* Decision Outcome - Recommended solution: Taking advantage of the `Controller` REST archetype.
+
+# TAGS: racking_code": "XYZ"
+}
+```
+
+* Good, because it does not introduce verbs into URL (which may be considered as a bad practice for REST API)
+* Good, because there is a clear solution to expose possible transitions.
+* Good, because it provides a clean way of adding additional fields during the execution of requested operations. 
+* Bad, because some implementations (like Symfony's `ApiPlatform`) may not support such approach out of the box.
+* Bad, because it is not clear how to expose next possible actions according to HATEOAS paradigm.
+
+### Conclusion
+
+We propose a solution based on Option 1 - enrich resource data with possible operations. It meets all key requirements and provides an easy-to-understand approach with the existing HTTP verbs and standards. The downside is that some transitions may be misleading, but this can be mitigated by proper naming.

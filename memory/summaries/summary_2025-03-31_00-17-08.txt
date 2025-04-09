@@ -1,0 +1,20 @@
+The article discusses how to create a math expression tokenizer in JavaScript by breaking down its construction step-by-step. A tokenizer is a function that converts a mathematical expression into an array of tokens, which are individual units of the expression such as numbers, operators, or parentheses. In this case, we aim to be able to tokenize expressions like `((1 + 20) * -3.14) / 9` and get the following tokens:
+
+```js
+tokenize('((1 + 20) * -3.14) / 9');
+// [
+//   { type: 'PAREN_OPEN' },
+//   { type: 'PAREN_OPEN' },
+//   { type: 'NUMBER', value: 1 },
+//   { type: 'OP_ADD' },
+//   { type: 'NUMBER', value: 20 },
+//   { type: 'PAREN_CLOSE' },
+//   { type: 'OP_MULTIPLY' },
+//   { type: 'NUMBER', value: -3.14 },
+//   { type: 'PAREN_CLOSE' },
+//   { type: 'OP_DIVIDE' },
+//   { type: 'NUMBER', value: 9 }
+// ]
+```
+
+The process begins with the simplest form, reading an input string one character at a time and grouping them into tokens. It starts by focusing on integers and operators before adding support for parentheses, floating-point numbers, and negative numbers in later stages.

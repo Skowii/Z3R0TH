@@ -1,0 +1,1 @@
+The Marker Interface is a structural design pattern that uses empty interfaces as markers to distinguish objects with special treatment. It is used when you want to identify special objects or indicate object availability for specific operations. Examples include java.io.Serializable and java.lang.Cloneable. This pattern was popularized in the book "Effective Java."

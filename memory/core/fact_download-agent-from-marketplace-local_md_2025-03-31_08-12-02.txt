@@ -1,0 +1,10 @@
+# SOURCE: download-agent-from-marketplace-local.md
+# TIME: 2025-03-31_08-12-02
+
+AutoGPT Marketplace: Download Agent from Marketplace for Local Hosting
+1. Access the marketplace section
+2. Download the desired agent file
+3. Import the agent to AutoGPT locally hosted instance
+4. Verify agent import in the builder
+
+# TAGS: AutoGPT, Marketplace, Local Hosting, Download Agent, Import Agent, Prerequisites, Step-by-Step Process, Access Marketplace, Download the Agent, Import the Agent, Verify Import, Overview

@@ -1,0 +1,26 @@
+Git allows users to create aliases for common operations, making them more efficient and easier to remember. Creating an alias involves running `git config --global alias.<alias> <command>`. Multiple aliases can be added in the global configuration file via `git config --global -e`. Here is a list of useful aliases:
+- co: checkout
+- cob: checkout -b
+- coo: fetch and checkout
+- br: branch
+- brd: branch -d
+- st: status
+- aa: add -A .
+- unstage: reset --soft HEAD^
+- cm: commit -m
+- amend: commit --amend -m
+- fix: commit --fixup
+- undo: reset HEAD~1
+- rv: revert
+- cp: cherry-pick
+- pu: push with the current branch name
+- fush: push -f
+- mg: merge --no-ff
+- rb: rebase
+- rbc: rebase --continue
+- rba: rebase --abort
+- rbs: rebase --skip
+- rom: fetch and rebase with autosquash on the current branch
+- save: stash push
+- pop: stash pop
+- apply: stash apply

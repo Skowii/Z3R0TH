@@ -1,0 +1,5 @@
+Preventing a string from being escaped in JavaScript involves using template literals and the `String.raw()` tag function. This allows you to store strings with escape characters without having them escaped automatically, such as Windows paths. For example:
+```js
+const path = `C:\web\index.html`; // 'C:web.html'
+const unescapedPath = String.raw`C:\web\index.html`; // 'C:\web\index.html'
+```

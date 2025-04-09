@@ -1,0 +1,37 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_04-28-26
+
+In this text, I will provide a step-by-step guide on how to contribute to the Playwright project as a new contributor. This includes creating a feature branch, making changes, opening a pull request, and resolving reviews. Let's get started!
+
+1. **Fork the Repository**: Start by forking the main Playwright repository on GitHub. This creates a copy of the project just for you.
+
+2. **Clone your Forked Repository**: Open your terminal or command prompt and clone the forked repository to your local machine using `git clone`. You can use either `http` or `ssh` based URL as per your GitHub account settings.
+
+3. **Create a Feature Branch**: After cloning, navigate into your local copy of the repository and create a new branch for your feature:
+
+   ```
+   git checkout -b feature-branch-name
+   ```
+
+4. **Make Changes**: Add your changes to the project in this feature branch. For documentation updates, you can edit the files under `docs/src` directory. For code updates, work on files under other directories. Ensure that you follow the [Playwright Contribution Guidelines](https://playwright.dev/docs/contributing#guidelines).
+
+5. **Commit your Changes**: Add and commit your changes to this feature branch using:
+
+   ```
+   git add .
+   git commit -m "Summary of your change"
+   ```
+
+6. **Push your Branch**: Push the updated branch to your forked repository on GitHub with:
+
+   ```
+   git push origin feature-branch-name
+   ```
+
+7. **Open a Pull Request (PR)**: From your forked repository on GitHub, click on the "Pull Requests" tab and then click "New Pull Request". Select the base branch as `main` and choose the branch with your changes from your fork. Fill in the PR title and description, ensuring they follow the [PR naming format](https://playwright.dev/docs/contributing#naming-conventions). Click on "Create pull request" to submit your changes for review.
+
+8. **Wait for Review**: The Playwright maintainers will review your contribution. They might ask you to make some modifications, which you can do by pushing updates to the same feature branch and asking them to update the PR with your latest commits.
+
+9. **Merge and Celebrate**: Once the review is complete, a maintainer will merge your Pull Request into the main repository. You'll receive an email notification when it happens. Congratulations! You have successfully contributed to Playwright!
+
+# TAGS: contribution, issue, pull request, passionate about bug/feature, file an issue first, Node.js 20, fork the repository, clone the repository, install dependencies, run the build in watch mode, experimental dev mode with Hot Module Replacement, Playwright is a multi-package repository, npm workspaces, browser APIs, TypeScript types for API are generated from docs/src, ESLint config, coding style, explicit purpose of comments, documentation, test suites, Library tests, Test runner tests, hermetic tests, commit message

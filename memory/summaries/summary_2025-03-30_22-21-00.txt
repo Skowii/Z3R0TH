@@ -1,0 +1,1 @@
+This code uses a glob to find C++ source files (using the RELATIVE flag for easier extraction of executable names) and creates an executable from each file. It then sets the target properties and installs the targets in a "bin/hash" destination if necessary.

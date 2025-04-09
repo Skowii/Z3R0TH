@@ -1,0 +1,7 @@
+Client Session pattern is a behavioral design pattern used in web development to manage session data across multiple requests made by users. It helps improve server resources by loading session state management on the user's side rather than the server's, allowing for more efficient and faster performance. This pattern is useful when: 
+
+1. Web applications need to validate and delegate user sessions.
+2. Applications require tracking activities and preferences of users across multiple requests or visits.
+3. Systems where servers can benefit from loading session state management on the user's side, improving server resource efficiency.
+
+Popular usages include e-commerce websites that track shopping cart data via user sessions. Internet platforms providing customized content based on user preferences and logged-in sessions. This pattern is also used in applications requiring efficient server resources, reducing the load on the server side by managing session state on the client's side.

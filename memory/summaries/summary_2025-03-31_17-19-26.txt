@@ -1,0 +1,11 @@
+Basic Operations Blocks are key components of workflows that perform specific functions. These include: 
+
+1. Store Value: A basic block used for storing and forwarding a value. It can store a single input value without changing it, making it available throughout the workflow process. 
+
+2. Print to Console: A debugging tool that prints text on the console. This is helpful in debugging a workflow by displaying intermediate results or messages at different stages. 
+
+3. Find in Dictionary: An essential block for looking up values within a dictionary, list, or object using a specific key. It returns the found value if available and the entire input as "missing" if not.
+
+4. Agent Input: A user input block, allowing users to provide values during the workflow execution. It provides options for naming, describing, setting placeholder values, and limiting inputs.
+
+5. Agent Output: An output block that records and formats the final results of a workflow. It takes an input value along with associated metadata like name, description, and format string to present the output as the result of the workflow process.

@@ -1,0 +1,1 @@
+The content sets up rules for code formatting in JavaScript using the Airbnb-base style guide. Rules include enforcing object shorthand, consistent function parentheses placement, and limiting line length. Additionally, it configures Babel module resolver with an alias to find specific JS files within a project.

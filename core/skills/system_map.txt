@@ -1,0 +1,226 @@
+# Z3R0TH ∴ System Mapping Tool v15.9 — Agent Behavior, Hash Integrity, JSON Search, Visual Diff Engine
+
+import os, json, socket, shutil, platform, psutil, requests, sys, hashlib
+from pathlib import Path
+from datetime import datetime
+import tkinter as tk
+from tkinter import scrolledtext, filedialog, messagebox, simpledialog
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+import matplotlib.pyplot as plt
+
+# ━━━━━━━━━━━ Core Paths
+ROOT         = Path.home() / "Desktop" / "HEX13-Z3R0TH" / "Z3R0TH_ENV"
+MAP_DIR      = ROOT / "core" / "maps"
+REFLECT_FILE = ROOT / "core" / "memory" / "reflections" / "system_map_summary.txt"
+LOG_FILE     = MAP_DIR / "system_map.log"
+
+os.makedirs(MAP_DIR, exist_ok=True)
+
+# ━━━━━━━━━━━ Utilities
+def log_event(msg):
+    with open(LOG_FILE, "a") as f:
+        f.write(f"[{datetime.now()}] {msg}\n")
+
+def hash_file(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        while chunk := f.read(8192): h.update(chunk)
+    return h.hexdigest()
+
+def get_network_info():
+    try:
+        public_ip = requests.get("https://api.ipify.org", timeout=5).text
+    except:
+        public_ip = "N/A"
+    return {
+        "hostname": socket.gethostname(),
+        "local_ip": socket.gethostbyname(socket.gethostname()),
+        "public_ip": public_ip,
+        "interfaces": {k: [i.address for i in v] for k, v in psutil.net_if_addrs().items()}
+    }
+
+def detect_hypervisor():
+    try:
+        text = Path("/proc/cpuinfo").read_text().lower()
+        return "VM Detected" if "hypervisor" in text else "Bare Metal"
+    except: return "Unknown"
+
+def get_system_resources():
+    return {
+        "os": f"{platform.system()} {platform.release()}",
+        "cpu_cores": psutil.cpu_count(),
+        "cpu_usage": psutil.cpu_percent(),
+        "memory_usage": psutil.virtual_memory().percent,
+        "disk_usage": psutil.disk_usage('/').percent,
+        "boot_time": datetime.fromtimestamp(psutil.boot_time()).isoformat(),
+        "hypervisor": detect_hypervisor()
+    }
+
+def get_active_agents():
+    agents = []
+    for path in ROOT.rglob("*.py"):
+        if "agent" in path.name.lower() or "bot" in path.name.lower():
+            agents.append({
+                "name": str(path.relative_to(ROOT)),
+                "cpu": round(psutil.cpu_percent(interval=0.1), 2),
+                "mem": psutil.virtual_memory().percent
+            })
+    return agents
+
+def scan_structure(root_path, max_depth=3):
+    structure = {}
+    for path, dirs, files in os.walk(root_path):
+        rel = Path(path).relative_to(root_path)
+        if len(rel.parts) <= max_depth:
+            structure[str(rel)] = {"dirs": dirs, "files": files}
+    return structure
+
+def get_permissions():
+    perms = {}
+    for base in [ROOT / "core", ROOT / "bots"]:
+        for file in base.rglob("*"):
+            if file.exists():
+                perms[str(file.relative_to(ROOT))] = {
+                    "mode": oct(file.stat().st_mode)[-3:],
+                    "owner": getattr(file, "owner", lambda: "unknown")()
+                }
+    return perms
+
+def list_virtualenvs():
+    return [str(p.relative_to(ROOT)) for p in ROOT.rglob("bin/activate")]
+
+def list_processes(limit=20):
+    return sorted([p.info for p in psutil.process_iter(['pid', 'name', 'username'])], key=lambda x: x['pid'])[:limit]
+
+# ━━━━━━━━━━━ Mapping + Diff
+def render_system_map():
+    now = datetime.now().strftime('%Y%m%d_%H%M%S')
+    snapshot = {
+        "system": get_system_resources(),
+        "network": get_network_info(),
+        "agents": get_active_agents(),
+        "virtualenvs": list_virtualenvs(),
+        "processes": list_processes(),
+        "permissions": get_permissions(),
+        "structure": scan_structure(ROOT),
+        "metadata": {"timestamp": now, "tag": "live_snapshot"}
+    }
+
+    path = MAP_DIR / f"system_map_{now}.json"
+    with open(path, "w") as f:
+        json.dump(snapshot, f, indent=4)
+
+    sha = hash_file(path)
+    snapshot["metadata"]["sha256"] = sha
+    with open(REFLECT_FILE, "w") as s:
+        s.write(f"🧠 Snapshot: {now}\n")
+        s.write(f"OS: {snapshot['system']['os']}, Agents: {len(snapshot['agents'])}, IP: {snapshot['network']['public_ip']}\n")
+        s.write(f"Disk: {snapshot['system']['disk_usage']}% | RAM: {snapshot['system']['memory_usage']}%\n")
+        s.write(f"Hash: {sha}\n")
+
+    log_event(f"🧭 Snapshot {now} saved — Hash: {sha}")
+    return path
+
+def compare_to_last(current_map):
+    maps = sorted(MAP_DIR.glob("system_map_*.json"))
+    if len(maps) < 2: return "🟡 No prior snapshot for diff."
+
+    prev = json.loads(maps[-2].read_text())
+    curr = json.loads(current_map.read_text())
+    diffs = []
+
+    for metric in ["memory_usage", "disk_usage"]:
+        old = prev["system"][metric]
+        new = curr["system"][metric]
+        if old != new:
+            diffs.append(f"Δ {metric.replace('_', ' ').upper()}: {old}% → {new}%")
+
+    new_agents = set(a["name"] for a in curr["agents"]) - set(a["name"] for a in prev["agents"])
+    if new_agents:
+        diffs.append(f"🤖 New agents: {', '.join(new_agents)}")
+
+    return "\n".join(diffs) if diffs else "✅ No significant changes."
+
+# ━━━━━━━━━━━ GUI Mode
+def draw_resource_chart(gui, cpu, ram, disk):
+    fig, ax = plt.subplots(figsize=(5,2))
+    ax.bar(["CPU", "RAM", "Disk"], [cpu, ram, disk], color=["cyan", "magenta", "yellow"])
+    ax.set_ylim(0, 100)
+    ax.set_title("System Resource Load")
+    FigureCanvasTkAgg(fig, gui).get_tk_widget().pack(pady=4)
+
+def gui_mode():
+    gui = tk.Tk()
+    gui.title("Z3R0TH ∴ System Map v15.9")
+    gui.geometry("1600x900")
+    gui.configure(bg="#0d0d0d")
+
+    tk.Label(gui, text="Z3R0TH ∴ System Intelligence Suite", font=("Fira Code", 16), fg="#00ffff", bg="#0d0d0d").pack(pady=8)
+    output = scrolledtext.ScrolledText(gui, bg="#121212", fg="#39ff14", font=("Courier", 10))
+    output.pack(fill="both", expand=True, padx=10, pady=10)
+
+    def log_gui(msg): output.insert("end", f"{msg}\n"); output.see("end")
+
+    def scan():
+        log_gui("🔍 Scanning...")
+        path = render_system_map()
+        diff = compare_to_last(path)
+        log_gui(f"✅ Map: {path.name}\n{diff}")
+        latest = json.loads(path.read_text())
+        draw_resource_chart(gui, latest["system"]["cpu_usage"], latest["system"]["memory_usage"], latest["system"]["disk_usage"])
+
+    def view_latest():
+        maps = sorted(MAP_DIR.glob("system_map_*.json"), reverse=True)
+        if maps: output.delete("1.0", "end"); output.insert("1.0", maps[0].read_text())
+        else: log_gui("⚠ No maps available.")
+
+    def filter_json():
+        term = simpledialog.askstring("🔎 Search JSON", "Keyword:")
+        maps = sorted(MAP_DIR.glob("system_map_*.json"), reverse=True)
+        if not term or not maps: return
+        lines = maps[0].read_text().splitlines()
+        output.delete("1.0", "end")
+        output.insert("1.0", "\n".join([l for l in lines if term.lower() in l.lower()]))
+
+    def export_map():
+        maps = sorted(MAP_DIR.glob("system_map_*.json"), reverse=True)
+        if maps:
+            dest = filedialog.asksaveasfilename(defaultextension=".json")
+            if dest: shutil.copy(maps[0], dest); log_gui(f"📤 Exported to {dest}")
+
+    def purge_all():
+        if messagebox.askyesno("⚠ Confirm", "Delete ALL snapshots?"):
+            for f in MAP_DIR.glob("system_map_*.json"): f.unlink()
+            log_gui("🧹 All maps purged.")
+
+    # Buttons
+    tk.Button(gui, text="🧭 Generate Map", command=scan).pack()
+    tk.Button(gui, text="🧠 View Latest", command=view_latest).pack()
+    tk.Button(gui, text="🔎 Filter JSON", command=filter_json).pack()
+    tk.Button(gui, text="📤 Export Map", command=export_map).pack()
+    tk.Button(gui, text="🧹 Purge All Maps", command=purge_all).pack(pady=6)
+    gui.mainloop()
+
+# ━━━━━━━━━━━ CLI Mode
+def interactive_mode():
+    print("Z3R0TH ∴ CLI Mapper v15.9")
+    while True:
+        print("\n1. Snapshot\n2. Diff Last\n3. Export\n4. Purge\n5. Exit")
+        c = input("→ ").strip()
+        try:
+            if c == "1": path = render_system_map(); print(compare_to_last(path))
+            elif c == "2": print(compare_to_last(sorted(MAP_DIR.glob("system_map_*.json"))[-1]))
+            elif c == "3":
+                dest = filedialog.asksaveasfilename(defaultextension=".json")
+                shutil.copy(sorted(MAP_DIR.glob("system_map_*.json"))[-1], dest)
+            elif c == "4":
+                if input("Purge all? yes/no: ").lower() == "yes":
+                    for f in MAP_DIR.glob("*.json"): f.unlink()
+            elif c == "5": break
+        except Exception as e:
+            print("⚠ Error:", e); log_event(f"Exception: {e}")
+
+# ━━━━━━━━━━━ Entry Point
+if __name__ == "__main__":
+    if "--gui" in sys.argv: gui_mode()
+    else: interactive_mode()

@@ -1,0 +1,1 @@
+The Sylius/Taxonomy library provides taxonomies for categorizing domain models in PHP projects, primarily used in ecommerce applications. It is built on the MIT license and maintained by a team including Paweł Jędrzejewski and community contributions. The library's requirements include PHP 7.4 or 8.0, Behat/Transliterator, Sylius/Resource, and Webmozart/Assert.

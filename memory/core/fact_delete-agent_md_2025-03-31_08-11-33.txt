@@ -1,0 +1,15 @@
+# SOURCE: delete-agent.md
+# TIME: 2025-03-31_08-11-33
+
+Overview: Delete an Agent in AutoGPT
+1. Locate the Agent
+2. Select the Agent
+3. Delete the Agent
+
+# TAGS: How to Delete an Agent in AutoGPT
+- Overview
+- Steps to Delete an Agent
+  1. Locate the Agent
+  2. Select the Agent
+  3. Delete the Agent
+- Note: Action cannot be undone, so ensure you want to permanently delete the agent before confirming

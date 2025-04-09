@@ -1,0 +1,6 @@
+# SOURCE: breadcrumbs.html
+# TIME: 2025-03-31_06-01-58
+
+This is a code snippet for a navigation bar in a webpage. It contains breadcrumbs, links to the Sylius demo, and options to view page source or edit on GitHub/Bitbucket if necessary. Additionally, it displays an image banner promoting the Sylius platform.
+
+# TAGS: Docs, master_doc, parents, doc.link, doc.title, title, demo.sylius.com, Sylius demo, github_user, github_repo, github_version, conf_py_path, pagename, source_suffix, display_github, display_bitbucket, bitbucket_user, bitbucket_repo, bitbucket_version, show_source, has_source, sourcename

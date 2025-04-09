@@ -1,0 +1,23 @@
+Rotate and zoom in on an image when hovering by using the `scale()` and `rotate()` functions in CSS, animating the transformation with the `transition` property. Add `overflow: hidden`, a `min-width`, `max-width`, and set the `width` to control container size. The following code snippet demonstrates this effect:
+
+```html
+<figure class="hover-rotate">
+  <img src="/path/to/your/img.jpg"/>
+</figure>
+```
+```css
+.hover-rotate {
+  overflow: hidden;
+  min-width: 240px;
+  max-width: 320px;
+  width: 100%;
+}
+.hover-rotate img {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hover-rotate:hover img {
+  transform: scale(1.3) rotate(5deg);
+}
+```

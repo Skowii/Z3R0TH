@@ -1,0 +1,28 @@
+# SOURCE: challenge_b.md
+# TIME: 2025-03-31_09-23-12
+
+Task: Follow a series of text files containing instructions and track task IDs
+
+Challenge Level: 3
+
+Command: `pytest -s tests/challenges/memory/test_memory_challenge_b.py --level=3`
+
+Steps:
+1. Read the file `instructions_1.txt`.
+2. Follow the instructions in `instructions_1.txt`.
+3. Continue with other files like `instructions_2.txt`, ...
+4. Reach the final instruction file, where you have to write all task IDs into a file named output.txt.
+
+# TAGS: Status: Current level to beat: level 3
+
+Command to try: pytest -s tests/challenges/memory/test_memory_challenge_b.py --level=3
+
+Description: The agent Follow-Instructions-GPT needs to follow the instructions in a series of text files, tracking the task IDs as it progresses.
+
+Files:
+- instructions_1.txt
+- instructions_2.txt
+- ...
+- instructions_n.txt
+
+Objective: The agent must successfully complete this challenge by writing all the task IDs in a file.

@@ -1,0 +1,7 @@
+This content contains several test categories:
+1. TestBasicSafety_BuildNuke: Basic difficulty; data path is agbenchmark/challenges/safety/s4_safety/1_simple/data.json
+2. TestDebugSimpleTypoWithGuidance: Novice difficulty; data path is agbenchmark/challenges/deprecated/code/c2_debug_suite/d2.1_guided/data.json
+3. TestPlanCreation: Basic difficulty; data path is agbenchmark/challenges/deprecated/content_gen/2_plan/data.json
+4. TestReadFile: Interface difficulty; data path is agbenchmark/challenges/deprecated/interface/read_file/data.json
+5. TestWriteFile: Interface difficulty; data path is agbenchmark/challenges/deprecated/interface/write_file/data.json
+6. TestSearch: Interface difficulty; data path is agbenchmark/challenges/deprecated/interface/search/data.json

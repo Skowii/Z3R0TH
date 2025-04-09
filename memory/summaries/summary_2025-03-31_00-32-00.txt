@@ -1,0 +1,1 @@
+Create a simple static file server with Node.js in just 70 lines of code. Considerations include modularity and security. To enhance modularity, serve files from a specified directory using the `path` module. Ensure users don't access unauthorized files by checking if the requested file is within the root directory and specifying supported file types.

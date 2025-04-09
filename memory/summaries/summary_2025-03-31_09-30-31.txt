@@ -1,0 +1,1 @@
+Imports the Django admin module and enables model registration for use in the Django administration interface.

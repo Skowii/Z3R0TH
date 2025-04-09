@@ -1,0 +1,35 @@
+# SOURCE: protocols.md
+# TIME: 2025-03-31_09-10-21
+
+# ⚙️ Protocols
+
+Protocols are interfaces implemented by Components used to group related functionality. Each protocol needs to be handled explicitly by the agent at some point of the execution. We provide a comprehensive list of built-in protocols that are already handled in the built-in `Agent`, so when you inherit from the base agent all built-in protocols will work!
+
+**Order-independent protocols**: Components implementing exclusively order-independent protocols can be added in any order, including between ordered protocols.
+
+1. `DirectiveProvider`: Yields constraints, resources and best practices for the agent. This has no direct impact on other protocols; is purely informational and will be passed to a llm when the prompt is built.
+2. `CommandProvider`: Provides a command that can be executed by the agent.
+
+**Order-dependent protocols**: The order of components implementing order-dependent protocols is important, as some components may depend on the results of components before them.
+
+3. `MessageProvider`: Yields messages that will be added to the agent's prompt.
+4. `AfterParse`: Protocol called after the response is parsed.
+5. `ExecutionFailure`: Protocol called when the execution of the command fails.
+6. `AfterExecute`: Protocol called after the command is successfully executed by the agent.
+
+# TAGS: ent prompt. In this example, we have a news component that will provide messages.
+
+```py
+from forge.agent import AgentComponent
+from forge.models.chat_message import ChatMessage
+from forge.models.json_schema import JSONSchema
+
+
+class NewsProvider(AgentComponent):
+    get_messages(self) -> Iterator[ChatMessage]:
+        yield ChatMessage.system("This is a news headline from the New York Times: The market is up 1.2% today.")
+```
+
+The agent will receive this message and include it in its prompt.
+
+To learn more about messages see [💬 Messages](./messages.md).

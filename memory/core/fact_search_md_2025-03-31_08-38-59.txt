@@ -1,0 +1,24 @@
+# SOURCE: search.md
+# TIME: 2025-03-31_08-38-59
+
+Get Wikipedia Summary:
+- Block that retrieves a summary of a given topic from Wikipedia API
+- Input: Topic
+- Outputs: Summary, Error
+
+Search The Web:
+- Block that performs web searches and returns the results
+- Input: Query, Number of Results
+- Outputs: Results, Error
+
+Extract Website Content:
+- Retrieves content from specified websites, removes non-essential parts
+- Input: URL
+- Outputs: Content, Title, Error
+
+Get Weather Information:
+- Block that fetches current weather data for a specified location
+- Input: Location, API Key, Use Celsius
+- Outputs: Temperature, Humidity, Condition, Error
+
+# TAGS: ter information can't be fetched

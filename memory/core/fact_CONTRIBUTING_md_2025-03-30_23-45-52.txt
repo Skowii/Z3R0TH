@@ -1,0 +1,6 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-30_23-45-52
+
+This is a guide for contributing to the AutoGPT project. Contributions should be made under a Contribution License Agreement (CLA) for the autogpt_platform folder and MIT license for other folders. To contribute, avoid duplicate work, collaborate with others, create draft PRs, adhere to code guidelines, explain your changes well, test your code before submission, and consider contributing in other ways besides code. If you want to get more involved with the project, check out the Catalyzing wiki page and join their Discord server.
+
+# TAGS: auto gpt, contribution guide, contributing, wiki, roadmap, kanban board, contribiution license agreement, cla, git hub, autogpt_platform folder, contributor license agreement, cla, code guidelines, prs, dev channel, catalyzing, discord

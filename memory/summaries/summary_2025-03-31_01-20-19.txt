@@ -1,0 +1,1 @@
+The difference between an expression and a statement in JavaScript lies in their respective functions: expressions resolve to a value, while statements perform actions. Expressions can be used as statements (known as expression statements), but statements cannot be used as expressions.

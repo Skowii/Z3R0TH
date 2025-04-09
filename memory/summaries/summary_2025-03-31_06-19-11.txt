@@ -1,0 +1,7 @@
+Acyclic Visitor is a behavioral design pattern that allows adding new operations to existing object structures without modifying them. It provides flexibility to work with new tasks without affecting the current system, and can be easily extended to incorporate new functions. This pattern falls under the GoF (Gang of Four) visitor pattern category.
+
+In real-world examples, a padding machine has an operation that should be performed by a specific visitor object. The Acyclic Visitor pattern allows incorporating these operations into existing object structures without affecting them directly. For instance, in the case of modems, this pattern can be used to determine whether a modem is configured for Unix or Dos systems.
+
+The example code demonstrates an abstract Modem class with an accept() method that calls a specific operation based on the visitor type. Subclasses like Zoom and Hayes extend the abstract class and implement their respective accept() methods. The visitor interfaces (HayesVisitor, ZoomVisitor) are created to define the actions for each modem type. AllModemVisitor is an interface implementing both visitor types. ConfigureForDosVisitor and ConfigureForUnixVisitor implement these interfaces to perform specific configuration tasks on the modems.
+
+Finally, in the main program, instances of these visitors are created and invoked on the modem objects to execute their respective operations.

@@ -1,0 +1,29 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-28-49
+
+This is a summary of knowledge for Sylius/CoreBundle:
+
+Name: Sylius/CoreBundle
+Type: Symfony Bundle
+Description: Sylius core bundle, integrates all other bundles into full stack Symfony ecommerce solution.
+Keywords: shop, ecommerce, store, webshop, sylius
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Requirements: PHP 7.4 or 8.0, Doctrine/Doctrine-migrations-bundle, Egulias/Email-validator, Fakerphp/Faker, Jms/Serializer-Bundle, Knplabs/Gaufrette, Knplabs/Knp-gaufrette-bundle, Liip/Imagine-bundle, Sonata-project/Block-bundle, Swiftmailer/Swiftmailer, Sylius-labs/Association-hydrator, Sylius-labs/Doctrine-migrations-extra-bundle, Sylius-labs/Polyfill-symfony-framework-bundle, Sylius/Addressing-bundle, Sylius/Attribute-bundle, Sylius/Channel-bundle, Sylius/Core, Sylius/Currency-bundle, Sylius/Customer-bundle, Sylius/Fixtures-bundle, Sylius/Grid-bundle, Sylius/Inventory-bundle, Sylius/Locale-bundle, Sylius/Money-bundle, Sylius/Order-bundle, Sylius/Payment-bundle, Sylius/Payum-bundle, Sylius/Product-bundle, Sylius/Promotion-bundle, Sylius/Resource-bundle, Sylius/Review-bundle, Sylius/Shipping-bundle, Sylius/Taxation-bundle, Sylius/Taxonomy-bundle, Sylius/Theme-bundle, Sylius/UI-bundle, Sylius/User-bundle, Symfony/Framework-bundle, Symfony/Intl, Symfony/Messenger, Symfony/Swiftmailer-bundle, Symfony/Templating.
+Requirements (dev): Doctrine/Doctrine-bundle, Hwi/Oauth-bundle, Matthiasnoback/Symfony-config-test, Matthiasnoback/Symfony-dependency-injection-test, Phpspec/Phpspec, PHPUnit/PHPUnit.
+Conflict: Symfony/Doctrine-bridge 4.4.20 || 5.2.4 || 5.2.5.
+Config: bin-dir - bin.
+Extra (branch-alias): dev-master = 1.9-dev.
+Autoload: psr-4 - Sylius/Bundle/CoreBundle/.
+Autoload-dev: psr-4 - Sylius/Bundle/CoreBundle/spec/, Sylius/Bundle/CoreBundle/Tests/.
+Repositories: path - ../../*/*
+Minimum Stability: dev.
+
+# TAGS: Keywords: shop, ecommerce, store, webshop, sylius
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Type: symfony-bundle
+Homepage: https://sylius.com
+License: MIT
+Dependencies: php, doctrine/doctrine-migrations-bundle, egulias/email-validator, fakerphp/faker, jms/serializer-bundle, knplabs/gaufrette, knplabs/knp-gaufrette-bundle, liip/imagine-bundle, sonata-project/block-bundle, swiftmailer/swiftmailer, sylius-labs/association-hydrator, sylius-labs/doctrine-migrations-extra-bundle, sylius-labs/polyfill-symfony-framework-bundle, sylius/addressing-bundle, sylius/attribute-bundle, sylius/channel-bundle, sylius/core, sylius/currency-bundle, sylius/customer-bundle, sylius/fixtures-bundle, sylius/grid-bundle, sylius/inventory-bundle, sylius/locale-bundle, sylius/money-bundle, sylius/order-bundle, sylius/payment-bundle, sylius/payum-bundle, sylius/product-bundle, sylius/promotion-bundle, sylius/resource-bundle, sylius/review-bundle, sylius/shipping-bundle, sylius/taxation-bundle, sylius/taxonomy-bundle, sylius/theme-bundle, sylius/ui-bundle, sylius/user-bundle, symfony/framework-bundle, symfony/intl, symfony/messenger, symfony/swiftmailer-bundle, symfony/templating, winzou/state-machine-bundle
+Require-dev: doctrine/doctrine-bundle, hwi/oauth-bundle, matthiasnoback/symfony-config-test, matthiasnoback/symfony-dependency-injection-test, phpspec/phpspec, phpunit/phpunit, symfony/dependency-injection

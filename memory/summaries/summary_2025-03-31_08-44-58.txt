@@ -1,0 +1,1 @@
+This code creates a program that records an internet radio stream and saves it as a WAV file. It uses the Argparse library to handle command line arguments, and the RadioStream and WAVWriter modules for streaming and saving the audio data respectively. The script takes the URL address of the stream and the output path from the command line arguments.

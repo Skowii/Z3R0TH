@@ -1,0 +1,1 @@
+Heapsort is a comparison-based sorting algorithm that improves upon selection sort by using a heap data structure instead of a linear-time search to find maximum or minimum elements. The implementation uses recursion, a spread operator to clone the original array, and closures to declare variables and functions. It has an average time complexity of O(n log n).

@@ -1,0 +1,1 @@
+The Sylius Customer Bundle is a Symfony project that provides customer management for Symfony projects. It includes features such as customer groups and is compatible with various libraries like Doctrine/ORM, Twig, and PHPUnit. The bundle has a variety of authors and follows the MIT license.

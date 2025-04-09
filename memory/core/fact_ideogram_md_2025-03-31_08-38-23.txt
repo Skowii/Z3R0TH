@@ -1,0 +1,6 @@
+# SOURCE: ideogram.md
+# TIME: 2025-03-31_08-38-23
+
+The Ideogram Model block is an AI-powered image generation tool that creates custom images based on text prompts and various settings. It allows users to describe what they want in text and provides options such as different model versions, aspect ratios, and style preferences. This block takes a text prompt and several optional parameters as input, sends the request to the Ideogram API, and returns the image URL as output. It can also upscale the generated image for higher quality.
+
+# TAGS: ideogram model, ai-powered image generation, text prompts, customization options, image generation model, aspect ratio, style preferences, api key, prompt, upscale image, magic prompt option, seed, negative prompt, color palette preset

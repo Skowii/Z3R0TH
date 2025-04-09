@@ -1,0 +1,1 @@
+This content is a JSON object with the key "name" holding the value "example/test-application".

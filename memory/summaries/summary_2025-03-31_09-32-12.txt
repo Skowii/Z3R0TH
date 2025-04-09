@@ -1,0 +1,1 @@
+Import "django.test" to access testing functionality, which includes the TestCase class for creating and running tests in Django.

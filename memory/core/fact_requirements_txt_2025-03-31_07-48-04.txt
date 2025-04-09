@@ -1,0 +1,6 @@
+# SOURCE: requirements.txt
+# TIME: 2025-03-31_07-48-04
+
+Mkdocs is a static site generator that makes creating project documentation simple and enjoyable. It uses Markdown files and configurations to generate HTML, CSS, and JavaScript sites. The Mkdocs-material plugin offers an attractive and responsive material design theme. The Mkdocs-table-reader-plugin allows rendering tables from CSV or TSV files directly in the documentation using Markdown syntax. Pymdown-extensions is a Python library that adds features to the standard Markdown parser, enhancing functionality. The Mkdocs-git-revision-date-localized-plugin provides a plugin for displaying localized date and revision information on documentation pages. Finally, Snyk's vulnerability analysis identifies that zipp>=3.19.1 and urllib3>=2.2.2 should be pinned to avoid potential security issues.
+
+# TAGS: mkdocs, mkdocs-material, mkdocs-table-reader-plugin, pymdown-extensions, mkdocs-git-revision-date-localized-plugin, zipp>=3.19.1, urllib3>=2.2.2

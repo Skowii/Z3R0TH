@@ -1,0 +1,6 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-46-13
+
+The given JSON object contains information about a test application named "example/test-application". It has one key-value pair, with the key being "name" and the value being "example/test-application". The data type of this object is a dictionary.
+
+# TAGS: key concepts: example, test-application

@@ -1,0 +1,6 @@
+To calculate the greatest common divisor (GCD) and least common multiple (LCM) in JavaScript:
+
+1. Use the Euclidean algorithm to find the GCD of two numbers: `gcd(a, b) = gcd(b, a % b)`.
+2. For more than two numbers, calculate the GCD of each pair and use `Array.prototype.reduce()` to apply the operation.
+3. Calculate the LCM using the formula `lcm(x, y) = x * y / gcd(x, y)`.
+4. For more than two numbers, iterate through the numbers and keep applying the operation using `Array.prototype.reduce()`.

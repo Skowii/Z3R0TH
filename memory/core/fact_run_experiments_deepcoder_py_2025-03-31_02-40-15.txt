@@ -1,0 +1,6 @@
+# SOURCE: run_experiments_deepcoder.py
+# TIME: 2025-03-31_02-40-15
+
+This Python script loads a dataset from a JSON file, filters the tasks for a specific model, and creates a dataset object. The dataset is used to gather data for multiple algorithms, which are then written as results in a CSV file. The main modules used are experiment_helper, model_loader, run_experiment, deepcoder_dataset_loader, and torch.
+
+# TAGS: deepcoder_dataset, T=3_test.json, task set2dataset, build_deepcoder_generic_model, get_model_name, experiment_helper, model_loader, run_experiment, deepcoder_dataset_loader, load_tasks, filter_tasks_for_model, dataset, algo_name, list_algorithms, algo_index, dataset gathering

@@ -1,0 +1,5 @@
+To remove a property from a JavaScript object, you can use one of these methods:
+
+1. Set the property to `undefined`, but it won't delete the actual property.
+2. Use the `delete` operator which removes the property but mutates the original object.
+3. Use object destructuring with spread syntax (`...`) to create a new object without specific properties, leaving the original object unchanged.

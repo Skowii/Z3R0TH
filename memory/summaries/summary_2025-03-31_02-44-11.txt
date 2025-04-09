@@ -1,0 +1,8 @@
+This information provides an overview of JavaScript's logical operations. We cover:
+
+1. Logical AND (`&&`) - returns `true` if both operands are `true`, otherwise it returns `false`. Example function provided.
+2. Logical OR (`||`) - returns `true` if at least one operand is `true`, otherwise it returns `false`. Example function provided.
+3. Logical NOT (`!`) - returns `true` if the operand is `false`, otherwise it returns `false`. Example function provided.
+4. Logical XOR (`^`) - not a logical operator, but can be implemented with previous logical operators; returns `true` if exactly one of the operands is `true`, otherwise it returns `false`. Example function provided.
+5. Logical NOR - returns `true` if none of the operands are `true`, otherwise it returns `false`. Example function provided.
+6. Logical NAND - combination of logical not and logical and operators; it returns `true` if both operands are `true`, otherwise it returns `false`. Example function provided.

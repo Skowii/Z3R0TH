@@ -1,0 +1,1 @@
+Create a descending list of numbered items in HTML using the 'reversed' attribute for 'ol' elements, specifying reverse order (high to low) and optionally combining with the 'start' attribute for initial value of list counter.

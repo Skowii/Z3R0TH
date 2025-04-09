@@ -1,0 +1,19 @@
+# SOURCE: google_maps.md
+# TIME: 2025-03-31_08-34-33
+
+Google Maps Search:
+- Block that searches for local businesses using the Google Maps API
+- Inputs include search query, location details, and API credentials
+- Outputs include information about found places such as name, address, phone, rating, reviews, and website
+
+# TAGS: #GoogleMapsSearch
+
+block that searches local businesses using Google Maps API
+
+searches for places of interest within specified area
+
+takes search query, location details, API credentials as input
+
+communicates with Google Maps API to fetch information about relevant places
+
+results are processed and returned as structured data containing details about each place found

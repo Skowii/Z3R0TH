@@ -1,0 +1,10 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_04-26-05
+
+ight)
+* [Blog](https://blog.playwright.dev/)
+* [Discord](https://discord.gg/pHK6fT4)
+* [Twitter](https://twitter.com/playwright_io)
+* [YouTube channel](https://www.youtube.com/channel/UC0CWx1GqkB9kjwYXv-Vz-Ig)
+
+# TAGS: playwright, testing, automation, chromium, firefox, webkit, linux, macos, windows, documentation, api reference, headless execution, system requirements, python, .net, java

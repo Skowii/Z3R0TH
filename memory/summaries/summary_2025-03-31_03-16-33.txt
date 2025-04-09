@@ -1,0 +1,15 @@
+the Optimistic Offline Lock pattern by allowing concurrent transactions without locks, resolving conflicts only when they occur. This enhances performance and scalability in a system with multiple transactions. Here's a practical example of implementing this pattern in Java:
+
+1. First, we have a `Card` entity that represents a bank card with an amount of money and a version number.
+
+```java
+@Data @NoArgsConstructor @AllArgsConstructor public class Card {     private long id;     private long personId;     private float sum;     private int version; }
+```
+
+2. The `CardUpdateService` class implements the Optimistic Offline Lock pattern by allowing concurrent transactions without locks, resolving conflicts only when they occur. This enhances performance and scalability in a system with multiple transactions.
+
+```java
+public class CardUpdateService {     public void updateCard(Card card) {         // Step 1: Retrieve the current version of the Card entity from the database.         int currentVersion = cardDao.getCurrentVersion(card.getId());         // Step 2: Validate if the local copy's version matches the current version in the database. If not, handle the conflict and retry.         if (currentVersion != card.getVersion()) {             throw new OptimisticOfflineLockConflictException("Card data has been updated by another transaction.");         } else {             // Step 3: Update the Card entity with the new values from the local copy.             card.setVersion(currentVersion + 1);             cardDao.updateCard(card);         }     } }
+```
+
+In this example, the `updateCard()` method first retrieves the current version of the `Card` entity from the database and compares it with the local copy's version. If there is a mismatch, an exception is thrown, indicating a conflict, and the transaction should be retried. If the versions match, the updated Card entity is saved to the database by incrementing its version number before saving. This ensures that concurrent transactions can proceed without locks, while resolving conflicts only when they occur, resulting in improved performance and scalability.

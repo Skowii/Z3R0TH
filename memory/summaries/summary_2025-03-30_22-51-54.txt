@@ -1,0 +1,1 @@
+View local Git branches using the command "git branch" and view remote branches using "git branch -r".

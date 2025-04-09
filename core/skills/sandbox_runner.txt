@@ -1,0 +1,181 @@
+# Z3R0TH ∴ Sandbox Runner v14.0 — Modular, GUI-Aware, Reflection-Echoed
+
+import subprocess, os, time, json, sys
+from pathlib import Path
+from datetime import datetime
+import tkinter as tk
+from tkinter import messagebox, scrolledtext
+
+# ━━━━━━━━━━━ Core Paths
+ROOT           = Path.home() / "Desktop" / "HEX13-Z3R0TH" / "Z3R0TH_ENV"
+MEMORY_DIR     = ROOT / "core" / "memory"
+AUTOMATION_DIR = MEMORY_DIR / "automation"
+AGENT_DIR      = ROOT / "core" / "agents"
+LOGS_DIR       = ROOT / "core" / "logs"
+REFLECT_DIR    = MEMORY_DIR / "reflections"
+os.makedirs(LOGS_DIR, exist_ok=True)
+os.makedirs(REFLECT_DIR, exist_ok=True)
+
+SANDBOX_CONFIG = AUTOMATION_DIR / "sandbox_config.json"
+VM_SETUP_FILE  = AUTOMATION_DIR / "vm_setup.txt"
+Z3R0TH_LOG     = LOGS_DIR / "sandbox_status.json"
+
+# ━━━━━━━━━━━ Defaults (can be overridden by config)
+DEFAULT_VM_NAME = "Z3R0TH_SANDBOX"
+SNAPSHOT_NAME   = "CLEAN_BOOT"
+HEADLESS        = False
+
+# ━━━━━━━━━━━ Utilities
+def log_event(state, msg):
+    log = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "status": state,
+        "vm": DEFAULT_VM_NAME,
+        "msg": msg
+    }
+    Z3R0TH_LOG.write_text(json.dumps(log, indent=2))
+    reflection = REFLECT_DIR / f"sandbox__{state}__{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+    reflection.write_text(f"[{log['timestamp']}]\n{msg}")
+    print(f"🧠 {msg}")
+
+def run_vbox(cmd_args):
+    return subprocess.run(["VBoxManage"] + cmd_args, capture_output=True, text=True).stdout.strip()
+
+def vm_exists(name):
+    return name in run_vbox(["list", "vms"])
+
+def vm_running(name):
+    return name in run_vbox(["list", "runningvms"])
+
+def snapshot_exists(name, snap):
+    return snap in run_vbox(["snapshot", name, "list"])
+
+# ━━━━━━━━━━━ VM Control
+def restore_snapshot(name, snap):
+    print(f"🌀 Restoring snapshot: {snap}")
+    subprocess.run(["VBoxManage", "snapshot", name, "restore", snap])
+
+def create_snapshot(name, snap):
+    print(f"🧪 Creating snapshot: {snap}")
+    subprocess.run(["VBoxManage", "snapshot", name, "take", snap, "--pause"])
+
+def launch_vm(name, headless=False):
+    mode = "headless" if headless else "gui"
+    print(f"🚀 Launching VM: {name} in {mode}")
+    subprocess.run(["VBoxManage", "startvm", name, "--type", mode])
+    log_event("launched", f"{name} started in {mode} mode")
+
+def poweroff_vm(name):
+    print(f"💀 Shutting down VM: {name}")
+    subprocess.run(["VBoxManage", "controlvm", name, "poweroff"])
+    log_event("shutdown", f"{name} was powered off")
+
+# ━━━━━━━━━━━ Deployment & Checks
+def validate_vm_bridge():
+    output = run_vbox(["list", "bridgedifs"])
+    bridges = [l for l in output.splitlines() if "Name:" in l]
+    if bridges:
+        print(f"✅ Bridge interfaces found: {len(bridges)}")
+        log_event("bridge_check", f"{len(bridges)} bridge interfaces detected")
+    else:
+        print("⚠ No bridge interfaces found")
+        log_event("bridge_error", "No bridged network interfaces found")
+
+def inject_agents():
+    if not AGENT_DIR.exists():
+        log_event("agent_error", "Agent directory missing")
+        return
+
+    agents = list(AGENT_DIR.glob("*.py"))
+    if agents:
+        agent_names = [a.name for a in agents]
+        for a in agents:
+            print(f"🤖 Deploying: {a.name}")
+        log_event("agents_injected", f"{len(agents)} agents: {agent_names}")
+    else:
+        log_event("no_agents", "No agents available for deployment")
+
+# ━━━━━━━━━━━ Main Logic
+def main_runner():
+    global DEFAULT_VM_NAME, SNAPSHOT_NAME, HEADLESS
+
+    print("🧪 Initializing Z3R0TH Sandbox...")
+
+    if SANDBOX_CONFIG.exists():
+        cfg = json.loads(SANDBOX_CONFIG.read_text())
+        DEFAULT_VM_NAME = cfg.get("vm_name", DEFAULT_VM_NAME)
+        SNAPSHOT_NAME   = cfg.get("snapshot", SNAPSHOT_NAME)
+        HEADLESS        = cfg.get("headless", HEADLESS)
+        print(f"🧠 Loaded config: VM={DEFAULT_VM_NAME}, Snapshot={SNAPSHOT_NAME}, Headless={HEADLESS}")
+
+    if not VM_SETUP_FILE.exists():
+        log_event("setup_missing", "vm_setup.txt not found. Run 'vm prep' first.")
+        return
+
+    if not vm_exists(DEFAULT_VM_NAME):
+        log_event("vm_not_found", f"VM '{DEFAULT_VM_NAME}' not found.")
+        return
+
+    if vm_running(DEFAULT_VM_NAME):
+        log_event("already_running", "VM already running. Shutting down first...")
+        poweroff_vm(DEFAULT_VM_NAME)
+        time.sleep(3)
+
+    if not snapshot_exists(DEFAULT_VM_NAME, SNAPSHOT_NAME):
+        log_event("snapshot_missing", f"Snapshot '{SNAPSHOT_NAME}' not found. Creating it now.")
+        create_snapshot(DEFAULT_VM_NAME, SNAPSHOT_NAME)
+
+    restore_snapshot(DEFAULT_VM_NAME, SNAPSHOT_NAME)
+    launch_vm(DEFAULT_VM_NAME, headless=HEADLESS)
+    time.sleep(4)
+
+    validate_vm_bridge()
+    inject_agents()
+    log_event("sandbox_ready", f"Sandbox {DEFAULT_VM_NAME} ready with agents injected.")
+
+# ━━━━━━━━━━━ GUI Mode
+def gui_runner():
+    gui = tk.Tk()
+    gui.title("Z3R0TH ∴ Sandbox Control Panel")
+    gui.geometry("1220x780")
+    gui.configure(bg="#101010")
+
+    tk.Label(gui, text="🧪 Z3R0TH Sandbox Control", font=("Fira Code", 18), bg="#101010", fg="#00ffff").pack(pady=12)
+
+    output = scrolledtext.ScrolledText(gui, wrap="word", bg="#1a1a1a", fg="#00ff88", font=("Courier", 11))
+    output.pack(padx=10, pady=10, fill="both", expand=True)
+
+    def echo(msg):
+        output.insert("end", msg + "\n")
+        output.see("end")
+
+    def sandbox_init():
+        echo("⚙ Starting Z3R0TH Sandbox...")
+        try:
+            main_runner()
+            echo("✅ Sandbox is running.")
+        except Exception as e:
+            echo(f"❌ Error: {e}")
+
+    def restart_vm():
+        echo("🔁 Restarting VM...")
+        try:
+            poweroff_vm(DEFAULT_VM_NAME)
+            time.sleep(2)
+            main_runner()
+            echo("✅ VM restarted.")
+        except Exception as e:
+            echo(f"⚠ Restart error: {e}")
+
+    tk.Button(gui, text="🚀 Start Sandbox", command=sandbox_init, bg="#222", fg="#00ff88").pack(pady=6)
+    tk.Button(gui, text="🔁 Restart", command=restart_vm, bg="#333", fg="#ffcc00").pack(pady=6)
+    tk.Button(gui, text="❌ Exit", command=gui.destroy, bg="#300", fg="#fff").pack(pady=10)
+
+    gui.mainloop()
+
+# ━━━━━━━━━━━ Entry
+if __name__ == "__main__":
+    if "--gui" in sys.argv:
+        gui_runner()
+    else:
+        main_runner()

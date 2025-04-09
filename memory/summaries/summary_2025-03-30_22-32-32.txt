@@ -1,0 +1,1 @@
+Create collapsible content components in React using the `useState()` hook to manage state and a button element to toggle the visibility. Accessibility is ensured with the `aria-expanded` attribute. Accordions are managed similarly, but hold the index of active accordion items and extract an AccordionItem component.

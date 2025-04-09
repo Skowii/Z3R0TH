@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-14-10
+
+The Sylius e-commerce Shipping component is a comprehensive solution to manage shipments, shipping methods, and shipping cost calculations for modern PHP applications. It provides models for Shipment, ShipmentUnit, ShippingMethod, and many others. The complex ShippingRules system supports various logic for selecting available methods for particular shipments. The calculators engine offers flexibility in implementing different formulas to estimate package costs. Sylius is an Open Source eCommerce solution built from decoupled components with powerful API and high-quality code. Documentation is available on docs.sylius.com, and contributions can be made via GitHub issues. The license can be found at github.com/Sylius/Sylius/blob/master/LICENSE.
+
+# TAGS: tags: Sylius e-commerce, Shipping component, Shipment, ShipmentUnit, ShippingMethod, ShippingRules, Calculators engine, Sylius, Open Source, documentation, contributing, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

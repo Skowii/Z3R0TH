@@ -1,0 +1,10 @@
+Async Method Invocation is a method of concurrent programming in which the calling thread waits for the results of multiple tasks without blocking. It provides a pattern that allows multiple tasks to be executed and their results obtained when they are ready. The Async method invocation pattern is widely used when working with async operations like web requests, database calls or any other operation that can take an unpredictable amount of time to complete.
+
+In the real world example given, launching a rocket into space is an asynchronous process. The command center gives the order to launch the rocket and then awaits for the result without blocking. This pattern allows multiple tasks to run concurrently and obtain their results upon completion. 
+
+The programming interface for Async method invocation typically includes three key components:
+1. AsyncResult - It represents a result of an asynchronous operation, which may be completed or still in process.
+2. AsyncCallback - This is called when the async operation is complete with either success or failure.
+3. AsyncExecutor - This interface manages and executes asynchronous tasks.
+
+An example implementation of AsyncExecutor is ThreadAsyncExecutor, a class that starts new threads to execute tasks and returns an AsyncResult object representing the status and result of the task execution.

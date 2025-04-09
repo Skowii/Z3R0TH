@@ -1,0 +1,1 @@
+Auto-GPT Benchmark tests were performed on 2023-08-12 with agent commit sha 3a2d08fb415071cc94dd6fcee24cfbdd1fb487dd. The metrics indicate a run time of 39.69 seconds, with no successful tests in the interface category. Tasks such as writing to a file and searching were attempted but not completed successfully due to issues with the async plugin.

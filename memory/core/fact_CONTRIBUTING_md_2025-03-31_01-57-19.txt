@@ -1,0 +1,78 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_01-57-19
+
+committing, using:
+
+```shell
+% bazel test --verbose javascript:selenium-webdriver/src/test/javascript:all
+```
+
+This command will execute all JavaScript unit tests. For non-JavaScript bindings, use the equivalent "bazel test" command.
+
+In general, if you're fixing a bug or adding functionality, you should have at least one test for each. If there are existing tests that would be useful to update or extend, do so as part of your commit.
+
+Remember, the more tests we have, the less bugs we'll get in production.
+
+### Step 6: Submit Your Changes
+
+Once you've made sure your changes are tested and work correctly, push
+your branch to a public repo (like GitHub). If possible, please provide a
+detailed changelog for each commit.
+
+```shell
+% git push origin my-feature-branch
+```
+
+Create a pull request against the main repository. 
+This is where others can review your code and discuss it.
+
+_Note:_ It's important to use pull requests as they ensure that everyone has visibility into what's being added or changed, and allows the community to provide feedback and suggestions on how to improve it. Please don't merge directly from a feature branch.
+
+Finally, if your changes are accepted and merged, you can delete the remote branch once the merge is complete:
+
+```shell
+% git push origin --delete my-feature-branch
+```
+
+# TAGS: selenium-java:
+  dependencies:
+    - import(//third_party/...)
+    - ...
+
+##### JavaScript
+
+Add the dependency in your `package.json` file.
+
+##### Python
+
+Include the package as a dependency in `setup.py`.
+
+Note that depending on a local change is discouraged for this process,
+and you should strive to have all dependencies come from an upstream
+source.
+
+[...]
+
+### Step 2: Implement and Test
+
+Create a branch with a descriptive name and start working on your
+feature. Once you're done implementing and testing your changes,
+push them to your fork and create a Pull Request against the target
+branch in the upstream repository.
+
+```shell
+% git checkout -b feature/my-feature
+...
+% git push origin feature/my-feature
+```
+
+Please remember that all contributions must be tested before being merged into the main repository. Testing is an integral part of
+ensuring quality and reliability in Selenium software. This applies not only to new features but also to bug fixes. If a PR breaks existing tests, it will not be accepted.
+
+[...]
+
+In case you're unsure about how to proceed with your code contributions or have any questions, feel free to reach out to the Selenium community on [`IRC channel #selenium`](https://webchat.freenode.net/?channels=%23selenium),
+[mailing lists selenium-users@ or selenium-developers@](https://groups.google.com/forum/#!forum/selenium-users)
+or the [`seleniumhq slack channel`](https://seleniumhq.slack.com).
+
+[...]

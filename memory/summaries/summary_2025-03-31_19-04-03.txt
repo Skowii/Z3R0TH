@@ -1,0 +1,1 @@
+This content is about an AI benchmark performance test where the AI is evaluated in various tasks related to writing, planning, searching, and reading files. Test categories include interface, safety, memory, and content generation. The metrics measured are success rate, cost, run time, and difficulty level for each task.

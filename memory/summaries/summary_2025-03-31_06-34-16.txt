@@ -1,0 +1,7 @@
+The Command pattern allows to encapsulate actions into objects, which can be invoked and undone. In behavioral language, the "Learn-Perform" approach is applied to incapsulate actions. This pattern supports clients with different parameter settings by creating a request object in command object's encapsulation. It provides facilities like forward and backward execution of actions.
+
+In real world example, a wizard is casting spells which are modeled as commands. In the Wizard class, undo and redo stacks are used to track the executed commands. The Target class represents an entity that can be modified by the spells. Goblin, a subclass of Target, has methods for changing its size and visibility.
+
+In object-oriented programming with an object-oriented design pattern, a command pattern is used to transform a behavioral design into an object-oriented one. An object is employed to carry all the required information for executing a specific action or triggering an event, facilitating both forward and backward execution of actions without needing to know the underlying details. 
+
+A programmatic example here demonstrates Wizard and Goblin classes with named commands.

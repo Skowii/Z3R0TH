@@ -1,0 +1,1 @@
+The MonthDateObject class is a constructor that initializes the startDate, endDate, prevDate, nextDate, maxGraphDate, and interval properties based on given input dates. It creates new Date objects for start, end, previous, next month, and maximum graph date, while setting the interval as 'day'.

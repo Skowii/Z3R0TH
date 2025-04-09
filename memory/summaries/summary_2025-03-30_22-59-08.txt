@@ -1,0 +1,1 @@
+Learn how to style default links without a class using the :not() selector with an appropriate attribute selector in CSS. This allows for more precise control over your link styles.

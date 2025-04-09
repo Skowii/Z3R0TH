@@ -1,0 +1,1 @@
+The Point class initializes an object with x and y coordinates. It uses custom getattr and setattr methods to handle attribute access and modification using string-based attribute names, and converts values to floats during assignment.

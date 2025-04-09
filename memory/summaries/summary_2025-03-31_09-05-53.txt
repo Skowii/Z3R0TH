@@ -1,0 +1,1 @@
+Create a virtual environment using 'python -m venv venv' and activate it. Then, use 'pip install -e data-repos/' and 'pip install -e snake-corp-product-data/' to install the desired packages from their repositories.

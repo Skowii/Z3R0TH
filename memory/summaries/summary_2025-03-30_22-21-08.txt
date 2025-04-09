@@ -1,0 +1,1 @@
+Uses RELATIVE flag to simplify extracting executable names automatically. Globs APP_SOURCES from current source directory and adds each .cpp file as a target, setting LINKER_LANGUAGE to CXX. If OpenMP is found, links with OpenMP::OpenMP_CXX. Installs targets in bin/greedy_algorithms directory.

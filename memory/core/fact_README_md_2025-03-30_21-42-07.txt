@@ -1,0 +1,42 @@
+# SOURCE: README.md
+# TIME: 2025-03-30_21-42-07
+
+art-3-event-driven/)
+  - [Part 4 - Asynchronous I/O](https://eli.thegreenplace.net/2017/concurrent-servers-part-4-asynchronous-io/)
+
+- A Simple TCP Server in Python
+
+  - [Part 1: Create a simple echo server using sockets and threads in Python](http://www.programcreek.com/2013/09/how-to-create-a-simple-tcp-server-in-python-using-sockets-and-threads/)
+  - [Part 2: Create a simple TCP server using sockets and asyncio in Python](https://www.pyimagesearch.com/2018/12/24/how-to-create-a-simple-tcp-server-in-python-using-sockets-and-asyncio/)
+
+- A Simple UDP Server in Python
+
+  - [Part 1: Create a simple UDP server in Python](http://www.programcreek.com/2013/09/how-to-create-a-simple-udp-server-in-python/)
+
+# TAGS: orasandler.com/2018/01/02/Write-a-Compiler-5.html)
+- [Build a programming language compiler in C/C++ from scratch](http://www.buildyourownlanguages.com/)
+- [Build a JavaScript Engine in C++](https://github.com/c4freedom/JS-Engine-Cpp)
+- [Create your own Web Server with C++](https://www.youtube.com/watch?v=Uu7dDz0MkYc&list=PL0168B29FEBEA583C)
+- [Implementing a Sparse Matrix in C++](http://jamesroutley.github.io/posts/sparse_matrix/)
+- [Building a Parser for a Simple Calculator in C++](https://www.geeksforgeeks.org/building-parser-simple-calculator-using-c-recursive-descent-method/)
+- [Implementing a Sparse Matrix in C++](http://jamesroutley.github.io/posts/sparse_matrix/)
+- [Write a Router in C++](https://www.youtube.com/watch?v=59ZU01Fs48A&list=PLBbf25E73D6C8F4E8)
+- [Building an Incremental Web Crawler in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=HJ_9GKyuWYI&list=PLBbf25E73D6C8F4E8)
+- [Build a simple text editor in C++](http://rosettacode.org/wiki/Text_editor#C.2B.2B)
+- [Implementing an Interactive Shell using C++](https://www.geeksforgeeks.org/implementing-interactive-shell-using-cpp/)
+- [Build a simple HTTP server in C++](http://www.cs.rpi.edu/~moorthy/Cookbook/Simple_HTTP_Server_in_C%2B%2B.html)
+- [Building an HTTP Client in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=XrJG5YL174M&list=PLBbf25E73D6C8F4E8)
+- [Implementing a URL shortener in C++ using boost](http://www.cs.rpi.edu/~moorthy/Cookbook/URL_Shortener_in_C%2B%2B.html)
+- [Building a simple chatroom server in C++](https://www.geeksforgeeks.org/simple-chatroom-server-using-c-socket-programming/)
+- [Implementing a Reversi AI in C++](http://www.cs.rpi.edu/~moorthy/Cookbook/Reversi_AI_in_C%2B%2B.html)
+- [Build a simple video streaming server in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=YD17nNzK4pI&list=PLBbf25E73D6C8F4E8)
+- [Build a simple distributed task scheduler in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=hP1R9jyxM0o&list=PLBbf25E73D6C8F4E8)
+- [Building a simple image compression program in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=zJqNX1HG-g0&list=PLBbf25E73D6C8F4E8)
+- [Building a simple RSA encryption program in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=IiJb_f9Nj0A&list=PLBbf25E73D6C8F4E8)
+- [Implementing a simple FTP server in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=_gJh_mWUYu0&list=PLBbf25E73D6C8F4E8)
+- [Building a simple RSA encryption program in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=IiJb_f9Nj0A&list=PLBbf25E73D6C8F4E8)
+- [Building a simple distributed task scheduler in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=hP1R9jyxM0o&list=PLBbf25E73D6C8F4E8)
+- [Building a simple image compression program in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=zJqNX1HG-g0&list=PLBbf25E73D6C8F4E8)
+- [Building a simple RSA encryption program in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=IiJb_f9Nj0A&list=PLBbf25E73D6C8F4E8)
+- [Implementing a simple FTP server in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=_gJh_mWUYu0&list=PLBbf25E73D6C8F4E8)
+- [Building a simple chatroom server in C++ with Boost Asio and Boost Spirit](https://www.youtube.com/watch?v=MdRtS9G_uUY&list=PLBbf25E73D6C8F4E8)

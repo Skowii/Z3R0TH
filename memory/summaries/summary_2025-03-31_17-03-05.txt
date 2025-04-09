@@ -1,0 +1,1 @@
+This content defines configuration settings for a linter using "airbnb-base" as the base. It sets browser environment, rules like object shorthand and function paren newline, and maximum line length. The import resolver is also configured to use babel-module with specific alias settings.

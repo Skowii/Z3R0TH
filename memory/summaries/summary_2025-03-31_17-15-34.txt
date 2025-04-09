@@ -1,0 +1,6 @@
+This guide explains how to download an agent from AutoGPT's marketplace for local hosting and import it into your locally hosted instance. 
+
+1. Access the marketplace section: Browse through the marketplace and select a desired agent, view its details, and click "Download Agent."
+2. Download the agent file: Save the agent file to your computer.
+3. Import the agent: In the Monitor tab, select "Import from File," navigate to the downloaded agent file, and click "Open" before clicking "Import and Edit."
+4. Verify import: The agent should now appear in your Builder and is ready for editing or use.

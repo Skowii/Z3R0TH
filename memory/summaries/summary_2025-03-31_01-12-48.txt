@@ -1,0 +1,6 @@
+Create a directory using Node.js if it doesn't exist:
+
+- Asynchronous approach: Use `fs.mkdir()`, with `fs.access()` to check if the directory exists and create it if not.
+- Synchronous approach: Use `fs.existsSync()` and `fs.mkdirSync()`. 
+
+Example code for both approaches is provided in Node.js using the fs/promises library.

@@ -1,0 +1,1 @@
+RP Renamer is a bulk file renaming tool built with Python and PyQt5. To run the application, download the source code, create and activate a Python virtual environment, install dependencies, and then run the application. This tool was coded and tested with Python 3.8.5 and PyQt 5.15.2 by Leodanis Pozo Ramos.

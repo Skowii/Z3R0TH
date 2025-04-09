@@ -1,0 +1,8 @@
+Title: My amazing story
+Short title: Amazing story
+Language: Python
+Tags: [list]
+Cover image
+Excerpt: A short summary of your story up to 140 characters long.
+Listed: true
+Last modified: June 13, 2021

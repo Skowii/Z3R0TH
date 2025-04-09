@@ -1,0 +1,8 @@
+Nesting JavaScript objects using recursion involves transforming a flat array of objects into a tree-like structure. This can be achieved with `Array.prototype.filter()` and `Array.prototype.map()`. Two optional arguments, `id` and `link`, are provided for customization. The `nest()` function takes the items, `id`, and `link` as input and returns a nested object. In this example, the flat array of comments is recursively nested using `parentId` to link objects:
+```js
+const nest = (items, id = null, link = 'parentId') => {
+    return items
+        .filter(item => item[link] === id)
+        .map(item => ({ ...item, children: nest(items, item.id, link) }))
+}
+```

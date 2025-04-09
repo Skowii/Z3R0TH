@@ -1,0 +1,1 @@
+The Label class initializes with a text and font. It provides methods for getting/setting the text and font attributes.

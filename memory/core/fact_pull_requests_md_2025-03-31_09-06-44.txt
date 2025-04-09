@@ -1,0 +1,71 @@
+# SOURCE: pull_requests.md
+# TIME: 2025-03-31_09-06-44
+
+# GitHub List Pull Requests
+
+This block retrieves a list of open pull requests from a specified GitHub repository and outputs their titles and URLs for viewing purposes. It uses the provided credentials to connect to the GitHub API, fetching information about all open pull requests in the given repository. 
+
+Inputs:
+- Credentials: GitHub authentication details to access the repository
+- Repository URL: The URL of the GitHub repository to fetch pull requests from
+
+Outputs:
+- Pull Request: A list of pull requests containing their titles and URLs
+- Error: An error message if the operation fails
+
+Use case: A development team leader wants to quickly review all open pull requests in their project repository to prioritize code reviews.
+
+---
+
+# GitHub Make Pull Request
+
+This block allows users to create a new pull request by providing details such as title, body, and branch information. It uses the GitHub API to create a new pull request with the given information, including the source and target branches for the changes.
+
+Inputs:
+- Credentials: GitHub authentication details to access the repository
+- Repository URL: The URL of the GitHub repository where the pull request will be created
+- Title: The title of the new pull request
+- Body: The description or content of the pull request
+- Head: The name of the branch containing the changes
+- Base: The name of the branch to merge the changes into
+
+Outputs:
+- Number: The unique identifier of the created pull request
+- URL: The web address of the newly created pull request
+- Error: An error message if the pull request creation fails
+
+Use case: A developer has finished working on a new feature in a separate branch and wants to create a pull request to merge their changes into the main branch for review.
+
+---
+
+# GitHub List PR Reviewers
+
+This block fetches and provides information about all assigned reviewers for a given pull request in a GitHub repository. It uses the provided credentials to connect to the GitHub API, retrieving the list of reviewers currently assigned to the specified pull request.
+
+Inputs:
+- Credentials: GitHub authentication details to access the repository
+- Pull Request URL: The URL of the specific GitHub pull request to list reviewers for
+
+Outputs:
+- Reviewer: A list of assigned reviewers, each containing their GitHub username and profile URL
+- Error: An error message if listing the reviewers fails
+
+Use case: A project coordinator wants to check who is currently assigned to review a specific pull request to ensure all necessary team members are involved in the code review process.
+
+# TAGS: er as a reviewer for the given pull request.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Credentials | GitHub authentication details to access the repository |
+| Pull Request URL | The URL of the specific GitHub pull request to add the reviewer for |
+| Reviewer | The username of the person who will be assigned as a reviewer for the pull request |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Success | An error message if the operation fails |
+| Error | A success message if the reviewer assignment was successful |
+
+### Possible use case
+A project manager wants to ensure that a specific reviewer is assigned to a critical pull request in their repository for proper code review and approval.

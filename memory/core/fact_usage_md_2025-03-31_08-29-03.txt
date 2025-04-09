@@ -1,0 +1,149 @@
+# SOURCE: usage.md
+# TIME: 2025-03-31_08-29-03
+
+The text above gives an overview of how to use and configure AutoGPT. Here are some additional tips for a better experience:
+
+1. Explore the `CONFIGURATION` section in `.env` file. This is where you can modify different aspects of AutoGPT, like the AI model, API server port, or which plugins to enable.
+
+2. If you're unsure about what options are available for a specific setting, try running AutoGPT with `--help` flag for more details: `./autogpt.sh --help`.
+
+3. Make sure your AI Settings and Prompt Settings files have the right format. For example, if you want to use an OpenAI API key, make sure it's in a format like this in your `ai_settings.json` file:
+
+   ```json
+   {
+     "openai_api_key": "YOUR_API_KEY"
+   }
+   ```
+
+4. If you want to customize the prompt that AutoGPT uses, you can do so by editing the `prompt_settings.json` file.
+
+5. By default, AutoGPT will only have access to files in its workspace (inside `data/agents`). To change this and allow your agent to read or write outside of the workspace, set `RESTRICT_TO_WORKSPACE` to `False`. Be aware of the potential risks this might pose.
+
+6. If you need more advanced customization options, you can create your own components or override existing ones by using the [forge](https://github.com/Significant-Gravitas/AutoGPT/tree/master/classic/original_autogpt/forge).
+
+# TAGS: s `Ctrl+C`.
+
+!!! warning "Continuous Mode Danger"
+    Continuous mode means that if you run the script with this flag, your AI will continue to run indefinitely unless interrupted. This may not be what you want.
+
+#### 💬 Conversation Mode ↔️
+
+AutoGPT is capable of having a back-and-forth conversation with you in this mode. You type your command, and the AI responds. Use `--speak` to enable conversation mode.
+
+```shell
+./autogpt.sh run --speak
+```
+
+!!! warning "Conversation Mode Danger"
+    In conversation mode, be very careful what you ask for, as the AI will not stop until you interrupt it with `Ctrl+C`.
+
+#### ✨ Debug Mode 🧪
+
+Debug mode allows you to see what the AI is doing in a more detailed way. To enable debug mode, use the `--debug` flag.
+
+```shell
+./autogpt.sh run --debug
+```
+
+This will output additional information about the AI's current state and actions.
+
+!!! warning "Debug Mode Danger"
+    Debug mode can be very informative but can also expose sensitive or personal information about your AI and its operations. Use with caution!
+
+#### 💬 Speak Mode 🗣️
+
+AutoGPT can listen to you using `--speak` (enabling conversation mode) with the `-y` flag. When `-y` is specified, AutoGPT will skip the re-prompting messages at the beginning of the script.
+
+```shell
+./autogpt.sh run --speak -y
+```
+
+!!! warning "Speak Mode Danger"
+    Speak mode can be very powerful and dangerous as it enables the AI to listen and act based on your voice commands, which means you will have little control over what the AI does. Use with caution!
+
+#### 🧪 GPT3-only or GPT4-only Mode ⚗️
+
+Run the AI in either GPT3.5 only mode (`--gpt3only`) or GPT4 only mode (`--gpt4only`). These modes limit the AI to only use specific models.
+
+```shell
+./autogpt.sh run --gpt3only
+```
+
+!!! warning "GPT Mode Danger"
+    Using GPT3-only or GPT4-only mode can significantly reduce the capability of your AI and should be used with caution. Ensure that you have a suitable model for your task.
+
+#### 🔇 Suppress News Output 🗞️
+
+If you do not want to see the latest news at startup, use `--skip-news`.
+
+```shell
+./autogpt.sh run --skip-news
+```
+
+!!! warning "Suppress News Danger"
+    While suppressing news output can be useful for getting a quick start on your tasks, it may cause you to miss out on important updates and changes in AI capabilities. Use with caution!
+
+#### 📚 Install External Dependencies 🔌
+
+You can install external dependencies required for 3rd party plugins by using `--install-plugin-deps`.
+
+```shell
+./autogpt.sh run --install-plugin-deps
+```
+
+!!! warning "Install Dependency Danger"
+    Installing dependencies may expose your system to potential security risks or take a long time, especially over the internet. Use with caution!
+
+#### 🔧 Override AI Directives 💡
+
+You can override AI directives by using `--override-directives`. This means that the constraints, resources, and best practices you specify will replace the current ones in the AI's directives.
+
+```shell
+./autogpt.sh run --override-directives --constraint "Only use GPT3 models" --resource "Access to web searches"
+```
+
+!!! warning "Override Directive Danger"
+    Overriding AI directives can be very powerful but also dangerous, as it means you're changing the way the AI works fundamentally. Use with caution!
+
+#### 👋 Custom AI Name and Role ✉️
+
+You can change the default AI name and role by using `--ai-name` and `--ai-role`.
+
+```shell
+./autogpt.sh run --ai-name "My AI Assistant" --ai-role "Research Assistant"
+```
+
+!!! warning "Custom Name & Role Danger"
+    Customizing the name and role can significantly alter the way the AI is perceived by you and others, which may affect how it behaves. Use with caution!
+
+#### 🔀 Loop Runs 📐
+
+You can loop through multiple runs by using `-r` and specifying a number of runs to execute.
+
+```shell
+./autogpt.sh run -r 5
+```
+
+This will run the AI five times in a row, with the same configuration each time.
+
+!!! warning "Loop Run Danger"
+    Looping through multiple runs can be helpful for testing and comparing results but may also cause unnecessary strain on your system if not used carefully. Use with caution!
+
+---
+
+### 💻 GUI Interface 🖥️
+
+If you prefer a more interactive experience, you can run AutoGPT in a graphical user interface (GUI) by using the `--gui` flag. The GUI provides a visual way to interact with your AI and manage its tasks.
+
+```shell
+./autogpt.sh --gui
+```
+
+!!! warning "GUI Danger"
+    The GUI can provide a more immersive experience but may also expose you to potential security risks or hinder your workflow if not used carefully. Use with caution!
+
+---
+
+Once you've launched AutoGPT, you can interact with it using your preferred mode of communication, such as typing commands or speaking. Remember that the AI will continue running until you interrupt it with `Ctrl+C`. 
+
+For more information about configuration options and how to use AutoGPT, visit the [documentation website](https://docs.autogpt.org).

@@ -1,0 +1,7 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-29-57
+
+Channel Component Summary:
+The Sylius E-Commerce PHP component manages sales channels for an Open Source eCommerce solution with powerful API and high-quality code. The channel component's documentation is available at docs.sylius.com, and it can be contributed to following the guidelines on contributing.sylius.com. Bug tracking is done via GitHub issues, and Sylius operates under the MIT License, which can be found at github.com/Sylius/Sylius/blob/master/LICENSE. The component was originally created by Paweł Jędrzejewski and has multiple contributors listed on github.com/Sylius/Channel/contributors.
+
+# TAGS: Sylius, e-commerce PHP component, sales channels, Channel Component, Sylius website, documentation, contributing, blog, Twitter, Facebook, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

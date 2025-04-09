@@ -1,0 +1,1 @@
+Author rebased the entire repository history to remove irrelevant commits and improve maintainability, reducing around 3k commits. They will check for any errors and keep the `master-backup` branch for a few days. If users find any issues, they can report them.

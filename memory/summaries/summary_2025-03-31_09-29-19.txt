@@ -1,0 +1,1 @@
+Build a Flashcards App with Django by following step-by-step instructions on Real Python. To set up the environment, create a virtual environment, activate it, and install dependencies using requirements.txt. Make and apply migrations for database creation. Run the Django development server and access http://localhost:8000/ to see your flashcards app in action.

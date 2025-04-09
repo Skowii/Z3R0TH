@@ -1,0 +1,1 @@
+This code imports jQuery into the current environment, setting both window.$ and window.jQuery to reference jQuery.

@@ -1,0 +1,6 @@
+# SOURCE: index.md
+# TIME: 2025-03-31_08-03-41
+
+AutoGPT is an advanced AI platform that helps businesses and individuals automate their workflows with intelligent, autonomous agents. The platform comes with seamless integration and low-code workflows for users without extensive coding knowledge. It also features autonomous operation, enabling continuous agents to run indefinitely on relevant triggers. AutoGPT offers intelligent automation and maximum efficiency by streamlining workflows through the automation of repetitive processes. The platform consists of two main components: the AutoGPT Server and the AutoGPT Frontend. Users can build customized workflows to create agents for various tasks, utilize pre-built agents from a marketplace, and interact with them using a user-friendly interface.
+
+# TAGS: AutoGPT Platform, AI agents, workflows, Blocks, LLM providers, OpenAI, Anthropic, Groq, Llama, license, Getting Started, self-hosting, cloud-hosting, contribution

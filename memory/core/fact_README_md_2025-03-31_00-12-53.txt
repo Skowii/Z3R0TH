@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_00-12-53
+
+text2youtube - AI-powered YouTube automation tool for transforming text into engaging video content, featuring advanced scenario generation, text-to-speech synthesis, and video compilation capabilities. This project utilizes OpenAI's GPT-3 API, Bark for voice synthesis, MoviePy for video editing, and Python Requests Library for website access and video downloads. The project is licensed under the MIT License and can be installed using the provided dependencies.
+
+# TAGS: "text2youtube", "AI", "YouTube automation", "text-to-video technology", "automated video script generation", "Bark", "voice synthesis", "Adobe Premier", "colab", "finance niche", "Economics/Countries topic", "improve text overlays", "ken burns effect"

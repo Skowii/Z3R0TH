@@ -1,0 +1,10 @@
+Proxy, also known as the Replacement or Stand-in pattern, is used to provide a surrogate or placeholder for another object to control its access. This helps to separate the client from the service interface and can add extra functionality like caching or preconditions checking before accessing the actual object. The Proxy pattern is useful when more extensive or complex object references are needed than just a simple pointer. Examples of where this pattern is used include:
+
+1. Remote proxy for objects in different address spaces.
+2. Virtual proxy to lazily create expensive objects.
+3. Protection proxy to control access to the original object.
+4. Counting proxy for access counting.
+5. Implementation of logging.
+6. Simplification of network connections.
+
+Some well-known implementations include Java's built-in Proxy class and libraries like Apache Commons Proxy. It is also commonly used in mocking frameworks, such as Mockito, Powermock, and EasyMock.

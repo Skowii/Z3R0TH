@@ -1,0 +1,24 @@
+# SOURCE: layout.html
+# TIME: 2025-03-31_06-04-27
+
+{
+    "name": "assistant",
+    "description": "A responsive and customizable assistant to help you get your work done.",
+    "version": "1.0",
+    "author": "Assistant Team",
+    "support": "https://www.example.com/support",
+    "homepage": "https://www.example.com"
+  },
+
+# TAGS: TEMPLATE VAR SETTINGS
+url_root
+docstitle
+favicon
+css_files
+style
+linktags
+parents
+next
+prev
+master_doc
+toctree

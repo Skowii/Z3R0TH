@@ -1,0 +1,1 @@
+The useError hook allows you to create an error dispatcher in React. It utilizes state and effect hooks like useState(), useEffect(), and useCallback() to manage a state variable for the error, throw it, and update the state, respectively. This custom hook enables error handling from components within your application.

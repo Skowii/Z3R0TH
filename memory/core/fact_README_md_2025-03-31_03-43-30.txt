@@ -1,0 +1,28 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_03-43-30
+
+# OpenAI Evals
+
+OpenAI Evals is a framework for evaluating large language models (LLMs) or systems built using LLMs. Users can configure and run evals directly in the OpenAI Dashboard, and can also create custom evals for their specific use cases. The evals registry consists of existing pre-made evals and allows users to test various dimensions of OpenAI models without exposing any data publicly.
+
+To start using evals, an API key must be specified using the `OPENAI_API_KEY` environment variable. Running evals can incur costs, so be aware of these when setting up your API key. Evals can also be run and created through Weights & Biases (W&B).
+
+To set up and contribute to evals:
+1. Set up the OpenAI API key.
+2. Download the evals repository and navigate through examples, templates, and existing evals.
+3. Contribute by creating a new eval or modifying an existing one, following guidelines and instructions provided in docs such as build-eval.md and custom-eval.md.
+4. Submit your contribution as a pull request to the repository.
+
+By contributing to OpenAI Evals, you are agreeing to make your evaluation logic and data available under the MIT license, ensuring adequate rights for uploading any data used in an eval.
+
+# TAGS: evals and understanding the different components involved: [`starting-gpt-evals.md`](docs/starting-gpt-evals.md).
+
+Once you have an idea of what to do, you can follow the guidelines on how to implement and test your eval using [Python](https://www.python.org/) in [`create-eval.md`](docs/create-eval.md) and [`run-eval-tests.md`](docs/run-eval-tests.md). 
+
+Please note that, while implementing the evals, you must adhere to the [OpenAI Content Policy](https://openai.com/content-policy) and the [Guidelines for Training Data](https://platform.openai.com/guidelines) at all times. Also, ensure you are not exposing sensitive or personal information in your prompts and data.
+
+If you're building a prompt chain or tool-using agent, you can use our [Completion Function Protocol](docs/completion-fns.md). This will allow you to define the evaluation logic for each step of your chain or agent.
+
+For more information on how to write evals, please refer to [`eval-dev-guide.md`](docs/eval-dev-guide.md) and other relevant documents in `docs`. You can also join our [Slack workspace](https://join.slack.com/t/openai-community/shared_invite/zt-1k61a0nZX3Fz2N8y9M7oUjpVYyG9mWQ) for discussions, queries and support.
+
+Let's get started!

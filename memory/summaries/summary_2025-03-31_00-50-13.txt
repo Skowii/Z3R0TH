@@ -1,0 +1,1 @@
+Calculate the midpoint between two pairs of points in a 2D or 3D plane by averaging their x, y and z coordinates, respectively. This can be done using array destructuring for 2D space and extending the operation to any number of dimensions (N-dimensional space) with `Array.prototype.map()`.

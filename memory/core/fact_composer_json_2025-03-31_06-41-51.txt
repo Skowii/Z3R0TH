@@ -1,0 +1,52 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-41-51
+
+library: sylius/product, product catalog system with support for options and variants
+description: shop, ecommerce, products, assortment, options, variants
+homepage: https://sylius.com
+license: MIT
+authors: Paweł Jędrzejewski, Sylius project, Community contributions
+requirements: PHP 7.4 or 8.0; behat/transliterator, sylius/attribute, sylius/resource, symfony/polyfill-iconv, webmozart/assert
+dev dependencies: phpspec/phpspec
+suggest: ext-iconv for better performance
+config: bin-dir
+branches: 1.9-dev (for dev-master)
+autoloading: Sylius\Component\\Product\\ and Sylius\Component\\Product\\spec\\
+repositories: path, "../../*/*
+minimum stability: dev
+prefer stable: true
+
+# TAGS: name: sylius/product
+type: library
+description: Product catalog system with support for product options and variants.
+keywords: shop, ecommerce, products, product, assortment, options, variants
+homepage: https://sylius.com
+license: MIT
+authors:
+  - Paweł Jędrzejewski (https://pjedrzejewski.com)
+  - Sylius project (https://sylius.com)
+  - Community contributions (https://github.com/Sylius/Sylius/contributors)
+require:
+  - php: ^7.4 || ^8.0
+  - behave/transliterator: ^1.1
+  - sylius/attribute: ^1.6
+  - sylius/resource: ^1.7
+  - symfony/polyfill-iconv: ^1.6
+  - webmozart/assert: ^1.8
+require-dev:
+  - phpspec/phpspec: ^7.0
+suggest:
+  - ext-iconv: For better performance than using Symfony Polyfill Component
+config:
+  - bin-dir: bin
+extra:
+  - branch-alias: { dev-master: "1.9-dev }
+autoload:
+  - psr-4: { Sylius\Component\Product\": "" }
+autoload-dev:
+  - psr-4: { Sylius\Component\Product\spec\: "spec/" }
+repositories:
+  - type: path
+    url: "../../*/*"
+minimum-stability: dev
+prefer-stable: true

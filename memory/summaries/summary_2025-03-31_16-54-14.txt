@@ -1,0 +1,1 @@
+This file is part of the Sylius package and is under copyright by Paweł Jędrzejewski. It contains a function called "displayUploadedImage" which previews an uploaded image based on the input element's files. The code also extends jQuery to create a "previewUploadedImage" function, allowing for the automatic previewing of uploaded images in the specified root element.

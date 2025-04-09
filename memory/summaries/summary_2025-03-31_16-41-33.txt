@@ -1,0 +1,1 @@
+The Sylius/User library is a user management solution for PHP applications. It handles registration, login, and group management. The package requires PHP version 7.4 or 8.0, along with several other dependencies. Contributions to the project are welcomed from the community. The documentation can be found at https://sylius.com.

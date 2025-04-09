@@ -1,0 +1,1 @@
+The provided information describes a process that utilizes CMake to create an executable from source files. It uses the RELATIVE flag for ease of use and sets the destination folder as "bin/games". Each file with a .cpp extension is considered a source file and is converted into an executable, while additional libraries like OpenMP may be added if found.

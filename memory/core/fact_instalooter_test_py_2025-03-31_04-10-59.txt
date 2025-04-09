@@ -1,0 +1,6 @@
+# SOURCE: instalooter_test.py
+# TIME: 2025-03-31_04-10-59
+
+This code snippet downloads videos from the Instagram profile of daquan in the last month, using the Instalooter library. The looter instance is created with the template for video ID and username. The time frame used for downloading is set to the current date and subtracting 28 days. The download location is set to a folder named "Memes_December_4" and limits the number of videos to 50.
+
+# TAGS: Key Concepts: ProfileLooter, looter, daquan, videos_only, template, login, datetime.date.today(), dateutil.relativedelta.relativedelta, download, Memes_December_4, media_count, timeframe

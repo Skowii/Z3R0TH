@@ -1,0 +1,1 @@
+JavaScript strings are immutable primitives, meaning they cannot be changed and any operations create new strings rather than modifying the original. This contrasts with most other languages where strings are reference types. To better understand this concept, consider numbers - another example of an immutable primitive in JS.

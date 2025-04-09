@@ -1,0 +1,16 @@
+# SOURCE: PULL_REQUEST_TEMPLATE.md
+# TIME: 2025-03-30_21-52-24
+
+Title: Summary and Tagging for Memory Storage
+
+Description: Provide a general summary of your changes in the title, describe your changes in detail, explain why this change is required, link to any related issues, discuss how you tested your changes, mention what types of changes were introduced, and complete a checklist ensuring all necessary points have been considered.
+
+# TAGS: Title: Extract key concepts, keywords, people, and dates as tags
+
+Changes: This commit extracts key concepts, keywords, people, and dates as tags in the text. It helps with categorizing information and making it easier for users to search and find relevant content.
+
+Motivation and Context: The addition of these tags will improve the overall organization and accessibility of the information, allowing users to easily filter and navigate through the data. This change is required to enhance the user experience and to make the repository more efficient.
+
+Testing: To test this change, I compared the original text with the updated version containing the extracted tags. The new version showed better organization and categorization of information, making it easier for users to search and filter content.
+
+Types of changes: This commit introduces a Documentation change by adding instructions on how to extract key concepts, keywords, people, and dates as tags in the text.

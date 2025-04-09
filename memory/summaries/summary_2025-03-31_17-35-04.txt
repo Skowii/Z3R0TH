@@ -1,0 +1,5 @@
+Welcome to the Quickstart Guide for setting up, building, and running your own AutoGPT agent. This guide is aimed at both seasoned AI developers and beginners. The project supports Linux (Debian-based), Mac, and Windows Subsystem for Linux (WSL). If using a Windows system, install WSL first. To get started:
+
+1. Fork the repository on GitHub.
+2. Clone the repository to your local machine.
+3. Set up the project by following instructions in the terminal. For Windows users, ensure compatibility with Unix/Linux line endings and store project files within the WSL file system if needed.

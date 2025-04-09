@@ -1,0 +1,1 @@
+This bug report is related to issues with the list and doesn't involve project addition. Problems include suggestions for improving linting, addressing potential mistakes in CI, proposing a specific auto-formatter, and other unspecified concerns.

@@ -1,0 +1,10 @@
+Accessible websites are more user-friendly and beneficial in attracting a diverse audience. Here are eight tips to improve website accessibility:
+
+1. Use semantic HTML for a better understanding of the layout and its elements.
+2. Ensure proper color usage by adhering to contrast ratio requirements and using colors meaningfully.
+3. Caption images and video content for screenreaders and users with visual impairments.
+4. Utilize icons, colors, and text literals together to convey information to all users.
+5. Maintain consistency in design elements, especially buttons and links.
+6. Label your input fields with appropriate labels or attributes to ensure clarity for screenreaders.
+7. Design responsively by catering to various devices and navigation methods.
+8. Organize content effectively to enhance the user experience across all platforms and users.

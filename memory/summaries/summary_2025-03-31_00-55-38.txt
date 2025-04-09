@@ -1,0 +1,9 @@
+JavaScript promises are asynchronous and execute in parallel. To resolve them sequentially, chain promises using `Array.prototype.reduce()` with `Promise.prototype.then()`. This allows you to execute promises one after another for better control over the execution order. An example of this is `runPromisesInSeries` which takes an array of promises and runs them sequentially:
+
+```js
+const runPromisesInSeries = ps => 
+  ps.reduce((p, next) => p.then(next), Promise.resolve());
+const delay = d => new Promise(r => setTimeout(r, d));
+runPromisesInSeries([() => delay(1000), () => delay(2000)]);
+// Executes each promise sequentially, taking a total of 3 seconds to complete.
+```

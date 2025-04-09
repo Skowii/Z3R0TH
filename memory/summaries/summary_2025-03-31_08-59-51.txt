@@ -1,0 +1,1 @@
+This Python module offers a user interface for the RP Renamer tool.

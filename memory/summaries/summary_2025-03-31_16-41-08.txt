@@ -1,0 +1,1 @@
+The Sylius/Addressing library is an address and zone management solution for PHP applications, designed for ecommerce and shop use. It requires PHP version 7.4 or 8.0, and is licensed under MIT. Key contributors include Paweł Jędrzejewski and the Sylius project community. The library depends on other Sylius components like Registry and Resource, and Symfony's Intl component.

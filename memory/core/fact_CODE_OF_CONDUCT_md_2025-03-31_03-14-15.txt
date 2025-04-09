@@ -1,0 +1,6 @@
+# SOURCE: CODE_OF_CONDUCT.md
+# TIME: 2025-03-31_03-14-15
+
+The Contributor Covenant Code of Conduct is a pledge made by community members, contributors and leaders to ensure harassment-free participation for everyone regardless of various factors. The code outlines standards of behavior, enforcement responsibilities, scope, and enforcement guidelines. This code is adopted from the Contributor Covenant version 2.1, which provides guidelines on how to enforce the code based on community impact. The code also gives attribution to the Contributor Covenant and shares translation availability links for better understanding.
+
+# TAGS: Contributor Covenant Code of Conduct, pledge, harassment-free experience, diversity and inclusion, open and welcoming environment, acceptable behavior, unacceptable behavior, enforcement responsibilities, community leaders, reporting incidents, privacy and security, Community Impact Guidelines.

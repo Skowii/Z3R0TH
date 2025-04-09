@@ -1,0 +1,6 @@
+Traversing the DOM is crucial for JavaScript and browser applications as it allows you to navigate the DOM tree and find related elements. There are multiple functions to find ancestors, parents, siblings, and children of an element.
+
+1. Get an element's children: Use `Node.childNodes` or `Node.children`, which differ in whether they return all child nodes (including text nodes) or only element nodes. Example: `getChildren(document.querySelector('ul'), false);`.
+2. Get an element's siblings: First, access the parent node using `Node.parentNode`, then get its children, and finally filter out the element itself using `Array.prototype.filter()`. Example: `getSiblings(document.querySelector('head'));`.
+3. Get an element's ancestors: Use a `while` loop with `Node.parentNode` to move up the ancestor tree, adding each new ancestor to the start of the array using `Array.prototype.unshift()`. Example: `getAncestors(document.querySelector('nav'));`.
+4. Match related nodes: Create functions that find related elements based on a specified condition. Example: find ancestors up until an element matched by a selector or the closest anchor element to a given node.

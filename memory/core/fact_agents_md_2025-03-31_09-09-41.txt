@@ -1,0 +1,8 @@
+# SOURCE: agents.md
+# TIME: 2025-03-31_09-09-41
+
+Agents are components in AutoGPT responsible for executing pipelines and specific logic. They extend from the BaseAgent class, which provides the necessary logic to collect components and execute protocols. Important methods include propose_action, which proposes an action based on current state, and execute, which executes the proposed action.
+
+AutoGPT's main agent is a subclass of BaseAgent and includes built-in components. Users can create their own agents by extending Agent or directly subclassing BaseAgent for more customization.
+
+# TAGS: agents, BaseAgent, propose_action, execute, AutoGPT Agent, built-in components, Building your own Agent, MyComponent, MyAgent

@@ -1,0 +1,3 @@
+title: JavaScript Function Methods - call(), apply() and bind()
+
+Summary: Understand the usage of call(), apply() and bind() methods for JavaScript functions. These methods are used to set the 'this' value and pass arguments to a function, with slight differences in their behavior. This guide covers each method's use cases and provides practical examples for better understanding.

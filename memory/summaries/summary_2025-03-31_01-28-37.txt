@@ -1,0 +1,33 @@
+How to prefix a CSS property based on the browser:
+
+1. Check if a specific CSS property is defined in the browser or with vendor prefixes.
+```js
+// Check if the 'appearance' property is defined
+typeof document.body.style.appearance !== 'undefined';
+
+// Check explicitly for the 'webkitAppearance' property
+typeof document.body.style.webkitAppearance !== 'undefined';
+```
+2. Use an array of known browser prefixes to check against each one:
+```js
+const prefixes = ['', 'webkit', 'moz', 'ms', 'o'];
+```
+3. Prefixed properties can be checked using the camel-cased attribute of `CSSStyleDeclaration` interface:
+```js
+const prop = 'appearance';
+const prefixes = ['', 'webkit', 'moz', 'ms', 'o'];
+const capitalizedProp = prop.charAt(0).toUpperCase() + prop.slice(1);
+prefixes.map(prefix => (prefix ? prefix + capitalizedProp : prop));
+```
+4. Use `Array.prototype.findIndex()` to check if the prefixed properties are defined in the `CSSStyleDeclaration` object:
+```js
+const prefix = prop => {
+   const capitalizedProp = prop.charAt(0).toUpperCase() + prop.slice(1);
+   const prefixes = ['', 'webkit', 'moz', 'ms', 'o'];
+   const i = prefixes.findIndex(
+       prefix => typeof document.body.style[prefix ? prefix + capitalizedProp : prop] !== 'undefined'
+   );
+   return i !== -1 ? (i === 0 ? prop : prefixes[i] + capitalizedProp) : null;
+};
+prefix('appearance');
+```

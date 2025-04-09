@@ -1,0 +1,9 @@
+# SOURCE: tsconfig.json
+# TIME: 2025-03-31_04-39-04
+
+Exclude specific directories from TypeScript configuration:
+1. Dist folder
+2. Node_modules folder
+3. Cypress folder
+
+# TAGS: extends, tsconfig.common.json, exclude, dist, node_modules, cypress

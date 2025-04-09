@@ -1,0 +1,6 @@
+# SOURCE: LICENSE_EE.md
+# TIME: 2025-03-31_05-11-40
+
+The n8n Enterprise License allows usage only with a valid enterprise license. You can modify and publish patches for this software without needing a subscription but need an enterprise license to use it in production. All modifications and/or patches belong to n8n and its licensors, and can only be used with the corresponding enterprise license. You may not copy, merge, publish, distribute, sublicense, or sell the software without the express permission. The software is provided "as is" without warranty of any kind. Third-party components are licensed under their original licenses provided by their owners.
+
+# TAGS: key concepts: n8n Enterprise License, usage, valid n8n Enterprise license, modifications, patches, development and testing purposes, rights, copying, merging, publishing, distribution, sublicensing, selling, Software as is, warranty, claims, damages, liability, third party components, original licenses

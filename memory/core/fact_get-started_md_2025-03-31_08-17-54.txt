@@ -1,0 +1,11 @@
+# SOURCE: get-started.md
+# TIME: 2025-03-31_08-17-54
+
+AutoGPT Forge is a ready-to-go template for building your own AI agent application. It simplifies the process by handling all boilerplate code, allowing you to focus on creating unique and intelligent agent logic. To get started with AutoGPT Forge:
+
+1. Fork or download the AutoGPT repository.
+2. Look at the example agent in `classic/forge/agent/forge_agent.py`.
+3. Learn about built-in components located in `classic/forge/components/`.
+4. Follow the tutorial series to guide you through setting up your project and building a generalist agent.
+
+# TAGS: AutoGPT Forge, boilerplate code, brain-centric development, tooling ecosystem, components, getting started tutorial series

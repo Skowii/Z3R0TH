@@ -1,0 +1,1 @@
+Create a URL-friendly slug from a string using Python and regular expressions. First, normalize the input string with `str.lower()` and `str.strip()`. Then, use `re.sub()` to replace spaces, dashes, underscores, and special characters with hyphens, and remove extra hyphens. The slugified output is a human-readable URL.

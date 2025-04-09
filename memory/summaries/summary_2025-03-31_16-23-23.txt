@@ -1,0 +1,11 @@
+Before making a pull request, ensure:
+1. The tutorial(s) don't already exist.
+2. Tutorial is under correct language/technology.
+3. Improvements of the same tutorial are welcome.
+4. Pull request title is descriptive.
+5. Create a new entry for unlisted languages/technologies.
+6. Make separate pull requests for each tutorial.
+7. Use the specified format for titles and links.
+8. Check spelling, grammar, and follow CONTRIBUTING file.
+9. Remove trailing whitespaces and use Google URL Shortener if needed.
+10. Contact tuvtran97@gmail.com for suggestions or improvements.

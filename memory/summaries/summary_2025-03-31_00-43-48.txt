@@ -1,0 +1,1 @@
+An Immediately Invoked Function Expression (IIFE) is a JavaScript function that executes immediately upon evaluation. It typically includes an anonymous function, enclosed in parentheses to call the function and any arguments. IIFEs are often used to isolate code and variables from the global scope for better organization and readability.

@@ -1,0 +1,1 @@
+Learn how to use `git fetch` command to retrieve the latest changes from a remote repository without applying them to your local repo, which helps keep your workspace up-to-date before merging.

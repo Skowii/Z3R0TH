@@ -1,0 +1,3 @@
+# 🔗 https://www.python.org/
+
+Compound Data Types Lists (known as arrays in other languages) are one of the compound data types that Python understands. Lists can be indexed, sliced and manipulated with other built-in functions. More about lists in Python 3

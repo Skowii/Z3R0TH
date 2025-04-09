@@ -1,0 +1,5 @@
+1. Create small pull requests with atomic, well-documented commits.
+2. Provide clear descriptions of the code, feature, or bug being addressed.
+3. Rebase onto the master branch for easier merging and quicker review times.
+4. Self-review your code to handle low-hanging fruits and ensure clarity.
+5. Respond to reviews promptly, discuss changes, and maintain a positive attitude.

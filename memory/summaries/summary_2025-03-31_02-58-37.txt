@@ -1,0 +1,9 @@
+Boost your productivity with these 7 must-have Google Chrome extensions for web developers:
+
+1. CSS Peeper: Inspect styles, fonts, color palettes, and assets of any website.
+2. React Developer Tools: Essential inspection tools for React applications.
+3. LastPass: Secure account and API key management with password generation and password-protected notes.
+4. uBlock Origin: Effective ad blocker extension for a clutter-free browsing experience.
+5. VisBug: Tweak website designs on the fly using intuitive controls without code access.
+6. JSON Viewer: Syntax highlighting and style customization for JSON responses in web APIs.
+7. EditThisCookie: Manage cookies by adding, deleting, editing, exporting, and importing them quickly and efficiently.

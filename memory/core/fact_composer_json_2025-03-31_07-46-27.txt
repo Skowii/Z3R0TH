@@ -1,0 +1,9 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-46-27
+
+This knowledge contains information about a test application called "example/test-application". The application's name is provided as the main data point. Tagged as "example", it can be used for various purposes in the context of software development, testing, or learning.
+
+# TAGS: Key Concepts: example, test-application
+Keywords: name
+People: N/A
+Dates: N/A

@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-43-04
+
+SyliusMoneyBundle is an integration of Symfony2 with the PHP Money library, which is an open-source eCommerce solution built from decoupled components and a powerful API for highest quality code. Documentation can be found at docs.sylius.com. Contributions are welcome, and issues can be reported on GitHub. The bundle was originally created by Paweł Jędrzejewski, with contributions from various authors.
+
+# TAGS: Key Concepts: SyliusMoneyBundle, Symfony2 integration, PHP Money library, Sylius, Open Source eCommerce solution, API, highest quality code, sylius.com, docs.sylius.com, contributing, following development, Official Blog, Twitter, Facebook, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

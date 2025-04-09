@@ -1,0 +1,16 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_01-13-48
+
+Kubernetes: 
+- Open source system for managing containerized applications across multiple hosts
+- Provides deployment, maintenance, and scaling of applications
+- Hosted by the Cloud Native Computing Foundation (CNCF)
+- Documentation available at kubernetes.io
+- Community repository provides details on building and contributing to K8s
+- Developer's documentation covers building from source
+- Supports communication through various channels
+- Adopters listed in User Case Studies
+- Governed by a framework of principles, policies, and processes
+- Roadmap provided in the Kubernetes Enhancements repo
+
+# TAGS: Kubernetes (K8s), containerized applications, Cloud Native Computing Foundation (CNCF), Borg, community repository, Go environment, Docker environment, kubernetes.io, Scalable Microservices with Kubernetes, developer's documentation, troubleshooting guide, communication, community meetings, adopters, user case studies, governance

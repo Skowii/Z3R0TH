@@ -1,0 +1,27 @@
+# SOURCE: type_system.py
+# TIME: 2025-03-31_02-25-03
+
+arow):
+            return format("["+str(self.type_elt)+"]")
+        elif isinstance(self.type_elt,List):
+            return "[" + str(self.type_elt) + "]"
+        else:
+            return "["+format(self.type_elt)+"]"
+
+# TAGS: Objective: define a type system
+Type: class that represents a type
+Type Equality: __eq__ method
+Deterministic hash: using PYTHONHASHSEED environment variable
+PolymorphicType: base type for polymorphic types
+PrimitiveType: basic data types (e.g., integer, float)
+Arrow: a function type, consisting of input and output types
+List: represents a list type with an element type
+UnknownType: used as placeholder for incomplete information
+
+Methods:
+- returns(): returns the type if it's Arrow, otherwise returns itself
+- arguments(): returns the arguments of the type (i.e., input/output types)
+- list_ground_types(polymorphic=False): lists the ground types reachable from this type without considering polymorphic types
+- ends_with(other): checks if other is a suffix of self, returning the list of arguments
+- size(): returns the size of the type (number of layers in the hierarchy)
+- find_polymorphic_types(): finds all polymorphic types in the type, using recursion

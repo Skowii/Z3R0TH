@@ -1,0 +1,1 @@
+The content provided is a JSON object with the key "name" and value "example/test-application", representing a test application's name.

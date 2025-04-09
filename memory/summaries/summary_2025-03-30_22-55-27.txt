@@ -1,0 +1,1 @@
+Learn how to amend the last commit's message or contents using Git. To change the message, use `git commit --amend -m <message>` and for changing contents without modifying the message, stage the desired changes first and then run `git commit --amend --no-edit`.

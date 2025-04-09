@@ -1,0 +1,1 @@
+The WAVMetadata class is a data class for encoding, storing and displaying metadata information about a WAV file. It includes attributes for encoding (PCMEncoding), frame rate (float), number of channels (int) and total frames (int or None). The class also has a property that calculates the duration of the audio in seconds by dividing the total frames by the frame rate.

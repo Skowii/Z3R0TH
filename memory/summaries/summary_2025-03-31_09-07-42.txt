@@ -1,0 +1,1 @@
+To run the example, first install Docker if not already done. Then, execute the command `./build_and_run.sh` to build and run the project.

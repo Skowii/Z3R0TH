@@ -1,0 +1,18 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-25-04
+
+Type: Library
+Name: sylius/core
+Description: Sylius e-commerce core integrates all components for a shop or store.
+Keywords: shop, ecommerce, core, store, sylius
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Requirements: php 7.4 or 8.0, knplabs/gaufrette, payum/payum, php-http/guzzle6-adapter, sylius/addressing, sylius/attribute, sylius/channel, sylius/currency, sylius/customer, sylius/inventory, sylius/locale, sylius/order, sylius/payment, sylius/product, sylius/promotion, sylius/registry, sylius/resource, sylius/review, sylius/shipping, sylius/taxation, sylius/taxonomy, sylius/user, symfony/http-foundation, symfony/mime, symfony/string, webmozart/assert, laminas/laminas-stdlib
+Requirements dev: phpspec/phpspec, symfony/property-access
+Config bin-dir: bin
+Extra branch-alias: dev-master -> 1.9-dev
+Autoload psr-4: Sylius\Component\Core\
+Autoload-dev psr-4: Sylius\Component\Core\spec\
+
+# TAGS: sylius/core, library, ecommerce core, shop, ecommerce, core, store, sylius, https://sylius.com, MIT, Paweł Jędrzejewski, https://pjedrzejewski.com, Sylius project, https://sylius.com, Community contributions, https://github.com/Sylius/Sylius/contributors, php7.4, php8.0, knplabs/gaufrette, payum/payum, php-http/guzzle6-adapter, sylius/addressing, sylius/attribute, sylius/channel, sylius/currency, sylius/customer, sylius/inventory, sylius/locale, sylius/order, sylius/payment, sylius/product, sylius/promotion, sylius/registry, sylius/resource, sylius/review, sylius/shipping, sylius/taxation, sylius/taxonomy, sylius/user, symfony/http-foundation, symfony/mime, symfony/string, webmozart/assert, laminas/laminas-stdlib, phpspec/phpspec, symfony/property-access

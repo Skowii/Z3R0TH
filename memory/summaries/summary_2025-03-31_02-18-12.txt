@@ -1,0 +1,33 @@
+Implement a singleton pattern in JavaScript using the Proxy object, focusing on the `handler.construct()` trap which is used for customizing the instance creation process. The given class should only have one instance and it can be used with other classes as well by providing additional traps for specific operations. Here's a basic function to convert any class into a singleton:
+
+```js
+const singletonify = (className) => {
+  return new Proxy(className.prototype.constructor, {
+    instance: null,
+    construct: (target, argumentsList) => {
+      if (!this.instance) {
+        this.instance = new target(...argumentsList);
+      }
+      return this.instance;
+    }
+  });
+}
+```
+
+Example usage:
+
+```js
+class MyClass {
+  constructor(msg) {
+    this.msg = msg;
+  }
+  printMsg() {
+    console.log(this.msg);
+  }
+}
+MySingletonClass = singletonify(MyClass);
+const myObj = new MySingletonClass('first');
+myObj.printMsg(); // 'first'
+const myObj2 = new MySingletonClass('second');
+myObj2.printMsg(); // 'first'
+```

@@ -1,0 +1,1 @@
+The Auto-GPT Benchmarks report includes results for several tests, such as writing a file, searching the internet, reading files, and generating content based on two files. The benchmarking shows that the agent was able to complete some tasks such as "TestWriteFile" and "TestPlanCreation", but struggled with others like "TestSearch" and "TestReadFile".

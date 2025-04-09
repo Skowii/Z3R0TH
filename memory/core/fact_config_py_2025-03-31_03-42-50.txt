@@ -1,0 +1,7 @@
+# SOURCE: config.py
+# TIME: 2025-03-31_03-42-50
+
+The given information refers to an Instagram user with the username "example_username" and password "example_password". These credentials are used for accessing or interacting with this specific user's account.
+
+# TAGS: IG_USERNAME: example_username
+IG_PASSWORD: example_password

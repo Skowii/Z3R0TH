@@ -1,0 +1,1 @@
+Real Python provides bonus materials, exercises, and example projects for their Python tutorials on GitHub. The materials are regularly updated with consistent code style checked by Ruff and Black tools. Contributors can run code formatters such as Black to ensure PEP-8 compliance before committing changes. For support, join the weekly Office Hours calls or the RP Community Chat.

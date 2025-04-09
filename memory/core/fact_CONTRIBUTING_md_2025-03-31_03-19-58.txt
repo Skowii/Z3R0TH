@@ -1,0 +1,10 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_03-19-58
+
+Project Summary:
+- For .NET developers using C# for NLP or AI Bot platform development
+- Contribute to the project by forking and submitting a Pull Request
+- Show support by starring the project
+- Join the Gitter community (https://gitter.im/botsharpcore/Lobby)
+
+# TAGS: .NET developer, C#, natural language processing, AI Bot platform, business processes, fork project, Pull Request, star project, Gitter, botsharpcore, Lobby

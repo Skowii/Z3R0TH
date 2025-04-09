@@ -1,0 +1,1 @@
+This article explains how to push and pull changes between local and remote repositories using Git. To push changes, set up a remote tracking branch and use `git push`. To pull changes, set up a remote tracking branch with `git checkout`, then use `git pull`. If there is a local branch with the same name as the remote one, use the `-b` and `--track` flags with `git checkout`.

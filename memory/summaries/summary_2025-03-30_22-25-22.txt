@@ -1,0 +1,1 @@
+Customize the starting number of ordered HTML lists using the "start" attribute in the <ol> tag. This allows specifying the desired starting number for the list, applicable to both main and nested order lists. The "start" attribute works with various list-style types including Roman numerals and alphabetic characters.

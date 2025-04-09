@@ -1,0 +1,1 @@
+Create a progress bar indicating the scroll percentage of a page using CSS and JavaScript. In CSS, create a fixed position div element with a width based on the scroll percentage. In JavaScript, use EventTarget.addEventListener() to listen for the 'scroll' event and apply the calculated scroll percentage value to the progress bar's width.

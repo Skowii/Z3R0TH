@@ -1,0 +1,83 @@
+# SOURCE: README.md
+# TIME: 2025-03-30_21-49-17
+
+Chech
++ [Croatian / hrvatski](books/free-programming-books-hr.md)
++ [Dz / دز](books/free-programming-books-dz.md)
++ [Estonian / eesti](books/free-programming-books-et.md)
++ [Finnish / suomi](books/free-programming-books-fi.md)
++ [French / français](books/free-programming-books-fr.md)
++ [German / Deutsche](books/free-programming-books-de.md)
++ [Greek / Ελληνικά](books/free-programming-books-el.md)
++ [Hebrew / עברית](books/free-programming-books-he.md)
++ [Hungarian / magyar](books/free-programming-books-hu.md)
++ [Indonesian / bahasa Indonesia](books/free-programming-books-id.md)
++ [Italian / italiano](books/free-programming-books-it.md)
++ [Japanese / 日本語](books/free-programming-books-ja.md)
++ [Kannada / ಕನ್ನಡ](books/free-programming-books-kn.md)
++ [Kazakh / қазағы](books/free-programming-books-kk.md)
++ [Korean / 한국어](books/free-programming-books-ko.md)
++ [Latvian / latviešu](books/free-programming-books-lv.md)
++ [Lithuanian / lietuvių](books/free-programming-books-lt.md)
++ [Malayalam / മലയാളം](books/free-programming-books-ml.md)
++ [Marathi / मराठी](books/free-programming-books-mr.md)
++ [Norwegian / norsk](books/free-programming-books-no.md)
++ [Oromo /  afan oromo](books/free-programming-books-om.md)
++ [Persian / فارسی](books/free-programming-books-fa.md)
++ [Polish / język polski](books/free-programming-books-pl.md)
++ [Portuguese / português](books/free-programming-books-pt.md)
++ [Romanian / română](books/free-programming-books-ro.md)
++ [Russian / русский язык](books/free-programming-books-ru.md)
++ [Serbian / српски језик](books/free-programming-books-sr.md)
++ [Slovak / slovenčina](books/free-programming-books-sk.md)
++ [Spanish / español](books/free-programming-books-es.md)
++ [Swahili / स्वाहिली](books/free-programming-books-sw.md)
++ [Tamil / தமிழ்](books/free-programming-books-ta.md)
++ [Thai / ไทย](books/free-programming-books-th.md)
++ [Turkish / Türkçe](books/free-programming-books-tr.md)
++ [Ukrainian / українська мова](books/free-programming-books-uk.md)
++ [Urdu / اردو](books/free-programming-books-ur.md)
++ [Vietnamese / Tiếng Việt](books/free-programming-books-vi.md)
++ [Wolof /  wspa](books/free-programming-books-wo.md)
++ [Yoruba / èdè ẹ̀yàn àgbájúpọ́ / Eʋegbe gbómìòsì](books/free-programming-books-yo.md)
+
+[More Languages](https://github.com/EbookFoundation/free-programming-books-zh_CN/blob/main/docs/list.md#%E5%BE%AE%E4%B8%AD%E6%9C%8D%E8%A7%81)
+
+---
+
+<p align="center">
+  <a href="https://www.freecodecamp.org/news/best-programming-books-to-read/" target="_blank" rel="noopener noreferrer">Best programming books to read</a>
+</p>
+
+
+---
+
+<p align="center">
+  <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noopener noreferrer">Free Programming Books</a>
+</p>
+
+This repository is a collection of programming books curated by the [freeCodeCamp.org](https://www.freecodecamp.org/) community. These books cover many languages and technologies, which make them an excellent resource for developers of all skill levels. They are all free to download and use.
+
+To contribute or request new content for this repo, you can submit a pull request or open an issue.
+
+# TAGS: dedicated to making high quality educational content available for everyone.
+
+# Contributing
+
+We welcome all contributions and appreciate any improvements you can make! Please follow these guidelines: [How to Contribute](https://github.com/EbookFoundation/free-programming-books/blob/main/contribution_guidelines.md).
+
+Please also read the [Code of Conduct](https://github.com/EbookFoundation/free-programming-books/blob/main/CODE_OF_CONDUCT.md) to ensure a positive contribution experience for everyone involved.
+
+# License
+
+The source code for this repo is available under the [MIT license](https://opensource.org/licenses/MIT), and this list of books themselves are freely available, under their respective licenses (usually CC BY-SA or similar).
+
+Please note that some of these books may still have [copyleft conditions](https://en.wikipedia.org/wiki/Copyleft) which require you to share any derivative works based on them, and to give attribution.
+
+This list is not comprehensive, but it includes a wide range of languages and topics. Many of the books listed here were created by passionate volunteers who want to contribute to the world's knowledge base. We encourage you to add more resources if they meet our contribution guidelines.
+
+# Credits
+
+Special thanks to [@karanbhangui](https://github.com/karanbhangui) and [@georgestocker](https://github.com/georgestocker) for their initial work on the list. Thanks also to [@victor-felder](https://github.com/victor-felder) for moving this list to GitHub and maintaining it for many years.
+
+Finally, thanks to all our contributors over time who have helped make this list as good as it is today!

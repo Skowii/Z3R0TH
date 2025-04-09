@@ -1,0 +1,1 @@
+This code defines an asynchronous function 'async_range' that takes start and end values, iterates through them with a sleep time of 0.5 seconds between each, and yields the current value. It also defines the main function using an async for loop to call the async_range function, printing the output. The asyncio.run(main()) starts the execution of the program.

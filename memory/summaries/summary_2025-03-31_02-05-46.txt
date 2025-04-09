@@ -1,0 +1,7 @@
+Word wrap a JavaScript string to a given number of characters using a string break character. To do this, use regular expression magic:
+
+1. `[^\n]{1,32}` matches any non-newline character up to 32 times and captures it.
+2. Add `\s` outside the group to ensure no whitespace is captured.
+3. Use negative lookahead (`?!`) to prevent matching at the end of the string.
+4. Replace matched sequences with captured groups and newline characters using `String.prototype.replace()`.
+5. Create a generic function using the `RegExp()` constructor for dynamic maximum length.

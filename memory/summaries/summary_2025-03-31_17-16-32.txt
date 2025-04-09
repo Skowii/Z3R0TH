@@ -1,0 +1,8 @@
+To submit an agent to the AutoGPT Marketplace:
+1. Build a completed agent using the AutoGPT Builder and save it.
+2. Access the Submission Form by navigating to the marketplace and clicking "Submit Agent."
+3. Select your agent from the dropdown menu.
+4. Fill out required information, including a description, author name, keywords, and category.
+5. Review and agree to the marketplace terms.
+6. Click "Submit" to complete the submission.
+7. The AutoGPT team will review your submission, after which your agent will appear in the marketplace as a new listing if approved.

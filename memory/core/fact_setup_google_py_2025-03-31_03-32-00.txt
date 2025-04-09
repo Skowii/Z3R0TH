@@ -1,0 +1,20 @@
+# SOURCE: setup_google.py
+# TIME: 2025-03-31_03-32-00
+
+File Summary: 
+- CLIENT_SECRET_FILE: 'secret.json'
+- API_NAME: 'youtube'
+- API_VERSION: 'v3'
+- SCOPES: ['https://www.googleapis.com/auth/youtube.upload']
+- service object from Create_Service function using these variables
+
+Tags:
+- File Summary, Client Secret File, API Name, API Version, Scope, Service Object
+
+# TAGS: - Create_Service
+- CLIENT_SECRET_FILE
+- API_NAME
+- API_VERSION
+- SCOPES
+- service
+- setup_google.py

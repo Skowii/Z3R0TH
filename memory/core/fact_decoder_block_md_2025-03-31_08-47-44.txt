@@ -1,0 +1,6 @@
+# SOURCE: decoder_block.md
+# TIME: 2025-03-31_08-47-44
+
+Text Decoder is a tool that converts text containing escaped characters like '\n' for new lines and '\"' for quotation marks into regular, readable text. It identifies special character sequences in the input text and replaces them with their actual representations. The input is a string of text, and the output is the decoded version of the text. This tool can be useful when working with data from various sources where text might be encoded to preserve special characters.
+
+# TAGS: key concepts: Text Decoder, converts, special characters, readable text, escape characters, Inputs, Outputs, use case

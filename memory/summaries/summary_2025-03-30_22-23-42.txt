@@ -1,0 +1,1 @@
+Improve website performance by implementing image lazy loading using the native HTML 'loading' attribute. This technique defers image loading until they are about to be viewed, optimizing page performance and ensuring a seamless browsing experience. Add 'loading="lazy"' to images for this feature in modern browsers; it is not supported in legacy browsers like IE.

@@ -1,0 +1,1 @@
+MutableString is a subclass of UserString, providing methods to set and delete individual characters, uppercase and lowercase all characters, and sort the string. It utilizes Python's built-in list functionality for efficient manipulation of string data.

@@ -1,0 +1,15 @@
+# SOURCE: 2020_03_03_api_product_option_values.md
+# TIME: 2025-03-31_05-48-19
+
+Date: 2020-03-03
+
+API - Product Option Value
+In version 1.8.0 (?)
+Related PRs: #11136, #11144, #11157
+
+Description:
+To cover all `ProductOption` related functionality provided by the Admin panel via API, we had to decide on how to handle the Product Option's values collection. The decision was made to always provide Product option values with their Internationalized Resource Identifiers (IRIs), as they can exist outside of the `ProductOption`. Values embedded together with translations in the `ProductOption` would result in a massive and unmanageable response.
+
+# TAGS: Key Concepts: API, Product Option Value, Power from version, PRs, Admin panel, Problem to solve, Context, Solutions, Decision and reasoning, IRIs, Internationalized Resource Identifier, ProductVariant, Translations
+People: Not mentioned
+Dates: 2020-03-03

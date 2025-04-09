@@ -1,0 +1,33 @@
+# SOURCE: building_challenges.md
+# TIME: 2025-03-31_08-20-41
+
+To get started on creating challenges for AutoGPT, you need to understand that these challenges act like a user who wants something done. The user's desire is the input (INPUT) - this could be a text, files or other inputs. The output of the challenge is an artifact (OUTPUT) - which could be files, images, code, etc.
+
+Here are some points to remember:
+
+1. You will need to define your agent in `https://github.com/Significant-Gravitas/AutoGPT/blob/master/classic/original_autogpt/tests/integration/agent_factory.py`. This involves creating a fixture for the agent.
+
+2. The challenges are not written using a specific framework. They should be very agnostic, working with any framework.
+
+3. Create your challenge by adding a file to `tests/challenges` folder. Ensure it is appropriately named and tagged. If there is no category for the challenge, you can create one.
+
+4. The challenge should include a mocking of user inputs using pytest's monkeypatch utility. This will enable the agent to interact with the challenge.
+
+5. Once the interaction is complete, it's time to check if the output fulfills the task at hand. In most cases, this involves checking the content of an artifact or file that was created as a result of the interaction.
+
+Remember, the goal here is to create challenges that will push AutoGPT to its limits and test its capabilities. Be creative and have fun!
+
+# TAGS: "Create a Kubernetes deployment template and save it as a kube.yaml."]
+    with contextlib.suppress_context(monkeypatch):
+        agent = kubernetes_agent(agent_test_config, workspace)
+        
+    with yaml.safe_load(write_to_file("kube.yaml", "{}")) as file_content:
+        monkeypatch.setattr(run_interaction_loop, "input_sequence", input_generator(input_sequence))
+
+    with run_multiple_times() as count:
+        agent.run_interactions(prompt=agent.triggering_prompt)
+
+    assert file_content["spec"]["template"]["metadata"]["name"] == "test-deployment"
+```
+
+Remember to add `pytest` and `vcr` markers to your tests, as well as the `@contextlib.suppress_context(monkeypatch)` decorator if you are using monkeypatch.

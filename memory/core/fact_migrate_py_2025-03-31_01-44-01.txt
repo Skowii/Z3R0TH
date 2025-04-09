@@ -1,0 +1,78 @@
+# SOURCE: migrate.py
+# TIME: 2025-03-31_01-44-01
+
+end_version > current_version:
+    vprint("Upgrading Cluster from 1.1 to 1.2")
+    queue_keys = i_redis_conn.keys("*:queue")
+    
+    for queue in queue_keys:
+        elements = queue.split(":")
+        spider = elements[0]
+        
+        if len(elements) == 2:
+            vprint("Upgrading " + spider + "spider")
+            old_count = i_redis_conn.zcard(queue)
+            
+            current_count = 0
+            # loop through all elements
+            for item in i_redis_conn.zscan_iter(queue):
+                current_count += 1
+                
+                if current_count % 10 == 0:
+                    vprint("count: " + str(current_count), 2)
+                
+                item_key = item[0]
+                try:
+                    item = pickle.loads(item_key)
+                except:
+                    vprint("Found unloadable item, skipping", 1)
+                    continue
+                
+                # format key
+                ex_res = extract(item['url'])
+                key = "{sid}:{dom}.{suf}:queue".format(
+                    sid=item['spiderid'],
+                    dom=ex_res.domain,
+                    suf=ex_res.suffix)
+                
+                val = pickle.dumps(item, protocol=-1)
+                
+                # shortcut to shove stuff into the priority queue
+                o_redis_conn.zadd(key, {val: -item['priority']})
+                
+            # loop through all new keys
+            new_count = 0
+            for key in o_redis_conn.keys('{s}:*:queue'.format(s=spider)):
+                new_count = new_count + i_redis_conn.zcard(key)
+                
+            if new_count == old_count:
+                vprint("Successfully migrated " + str(new_count) + "requests for"
+                    + spider + "spider")
+                i_redis_conn.delete(queue)
+            else:
+                vprint("Unknown error when migrating requests {o}/{n}"
+                        .format(o=old_count, n=new_count))
+                result = query_yes_no("Continue?") if not args['yes'] else True
+                if result:
+                    pass
+                else:
+                    sys.exit(0)
+    
+    end_version = 1.2
+    
+except Exception as e:
+    vprint("Error during migration")
+    print e, 1
+else:
+    vprint("Migration complete in {t}".format(t=time.time() - start_time), 1)
+
+# TAGS: "start_version": current_version,
+ "end_version": end_version,
+ "input_redis_host": irh,
+ "input_redis_port": irp,
+ "input_redis_db": ird,
+ "input_redis_password": irP,
+ "output_redis_host": orh,
+ "output_redis_port": orp,
+ "output_redis_db": ord,
+ "output_redis_password": orP,

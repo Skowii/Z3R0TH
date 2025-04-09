@@ -1,0 +1,5 @@
+The code imports httpx and pandas libraries, reads a CSV file into a data frame named 'websites', and then defines a function called 'check_connection' to verify if a website is online. The function uses an HTTP request to try connecting to the website. It checks whether it receives a successful response or not. If it does, it prints that the website is online.
+
+Next, the code iterates through the rows of websites using various techniques: .itertuples(), .iterrows() and list comprehension are all used, each creating a list which is immediately discarded after use. Each method essentially calls 'check_connection' on every row in the data frame to see if they are online.
+
+The final section demonstrates how to transpose and cast the data frame into a dictionary and then iterate through its values using a for loop. Lastly, it uses .agg() function to aggregate over columns and calculates 'total_views' sum and 'average_views' mean for all rows in the data frame.

@@ -1,0 +1,36 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-39-51
+
+Name: sylius/inventory
+Type: Library
+Description: Flexible inventory management for PHP applications.
+Keywords: shop, ecommerce, stock, inventory, sylius
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Requirements: php (>=7.4 || >=8.0), sylius/resource (>=1.7), webmozart/assert (^1.8)
+Dev Requirements: phpspec/phpspec (>=7.0)
+Config: bin-dir = "bin"
+Extra: branch-alias (dev-master = "1.9-dev)
+Autoload: psr-4 (Sylius\\Component\\Inventory\\ = "")
+Autoload Dev: psr-4 (Sylius\\Component\\Inventory\\spec\\ = "spec/")
+Repositories: path (type, url "../../*/*")
+Minimum Stability: dev
+Prefer Stable: true
+
+# TAGS: name: sylius/inventory
+type: library
+description: Flexible inventory management for PHP applications.
+keywords: shop, ecommerce, stock, inventory, sylius
+homepage: https://sylius.com
+license: MIT
+authors: [Paweł Jędrzejewski, Sylius project, Community contributions]
+require: [php (^7.4 || ^8.0), sylius/resource (^1.7), webmozart/assert (^1.8)]
+require-dev: [phpspec/phpspec (^7.0)]
+config: bin-dir
+extra: branch-alias
+autoload: [psr-4]
+autoload-dev: [psr-4]
+repositories: [path, type, url]
+minimum-stability: dev
+prefer-stable: true

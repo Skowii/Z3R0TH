@@ -1,0 +1,21 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-44-25
+
+Sylius Taxonomy is a PHP library for categorizing domain models in ecommerce projects. It provides taxonomies, taxons, and classification capabilities. The library requires PHP 7.4 or 8.0, and is built on components like Behat Transliterator, Webmozart Assert, PhpSpec, and Sylius Resource. The project's homepage is https://sylius.com, and it is licensed under the MIT license. The authors include Paweł Jędrzejewski, the Sylius project, and community contributors.
+
+# TAGS: name: sylius/taxonomy
+type: library
+description: Taxonomies - categorization of domain models in PHP projects.
+keywords: taxonomy, ecommerce, categorization, taxon, classification
+homepage: https://sylius.com
+license: MIT
+authors: Paweł Jędrzejewski, Sylius project, Community contributions
+require: php (^7.4 || ^8.0), behat/transliterator (^1.3), sylius/resource (^1.7), webmozart/assert (^1.8)
+require-dev: phpspec/phpspec (^7.0)
+config: bin-dir (bin)
+extra: branch-alias (dev-master: "1.9-dev")
+autoload: psr-4 (Sylius\\Component\\Taxonomy\:\ "\")
+autoload-dev: psr-4 (Sylius\\Component\\Taxonomy\\spec\\: "spec/\")
+repositories: [type: path, url: "../../*/*"]
+minimum-stability: dev
+prefer-stable: true

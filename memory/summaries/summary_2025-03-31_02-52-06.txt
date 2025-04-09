@@ -1,0 +1,3 @@
+This JavaScript information concisely:
+
+Check if an array includes any or all values from another array. Use `Array.prototype.includes()` and `Array.prototype.some()` or `Array.prototype.every()`, respectively, to perform this task. The code snippets might perform poorly for large arrays, so consider using a `Set` for improved performance.

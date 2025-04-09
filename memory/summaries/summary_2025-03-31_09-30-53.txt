@@ -1,0 +1,1 @@
+The ASGI config for the flashcards project sets up the ASGI callable as the module-level variable 'application'. It uses Django's get_asgi_application function and environment variables to configure the deployment.

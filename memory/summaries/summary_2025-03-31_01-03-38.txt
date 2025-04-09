@@ -1,0 +1,15 @@
+Check if a JavaScript collection (array, object, or string) is empty using `Object.keys()` to determine its length. If the value is null or undefined, consider it empty. Example:
+
+```js
+const isEmpty = val =>
+    val === null || val === undefined || !Object.keys(val).length;
+
+isEmpty([]);              // true
+isEmpty([1, 2]);          // false
+isEmpty({});              // true
+isEmpty({ a: 1, b: 2 });  // false
+isEmpty('');              // true
+isEmpty('text');          // false
+isEmpty(null);            // true
+isEmpty(undefined);       // true
+```

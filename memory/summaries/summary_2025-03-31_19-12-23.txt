@@ -1,0 +1,1 @@
+Benchmarking an Auto-GPT model with the following metrics: run time of 95.22 seconds, highest difficulty level reached is basic: 2. The tests include: TestWriteFile - success; TestSearch - failure; TestReadFile - failure; and TestPlanCreation - success.

@@ -1,0 +1,7 @@
+# SOURCE: share-your-logs.md
+# TIME: 2025-03-31_08-25-46
+
+Title: Share logs for AutoGPT improvement
+Tags: AutoGPT, Logs, Debugging, Improvement, Sharing
+
+# TAGS: Key concepts: AutoGPT, share logs, improve AutoGPT, weird behavior, interesting use case, bug report, steps to enable debug logs, e2b, inspect and share logs, upload log folder, add tags to logs, severity

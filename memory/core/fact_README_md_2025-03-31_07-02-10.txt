@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-02-10
+
+SyliusPaymentBundle: an Open Source eCommerce solution for Symfony2 applications created by Paweł Jędrzejewski, part of Sylius, a decoupled component system with powerful API and high-quality code. Documentation available at docs.sylius.com. License under MIT.
+
+# TAGS: Key Concepts: SyliusPaymentBundle, Symfony2, eCommerce applications, Sylius, Open Source eCommerce solution, API, documentation, contributing, Sylius.com, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

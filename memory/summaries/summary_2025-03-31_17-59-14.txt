@@ -1,0 +1,1 @@
+This content is a summary of Auto-GPT benchmark data where an AI agent has been tested on various tasks. The metrics include run time and the highest difficulty level reached, which was intermediate: 4. Tests included file reading/writing, search functions, plan creation, and basic retrieval. The agent successfully completed the tests with varying success rates and run times.

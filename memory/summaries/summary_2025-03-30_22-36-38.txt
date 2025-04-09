@@ -1,0 +1,1 @@
+The useHash and useSearchParam hooks help track the browser's location hash value and search params in React. The useHash hook uses useState() to track the location hash, while the useSearchParam hook uses useState() to track a specific search param using URLSearchParams(). Both hooks utilize useCallback() and useEffect() for updating state and adding/removing event listeners.

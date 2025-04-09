@@ -1,0 +1,1 @@
+This code is referencing the "lightbox2" library and importing it, making the variable "window.lightbox" accessible as the function "lightbox".

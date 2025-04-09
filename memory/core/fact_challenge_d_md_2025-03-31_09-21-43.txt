@@ -1,0 +1,20 @@
+# SOURCE: challenge_d.md
+# TIME: 2025-03-31_09-21-43
+
+Status: Current level to beat: level 1
+Command: pytest -s tests/challenges/memory/test_memory_challenge_d.py --level=1
+
+Description:
+- The provided code is a unit test designed to validate an AI's ability to track events and beliefs of characters in a story involving moving objects, specifically marbles.
+- It involves a series of events and the movements of different marbles with Sally, Anne, Bob, and Charlie as characters. 
+- After processing these events, it is expected that the AI writes down the beliefs of each character about the locations of each marble in JSON format.
+- The test runs for levels up to the maximum level that the AI has successfully beaten or up to a user-selected level.
+
+Files:
+- `instructions_1.txt`
+- ...and so on till `instructions_n.txt`
+- Expected Beliefs for each character at every level is given in JSON format. 
+
+Objective: This test checks if an AI can accurately model and track the beliefs of different characters based on their knowledge of events, which is a critical aspect of understanding and generating human-like narratives.
+
+# TAGS: Memory Challenge D, pytest command, AI's belief tracking, social cognitive abilities, unit test, marbles, Sally-Anne test, expected beliefs, understanding narratives

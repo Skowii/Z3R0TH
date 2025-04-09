@@ -1,0 +1,1 @@
+This line of code is referencing Django's built-in administration module, which allows users to manage their database and create a back-end for administrative tasks. The purpose is to enable developers to register models in the admin interface, simplifying the process of creating and updating databases without needing to write additional code for it.

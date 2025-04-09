@@ -1,0 +1,21 @@
+# SOURCE: requirements.txt
+# TIME: 2025-03-31_04-11-33
+
+The given knowledge includes various package versions and their respective libraries:
+- Google API Python Client: v1.12.8
+- Google Auth OAuthlib: v0.4.2
+- Instaloader: v4.5.5
+- Instalooter: v2.4.4
+- Moviepy: v1.0.3
+- Protobuf: v3.14.0
+- Python Dateutil: v2.8.1
+- Schedule: v0.6.0
+
+# TAGS: google_api_python_client, 1.12.8
+google_auth_oauthlib, 0.4.2
+instaloader, 4.5.5
+instalooter, 2.4.4
+moviepy, 1.0.3
+protobuf, 3.14.0
+python_dateutil, 2.8.1
+schedule, 0.6.0

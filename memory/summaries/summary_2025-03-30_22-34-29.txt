@@ -1,0 +1,10 @@
+Title: An approach to testing stateful React components
+Short title: Stateful component testing
+Language: react
+Tags: [testing]
+Cover: lake-trees
+Excerpt: Testing stateful React components is not difficult, but there's a solution that doesn't involve testing state directly.
+Listed: true
+Date modified: 2021-06-12
+
+Initially, the author tested if a component was rendered properly and events fired correctly by comparing its state directly to expected results. However, this approach may not be ideal in complex codebases where components are frequently refactored or updated. A better method is to focus on testing the UI result derived from combining the component's props and state. Instead of accessing the component's state directly, a test should observe the output of the DOM elements for better documentation and understanding of the component's functionality.

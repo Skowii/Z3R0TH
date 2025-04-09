@@ -1,0 +1,3 @@
+The information concisely:
+
+To find all the images within an element using JavaScript, use `Element.getElementsByTagName()` to obtain an HTMLCollection of elements and convert it into an array using the spread operator. Extract the URLs by iterating over the array with `Array.prototype.map()` and using `Element.getAttribute()`. To eliminate duplicates, use a Set and optionally return the array or converted Set based on desired behavior.

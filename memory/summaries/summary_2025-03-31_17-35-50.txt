@@ -1,0 +1,1 @@
+This code loads JSON data from a file, converts it into a string, encodes the string into bytes, and then converts the bytes to a base64 string. It finally prints the base64 string.

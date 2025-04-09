@@ -1,0 +1,10 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-44-31
+
+{
+    "Name": "Example Test Application",
+    "Description": "File for maintaining proper behavior in Symfony applications."
+    "Tags": ["Symfony", "Application", "Project Directory", "Maintenance"]
+}
+
+# TAGS: Key Concepts: example, test-application, file, maintain, proper behaviour, project dir, Symfony apps.

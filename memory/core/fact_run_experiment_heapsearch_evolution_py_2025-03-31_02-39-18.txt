@@ -1,0 +1,11 @@
+# SOURCE: run_experiment_heapsearch_evolution.py
+# TIME: 2025-03-31_02-39-18
+
+summarize_text: "The code creates a program that uses the Dreamcoder model to generate grammars. The model is tested on different tasks and epochs, with the results stored in a CSV file. Training consists of optimizing the model's performance over multiple epochs."
+
+# TAGS: algorithm: Heap Search
+model: Uniform model (DreamCoder)
+dataset: dreamcoder_gen_results_semantic
+train/test split not performed, using all tasks
+computing solutions...
+filename: algo_Heap Search - Uniform_model - DreamCoder_Gen_Results_Semantic.csv

@@ -1,0 +1,1 @@
+implements a layer between different subsystems to ensure seamless integration and prevent data corruption. It acts as a mediator, translating and adapting data between the two systems while maintaining integrity of business logic. This is particularly useful during system migration or when dealing with legacy systems that do not share the same semantics.

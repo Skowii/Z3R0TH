@@ -1,0 +1,6 @@
+[2025-04-05 23:11:04] [INFO] 🤖 Z3R0THChat initialized with model mistral-openorca (UUID: 01677864-a9b2-4c40-b196-9f53c2152072)
+[2025-04-05 23:11:04] [INFO] 💬 Prompting LLM: Train yourself using the following knowledge:
+
+🤖 IDENTITY:
+# Memory saved: 2025-...
+[2025-04-05 23:13:34] [INFO] ❌ Attempt 1 failed: Command '['ollama', 'run', 'mistral-openorca']' timed out after 150 seconds

@@ -1,0 +1,1 @@
+This content is related to the Sylius package, where jQuery is extended with a toggleElement function. The function allows elements to be toggled based on a change event and their checkbox status, either showing or hiding target elements.

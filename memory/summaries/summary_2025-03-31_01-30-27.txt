@@ -1,0 +1,1 @@
+Calculate the factorial of a number using JavaScript with two approaches: Iterative and Recursive. The iterative approach uses a for loop, while the recursive approach calls itself with smaller inputs until reaching the base case.

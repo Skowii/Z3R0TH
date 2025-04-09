@@ -1,0 +1,1 @@
+Calculate the angle between two vectors in JavaScript using magnitude, scalar product, and arccosine functions. Use `Math.hypot()` to find the magnitudes of each vector, then multiply corresponding elements and sum for the scalar product. Divide the scalar product by the product of magnitudes, and pass this result to `Math.acos()` to get the angle in radians.

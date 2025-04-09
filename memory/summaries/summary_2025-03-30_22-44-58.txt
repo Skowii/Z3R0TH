@@ -1,0 +1,6 @@
+To update a remote branch after rewriting Git history, follow these steps:
+1. Ensure local and remote branches diverge due to history rewrite.
+2. Force update the remote branch with `git push -f`.
+3. Use `git checkout`, `git pull`, and `git rebase` as necessary.
+4. Be aware of potential destructive consequences, especially for shared branches.
+5. Ensure you have permissions to force update remote branches if required.

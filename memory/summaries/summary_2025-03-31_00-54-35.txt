@@ -1,0 +1,13 @@
+Determine the day, week, month, or quarter of the year that a date corresponds to using vanilla JavaScript. 
+
+1. Day of year: Use the `Date` constructor and `getFullYear()` to get the first day of the year as a `Date` object, then subtract the first day from the given `date` and divide by the milliseconds in each day. Round with `Math.floor()`.
+   Example: `const dayOfYear = date => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 86_400_000);`
+   
+2. Week of year: Calculate the first Monday of the year using `setDate()`, `getDate()`, and `getDay()`. Subtract the first Monday from the given `date` and divide by the number of milliseconds in a week. Round with `Math.round()`. 
+   Example: `const weekOfYear = date => Math.round((date - new Date(date.getFullYear(), 0, 1)) / 604_800_000);`
+
+3. Month of year: Use `getMonth()` to get the current month in range 0-11 and add 1 to map it to 1-12.
+   Example: `const monthOfYear = date => date.getMonth() + 1;`
+
+4. Quarter of year: Retrieve the current month, use `Math.ceil()`, and divide by 3 to get the current quarter.
+   Example: `const quarterOfYear = date => Math.ceil(date.getMonth() / 3);`

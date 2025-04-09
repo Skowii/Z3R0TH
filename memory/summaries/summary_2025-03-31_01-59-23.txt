@@ -1,0 +1,1 @@
+Count the occurrences of a value in an array or string using JavaScript methods. To count occurrences in an array, use Array.prototype.reduce() to increment a counter each time the specific value is encountered and return the final count. For strings, use Array.prototype.indexOf() along with a while loop to look for the value and update the index to continue searching.

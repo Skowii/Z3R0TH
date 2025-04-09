@@ -1,0 +1,14 @@
+Swapcase, a JavaScript exercise, involves converting uppercase characters to lowercase and vice versa in a string. To do this:
+
+1. Convert the string to an array of characters using the spread operator.
+2. Use `toLowerCase()` and ternary operators to determine each character's case and convert it to the opposite using `toUpperCase()` or `toLowerCase()`.
+3. Combine the characters back into a string using `join()`.
+
+Here is an example:
+
+```js
+const swapCase = str => [...str]
+  .map(c => (c === c.toLowerCase() ? c.toUpperCase() : c.toLowerCase()))
+  .join('');
+swapCase('Hello world!'); // 'hELLO WORLD!'
+```

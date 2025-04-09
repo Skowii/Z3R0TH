@@ -1,0 +1,7 @@
+A Large Language Model (LLM) block generates structured responses using a large language model. This block takes a prompt, parameters such as the expected format, model, API key, system prompt, retry count, and prompt values, processes the input, and sends it to an LLM. The output is a structured response in a specified format.
+
+An AI Text Generator uses a Large Language Model (LLM) to create text responses from prompts with parameters including the model, API key, system prompt, retry count, and prompt values. The generated text response is the output.
+
+The AI Text Summarizer takes long texts and summarizes them using an LLM. Inputs include text, model, focus, style, API key, max tokens, chunk overlap, while outputs are a final summarized text. This block iteratively breaks down the input text into smaller chunks, sends each to an LLM for summarization, then combines these summaries until reaching a concise summary.
+
+An AI Conversation block facilitates multi-turn conversations using a Large Language Model (LLM), taking inputs like conversation messages, model, API key, and outputs the conversation.

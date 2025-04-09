@@ -1,0 +1,6 @@
+Ambassador is a structural design pattern that decouples a service from the client and delegates shared tasks from a common source. It allows for the development of a service with single instance to provide support to multiple clients, separating concerns and reducing redundancy in requests. This can improve the overall system performance and scalability. The Ambassador pattern is useful when working with older applications or those that are difficult to modify to expand their capabilities in networks. It can also enable a dedicated team to implement these features. The following example demonstrates an implementation of the Ambassador pattern:
+
+1. RemoteServiceInterface - Interface defining the service methods
+2. RemoteService (Singleton) - Implementation of the RemoteServiceInterface as a Singleton
+3. ServiceAmbassador - Wrapper class implementing RemoteServiceInterface, providing additional functionalities like retry and latency checks
+4. Example implementation - Checking latency and returning results

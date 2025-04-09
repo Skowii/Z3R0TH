@@ -1,0 +1,7 @@
+# SOURCE: SECURITY.md
+# TIME: 2025-03-31_05-11-28
+
+Tag: Reporting Vulnerability, Contact for Security Issues
+Summary: To report security vulnerabilities in n8n.io, email your concerns to security@n8n.io and expect a response within 48 hours. The issue will be addressed and patched as soon as possible after confirmation.
+
+# TAGS: key concepts: vulnerability reporting, security vulnerabilities, [security@n8n.io](mailto:security@n8n.io), response time, patch release

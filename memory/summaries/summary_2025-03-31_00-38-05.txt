@@ -1,0 +1,1 @@
+Move elements in a JavaScript array by creating a new array with the elements before and after a specified index using Array.prototype.slice() and spread operator (...). This allows you to move elements either to the beginning or end of the array, depending on the value of the offset.

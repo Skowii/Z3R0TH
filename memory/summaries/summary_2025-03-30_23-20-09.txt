@@ -1,0 +1,1 @@
+To check if a Python list is empty, use the built-in function len() or test the list's truth value with the not operator. Using len(x) will return 0 for an empty list, and using not x will return True for an empty list.

@@ -1,0 +1,1 @@
+JavaScript function helps identify elements wider than the viewport for improved user experience and fixing layout issues. Using Document.querySelectorAll() with a '*' selector and HTMLElement.offsetWidth property, compare each element width with the viewport width. Use Array.prototype.filter() to return array of elements exceeding viewport width.

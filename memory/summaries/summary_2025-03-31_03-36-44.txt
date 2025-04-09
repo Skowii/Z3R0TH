@@ -1,0 +1,48 @@
+@Override
+public int interpret() {
+return number;
+}
+
+@Override
+public String toString() {
+return "NumberExpression{" + "number=" + number + '}';
+}
+}
+```
+The `BinaryExpression` class represents operations like addition and multiplication. It stores a left and right child expression, which are instances of the Expression interface.
+
+```java public abstract class BinaryExpression extends Expression {     private final Expression left;
+     private final Expression right;
+    public BinaryExpression(Expression left, Expression right) {
+        this.left = left;
+        this.right = right;
+    }
+
+    @Override
+    public int interpret() {
+        return left.interpret() + right.interpret();
+    }
+
+    @Override
+    public String toString() {
+        return "BinaryExpression{" + "left=" + left + ", right=" + right + '}';
+    }
+}
+```
+The `Addition` and `Multiplication` classes are concrete implementations of the BinaryExpression class. They evaluate their children expressions as required by the Interpreter pattern in Java.
+
+```java public class Addition extends BinaryExpression {     public Addition(Expression left, Expression right) {         super(left, right);     }
+    @Override
+    public int interpret() {
+        return left.interpret() + right.interpret();
+    }
+}
+
+public class Multiplication extends BinaryExpression {     public Multiplication(Expression left, Expression right) {         super(left, right);     }
+    @Override
+    public int interpret() {
+        return left.interpret() * right.interpret();
+    }
+}
+```
+In summary, the Interpreter pattern in Java simplifies parsing and evaluating arithmetic expressions by translating them into a structured format that the application can process. This design pattern is used to define a grammatical representation for a language and provides an interpreter to handle this grammar.

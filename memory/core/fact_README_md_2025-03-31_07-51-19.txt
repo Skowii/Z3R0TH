@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-51-19
+
+AutoGPT Classic was an experimental project that aimed to demonstrate autonomous GPT-4 operation, allowing it to independently operate and chain together tasks to achieve complex goals. The project has since concluded its initial research phase, but serves as a valuable reference for those interested in autonomous AI agents. Key features of the project included autonomous task chaining, tool and API integration capabilities, memory management, web browsing, file operations, self-prompting, and task breakdown.
+
+# TAGS: AutoGPT Classic, Autonomous GPT-4 Operation, Project Status, Overview, Key Features, Structure, Getting Started, License, Documentation, Historical Impact, Security Notice, Community & Support, Acknowledgments

@@ -1,0 +1,1 @@
+The article explains how to reset the box model in CSS, allowing width and height calculations to include padding and borders. This is achieved by setting the `box-sizing` property to `border-box`. Additionally, it demonstrates how to inherit this property from parent elements using `box-sizing: inherit`.

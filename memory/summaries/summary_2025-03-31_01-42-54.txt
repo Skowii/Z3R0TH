@@ -1,0 +1,8 @@
+Create your own query selector shorthand in vanilla JavaScript using `Document.querySelector()`, `Document.querySelectorAll()`, and `Function.prototype.bind()`. Example code:
+
+```js
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+const mainContent = $('.main-content');
+const externalLinks = $$('a[target="_blank"]');
+```

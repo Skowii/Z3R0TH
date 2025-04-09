@@ -1,0 +1,1 @@
+Optimize your local Git repository by garbage collecting loose objects using the command `git gc --prune=now --aggressive`. This will remove unnecessary objects and compress the data, resulting in a smaller repository size and better performance.

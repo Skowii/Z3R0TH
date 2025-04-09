@@ -1,0 +1,6 @@
+# SOURCE: text_to_speech_block.md
+# TIME: 2025-03-31_08-50-38
+
+Unreal Text to Speech is a block that converts text into speech using the Unreal Speech API. It takes a text input and generates an audio file by sending the text and voice selection to the API. The block outputs an MP3 URL for accessing or downloading the generated audio file and an error message if something goes wrong. This block can be used in applications that convert written content into audio format, such as helping visually impaired users consume written material.
+
+# TAGS: Unreal Text to Speech, API Key, Voice ID, Text, Inputs, Outputs, MP3 URL, Error, use case

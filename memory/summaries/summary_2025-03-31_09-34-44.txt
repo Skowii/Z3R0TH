@@ -1,0 +1,1 @@
+The WSGI config for the flashcards project has a module-level variable named "application" exposing the callable, following Django deployment guidelines available at https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/. This is achieved by setting the environment variable DJANGO_SETTINGS_MODULE to flashcards.settings and using get_wsgi_application().

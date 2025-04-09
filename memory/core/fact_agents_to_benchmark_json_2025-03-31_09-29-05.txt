@@ -1,0 +1,6 @@
+# SOURCE: agents_to_benchmark.json
+# TIME: 2025-03-31_09-29-05
+
+This data provides the URLs, branches, and commits for various projects related to AI development and language models. The projects include Auto-GPT, gpt-engineer, mini-agi, smol-developer, SuperAGI, babyagi, beebot, PolyGPT, and Auto-GPT-Turbo. These projects aim to improve or augment the capabilities of large language models like GPT-3, creating new tools and applications in the AI space.
+
+# TAGS: Auto-GPT, gpt-engineer, mini-agi, smol-developer, SuperAGI, babyagi, beebot, PolyGPT, Auto-GPT-Turbo

@@ -1,0 +1,8 @@
+# SOURCE: setup.py
+# TIME: 2025-03-30_23-47-25
+
+Knowledge Summary:
+
+Mycroft AI Inc.'s "mycroft-core" Python package is licensed under the Apache License, Version 2.0, with an AS IS basis and without warranties or conditions of any kind. The package version can be found using get_version() function and its requirements are defined in a text file, with options for different backends (audio, mark1, stt) as extras. The setup file includes entry points for console scripts such as mycroft-speech-client, mycroft-messagebus, mycroft-skills, mycroft-audio, mycroft-echo-observer, mycroft-audio-test, mycroft-enclosure-client, and mycroft-cli-client.
+
+# TAGS: copyright, 2017 mycroft ai inc., apache license, version, required, packages, entry_points, console_scripts, mycroft-speech-client, mycroft-messagebus, mycroft-skills, mycroft-audio, mycroft-echo-observer, mycroft-audio-test, mycroft-enclosure-client, mycroft-cli-client

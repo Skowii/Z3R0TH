@@ -1,0 +1,1 @@
+Create a circular progress bar using only CSS by stacking two circles on top of each other in an SVG element. Rotate the top circle by 90 degrees and set its transform-origin to the center. Calculate the size, radius, and circumference of the circles based on user-defined values.

@@ -1,0 +1,6 @@
+# SOURCE: youtube.md
+# TIME: 2025-03-31_08-38-07
+
+YouTube Video Transcription: A block that transcribes a YouTube video's audio into text, providing the unique video ID and the transcript as output. Used for generating subtitles, summaries, and making content accessible.
+
+# TAGS: Transcription, YouTube Video, Audio Content, Transcript, Extract

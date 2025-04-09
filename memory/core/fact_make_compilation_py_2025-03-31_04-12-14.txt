@@ -1,0 +1,6 @@
+# SOURCE: make_compilation.py
+# TIME: 2025-03-31_04-12-14
+
+Summary: The code creates a compilation video from multiple input .mp4 files in a folder. It filters the videos based on their duration and adds them into the compilation video with an intro and outro option. The code also generates a time range description for each video that's added to the compilation. Finally, it writes the compilation video to a specified file path.
+
+# TAGS: VideoFileClip, concatenate_videoclips, resize, isfile, join, random, shutil, defaultdict, generateTimeRange, makeCompilation, os.listdir, totalVidLength, maxClipLength, minClipLength, outputFile, introName, outroName

@@ -1,0 +1,8 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-45-15
+
+Summary: Name of the application is "example/test-application."
+
+Tags: Application, name, example, test
+
+# TAGS: name, example, test-application

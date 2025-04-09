@@ -1,0 +1,2 @@
+Design Patterns Implemented in Java:
+Design patterns are proven solutions to common problems in software design. They help improve code readability and reduce issues during development. This site showcases Java Design Patterns, developed by experienced programmers and architects from the open-source community. The patterns can be browsed through high-level descriptions or source code examples, which are well commented for learning purposes. Familiarize yourself with [Software Design Principles](https://java-design-patterns.com/principles/) before diving into the material.

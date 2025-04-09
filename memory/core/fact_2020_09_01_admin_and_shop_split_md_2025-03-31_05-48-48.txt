@@ -1,0 +1,25 @@
+# SOURCE: 2020_09_01_admin_and_shop_split.md
+# TIME: 2025-03-31_05-48-48
+
+Admin Separation: Yes
+Shop Separation: Yes
+Endpoints Prefixes: /new-api/shop, /new-api/admin
+
+# TAGS: endpoints can be managed in a more straightforward way (based on endpoint suffix).
+* Bad, because it might confuse users who are not aware of this naming convention.
+
+### Using different prefixes for each type of user
+
+`GET /new-api/admin/products/knitted-wool-blend-green-cap` for admin user which will return
+`{"id": 1, "slug": 2, "prices": {}, "admin_related_information" : "" }`
+`GET /new-api/shop/products/knitted-wool-blend-green-cap` for shop user which will return
+`{"id": 1, "slug": 2, "prices": {} }`
+
+* Good, because it is clear how to operate on the endpoints for different types of users.
+* Bad, because we have to create two separate log in endpoints (due to current user architecture) which is not ideal.
+* Bad, because it doesn't solve the issue with IRIs and context based relations.
+* Bad, because it introduces more complexity when managing authorization rules as different strategies for admin, shop users, and guests should be declared.
+
+## Decision Outcome
+
+The decision was accepted to separate administration and shop routes to provide a clear way to determine an IRI for each of the exposed API resources. This will also allow a clear separation of available resources and paths for visitor and administrator users. The proposed solution is based on different prefixes for each type of user, as it provides the clearest way to operate on endpoints for different contexts without introducing additional complexity in authorization rules or potential confusion due to naming conventions.

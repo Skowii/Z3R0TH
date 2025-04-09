@@ -1,0 +1,5 @@
+To use different voices with D-ID, follow these steps:
+
+1. For ElevenLabs, select a voice from the list, copy the voice_id and paste it into the "voice_id" field of the CreateTalkingAvatarClip block.
+2. For Microsoft Azure Voices, choose a voice from the gallery, click on "Sample code," copy the voice name (e.g., en-GB-AbbiNeural), and paste it into the "voice_id" field in the CreateTalkingAvatarClip block.
+3. For Amazon Polly Voices, select a voice from the list, copy its voice name or ID, and input this as a string in the "voice_id" field of the CreateTalkingAvatarClip block.

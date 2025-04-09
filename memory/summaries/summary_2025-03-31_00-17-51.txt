@@ -1,0 +1,1 @@
+Create a random boolean value in JavaScript using the following one-liner: `const randomBoolean = () => Math.random() >= 0.5;`. This is achieved by checking if `Math.random()` (a number between 0 and 1) is greater than or equal to 0.5, providing a 50% probability for each value (true or false).

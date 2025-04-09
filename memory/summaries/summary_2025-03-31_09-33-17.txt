@@ -1,0 +1,1 @@
+The given code defines a Django form named 'CardCheckForm', which has two fields: an IntegerField (card_id, required) and a BooleanField (solved, optional).

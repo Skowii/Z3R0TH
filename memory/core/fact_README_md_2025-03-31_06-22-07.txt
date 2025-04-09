@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-22-07
+
+Sylius is an Open Source eCommerce solution built from decoupled components with powerful API and the highest quality code. It features a user component for managing users in PHP applications. Documentation can be found on docs.sylius.com, and contributors can follow Sylius' development through their official blog, Twitter, or Facebook page. Issues and bug tracking are managed via GitHub issues, while the project is licensed under the MIT License.
+
+# TAGS: Managing users, Sylius, API, eCommerce solution, Open Source, documentation, contributing, following development, bug tracking, MIT License, authors

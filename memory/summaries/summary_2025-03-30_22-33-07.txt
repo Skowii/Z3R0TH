@@ -1,0 +1,1 @@
+Render email and callable telephone links using `mailto:` and `tel:` schemes in React. For email links, use the `<a>` element with encoded `subject` and `body`, while for phone links, use the `<a>` element with the phone number. Both can be pre-filled in default clients for easy user interaction.

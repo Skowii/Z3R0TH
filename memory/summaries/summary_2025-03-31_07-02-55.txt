@@ -1,0 +1,1 @@
+Dependency Injection (DI) is a design pattern that separates the creation of dependencies from a client's behavior. This allows for loosely coupled designs and adheres to principles of inversion of control and single responsibility. The pattern provides flexibility, as a client can be provided with any dependency, allowing for easier unit testing and decoupling.

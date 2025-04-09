@@ -1,0 +1,1 @@
+This Python guide explains various operations on lists such as getting the first (head), last, initial, and tail elements. To get the first element, use `lst[0]`, the last with `lst[-1]`, all elements except the last with `lst[:-1]`, and all elements except the first with `lst[1:]`. These methods return `None` if the list is empty.

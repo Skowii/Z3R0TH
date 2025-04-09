@@ -1,0 +1,32 @@
+# SOURCE: unit_tests_predictions.py
+# TIME: 2025-03-31_02-19-46
+
+import unittest
+from src.test_utils import TestUtils
+import src.programming_language as pl
+from src.models import RNN_Model
+from src.predictors import PCFG_Predictor, Q_Predictor
+from src.parser import Parser
+from src.tokenizer import Tokenizer
+
+class TestPCFGQ(unittest.TestCase):
+    def setUp(self):
+        self.tokenizer = Tokenizer()
+        self.parser = Parser()
+        self.rnn_model = RNN_Model()
+        self.pcfg_predictor = PCFG_Predictor(self.rnn_model, self.template_cfg)
+        self.q_predictor = Q_Predictor(self.rnn_model, self.template_dsl, self.template_cfg, list_variables)
+        self.programs = [
+            Function(
+                BasicPrimitive("map", Arrow(Arrow(INT, INT), Arrow(List(INT), List(INT)))),
+                [
+                    BasicPrimitive("+", Arrow(INT, Arrow(INT, INT))),
+                    BasicPrimitive("0", INT),
+                    BasicPrimitive("1", INT)
+                ]
+            )
+        ]
+
+    def test_
+
+# TAGS: logging_levels, verbosity, IOEncoder, IOEncoder2, encoding_output_dimension, IOEncoder.output_dimension, IOEncoder2.output_dimension, embedding_output_dimension, batch_IOs, primitive_types, semantics

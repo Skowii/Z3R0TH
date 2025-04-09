@@ -1,0 +1,1 @@
+This JavaScript snippet explains how to convert an HSL color string into either a JavaScript array or an object containing the values of each color. It utilizes regular expressions and various functions such as `String.prototype.match()`, `Array.prototype.map()`, and array destructuring for this process.

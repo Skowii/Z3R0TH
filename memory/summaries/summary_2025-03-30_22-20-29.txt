@@ -1,0 +1,1 @@
+Find OpenGL and GLUT packages. If OpenGL is found, build graphical outputs with FreeGLUT library if not installed; otherwise, warn about no graphical outputs. Otherwise, use APP_SOURCES to list source files for executables. Include dependencies and settings for compilation if necessary.

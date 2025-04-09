@@ -1,0 +1,4 @@
+Given two pairs of latitude and longitude coordinates, you can calculate the distance between them using the Haversine formula. First, convert the coordinates to radians, find the differences in latitude and longitude, then apply the Haversine formula. To adjust the units of measurement, change the value of R (Earth's radius) accordingly: 
+
+- In kilometers, set R to 6_371
+- In miles, set R to 3959

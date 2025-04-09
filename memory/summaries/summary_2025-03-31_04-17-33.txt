@@ -1,0 +1,1 @@
+Data Mapper is an architectural pattern that maps data between persistent objects and databases, maintaining independence between them. It's useful for decoupling data access layers and supports writing multiple query/persistence implementations.

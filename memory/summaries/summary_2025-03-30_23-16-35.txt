@@ -1,0 +1,1 @@
+Hide an element offscreen to keep it accessible while not visible. Create a utility class for this purpose, setting borders and padding to 0, hiding overflow, and adjusting height and width to 1px with negative margins. Position the element absolutely to remove space in the DOM. This is a better alternative to `display: none` or `visibility: hidden`.

@@ -1,0 +1,1 @@
+The Sylius/Attribute library is a component for handling object attributes in PHP projects, particularly in ecommerce shops. It requires PHP version 7.4 or 8.0 and various dependencies including Doctrine Collections and Symfony Validator. The library's homepage is https://sylius.com.

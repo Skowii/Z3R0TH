@@ -1,0 +1,21 @@
+# SOURCE: submit-agent-to-marketplace.md
+# TIME: 2025-03-31_08-15-04
+
+Prerequisites: A completed agent built using AutoGPT Builder, saved agent.
+
+Submission Steps:
+1. Access Submission Form through the marketplace.
+2. Select your agent from the dropdown menu.
+3. Fill out required information like description, author name, keywords, and category.
+4. Review and agree to terms.
+5. Submit for review.
+
+After Submission: Your agent enters a pending state, reviewed by the AutoGPT team, and if approved, it becomes a new listing in the marketplace.
+
+Tips for Successful Submission:
+- Provide clear descriptions of your agent's functionality.
+- Choose relevant keywords accurately describing your agent.
+- Ensure your agent is fully tested and working correctly.
+- Select the most appropriate category to help users find your agent.
+
+# TAGS: AutoGPT Marketplace, Agent Submission, Prerequisites, Completed Agent, Submission Steps, Select Agent, Detailed Description, Author Name, Keywords, Category, Terms Agreement, Pending State, Review Process, Approval, Tips for Successful Submission

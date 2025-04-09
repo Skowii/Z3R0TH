@@ -1,0 +1,1 @@
+The repository holds code examples from a tutorial on Python's Requests Library, which can be found at https://realpython.com/python-requests/.

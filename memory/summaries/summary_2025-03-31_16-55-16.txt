@@ -1,0 +1,1 @@
+The StatisticsComponent class initializes a chart component using data from an API, manages buttons for selecting intervals, updates summary values and the graph, and toggles loading state. It uses a DateObjectFactory to handle dates and navigational buttons.

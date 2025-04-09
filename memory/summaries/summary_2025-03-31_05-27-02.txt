@@ -1,0 +1,9 @@
+Singleton, bir sınıftan yalnızca bir örneği oluşturarak ve bu örnek global erişilebilirlik sağlayarak kullanılabilen, özellikle istemciler tarafından erişilecek, yapılandırılacak ve genişletilecek nesneler için yaratılan bir tasarım desenidir. Bu tasarım, önemli olarak kullanıcıların ve kod yazarlarının hatalara düşmesini engelleyerek ve global paylaşılan örneklerle ilgili problemleri ortadan kaldırmayı amaçlarken idealdir. Singleton, bir sınıfta tek nesne uygulamasında, Tek Sorumluluk (SRP) ilkesini ihlal edebil ve şu durumlarda kullanılabilir:
+
+1. Bir sınıfın tam olarak bir örneği olması gereken durumlar
+2. İstemcilerin erişilebilecek ve değiştirmeye gerek yoksa genişletilmiş bir örnek kullanabilmesi gereken durumlar
+3. Logging sınıflarında kullanılabilen durumlar
+4. Database bağlantılarını yönetmek için kullanılabilen durumlar
+5. File manager gibi genişletilebilir durumlar
+
+Bu tasarım, önemli olarak kullanıcıların ve kod yazarlarının hatalara düşmesini engelleyerek ve global paylaşılan örneklerle ilgili problemleri ortadan kaldırmayı amaçlarken idealdir. Özellikle, singleton tasarım deseni kullanılacak olan sınıflarda test etmek zorlu olabilir ve bu nedenle dikkate alınmalıdır. Bu tasarımdan alt sınıf oluşturmak neredeyse imkansız hale gelir.

@@ -1,0 +1,31 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-18-25
+
+Summary: Sylius Shop Bundle is a Symfony bundle that provides an eCommerce storefront. It requires PHP ^7.4 || ^8.0 and various dependencies such as Sylius/core-bundle, Symfony/framework-bundle, and Twig/twig. The project's homepage is https://sylius.com, and it is licensed under MIT. Developed by Paweł Jędrzejewski and the Sylius project community, it includes support for multiple languages and currencies.
+
+# TAGS: sylius/shop-bundle
+symfony-bundle
+eCommerce storefront
+shop ecommerce store webshop sylius
+https://sylius.com
+MIT
+Paweł Jędrzejewski
+https://pjedrzejewski.com
+Sylius project
+https://sylius.com
+Community contributions
+https://github.com/Sylius/Sylius/contributors
+php 7.4, 8.0
+sylius/core-bundle ^1.6
+sylius/ui-bundle ^1.6
+symfony/framework-bundle ^4.4 || ^5.2
+symfony/security-bundle ^4.4 || ^5.2
+twig/intl-extra ^2.12
+twig/twig ^2.12
+matthiasnoback/symfony-config-test ^4.2
+matthiasnoback/symfony-dependency-injection-test ^4.1
+mockery/mockery ^1.4
+phpspec/phpspec ^7.0
+phpunit/phpunit ^8.5
+symfony/dependency-injection ^4.4 || ^5.2
+"bin-dir": "bin"

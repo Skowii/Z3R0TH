@@ -1,0 +1,1 @@
+Check if a string is a yes/no answer with JavaScript using regular expressions to match both `y`/`n` and `yes`/`no`, anchors for the entire string, and case-insensitivity. Utilize RegExp.prototype.test() and the ternary operator to return the appropriate boolean value.

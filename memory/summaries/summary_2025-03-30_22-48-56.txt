@@ -1,0 +1,1 @@
+Git's default behavior is to perform a fast-forward merge when branches don't diverge. To disable this by default, use the `merge.ff` configuration option: `git config --add merge.ff false`. Optionally, add the `--global` flag for global disabling. Afterward, merging will never fast forward even if possible.

@@ -1,0 +1,1 @@
+Find the byte size of a Python string, containing special characters or not. To do this, use the `str.encode()` method and then return the length of the encoded string with the `len()` function. This is useful for strings with special characters or emojis that require more than one byte to encode.

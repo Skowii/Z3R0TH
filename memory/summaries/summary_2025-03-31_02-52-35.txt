@@ -1,0 +1,1 @@
+Normalize line endings in a JavaScript string using the String.prototype.replace() method with a regular expression that matches and replaces line endings (e.g., optional carriage return followed by line feed). This helps ensure consistency across different operating systems' text files or strings.

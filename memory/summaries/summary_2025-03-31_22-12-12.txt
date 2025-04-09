@@ -1,0 +1,1 @@
+The content lists various API objects and functions for JavaScript, covering a wide range of categories such as DOM manipulation, networking, encryption, multimedia, animation, and more. However, it seems that most of the properties are set to false, implying they are not supported or not available in this specific context.

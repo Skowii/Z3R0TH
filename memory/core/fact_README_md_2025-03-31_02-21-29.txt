@@ -1,0 +1,34 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_02-21-29
+
+outputs of programs, we use ``cfg.sample_program()``.
+For testing the learning procedure, one can use ``cfg.train_
+
+# TAGS: predictions (training and test)
+        main.py          # main DeepSynth code: parsing, search
+        requirements.txt # required dependencies
+```
+
+The `main.py` file contains the general-purpose program synthesizer in the programming by example framework. The user provides a few examples as pairs of input and output, DeepSynth finds a program matching the examples.
+
+## Documentation and examples
+
+This documentation describes DeepSynth, a tool for automatically synthesizing programs from examples. It covers the following topics:
+
+1. [DSL](https://github.com/nathanael-fijalkow/DeepSynth#dsl) (Domain-Specific Language): This is a programming language specifically designed to solve particular tasks. In the context of DeepSynth, we define DSLs for dreamcoder and deepcoder.
+
+2. [CFG](https://github.com/nathanael-fijalkow/DeepSynth#cfg-and-pcfg) (Context-Free Grammar): This is a grammar describing the set of all programs in the context of DeepSynth. We compile the DSL into a CFG to enumerate programs in an efficient way.
+
+3. [Synthesis](https://github.com/nathanael-fijalkow/DeepSynth#synthesis): This is the process of finding a program that matches the examples provided by the user. In DeepSynth, it involves searching through the CFG to find the programs that best fit the given input/output pairs.
+
+4. [Prediction from a model](https://github.com/nathanael-fijalkow/DeepSynth#prediction-from-a-model): This is about obtaining predictions from examples using a prediction model. In DeepSynth, the predictions are probabilities for rules of the grammar, yielding a PCFG.
+
+5. [Model creation](https://github.com/nathanael-fijalkow/DeepSynth#model-creation): This step involves training a prediction model on the data to obtain predictions from a model. In DeepSynth, we train models using supervised learning techniques.
+
+6. [Model training](https://github.com/nathanael-fijalkow/DeepSynth#model-training): This step trains the model used for prediction. It involves iterating over training examples and adjusting the weights of the model based on the difference between its predictions and the true output.
+
+7. [Reproducing the experiments](https://github.com/nathanael-fijalkow/DeepSynth#reproducing-the-experiments): This section provides information on how to reproduce the experiments described in our paper. It includes instructions for installing required dependencies, running unit tests, and reproducing the results.
+
+8. [Report an issue](https://github.com/nathanael-fijalkow/DeepSynth#report-an-issue): If you encounter any issues or have suggestions for improvements, please feel free to report them.
+
+9. [Contribute](https://github.com/nathanael-fijalkow/DeepSynth#contribute): We welcome contributions and are always open to new ideas and collaborations. If you want to contribute, please follow the guidelines in this section.

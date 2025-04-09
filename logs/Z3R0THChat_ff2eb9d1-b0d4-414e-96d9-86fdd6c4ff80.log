@@ -1,0 +1,3 @@
+[2025-04-05 23:37:08] [INFO] 🤖 Z3R0THChat initialized with model mistral-openorca (UUID: ff2eb9d1-b0d4-414e-96d9-86fdd6c4ff80)
+[2025-04-05 23:37:08] [INFO] 💬 Prompting LLM: script builder...
+[2025-04-05 23:39:38] [INFO] ❌ Attempt 1 failed: Command '['ollama', 'run', 'codellama:13b']' timed out after 150 seconds

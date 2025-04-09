@@ -1,0 +1,7 @@
+Reviewing CSS code in Pull Requests is essential for maintaining and improving a project's quality. To do this effectively, consider the following steps:
+
+1. Visual check: Ensure the output looks correct, has proper responsiveness across devices, and follows design animations.
+2. Code style: Check for consistent formatting using a linter and formatter to enforce conventions like naming rules and documentation.
+3. Specificity: Review CSS selectors for clarity, low specificity, and avoiding overly complex or generic selectors.
+4. Leftovers: Scan for old or unnecessary code that may cause issues later on.
+5. Performance: Look for ways to improve performance by optimizing rules, deduplication, and minimum overrides.

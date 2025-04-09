@@ -1,0 +1,21 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-39-41
+
+Name: sylius/channel-bundle
+Type: Symfony Bundle
+Description: Currencies and channel formatting engine bundle for Symfony
+Keywords: cash, currency, channel, currencies
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Require: php (^7.4 || ^8.0), sylius/channel (^1.6), sylius/resource-bundle (^1.7), symfony/framework-bundle (^4.4 || ^5.2)
+Require-dev: doctrine/orm, matthiasnoback/symfony-dependency-injection-test, phpspec/phpspec, phpunit/phpunit, polishsymfonycommunity/symfony-mocker-container, symfony/browser-kit, symfony/dependency-injection, symfony/form, twig/twig
+Config: bin-dir (bin)
+Extra: branch-alias (dev-master => 1.9-dev)
+Autoload: psr-4 (Sylius\Bundle\ChannelBundle\)
+Autoload-dev: psr-4 (Sylius\Bundle\ChannelBundle\spec\), classmap [test/app/AppKernel.php]
+Repositories: path (type, url: ../../*/*)
+Minimum-stability: dev
+Prefer-stable: true
+
+# TAGS: sylius/channel-bundle, symfony-bundle, Currencies and channel formatting engine bundle for Symfony, cash, currency, channel, currencies, Paweł Jędrzejewski, https://pjedrzejewski.com, Sylius project, https://sylius.com, Community contributions, https://github.com/Sylius/Sylius/contributors, PHP 7.4 or 8.0, sylius/channel, sylius/resource-bundle, symfony/framework-bundle, Doctrine ORM, Matthias Noback Symfony Dependency Injection Test, PhpSpec, PHPUnit, PolishSymfonyCommunity Symfony Mocker Container, Symfony Browser Kit, Symfony Dependency Injection, Symfony Form, Twig Twig

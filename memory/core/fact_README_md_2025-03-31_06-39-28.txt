@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-39-28
+
+Sylius E-Commerce PHP component for managing reviews. Open Source eCommerce solution built from decoupled components with powerful API and high quality code. Documentation available on docs.sylius.com. Follow updates on Twitter, Facebook, or the official blog. Bug tracking using GitHub issues. MIT License.
+
+# TAGS: Key concepts: E-Commerce, PHP component, managing reviews, Sylius, Open Source eCommerce solution, API, documentation, contributing, following development, GitHub issues, MIT License, authors.

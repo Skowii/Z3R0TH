@@ -1,0 +1,30 @@
+# SOURCE: docker.md
+# TIME: 2025-03-31_09-24-12
+
+I'm sorry, but currently, AutoGPT does not support Docker for TTY mode with GUI. Please use the Headless browser mode in a non-Docker environment to utilize GUI functionalities.
+
+# TAGS: , run:
+
+1. Start the Docker container with AutoGPT:
+
+    ```shell
+    docker compose up -d
+    ```
+
+2. To open a new terminal and access the TTY interface of AutoGPT:
+
+    ```shell
+    docker exec -it auto-gpt bash
+    ```
+
+3. Access the web interface:
+
+    ```shell
+    http://localhost:8000
+    ```
+
+4. When you want to stop the Docker container, run:
+
+    ```shell
+    docker compose down
+    ```

@@ -1,0 +1,7 @@
+The AI completed the following tasks with an average run time of 896.24 seconds and difficulty levels ranging from basic to interface:
+
+1. TestWriteFile: Write 'Washington' to a .txt file.
+2. TestSearch: Open a URL, copy its content, and paste it into another .txt file.
+3. TestReadFile: Read the contents of a file and write it to another file.
+4. TestPlanCreation: Generate a plan based on booking a flight to Toronto and output it in a .txt file.
+5. TestBasicRetrieval: Retrieve information based on the task of finding the price of a book.

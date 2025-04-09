@@ -1,0 +1,7 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-32-31
+
+Sylius Core Bundle is a bundle that integrates all other bundles into an eCommerce solution for Symfony2. It's part of Sylius, an open source eCommerce solution built from decoupled components with powerful API and high-quality code. Documentation is available at docs.sylius.com and the software uses the MIT License.
+
+# TAGS: Key Concepts: SyliusCoreBundle, eCommerce solution, Symfony2, Sylius, Open Source, documentation, contributing, bug tracking, MIT License, authors.
+Keywords: Sylius Core Bundle, eCommerce, Symfony2, decoupled components, API, Sylius, Open Source, documentation, contributing, bug tracking, MIT License, authors.

@@ -1,0 +1,3 @@
+# 🔗 https://code.org/ai
+
+This lesson also gave my students the opportunity to see that there is an element of opinion in classification systems. Later, when we started to see how bias can end up in AI, I was able to pull them back and remind them that the data used to train their models was based on choices. Seneca Hart   CS Discoveries Teacher

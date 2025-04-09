@@ -1,0 +1,22 @@
+# SOURCE: CONFLICTS.md
+# TIME: 2025-03-30_23-38-04
+
+This document outlines conflicts in `composer.json` and explains why certain restrictions were added, as well as referencing related issues.
+
+1. Conflict with Symfony versions: Symfony 5.2 installs amqp-messenger, doctrine-messenger, error-handler, redis-messenger, stopwatch, twig-bridge, var-dumper, var-exporter 6.0, which is not compatible with the current Sylius version.
+
+2. Symfony password hasher changed in 5.3 and removed BC layer in 6.0.
+
+3. Doctrine/Doctrine-bundle 2.3.0 makes Gedmo Doctrine Extensions fail due to tree and position behavior issues.
+
+4. JMS Serializer-bundle 3.9 automatically registers DocBlockDriver, causing an issue with docblocks used in the code.
+
+5. Symfony Serializer 4.4.19|5.2.2 introduces a bug when trying to access some private properties without getters.
+
+6. Symfony Doctrine Bridge 4.4.16 causes an issue related to ChannelPricing mapping.
+
+7. Symfony PropertyInfo Component in versions 4.4.22|5.2.7 introduces a bug with resolving wrong namespace for some translation entities in Swagger UI docs for API.
+
+8. Doctrine/dbal requires registering all database types for a Doctrine Type during introspection or have custom types implement Type#getMappedDatabaseTypes().
+
+# TAGS: Symfony, Composer, conflicts, JSON, issues, Doctrine Bundle, JMSSerializerBundle, Symfony Serializer, Symfony PropertyInfo Component

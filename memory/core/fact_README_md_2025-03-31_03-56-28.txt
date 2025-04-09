@@ -1,0 +1,55 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_03-56-28
+
+y on macOS systems
+```
+After running one of these commands, you can run all the tests using:
+
+```bash
+make test_all
+```
+
+or specific set of tests using:
+
+```bash
+make test_unit
+make test_integration
+make test_
+
+# TAGS: ppy you're interested in contributing to Rasa Open Source. To get started, follow these steps:
+
+1. Check out the latest code from our repository:
+```bash
+git clone https://github.com/RasaHQ/rasa.git
+cd rasa
+```
+
+2. Create a virtual environment for your project:
+```bash
+virtualenv .venv
+source .venv/bin/activate
+```
+
+3. Install the dependencies:
+```bash
+pip install -r requirements/base.txt
+pip install -e .
+```
+
+4. Set up your development environment:
+```bash
+export RASA_ENABLE_GRAPHIC_QUESTIONS=True
+```
+
+5. Start the Rasa development server:
+```bash
+rasa run --enable-api -w models/ --verbose
+```
+
+6. Develop your changes and test them in the development environment.
+
+7. When you are ready to contribute, please follow our [contribution guidelines](CONTRIBUTING.md).
+
+8. Create a pull request with a clear description of your changes, and we will review it.
+
+9. If you have any questions, feel free to reach out in the Rasa Community Forum or on our Slack channel.

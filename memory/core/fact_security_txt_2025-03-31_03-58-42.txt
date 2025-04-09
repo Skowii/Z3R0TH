@@ -1,0 +1,9 @@
+# SOURCE: security.txt
+# TIME: 2025-03-31_03-58-42
+
+Contact email for security concerns: mailto:security@rasa.com
+Preferred language: en
+Security information: https://github.com/RasaHQ/rasa/blob/main/security.txt
+Job opportunities: https://rasa.com/jobs
+
+# TAGS: Key Concepts: security, contact, mailto, rasa, github, canonical, hiring, preferred-languages, en, jobs

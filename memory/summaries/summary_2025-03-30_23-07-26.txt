@@ -1,0 +1,1 @@
+Create alternating text animations with CSS and JavaScript for a playful website effect. Define an array of words or phrases in JavaScript, then use the 'animationiteration' event to update the content each time the animation completes. Ensure accessibility for screen readers by using ARIA attributes or other techniques.

@@ -1,0 +1,10 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-51-25
+
+Sylius Customer Bundle is a Symfony project management bundle focused on customer groups. It is developed by Paweł Jędrzejewski, Michał Marcinkowski, Łukasz Chruściel, Bartosz Siejka, the Sylius project team and community contributions. The bundle requires PHP 7.4 or 8.0, Doctrine ORM 2.7, Egulias Email Validator 3.0, and various other packages for compatibility. It offers support for unit testing and development through PhpSpec, PHPUnit, Symfony Browser Kit, Dependency Injection, and Form modules. The bundle can be installed using Composer and is licensed under the MIT license.
+
+# TAGS: Key Concepts: customers management, symfony-bundle, customization, sylius/customer-bundle
+Keywords: customer, groups
+People: Paweł Jędrzejewski, Michał Marcinkowski, Łukasz Chruściel, Bartosz Siejka, Sylius project, Community contributions
+Dates: not available
+License: MIT

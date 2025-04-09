@@ -1,0 +1,9 @@
+JavaScript modules Cheat Sheet:
+
+1. Named exports: Use a name, same import and export name, any number of named exports, import with {}
+2. Default exports: Expose a default value, use default keyword, only one default export, import without {}
+3. Default + named exports: Mix default and named exports, follow rules for both types
+4. Export list: Compact way to write multiple named exports, follows named exports rules
+5. Rename export: Use 'as' keyword to rename an export, import name should match renamed export
+6. Rename import: Use 'as' keyword to rename an import, import name should match export name
+7. Import all: Use * to import everything a module exports, default and named exports available on imported object

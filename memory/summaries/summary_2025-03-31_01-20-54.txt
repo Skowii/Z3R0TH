@@ -1,0 +1,5 @@
+The spread operator in JavaScript ES6 allows you to convert iterables, such as strings, sets and NodeLists, into arrays. For instance:
+
+1. With a string, use the spread operator to create an array of characters: `const name = 'Zelda'; const letters = [...name];`
+2. A set can be converted into an array by using the spread operator: `const data = [1, 2, 3, 1, 2, 4] const values = new Set(data); const uniqueValues = [...values];`.
+3. For NodeLists, apply the spread operator to convert it to an array: `const nodes = document.childNodes; const nodeArray = [...nodes];`.

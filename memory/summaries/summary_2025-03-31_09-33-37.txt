@@ -1,0 +1,1 @@
+This migration creates a Card model with fields for question, answer, box selection, and date created. The box field has choices from 1 to 5.

@@ -1,0 +1,1 @@
+This code creates a 44100 Hz sound wave for 2.5 seconds at 440 Hz frequency on the left channel and 480 Hz frequency on the right channel, then writes it as stereo frames to an output.wav file using the wave library.

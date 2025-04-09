@@ -1,0 +1,1 @@
+Check if a URL is an absolute URL with JavaScript using a regular expression: `const isAbsoluteURL = str => /^[a-z][a-z0-9+.-]*:/.test(str);`. The function returns true for absolute URLs and false for relative ones.

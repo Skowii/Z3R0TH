@@ -1,0 +1,32 @@
+# SOURCE: paypal_api_successful_payment.json
+# TIME: 2025-03-31_06-45-46
+
+{
+    "secondTransaction": {
+        "txnId": "656789",
+        "amountPaid": "10.00",
+        "currency": "EUR",
+        "transactionType": "payment",
+        "paymentStatus": "Completed",
+        "dateTime": "2022-05-01T14:30:00Z"
+    },
+    "thirdTransaction": {
+        "txnId": "987654",
+        "amountPaid": "5.00",
+        "currency": "USD",
+        "transactionType": "purchase",
+        "paymentStatus": "Pending",
+        "dateTime": "2022-05-01T13:45:00Z"
+    }
+}
+
+# TAGS: To complete this transaction, you will need to perform the following steps:
+
+1. Make sure your PayPal account is set up correctly, with all necessary details and payment methods added.
+2. Ensure that you have a valid credit card or bank account linked to your PayPal account, as you will be using it for the purchase.
+3. Locate the "Pay Now" button on the seller's website, which will prompt the checkout process.
+4. Click the "Pay Now" button and enter the necessary details, such as shipping address, billing information, and payment method.
+5. Review your order details and confirm the transaction by clicking the "Submit Payment" button.
+6. You may receive a confirmation email from PayPal once the transaction is completed successfully.
+
+After completing these steps, you will have successfully made a purchase using PayPal Express Checkout.

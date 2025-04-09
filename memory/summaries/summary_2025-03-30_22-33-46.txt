@@ -1,0 +1,1 @@
+Create a stateful checkbox list for multiple selections using the `useState()` hook to manage state and `Array.prototype.map()` for rendering. Update state with new value when input changes, call callback function with selected values, and use spread operator and `splice()` to handle state updates.

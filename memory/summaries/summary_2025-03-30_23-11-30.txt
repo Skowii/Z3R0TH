@@ -1,0 +1,1 @@
+Learn to create an isometric card using CSS by using transform with rotateX() and rotateY(), preserving the 3D perspective with transform-style: preserve-3d. Optimize for animations with will-change: transform and add box-shadow for realism. Transition properties are used to animate the card, creating a lift effect when hovered over. The example code is provided in CSS.

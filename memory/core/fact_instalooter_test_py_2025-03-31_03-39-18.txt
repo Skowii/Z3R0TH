@@ -1,0 +1,6 @@
+# SOURCE: instalooter_test.py
+# TIME: 2025-03-31_03-39-18
+
+Instalooter's ProfileLooter is used to download videos from a specific Instagram user (daquan). The looter is instantiated with the option to only download videos and using a template for naming the files. Login details are provided, but no actual login credentials are given. Today's date is used as the starting point for the last month (thismonth) to set a timeframe for downloading content. The looter will then download up to 50 media files within this timeframe and save them in a folder named 'Memes_December_4'.
+
+# TAGS: ProfileLooter, ProfileLooter.login, datetime, dateutil.relativedelta, today, thismonth, download, Memes_December_4, media_count, timeframe

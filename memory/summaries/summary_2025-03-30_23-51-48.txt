@@ -1,0 +1,1 @@
+JavaScript allows you to change CSS properties of an element and show or hide HTML elements by changing their display property. To hide an element, set its display property to "none." To show an element, set its display property to its default value or an empty string. Using the spread operator (...) and Array.prototype.forEach(), you can show or hide multiple elements at once.

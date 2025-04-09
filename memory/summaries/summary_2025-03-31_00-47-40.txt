@@ -1,0 +1,1 @@
+Improve JavaScript scroll listener performance by setting the `passive` option to true in the event listener, allowing the browser to skip the event queue and execute the scroll listener immediately, resulting in a smoother user experience and reduced performance bottlenecks.

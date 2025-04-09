@@ -1,0 +1,1 @@
+Map a number from one range to another using this formula: (output_min + (input_number - input_min) * (output_max - output_min) / (input_max - input_min)) to normalize values or convert between units of measurement.

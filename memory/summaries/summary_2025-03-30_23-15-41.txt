@@ -1,0 +1,1 @@
+This CSS selector creates a zebra striped list or table with alternating background colors for improved readability. Using `:nth-child(odd)` or `:nth-child(even)` pseudo-class selectors, you can apply different background colors to elements based on their position in a group of siblings. This trick can be used for any other elements within a sibling group.

@@ -1,0 +1,141 @@
+# SOURCE: README.md
+# TIME: 2025-03-30_23-59-06
+
+```
+
+Quote:
+
+```
+
+Option 3: asyncio awaitable version (asyncio is needed to be installed)
+```py
+from alpaca_trade_api.rest import REST, TimeFrame
+import asyncio
+
+async def get_bars(symbol, timeframe, start_date, end_date):
+    async with REST() as api:
+        bars = await api.get_bars(symbol, timeframe, start_date, end_date)
+        for bar in bars:
+            print(bar)
+
+loop = asyncio.get_event_loop()
+start_date = '2021-06-08'
+end_date = '2021-06-08'
+symbol = 'AAPL'
+timeframe = TimeFrame(45, TimeFrameUnit.Minute)
+loop.run_until_complete(get_bars(symbol, timeframe, start_date, end_date))
+```
+
+#### Queries
+
+1. How to get historical data (tick data, bars) in Alpaca API?
+- To get historical data (tick data, bars), you can use the `get_bars()` method available in the `alpaca_trade_api.rest.REST` class. The method has several parameters such as symbol, timeframe, start date, end date, and adjustment flag which can be set according to your requirements.
+
+```python
+from alpaca_trade_api.rest import REST
+import pandas as pd
+
+# Instantiate REST client
+client = REST()
+
+# Get historical data for AAPL in 1-minute bars between 2021-06-08 and 2021-06-08
+bars = client.get_bars("AAPL", TimeFrame(1, TimeFrameUnit.Minute), "2021-06-08", "2021-06-08")
+
+# Convert the data to a pandas DataFrame for further processing
+df = pd.DataFrame(bars)
+```
+
+2. How to get realtime data (ticks/trades) in Alpaca API?
+- To get realtime data (ticks/trades), you can use the `get_ticks()` method available in the `alpaca_trade_api.rest.REST` class. This function requires a symbol and a callback as arguments. The callback will be called for each new tick with the tick data as a JSON-encoded string.
+
+```python
+from alpaca_trade_api.rest import REST
+
+# Instantiate REST client
+client = REST()
+
+def on_tick(data):
+    print(data)
+
+# Subscribe to realtime ticks for AAPL
+client.get_ticks("AAPL", on_tick)
+```
+
+3. How to get market depth data in Alpaca API?
+- To get market depth data, you can use the `get_order_book()` method available in the `alpaca_trade_api.rest.REST` class. This function requires a symbol and a callback as arguments. The callback will be called for each new order book update with the order book data as a JSON-encoded string.
+
+```python
+from alpaca_trade_api.rest import REST
+
+# Instantiate REST client
+client = REST()
+
+def on_order_book(data):
+    print(data)
+
+# Subscribe to market depth for AAPL
+client.get_order_book("AAPL", on_order_book)
+```
+
+4. How to get balance and positions data in Alpaca API?
+- To get balance and positions data, you can use the `get_account()` method available in the `alpaca_trade_api.rest.REST` class. This function requires a callback as an argument. The callback will be called with the account information, which includes balance, cash, margin, equity, position details, etc., as a JSON-encoded string.
+
+```python
+from alpaca_trade_api.rest import REST
+
+# Instantiate REST client
+client = REST()
+
+def on_account(data):
+    print(data)
+
+# Get account data for the logged in user
+client.get_account(on_account)
+```
+
+5. How to get order status and history in Alpaca API?
+- To get order status and history, you can use the `get_orders()` method available in the `alpaca_trade_api.rest.REST` class. This function requires a callback as an argument. The callback will be called for each new order information with the JSON-encoded string containing the details of the order such as status, filled quantity, etc.
+
+```python
+from alpaca_trade_api.rest import REST
+
+# Instantiate REST client
+client = REST()
+
+def on_orders(data):
+    print(data)
+
+# Get orders for the logged in user
+client.get_orders(on_orders)
+```
+
+# TAGS: https://data.alpaca.markets/v2 (for live)        | Specify the URL for data API calls, *Default is live, you must specify https://paper-api.alpaca.markets to switch to paper endpoint!|
+
+For more details see [Environment Variables](https://github.com/alpacahq/alpaca-trade-api-python#environment-variables).
+
+# Quick Start
+
+```python
+import alpaca_trade_api as tradeapi
+from datetime import datetime, timedelta
+from pprint import pprint
+
+def main():
+    # Get API Key and Secret from Environment Variables
+    apikey = os.environ['APCA_API_KEY_ID']
+    secret = os.environ['APCA_API_SECRET_KEY']
+    baseurl = "https://paper-api.alpaca.markets"
+    dataurl = "https://data.alpaca.markets/v2"
+
+    # Instantiate the client using these variables, or passing them in directly as keyword arguments
+    client = tradeapi.Client(apikey, secret, base_url=baseurl, data_url=dataurl)
+
+    # Request a stock's historical prices for 1 week ago to now. Passing in an instance of the `datetime` class
+    prices = client.get_barset(symbol='AAPL', timeframe='1d', start='2021-05-01', end=datetime.now())
+    pprint(prices)
+
+if __name__ == '__main__':
+    main()
+```
+
+The above example will request the historical data for AAPL from 1 week ago to now (in 1 day intervals), and print it out in a friendly format. Note that you should replace your own API Key and Secret with those provided by Alpaca.

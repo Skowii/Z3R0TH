@@ -1,0 +1,1 @@
+A doubly linked list is a linear data structure where each element points both to the next and previous elements in the list. It consists of properties such as size, head, tail, and main operations like insertAt, removeAt, getAt, clear, and reverse. The implementation of a doubly linked list uses an array to store nodes and provides methods for manipulating the list.

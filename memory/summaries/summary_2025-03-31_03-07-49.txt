@@ -1,0 +1,5 @@
+The Model-View-Controller (MVC) design pattern in Java separates an application into three interconnected components - Model, View, and Controller - to enable modular development of each part independently. This improves maintainability and scalability. MVC is widely used for web development and user interface separation in Java applications.
+
+A real-world example would be a hospital ICU room displaying patient health information on devices taking input from sensors. The Model provides the data, View displays it, and Controller updates from the sensor.
+
+In a programmatic example, GiantModel is the model class providing health, fatigue, and nourishment information, GiantView is the view class for displaying received patient data, and GiantController is the controller class that takes updates from GiantModel and sends to GiantView for display.

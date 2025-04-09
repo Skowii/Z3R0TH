@@ -1,0 +1,1 @@
+Styling the first letter of the first paragraph with pure CSS can be achieved using the `::first-letter` pseudo-element. To create a drop cap effect, combine this selector with the `:first-child` pseudo-class and apply properties like `color`, `font-size`, `font-weight`, `line-height`, and `margin`.

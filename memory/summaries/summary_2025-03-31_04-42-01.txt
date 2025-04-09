@@ -1,0 +1,5 @@
+意图：使用断路器来处理昂贵的远程服务调用，避免单个服务/组件的故障导致整个应用崩溃。
+
+解释：例如，Web 应用程序可能同时使用本地文件/图像和远程服务。如果这些远程服务故障，将导致应用程序的其他部分无法正常工作，最终导致整个 Web 应用崩溃。断路器能够检测到这种情况，并在用户可以探索不受远程服务故障影响的应用程序的其他部分时向其显示适当消息。
+
+代码示例：上述示例中，monitoringService 对象是一个监控服务，能够进行本地和远程调用。DelayedRemoteService、QuickRemoteService、CircuitBreaker 等类，通过 DefaultCircuitBreaker 来处理断路器逻辑。代码中，应用在主函数中启动 monitoringService，获取资源，以及观察各种服务的状态变化。

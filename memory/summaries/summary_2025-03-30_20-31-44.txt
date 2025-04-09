@@ -1,0 +1,14 @@
+1. Update your system with `sudo apt update && sudo apt upgrade -y`
+2. Install required dependencies: `sudo apt install curl git unzip zip tar wget -y`
+3. Install Java 17: `sudo apt install openjdk-17-jdk -y java -version`
+4. Install Flutter with the provided commands and add it to PATH. Verify Flutter with `flutter --version`.
+5. Install Android Studio following the provided instructions. Launch Android Studio and complete the setup wizard, then install SDKs.
+6. Configure Android SDK & ADB by adding environment variables to your bashrc. Verify ADB with `adb version`.
+7. Install Gradle with `sdk install gradle 8.4 gradle -v`.
+8. Set up Firebase in the Firebase Console, download `google-services.json`, and place it in `~/linkup/android/app`.
+9. Install Flutter dependencies by editing `pubspec.yaml` and running `flutter pub get`.
+10. Set up an emulator for testing with `flutter doctor`, create an Emulator, and run it.
+11. Set up Git for version control by initializing a repo, adding files, committing, and pushing to GitHub.
+12. Run your app with `flutter run` or `flutter run --release` for release mode.
+13. Debugging and optimization: run `flutter analyze`, `flutter doctor`, and `flutter clean`.
+14. Integrate an AI-powered admin dashboard using Firebase Admin SDK and a chatbot for automated in-app management.

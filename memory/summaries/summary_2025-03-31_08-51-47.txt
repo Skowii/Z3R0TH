@@ -1,0 +1,1 @@
+This module provides the RP Renamer main window using PyQt5. The Window class inherits from QWidget and Ui_Window, with __init__ and _setupUI methods for initializing and setting up the UI, respectively.

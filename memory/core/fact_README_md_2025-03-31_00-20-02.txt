@@ -1,0 +1,7 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_00-20-02
+
+Puppeteer is a JavaScript library that allows users to control Chrome or Firefox browsers through DevTools Protocol or WebDriver BiDi, typically in headless mode. It provides a high-level API for testing and automation purposes. To install, use `npm i puppeteer` or `npm i puppeteer-core`. The example demonstrates launching a browser, navigating to a URL, setting viewport size, typing into search box, waiting and clicking on result links, locating text, and printing the title of the blog post.
+
+# TAGS: Key Concepts: Puppeteer, JavaScript library, Chrome or Firefox, DevTools Protocol, WebDriver BiDi, headless, API, FAQ, Contributing, Troubleshooting, installation, example
+Keywords: puppeteer, JavaScript, high-level API, Chrome, Firefox, DevTools Protocol, WebDriver BiDi, headless, browser, page, viewport, search box, locate, text selector, evaluate, console log, full title

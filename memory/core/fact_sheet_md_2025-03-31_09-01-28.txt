@@ -1,0 +1,6 @@
+# SOURCE: sheet.md
+# TIME: 2025-03-31_09-01-28
+
+Google Sheets Read is a block that retrieves data from a specified range within a Google Sheets spreadsheet using provided credentials. The block fetches the data and organizes it in rows and columns as output. It can be used to read real-time data from a shared document. On the other hand, Google Sheets Write is a block that writes data into a Google Sheets spreadsheet using authentication information. This block can be used for updating real-time inventory or marketing analytics data directly in a spreadsheet.
+
+# TAGS: key concepts: Google Sheets, block, read data, credentials, spreadsheet ID, range, inputs, outputs, write data, marketing team, campaign performance data, analytics, reporting, authentication information, use case, automated inventory system, stock levels, inventory tracking

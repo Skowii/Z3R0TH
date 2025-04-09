@@ -1,0 +1,5 @@
+Servant es un patrón de diseño utilizado para proporcionar comportamiento a un grupo de clases. Permite definir funcionalidad en una sola clase Servant, que luego se utiliza por otros objetos sin tener que repetir la definición en cada clase individual. Se utiliza en ingeniería de software y puede ayudar a simplificar código al eliminar duplicación.
+
+En el ejemplo proporcionado, Servant proporciona servicios como comida, bebidas y complementos a un grupo de clases (Royalty), que pueden ser King, Queen o otros miembros reales de palacio. Royalty es una interfaz implementada por las clases para recibir los servicios ofrecidos por Servant.
+
+El patrón Servant ayuda a mantener el diseño limpio y coherente al facilitar la reutilización de comportamiento en varias clases sin repetir código.

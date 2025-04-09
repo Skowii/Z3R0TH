@@ -1,0 +1,1 @@
+This file is part of the Sylius package, with copyright information in the LICENSE file. The content lists a series of forms related to various functions within the Sylius system, including products, taxons, product variants, inventory management, customer groups, promotions, payment and shipping methods, and more.

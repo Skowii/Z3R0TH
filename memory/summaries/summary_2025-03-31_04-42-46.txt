@@ -1,0 +1,71 @@
+Title: Table Module
+Short Title: Table Module
+Category: Structural language
+Language: zh
+Tag: Data access
+
+The Table Module pattern organizes domain logic based on a table in the database and has one class instance for each table, handling all row-based business logic. It simplifies data access and allows for better modularization of code.
+
+Example:
+In a user system, we need to handle login and registration functionality. We can use the Table Module pattern by creating a UserTableModule class with an instance for processing all business logic related to the user table.
+
+Class Example (UserTableModule):
+```java
+public class UserTableModule {
+    private final DataSource dataSource;
+    private Connection connection = null;
+    private ResultSet resultSet = null;
+    private PreparedStatement preparedStatement = null;
+    public UserTableModule(final DataSource userDataSource) {
+        this.dataSource = userDataSource;
+    }
+    
+    /**
+     * Login using username and password.
+     * @param username the username of a user
+     * @param password the password of a user
+     * @return the execution result of the method
+     * @throws SQLException if any error
+     */
+    public int login(final String username, final String password) throws SQLException {
+        // Method implementation.
+    }
+    
+    /**
+     * Register a new user.
+     * @param user a user instance
+     * @return the execution result of the method
+     * @throws SQLException if any error
+     */
+    public int registerUser(final User user) throws SQLException {
+        // Method implementation.
+    }
+}
+```
+
+App Example:
+```java
+// Create data source and create the user table.
+final var dataSource = createDataSource();
+createSchema(dataSource);
+userTableModule = new UserTableModule(dataSource);
+
+//Initialize two users.
+var user1 = new User(1, "123456", "123456");
+var user2 = new User(2, "test", "password");
+
+//Login and register using the instance of userTableModule.
+userTableModule.registerUser(user1);
+userTableModule.login(user1.getUsername(), user1.getPassword());
+userTableModule.login(user2.getUsername(), user2.getPassword());
+userTableModule.registerUser(user2);
+userTableModule.login(user2.getUsername(), user2.getPassword());
+deleteSchema(dataSource);
+```
+
+UML Diagram:
+![table module](etc/table-module.urm.png)
+
+Usage:
+- Use the Table Module pattern when domain logic is simple and data is presented in a table format.
+- Apply the pattern when an application only uses a small number of shared, common table-based data structures.

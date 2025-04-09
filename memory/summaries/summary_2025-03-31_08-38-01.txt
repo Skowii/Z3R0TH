@@ -1,0 +1,1 @@
+Jupyter version 24.4.2 and Ruff 0.4.2 are being used.

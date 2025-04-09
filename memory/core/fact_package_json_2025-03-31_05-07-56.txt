@@ -1,0 +1,47 @@
+# SOURCE: package.json
+# TIME: 2025-03-31_05-07-56
+
+Name: n8n-monorepo
+Version: 1.85.0
+Private: True
+Engines:
+Node: >=20.15
+Pnpm: >=10.2.1
+Package Manager: pnpm@10.2.1
+Scripts:
+Prepare: node scripts/prepare.mjs
+Preinstall: node scripts/block-npm-install.js
+Build: turbo run build
+Build:backend: turbo run build:backend
+Build:frontend: turbo run build:frontend
+Dev Build: turbo dev
+Test: turbo test
+Start: turbo start
+Watch: turbo watch
+Coverage: turbo coverage
+CI: turbo ci
+Lint: turbo lint
+Format: turbo format
+Build Docker Image: turbo docker-image
+Clean: rimraf node_modules && npm install
+Postinstall: node scripts/postinstall.mjs
+Start with Debugger: node --inspect scripts/start.js
+Test Watcher: nodemon --exec 'npm run test' --ext ts,tsx,html,pug src --legacy-watch --delay 1000
+Postinstall with Debugger: node --inside scripts/postinstall.mjs
+Publish: turbo publish
+Publish Docker Image: turbo docker-publish
+Deploy: turbo deploy
+Deploy Docker Image: turbo deploy-docker-image
+Clean Test: rimraf ./dist src/__tests__ node_modules test-results tsconfig.json 
+Dev Build with Watch: npm run dev
+CI Build and Test: turbo ci && turbo test
+Start Debugger: node --inspect scripts/start.js
+Start with Debugger Docker Image: turbo docker-image start --debugger
+
+Dependencies:
+cross-env, jest, jest-environment-jsdom, jest-expect-message, jest-mock, jest-mock-extended, lefthook, nock, nodemon, npm-run-all2, p-limit, rimraf, run-script-os, supertest, ts-jest, tsc-alias, tsc-watch, turbo, typescript, zx
+
+Dev Dependencies:
+chokidar, esbuild, formidable, pug, semver, tslib, tsconfig-paths, vue-tsc, ws, @types/node, @types/express-serve-static-core, @types/ws, @types/uuencode
+
+# TAGS: n8n-monorepo, version 1.85.0, private, node >=20.15, pnpm >=10.2.1, packageManager: pnpm@10.2.1, scripts, prepare, preinstall, build, build:backend, build:frontend, build:nodes, typecheck, dev, dev:be, dev:ai, dev:fe, dev:e2e, dev:e2e:v1, dev:e2e:server, clean, reset, format, format:check, lint, lintfix, lint:backend, lint:nodes, lint:frontend, optimize-svg, start, start:default, start:tunnel, start:windows, test, test:backend, test:frontend, test:nodes, watch, webhook, worker, devDependencies: @biomejs/biome, @n8n/eslint-config, @types/jest, @types/supertest, cross-env, jest, jest-environment-jsdom, jest-expect-message, jest-mock, jest-mock-extended, lefthook, nock, nodemon, npm-run-all2, p-limit, rimraf, run-script-os, supertest, ts-jest, tsc-alias, tsc-watch, turbo, typescript, zx

@@ -1,0 +1,34 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_03-17-06
+
+The core module of this AI-powered chatbot framework consists of abstraction and basic implementation functions, along with a collection of common tools. It uses component design, keeping the kernel minimal and allowing business functionality to be implemented by external components. Some built-in plugins are:
+
+- Data storages: BotSharp.Core.Repository, BotSharp.Plugin.MongoStorage, [BotSharp.Plugin.LiteDBStorage](https://github.com/GreenShadeZhang/BotSharp/tree/dev_litedb/src/Plugins/BotSharp.Plugin.LiteDBStorage), BotSharp.Plugin.TencentCos
+- LLMs: BotSharp.Plugin.Planner, BotSharp.Plugin.AzureOpenAI, BotSharp.Plugin.OpenAI, BotSharp.Plugin.AnthropicAI, BotSharp.Plugin.DeepSeekAI, BotSharp.Plugin.GoogleAI, BotSharp.Plugin.MetaAI, BotSharp.Plugin.HuggingFace, BotSharp.Plugin.LLamaSharp, BotSharp.Plugin.SemanticKernel, BotSharp.Plugin.SparkDesk
+- Messaging/Channel: BotSharp.OpenAPI, BotSharp.Plugin.ChatHub, BotSharp.Plugin.MetaMessenger, BotSharp.Plugin.Twilio, BotSharp.Plugin.TelegramBots, BotSharp.Plugin.WeChat
+- RAGs: BotSharp.Plugin.KnowledgeBase, BotSharp.Plugin.Qdrant
+- Visions: BotSharp.Plugin.PaddleSharp
+- Tools: BotSharp.Plugin.Dashboard, BotSharp.Plugin.RoutingSpeeder, BotSharp.Plugin.AudioHandler, BotSharp.Plugin.EmailHandler, BotSharp.Plugin.FileHandler, BotSharp.Plugin.HttpHandler, BotSharp.Plugin.SqlDriver, BotSharp.Plugin.WebDriver, BotSharp.Plugin.PythonInterpreter
+- UIs: BotSharp.Plugin.ChatbotUI
+
+To get started quickly, run the backend service and the admin UI project using the provided instructions. Access http://localhost:5015/ to see the Admin UI. The framework also supports online demos with a user interface at https://botsharp.azurewebsites.net/.
+
+# TAGS: ionName=BotSharp
+```
+
+2. Open browser to http://localhost:5000/ui/index.html
+3. Click "Login with Google" and authorize access to your Google account
+4. You can start chatting with the AI agent
+
+To build an LLM-based AI application using BotSharp, follow these steps:
+
+1. Install the NuGet packages: `Install-Package BotSharp.Core`.
+2. Configure and initialize the BotSharp platform: `using (var bot = new BotSharp(apiKey, config))`
+3. Create an AI agent and configure its planning method: `Agent agent = new Agent(aiPlatform) { PlanningMethod = PlanningMethod.OpenAI };`
+4. Define your conversation rules, intents, entities, and other components.
+5. Build a pipeline to process and control the flow of conversations.
+6. Train and fine-tune the AI model using data and knowledge from your domain.
+7. Deploy the AI agent to handle user interactions and manage conversation states.
+8. Monitor and maintain the AI agent's performance and update models as needed.
+
+For more details, please check our [documentation](https://botsharp.readthedocs.io/en/latest/).

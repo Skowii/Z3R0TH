@@ -1,0 +1,13 @@
+Calculate the scroll position of the current page or an element using JavaScript properties like `Window.scrollX`, `Window.scrollY`, `Element.scrollLeft`, and `Element.scrollTop`. Example:
+
+```js
+const getWindowScrollPosition = () => ({
+    x: window.scrollX,
+    y: window.scrollY
+});
+
+const getScrollPosition = (el = document.documentElement) => ({
+    x: el.scrollLeft,
+    y: el.scrollTop
+});
+```

@@ -1,0 +1,1 @@
+Shake input fields when invalid using CSS's `@keyframes` and `:invalid` pseudo-class to create an animation effect that shakes the element when user inputs invalid data. This can be achieved by defining a shake animation using `margin-left` property, and applying it to the element with the `animation` rule in the `:invalid` pseudo-class.

@@ -1,0 +1,8 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-46-35
+
+Name: example/test-application
+
+Tags: none provided
+
+# TAGS: Key Concepts: name, example, test-application

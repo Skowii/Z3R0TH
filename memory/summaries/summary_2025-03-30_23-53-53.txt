@@ -1,0 +1,7 @@
+Title: Asynchronous JavaScript Cheat Sheet
+
+Summary:
+- Promises start in pending state, fulfilled with value or rejected with error
+- Creating promises using `resolve()`, `reject()`, and `Promise.resolve()`/`.reject()`
+- Handling promises with `then()`, `catch()`, and `finally()`
+- Combining promises using `Promise.all()` and `Promise.race()`

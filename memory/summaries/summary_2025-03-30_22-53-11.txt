@@ -1,0 +1,1 @@
+Accidentally deleted a file in Git and need to restore it? Use the command `git checkout <commit>^ -- <pathspec>` to restore the specified file or multiple files that were deleted in a specific commit.

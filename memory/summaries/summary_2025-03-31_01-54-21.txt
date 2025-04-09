@@ -1,0 +1,12 @@
+The Myers diff algorithm is used to calculate the difference between two strings in JavaScript, similar to how Git works. It's based on solving the longest common subsequence problem. In this implementation, we use dynamic programming to break down a complex problem into smaller parts and optimize the solutions. To do this:
+
+1. Create a (m + 1) x (n + 1) matrix called dp. Each column represents a character of a, and each row represents a character of b.
+2. Fill the first row with the numbers 0 to n, and the first column with the numbers 0 to m.
+3. Loop through the matrix, comparing characters from both sequences, and update the matrix as follows:
+   - If the current characters are equal, update dp[i][j] = dp[i-1][j-1] + 1.
+   - If the characters are not equal, update dp[i][j] = max(dp[i-1][j], dp[i][j-1]) + 1.
+4. To find the difference between two strings, trace back through the matrix and build an array of objects with a value and operation for each edit:
+   - If the current dp value is greater than the previous one in the same row or column, insert a delete operation.
+   - If it's less, insert an insert operation.
+   - If it's equal, both characters are the same; add an object with the value and operation as 'equal'.
+5. Return the diff array containing the edits required to convert a into b.

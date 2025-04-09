@@ -1,0 +1,1 @@
+The Auto-GPT agent was benchmarked on several tasks, with the most difficult being "TestSearch" at intermediate: 4. Tasks included file manipulation (write and read), content generation, and basic retrieval. The agent's run time was 1026.13 seconds, and it successfully completed 40% of the tasks.

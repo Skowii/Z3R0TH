@@ -1,0 +1,1 @@
+PCMEncoding is an IntEnum class defining different PCM encoding formats. Each format has a unique identifier and properties such as max/min value and number of bits. The decode method converts frames into amplitude arrays based on the format. Similarly, the encode method converts amplitude arrays to frames based on the format. Unsupported encodings raise TypeErrors.

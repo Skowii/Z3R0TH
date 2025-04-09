@@ -1,0 +1,1 @@
+This project is licensed under the MIT license and uses ZK framework (LGPL license) for its module model-view-viewmodel. The MIT license allows free use, copying, modification, distribution, etc., with certain conditions including the inclusion of copyright notices. The software is provided "as is" without warranty.

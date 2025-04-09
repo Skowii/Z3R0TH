@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-17-54
+
+Sylius Taxonomy Bundle is a flexible categorization system based on the Spree Taxonomies system for Symfony2 eCommerce applications. It is an open-source eCommerce solution built from decoupled components with powerful API and high-quality code provided by Sylius. The documentation can be found at docs.sylius.com, while bug tracking is managed through GitHub issues. The project follows the MIT License and has contributions from various authors including Paweł Jędrzejewski and other contributors listed on the project's GitHub repository.
+
+# TAGS: Tags: SyliusTaxonomyBundle, Symfony2, eCommerce applications, Spree Taxonomies system, Sylius, decoupled components, Powerful API, highest quality code, Open Source, contributing, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

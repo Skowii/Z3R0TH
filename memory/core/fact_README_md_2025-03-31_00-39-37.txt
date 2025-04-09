@@ -1,0 +1,21 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_00-39-37
+
+ual-language understanding models, and many more. The software is designed to work on a wide range of frameworks and can be used with both local and cloud-based resources. This paper introduces the tool, showcases its capabilities with different types of tasks, and highlights its benefits in terms of code simplicity, flexibility, and performance.",
+}
+```
+
+# TAGS: Tasks:
+- LLM SFT Finetuning
+- LLM ORPO Finetuning
+- LLM DPO Finetuning
+- LLM Reward Finetuning
+- LLM Generic/Default Finetuning
+- Text Classification
+- Text Regression
+- Token Classification (Coming Soon)
+- Seq2Seq (Coming Soon)
+- Extractive Question Answering (Coming Soon)
+- Image Classification (Coming Soon)
+- Image Scoring/Regression (Coming Soon)
+- VLM (Coming Soon)

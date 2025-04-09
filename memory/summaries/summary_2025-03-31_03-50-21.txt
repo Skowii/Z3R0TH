@@ -1,0 +1,56 @@
+The Abstract Document is a template that allows additional features and attributes to be added to objects without updating the object itself. This design pattern uses the concept of "traits" (a property or characteristic) to separate an object's features into separate interfaces, thus providing flexible object structuring while maintaining type safety. An example demonstrates how this can be applied:
+
+1. Define a base class `Document` and its abstract counterpart `AbstractDocument`. These classes define the properties of objects that will hold any data types.
+
+```java
+public interface Document {
+    Void put(String key, Object value);
+    Object get(String key);
+    <T> Stream<T> children(String key, Function<Map<String, Object>, T> constructor);
+}
+
+public abstract class AbstractDocument implements Document {
+    private final Map<String, Object> properties;
+    protected AbstractDocument(Map<String, Object> properties) {
+        Objects.requireNonNull(properties, "properties map is required");
+        this.properties = properties;
+    }
+    
+    @Override
+    public Void put(String key, Object value) {
+        properties.put(key, value);
+        return null;
+    }
+    
+    @Override
+    public Object get(String key) {
+        return properties.get(key);
+    }
+    
+    @Override
+    public <T> Stream<T> children(String key, Function<Map<String, Object>, T> constructor) {
+        return Stream.ofNullable(get(key))
+            .filter(Objects::nonNull)
+            .map(el -> (List<Map<String, Object>>) el)
+            .findAny()
+            .stream()
+            .flatMap(Collection::stream)
+            .map(constructor);
+    }
+    
+    ...
+}
+```
+
+2. Define an enum for properties and interfaces representing the attributes: `Property`, `type`, `price`, `model`. This allows for a fixed interface to be created for the `Car` class.
+
+```java
+public enum Property {
+    PARTS, TYPE, PRICE, MODEL
+}
+
+public interface HasType extends Document {
+    default Optional<S
+```
+
+The Abstract Document pattern provides an efficient way to define objects with dynamic features and maintain strong type safety.

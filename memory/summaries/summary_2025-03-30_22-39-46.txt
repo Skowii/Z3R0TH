@@ -1,0 +1,1 @@
+Quality of life improvements have been made, including a new search using natural language processing techniques, improved UI interactions with keyboard shortcuts and scroll spy feature, and a continued commitment to close community contributions.

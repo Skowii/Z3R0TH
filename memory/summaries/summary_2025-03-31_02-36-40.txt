@@ -1,0 +1,12 @@
+Create a function that ensures another function is called only once using a closure and a flag initially set to false. The function can have its context changed via apply() or call() methods, and it should accept an arbitrary number of arguments. Example:
+```js
+const once = fn => {
+  let called = false;
+  return function(...args) {
+    if (called) return;
+    called = true;
+    return fn.apply(this, args);
+  };
+};
+document.body.addEventListener('click', once(startApp)); // only runs `startApp` once upon click
+```

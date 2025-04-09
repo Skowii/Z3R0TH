@@ -1,0 +1,1 @@
+Convert an integer to a roman numeral using Python by iterating over a lookup list containing tuples of roman values and integers, updating the number with the remainder and adding the roman numeral representation to the result.

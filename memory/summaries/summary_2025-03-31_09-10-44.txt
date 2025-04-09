@@ -1,0 +1,1 @@
+This code defines a book recommendation service using gRPC and implements the RecommendationsServer interface. The recommendations are organized by category, and a function randomly selects books within a specified category to return as recommendations. An ExceptionToStatusInterceptor is used to catch errors. The server runs on port 443 with SSL encryption.

@@ -1,0 +1,1 @@
+Create a generator that yields all dates in a given range using JavaScript generators. This is useful for working with data involving dates and saves memory and time. The function takes start and end dates, as well as an optional step value to increment or decrement the date. Example: dateRange('2021-06-01','2021-06-04') generates [2021-06-01, 2021-06-02, 2021-06-03].

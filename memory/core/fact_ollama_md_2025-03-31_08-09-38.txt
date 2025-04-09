@@ -1,0 +1,10 @@
+# SOURCE: ollama.md
+# TIME: 2025-03-31_08-09-38
+
+AutoGPT:
+- Ollama integration for self-hosted AutoGPT only
+- Set up and run Ollama with AutoGPT by following the setup steps
+- Add AI Text Generator block with "llama3.2" as model
+- Use Ollama on a remote server by setting the Ollama Host field to the server's IP address and port
+
+# TAGS: Ollama integration, AutoGPT platform, setup steps, prerequisites, llama3.2 model, backend, frontend, AI Text Generator block, "LLM Model", selecting "llama3.2", adding prompts, saving and running the graph, using Ollama on a remote server with AutoGPT, troubleshooting

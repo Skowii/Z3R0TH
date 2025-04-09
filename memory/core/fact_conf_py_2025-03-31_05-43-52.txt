@@ -1,0 +1,21 @@
+# SOURCE: conf.py
+# TIME: 2025-03-31_05-43-52
+
+- Language: Python
+- Sphinx Extensions: ['autodoc', 'doctest', 'todo', 'coverage', 'imgmath', 'ifconfig', 'configurationblock', 'phpcode', 'copybutton', 'redirects']
+- Source File Suffix: .rst
+- Master Document: index.rst
+- Project Name: Sylius
+- Copyright Information: 2011-2021 Paweł Jędrzejewski
+- Version and Release Information: ''
+- Excluded Patterns: '_includes/*.rst'
+- HTML Theme: sylius_rtd_theme
+- HTML Theme Path: _themes
+- HTML Help Basename: Syliusdoc
+- Manual Pages: [('index', 'sylius', u'Sylius Documentation', [u'Paweł Jędrzejewski'], 1)]
+- Adds Python paths: os.path.abspath('_exts')
+- Lexers: ['php', 'php-annotations']
+- RST Epilog: ""
+- Redirects File: redirection_map
+
+# TAGS: Sylius, Paweł Jędrzejewski, 2011-2021, index, html_theme, html_theme_path, sys.path, lexers, rst_epilog, redirects_file

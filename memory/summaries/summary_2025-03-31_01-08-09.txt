@@ -1,0 +1,1 @@
+This information provides a method to compare and sort strings in JavaScript, considering case and accent. The `Intl.Collator` is used to achieve this by utilizing the `compare()` function that accepts locale arguments for language-sensitive comparisons. Examples are provided on how to use it with different locales to sort an array of strings while ignoring cases or accents.

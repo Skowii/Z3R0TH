@@ -1,0 +1,1 @@
+List all Git aliases using the command: `git config -l | grep alias | sed 's/^alias\.//g'`. This will show a list of your configured aliases.

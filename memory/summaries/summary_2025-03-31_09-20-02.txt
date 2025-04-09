@@ -1,0 +1,9 @@
+Calculate the cumulative sum of sales income using pandas. Read a CSV file and assign a new column with the cumulative income, then drop the intermediate income column.
+
+- Use `pd.read_csv("resources/products.csv")` to read the products data.
+- Create an empty list `cumulative_sum = []`.
+- For each product in the products' `itertuples()`, calculate the income (sales * unit price).
+- If `cumulative_sum` is not empty, add the income to the last element of the list. Else, append the income to the list.
+- Assign the `cumulative_sum` to a new column in the products DataFrame.
+- Optionally, use `products.assign(cumulative_income=cumulative_sum)`.
+- Alternatively, use `pd.read_csv("resources/products.csv") .assign( income=lambda df: df["sales"] * df["unit_price"], cumulatative_income=lambda df: df["income"].cumsum(), ) .drop(columns="income")` for a more efficient approach.

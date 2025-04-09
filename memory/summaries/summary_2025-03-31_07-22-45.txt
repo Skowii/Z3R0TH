@@ -1,0 +1,5 @@
+El patrón Proxy es una técnica de diseño que ofrece un sustituto o marcador de posición para otro objeto, permitiendo controlar el acceso a este. La clase proxy puede proporcionar funcionalidad adicional, como almacenamiento en caché o comprobación de condiciones previas antes de invocar operaciones en el objeto real. Este patrón se utiliza para desacoplar la lógica de acceso y operaciones del objeto real, lo que permite una mayor flexibilidad y control en el diseño de la aplicación.
+
+En un ejemplo, se implementa un proxy en una clase WizardTowerProxy que añade un control de acceso limitado a tres magos. La interfaz WizardTower se utiliza para comunicarse con el objeto real, IvoryTower. El proxy contiene la lógica de acceso y permite solo almacenar tres magos en la torre antes de bloquear el acceso adicional.
+
+La implementación de un patrón Proxy puede simplificar el control de acceso a objetos, ofreciendo una capa intermedia para proteger y filtrar las operaciones realizadas sobre estos objetos.

@@ -1,0 +1,1 @@
+UpperPrintString is a subclass of str that overrides the __str__ method to return an uppercase version of its contents, utilizing the built-in upper() function.

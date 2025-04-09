@@ -1,0 +1,17 @@
+the value of a specific property.   public int get(Stats stat) {     return properties.get(stat);   }   } 
+
+interface CharacterType {   void setType();   } 
+
+enum Stats {   STRENGTH,   AGILITY,   INTELLECT;   }
+
+class Mage implements CharacterType {   public void setType() {     this.type = Type.MAGE;   }   }
+
+class Warrior implements CharacterType {   public void setType() {     this.type = Type.WARRIOR;   }   }
+
+class Thief implements CharacterType {   public void setType() {     this.type = Type.THIEF;   }   } 
+
+enum Type {   MAGE,   WARRIOR,   THIEF;   }
+
+public class PropertyPatternExample {   public static void main(String[] args) {     Character warrior = new Character(Type.WARRIOR, null);     warrior.set(Stats.STRENGTH, 10);     warrior.set(Stats.AGILITY, 5);     System.out.println(warrior.get(Stats.STRENGTH));   } }
+
+In this example, the Character class uses the Property design pattern to manage dynamic properties for a character object. The set() and get() methods allow for the addition, modification, and retrieval of property values, while the remove() method can be used to delete a property. This enables developers to easily customize characters within their game without needing to alter the class structure.

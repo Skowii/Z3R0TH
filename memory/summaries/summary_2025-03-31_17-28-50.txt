@@ -1,0 +1,1 @@
+This page features various challenges that AutoGPT currently encounters, inviting users to propose solutions or ideas. Users can submit new challenges following the guidelines on the "Submit a Challenge" page. The listed challenges are specifically related to memory issues, and more information can be found in the "Memory Challenges" section.

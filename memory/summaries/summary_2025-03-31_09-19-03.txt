@@ -1,0 +1,1 @@
+The code attempts a GET request to "https://api.github.com" using the requests library with a timeout of (3.05, 5) seconds. If the request times out, it will be caught by the exception and printed as such. Otherwise, if it does not time out, it will output that it did not time out.

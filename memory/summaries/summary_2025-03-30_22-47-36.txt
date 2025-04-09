@@ -1,0 +1,1 @@
+"Undo" history in Git can be viewed using `git reflog`, which displays actions and commits. This is useful for commands that don't show up in the standard commit history. To view your undo history, use `git reflog` and find the desired commit. Then, use `git reset --hard` with the commit hash to return to that state.

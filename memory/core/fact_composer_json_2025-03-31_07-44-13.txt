@@ -1,0 +1,9 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-44-13
+
+The given information provides a summary of a knowledge entry. It includes a name, which is the main identifier, titled as "example/test-application". This could be the title or name of an application for testing purposes and can be used to refer or locate this specific piece of information.
+
+# TAGS: Key Concepts: example, test-application
+Keywords: name
+People: N/A
+Dates: N/A

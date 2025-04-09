@@ -1,0 +1,1 @@
+Fluid typography uses the `clamp()` function to create text that scales according to viewport width. This allows for responsive designs where text grows or shrinks based on available space. The technique uses relative units (`rem` and `vw`) and a formula to calculate responsive font-size values.

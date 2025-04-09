@@ -1,0 +1,6 @@
+# SOURCE: system_prompt.txt
+# TIME: 2025-03-31_00-05-09
+
+Greeting, a friendly and informal expression used to begin a conversation or interaction with someone.
+
+# TAGS: Hello there

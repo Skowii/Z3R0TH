@@ -1,0 +1,3 @@
+Convert between a JavaScript Date object and Unix timestamp by dividing or multiplying by 1000. Example: 
+- toTimestamp(date): `Math.floor(date.getTime() / 1000)`
+- fromTimestamp(timestamp): `new Date(timestamp * 1000)`

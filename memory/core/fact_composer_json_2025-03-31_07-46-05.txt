@@ -1,0 +1,9 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-46-05
+
+The given information is a JSON object with the key "name" and value "example/test-application". This data provides an identifier for a test application called "example/test-application". It would be useful in various software development tasks, such as version control systems.
+
+# TAGS: Key Concepts: example, test-application
+People: None
+Dates: None
+Keywords: None

@@ -1,0 +1,13 @@
+Extract values from an array of objects based on a specified key using Array.prototype.map(). 
+
+To pluck a single value for each object, use `arr.map(i => i[key])`. For multiple values, use a nested `map()`: `arr.map(i => keys.map(k => i[k]))`. A single function that accepts any number of keys can be created using the rest argument syntax (`...keys`):
+
+```js
+const pluck = (arr, ...keys) => {
+  if (keys.length > 1) {
+    return arr.map(i => keys.map(k => i[k]))
+  } else {
+    return arr.map(i => i[keys[0]])
+  }
+}
+```

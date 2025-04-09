@@ -1,0 +1,1 @@
+In this installment, we aim to create a custom object inspect utility to help with debugging complex objects in the console. This is done by expanding the directory structure and adding autoloading and console scripts to the project. The `settings.js` file is created for holding settings, including the modules to be autoloaded.

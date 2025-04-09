@@ -1,0 +1,1 @@
+This function, categorize_by_age(age), classifies ages into four groups based on given age ranges. If the age is between 0-9, it's a child; 9-18, an adolescent; 18-65, an adult; and 65-150, golden age. Any other value is labeled as invalid.

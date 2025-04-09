@@ -1,0 +1,54 @@
+Composite Entity, also known as Aggregate Entity, is a structural design pattern that manages a group of related persistent objects as if they were one entity. It is commonly used in the context of Enterprise JavaBeans (EJB) and similar enterprise application patterns to represent data entities as part of business models. This allows clients to interact with them as a single unit.
+
+The composite entity pattern consists of two main components: a dependent object, which represents an individual entity, and a coarse-grained object that manages the relationship between multiple dependent objects. 
+
+For example, consider a control panel application where there are various interfaces that need to be managed and monitored. By using the composite entity pattern, these interfaces can be grouped together under one coarse-grained object. In code:
+```java
+public abstract class DependentObject<T> {
+    T data;
+    public void setData(T message) {
+        this.data = message;
+    }
+    public T getData() {
+        return data;
+    }
+}
+public abstract class CoarseGrainedObject<T> {
+    DependentObject<T>[] dependentObjects;
+    public void setData(T... data) {
+        IntStream.range(0, data.length).forEach(i -> dependentObjects[i].setData(data[i]));
+    }
+    public T[] getData() {
+        return (T[]) Arrays.stream(dependentObjects).map(DependentObject::getData).toArray();
+    }
+}
+```
+A specialized composite object inherits from the base class and extends it:
+```java
+public class MessageDependentObject extends DependentObject<String> {
+}
+public class SignalDependentObject extends DependentObject<String> {
+}
+public class ConsoleCoarseGrainedObject extends CoarseGrainedObject<String> {
+    @Override
+    public String[] getData() {
+        super.getData();
+        return new String[] {
+            dependentObjects[0].getData(), dependentObjects[1].getData()
+        };
+    }
+}
+```
+Finally, a composite entity can be created:
+```java
+public class CompositeEntity {
+    private final ConsoleCoarseGrainedObject console = new ConsoleCoarseGrainedObject();
+    public void setData(String message, String signal) {
+        console.setData(message, signal);
+    }
+    public String[] getData() {
+        return console.getData();
+    }
+}
+```
+Applications in which complex enterprise objects are involved can benefit from this pattern.

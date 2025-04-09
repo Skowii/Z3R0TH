@@ -1,0 +1,1 @@
+The Sylius Admin Bundle is a component for an eCommerce administration panel. It is part of the Sylius project, which aims to build a scalable and flexible eCommerce platform. This bundle requires PHP version 7.4 or 8.0, as well as other dependencies like Symfony and Twig. The code can be found on GitHub with contributions from the community.

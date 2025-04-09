@@ -1,0 +1,1 @@
+The information demonstrates different methods to sum a column in a Pandas DataFrame using the dedicated Pandas `.sum()` method, list comprehension with `.itertuples()`, and manual loop with `.itertuples()`. The dataset is "resources/popular_websites.csv", and the target column is "total_views".

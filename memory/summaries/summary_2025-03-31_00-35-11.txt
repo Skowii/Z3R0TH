@@ -1,0 +1,3 @@
+Convert between degrees and radians in JavaScript using the formulas:
+- Degrees to radians: `radians = degrees * Math.PI / 180.0`
+- Radians to degrees: `degrees = radians * 180.0 / Math.PI`

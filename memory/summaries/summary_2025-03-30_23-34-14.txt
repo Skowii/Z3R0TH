@@ -1,0 +1,6 @@
+To empty an array in JavaScript, you can:
+
+1. Assign it to an empty array: `a = []`.
+2. Set its length to 0: `a.length = 0`.
+3. Use `Array.prototype.splice()`: `a.splice(0, a.length)`.
+4. Use `Array.prototype.pop()`: `while (a.length) a.pop()`.

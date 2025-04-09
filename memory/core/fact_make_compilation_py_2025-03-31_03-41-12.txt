@@ -1,0 +1,25 @@
+# SOURCE: make_compilation.py
+# TIME: 2025-03-31_03-41-12
+
+Video Compilation Function:
+- Takes videos from a folder
+- Creates a compilation with max length totalVidLength
+- Videos are added if within minClipLength and maxClipLength range, or can be forced to include all videos.
+- Watermark can be added (optional)
+
+Example call:
+```python
+makeCompilation(path = "/home/kali/Documents/YOUTUBE/AutomatedChannel/Videos/Memes/",
+                introName = "intro_vid.mp4",
+                outroName = 'outro.mp4',
+                wmark = 'BotTuber.png',
+                totalVidLength = 10*60,
+                maxClipLength = 20,
+                outputFile = "outputseq.mp4",
+                video_source_meta = {},
+                videoDirectory = "",
+                description_meta = "",
+                modeAM = "A")
+```
+
+# TAGS: VideoFileClip, concatenate_videoclips, resize, FFmpeg, generateTimeRange, makeCompilation, totalVidLength, maxClipLength, minClipLength, outputFile, description_meta, modeAM, add_video, isfile, join, VideoFileClip.resize, introName, outroName, wmark, videoDirectory

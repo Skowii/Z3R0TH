@@ -1,0 +1,1 @@
+This module provides the RP Renamer application, using PyQt5's QApplication to create a main window (Window) for renaming files with an event-loop-based interface.

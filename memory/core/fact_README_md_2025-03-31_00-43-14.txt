@@ -1,0 +1,97 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_00-43-14
+
+```
+
+To configure your Crew, edit the `crew.yaml` file under the 'my_project' folder. This YAML configuration file defines your crew members, their roles, and how they interact with one another.
+
+Here is a sample crew.yaml for a simple two-membered crew:
+
+```yaml
+crew_name: my_example_crew
+roles:
+  - name: greeter
+    type: text_based_role
+    model: 'gpt-3.5-turbo'
+    template: "Hello, how may I help you?"
+    
+  - name: assistant
+    type: text_based_role
+    model: 'gpt-3.5-turbo'
+    template: |
+      What can I do for you today?
+      Please let me know your query or need, and I will try to assist!
+```
+
+This YAML configuration defines a two-member crew: a greeter and an assistant. The roles are text-based, meaning they utilize OpenAI's GPT-3.5-turbo model for natural language understanding and response generation. Additionally, each role has a specific template that it will follow when interacting with the user.
+
+## Using CrewAI
+
+To run your Crew, simply start the development server:
+
+```shell
+crewai run crew
+```
+
+This command starts the development server and launches your Crew, allowing you to interact with it using the provided REPL (Read-Eval-Print Loop) or a client of your choice.
+
+To shut down the server, press `Ctrl+C` or use the 'exit' command within the REPL.
+
+For more information on using CrewAI in production, refer to our [documentation](https://docs.astral.sh/crewai/) and join our community for support and resources!
+
+# TAGS: design down to specific model integrations.
+- **Granular Control with Flows**: Leverage precise task orchestration through event-driven control and single LLM calls, ideal for building autonomous AI agents tailored to any scenario.
+- **Easy Integration**: Seamlessly connects with existing enterprise systems, data sources, and cloud infrastructure.
+- **Secure & Compliant**: Built-in robust security and compliance measures, ensuring safe deployment and management.
+
+<div style="margin: 10px; background-color: #f8f9fa; padding: 20px; border-radius: 5px; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 2px 4px; font-family: Arial, sans-serif">
+
+</div>
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/joaomdmoura/crewAI)](https://github.com/crewAIInc/crewAI)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
+<h2>Getting Started</h2>
+<p>CrewAI provides a powerful, lightweight Python framework to build multi-agent systems and AI agents with high levels of simplicity and low-level control.</p>
+
+<h3>Prerequisites:</h3>
+<ul>
+  <li>A basic understanding of Python programming is recommended</li>
+  <li>An installation of a compatible version of Python (v. 3.8 or above)</li>
+</ul>
+
+<h2>Key Features</h2>
+<p>CrewAI offers an extensive set of features for building autonomous AI agents, including:</p>
+<ul>
+  <li>Crews - For empowering agents with collaborative intelligence</li>
+  <li>Flows - For enabling granular, event-driven control and single LLM calls</li>
+  <li>Unified Control Plane - A centralized platform for managing, monitoring, and scaling your AI agents and workflows</li>
+  <li>Advanced Security - Built-in robust security and compliance measures</li>
+  <li>Actionable Insights - Real-time analytics and reporting to optimize performance and decision-making</li>
+  <li>24/7 Support - Dedicated enterprise support for uninterrupted operation and quick resolution of issues</li>
+  <li>On-premise and Cloud Deployment Options - Deploy CrewAI Enterprise on-premise or in the cloud, depending on your security and compliance requirements</li>
+</ul>
+
+<h2>Understanding Flows and Crews</h2>
+<p>Crews are designed to optimize for autonomy and collaborative intelligence. They empower agents with capabilities to communicate and cooperate, leading to improved overall performance.</p>
+
+<p>On the other hand, Flows enable granular, event-driven control, allowing developers to manage individual tasks and actions within a workflow. This system of flows enables precise task orchestration and supports Crews natively.</p>
+
+<h2>CrewAI vs LangGraph</h2>
+<p>CrewAI and LangGraph are both agent-based AI systems, but they differ in their architectures and approaches:</p>
+
+<ul>
+  <li>LangChain: Crews-based framework focusing on autonomous multi-agent collaborations with event-driven control and single LLM calls</li>
+  <li>CrewAI: Unified Control Plane-centric AI system providing high levels of simplicity, low-level control, advanced security, and actionable insights</li>
+</ul>
+
+<h2>Telemetry</h2>
+<p>CrewAI provides built-in telemetry support to track and analyze the performance of your AI agents. This data can be used to optimize models, workflows, and overall system performance.</p>
+
+<h2>License</h2>
+<p>CrewAI is released under the MIT license, which means it's free for both commercial and non-commercial use.</p>
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/joaomdmoura/crewAI)](https://github.com/crewAIInc/crewAI)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)

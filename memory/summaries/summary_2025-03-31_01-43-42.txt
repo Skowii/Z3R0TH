@@ -1,0 +1,1 @@
+This article discusses modeling complex JavaScript object scopes and is part of a series focusing on implementing an ActiveRecord-like pattern in JavaScript. The current directory structure, code, and scopes are examined. Scope definitions, such as filtering scopes, are introduced, with an example of defining a scope for the Post model to find published posts.

@@ -1,0 +1,5 @@
+JavaScript handles mutable data, such as objects and arrays, by passing them by reference rather than by value. This can cause issues when working with multiple variables that reference the same object, leading to unwanted side effects. To avoid this problem, cloning the object is necessary. There are two types of cloning: shallow cloning and deep cloning.
+
+Shallow cloning uses the spread operator (`...`) or `Object.assign()` to create a new object from an existing one's properties. However, this only works for the outer object and fails with nested objects that are passed by reference.
+
+Deep cloning involves recursively cloning every nested object and array, ensuring that no references remain between the original and cloned objects. One common approach uses `JSON.stringify()` and `JSON.parse()`, but this method has numerous issues and performance problems. Instead, a more reliable approach can be used to determine which key-value pairs need deep cloning and recursively call the function with the current value as an argument.

@@ -1,0 +1,1 @@
+This article discusses various CSS loaders, such as bouncing ball and pulse loaders, that can be used to keep users engaged while they wait for content to load on a website. These loaders are created using HTML, CSS, and the `@keyframes` animation property.

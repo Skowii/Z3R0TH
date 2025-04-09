@@ -1,0 +1,1 @@
+The Renamer class allows for the renaming of multiple files by providing custom signals like progressed, renamedFile, and finished. The constructor takes in a list of files and a prefix to be used. The renameFiles() method then renames each file in the list with the given prefix and emits custom signals for progress updates and when all files are renamed.

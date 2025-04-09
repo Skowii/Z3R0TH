@@ -1,0 +1,63 @@
+# SOURCE: CHANGELOG.md
+# TIME: 2025-03-31_00-22-32
+
+puppeteer/pulls/13426)
+
+
+### PUBLIC API MODIFICATIONS
+
+* remove Launch and Connect options from Page.open method ([#13426](https://github.com/puppeteer/puppe
+assistant
+ t/issues/13426))
+
+# TAGS: m/puppeteer/commit/a63d56897f0a7ac94c2071a754f33b24fcda1d84))
+* roll to Firefox 134.0.3 ([#13577](https://github.com/puppeteer/puppeteer/issues/13577)) ([c5a9d69](https://github.com/puppeteer/puppeteer/commit/c5a9d6942803aeb709379c430e11f75243b94147))
+* update dependencies to Chromium 110 and PuppeteerCore 3.6 ([#13573](https://github.com/puppeteer/puppeteer/issues/13573)) ([825c94f](https://github.com/puppeteer/puppeteer/commit/825c94f62d292e220b84a49d03109759a7519a64))
+* update to Chromium 111 and PuppeteerCore 3.7 ([#13576](https://github.com/puppeteer/puppeteer/issues/13576)) ([0ed5f1d](https://github.com/puppeteer/puppeteer/commit/0ed5f1dd4a22b9417e877f4541415c1066233426))
+
+
+### Bug Fixes
+
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.com/puppeteer/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* roll to Firefox 134.0.3 ([#13582](https://github.com/puppeteer/puppeteer/issues/13582)) ([1a2e9f1](https://github.co</
+  assistant
+ m/puppeteer/commit/1a2e9f163107b37d44c38ed04a85411b7daac109))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))
+* **network:** propagate CDP error in interception ([#13588](https://github.com/puppeteer/puppeteer/issues/13588)) ([4e09672](https://github.co</
+  assistant
+ m/puppeteer/commit/4e09672a0699ac6d6a7a2f644c6fc9c5da13706b))

@@ -1,0 +1,28 @@
+# SOURCE: README.md
+# TIME: 2025-03-30_23-56-00
+
+2) __Encryption__ (`byob.core.encryption`): custom encryption & decryption functionality, primarily used for encrypting/decrypting payloads
+3) __PyInstaller Integration__ (`byob.core.pyinstaller`): integrated with PyInstaller to compile Python scripts into standalone applications or executables
+4) __SSL/TLS Encryption__ (`byob.core.ssl_tls`): used for encrypting reverse TCP connections with SSL/TLS, ensuring the data transmission is secure
+5) __Process Control__ (`byob.core.process`): functions related to managing processes on the server-side, like monitoring, killing or starting them
+
+# TAGS: ou write can be added as a post-exploitation module in a fully automated way with just one click from the web GUI
+
+5) __Undetectable__: clients can be made undetectable by using advanced stealth techniques such as packing, encryption, and anti-debugging/anti-emulation tricks.
+6) __Unlimited Post Exploitation Modules__: use any number of post-exploitation modules with the web GUI or use your own custom scripts.
+
+
+
+[![client](https://img.shields.io/badge/byob-client-blue.svg)](https://github.com/malwaredllc/byob/blob/master/byob/payloads.py)
+
+
+
+## Server
+[![server](https://img.shields.io/badge/byob-server-blue.svg)](https://github.com/malwaredllc/byob/blob/master/byob/server.py)
+*Start a command & control server on your localhost or remote machine with support for TLS/SSL encryption and reverse TCP shells.*
+
+1) __Encrypted Communication__: clients communicate with the server over an encrypted channel using AES-256 encryption to ensure that all data is securely transmitted and received.
+2) __Custom Payloads__: use your own custom payloads or select from various pre-built payload templates to fit your needs.
+3) __Unlimited Clients/Clients Management__: manage an unlimited number of clients, see their status, and interact with them via the command line interface.
+4) __Easy Deployment__: easily deploy on localhost or a remote machine using Docker containers or Wine servers for various platforms/architectures.
+5) __Remote Administration Tool (RAT)__: use it as a standalone RAT for remote administration tasks, and more!

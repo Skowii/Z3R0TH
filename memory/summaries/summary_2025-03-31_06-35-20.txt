@@ -1,0 +1,29 @@
+दिशा-एक-समय (लिंक कॉपी) से उदाहरण:
+
+![](../../../circuit-breaker/etc/ServiceDiagram.png)
+
+```java
+@Slf4j
+public class App {
+    private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
+    
+    /**
+     * Program entry point.
+     * @param args command line args
+     */
+    public static void main(String[] args) {
+        var serverStartTime = System.nanoTime();
+        var delayedService = new DelayedRemoteService(serverStartTime, 5);
+        var delayedServiceCircuitBreaker = new DefaultCircuitBreaker(delayedService, 3000, 2, 2000 * 1000 * 1000);
+        var quickService = new QuickRemoteService();
+        var quickServiceCircuitBreaker = new DefaultCircuitBreaker(quickService, 3000, 2, 2000 * 1000 * 1000);
+        
+        //Create an object of monitoring service which makes both local and remote calls
+        var monitoringService = new MonitoringService(delayedService, quickService);
+    }
+}
+```
+
+इस प्रकार एक ऐप को बनाया गया है जो दोनों स्थानीय वास्तु और दूर के सेवा का उपयोग करता है। इसमें, एक कॉल मौजूद की तुलना में डिज़ेंटल सेवा और क्विक सेवा के रूप में ऐप का उपयोग किया गया है। डिज़ेंटल सेवा एक कॉर्टसीट ब्रीकर (सुधारण पत्र) के उपयोग करता है, जिसमें सेवा की शामिलता में क्षतिग्रस्त होने के बाद, इसे कुछ समय पर बंद कर देता है। उत्तरभारतीय सेवा (क्विक सेवा) को भी इसी ऐसी सूचना के लिए डिज़ेंटल सेवा के पत्र के उपयोग करता है।
+
+इसे समझ के लिए, यह एक स्थानीय सेवा वाला आईपी (ऐप) के उदाहरण है, जो दूनों स्थानीय और दूर सेवा का उपयोग करता है। इसमें, एक डिज़ाइन पैटर्न (सुधारण पत्र) के उपयोग करती है जो विफलता और विफलता के बारे में रूपांतरण करने के उपकरण का उपयोग करता है।

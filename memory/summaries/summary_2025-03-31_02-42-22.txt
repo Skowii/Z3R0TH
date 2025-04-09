@@ -1,0 +1,24 @@
+Check if an array has only one or many matches using JavaScript's Array methods. To check if an array has only one value matching the given function:
+
+```js
+const hasOne = (arr, fn) => arr.filter(fn).length === 1;
+```
+
+To find the index of the only matching element:
+
+```js
+const findIndex = (arr, fn) => arr.findIndex(fn);
+```
+
+For arrays with many matches, use the same approach but change the comparison operator to `>`. To check if an array has more than one value matching the given function:
+
+```js
+const hasMany = (arr, fn) => arr.filter(fn).length > 1;
+```
+
+To find all indexes of the matching elements, use `Array.prototype.reduce()`.
+
+```js
+const indexOfAll = (arr, val) =>  
+    arr.reduce((acc, el, i) => (el === val ? [...acc, i] : acc), []);
+```

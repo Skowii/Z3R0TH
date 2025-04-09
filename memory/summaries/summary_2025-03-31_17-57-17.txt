@@ -1,0 +1,1 @@
+This content is a record of Auto-GPT benchmarking, including the agent's git commit sha, metrics, and the tests that were run. The agent was tested on tasks related to interface (such as writing to a file or searching for specific text), content generation, and retrieval. The metrics recorded include task difficulty levels, success rates, attempted rates, and cost/run-time.

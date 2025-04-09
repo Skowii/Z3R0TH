@@ -1,0 +1,7 @@
+The three main JavaScript iteration methods include `for...in`, `for...of` and `forEach()`.
+
+1. `for...in` is used to iterate over all enumerable properties of an object including inherited ones, suitable for arrays, strings or plain objects but not with `Map` or `Set` objects.
+2. `for...of` is used to iterate over iterable objects, returning values instead of properties, suitable for arrays, strings, `Map` or `Set` objects but not plain objects.
+3. `forEach()`, a method on the Array prototype, allows iteration over array elements with access to both value and index.
+
+Understanding the usage of these methods can help prevent confusion during coding.

@@ -1,0 +1,1 @@
+Create a speech bubble effect with CSS by adding a triangle to the top of a content container using `::before` and `::after` pseudo-elements for two triangles. Adjust triangle colors, size, and positioning as desired. The example provided allows for different placements or shapes.

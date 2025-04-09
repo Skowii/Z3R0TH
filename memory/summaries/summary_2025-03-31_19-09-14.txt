@@ -1,0 +1,5 @@
+This is a summary of an Auto-GPT Benchmarks result:
+
+- The benchmark run took 141.28 seconds to complete with the highest difficulty set at "basic: 2".
+- There were 5 tests, including TestWriteFile, TestSearch, TestReadFile, TestPlanCreation, and TestBasicRetrieval.
+- Metrics included success rates and costs per task, with some tasks being more successful than others.

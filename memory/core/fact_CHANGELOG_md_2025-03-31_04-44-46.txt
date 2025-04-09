@@ -1,0 +1,63 @@
+# SOURCE: CHANGELOG.md
+# TIME: 2025-03-31_04-44-46
+
+: https://github.com/n8n-io/n8n/commit/a62f5c40d8179d8e24cba0d53f6d663276d1c4c4))
+* **core:** Reuse existing node descriptions when restoring workflow state ([#13868](https://github.com/n8n-io/n8n/issues/13868)) ([9b5e07f](https://github.com/n8n-io/n8n/commit/9b5e07ff6d410e474c14efcf2dafa4a7402201e4))
+* **core:** Use strict equality for node descriptions when restoring workflow state ([#13847](https://github.com/n8n-io/n8n/issues/13847)) ([65aed5e](https://github.com/n8n-io/n8n/commit/65aed5e01212d1d1f1f99fdaab7fc1b0fadc3f9e))
+* **Salesforce Node:** Correctly handle API errors ([#14050](https://github.com/n8n-io/n8n/issues/14050)) ([2a6d39c](https://github.com/n8n-io/n8n/commit/2a6d39cb6e5e19f7af27da000e78b4a63e0f01d0))
+
+
+### Features
+
+* **AWS Node:** Add support for SQS ([#13762](https://github.com/n8n-io/n8n/issues/13762)) ([a904daa](https://github.com/n8n-io/n8n/commit/a904dadf5c73e571854c1f97b15523ac7a87f733))
+* **core:** Add workflow state management ([#13769](https://github.com/n8n-io/n8n/issues/13769)) ([64cdaff](https://github.com/n8n-io/n8n/commit/64cdafff205a25d83b73d4b5a0822f0fc05e315a))
+* **core:** Implement workflow state management ([#13670](https://github.com/n8n-io/n8n/issues/13670)) ([c4ceb9a](https://github.com/n8n-io/n8n/commit/c4ceb9ad90f5328ebe7d94284e4fc12976daabaa))
+* **core:** Support multi-tenant workflows ([#13616](https://github.com/n8n-io/n8n/issues/13616)) ([0f7c5a9](https://github.com/n8n-io/n8n/commit/0f7c5a9e2b4b6f674dff221aab223f7da1e756c0))
+* **core:** Support node descriptions in workflow ([#13622](https://github.com/n8n-io/n8n/issues/13622)) ([e4ed9a1](https://github.com/n8n-io/n8n/commit/e4ed9a1b7faa651ce0fa8c47b354f617d1353ac7))
+* **core:** Support workflow state persistence ([#13592](https://github.com/n8n-io/n8n/issues/13592)) ([69c10e9](https://github.com/n8n-io/n8n/commit/69c10e9d7e0f49adcea807b1d103a614f6b57393))
+* **core:** Support workflows with multiple nodes ([#13326](https://github.com/n8n-io/n8n/issues/13326)) ([c2d1e0e](https://github.com/n8n-io/n8n/commit/c2d1e0efa4799159e3b2029ffe7346412d6b70d6))
+* **core:** Upgrade to TypeScript 4 ([#13917](https://github.com/n8n-io/n8n/issues/13917)) ([e0f521a](https://github.com/n8n-io/n8n/commit/e0f521a455c0ed6342b19d063734d562424d5a27))
+* **core:** Use Node v16 ([#13921](https://github.com/n8n-io/n8n/issues/13921)) ([c41b153](https://github.com/n8n-io/n8n/commit/c41b153d7f8d26e4da072998a3f8f0a4a170847c))
+* **core:** Use yargs for command line arguments ([#13481](https://github.com/n8n-io/n8n/issues/13481)) ([3524b0d](https://github.com/n8n-io/n8n/commit/3524b0d39f97a6ac5fc06c0114e3ed50aadff4fe))
+
+
+### Performance Improvements
+
+* **core:** Cache workflow state in memory ([#13816](https://github.com/n8n-io/n8n/issues/13816)) ([9c250d2](https://github.com/n8n-io/n8n/commit/9c250d224705f02e3a72677f2a909afb60241f0a))
+* **core:** Improve workflow persistence performance ([#13850](https://github.com/n8n-io/n8n/issues/13850)) ([c79dce6](https://github.com/n8n-io/n8n/commit/c79dce6a4f7269b553792da4ffed44a68e6e1ec1))
+* **core:** Use faster workflow persistence ([#13809](https://github.com/n8n-io/n8n/issues/13809)) ([d590c7b](https://github.com/n8n-io/n8n/commit/d590c7bf29f40e829865681a21d3dad69b44f524))
+
+
+### Bug Fixes
+
+* **core:** Correctly handle workflow state loading ([#13810](https://github.com/n8n-io/n8n/issues/13810)) ([a3e7654](https://github.com/n8n-io/n8n/commit/a3e765421b9d4e74fbba6c9e933422ab770e3e89))
+* **core:** Fix workflow state loading ([#13817](https://github.com/n8n-io/n8n/issues/13817)) ([4a5963c](https://github.com/n8n-io/n8n/commit/4a5963cf902508d4ac4a2b4e27af41b96e2c1790))
+* **core:** Fix workflow state persistence ([#13798](https://github.com/n8n-io/n8n/issues/13798)) ([c54d9c9](https://github.com/n8n-io/n8n/commit/c54d9c97e2a6b0f2b148fc55f5e74274404383ba))
+* **core:** Fix workflow state persistence ([#13773](https://github.com/n8n-io/n8n/issues/13773)) ([96aad9e](https://github.com/n8n-io/n8n/commit/96aad9e5741b0d2c858f27ac5f63dbbfbf19ef78))
+* **core:** Fix workflow state persistence ([#13787](https://github.com/n8n-io/n8n/issues/13787)) ([4a2ff3b](https://github.com/n8n-io/n8n/commit/4a2ff3bd039e645f1a04d81765fce2336245495c))
+* **core:** Fix workflow state persistence ([#13790](https://github.com/n8n-io/n8n/issues/13790)) ([b8a3a2d](https://github.com/n8n-io/n8n/commit/b8a3a2da1194d6e8f51575c0825f46f03110182a))
+* **core:** Improve workflow persistence ([#13794](https://github.com/n8n-io/n8n/issues/13794)) ([5e9b92d](https://github.com/n8n-io/n8n/commit/5e9b92dd6e80a79daacf42afc8d8685397a9ce1c))
+* **core:** Update workflow state persistence ([#13821](https://github.com/n8n-io/n8n/issues/13821)) ([fda7b50](https://github.com/n8n-io/n8n/commit/fda7b50c9e62137b444964a410d44fcef1809879))
+
+# TAGS: * re to be used as a tool ([#13985](https://github.com/n8n-io/n8n/issues/13985)) ([52ff697](https://github.com/n8n-io/n8n/commit/52ff697b134f3a8a9ebe07d54cda444bccad179c))
+* **core:** Allow custom credentials to be used as tools ([#13965](https://github.com/n8n-io/n8n/issues/13965)) ([20f0d2d](https://github.com/n8n-io/n8n/commit/20f0d2d1a4ffe7b65cfc3040218da448fa3844ac))
+* **core:** Add support for custom credentials in community nodes ([#13989](https://github.com/n8n-io/n8n/issues/13989)) ([5906e72](https://github.com/n8n-io/n8n/commit/5906e72b858c5a8f7adceaa9d1fe435f653a758a))
+* **core:** Add support for custom credentials in community nodes ([#13991](https://github.com/n8n-io/n8n/issues/13991)) ([64dae2d](https://github.com/n8n-io/n8n/commit/64dae2db5a30d2fba71cffc095fc7c1b62205373))
+* **core:** Add support for custom credentials in community nodes ([#13988](https://github.com/n8n-io/n8n/issues/13988)) ([f20e0a4](https://github.com/n8n-io/n8n/commit/f20e0a497d5e115bce80da674914fc72c194c393))
+* **core:** Add support for custom credentials in community nodes ([#13992](https://github.com/n8n-io/n8n/issues/13992)) ([e057f6d](https://github.com/n8n-io/n8n/commit/e057f6df4efb850c932a4fa3c89689968029721e))
+* **core:** Add support for custom credentials in community nodes ([#13990](https://github.com/n8n-io/n8n/issues/13990)) ([45f113d](https://github.com/n8n-io/n8n/commit/45f113d69b5a072e115c245e4521da26a8235387))
+* **core:** Add support for custom credentials in community nodes ([#13987](https://github.com/n8n-io/n8n/issues/13987)) ([7c0f4b0](https://github.com/n8n-io/n8n/commit/7c0f4b0e26d5b5ce528b47f73ac716459a215371))
+* **core:** Add support for custom credentials in community nodes ([#13986](https://github.com/n8n-io/n8n/issues/13986)) ([f4d7c0c](https://github.com/n8n-io/n8n/commit/f4d7c0cf521214f4970a4c3495fffa16aec1fe89))
+* **core:** Add support for custom credentials in community nodes ([#13984](https://github.com/n8n-io/n8n/issues/13984)) ([7d0f44e](https://github.com/n8n-io/n8n/commit/7d0f44e6b1256d6074fce8d46ffa62c7eaae8e39))
+* **core:** Add support for custom credentials in community nodes ([#13983](https://github.com/n8n-io/n8n/issues/13983)) ([9405b12](https://github.com/n8n-io/n8n/commit/9405b12673a02eab581edf45406d63ad1e9d8c43))
+* **core:** Add support for custom credentials in community nodes ([#13982](https://github.com/n8n-io/n8n/issues/13982)) ([5a51000](https://github.com/n8n-io/n8n/commit/5a51000e4f46c7d5869b52f1ff942ac5143a2e01))
+* **core:** Add support for custom credentials in community nodes ([#13981](https://github.com/n8n-io/n8n/issues/13981)) ([6d7d2b0](https://github.com/n8n-io/n8n/commit/6d7d2b088c5ffe8534f48314752fe76a87e49fda))
+* **core:** Add support for custom credentials in community nodes ([#13980](https://github.com/n8n-io/n8n/issues/13980)) ([d931b1a](https://github.com/n8n-io/n8n/commit/d931b1af2464e545a745f1fa426663deb4f79c50))
+* **core:** Add support for custom credentials in community nodes ([#13979](https://github.com/n8n-io/n8n/issues/13979)) ([0529dca](https://github.com/n8n-io/n8n/commit/0529dca109a7263cab7ed403703f9093dae141ac))
+* **core:** Add support for custom credentials in community nodes ([#13978](https://github.com/n8n-io/n8n/issues/13978)) ([5c5d42f](https://github.com/n8n-io/n8n/commit/5c5d42f095a99570a6761da8b025d929ac7e1153))
+* **core:** Add support for custom credentials in community nodes ([#13977](https://github.com/n8n-io/n8n/issues/13977)) ([6b4c344](https://github.com/n8n-io/n8n/commit/6b4c344d51f2c60ac764ece1fc54b449c6a0a4a5))
+* **core:** Add support for custom credentials in community nodes ([#13976](https://github.com/n8n-io/n8n/issues/13976)) ([970e5d2](https://github.com/n8n-io/n8n/commit/970e5d2a461c5f588b004255de4456c8b30b8812))
+* **core:** Add support for custom credentials in community nodes ([#13975](https://github.com/n8n-io/n8n/issues/13975)) ([da7b64d](https://github.com/n8n-io/n8n/commit/da7b64df2a3e21f0c4cba5a5405c2071ab5fe37e))
+* **core:** Add support for custom credentials in community nodes ([#13974](https://github.com/n8n-io/n8n/issues/13974)) ([f37d7ca](https://github.com/n8n-io/n8n/commit/f37d7cab5e6402532d5fefa199787511a277fcf0))
+* **core:** Add support for custom credentials in community nodes ([#13973](https://github.com/n8n-io/n8n/issues/13973)) ([46c9552](https://github.com/n8n-io/n8n/commit/46c955220d2a3048e0b2bff689ce682ab2d4f107))
+* **core:** Add support for custom credentials in community nodes ([#13972](https://github.com/n8n-io/n8n/issues/13972)) ([bca1e5c](https://github.com/n8n-io/n8n/commit/bca1e5ce65aaf0d4f18245d0b1854212104ef223))

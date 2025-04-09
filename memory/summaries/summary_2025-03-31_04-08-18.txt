@@ -1,0 +1,11 @@
+Collection Pipeline combines Function Composition and Collection Pipeline, which are two functional programming concepts. These patterns help in iterating through collections. In functional programming, complex operations can be performed using a series of modular functions or operations, called Function Composition. When a dataset flows through a Function Composition, it becomes a Collection Pipeline. The patterns are frequently used design models in functional programming.
+
+Collection Pipelines are useful when:
+1. Multiple sequential algebraic operations need to be executed, where the output of one operation feeds into another.
+2. Code involves numerous intermediate state statements.
+3. Code contains a large number of loops.
+
+References: 
+- [Function composition and the Collection Pipeline pattern](https://www.ibm.com/developerworks/library/j-java8idioms2/index.html)
+- [Martin Fowler](https://martinfowler.com/articles/collection-pipeline/)
+- [Java8 Streams](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html)

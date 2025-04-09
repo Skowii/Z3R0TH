@@ -1,0 +1,1 @@
+This file is part of the Sylius package and its content extends jQuery's functionality. It contains methods for adding tab errors and accordion errors, highlighting issues in user interfaces. The addTabErrors method adds a label with an error count to tab elements, while the addAccordionErrors method changes the color of titles related to elements containing validation errors.

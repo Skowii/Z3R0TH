@@ -1,0 +1,12 @@
+# SOURCE: .release-please-manifest.json
+# TIME: 2025-03-31_00-15-36
+
+The knowledge is related to package versions in a project:
+- puppeteer (24.4.0)
+- puppeteer-core (24.4.0)
+- testserver (0.6.1)
+- ng-schematics (0.7.0)
+- browsers (2.8.0)
+
+# TAGS: Key concepts: packages, puppeteer, version, testserver, ng-schematics, browsers
+Keywords: 24.4.0, 0.6.1, 0.7.0, 2.8.0

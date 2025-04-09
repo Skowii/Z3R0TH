@@ -1,0 +1,1 @@
+The given code snippet uses the RELATIVE flag to automatically extract executable names from source files. It globally finds all .cpp and .c files in the current source directory and installs them under "bin/operations_on_datastructures". It sets target properties for C++ linker language and iterates through source files, creating executables with their basenames as targets.

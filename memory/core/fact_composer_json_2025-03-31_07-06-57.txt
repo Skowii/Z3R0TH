@@ -1,0 +1,6 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-06-57
+
+Summary: This is a description of the sylius/shipping-bundle, which is a flexible shipping system for Symfony ecommerce applications. It allows users to manage shipments and deliveries in an ecommerce environment. The package has several authors, including Paweł Jędrzejewski, Sylius project, and community contributors. The requirements include PHP 7.4 or 8.0 and other related software such as Symfony framework bundle, stof/doctrine-extensions-bundle, sylius/money-bundle, sylius/shipping, among others. It also has some dependency conflicts and requires certain development tools like phpunit/phpunit, symfony/browser-kit, and so on. The package is available under MIT license.
+
+# TAGS: shipping bundle, symfony-bundle, ecommerce, shipping, delivery, shipments, shop, webshop, sylius, Paweł Jędrzejewski, homepage, license, authors, php, stof/doctrine-extensions-bundle, sylius/money-bundle, sylius/resource-bundle, conflict, twig/twig, require-dev, doctrine/orm, matthiasnoback/symfony-dependency-injection-test, phpspec/phpspec, phpunit/phpunit, polishsymfonycommunity/symfony-mocker-container, symfony/browser-kit, symfony/dependency-injection, symfony/form, symfony/validator

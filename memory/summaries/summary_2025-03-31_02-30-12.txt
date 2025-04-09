@@ -1,0 +1,28 @@
+CSV files can be converted into JavaScript arrays or objects and vice versa. This involves understanding the delimiter used in the CSV file and using string manipulation techniques such as split() and join(). To convert a CSV row into an array, use the following method: 
+
+```js
+const csvToArray = (csvRow) => {
+    return csvRow.split(',');
+};
+```
+
+For converting CSV rows into objects, you can create a helper function to convert each row into an object with key-value pairs:
+
+```js
+const csvToObject = (csvRows, separator) => {
+    return csvRows.map(row => row.split(separator).reduce((obj, [key, value]) => ({ ...obj, [key]: value }), {}));
+};
+```
+
+In this example, the separator is used to define the delimiter in the CSV file, which is a comma by default if not specified. To convert an array or object into a CSV, use the serializeRow() method provided above, and join all the serialized rows together:
+
+```js
+const data = [
+    ['a', 'b'],
+    ['c', 'd']
+];
+const csvData = data.map(serializeRow).join('\n');
+console.log(csvData); // Output: a,b\nc,d
+```
+
+Remember to handle edge cases such as empty values, values containing the delimiter character, values containing newlines, and values containing double quotes as mentioned in the guide.

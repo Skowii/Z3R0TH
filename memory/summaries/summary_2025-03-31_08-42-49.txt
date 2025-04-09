@@ -1,0 +1,13 @@
+This information provides various ways to display calendars for the year 2024 using Python's built-in calendar module. Methods include:
+
+1. Print full calendar for 2024 using TextCalendar.
+2. Print January 2024 calendar specifically.
+3. Generate HTML calendar for 2024 and save to file.
+4. Set first day of the week to Sunday and print January 2024 calendar.
+5. Set locale to Germany and print Januar 2024 calendar.
+6. Print weekday number values in order with Sunday (6) as the first day of the week.
+7. Print all dates of January 2024 calendar as strings including dates from previous and following months needed to complete the first and last weeks.
+8. Print all dates of January 2024 calendar as numerical days of the month including dates from previous and following months needed to complete the first and last weeks represented as zeros.
+9. Print all dates of January 2024 calendar as tuples containing the day of the month and day of the week as numbers.
+10. Check if a given year is a leap year (e.g., 2024).
+11. Return the number of leap years between two given years (e.g., 1980 to 2024).

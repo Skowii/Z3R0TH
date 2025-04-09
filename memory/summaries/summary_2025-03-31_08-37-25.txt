@@ -1,0 +1,1 @@
+The user is submitting a new app for consideration and is requested to fill out specific information. They need to confirm that they have read the contribution guidelines, provide a repo/homepage link, describe the application briefly, and explain why they find it awesome.

@@ -1,0 +1,12 @@
+Unwind an object with array-valued property:
+
+Given an object containing key-value pairs and a specific `key`, exclude the `key` from the object using object destructuring. Then, use `Array.prototype.map()` to create an array of objects where each object contains original values except for the excluded `key`. The `key` is mapped to its individual values in the new array.
+
+Example:
+```js
+const unwind = (key, obj) => {
+  const { [key]: _, ...rest } = obj;
+  return obj[key].map(val => ({ ...rest, [key]: val }));
+};
+unwind('b', { a: true, b: [1, 2] }); // [{ a: true, b: 1 }, { a: true, b: 2 }]
+```

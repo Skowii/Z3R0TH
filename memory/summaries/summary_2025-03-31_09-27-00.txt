@@ -1,0 +1,1 @@
+The function "is_even" takes a number as input and returns True if the number is even (divisible by 2), otherwise it returns False.

@@ -1,0 +1,7 @@
+Convert a tilde path to an absolute path in Node.js using regular expression. The expression `^~($|\/|\\)` matches the tilde at the start of the string, followed by either the end of the string, a forward slash, or a backslash. Use `os.homedir()` to get the home directory and `String.prototype.replace()` to replace the tilde with the home directory:
+
+```js
+import { homedir } from 'os';
+const untildify = str => str.replace(/^~($|\/|\\)/, `${homedir()}$1`);
+untildify('~/node'); // '/Users/aUser/node'
+```

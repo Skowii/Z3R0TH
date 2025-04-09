@@ -1,0 +1,34 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_02-56-14
+
+Contribution Guidelines:
+
+1. Fork the `hummingbot/hummingbot` repository.
+2. Create a new branch from the `development` branch in your fork.
+3. Commit your changes to your branch.
+4. Once completed, rebase upstream changes into your branch and create a pull request to the `development` branch.
+5. Include a detailed description of your changes and allow edits by maintainers.
+6. Address any reviewer requested changes and push fixes as new commits.
+7. Wait for the code to be reviewed, tested, and merged by a Foundation team member.
+
+Note: Tests are crucial; if your pull request includes testable behavior, please submit tests. For more information, refer to the 'Unit Test Coverage' section.
+
+# TAGS: # Contribution Guidelines
+
+General Workflow:
+1. Fork the `hummingbot/hummingbot` repository.
+2. Create a new branch from the `development` branch in your fork.
+3. Commit your changes to your branch.
+4. Rebase upstream changes into your branch and create a pull request to the `development` branch, including a detailed description of your changes.
+5. Your code changes will be reviewed and tested by the Foundation QA team.
+6. Address any changes requested by your reviewer, fix issues raised, and push your fixes as a single new commit.
+7. Once the pull request has been reviewed and accepted, it will be merged by a member of the Hummingbot Foundation team.
+
+Detailed Workflow:
+1. Fork the Repository
+2. Create Your Branch
+3. Commit Changes to Your Branch
+4. Rebase Upstream Changes
+5. Create a Pull Request
+6. Unit Test Coverage
+7. Checklist

@@ -1,0 +1,12 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_04-33-57
+
+LangChain is a framework for building LLM-powered applications that helps developers chain together interoperable components and third-party integrations to simplify AI application development, future-proofing decisions as the underlying technology evolves. It provides model interoperability, real-time data augmentation, and seamless integration with other LangChain products such as LangSmith for agent evaluation and observability, LangGraph for agent orchestration, and LangGraph Platform for deployment and scaling of agents. The framework is compatible with a vast library of integrations with model providers, tools, vector stores, and more. Developers can learn more by checking out the documentation on https://python.langchain.com/docs/introduction/.
+
+# TAGS: AI]
+
+To start using LangChain in your applications, check out our documentation at
+[python.langchain.com/docs/introduction](https://python.langchain.com/docs/introduction).
+For more on how to customize and enhance your LLM applications, visit our blog at
+[medium.com/@langchainai](https://medium.com/@langchainai) or follow us on
+[Twitter @LangChainAI](https://twitter.com/langchainai).

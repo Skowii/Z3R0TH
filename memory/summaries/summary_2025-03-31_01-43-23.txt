@@ -1,0 +1,1 @@
+Calculate the powerset of a JavaScript array using a simple algorithm with `Array.prototype.reduce()` and `Array.prototype.map()`. The powerset contains all possible combinations of elements in the given set. Ensure the input array does not have any duplicate elements to avoid duplicate subsets in the powerset.

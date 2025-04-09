@@ -1,0 +1,79 @@
+# SOURCE: README.md
+# TIME: 2025-03-30_23-48-35
+
+t no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com,0.0.0.0,::1"
+```
+
+You'll need to provide the `user` and `password` for your proxy account. These details should be provided by your network administrator. The `no_proxy` variable means that Mycroft won't use the proxy for certain local connections such as to `localhost`.
+
+Remember, these steps must be taken BEFORE starting Mycroft, as the environment variables need to be set before any program starts. If you have any trouble with this process, please reach out to us in our [forums](https://discourse.mycroft.ai).
+
+## Getting help
+
+Mycroft has a [discussion forum](https://discourse.mycroft.ai) where you can ask for help and share experiences. If you have any issues, please use the search function to see if your question has already been answered before posting.
+
+[docs.mycroft.ai](http://docs.mycroft.ai/) is also a great resource to understand more about Mycroft. It contains a lot of information on how to install and configure Mycroft, along with other technical documentation.
+
+[Mycroft AI GitHub repository](https://github.com/MycroftAI) contains the source code for all of our projects. If you are interested in contributing to the project, or just want to dig deeper into how Mycroft works, this is a great place to start. 
+
+We have several [channels on Telegram](http://telegram.mycroft.ai/) where you can ask questions and discuss topics related to Mycroft. These include #general for general discussions, #developers for developers' specific questions or discussion, and many others. Please join the channel that best suits your needs and get involved!
+
+# TAGS: Skills are how you interact with Mycroft. They can be thought of as applications or scripts that run on the Mycroft platform to provide services. You can find more about skills in [Skill Development](docs/developers/skill-dev.md). For now, if you have a speaker and microphone connected to your device, you can say "Hey Mycroft, what's the weather?" and she will respond.
+
+Note: If you are unable to hear any voice responses from Mycroft, please check the sound is not muted on your device. You may need to configure your audio settings for PulseAudio, ALSA or JACK (depending on your system). 
+
+## Behind the scenes
+
+Mycroft Core comprises many parts and services that interact with each other in order to provide a complete voice assistant experience.
+
+### Pairing Information
+When you pair Mycroft with Mycroft Home, you obtain an API key which is used for various services like Speech-to-Text (STT) and Text-to-Speech (TTS). The key can be found in the Mycroft Home dashboard.
+
+### Configuration
+Mycroft Core configuration options are stored in a `mycroft.conf` file, usually located at `~/.config/mycroft`. You can modify this file to change various settings such as audio devices, language, and more. More information is available [here](docs/users/configuration.md).
+
+### Using Mycroft without Home
+If you don't want to use Mycroft Home services, or have not yet registered a device, you can set your own API key in the `mycroft.conf` file. This will allow Mycroft to access Mycroft AI hosted services like STT and TTS without using Home. 
+More details on this are available [here](docs/users/api-key-services.md).
+
+### API Key Services
+Mycroft Core uses the [Mycroft AI API keys][about-ai] for certain services, such as Speech-to-Text (STT), weather and various other skills. These can be set in the `mycroft.conf` configuration file or via the CLI using `./set_api_key`.
+
+[about-ai]:https://www.mycroft.ai/docs/skills/apikeys
+
+### Using Mycroft behind a proxy
+If you want to use Mycroft behind a proxy server, you can set this up by editing the configuration file (or using `set_proxy` from the CLI). If your proxy requires authentication, you will need to specify both the username and password. More details are available [here](docs/users/using-mycroft-behind-a-proxy.md).
+
+#### Using Mycroft behind a proxy without authentication
+- In `mycroft.conf` add:
+```
+[proxy]
+http_proxy = http://user:password@<host>:<port>
+https_proxy = http://user:password@<host>:<port>
+no_proxy = 127\.0\.0\.1
+```
+or via the command line:
+```
+./set_proxy -u user -p password --host <host> --port <port>
+```
+
+#### Using Mycroft behind a proxy with authentication
+- In `mycroft.conf` add:
+```
+[proxy]
+http_proxy = http://user:password@<host>:<port>
+https_proxy = http://user:password@<host>:<port>
+no_proxy = 127\.0\.0\.1
+```
+or via the command line:
+```
+./set_proxy -u user -p password --host <host> --port <port>
+```
+
+## Contributing and Development
+To contribute to Mycroft Core, please see our [Contribution Guidelines](docs/contributors/contribution-guidelines.md) and join us on [Slack](https://mycroft.ai/slack). If you are interested in skill development, please check out the [Mycroft Skill Development documentation](docs/developers/index.md).
+
+You can find more information about Mycroft in the [Documentation](docs/) and our [Wiki](https://github.com/MycroftAI/mycroft-skills-community/wiki). 
+
+
+Join us on our journey to bring open source voice technology to everyone!

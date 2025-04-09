@@ -1,0 +1,1 @@
+View Git branches sorted by date using the "git branch --sort=-committerdate" command to see local branches in descending order (most recent first). To view in ascending order (oldest first), use "git branch --sort=committerdate". If your environment or team prefers "authordate", which represents the original commit date, you can use that instead.

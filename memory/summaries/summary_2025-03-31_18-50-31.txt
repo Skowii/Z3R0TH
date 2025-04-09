@@ -1,0 +1,1 @@
+This benchmark includes tests for writing to a file (TestWriteFile), searching the web (TestSearch), reading a file (TestReadFile), and generating content based on two files (TestPlanCreation). The agent successfully wrote a file, searched the web unsuccessfully, read a file unsuccessfully, and generated a plan for booking a flight.

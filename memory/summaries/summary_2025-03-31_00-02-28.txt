@@ -1,0 +1,1 @@
+Remove HTML tags from a string using JavaScript by applying a regular expression like `/\<[^>]*\>/g` and combining it with `String.prototype.replace()`. This also works for XML tags. Example: `stripHTMLTags('<p><em>lorem</em> <strong>ipsum</strong></p>')` returns 'lorem ipsum'.

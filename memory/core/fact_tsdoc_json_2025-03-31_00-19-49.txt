@@ -1,0 +1,9 @@
+# SOURCE: tsdoc.json
+# TIME: 2025-03-31_00-19-49
+
+This JSON file contains information for a TSDoc-formatted API description. It extends the base TSDoc JSON and defines a new tag called '@license' with specific syntax and allowance settings. It also supports this new tag in the API documentation.
+
+# TAGS: - Key concepts: license, syntaxKind, modifier, allowMultiple, supportForTags
+- Keywords: extends, tagDefinitions, tagName, true
+- People: N/A
+- Dates: N/A

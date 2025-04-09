@@ -1,0 +1,12 @@
+# SOURCE: commands.md
+# TIME: 2025-03-31_09-08-54
+
+# 🛠️ Commands
+
+Commands are functions that can be called by the agent to interact with users or APIs and use tools. They are provided by components that implement the `CommandProvider` [⚙️ Protocol](./protocols.md).
+
+- `command` decorator: The easiest way to provide a command, using the decorator with parameters, names, and description.
+- Yielding commands in `get_commands`: To make a command available to the agent, it must be yielded from the provider's `get_commands`.
+- Creating Commands directly: If you don't want to use the decorator, create the Command object directly.
+
+# TAGS: Commands, CommandProvider Protocol, command decorator, JSONSchema, Agent commands, `get_commands`, parameters schema

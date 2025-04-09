@@ -1,0 +1,16 @@
+# SOURCE: SECURITY.md
+# TIME: 2025-03-31_04-35-55
+
+# Security Policy
+
+LangChain has integrations with various external resources like local and remote file systems, APIs, and databases to create versatile applications that use LLMs. These integrations require developers to follow good security practices to ensure the safety of applications and prevent potential misuse.
+
+1. Limit Permissions: Only grant necessary permissions according to your application's needs.
+2. Anticipate Potential Misuse: Always assume that an LLM can access sensitive resources.
+3. Defense in Depth: Combine multiple security approaches for better protection.
+
+Example scenarios with mitigation strategies are provided. If building applications accessing external resources, consult your company's security team for proper design and securing of applications.
+
+Tagged: #securitypolicy
+
+# TAGS: Security Policy, integrations with external resources, Large Language Models (LLMs), limitations on permissions, anticipation of potential misuse, Defense in Depth, data corruption or loss, unauthorized access to confidential information, compromised performance or availability of critical resources, risk mitigation strategies, speaking with security teams.

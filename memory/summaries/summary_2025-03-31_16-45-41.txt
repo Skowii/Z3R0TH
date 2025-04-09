@@ -1,0 +1,1 @@
+The Sylius Review library is a system for commenting and rating shop components. It supports ecommerce, reviews, and ratings. The project's homepage is https://sylius.com. The library requires PHP 7.4 or 8.0 and has dependencies on Doctrine/collections and Sylius/resource. The preferred stable version is dev, and community contributions are welcome.

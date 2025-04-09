@@ -1,0 +1,1 @@
+Auto-GPT Benchmarks are designed to objectively measure the performance of agents in categories such as code, retrieval, memory, and safety. Agents like Beebot, mini-agi, and Auto-GPT have been ranked based on their scores. A detailed report is available for further analysis.

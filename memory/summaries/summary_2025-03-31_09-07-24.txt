@@ -1,0 +1,1 @@
+This code provides a method to collect and manage reader functions for various file types and allows data access through the "data()" function. The "collect()" function iterates through resources files, imports and stores read functions with their filenames in a dictionary called "readers". The "path()" function finds the path to a specified file from a given package directory.

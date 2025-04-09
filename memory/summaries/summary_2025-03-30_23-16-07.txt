@@ -1,0 +1,9 @@
+Flexbox Cheat Sheet:
+
+1. Container: `display: flex` or `display: inline-flex` creates a flex context for direct children.
+2. Flex-direction: Determines main and cross axis (row, row-reverse, column, column-reverse).
+3. Flex-wrap: Controls if items fit in one line (nowrap, wrap, wrap-reverse).
+4. Flex-flow: Combines flex-direction and flex-wrap (e.g., `flex-flow: row nowrap`).
+5. Justify-content: Aligns along main axis (start, end, center, space-around, space-between, space-evenly, stretch).
+6. Align-items: Aligns along cross axis (start, end, center, baseline, stretch).
+7. Align-content: Controls alignment of extra space along cross axis (start, end, center, space-around, space-between, space-evenly, stretch).

@@ -1,0 +1,1 @@
+Check if a JavaScript string is valid JSON by using the `JSON.parse()` method within a `try...catch` block. If `JSON.parse()` throws a `SyntaxError`, the string is not valid JSON, otherwise it's valid. Example: `const isValidJSON = str => { try { JSON.parse(str); return true; } catch (e) { return false; } }; isValidJSON('{"name":"Adam","age":20}'); // true`.

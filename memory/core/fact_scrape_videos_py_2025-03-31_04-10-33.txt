@@ -1,0 +1,6 @@
+# SOURCE: scrape_videos.py
+# TIME: 2025-03-31_04-10-33
+
+Scrape all the videos from pages we are following on Instagram using the Instalooter library. The script takes in a username, password, output folder path, and the number of days to scrape videos back. It logs into the user's account and uses ProfileLooter to download videos from each followed profile within the given timeframe (defaults to 1 day). The script is called as a main function with default values for testing purposes.
+
+# TAGS: username, password, output_folder, days, scrapeVideos, instaloader, ProfileLooter, login, today, dateutil.relativedelta.relativedelta, following, looter, timeframe, numDowloaded, Exception, Memes_December_4

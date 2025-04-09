@@ -1,0 +1,43 @@
+# SOURCE: package.json
+# TIME: 2025-03-31_01-12-12
+
+Name: Nextra docs template
+Version: 0.0.1
+Description: Nextra docs template
+Repository URL: git+https://github.com/shuding/nextra-docs-template.git
+Author: Shu Ding <g@shud.in>
+License: MIT
+Bugs URL: https://github.com/shuding/nextra-docs-template/issues
+Homepage: https://github.com/shuding/nextra-docs-template#readme
+Scripts: 
+  - dev: next dev
+  - build: next build
+  - start: next start
+Dependencies:
+  - @fortawesome/fontawesome-svg-core
+  - @fortawesome/free-solid-svg-icons
+  - @fortawesome/react-fontawesome
+  - @napi-rs/simple-git
+  - @svgr/webpack
+  - @vercel/analytics
+  - clsx
+  - next
+  - nextra
+  - nextra-theme-docs
+  - react
+  - react-dom
+DevDependencies:
+  - @types/node
+  - typescript
+
+# TAGS: name: nextra-docs-template
+version: 0.0.1
+description: Nextra docs template
+scripts: dev, build, start
+repository: git+https://github.com/shuding/nextra-docs-template.git
+author: Shu Ding <g@shud.in>
+license: MIT
+bugs: url (https://github.com/shuding/nextra-docs-template/issues)
+homepage: https://github.com/shuding/nextra-docs-template#readme
+dependencies: @fortawesome/fontawesome-svg-core, @fortawesome/free-solid-svg-icons, @fortawesome/react-fontawesome, @napi-rs/simple-git, @svgr/webpack, @vercel/analytics, clsx, next, nexa, neextra-theme-docs, react, react-dom
+devDependencies: @types/node, typescript

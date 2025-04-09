@@ -1,0 +1,1 @@
+This content is a JavaScript file extension for the Sylius package that uses Semantic-UI-CSS and jQuery to implement an auto-complete feature in dropdown elements. It defines functions to initialize dropdown options with delayed search, force non-selection, and handle API settings for data retrieval and rendering.

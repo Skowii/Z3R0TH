@@ -1,0 +1,1 @@
+The provided information is about a folder containing examples for an article, titled "Custom Python Strings: Inheriting From str vs UserString", which discusses the differences in inheriting from built-in strings (str) and user-defined strings (UserString) in Python.

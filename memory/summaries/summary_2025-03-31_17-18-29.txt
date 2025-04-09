@@ -1,0 +1,1 @@
+The Transcribe YouTube Video block takes a YouTube URL as input and generates a text transcript of the video's audio content, including the unique video ID associated with it. This block is used for creating subtitles or summarizing video content for various purposes like SEO and accessibility. If an error occurs during the process, the block will capture and report it.

@@ -1,0 +1,60 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_04-01-06
+
+pushes the changes to it.
+
+6. Creating a Pull Request
+
+Now navigate to the GitHub repository you forked earlier. Click on 'Compare & pull request' in your repository and then click on ‘New Pull Request’. Select your branch as the base fork and the main Rasa repository as the head fork. Provide a meaningful title and description for your pull request.
+
+7. Waiting For Review
+
+Once you have created the PR, wait for the Rasa team to review it. If they require any changes, they will comment on the PR or suggest changes via a file called ‘pull_request_changes.md’ where all changes required are listed. 
+
+8. Merging your Pull Request
+
+Once your contribution has been reviewed and approved, your pull request can be merged into the main Rasa repository. This may take some time depending on the size of the contribution and the workload of the Rasa team.
+
+Remember that by contributing to an open-source project like Rasa, you’re helping build an AI community and making the technology better for everyone. We are grateful for your help!
+
+# TAGS: ch of your repository, giving you the opportunity to collaborate with others on your code. When you open a pull request, you share the changed files and a detailed report describing each change."
+
+In short, a PR is a way for developers to propose changes to a project. It's like suggesting an edit in a word document that someone else can accept or reject.
+
+For more information on how Pull Requests work, I recommend reading this [official GitHub guide](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
+
+---
+
+### What to know before opening a PR
+
+1. **Opening issues before PRs**: Before you make any changes, it's a good idea to open an issue on the repository if one doesn't already exist for what you want to do. This lets others know that you're working on something and they can chime in with feedback or suggestions.
+
+2. **Draft PRs**: Draft PRs are a great way of showing your proposed changes without fully committing to them. They allow others to see the changes you propose and provide feedback before you actually merge the changes into the main project.
+
+3. **PRs should be a reasonable length**: While it's tempting to include all your changes in one PR, try to break larger tasks down into smaller, more manageable ones. This makes it easier for others to understand what you're proposing and reduces the chance of conflicts.
+
+4. **Code style**: Make sure your code adheres to the project's coding standards. If there are specific formatting or indentation guidelines, follow them. Consistent coding style makes code more readable and easier for others to review.
+
+5. **Formatting and Type Checking**: Code should be well-formatted and have no syntax errors. Running a type checker like JSHint or ESLint will help catch these issues and make your PR more likely to be accepted.
+
+---
+
+## How to open a PR and contribute code to Rasa Open Source
+
+This guide outlines the steps necessary for opening a Pull Request (PR) on the Rasa Open Source repository, contributing your code and ensuring you follow all the proper steps.
+
+1. **Forking the Rasa Repository**: Go to the Rasa Open Source repository on GitHub and click the "Fork" button in the top right-hand corner. This will create a copy of the original repository in your account, allowing you to make changes without affecting the main project.
+
+2. **Cloning the Forked Repository Locally**: Next, clone the forked repository onto your local machine using the command "git clone https://github.com/your-username/rasaopen source". This will create a local copy of your forked repository.
+
+3. **Update your Forked Repository**: Before you start working on any changes, ensure that your fork is up to date with the latest code from the Rasa Open Source project. Run "git checkout main", then "git pull upstream main" to fetch and merge the latest changes into your repository.
+
+4. **Implement your code contribution**: Make the desired modifications to the source files, making sure you adhere to the guidelines mentioned above (opening issues before PRs, breaking down large tasks into smaller ones, etc.). Add any necessary documentation or tests for your code.
+
+5. **Push changes to your forked repository on GitHub**: Once you've finished implementing your code contribution, commit your changes with "git add .", "git commit -m 'Your Commit Message'", and finally "git push origin main". This will upload the modified files to your forked repository on GitHub.
+
+6. **Opening a Pull Request**: Now that your changes are pushed to GitHub, you can open a Pull Request. Click the "Pull Requests" tab in your fork of Rasa Open Source, then click "New Pull Request". Select "base branch" as "upstream/main", choose the branch containing your commits, write a clear and concise description of your changes, and click "Create Pull Request".
+
+7. **Reviewing and Merging**: Once you've submitted your PR, other contributors will be able to review it. They may suggest improvements or ask for clarification on certain points. Make any necessary changes to address their feedback, and once everyone is satisfied with the code, the Rasa team can merge it into the main project.
+
+---

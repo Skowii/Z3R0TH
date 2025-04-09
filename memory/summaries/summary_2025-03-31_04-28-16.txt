@@ -1,0 +1,4 @@
+The Producer-Consumer design pattern is a classic concurrency pattern that separates work and execution tasks to reduce coupling between producers and consumers. It's applicable when:
+
+1. Decoupling system by dividing the work into production and consumption processes
+2. Resolving issues where producing and consuming tasks require different durations

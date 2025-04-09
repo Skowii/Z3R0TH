@@ -1,0 +1,6 @@
+Calculate the number of ways to choose k items from n items without repetition and without order using JavaScript:
+
+1. Check for edge cases (k<0, k>n, k=1 or n-1, n or k is NaN).
+2. Switch values if necessary (n-k<k).
+3. Use a for loop to calculate the binomial coefficient by multiplying and dividing values.
+4. Round the result using Math.round() to account for rounding errors.

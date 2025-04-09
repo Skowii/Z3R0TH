@@ -1,0 +1,4 @@
+Use the `git log` command to filter commits based on various criteria, such as viewing all commits within a specific date range using `git log --since=<date-from> --until=<date-to>`. The dates can be specified in multiple formats or relative terms like yesterday or 2 weeks ago. Options for limiting commits include:
+- Between two dates: `--since=<date-from> --until=<date-to>`
+- Since a specific date: `--since=<date-from>`
+- Until a specific date: `--until=<date-to>`

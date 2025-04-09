@@ -1,0 +1,1 @@
+This article explains how to evenly distribute child elements within a parent element using Flexbox in CSS. By setting `display: flex` on the container, you can use the `justify-content` property to achieve this effect. Use `space-between` for equal distribution between edges or `space-around` for equal spacing around each child element.

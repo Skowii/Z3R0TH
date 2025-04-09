@@ -1,0 +1,7 @@
+# SOURCE: instaloader_test.py
+# TIME: 2025-03-31_04-13-33
+
+instaloader downloads posts under the hashtag urbanphotography. The code loops through the posts with a date filter (SINCE and UNTIL), setting a limit of 50 posts. It downloads each post if it's within the specified range and resets the counter, k, to 0 after each post.
+
+# TAGS: Keywords: instaloader, hashtag urbanphotography, datetime, postdate, UNTIL, SINCE, k, posts, download_post
+Tags: UrbanPhotography, InstaLoader, Hashtag, Posts, DownloadPost, datetime, UNTIL, SINCE, K

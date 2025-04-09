@@ -1,0 +1,11 @@
+# SOURCE: FILING_ISSUES.md
+# TIME: 2025-03-31_04-27-28
+
+1. Make sure you are on the latest Playwright release before filing a bug report.
+2. Check existing GitHub issues to avoid duplicates.
+3. Use the Bug Report template for detailed information.
+4. Keep your repro minimal by starting with a fresh project and only including necessary code/DOM.
+5. Avoid adding extra libraries unless absolutely necessary.
+6. A well-isolated bug speeds up verification and resolution, so a minimal, public repro is important for assistance.
+
+# TAGS: Bug Report template, GitHub issues, Playwright release, reproducing bug, system info, envinfo, minimal reproducible example, Stack Overflow guide, debugging tools, isolation of bugs, assistance in resolution

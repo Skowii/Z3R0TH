@@ -1,0 +1,10 @@
+# SOURCE: pcfg_logprob.py
+# TIME: 2025-03-31_02-01-11
+
+Object that represents a probabilistic context-free grammar with log probabilities
+Usage: 
+1. Initialize the class with the start non-terminal symbol, rules dictionary, and maximum program depth.
+2. Use the log_probability_program function to compute the log probability of a given program P derived from non-terminal S.
+3. The normalise method cleans the object by removing non-productive and non-reachable rules and returns a normalized version of the object.
+
+# TAGS: type_system, Program, Function, Variable, BasicPrimitive, New, PolymorphicType, PrimitiveType, Arrow, List, UnknownType, INT, BOOL, LogProbPCFG, PCFG, start, rules, max_program_depth, hashseed, PythonHASHSEED

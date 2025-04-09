@@ -1,0 +1,5 @@
+JavaScript has three different empty states for variables: undeclared, undefined, and null. A variable is undeclared if it hasn't been declared with an appropriate keyword like `var`, `let`, or `const`. Accessing an undeclared variable will result in a `ReferenceError`.
+
+A variable is undefined when it has not been assigned a value. Undefined is a primitive data type representing the absence of a value, intentional or otherwise. To check for this state, use a conditional since it is falsy.
+
+Finally, a variable with a value of null is intentionally absent. Null is also a primitive data type and can be checked similarly to an undefined variable. While `null` and `undefined` are loosely equal (`==`), they are not strictly equal (`===`).

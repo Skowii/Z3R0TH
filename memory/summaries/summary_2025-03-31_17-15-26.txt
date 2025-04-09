@@ -1,0 +1,5 @@
+In AutoGPT, follow these steps to delete an unwanted agent:
+
+1. Locate the agent in the Monitor Tab of the builder.
+2. Select the agent by clicking on it.
+3. Click the trash icon to delete the agent. Confirm the action, as it cannot be undone.

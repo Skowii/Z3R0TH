@@ -1,0 +1,9 @@
+To rename a local or remote Git branch, use these commands:
+
+1. Local branch rename: `git branch -m <old-name> <new-name>`
+2. Remote branch delete and push: `git push origin --delete <old-name>; git push origin -u <new-name>`
+3. Combine both locally and remote: 
+   a. Checkout the desired branch.
+   b. Locally rename the branch with `git branch -m`.
+   c. Delete old remote branch.
+   d. Push renamed branch to the remote.

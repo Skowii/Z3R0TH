@@ -1,0 +1,3 @@
+:root and html are two ways to target the root element of an HTML document in CSS. While similar, they have some differences:
+1. Selector specificity: :root has a higher specificity than html as it is a pseudo-class, while html is a type selector.
+2. Targeting other document types: The :root allows you to style root elements of documents other than HTML, such as SVG files.

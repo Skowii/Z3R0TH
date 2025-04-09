@@ -1,0 +1,1 @@
+Summary: Discarding uncommitted or untracked changes in Git is possible using specific commands. The `git reset --hard HEAD` command discards uncommitted changes, while `git clean -f -d` removes untracked files and directories. These commands are potentially destructive actions, so caution should be taken when executing them to ensure no desired changes are lost.

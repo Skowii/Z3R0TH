@@ -1,0 +1,5 @@
+The content provides information on three Twitter API integration blocks:
+
+1. Twitter Post Tweet Block: Creates tweets with text, optional attachments, and settings using the Twitter API.
+2. Twitter Delete Tweet Block: Deletes a specified tweet using its ID through the Twitter API.
+3. Twitter Search Recent Tweets Block: Searches for recent public tweets matching specified criteria via the Twitter API.

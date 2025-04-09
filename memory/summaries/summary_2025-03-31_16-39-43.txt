@@ -1,0 +1,1 @@
+This content discusses the need to cover all functionalities implemented in the UI for an API. Two options are considered: using Behat or PHPUnit for feature coverage. Behat is chosen because it meets all decision driver criteria, allowing easy tracking of covered features. Plans include gradually adding `@api` tags to scenarios and creating a testing tool for Behat contexts.

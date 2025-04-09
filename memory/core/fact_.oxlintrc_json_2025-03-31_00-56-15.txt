@@ -1,0 +1,6 @@
+# SOURCE: .oxlintrc.json
+# TIME: 2025-03-31_00-56-15
+
+This configuration file is used for linting TypeScript projects using the oxc tool. It includes plugins such as unicorn, typescript, oxc-security, import, promise, n and vitest. The es2024 standard is enabled, and rules are specified to enforce coding standards, error handling, and variable usage. Some rules for formatting, complex code, and unused variables have been commented out or set to off as they are not yet implemented in oxlint.
+
+# TAGS: key concepts: oxlint, plugins, es2024, node

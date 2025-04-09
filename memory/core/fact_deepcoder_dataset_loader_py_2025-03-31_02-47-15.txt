@@ -1,0 +1,8 @@
+# SOURCE: deepcoder_dataset_loader.py
+# TIME: 2025-03-31_02-47-15
+
+- This code loads tasks from a given file and creates a list of task tuples where the first element is a function program and the second element contains its example inputs and outputs. It uses a DSL to represent functions and their types. The `load_tasks` function returns two elements, one containing the list of tuples of tasks and another containing the set of types used in those tasks.
+- The `__str2prog` function is used to convert a string representation of a program into its corresponding DSL representation where it parses the input string, extracts parts, and converts them into DSL functions and their types based on given rules.
+- The `filter_tasks_for_model` function filters tasks based on the model passed as an argument to only include tasks that return a certain type or those that match the model's constraints. It uses the model's IOEncoder to filter examples, ensuring they fit within the maximum number of arguments and size limits.
+
+# TAGS: Predictions.models, RulesPredictor, import json, program, BasicPrimitive, Function, Variable, type_system, Typing, DSL, deepcoder, semantics, primitive_types, no_repetitions, load_tasks, Tuple, set, tasks, all_types, file, str, open, with, raw_tasks, raw_task, examples, name, prog, type_request, __str2prog, stack, var, parts, subparts, LIST, INT, name, deepcoder.primitive_types, Function.type, filter_examples, RulesPredictor.IOEncoder

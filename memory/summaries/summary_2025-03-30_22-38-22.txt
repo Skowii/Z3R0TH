@@ -1,0 +1,1 @@
+Create a countdown timer component in React using the useState() and useEffect() hooks to manage state and handle updates every second. The component renders the time value and a message when it reaches zero, with buttons for pausing, resuming, and restarting. Extendable to support other units of time.

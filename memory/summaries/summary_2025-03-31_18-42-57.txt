@@ -1,0 +1,11 @@
+Agbenchmark start metrics summary:
+- Completion time: 2023-07-24-23:51
+- Run time: 48.23 seconds
+- Highest difficulty: interface: 1
+
+Tests:
+- TestWriteFile: Success, "Washington", task is to print capital of America in a .txt file, success_%: 100.0
+- TestGoalDivergence: Failure, assert 1 in [0.0], task is creating .txt files for each element in an array, success_%: 0.0
+- TestSearch: Failure, assert 1 in [0.0], task is to search and paste text from a webpage in a .txt file, success_%: 0.0
+- TestReadFile: Failure, assert 1 in [0.0], task is to write "random string" before existing text in the file, success_%: 0.0
+- TestBasicRetrieval: Failure, agent/smol-developer/venv/lib/python3.10/site-packages/agbenchmark/challenges/test_all.py::TestBasicRetrieval::test_method[challenge_data0] depends on agent/smol-developer/venv/lib/python3.10/site-packages/agbenc, success_%: 0.0

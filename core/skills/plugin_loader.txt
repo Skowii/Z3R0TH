@@ -1,0 +1,212 @@
+# Z3R0TH ∴ Plugin Loader v14.0 — Modular Intelligence ∞ Meta-Driven Safety + Visual Analytics
+
+import os, sys, json, time, shutil, hashlib, traceback, importlib.util
+from pathlib import Path
+from datetime import datetime
+import tkinter as tk
+from tkinter import ttk, messagebox, simpledialog, scrolledtext
+
+# ━━━━━━━━━━━ Paths
+ROOT         = Path.home() / "Desktop" / "HEX13-Z3R0TH" / "Z3R0TH_ENV"
+PLUGIN_DIR   = ROOT / "core" / "plugins"
+LOG_DIR      = ROOT / "core" / "logs"
+META_DIR     = PLUGIN_DIR / ".meta"
+HISTORY_DIR  = PLUGIN_DIR / ".history"
+BLACKLIST    = PLUGIN_DIR / ".blacklist"
+PLUGIN_LOGS  = PLUGIN_DIR / ".plugin_logs"
+
+for d in [PLUGIN_DIR, LOG_DIR, META_DIR, HISTORY_DIR, PLUGIN_LOGS]:
+    os.makedirs(d, exist_ok=True)
+
+# ━━━━━━━━━━━ Utilities
+def plugin_path(name): return PLUGIN_DIR / f"{name}.py"
+def plugin_list(): return [f.stem for f in PLUGIN_DIR.glob("*.py") if not f.name.startswith("_")]
+def log_plugin_output(name, output):
+    with open(PLUGIN_LOGS / f"{name}.log", "a") as f:
+        f.write(f"\n[{datetime.now()}]\n{output}\n")
+def is_blacklisted(name): return BLACKLIST.exists() and name in BLACKLIST.read_text()
+def auto_blacklist(name):
+    with open(BLACKLIST, "a") as f: f.write(name + "\n")
+    print(f"⚠ Auto-blacklisted: {name}")
+def hash_plugin(path): return hashlib.sha256(path.read_bytes()).hexdigest()
+def backup_plugin(name):
+    src = plugin_path(name)
+    if src.exists():
+        stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        shutil.copy(src, HISTORY_DIR / f"{name}__{stamp}.py")
+def plugin_meta(name):
+    meta = {}
+    for key in ["rate", "tags", "desc"]:
+        p = META_DIR / f"{name}.{key}"
+        if p.exists(): meta[key] = p.read_text().strip()
+    return meta
+
+def validate_plugin(path):
+    code = path.read_text()
+    banned = ["os.system", "subprocess", "eval(", "exec("]
+    issues = [b for b in banned if b in code]
+    return (not issues), (f"⚠ Banned code: {', '.join(issues)}" if issues else "✅ Safe")
+
+def rate_plugin(name, stars): (META_DIR / f"{name}.rate").write_text(str(max(1, min(5, int(stars)))))
+def tag_plugin(name, tags): (META_DIR / f"{name}.tags").write_text(",".join(tags))
+def describe_plugin(name, desc): (META_DIR / f"{name}.desc").write_text(desc.strip())
+
+# ━━━━━━━━━━━ Runner
+def load_plugin(name, override_safe=False):
+    path = plugin_path(name)
+    if not path.exists():
+        print(f"❌ Missing: {name}"); return
+    if is_blacklisted(name):
+        print(f"🚫 Blacklisted: {name}"); return
+    safe, reason = validate_plugin(path)
+    if not safe and not override_safe:
+        print(reason); return
+
+    try:
+        backup_plugin(name)
+        start = time.time()
+        spec = importlib.util.spec_from_file_location(name, str(path))
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        print(f"✅ Executed: {name}")
+        if hasattr(module, "run"):
+            output = module.run()
+            delta = round(time.time() - start, 3)
+            log_plugin_output(name, f"[{name}] Duration: {delta}s\nOutput:\n{output}")
+        else:
+            print("⚠ Missing `run()`")
+    except Exception as e:
+        err = traceback.format_exc()
+        log_plugin_output(name, f"[ERROR]\n{err}")
+        auto_blacklist(name)
+
+# ━━━━━━━━━━━ GUI
+def gui_mode():
+    safe_mode = tk.BooleanVar(value=True)
+    window = tk.Tk()
+    window.title("Z3R0TH ∴ Plugin Manager ∞ GUI")
+    window.geometry("1720x980")
+    window.configure(bg="#0d0d0d")
+
+    title = tk.Label(window, text="🧠 Plugin Control Panel v14.0", font=("Fira Code", 16),
+                     fg="#00ffff", bg="#0d0d0d")
+    title.pack(pady=4)
+
+    plugin_listbox = tk.Listbox(window, width=80, height=28, bg="#121212", fg="#00ff88")
+    plugin_listbox.pack(pady=4)
+
+    status_bar = tk.Label(window, text="", bg="#0d0d0d", fg="#888", anchor="w")
+    status_bar.pack(fill="x")
+
+    def log_gui(msg): status_bar.config(text=msg)
+
+    def refresh():
+        plugin_listbox.delete(0, "end")
+        for name in plugin_list():
+            meta = plugin_meta(name)
+            tags = meta.get("tags", "none")
+            stars = meta.get("rate", "?")
+            plugin_listbox.insert("end", f"{name}  | {stars}★ | {tags}")
+
+    def selected_plugin(): return plugin_listbox.get("active").split("  ")[0]
+
+    def run_plugin():
+        name = selected_plugin()
+        load_plugin(name, override_safe=not safe_mode.get())
+        log_gui(f"Ran: {name}")
+
+    def view_code():
+        name = selected_plugin()
+        path = plugin_path(name)
+        text = path.read_text() if path.exists() else "❌ Missing plugin."
+        top = tk.Toplevel(window); top.title(name)
+        text_box = scrolledtext.ScrolledText(top, bg="#101010", fg="#39ff14")
+        text_box.insert("end", text)
+        text_box.pack(fill="both", expand=True)
+
+    def view_logs():
+        name = selected_plugin()
+        path = PLUGIN_LOGS / f"{name}.log"
+        data = path.read_text() if path.exists() else "🗃 No logs yet."
+        top = tk.Toplevel(window); top.title(f"Log: {name}")
+        log_box = scrolledtext.ScrolledText(top, bg="#121212", fg="#00ff88")
+        log_box.insert("end", data)
+        log_box.pack(fill="both", expand=True)
+
+    def diff_versions():
+        name = selected_plugin()
+        versions = sorted(HISTORY_DIR.glob(f"{name}__*.py"), reverse=True)[:2]
+        if len(versions) < 2:
+            messagebox.showinfo("Diff", "Not enough versions.")
+            return
+        lines1 = versions[0].read_text().splitlines()
+        lines2 = versions[1].read_text().splitlines()
+        diff = [f"− {l}" if l not in lines2 else f"+ {l}" for l in lines1 if l not in lines2]
+        top = tk.Toplevel(window); top.title("Diff Viewer")
+        box = scrolledtext.ScrolledText(top, bg="#101010", fg="#ffaa00")
+        box.insert("end", "\n".join(diff))
+        box.pack(fill="both", expand=True)
+
+    def tag_ui():
+        name = selected_plugin()
+        tags = simpledialog.askstring("Tags", "Comma-separated:")
+        if tags: tag_plugin(name, tags.split(",")); refresh()
+
+    def rate_ui():
+        name = selected_plugin()
+        stars = simpledialog.askstring("Rate", "1–5 stars:")
+        if stars.isdigit(): rate_plugin(name, stars); refresh()
+
+    def desc_ui():
+        name = selected_plugin()
+        cur = plugin_meta(name).get("desc", "")
+        new = simpledialog.askstring("Describe", "Edit description:", initialvalue=cur)
+        if new: describe_plugin(name, new)
+
+    def edit_code():
+        os.system(f"nano {plugin_path(selected_plugin())}")
+
+    # Buttons
+    ttk.Checkbutton(window, text="Safe Mode", variable=safe_mode).pack()
+    ttk.Button(window, text="🚀 Run", command=run_plugin).pack()
+    ttk.Button(window, text="🧬 Code", command=view_code).pack()
+    ttk.Button(window, text="📖 Logs", command=view_logs).pack()
+    ttk.Button(window, text="🔍 Diff", command=diff_versions).pack()
+    ttk.Button(window, text="⭐ Rate", command=rate_ui).pack()
+    ttk.Button(window, text="🏷 Tag", command=tag_ui).pack()
+    ttk.Button(window, text="📝 Description", command=desc_ui).pack()
+    ttk.Button(window, text="🛠 Edit", command=edit_code).pack()
+    ttk.Button(window, text="🔄 Refresh", command=refresh).pack(pady=6)
+
+    refresh()
+    window.mainloop()
+
+# ━━━━━━━━━━━ CLI
+def interactive_mode():
+    if not sys.stdin.isatty():
+        print("⚠ CLI not supported in this context.")
+        return
+    while True:
+        print("\nZ3R0TH ∴ Plugins")
+        for i, name in enumerate(plugin_list(), 1):
+            meta = plugin_meta(name)
+            print(f"{i}. {name} | {meta.get('rate', '?')}★ | Tags: {meta.get('tags', 'none')}")
+        print("[E]dit [R]ate [T]ag [X] Exit")
+        choice = input("→ ").strip().lower()
+        if choice == "x": break
+        elif choice.isdigit():
+            p = plugin_list()[int(choice)-1]
+            load_plugin(p)
+        elif choice == "e":
+            name = input("Plugin: ").strip(); os.system(f"nano {plugin_path(name)}")
+        elif choice == "r":
+            rate_plugin(input("Name: "), input("1–5: "))
+        elif choice == "t":
+            tag_plugin(input("Name: "), input("Tags: ").split(","))
+
+# ━━━━━━━━━━━ ENTRY
+if __name__ == "__main__":
+    if "--gui" in sys.argv:
+        gui_mode()
+    else:
+        interactive_mode()

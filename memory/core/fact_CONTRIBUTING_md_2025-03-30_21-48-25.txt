@@ -1,0 +1,18 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-30_21-48-25
+
+To contribute to this repository, please follow these steps:
+1. Solve the problem mentioned in the repository, and place your solution in a separate folder or file under your own repo.
+2. Find the problem for which you've provided a solution within the repository's *README.md* file.
+3. Edit this README file to include your solution by adding [[your_username (language)]]\(link-to-your-solution) after the existing links.
+4. Save and commit your changes to the *README.md* file in the repository's main branch.
+5. Send a pull request with ONLY the commit containing your changes, targeting the repository's main branch (not the solutions repo).
+
+# TAGS: Contribution guide for "Projects-Solutions" repository:
+
+1. Solve a problem and keep your solution in your own repo.
+2. Edit the [README](https://github.com/thekarangoel/Projects-Solutions/blob/master/README.md) file in this format using double square brackets: [[username (language)](link-to-your-solution)].
+3. Save and commit your changes to the [solutions repo](https://github.com/thekarangoel/Projects-Solutions).
+4. Open a pull request for this commit only, targeting the [solutions repo](https://github.com/thekarangoel/Projects-Solutions).
+5. If adding or removing projects, open an issue or create a direct pull request after editing the *README.md* file with necessary changes and ensure the changes are reflected in the [Solutions *README.md* file](https://github.com/thekarangoel/Projects-Solutions/blob/master/README.md).
+6. If copying a project from another webpage, link to it in the *Sources* section at the bottom of repo's *README.md* and *README-scratch.md*.

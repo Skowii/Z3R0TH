@@ -1,0 +1,1 @@
+Imports various JavaScript and CSS libraries, including jQuery, Lightbox, Semantic UI, Semantic CSS, Slick Carousel, Sylius UI resources, and custom stylesheets for the application. Also includes images for logo, avatar, banners, and more.

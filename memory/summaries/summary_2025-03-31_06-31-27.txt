@@ -1,0 +1,4 @@
+इसे वाक्यात्मक रूप में लिखते हैं। इस उदाहरण में, हम से डेटा के बजाय `UserAccount` को डीबी में लिखते हैं। 
+```java UserAccount userAccount = new UserAccount("123", "John Doe", "Additional Info"); DbManager dbManager = new DbManager(); // Connect to the database dbManager.connect(); // Read user data from DB UserAccount readUserData = dbManager.readFromDb("123"); if (readUserData == null) { // Create a new user in the DB writeUserData = new UserAccount("123", "John Doe", "Additional Info"); dbManager.writeToDb(writeUserData); } else { // Update existing user in the DB updateUserData = new UserAccount("123", "John Doe", "Updated Additional Info"); dbManager.updateDb(updateUserData); } // Disconnect from the database dbManager.disconnect(); ```
+
+इस प्रकार, हम डेटा को डीबी में लिखते हैं और यह कैश के अनुप्रयोग के साथ चला सकते हैं।

@@ -1,0 +1,5 @@
+El patrón de diseño Visitor es una técnica que permite definir nuevas operaciones en objetos sin modificar sus clases originales. Se utiliza en estructuras de datos para separar algoritmos de los elementos sobre los que se ejecutan. Esto permite agregar nuevas operaciones a estructuras existentes sin necesidad de modificarlas.
+
+Un ejemplo real en el mundo del ejército muestra cómo un comandante tiene dos sargentos bajo él y cada sargento tiene tres soldados bajo él. Al implementar el patrón Visitante, se puede agregar fácilmente nuevas operaciones sin cambiar la estructura de datos existente.
+
+En un ejemplo de código, se muestra cómo trabajar con una interfaz UnitVisitor y clases concretas de Unidades (Comandante, Sargento y Soldado) que aceptan visitantes. Se proporcionan visitantes concretos para interactuar con cada tipo de unidad.

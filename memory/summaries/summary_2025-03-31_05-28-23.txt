@@ -1,0 +1,6 @@
+Padrões de projeto em Java:
+- Melhores práticas e soluções comuns na programação
+- Acelera o processo de desenvolvimento e fornece paradigmas comprovados
+- Reutiliza padrões para evitar problemas subtils e melhorar a legibilidade do código
+- Sites apresentam soluções Java, com código fonte bem comentado
+- Familiarize-se com princípios de design de software antes de começar

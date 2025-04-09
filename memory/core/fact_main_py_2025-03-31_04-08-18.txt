@@ -1,0 +1,17 @@
+# SOURCE: main.py
+# TIME: 2025-03-31_04-08-18
+
+Title: TRY NOT TO LAUGH (BEST Dank video memes) V1
+Month and Year Format: num_to_month = {1: "Jan", 2: "Feb", ...}
+Video Directory: videoDirectory = "./DankMemes_" + num_to_month[now.month].upper() + "_" + str(now.year) + "_V" + str(now.day) + "/"
+Output File: outputFile = "./" + num_to_month[now.month].upper() + "_" + str(now.year) + "_v" + str(now.day) + ".mp4"
+
+Routine Steps:
+1. Scrape Videos using username and password from config.py.
+2. Make Compilation with given video directory, intro, outro, total vid length, max clip length, min clip length, and output file.
+3. Upload the compilation to Youtube using the googleAPI from step 1.
+4. Clean up by deleting temp files (video directory & output file).
+
+Routine is run every day at a scheduled time, which can be changed in DAILY_SCHEDULED_TIME variable.
+
+# TAGS: scrapeVideos, makeCompilation, uploadYtvid, schedule, time, datetime, os, shutil, googleapiclient.errors, build, InstalledAppFlow, Request, Credentials, config, IG_USERNAME, IG_PASSWORD, title, now, videoDirectory, outputFile, TOTAL_VID_LENGTH, MAX_CLIP_LENGTH, MIN_CLIP_LENGTH, DAILY_SCHEDULED_TIME, TOKEN_NAME, client_secrets_file, SCOPES, routine, description, INTRO_VID, OUTRO_VID, num_to_month

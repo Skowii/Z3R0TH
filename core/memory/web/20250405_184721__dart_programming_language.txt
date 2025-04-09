@@ -1,0 +1,3 @@
+# 🔗 https://dart.dev/
+
+Dart is free and open source An approachable, portable, and productive language for high-quality apps on any platform Approachable Develop with a consistent, concise, and strongly typed programming language that offers modern features like null safety and pattern matching. Productive development Make changes iteratively: use hot reload to see the result instantly in your running app.

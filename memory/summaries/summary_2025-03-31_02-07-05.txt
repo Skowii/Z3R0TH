@@ -1,0 +1,35 @@
+To escape or unescape HTML using JavaScript, convert text into an HTML-safe string by replacing special characters with their respective HTML entities. Use the `String.prototype.replace()` method and regular expressions to efficiently perform this operation:
+
+1. Escape HTML:
+```javascript
+const escapeHTML = str => {
+  return str.replace(
+    /[&<>'"]/g,
+    tag => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      "'": '&#39;',
+      '"': '&quot;'
+    }[tag] || tag)
+  );
+}
+escapeHTML('<a href="#">Me & you</a>'); // '&lt;a href=&quot;#&quot;&gt;Me &amp; you&lt;/a&gt;'
+```
+
+2. Unescape HTML:
+```javascript
+const unescapeHTML = str => {
+  return str.replace(
+    /&amp;|&lt;|&gt;|&#39;|&quot;/g,
+    tag => ({
+      '&amp;': '&',
+      '&lt;': '<',
+      '&gt;': '>',
+      '&#39;': "'",
+      '&quot;': '"'
+    }[tag] || tag)
+  );
+}
+unescapeHTML('&lt;a href=&quot;#&quot;&gt;Me &amp; you&lt;/a&gt;'); // '<a href="#">Me & you</a>'
+```

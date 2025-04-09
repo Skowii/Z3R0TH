@@ -1,0 +1,1 @@
+The provided content is a brief summary of an object, which contains a single property named "name", and it's assigned the value of "example/test-application". This suggests that there is a test application called "example/test-application".

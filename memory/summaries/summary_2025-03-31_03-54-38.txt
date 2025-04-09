@@ -1,0 +1,1 @@
+Abstract Factory là mô hình thiết kế creational có tác dụng để cung cấp giao diện (interface) để tạo ra các đối tượng liên quan nhau mà không phủ nhầm lẫn chỉ định các lớp cụ thể. Trong ví dụ, Nhà Máy Trừu Tượng Abstract Factory cho phép tạo ra vương quốc Elf và Orc, gồm lâu đài, vua và quân đội của từng tộc.

@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-06-24
+
+SyliusPromotionBundle, Sylius, eCommerce solution, Open Source, Symfony2, documentation, contributing, following development, bug tracking, MIT License, authors
+
+# TAGS: Promotions engine, Sylius, Symfony2 eCommerce applications, Open Source eCommerce solution, documentation, contributing, Sylius' Development, Official Blog, Twitter, Facebook, GitHub issues, MIT License, authors

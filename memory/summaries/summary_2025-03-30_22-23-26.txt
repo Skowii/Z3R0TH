@@ -1,0 +1,5 @@
+Add important HTML `<head>` links for better SEO and metadata:
+1. Canonical link: Specifies the canonical URL of a page for search engines.
+2. Sitemap link: Provides the location of your sitemap XML file containing all pages and their metadata.
+3. Alternate link (RSS): Points to your website's RSS feed, helping with search result display and user convenience.
+4. Search link: Enables users to search the website directly from the browser's address bar.

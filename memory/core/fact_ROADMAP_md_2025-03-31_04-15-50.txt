@@ -1,0 +1,6 @@
+# SOURCE: ROADMAP.md
+# TIME: 2025-03-31_04-15-50
+
+Roadmap: GPT-Engineer's strategic direction focused on User Experience, Technical Features, and Performance Tracking/Testing. Progress tracked with GitHub Projects. Contributions can include designing solutions, submitting PRs, or reviewing others' work for improvement and acknowledgement.
+
+# TAGS: Roadmap, User Experience, Technical Features, Performance Tracking/Testing, Epics, GitHub Projects, Discord, Contributions, Design Feedback, Pull Requests (PR), Code Reviews, Recognition

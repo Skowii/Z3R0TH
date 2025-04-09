@@ -1,0 +1,1 @@
+This content imports various components from the Semantic-UI CSS library, including accordion, api, checkbox, colorize, dimmer, dropdown, embed, form, modal, nag, popup, progress, rating, search, shape, sidebar, site, state, sticky, tab, transition, video, and visibility components.

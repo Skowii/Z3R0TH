@@ -1,0 +1,1 @@
+Setting up Python 3 and pip 3 as default is an easy fix for working with multiple Python versions. Use the 'which' command to find the location of each tool, then add aliases to your shell environment configuration file (either .zshrc or .bashrc). This simplifies using Python 3 and pip 3 by making them the default command shortcuts.

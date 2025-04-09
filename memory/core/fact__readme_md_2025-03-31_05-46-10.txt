@@ -1,0 +1,9 @@
+# SOURCE: _readme.md
+# TIME: 2025-03-31_05-46-10
+
+Conventions for ADRs:
+- Filename uses lowercase and underscores: Balance of readability and system usability.
+- Filename contains creation date and topic: Format is YYYY_MM_DD_topic.md.
+- Content follows the specified template: ADR template at _template.md in this directory.
+
+# TAGS: Key concepts: ADRs, filenames, lowercase, underscores, readability, system usability, creation date, related topic, format, YYYY_MM_DD_topic.md, content, ADR template, _template.md in this directory.

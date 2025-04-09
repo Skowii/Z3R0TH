@@ -1,0 +1,1 @@
+To check if a number is prime in JavaScript, use a for loop to iterate through numbers from 2 to the square root of the given number. If a divisor is found, return false; otherwise, return true. To generate primes up to a given number, use the Sieve of Eratosthenes algorithm with Array.prototype.filter() to filter out divisible values.

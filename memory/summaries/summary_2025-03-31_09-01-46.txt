@@ -1,0 +1,1 @@
+This Real Python tutorial focuses on Embeddings and Vector Databases with ChromaDB. To run the code, you need to have "numpy," "spacy," "sentence-transformers," "chromadb," "polars," "more-itertools," and "openai" installed in your environment. You can install dependencies manually or using `python -m pip install -r requirements.txt`.

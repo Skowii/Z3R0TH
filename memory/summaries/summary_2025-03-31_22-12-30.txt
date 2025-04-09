@@ -1,0 +1,1 @@
+The compiler options include using 'es6' as the module type, 'node' for module resolution, and a base URL of '.'. It also sets specific paths for src and spec folders and excludes 'node_modules'.

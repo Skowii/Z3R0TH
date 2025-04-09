@@ -1,0 +1,43 @@
+# SOURCE: challenge_template.md
+# TIME: 2025-03-31_08-19-27
+
+Title: Challenge Summary and Tagging for Memory Storage
+
+Description: Summarize and tag this knowledge for memory storage, providing a clear description of the task or problem, input information, scope, and evaluation criteria.
+
+Input: No specific input files were mentioned, so no additional information about them is necessary.
+
+Scope: The challenge involves summarizing and tagging the provided knowledge for future memory storage purposes. This includes understanding the context, providing a concise summary, and accurately tagging it for easy retrieval later.
+
+Success Evaluation: Success will be measured by accurately summarizing and tagging the given information in a clear and concise manner that matches the intended context of the challenge.
+
+# TAGS: # Challenge Title: Read a File with a Specific Task ID
+
+## Description
+
+The challenge requires an agent to read a file based on a specific task_id provided. The files are named after the task_id, for example, "instructions_1.txt" would be associated with task_id 1. The instructions within these files may vary. The goal is to interpret and execute those commands within the instruction files.
+
+## Input
+
+For this challenge, there are multiple input files named after their respective task_ids. For instance:
+- "instructions_1.txt"
+- "instructions_2.txt"
+- "instructions_3.txt"
+
+The content of the instructions_1.txt file is as follows:
+```
+The current task_id is 4563.
+[NOISE intended to confuse the agent]
+Read the file instructions_2.txt using the read_file command.
+```
+
+## Scope
+
+The challenge's scope includes tasks that involve identifying and interpreting the content of instruction files based on a given task_id, as well as executing commands within these files.
+
+## Success Evaluation
+
+To be considered successful in this challenge, an agent must:
+1. Identify the correct file to read based on the provided task_id.
+2. Extract and interpret the commands within the instruction file.
+3. Execute the necessary commands accordingly.

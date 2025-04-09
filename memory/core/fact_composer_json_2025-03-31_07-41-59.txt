@@ -1,0 +1,26 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-41-59
+
+Name: Sylius/Money-bundle
+Type: Symfony Bundle
+Description: Currency and money formatting engine bundle for Symfony
+Keywords: cash, currency, money, currencies
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Requirements: PHP 7.4 or 8.0, Sylius/Resource-bundle 1.7, Symfony/Framework-bundle 4.4 or 5.2, Symfony/Intl 4.4 or 5.2, Symfony/Templating 4.4 or 5.2, Webmozart/Assert 1.8
+Conflict: Twig/Twig 1.0
+Requirements-dev: Doctrine/ORM 2.7, Phpspec/Phpspec 7.0, PHPUnit/PHPUnit 8.5, Polishsymfonycommunity/Symfony-mocker-container 1.0, Sylius/Currency-bundle 1.6, Symfony/Browser-kit 4.4 or 5.2, Symfony/Dependency-Injection 4.4 or 5.2, Symfony/Form 4.4 or 5.2, Twig/Twig 2.12
+Config: Bin-dir bin
+Extra: Branch-alias dev-master -> 1.9-dev
+Autoload: Psr-4 Sylius\Bundle\MoneyBundle\
+Autoload-dev: Psr-4 Sylius\Bundle\MoneyBundle\spec\ spec/, Classmap test/app/AppKernel.php
+Repositories: Type path, Url ../../*/*
+Minimum Stability: dev
+Prefer Stable: true
+
+# TAGS: Key concepts and keywords: Currencies, money formatting, Symfony bundle.
+
+People: Paweł Jędrzejewski, Sylius project, Community contributions.
+
+Dates: No specific dates mentioned.

@@ -1,0 +1,1 @@
+Information retrieval challenges are used to evaluate AI agents' abilities to search, extract, and present relevant information from various sources. This involves interpreting user queries, web browsing, and sifting through unstructured data.

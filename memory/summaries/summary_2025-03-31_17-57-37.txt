@@ -1,0 +1,1 @@
+The benchmarking log reports on a series of tests for various capabilities: "TestWriteFile" (interface), "TestThreeSum" (code and iterate), "TestUrlShortener" (code). The metrics show that no successful tests were completed. The highest difficulty was "No successful tests", total cost was 0.23615999999999998, and the run time was 204.89 seconds.

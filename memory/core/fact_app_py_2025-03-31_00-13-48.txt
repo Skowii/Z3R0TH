@@ -1,0 +1,28 @@
+# SOURCE: app.py
+# TIME: 2025-03-31_00-13-48
+
+create_video_task:
+- summary: Create a video using OpenAI text generation for descriptions and voice over.
+- tagged keywords: pathlib, openai generation, audio processing, video creation, cookies
+- function: run(file_path) to process the video task
+
+# TAGS: main(), extract key concepts, keywords, people, and dates as tags:
+- pathlib
+- audio
+- config
+- logger
+- openai_generation
+- utils
+- video processing
+- cookies
+- input data
+- output data
+- file path
+- text file
+- openai prompt
+- openai response
+- video metadata
+- voice over
+- save videos
+- make video
+- video output dir

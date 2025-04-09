@@ -1,0 +1,5 @@
+To specify the base for a logarithm in JavaScript:
+1. Use the built-in functions `Math.log()`, `Math.log2()` and `Math.log10()` for calculating logarithms in base `e`, `2`, and `10`, respectively.
+2. For other bases, use the base change formula: `Math.log(n) / Math.log(b)`.
+3. Create a function using partial application that takes the base as an argument to calculate logarithm of a number in specific base.
+4. Check if a number is a power of a specific base by calculating its logarithm in that base and using the modulo operator (`%`).

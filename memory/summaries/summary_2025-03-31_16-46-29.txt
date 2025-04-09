@@ -1,0 +1,1 @@
+Sylius is an open-source eCommerce solution built with decoupled components and a powerful API, offering inventory management for PHP applications. Documentation can be found on docs.sylius.com. Contributions can be made following the information on docs.sylius.com/en/latest/contributing/index.html. The project utilizes GitHub issues for bug tracking and is licensed under MIT.

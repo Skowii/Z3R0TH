@@ -1,0 +1,16 @@
+Learn how to split a string into words using JavaScript's `Intl.Segmenter` API. To do this:
+
+1. Create a segmenter with the given locale and granularity ('word').
+2. Use `Intl.Segmenter.prototype.segment()` method to split the string into segments.
+3. Filter out non-word segments by checking if the `isWordLike` property is true.
+4. Reduce the array of segments to create a list of words.
+
+Example:
+```js
+const splitIntoWords = (str, locale) => [
+  ...new Intl.Segmenter(locale, { granularity: 'word' }).segment(str)
+].reduce((acc, { segment, isWordLike }) => {
+  if (isWordLike) acc.push(segment);
+  return acc;
+}, []);
+```

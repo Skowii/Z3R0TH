@@ -1,0 +1,1 @@
+SyliusLocaleBundle is a Symfony2 integration for managing locales in Sylius, an Open Source eCommerce solution built with high-quality code and powerful API. Documentation is available at docs.sylius.com, and contributions can be made following the guidelines on contributing.sylius.com. Bug tracking is done through GitHub issues, and the bundle is licensed under MIT.

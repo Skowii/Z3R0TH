@@ -1,0 +1,10 @@
+# SOURCE: 2021_05_06_command_bus_unification.md
+# TIME: 2025-03-31_05-56-16
+
+Tag: Messaging System Integration
+
+Summary: The unification of buses in Sylius involves utilizing the `sylius.command_bus` for command dispatching and the `sylius.event_bus` for events. This approach takes into account the differences between command bus validation, transaction usage, and database flushing compared to event bus implementation. The current system uses 2 tags `messenger.message_handler`, supporting both `sylius.command_bus` and `sylius_default.bus`.
+
+# TAGS: Key Concepts: Unification, Buses (Command Bus, Event Bus), Sylius, Command Dispatching, Events, Handlers, Transaction, Database
+
+Keywords: Messenger, Message Handler, Validation

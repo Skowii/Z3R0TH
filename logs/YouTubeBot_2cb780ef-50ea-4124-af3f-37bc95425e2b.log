@@ -1,0 +1,6 @@
+[2025-04-02 19:41:40] [INFO] 🤖 YouTubeBot initialized with model deepseek-r1 (UUID: 2cb780ef-50ea-4124-af3f-37bc95425e2b)
+[2025-04-02 19:41:40] [INFO] 🎬 YouTubeBot initialized.
+[2025-04-02 19:41:40] [INFO] ⚙ Starting new script cycle...
+[2025-04-02 19:41:40] [INFO] 🔍 Recalled memory: [youtube/last_idea]
+[2025-04-02 19:41:40] [INFO] 🧠 Memory saved: [youtube/last_idea]
+[2025-04-02 19:41:40] [INFO] 💬 Prompting LLM: Write a short, punchy 30-45 second YouTube script for this topic: Create 20 adva...

@@ -1,0 +1,1 @@
+In Python, you can check if a string is empty using the `not` operator with strings as truthy if they are non-empty. Alternatively, you can compare the variable to an empty string using the `==` operator.

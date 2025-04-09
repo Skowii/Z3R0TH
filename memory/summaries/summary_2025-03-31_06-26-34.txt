@@ -1,0 +1,3 @@
+API Gateway helps manage multiple microservices. It is responsible for routing requests to different services and handling responses. In a basic scenario, it may be used to call ImageClientImpl and PriceClientImpl microservices to fetch image and price information. This way, the API Gateway can handle different types of clients like Desktop devices or Mobile devices that need different data formats.
+
+Desktop users get both image and price data while mobile users only get the price details. The API Gateway will forward the requests accordingly by calling the relevant microservices (ImageClientImpl for image data and PriceClientImpl for price data) to gather the necessary information and return it in a format suitable for the client device.

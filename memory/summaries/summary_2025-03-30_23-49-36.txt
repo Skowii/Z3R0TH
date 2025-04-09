@@ -1,0 +1,8 @@
+This guide explains JavaScript naming conventions for variables, functions, constants, classes, and private members:
+
+1. Variables should be lowercase with `camelCase`, descriptive and self-explanatory.
+2. Functions follow the same rule, using verbs in imperative form and common prefixes like 'get' or 'has'.
+3. Constants can use either `camelCase` or `UPPER_SNAKE_CASE`.
+4. Class names start with a capital letter and use `PascalCase`, describing their functionality.
+5. Components in frontend frameworks follow these rules.
+6. Private members should be prefixed with an underscore, though this doesn't prevent access from other parts of the code.

@@ -1,0 +1,1 @@
+This is a summary of an Auto-GPT benchmark report, which provides performance metrics for the agent's abilities in various tasks such as writing to files, searching information, reading files, and generating content. The benchmark's highest difficulty was basic: 2 and took a total runtime of 866.91 seconds.

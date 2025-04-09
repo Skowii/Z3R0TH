@@ -1,0 +1,1 @@
+In Python, you can sort a list of dictionaries using multiple keys by utilizing the sorted() function along with a tuple key. Simply return a tuple containing the order of desired keys and the sorted() function will handle the rest. The example shows how to sort friends list based on age, surname, and name.

@@ -1,0 +1,79 @@
+# SOURCE: setup.py
+# TIME: 2025-03-31_02-48-49
+
+Summary: Installation and setup script for Hummingbot, a python-based open-source software for automated trading. This uses Cythonize for optimizations, PyOpenSSL for encryption, Websockets for realtime messaging protocols, Numpy for scientific computing, and Pandas for data analysis. It's written in Python with optional C++ backend through Cython. The package includes an install command which allows you to install the software on your machine.
+
+# TAGS: import os
+import subprocess
+import sys
+import fnmatch
+
+import numpy as np
+from setuptools import find_packages, setup
+from setuptools.command.build_ext import build_ext
+from Cython.Build import cythonize
+
+is_posix = (os.name == "posix")
+
+if is_posix:
+    os_name = subprocess.check_output("uname").decode("utf8")
+    if "Darwin" in os_name:
+        os.environ["CFLAGS"] = "-stdlib=libc++ -std=c++11"
+    else:
+        os.environ["CFLAGS"] = "-std=c++11"
+
+if is_posix:
+    cpu_count = os.cpu_count() or 8
+    version = "20250303"
+    all_packages = find_packages(include=["hummingbot", "hummingbot.*"], )
+    excluded_paths = [
+        "hummingbot.connector.gateway.clob_spot.data_sources.injective",
+        "hummingbot.connector.gateway.clob_perp.data_sources.injective_perpetual"
+    ]
+    packages = [pkg for pkg in all_packages if not any(fnmatch.fnmatch(pkg, pattern) for pattern in excluded_paths)]
+    package_data = {
+        "hummingbot": [
+            "core/cpp/*",
+            "VERSION",
+            "templates/*TEMPLATE.yml"
+        ],
+    }
+    install_requires = [
+        "bidict",
+        "aioconsole",
+        "aiohttp",
+        "aioprocessing",
+        "asyncssh",
+        "appdirs",
+        "appnope",
+        "async-timeout",
+        "base58",
+        "cachetools",
+        "certifi",
+        "coincurve",
+        "coinbase-advanced-py==1.8.2",
+        "cryptography",
+        "cython==3.0.0",
+        "cytoolz",
+        "commlib-py",
+        "docker",
+        "diff-cover",
+        "ecdsa",
+        "eip712-structs",
+        "eth-abi",
+        "eth-account",
+        "eth-bloom",
+        "eth-keyfile",
+        "eth-typing",
+        "eth-utils",
+        "flake8",
+        "grpcio",
+        "hexbytes",
+        "importlib-metadata",
+        "injective-py",
+        "mypy-extensions",
+        "msgpack",
+        "numpy==1.23.1",
+        "pandas",
+        "ptyprocess",
+        "

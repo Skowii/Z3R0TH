@@ -1,0 +1,1 @@
+The Person class has an init method that initializes name and birth date. A getter for birth_date is provided. A setter for birth_date allows changing the birth date if force is True, but raises an error otherwise.

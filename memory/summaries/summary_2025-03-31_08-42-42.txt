@@ -1,0 +1,1 @@
+The code computes the Fibonacci sequence (up to a maximum of 30) using the fib function, and then calculates the average runtime over 100 iterations using the timeit library. The final output is the average time taken in seconds.

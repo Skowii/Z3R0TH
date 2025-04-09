@@ -1,0 +1,15 @@
+Generate a random hex color code in JavaScript:
+
+1. Use `Math.random()` to create a random number between 0 and 1 (24-bit number).
+2. Convert the random number to a hexadecimal string using `Number.prototype.toString()` with base 16.
+3. Extract the first 6 characters of the resulting string.
+4. Prepend '#' to create a valid hex color code.
+
+Example:
+```js
+const randomHexColorCode = () => {
+    let n = (Math.random() * 0xfffff * 1000000).toString(16);
+    return '#' + n.slice(0, 6);
+};
+randomHexColorCode(); // '#e34155'
+```

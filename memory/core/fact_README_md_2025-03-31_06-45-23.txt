@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-45-23
+
+: Taxonomy Component, Sylius Taxonomy component, Categorization, Hierarchical terms, Sylius, Open Source eCommerce solution, API, Quality code, Documentation, Contributing, Bug tracking, MIT License, Authors
+
+# TAGS: Taxonomy Component, Sylius, Documentation, Contributing, Bug tracking, MIT License, Authors

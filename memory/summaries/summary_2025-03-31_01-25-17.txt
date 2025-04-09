@@ -1,0 +1,6 @@
+Calculate date difference in JavaScript:
+
+- Date difference in seconds: `const dateDifferenceInSeconds = (dateInitial, dateFinal) => (dateFinal - dateInitial) / 1_000;`
+- Date difference in minutes: `const dateDifferenceInMinutes = (dateInitial, dateFinal) => (dateFinal - dateInitial) / 60_000;`
+- Date difference in hours: `const dateDifferenceInHours = (dateInitial, dateFinal) => (dateFinal - dateInitial) / 3_600_000;`
+- Date difference in days (without considering timezones): `const dateDifferenceInDays = (dateInitial, dateFinal) => (dateFinal - dateInitial) / 86_400_000;`

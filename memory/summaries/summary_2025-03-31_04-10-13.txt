@@ -1,0 +1,9 @@
+Business Delegate是一种在表示层（如UI）和业务层（如数据库）之间添加一个抽象层的结构模式。通过这个抽象层，我们可以实现各层之间的松散耦合并且对其中的逻辑进行封装。例子为：手机应用程序根据用户输入的搜索词调用不同的视频流服务（比如Netflix或YouTube），通过业务委托来实现这个功能。Business Delegate类使用一个业务查找服务来决定使用哪个视频流服务。最后，移动客户端利用了业务委托来调用业务层。
+
+以上模式的原理图是：![alt text](./etc/business-delegate.urm.png "Business Delegate")
+
+相关模式包括：[服务定位器模式](https://java-design-patterns.com/patterns/service-locator/)。
+
+适用性：当你想要实现表示层和业务层之间的松散耦合、编排对多个业务服务的调用以及封装查找服务和服务调用时，可以使用Business Delegate模式。
+
+教程：[Business Delegate Pattern at TutorialsPoint](https://www.tutorialspoint.com/design_pattern/business_delegate_pattern.htm)

@@ -1,0 +1,10 @@
+# SOURCE: cons_list.py
+# TIME: 2025-03-31_02-15-43
+
+- Knowledge: list indexing, tuple processing, and list manipulation in Python
+- Purpose: To understand and utilize the given functions and concepts related to lists and tuples
+- Tagging: index function, cons_list, tuple2constlist, length, cons_list2list, cons_list_split
+
+# TAGS: Key Concepts/Keywords: index, cons_list, cons_list2list, length, tuple2constlist, None, __index_tuple__
+People: None
+Dates: None

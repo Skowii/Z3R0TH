@@ -1,0 +1,266 @@
+import ttkbootstrap as ttk
+from ttkbootstrap.constants import *
+from tkinter import filedialog, scrolledtext, messagebox
+import tkinter as tk
+from pathlib import Path
+import subprocess, threading, platform, psutil, os, json
+from datetime import datetime
+
+# File structure
+ROOT = Path.home() / "Desktop" / "HEX13-Z3R0TH" / "Z3R0TH_ENV"
+CONTROL_FILE = ROOT / "core" / "control" / "guardian.json"
+AGENT_DIR = ROOT / "core" / "agents"
+SPAWN_LOG = ROOT / "core" / "logs" / "spawn_history.json"
+SKILL_DIR = ROOT / "core" / "skills"
+PLUGIN_DIR = ROOT / "core" / "plugins"
+MEMORY_DIR = ROOT / "core" / "memory"
+
+def launch_dashboard():
+    window = ttk.Window(themename="cyborg")
+    window.title("Z3R0TH ∴ Synced Command Center")
+    window.geometry("1820x980")  # optimized for 1920x1080
+    window.resizable(True, True)
+
+    def get_system_status():
+        cpu = psutil.cpu_percent()
+        ram = psutil.virtual_memory().percent
+        disk = psutil.disk_usage("/").percent
+        os_info = f"{platform.system()} {platform.release()}"
+        return f"🖥 CPU: {cpu}% | 💾 RAM: {ram}% | 📂 DISK: {disk}% | ⚙ OS: {os_info}"
+
+    ttk.Label(window, text="Z3R0TH ∴ Command Core Console", font=("JetBrains Mono", 20, "bold")).pack(pady=8)
+    status_label = ttk.Label(window, text=get_system_status(), font=("Courier", 10))
+    status_label.pack()
+
+    def update_status():
+        status_label.config(text=get_system_status())
+        window.after(2000, update_status)
+    update_status()
+
+    # ━━━━━━━ Tabs ━━━━━━━
+    notebook = ttk.Notebook(window, bootstyle="dark")
+    tab_console   = ttk.Frame(notebook)
+    tab_agents    = ttk.Frame(notebook)
+    tab_plugins   = ttk.Frame(notebook)
+    tab_scripts   = ttk.Frame(notebook)
+    tab_memory    = ttk.Frame(notebook)
+    tab_settings  = ttk.Frame(notebook)
+
+    notebook.add(tab_console,  text="🧠 Console")
+    notebook.add(tab_agents,   text="🤖 Agents")
+    notebook.add(tab_plugins,  text="🔌 Plugins")
+    notebook.add(tab_scripts,  text="🧠 Script Builder")
+    notebook.add(tab_memory,   text="🗃 Memory")
+    notebook.add(tab_settings, text="⚙ Settings")
+    notebook.pack(fill=BOTH, expand=True, padx=10, pady=10)
+
+    # ━━━━━━━ Console ━━━━━━━
+    console = scrolledtext.ScrolledText(tab_console, wrap="word", width=160, height=35,
+                                        bg="#1c1c1c", fg="#39ff14", insertbackground="#39ff14")
+    console.pack(padx=10, pady=10)
+
+    command_history = []
+
+    def run_command(cmd):
+        def threaded():
+            loading_popup(f"Executing: {cmd}")
+            try:
+                result = subprocess.run(["python3", "z3r0th_chat.py"], input=cmd + "\n", text=True, capture_output=True)
+                output = f"\n> {cmd}\n{result.stdout.strip()}\n"
+                if result.stderr:
+                    output += f"\n⚠ STDERR:\n{result.stderr.strip()}"
+                console.insert("end", output)
+                console.see("end")
+                command_history.append(cmd)
+                update_command_log()
+            except Exception as e:
+                console.insert("end", f"[ERROR]: {e}\n")
+        threading.Thread(target=threaded).start()
+
+    commands = {
+        "🧠 Reflect": "reflect", "🗃 Train": "train", "🔁 Reload Memory": "reload",
+        "📦 Backup": "backup", "💻 Status": "status", "🧬 VM Prep": "vm prep",
+        "📊 Refresh GUI": "gui", "🛠 Sandbox": "run skill sandbox_runner",
+        "💡 Skill Editor": "run skill skill_editor", "⚙ Plugins": "run skill plugin_loader",
+        "📂 File Tree": "run skill system_map", "🧱 Agent Spawner": "run skill agent_spawner",
+        "❌ Exit": "exit"
+    }
+
+    button_grid = ttk.Frame(tab_console)
+    button_grid.pack(pady=10)
+    for i, (label, cmd) in enumerate(commands.items()):
+        ttk.Button(button_grid, text=label, width=18, bootstyle="outline",
+                   command=lambda c=cmd: run_command(c)).grid(row=i//4, column=i%4, padx=6, pady=6)
+
+    # ━━━━━━━ Manual Command Entry ━━━━━━━
+    ttk.Label(tab_console, text="📝 Manual Command Entry", font=("Fira Code", 12)).pack(pady=6)
+    command_entry = ttk.Entry(tab_console, width=140)
+    command_entry.pack(pady=4)
+
+    def send_manual_command():
+        cmd = command_entry.get().strip()
+        if cmd:
+            run_command(cmd)
+
+    ttk.Button(tab_console, text="🚀 Run", command=send_manual_command).pack(pady=4)
+
+    # ━━━━━━━ Command Log ━━━━━━━
+    command_log = tk.Listbox(tab_console, height=6, bg="#1e1e1e", fg="#aaaaaa")
+    command_log.pack(pady=4, fill="x")
+
+    def update_command_log():
+        command_log.delete(0, "end")
+        for cmd in command_history[-10:][::-1]:
+            command_log.insert("end", f"→ {cmd}")
+    # ━━━━━━━ Memory Viewer ━━━━━━━
+    ttk.Label(tab_memory, text="🗃 Memory Files", font=("Fira Code", 14)).pack(pady=6)
+    memory_listbox = tk.Listbox(tab_memory, height=24, width=70, bg="#1e1e1e", fg="#00ffcc")
+    memory_listbox.pack(pady=6, padx=12)
+
+    def refresh_memory():
+        memory_listbox.delete(0, "end")
+        for path in MEMORY_DIR.rglob("*.txt"):
+            memory_listbox.insert("end", str(path.relative_to(MEMORY_DIR)))
+
+    def open_memory():
+        sel = memory_listbox.get("active")
+        if not sel: return
+        full_path = MEMORY_DIR / sel
+        if full_path.exists():
+            if platform.system() == "Windows":
+                os.system(f"notepad \"{full_path}\"")
+            elif platform.system() == "Darwin":
+                subprocess.run(["open", full_path])
+            else:
+                subprocess.run(["xdg-open", full_path])
+        else:
+            messagebox.showerror("Error", "File not found.")
+
+    def delete_memory():
+        sel = memory_listbox.get("active")
+        if not sel: return
+        full_path = MEMORY_DIR / sel
+        if messagebox.askyesno("Delete", f"Delete {sel}?"):
+            full_path.unlink()
+            refresh_memory()
+
+    ttk.Button(tab_memory, text="📂 Open", command=open_memory).pack()
+    ttk.Button(tab_memory, text="🗑 Delete", command=delete_memory).pack(pady=4)
+    ttk.Button(tab_memory, text="🔄 Refresh", command=refresh_memory).pack(pady=4)
+    refresh_memory()
+
+    # ━━━━━━━ Agents ━━━━━━━
+    ttk.Label(tab_agents, text="🤖 Quick Agent Spawn", font=("Fira Code", 14, "bold")).pack(pady=8)
+    agent_entry = ttk.Entry(tab_agents, width=40)
+    agent_entry.pack(pady=5)
+
+    ttk.Button(tab_agents, text="🚀 Spawn Agent", bootstyle="success",
+               command=lambda: run_command(f"run skill agent_spawner\n{agent_entry.get().strip()}")).pack(pady=4)
+
+    ttk.Separator(tab_agents).pack(pady=10)
+
+    def refresh_agents():
+        agent_listbox.delete(0, "end")
+        for f in AGENT_DIR.glob("*.py"):
+            agent_listbox.insert("end", f.stem)
+
+    ttk.Label(tab_agents, text="Active Agent Scripts:", font=("Fira Code", 12)).pack()
+    agent_listbox = tk.Listbox(tab_agents, height=18, bg="#1e1e1e", fg="#00ff88", width=60)
+    agent_listbox.pack(pady=5)
+    ttk.Button(tab_agents, text="🔄 Refresh List", command=refresh_agents).pack()
+    refresh_agents()
+
+    # ━━━━━━━ Plugins ━━━━━━━
+    ttk.Label(tab_plugins, text="🧩 Plugins", font=("Fira Code", 14, "bold")).pack(pady=6)
+
+    def refresh_plugins():
+        plugin_listbox.delete(0, "end")
+        for f in PLUGIN_DIR.glob("*.py"):
+            plugin_listbox.insert("end", f.stem)
+
+    plugin_listbox = tk.Listbox(tab_plugins, height=20, bg="#1e1e1e", fg="#00ffcc", width=70)
+    plugin_listbox.pack(pady=6)
+    ttk.Button(tab_plugins, text="🔌 Run Selected Plugin",
+               command=lambda: run_command(f"run skill plugin_loader\n{plugin_listbox.get('active')}")).pack()
+    ttk.Button(tab_plugins, text="🔄 Refresh Plugins", command=refresh_plugins).pack()
+    refresh_plugins()
+
+    # ━━━━━━━ Script Builder ━━━━━━━
+    ttk.Label(tab_scripts, text="🧠 Script Builder", font=("Fira Code", 14, "bold")).pack(pady=8)
+
+    script_name = ttk.Entry(tab_scripts, width=40)
+    script_name.insert(0, "example_script")
+    script_name.pack()
+
+    script_text = scrolledtext.ScrolledText(tab_scripts, width=150, height=25, bg="#101010", fg="#00ff88", insertbackground="#00ff88")
+    script_text.insert("end", "# Write your Z3R0TH skill or bot logic here...\n")
+    script_text.pack(pady=6)
+
+    def save_script():
+        name = script_name.get().strip()
+        if not name: return
+        ext = ".py" if name.endswith(".py") else ".txt"
+        path = SKILL_DIR / f"{name}{ext}"
+        path.write_text(script_text.get("1.0", "end"))
+        run_command(f"echo '📦 Skill saved: {name}{ext}'")
+
+    ttk.Button(tab_scripts, text="📦 Save Script", bootstyle="success", command=save_script).pack()
+
+    # ━━━━━━━ Guardian Settings ━━━━━━━
+    def load_guardian():
+        if CONTROL_FILE.exists():
+            return json.loads(CONTROL_FILE.read_text())
+        return {"override": True, "kill_switch": False}
+
+    guardian = load_guardian()
+    guardian_label = ttk.Label(tab_settings, text=f"Guardian Override: {guardian['override']} | Kill Switch: {guardian['kill_switch']}", font=("Courier", 11))
+    guardian_label.pack(pady=10)
+
+    def toggle_guardian(field):
+        data = load_guardian()
+        data[field] = not data[field]
+        CONTROL_FILE.write_text(json.dumps(data, indent=2))
+        guardian_label.config(text=f"Guardian Override: {data['override']} | Kill Switch: {data['kill_switch']}")
+
+    ttk.Button(tab_settings, text="🔐 Toggle Override", command=lambda: toggle_guardian("override"), bootstyle="warning").pack(pady=4)
+    ttk.Button(tab_settings, text="🛑 Toggle Kill Switch", command=lambda: toggle_guardian("kill_switch"), bootstyle="danger").pack(pady=4)
+
+    # ━━━━━━━ Chat Interface ━━━━━━━
+    def open_chat():
+        chat_win = ttk.Toplevel(window)
+        chat_win.title("Z3R0TH ∴ Chat")
+        chat_win.geometry("1280x720")
+
+        chat_box = scrolledtext.ScrolledText(chat_win, wrap="word", bg="#181818", fg="#39ff14", font=("Fira Code", 10))
+        chat_box.pack(fill="both", expand=True)
+
+        input_field = ttk.Entry(chat_win, width=100)
+        input_field.pack(side="left", padx=8, pady=8)
+
+        def send_chat():
+            prompt = input_field.get().strip()
+            input_field.delete(0, "end")
+            chat_box.insert("end", f"\n👤 You: {prompt}\n")
+            try:
+                result = subprocess.run(["python3", "z3r0th_chat.py"], input=prompt + "\n", text=True, capture_output=True)
+                chat_box.insert("end", f"🤖 Z3R0TH: {result.stdout.strip()}\n")
+                chat_box.see("end")
+            except Exception as e:
+                chat_box.insert("end", f"[ERROR]: {e}\n")
+
+        ttk.Button(chat_win, text="Send", command=send_chat).pack(side="right", padx=10)
+
+    ttk.Button(tab_settings, text="💬 Launch Chat Panel", command=open_chat, bootstyle="primary-outline").pack(pady=12)
+
+    # ━━━━━━━ Loading Popup ━━━━━━━
+    def loading_popup(msg="Loading...", duration=1500):
+        popup = ttk.Toplevel(window)
+        popup.title("Please wait")
+        popup.geometry("320x100")
+        ttk.Label(popup, text=msg, font=("Fira Code", 12)).pack(pady=20)
+        popup.after(duration, popup.destroy)
+
+    window.mainloop()
+
+if __name__ == "__main__":
+    launch_dashboard()

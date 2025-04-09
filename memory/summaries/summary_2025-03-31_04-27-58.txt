@@ -1,0 +1,4 @@
+The Update Method pattern allows independent objects to be simulated in a game world through the use of an update method that maintains a collection of objects, with each object updating its behavior in every frame. It is widely applied in games involving interactive players and dynamic entities. This pattern works best when: 
+- Multiple objects or systems need to run simultaneously. 
+- The majority of behaviors are independent of other objects. 
+- These objects require continuous simulation over time.

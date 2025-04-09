@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-23-23
+
+Sylius Order Component is a default order model for PHP applications, providing flexibility in adjustments such as fees or discounts to specific items or the entire order. It also handles generating unique order numbers with customizable patterns. Sylius is an Open Source eCommerce solution built from decoupled components with powerful API and high-quality code. The component has a MIT license and was originally created by Paweł Jędrzejewski, with contributions from various authors listed on the GitHub repository.
+
+# TAGS: order, component, php applications, fees, discounts, sylius, ecommerce solution, decoupled components, api, quality code, documentation, contributing, following development, blog, twitter, facebook, github issues, license, authors

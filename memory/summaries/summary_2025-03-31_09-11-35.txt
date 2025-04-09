@@ -1,0 +1,1 @@
+This code defines an "AsyncRange" class that generates a range of numbers asynchronously with asyncio. It takes start and end values as input and creates an iterator using the __aiter__ and __anext__ methods. The main function uses async for loop to iterate through AsyncRange, printing each number.

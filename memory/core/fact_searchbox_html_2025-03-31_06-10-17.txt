@@ -1,0 +1,6 @@
+# SOURCE: searchbox.html
+# TIME: 2025-03-31_06-10-17
+
+This is a search form. It allows users to input their query in the text field and submit it for search results. The form will send the request through a GET method to the "search" path, and the form will be submitted with hidden values for checking keywords and setting the area as default.
+
+# TAGS: Keywords: search, documents, form

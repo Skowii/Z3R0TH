@@ -1,0 +1,13 @@
+Email validation using JavaScript can be tricky due to various factors. There are no great solutions as there are no ways to know if an email address is currently in use or valid across different mail servers, and using regular expressions may result in ReDoS attacks. The best approach is to check for basic structural elements on the frontend and send a confirmation email from your server to ensure the email address is in use. The following code snippet shows a simple function that checks for common syntax errors:
+
+```js
+const isEmailValid = address => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(address);
+isEmailValid('abcd@site.com'); // true
+isEmailValid('ab_c@site.com'); // true
+isEmailValid('ab.c@site.com'); // true
+isEmailValid('a@my.site.com'); // true
+isEmailValid('ab c@site.com'); // false
+isEmailValid('ab@c@site.com'); // false
+isEmailValid('abcde@sitecom'); // false
+isEmailValid('abcdesite.com'); // false
+```

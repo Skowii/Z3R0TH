@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-19-39
+
+Summary: The SyliusShopBundle is a bundle containing Sylius eCommerce storefront, an Open Source eCommerce solution built from decoupled components with powerful API and the highest quality code. It is available on docs.sylius.com for documentation, and contributors are welcome to contribute on GitHub. The license can be found on github.com/Sylius/Sylius/blob/master/LICENSE.
+
+# TAGS: Sylius, SyliusShopBundle, eCommerce solution, Open Source, API, documentation, contributing, following, GitHub issues, MIT License, authors, Paweł Jędrzejewski, contributors

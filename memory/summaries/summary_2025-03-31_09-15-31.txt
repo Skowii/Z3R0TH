@@ -1,0 +1,12 @@
+An exception is an error that occurs occasionally, but not unexpectedly, in code. To deal with these errors, use exception handling to monitor the code for exceptions and define code within *except* blocks to handle them. In Python, there are over sixty common exceptions like ZeroDivisionError and ValueError. Here's a simple example of exception handling:
+
+```python
+try:
+    first_number = float(input("Enter your first number"))
+    second_number = float(input("Enter your second number"))
+    print(f"{first_number} / {second_number} = {first_number / second_number}")
+except ZeroDivisionError:
+    print("You can't divide by zero")
+except ValueError:
+    print("You must supply a number")
+```

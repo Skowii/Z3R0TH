@@ -1,0 +1,1 @@
+The Sylius Payment library is a flexible payments system for PHP e-commerce applications. It is developed by Paweł Jędrzejewski and the Sylius project, with community contributions. It requires PHP 7.4 or 8.0 and depends on other Sylius components. The library has a MIT license and can be found at https://sylius.com.

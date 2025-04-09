@@ -1,0 +1,8 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_01-16-31
+
+Tag: Contributing, Kubernetes, Community Repo, Contributor's Guide, CLA, GitHub
+
+Summary: To contribute to the Kubernetes code repo, sign the Contributor License Agreement (CLA), and follow the Contributor's Guide available on the community repo.
+
+# TAGS: Contributing, Kubernetes code repo, Contributor's Guide, Kubernetes community repo, Community organization, CLA, Contributor License Agreement

@@ -1,0 +1,1 @@
+The case for using trailing commas in JavaScript can improve code readability and increase diff clarity, especially in multiline array and object literals. ESLint's `comma-dangle` rule can enforce trailing commas, but it is recommended to only apply this to multiline literals to avoid confusing single-line cases. Discuss style decisions with your team for consensus.

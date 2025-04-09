@@ -1,0 +1,21 @@
+# SOURCE: package.json
+# TIME: 2025-03-31_04-31-35
+
+package.json file of Playwright project:
+```json
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "Playwright Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "playwright",
+    "project",
+    "example"
+  ],
+  "author": "Playwright
+
+# TAGS: playwright-internal, high-level API, automate web browsers, Microsoft Corporation, Apache-2.0 license, scripts, workspaces, devDependencies

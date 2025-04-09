@@ -1,0 +1,7 @@
+The content provides an overview of environment variables used to configure sensitive settings in AutoGPT, such as API credentials. These variables are set using the `.env` file and include options for different models, providers, and configurations. Some examples are:
+
+- `AUTHORISE_COMMAND_KEY`, sets a key response accepted when authorizing commands
+- `FAST_LLM` sets the default LLM model for most tasks
+- `OPENAI_API_KEY` enables using OpenAI models with provided API Key and Organization ID
+- `TEMPERATURE` adjusts the value given to OpenAI temperature
+- `TEXT_TO_SPEECH_PROVIDER`, selects the text-to-speech provider among gtts, macos, elevenlabs, and streamelements.

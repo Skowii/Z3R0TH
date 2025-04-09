@@ -1,0 +1,22 @@
+In this guide, we will learn about JavaScript typechecking, a crucial skill for any developer. Before diving into the different ways to typecheck values in JavaScript, let's understand the various types of values we encounter:
+
+1. undefined: For a variable that has not been assigned a value.
+2. null: The intentional absence of any object value.
+3. boolean: A logical value, either true or false.
+4. number: A numeric value.
+5. bigint: An integer with arbitrary precision.
+6. string: A sequence of characters.
+7. symbol: A unique value that may be used as the key of an object property.
+8. object: A collection of properties.
+9. function: A callable object.
+
+Now, let's discuss typechecking primitives, which are generally easier than objects and functions due to their immutability. The `typeof` operator is helpful for this purpose.
+
+1. Value is undefined: Use the `isUndefined()` function to check if a value is `undefined`.
+2. Value is null: Use the `isNull()` function to check if a value is `null`, as `typeof null` returns 'object'.
+3. Value is boolean: Boolean values are either `true` or `false`, so checking for them is simple.
+4. Value is number: Compare the value to `NaN` (not a number) using the `isNaN()` function.
+5. Value is string: Check if the value is a string by comparing it with itself, as strings are truthy values.
+6. Value is symbol: There is no built-in method to check for a symbol type; however, you can use object properties to determine its presence.
+
+Typechecking objects and functions is more complex due to their mutability. Type systems like TypeScript provide advanced type checking features for JavaScript developers.

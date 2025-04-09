@@ -1,0 +1,1 @@
+Viewing commits that manipulated a specific string in Git is simple. Using `git log -S<string>`, you can find all commits that changed the specified `<string>`. The `-S` flag filters commits based on changes to the number of occurrences, and other valid filters can be used to further refine search results.

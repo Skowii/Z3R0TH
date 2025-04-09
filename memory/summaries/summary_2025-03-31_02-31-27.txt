@@ -1,0 +1,21 @@
+This tip explains how to define an iterator for any JavaScript value using the `Symbol.iterator` property. It allows iterating over objects, classes or values like numbers in a customizable way. A generator function with `yield` is required to correctly define the iterator. For example:
+
+```js
+const obj = { a: 1, b: 2, c: 3 };
+obj[Symbol.iterator] = function* () {
+    for (let key of Object.keys(obj)) yield { [key]: obj[key] };
+};
+...obj; // [{a: 1}, {b: 2}, {c: 3}]
+```
+
+In a class, you can do something like this:
+
+```js
+class IterableNumber extends Number {
+    *[Symbol.iterator]() {
+        for (let digit of [...`${this}`].map(d => Number.parseInt(d))) yield digit;
+    }
+}
+const num = new IterableNumber(1337);
+...num; // [1, 3, 3, 7]
+```

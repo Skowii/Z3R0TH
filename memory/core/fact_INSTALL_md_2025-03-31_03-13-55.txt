@@ -1,0 +1,12 @@
+# SOURCE: INSTALL.md
+# TIME: 2025-03-31_03-13-55
+
+To install Scrapy, refer to the following resources:
+
+- Local documentation: docs/intro/install.rst
+- Online documentation: https://docs.scrapy.org/en/latest/intro/install.html
+
+Tags: Install, Scrapy
+
+# TAGS: Key Concepts: Scrapy, Installation, Local Docs, Online Docs
+Keywords: docs, intro, install

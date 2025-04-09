@@ -1,0 +1,13 @@
+# SOURCE: LICENSE.md
+# TIME: 2025-03-31_03-22-48
+
+MIT License
+Copyright (c) 2019-present, Louis Grenard <louis@getleon.ai>
+
+Permission is granted to use, copy, modify, merge, publish, distribute, sublicense, and sell the software with the above copyright notice and permission notice included. The software is provided "as is" without warranty of any kind.
+
+# TAGS: MIT License
+Copyright (c) 2019-present, Louis Grenard <louis@getleon.ai>
+Use, copy, modify, merge, publish, distribute, sublicense, sell copies of the Software
+Included copyright notice and permission notice in all copies or substantial portions of the Software
+Software provided "as is" without warranty of any kind

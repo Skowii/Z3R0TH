@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-32-09
+
+Currency converting engine component for PHP objects is a feature provided by Sylius, an Open Source eCommerce solution. It allows developers to easily convert currencies and integrate it into their applications using powerful API and high-quality code. The component's documentation can be found on docs.sylius.com, and contributions are welcome. The software is licensed under the MIT License, with a list of contributors available on GitHub.
+
+# TAGS: Currency, Sylius, PHP, Open Source, eCommerce, documentation, contributing, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

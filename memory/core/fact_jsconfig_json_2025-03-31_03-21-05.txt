@@ -1,0 +1,7 @@
+# SOURCE: jsconfig.json
+# TIME: 2025-03-31_03-21-05
+
+Compiler Options for baseUrl and paths in a configuration file.
+Tag: Configuration, Compiler Options
+
+# TAGS: compilerOptions, baseUrl, paths, @@/*, ./*, ./server/src/*

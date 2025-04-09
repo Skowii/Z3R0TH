@@ -1,0 +1,4 @@
+Generate all partial substrings of a string using JavaScript's generator functions:
+
+- Left substring generator: Iterate over the string with a for...in loop, yield each substring starting at the beginning, and terminate early if the string is empty. Use String.prototype.slice() to get the substring. Example: [...leftSubstrGenerator('hello')] -> ['h', 'he', 'hel', 'hell', 'hello']
+- Right substring generator: Iterate over the string with a for...in loop, starting at the end of the string. Use String.prototype.slice() to get the substring and terminate early if the string is empty. Example: [...rightSubstrGenerator('hello')] -> ['o', 'lo', 'llo', 'ello', 'hello']

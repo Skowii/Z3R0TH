@@ -1,0 +1,1 @@
+The content describes an API request for setting up and getting express checkout details. It involves creating a payment action using the "setExpressCheckout" API, followed by calling the "getExpressCheckoutDetails" API to retrieve details about the payment status. Both APIs use correlation IDs for tracking purposes.

@@ -1,0 +1,7 @@
+API网关是将所有对微服务的调用聚合到一起的 Architectural pattern。它提供了一个中间层，解决了客户端与微服务之间的耦合问题并减少了延迟。使用API网关模式，客户端只需要一次请求，API网关就会调用相应的微服务。这个方法也可以提供收集分析数据、安全性和其他功能。
+
+实际例子：电子商务站点使用了API网关模式，它调用Image和Price微服务并在DesktopProduct或MobileProduct模型中汇总数据。
+
+代码示例：`ApiGateway`类实现了聚合微服务调用的功能，将请求映射到ImageClient和PriceClient。
+
+类图：![alt text](./etc/api-gateway.png "API Gateway")

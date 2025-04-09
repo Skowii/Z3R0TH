@@ -1,0 +1,32 @@
+# SOURCE: tsconfig.json
+# TIME: 2025-03-31_03-20-19
+
+- Language: TypeScript
+- Configuration: Extends strictest and node16 tsconfigs, uses Node module resolution.
+- Module: ESNext, JSX: React
+- File Inclusion: Global.d.ts in server/src and other files are included
+- Exclusion: node_modules, server/dist, bridges, and tcp_server directories
+- Compiler Options: RootDir, OutDir, BaseUrl set to current directory, declaration enabled
+
+# TAGS: extends: ["@tsconfig/strictest/tsconfig", "@tsconfig/node16/tsconfig"]
+compilerOptions: {
+  rootDir: ".",
+  outDir: "./server/dist",
+  baseUrl: ".",
+  moduleResolution: "Node",
+  module: "ESNext",
+  jsx: "react",
+  paths: {
+    "@@/*": ["./*"],
+    "@/*": ["./server/src/*"],
+    "@bridge/*": ["./bridges/nodejs/src/*"],
+    "@sdk/*": ["./bridges/nodejs/src/sdk/*"]
+  },
+  allowJs: true,
+  checkJs: false,
+  resolveJsonModule: true,
+  declaration: true
+}
+files: ["server/src/global.d.ts"]
+include: ["server/src/**/*"]
+exclude: ["node_modules", "server/dist", "bridges", "tcp_server"]

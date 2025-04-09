@@ -1,0 +1,49 @@
+In JavaScript, you can use dynamic programming to find the longest common subsequence (LCS) of two strings. Here's an example that shows how to do this:
+
+```javascript
+const string1 = 'AGGTAB';
+const string2 = 'GXTXAYB';
+
+function lcs(str1, str2) {
+  const lengths = []; // Create a table to store the lengths of LCS of prefixes.
+  
+  for (let i = 0; i < str1.length + 1; i++) { // Loop through each character in string1.
+    lengths[i] = []; // Create an inner array for each row.
+    
+    for (let j = 0; j < str2.length + 1; j++) { // Loop through each character in string2.
+      if (!str1[i - 1] || !str2[j - 1]) lengths[i][j] = 0; // If a character is missing, the LCS length is 0 for this row and column.
+      else if (str1[i - 1] === str2[j - 1]) { // If characters match, we add one to the previous value of LCS from the diagonal cell.
+        lengths[i][j] = lengths[i - 1][j - 1] + 1;
+      } else { // If characters don't match, we choose the maximum value between the left and top cells (previous LCS).
+        lengths[i][j] = Math.max(lengths[i - 1][j], lengths[i][j - 1]);
+      }
+    }
+  }
+  
+  // The final cell of the table contains the length of the longest common subsequence.
+  const len = lengths[string1.length][string2.length];
+
+  // Backtrack to get the actual subsequence.
+  let result = [];
+  let x = string1.length;
+  let y = string2.length;
+  while (x > 0 && y > 0) {
+    if (str1[x - 1] === str2[y - 1]) {
+      result.push(str1[x - 1]);
+      x--;
+      y--;
+    } else if (lengths[x - 1][y] > lengths[x][y - 1]) { // Move up one row.
+      x--;
+    } else { // Move left one column.
+      y--;
+    }
+  }
+  
+  return result;
+}
+
+const longestCommonSubsequence = lcs(string1, string2);
+console.log(longestCommonSubsequence);
+```
+
+This code prints `['G', 'T', 'A', 'B']`, which is the longest common subsequence of the two given strings.

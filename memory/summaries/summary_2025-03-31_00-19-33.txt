@@ -1,0 +1,17 @@
+To add or remove an event listener from multiple elements, you can use helper functions that iterate over the elements and attach or detach listeners using `addEventListener()` or `removeEventListener()`. For example, to add a listener:
+
+```js
+const addEventListenerAll = (targets, type, listener, options, useCapture) => {
+  targets.forEach(target => target.addEventListener(type, listener, options, useCapture));
+};
+```
+
+To remove a listener:
+
+```js
+const removeEventListenerAll = (targets, type, listener, options, useCapture) => {
+  targets.forEach(target => target.removeEventListener(type, listener, options, useCapture));
+};
+```
+
+You can then call these functions with the appropriate arguments to manage your event listeners efficiently.

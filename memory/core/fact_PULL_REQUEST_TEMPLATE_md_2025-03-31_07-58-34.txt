@@ -1,0 +1,12 @@
+# SOURCE: PULL_REQUEST_TEMPLATE.md
+# TIME: 2025-03-31_07-58-34
+
+This pull request introduces some crucial changes, including the following:
+
+1. I have clearly listed my changes in the PR description.
+2. A test plan has been created and followed to ensure the functionality of the project after the implemented changes.
+3. Configuration updates are present (`.env.example`, `docker-compose.yml`) if necessary, and have been mentioned in the PR description.
+
+# TAGS: key concepts: Changes, checklist, code changes, configuration changes, test plan
+people: N/A
+dates: N/A

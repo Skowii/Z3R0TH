@@ -1,0 +1,11 @@
+Abstract Factory is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. It allows the creation of objects in a way that is independent of how they are instantiated, used, and concretely implemented. In simple terms, it is a way to create a group of related or connected things without having to specify which specific version you want; instead, it lets you use them without needing to know the exact details.
+
+An example using Java:
+
+1. Interfaces for Castle, King, and Army are defined. 
+2. Elven implementations are created for Castle, King, and Army. 
+3. Orcish implementations for Castle, King, and Army are also created. 
+4. An abstract Factory is then created to create the related objects (Castle, King, and Army) without specifying their concrete classes.
+5. The ElfKingdomFactory is used to create a Kingdom using Elven elements (ElfCastle, ElfKing, ElfArmy). 
+6. Similarly, the OrcKingdomFactory can be used to create a Kingdom using Orcish elements (OrcCastle, OrcKing, OrcArmy). 
+7. An object is created from each interface, and their descriptions are printed out.

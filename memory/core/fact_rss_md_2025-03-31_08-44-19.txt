@@ -1,0 +1,16 @@
+# SOURCE: rss.md
+# TIME: 2025-03-31_08-44-19
+
+Block: Read RSS Feed
+Function: Reads entries from a specified RSS feed URL, filters them based on a given time period, and outputs the entries.
+
+Inputs:
+- RSS URL: The web address of the RSS feed.
+- Time Period: The number of minutes to look back for new entries relative to when the block starts running.
+- Polling Rate: How often (in seconds) the block should check for new entries.
+- Run Continuously: Whether the block should keep checking for new entries indefinitely or just run once.
+
+Outputs: 
+- Entry: An RSS feed item containing information such as Title, Link, Description, Publication Date, Author, and Categories.
+
+# TAGS: RSS Feed, block, retrieves, entries, specified, time period, outputs, entries, fetch, process, format, output, input, Inputs, Description, Outputs, Title, Link, Description, Publication Date, Author, Categories, possible use case, news aggregator, application

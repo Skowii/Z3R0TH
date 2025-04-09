@@ -1,0 +1,96 @@
+Mục tiêu: Active Object là mẫu đối tượng chủ động dùng để bảo đồng thời, đồng bộ hóa việc thực thi các hàm cho các đối tượng. Viết mã nhỏ với giao diện lập trình đơn giản, Active Object sử dụng cơ chế tự đồng bộ (self-synchronization) nhưng không sử dụng đến động thời gian của phương thức/từ khóa 'synchronized'.
+
+Giải thích: Mẫu Đối Tượng Chủ Động sẽ bao gồm cơ chế tự đồng bộ (self-synchronization) nhưng không sử dụng đến phương thức/từ khóa 'synchronized'. Việc hiện thực hóa một đối tượng riêng với cơ chế điều khiển luồng của nó là sử dụng mẫu Đối Tượng Chủ Động.
+
+Chương trình ví dụ: Một ví dụ đơn giản về Active Object có thể viết ra như sau:
+```java
+public abstract class ActiveCreature {
+    private final Logger logger = LoggerFactory.getLogger(ActiveCreature.class.getName());
+    private BlockingQueue<Runnable> requests;
+    private String name;
+    private Thread thread;
+    
+    public ActiveCreature(String name) {
+        this.name = name;
+        this.requests = new LinkedBlockingQueue<Runnable>();
+        thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (true) {
+                    try {
+                        requests.take().run();
+                    } catch (InterruptedException e) {
+                        logger.error(e.getMessage());
+                    }
+                }
+            }
+        });
+        thread.start();
+    }
+    
+    public void eat() throws InterruptedException {
+        requests.put(new Runnable() {
+            @Override
+            public void run() {
+                logger.info("{} is eating!", name());
+                logger.info("{} has finished eating!", name());
+            }
+        });
+    }
+    
+    public void roam() throws InterruptedException {
+        requests.put(new Runnable() {
+            @Override
+            public void run() {
+                logger.info("{} has started to roam the wastelands.", name());
+            }
+        });
+    }
+    
+    public String name() {
+        return this.name;
+    }
+}
+```
+
+Một lớp con của ActiveCreature sẽ có riêng luồng điều khiển để gọi và thực thi phương thức. Ví dụ lớp `Orc`:
+```java
+public class Orc extends ActiveCreature {
+    public Orc(String name) {
+        super(name);
+    }
+    
+    @Override
+    public void eat() throws InterruptedException {
+        logger.info("{} is eating!", this.name());
+        logger.info("{} has finished eating!", this.name());
+    }
+    
+    @Override
+    public void roam() throws InterruptedException {
+        logger.info("{} has started to roam the wastelands.", this.name());
+    }
+}
+```
+
+Gọi các phương thức trên mẫu đối tượng:
+```java
+public static void main(String[] args) {
+    var app = new App();
+    app.run();
+}
+@Override
+public void run() {
+    ActiveCreature creature;
+    try {
+        for (int i = 0; i < creatures; i++) {
+            creature = new Orc(Orc.class.getSimpleName().toString() + i);
+            creature.eat();
+            creature.roam();
+        }
+        Thread.sleep(1000);
+    } catch (InterruptedException e) {
+        // ...
+    }
+}
+```

@@ -1,0 +1,149 @@
+# Z3R0TH ∴ Diagnostics v9.0 — Fullscreen ∴ Auto-Memory ∴ Guardian-Aware
+
+import os, subprocess, json, sys
+from pathlib import Path
+from datetime import datetime
+import tkinter as tk
+from tkinter import scrolledtext
+
+# ━━━━━━━━━━━ Core Paths
+ROOT          = Path.home() / "Desktop" / "HEX13-Z3R0TH" / "Z3R0TH_ENV"
+LOG_DIR       = ROOT / "core" / "logs" / "diagnostics"
+MEMORY_DIR    = ROOT / "core" / "memory"
+REFLECTIONS   = MEMORY_DIR / "reflections"
+CONTROL_DIR   = ROOT / "core" / "control"
+GUARDIAN_FILE = CONTROL_DIR / "guardian.json"
+AGENTS_DIR    = ROOT / "core" / "agents"
+SKILLS_DIR    = ROOT / "core" / "skills"
+PLUGIN_DIR    = ROOT / "core" / "plugins"
+
+now = datetime.now()
+timestamp = now.strftime("%Y%m%d_%H%M%S")
+log_path = LOG_DIR / f"diagnostics_{timestamp}.log"
+summary_path = REFLECTIONS / f"diagnostic_summary_{timestamp}.txt"
+
+os.makedirs(LOG_DIR, exist_ok=True)
+os.makedirs(REFLECTIONS, exist_ok=True)
+
+logs = []
+
+# ━━━━━━━━━━━ Utilities
+def log(msg):
+    print(msg)
+    logs.append(msg)
+
+def check(path):
+    return path.exists()
+
+def run_shell(cmd):
+    try:
+        return subprocess.run(cmd, shell=True, capture_output=True, text=True).stdout.strip()
+    except Exception as e:
+        return f"[error: {e}]"
+
+# ━━━━━━━━━━━ Main Diagnostics
+def run_diagnostics():
+    logs.clear()
+    log("📋 Z3R0TH ∴ Diagnostics v9.0")
+    log(f"🕒 Timestamp: {now.isoformat()}")
+
+    # ━━━━━━━ Folder Status ━━━━━━━
+    log("\n📁 Folder Health:")
+    for label, path in [
+        ("Memory", MEMORY_DIR), ("Skills", SKILLS_DIR), ("Agents", AGENTS_DIR),
+        ("Plugins", PLUGIN_DIR), ("Control", CONTROL_DIR), ("Logs", LOG_DIR), ("Reflections", REFLECTIONS)
+    ]:
+        status = "✅ OK" if path.exists() else "❌ Missing"
+        log(f" - {label:<12}: {status}")
+
+    # ━━━━━━━ Guardian Status ━━━━━━━
+    log("\n🛡 Guardian Check:")
+    if GUARDIAN_FILE.exists():
+        try:
+            g = json.loads(GUARDIAN_FILE.read_text())
+            log(f" ✅ Loaded | Override: {g.get('override')} | Kill Switch: {g.get('kill_switch')}")
+        except:
+            log("❌ Corrupted JSON structure in guardian.json")
+    else:
+        log("⚠ guardian.json missing")
+
+    # ━━━━━━━ Skills + Plugins ━━━━━━━
+    log("\n🧠 Skills & Plugins:")
+    skill_py  = len(list(SKILLS_DIR.glob("*.py")))
+    skill_txt = len(list(SKILLS_DIR.glob("*.txt")))
+    plugin_py = len(list(PLUGIN_DIR.glob("*.py")))
+    log(f" - Skills: {skill_py} .py | {skill_txt} .txt")
+    log(f" - Plugins: {plugin_py} active")
+
+    # ━━━━━━━ Ollama Engine ━━━━━━━
+    log("\n🤖 Ollama Engine:")
+    out = run_shell("ollama list")
+    if out and "NAME" in out:
+        try:
+            models = [line.split()[0] for line in out.splitlines()[1:] if line.strip()]
+            log(f" ✅ {len(models)} models loaded → Top: {models[0]}")
+        except:
+            log("⚠ Ollama output unreadable")
+    else:
+        log("❌ Ollama CLI not responding")
+
+    # ━━━━━━━ Piper TTS ━━━━━━━
+    log("\n🗣 Piper Engine:")
+    try:
+        test = subprocess.run(["piper", "--help"], capture_output=True, text=True)
+        if test.returncode == 0:
+            log(" ✅ Piper CLI working")
+        else:
+            log("⚠ Piper found but error on execution")
+    except:
+        log("❌ Piper binary not found")
+
+    # ━━━━━━━ VBox Virtualization ━━━━━━━
+    log("\n📦 VirtualBox Environment:")
+    version = run_shell("VBoxManage --version")
+    if version:
+        log(f" ✅ VBox v{version}")
+        vms = run_shell("VBoxManage list vms").splitlines()
+        snapshots = run_shell("VBoxManage list hdds").count("Snapshot")
+        log(f" - Registered VMs: {len(vms)} | Snapshots: {snapshots}")
+    else:
+        log("❌ VBoxManage not installed or PATH issue")
+
+    # ━━━━━━━ Optional Test Hook ━━━━━━━
+    log("\n🔬 Self-Test Hook:")
+    log(" [pass] Reserved for /core/tests injection modules.")
+
+    # ━━━━━━━ Save Logs + Reflect ━━━━━━━
+    log(f"\n📄 Saved to: {log_path.name}")
+    log_path.write_text("\n".join(logs))
+    summary_path.write_text("\n".join(logs))
+    log(f"🧠 Summary pushed to memory: {summary_path.name}")
+
+    return "\n".join(logs)
+
+# ━━━━━━━━━━━ GUI Mode
+def diagnostics_gui():
+    result = run_diagnostics()
+
+    gui = tk.Tk()
+    gui.title("Z3R0TH ∴ Diagnostics GUI")
+    gui.geometry("1820x980")  # Fullscreen for 1920x1080 users
+    gui.configure(bg="#0d0d0d")
+
+    tk.Label(gui, text="🩻 Z3R0TH ∴ System Diagnostics", font=("Helvetica", 16),
+             fg="#00ffff", bg="#0d0d0d").pack(pady=8)
+
+    output = scrolledtext.ScrolledText(gui, wrap="word", bg="#121212", fg="#39ff14",
+                                       font=("Courier", 11), insertbackground="#39ff14")
+    output.pack(fill="both", expand=True, padx=10, pady=10)
+    output.insert("end", result)
+    output.config(state="disabled")
+
+    gui.mainloop()
+
+# ━━━━━━━━━━━ Entry
+if __name__ == "__main__":
+    if "--gui" in sys.argv:
+        diagnostics_gui()
+    else:
+        run_diagnostics()

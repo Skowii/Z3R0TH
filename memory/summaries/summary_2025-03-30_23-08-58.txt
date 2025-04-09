@@ -1,0 +1,1 @@
+Modern CSS allows for gradient text creation with a few lines of code in WebKit browsers. The process involves defining the gradient colors and direction using the `linear-gradient()` function, applying it to the text with `-webkit-text-fill-color` set to transparent, and clipping the background with `background-clip` and `-webkit-background-clip` set to 'text'.

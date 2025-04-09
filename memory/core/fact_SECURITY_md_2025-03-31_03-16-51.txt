@@ -1,0 +1,14 @@
+# SOURCE: SECURITY.md
+# TIME: 2025-03-31_03-16-51
+
+Security Policy:
+- Supported Versions: 2.12.x (supported) and < 2.12.x (not supported)
+- Reporting Vulnerability: Use the link provided for reporting vulnerabilities.
+
+# TAGS: # Security Policy
+
+- Supported Versions
+   - 2.12.x :white_check_mark:
+   - < 2.12.x :x:
+- Reporting a Vulnerability
+   - https://github.com/scrapy/scrapy/security/advisories/new

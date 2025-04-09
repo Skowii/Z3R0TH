@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-35-21
+
+Sylius Review Bundle is an open source eCommerce solution built with decoupled components and a powerful API, providing developers with high-quality code. It is maintained by the creators of Sylius, Mateusz Zalewski and Grzegorz Sadowski, based on work done by Daniel Richter. The bundle allows for managing reviews in an online store and integrates seamlessly with the Sylius eCommerce platform.
+
+# TAGS: : Sylius, eCommerce, API, Sylius.com, documentation, contributing, GitHub issues, MIT License, Mateusz Zalewski, Grzegorz Sadowski, contributors

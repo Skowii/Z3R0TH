@@ -1,0 +1,1 @@
+PyQt5 is a version 5.15.2 of the Python-Qt binding library, which allows developers to use the Qt GUI framework with the Python programming language. This package provides bindings for creating cross-platform graphical applications using C++ backend and Python frontend.

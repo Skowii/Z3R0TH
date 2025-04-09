@@ -1,0 +1,31 @@
+# SOURCE: setup.py
+# TIME: 2025-03-31_01-38-41
+
+package_name: babyagi
+version: 0.1.2
+author: Yohei Nakajima
+author_email: babyagi@untapped.vc
+description: An experimental prototype framework for building self-building autonomous agents.
+long_description (from README.md): [description from the file]
+url: https://github.com/yoheinakajima/babyagi
+packages: find packages using find_packages()
+include_package_data: True
+classifiers: Programming Language, License, Operating System
+python_requires: >=3.6
+install_requires: requirements from requirements.txt
+entry_points: console scripts for execution
+keywords: AGI, AI, Framework, Baby AGI
+project_urls: Author (optional)
+
+# TAGS: package name: babyagi
+version: 0.1.2
+author: Yohei Nakajima
+author email: babyagi@untapped.vc
+description: An experimental prototype framework for building self building autonomous agents.
+long_description: README.md
+requires: requirements.txt
+classifiers: Programming Language, License, Operating System
+python_requires: >=3.6
+install_requires: parse_requirements("requirements.txt")
+entry_points: console_scripts (babyagi.main:main)
+keywords: AGI, AI, Framework, Baby AGI

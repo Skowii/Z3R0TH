@@ -1,0 +1,6 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-43-43
+
+Name: example/test-application - Summary: This entry contains information about an application called "example/test-application". It does not provide further details but can be used as a reference point for more detailed descriptions or functionality.
+
+# TAGS: key concepts: example/test-application

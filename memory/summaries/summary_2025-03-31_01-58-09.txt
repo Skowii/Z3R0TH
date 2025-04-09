@@ -1,0 +1,1 @@
+Replicate the behavior of `Array.prototype.map()` for strings by turning the string into an array, applying the mapping function to each character with the correct arguments, and converting back to a string. Use `String.prototype.split()` to split the string, `Array.prototype.map()` to apply the function, and `Array.prototype.join()` to join the characters.

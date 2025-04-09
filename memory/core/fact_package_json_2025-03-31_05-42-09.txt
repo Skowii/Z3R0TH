@@ -1,0 +1,7 @@
+# SOURCE: package.json
+# TIME: 2025-03-31_05-42-09
+
+What is the error you are facing?
+The given JSON code doesn't include any information about an error or issue that needs to be resolved. Please provide a detailed description of the problem you are encountering along with the relevant code snippets and context for better assistance.
+
+# TAGS: appium-monorepo, automation, javascript, selenium, webdriver, ios, android, firefoxos, testing

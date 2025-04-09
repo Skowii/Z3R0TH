@@ -1,0 +1,1 @@
+Benchmarks for an Auto-GPT agent's ability to perform tasks such as writing and reading files, searching online content, and creating plans are conducted. The metrics include the highest difficulty level achieved (intermediate: 4), the average run time (1413.29 seconds), and individual task success percentages (40%).

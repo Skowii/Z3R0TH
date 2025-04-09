@@ -1,0 +1,6 @@
+Boolean traps refer to functions that take boolean arguments, causing ambiguity and confusion in code. This anti-pattern can hinder readability and maintainability. To avoid them, follow these tips:
+
+1. Ensure functions have clear names that indicate their purpose, avoiding ambiguous terms like 'boolean' or 'flag.'
+2. Use explicit naming conventions for boolean arguments, such as 'shouldPerformAction' instead of 'true/false.'
+3. Refactor code when possible to avoid unnecessary boolean traps and improve readability.
+4. Document functions with clear explanations about their boolean arguments.

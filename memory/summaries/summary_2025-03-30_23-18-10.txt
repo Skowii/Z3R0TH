@@ -1,0 +1,4 @@
+The article discusses how to trim whitespace from a Python string using three different methods:
+1. Using `str.strip()` to remove leading and trailing whitespace characters.
+2. Using `str.lstrip()` to remove only leading whitespace characters.
+3. Using `str.rstrip()` to remove only trailing whitespace characters.

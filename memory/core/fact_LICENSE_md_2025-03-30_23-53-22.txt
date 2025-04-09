@@ -1,0 +1,16 @@
+# SOURCE: LICENSE.md
+# TIME: 2025-03-30_23-53-22
+
+Apache License 2.0 Summary:
+- Granting a perpetual, worldwide, non-exclusive, no-charge, royalty-free copyright license to reproduce, create Derivative Works, publicly display, publicly perform, sublicense, and distribute the work in Source or Object form.
+- Granting a patent license for patents that are necessarily infringed by Contributions alone or by combination with the Work.
+- Permission to redistribute and modify the Work or Derivative Works under specific conditions: providing License, retaining notices, adding attribution notices.
+- Additional license terms allowed if they don't conflict with this License.
+- Submission of Contributions under this License unless otherwise specified.
+- No permission granted for using trade names, trademarks, or product names of the Licensor except for customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+
+# TAGS: Apache License, January 2004
+License, Terms and Conditions
+Definitions: Licensor, Legal Entity, You, Source form, Object form, Work, Derivative Works, Contribution, Contributor
+Grant of Copyright License: Contributors grant a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license for reproduction, preparation of Derivative Works, public display, public performance, sublicensing, and distribution in Source or Object form.
+Grant of Patent License (not provided)

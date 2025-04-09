@@ -1,0 +1,1 @@
+The RP Renamer main window provides a user interface to rename files. It allows users to load files, set a prefix for the renamed files, and initiate renaming. The module uses deque, PyQt5, and collections to manage and process the file names. Filters are used to specify file types that can be selected for renaming.

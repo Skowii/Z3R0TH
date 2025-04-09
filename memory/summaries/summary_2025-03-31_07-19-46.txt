@@ -1,0 +1,3 @@
+La Facade, un patrón de diseño estructural, ofrece una interfaz unificada a un conjunto de interfaces de un subsistema. La clase fábrica define una interfaz que facilita el uso del subsistema. Este patrón se utiliza para proporcionar acceso simplificado a un código mayor, como una biblioteca de clases.
+
+Por ejemplo, en un entorno minero de oro, la fachada puede proporcionar una interfaz simplificada al manejar a los trabajadores del subsuistro y la minería, incluyendo a los mineros enanos, quienes tienen roles específicos en la producción de oro. La fachada simplifica el proceso de interactuar con estos trabajadores enanos, permitiendo una interacción más simple con el sistema complejo subyacente.

@@ -1,0 +1,1 @@
+The AI benchmark test includes tests in various categories, such as interface, safety, memory, and content generation. Tasks include writing to a file, searching for text, reading and modifying a file, and generating a plan for a specific task. The highest difficulty reached was basic: 2. The total run time of the benchmark was 329.15 seconds.

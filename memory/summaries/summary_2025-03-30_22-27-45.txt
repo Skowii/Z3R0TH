@@ -1,0 +1,1 @@
+Toggle components are used in web applications to switch between two states, such as "ON" and "OFF". In React, you can create a toggle component using the `useState()` hook to manage its state. To render the component, use an `<input>` element with an `onChange` event to update the state variable and apply appropriate `className` based on the state to the wrapping `<label>`.

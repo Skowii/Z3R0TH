@@ -1,0 +1,56 @@
+# SOURCE: readme.md
+# TIME: 2025-03-31_00-57-18
+
+This is a summary and tagging for memory storage for the Botpress Cloud knowledge. It highlights the main features of the platform, its integrations, bots, devtools, and agents, as well as information on how to contribute and develop using it.
+
+# TAGS: hub>. It is essential to review your integration's documentation and ensure it meets our quality standards before making it public. For more information, refer to the [Documentation](https://botpress.com/docs/getting-started-1).
+
+## Devtools
+
+The [`/devtools`](./devtools) folder contains all Botpress Cloud dev tools: the CLI and SDK.
+
+### Botpress CLI
+
+To install the [Botpress CLI](https://www.npmjs.com/package/@botpress/cli), use your package manager of choice:
+
+```sh
+npm install -g @botpress/cli # for npm
+yarn global add @botpress/cli # for yarn
+pnpm install -g @botpress/cli # for pnpm
+```
+
+This will allow you to interact with the Botpress Cloud API, managing your workspaces and bots. For more information on the CLI, refer to its [documentation](https://www.npmjs.com/package/@botpress/cli).
+
+### Botpress SDK
+
+To use the [Botpress SDK](https://www.npmjs.com/package/@botpress/sdk), install it via your package manager:
+
+```sh
+npm install @botpress/sdk # for npm
+yarn add @botpress/sdk # for yarn
+pnpm install @botpress/sdk # for pnpm
+```
+
+This will allow you to interact with Botpress Cloud from your Node.js projects, allowing you to create, manage, and deploy bots directly from your codebase. For more information on the SDK, refer to its [documentation](https://www.npmjs.com/package/@botpress/sdk).
+
+## Bots
+
+The [`/bots`](./bots) folder contains example bots made using the Botpress SDK and CLI. You can use these examples as a starting point for your own projects or modify them to fit your needs.
+
+To create a new bot using these templates, run:
+
+```sh
+bp init --template [bot-template]
+```
+
+Replace `[bot-template]` with the name of the desired template, such as `hello-world`, `facebook-messenger`, or any other available templates.
+
+For more information on how to develop a bot using the SDK and CLI, refer to the [Documentation](https://botpress.com/docs).
+
+## Agents
+
+The [`/agents`](./agents) folder contains example agents created for Botpress Cloud. These agents are made available in the [Botpress Studio](https://studio.botpress.cloud), which allows you to modify and train them as needed.
+
+_This feature is not yet available, but we're working on it!_
+
+Once this functionality is released, we invite the community to contribute their own agents to Botpress Cloud.

@@ -1,0 +1,29 @@
+# SOURCE: upload_ytvid.py
+# TIME: 2025-03-31_04-09-57
+
+Uploading a video to YouTube using the Google API.
+Tags: GoogleAPI, VideoUpload, YouTubeAPI, DateTime, MediaFileUpload
+
+# TAGS: key_concepts:
+- uploadYtvid
+- VIDEO_FILE_NAME
+- title
+- description
+- tags
+- googleAPI
+- now
+- datetime
+- MediaFileUpload
+- request_body
+- response_upload
+
+keywords:
+- Intro Video!
+- :)
+- public
+- privacyStatus
+- selfDeclaredMadeForKids
+- notifySubscribers
+- execute
+- thumbnail.png
+- uploadSuccessful

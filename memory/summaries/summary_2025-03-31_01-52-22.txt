@@ -1,0 +1,8 @@
+This article provides a JavaScript method to check if the bottom of a web page is visible, useful for lazy loading or infinite scrolling features. To achieve this, you can use `Element.scrollHeight` and `Element.clientHeight` properties along with `Window.scrollY`. By adding client height and scroll position, you can determine if the bottom of the page is visible. Here's a JavaScript example:
+
+```js
+const bottomVisible = () => 
+  document.documentElement.clientHeight + window.scrollY >= 
+  (document.documentElement.scrollHeight || document.documentElement.clientHeight);
+bottomVisible(); // true
+```

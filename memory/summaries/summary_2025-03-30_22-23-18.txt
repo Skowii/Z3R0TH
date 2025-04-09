@@ -1,0 +1,1 @@
+Learn how to customize the names of downloadable files using the HTML5 "download" attribute on an <a> element. Pass a string value to set the file name, such as: "<a href='/data/report.csv' download='June-2020.csv'>June 2020</a>".

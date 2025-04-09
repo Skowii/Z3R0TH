@@ -1,0 +1,1 @@
+Groups array elements based on a given function using `Array.prototype.map()` and `Array.prototype.reduce()`. Example: `groupBy([6.1, 4.2, 6.3], Math.floor); // {4: [4.2], 6: [6.1, 6.3]}`

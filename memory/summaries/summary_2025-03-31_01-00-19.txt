@@ -1,0 +1,24 @@
+In this article, we explore implementing search in JavaScript using TF-IDF (Term Frequency - Inverse Document Frequency) and an inverted index. Building on the Porter stemmer algorithm, this approach allows for more advanced searching tasks than simple keyword searches.
+
+We start with a basic tokenization strategy to split text into words:
+```js
+const tokenize = str =>
+  str
+    .split(/[^a-z0-9\-']+/i)
+    .filter(tkn => !tkn.length < 2)
+    .map(tkn => tkn.toLowerCase());
+```
+Next, we filter out common stopwords, which are often removed before or after processing natural language data:
+```js
+const removeStopwords = (stopWords, words) =>
+  words.filter(tkn => !stopWords.includes(tkn));
+```
+Using these functions, we can perform an arbitrary search using the Porter stemmer algorithm:
+```js
+const text = 'The quick brown fox jumps over the lazy dog.';
+const tokens = tokenize(text);
+const filteredTokens = removeStopwords(commonStopWords, tokens);
+const searchTerm = 'jump';
+const stemmedSearchTerm = porterStemmer(searchTerm);
+console.log(filteredTokens.includes(stemmedSearchTerm)); // true
+```

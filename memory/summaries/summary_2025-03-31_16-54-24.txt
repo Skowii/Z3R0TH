@@ -1,0 +1,1 @@
+This code is part of the Sylius package and it extends jQuery's function to move a product variant based on its position. It uses an API call to update the position in the database, and upon success, reloads the page. The input element monitoring changes in the product variant's position updates the relevant row in the array of productVariants.

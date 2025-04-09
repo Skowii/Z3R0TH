@@ -1,0 +1,1 @@
+Fit an image in a container while preserving its aspect ratio using CSS's `object-fit` and `object-position` properties. Set `object-fit: contain` to fit the entire image within the container or `object-fit: cover` to fill it, with options like `center`, `right top`, etc., for positioning via `object-position`.

@@ -1,0 +1,6 @@
+Truncate a string using JavaScript:
+
+1. Use `String.prototype.slice()` to truncate the string to the desired length.
+2. Add an ellipsis if the string has been truncated by appending '...' and accounting for its length.
+3. Respect word boundaries by using `String.prototype.lastIndexOf()` and slicing the string at a whitespace character.
+4. Implement locale-sensitive string truncation with additional complexities (difficult to solve).

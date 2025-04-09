@@ -1,0 +1,1 @@
+The code defines a function prng and csprng which use random number generation methods. It then sets up a test using the timeit module to measure the performance of these functions in three trials with 1,000,000 loops per trial, printing the results for each function at the end.

@@ -1,0 +1,8 @@
+# SOURCE: requirements.txt
+# TIME: 2025-03-31_01-43-21
+
+Summary: Flask is a web development framework with version 2.0.0 or above required. SQLAlchemy is used for database management with version 1.4 being the minimum required, but not going into version 2.0. Cryptography is essential as well. SciKit-Learn, litellm and OpenAI are machine learning libraries needed.
+
+# TAGS: Key Concepts/Keywords: Flask, sqlalchemy, cryptography, scikit-learn, litellm, openai
+People: N/A
+Dates: N/A

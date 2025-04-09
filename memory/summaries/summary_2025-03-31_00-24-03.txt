@@ -1,0 +1,5 @@
+To add a timeout to a promise in JavaScript, you can use the `awaitTimeout` function that wraps `setTimeout()` as a promise. The `awaitTimeout` function takes two arguments: `delay`, which is the time in milliseconds to wait before resolving the promise, and `reason`, which will be used to determine if the timeout promise should resolve or reject.
+
+To add this timeout to another promise, create a wrapper function called `wrapPromise` that combines the given promise with the awaitTimeout function. This wrapper takes three arguments: the original promise, the delay in milliseconds, and an optional reason for rejection.
+
+An advanced implementation of this concept can be done using a class called `Timeout`. It stores active timeouts' ids and provides methods to set timeouts and clear them. The set method creates a new promise with options for delay and an optional reason for rejection.

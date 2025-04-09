@@ -1,0 +1,131 @@
+[2025-04-02 18:37:15] [INFO] 🤖 YouTubeBot initialized with model deepseek-coder:33b (UUID: 2ca271b0-e747-4328-a1c7-58b443876758)
+[2025-04-02 18:37:15] [INFO] 🎬 YouTubeBot initialized.
+[2025-04-02 18:37:15] [INFO] ⚙ Starting new script cycle...
+[2025-04-02 18:37:15] [INFO] ⚠ Memory not found: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] ⚠ No idea in memory. Generating fresh...
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Give me a unique viral YouTube Shorts idea about making money online....
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 🧠 Memory saved: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Write a short, punchy 30-45 second YouTube script for this topic: [ERROR: LLM fa...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate a catchy title for this YouTube Shorts script:
+[ERROR: LLM failed to re...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Optimize this YouTube title for virality: [ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate 8 SEO-boosted hashtags for the YouTube video titled:
+[ERROR: LLM failed...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Refine this hashtag list to make it cleaner:
+[ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Give me a thumbnail idea prompt based on this title: [ERROR: LLM failed to respo...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] ✅ Script + metadata successfully saved.
+[2025-04-02 18:37:15] [INFO] ⚙ Starting new script cycle...
+[2025-04-02 18:37:15] [INFO] 🔍 Recalled memory: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] 🧠 Memory saved: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Write a short, punchy 30-45 second YouTube script for this topic: # Memory saved...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate a catchy title for this YouTube Shorts script:
+[ERROR: LLM failed to re...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Optimize this YouTube title for virality: [ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate 8 SEO-boosted hashtags for the YouTube video titled:
+[ERROR: LLM failed...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Refine this hashtag list to make it cleaner:
+[ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Give me a thumbnail idea prompt based on this title: [ERROR: LLM failed to respo...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] ✅ Script + metadata successfully saved.
+[2025-04-02 18:37:15] [INFO] ⚙ Starting new script cycle...
+[2025-04-02 18:37:15] [INFO] 🔍 Recalled memory: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] 🧠 Memory saved: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Write a short, punchy 30-45 second YouTube script for this topic: # Memory saved...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate a catchy title for this YouTube Shorts script:
+[ERROR: LLM failed to re...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Optimize this YouTube title for virality: [ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate 8 SEO-boosted hashtags for the YouTube video titled:
+[ERROR: LLM failed...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Refine this hashtag list to make it cleaner:
+[ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Give me a thumbnail idea prompt based on this title: [ERROR: LLM failed to respo...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] ✅ Script + metadata successfully saved.
+[2025-04-02 18:37:15] [INFO] ⚙ Starting new script cycle...
+[2025-04-02 18:37:15] [INFO] 🔍 Recalled memory: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] 🧠 Memory saved: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Write a short, punchy 30-45 second YouTube script for this topic: # Memory saved...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate a catchy title for this YouTube Shorts script:
+[ERROR: LLM failed to re...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Optimize this YouTube title for virality: [ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate 8 SEO-boosted hashtags for the YouTube video titled:
+[ERROR: LLM failed...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Refine this hashtag list to make it cleaner:
+[ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Give me a thumbnail idea prompt based on this title: [ERROR: LLM failed to respo...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] ✅ Script + metadata successfully saved.
+[2025-04-02 18:37:15] [INFO] ⚙ Starting new script cycle...
+[2025-04-02 18:37:15] [INFO] 🔍 Recalled memory: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] 🧠 Memory saved: [youtube/last_idea]
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Write a short, punchy 30-45 second YouTube script for this topic: # Memory saved...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate a catchy title for this YouTube Shorts script:
+[ERROR: LLM failed to re...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Optimize this YouTube title for virality: [ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Generate 8 SEO-boosted hashtags for the YouTube video titled:
+[ERROR: LLM failed...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Refine this hashtag list to make it cleaner:
+[ERROR: LLM failed to respond]...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] 💬 Prompting LLM: Give me a thumbnail idea prompt based on this title: [ERROR: LLM failed to respo...
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 1: No response.
+[2025-04-02 18:37:15] [INFO] ⚠ Attempt 2: No response.
+[2025-04-02 18:37:15] [INFO] ✅ Script + metadata successfully saved.

@@ -1,0 +1,1 @@
+The benchmark metrics for the Auto-GPT model include a run time of 288.21 seconds, with no successful tests completed. The agent failed to create a three_sum function, and the TestUrlShortener test was not attempted. The total cost was 0.23165999999999998.

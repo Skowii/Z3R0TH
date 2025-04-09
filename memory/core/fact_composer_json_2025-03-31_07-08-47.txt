@@ -1,0 +1,6 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-08-47
+
+Addressing and zone management bundle for Symfony applications. Includes address, addressing, and zones keywords. Requirements include PHP 7.4 or 8.0, stof/doctrine-extensions-bundle, sylius/addressing, and other Sylius bundles and libraries. Supports development with doctrine/orm, phpspec/phpspec, phpunit/phpunit, and symfony dependencies. The package supports Symfony 4.4 or 5.2 and has a minimum stability of dev.
+
+# TAGS: Sylius, Addressing Bundle, Symfony bundle, Address and zone management, Shop, Ecommerce, Addressing, Zones, Paweł Jędrzejewski, Homepage, MIT license, Authors, Contributors, Requirements, Conflict, Require-dev, Extra settings, Autoload, Autoload-dev, Repositories, Minimum Stability

@@ -1,0 +1,1 @@
+Closures are a core concept in JavaScript programming that allow a function to access variables defined outside of it. They occur when a function uses variables from its outer scope. This is useful for creating abstractions, separating concerns, and improving maintainability. Closures can be found in various examples, such as data filtering and counter functions.

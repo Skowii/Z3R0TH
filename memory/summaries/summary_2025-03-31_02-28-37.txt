@@ -1,0 +1,1 @@
+The JavaScript Boolean function can be used for truth-checking data and is more readable than double negation (`!!`). It serves the same purpose as `Boolean()`, which returns a boolean value as a function. However, one should be cautious when handling `Boolean` objects or using the `Boolean` constructor, as the object is always considered truthy even if it contains a false value.

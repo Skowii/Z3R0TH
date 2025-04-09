@@ -1,0 +1,17 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-43-31
+
+Sylius product catalog is a versatile system supporting various attributes, options and variants for products. It also includes an archetype system that allows users to create similar products efficiently. Sylius is an open-source eCommerce solution with a focus on decoupled components and high-quality API. The documentation can be found at docs.sylius.com, and you can contribute by following the guidelines provided on the site. The MIT license governs Sylius usage, and the product catalog was originally created by Paweł Jędrzejewski with contributions from various individuals.
+
+# TAGS: Contributions
+-------------
+
+* Sylius product catalog (product attributes, options, and variants)
+* Open Source eCommerce solution
+* Decoupled components with powerful API
+* Highest quality code
+* Documentation available on docs.sylius.com
+* Contribute to Sylius through GitHub issues
+* MIT License
+* Paweł Jędrzejewski (original creator)
+* List of contributors

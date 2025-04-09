@@ -1,0 +1,1 @@
+The Sphinx ReadTheDocs theme is from the sphinx-bootstrap-theme repository (github.com/ryan-roemer). The code provides a version number and gets the HTML theme path for use in the project.

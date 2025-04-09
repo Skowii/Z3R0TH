@@ -1,0 +1,1 @@
+This code checks if the current day is a weekday using Python's datetime library and returns a list of holidays from an API call.

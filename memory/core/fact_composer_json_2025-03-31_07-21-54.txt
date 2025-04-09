@@ -1,0 +1,29 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-21-54
+
+Name: sylius/user-bundle
+Type: symfony-bundle
+Description: Users management for Symfony projects.
+Keywords: user, registration, login, groups
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Michał Marcinkowski, Łukasz Chruściel, Bartosz Siejka, Sylius project, Community contributions
+Requirements: php 7.4 or 8.0, doctrine/orm 2.7, egulias/email-validator 3.0, sylius-labs/polyfill-symfony-event-dispatcher 1.0.1, sylius-labs/polyfill-symfony-framework-bundle 1.0, sylius/mailer-bundle 1.4, sylius/resource-bundle 1.7, sylius/user 1.6, symfony/framework-bundle 4.4 or 5.2, webmozart/assert
+Conflict: twig/twig 3.0
+Requirements (dev): hwi/oauth-bundle 1.1, matthiasnoback/symfony-dependency-injection-test 4.1, php-http/guzzle6-adapter 2.0, phpspec/phpspec 7.0, phpunit/phpunit 8.5, symfony/dependency-injection 4.4 or 5.2, symfony/security-bundle 4.4 or 5.2, symfony/swiftmailer-bundle 3.1
+Suggest: hwi/oauth-bundle For OAuth integration
+Config: bin-dir
+Extra: branch-alias
+Autoload: psr-4
+Autoload-dev: psr-4, files
+Repositories: path (type)
+Minimum Stability: dev
+Prefer Stable: true
+
+# TAGS: key concepts: sylius/user-bundle, symfony-bundle, users management, homepage, authors, license, requirements, conflicts, require-dev, suggest, config, branch-alias, autoload, autoload-dev, repositories, minimum-stability, prefer-stable
+
+keywords: user, registration, login, groups
+
+people: Paweł Jędrzejewski, Michał Marcinkowski, Łukasz Chruściel, Bartosz Siejka, Sylius project, Community contributions
+
+dates: not mentioned

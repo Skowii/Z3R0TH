@@ -1,0 +1,1 @@
+Pretty-printing JSON objects in JavaScript is straightforward using `JSON.stringify()` with appropriate arguments. To increase readability, you can pass the third argument as the number of spaces to indent each level of the object. Additionally, you may use the second argument for a replacer function to customize formatting for specific key-value pairs.

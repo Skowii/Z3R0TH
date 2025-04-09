@@ -1,0 +1,1 @@
+Git allows you to find lost files and commits using the `git fsck` command. Running this command with `--lost-found` prints a list of lost objects, which will be saved in the `.git/lost-found` directory for further inspection.

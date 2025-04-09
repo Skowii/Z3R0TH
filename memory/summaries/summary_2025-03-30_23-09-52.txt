@@ -1,0 +1,1 @@
+Create interactive cards with hover effects such as rotating, shifting, and perspective transforms using CSS animations. To achieve these effects, use elements like rotation (e.g., `rotateY()`), position tracking with JavaScript, and perspective transforms (e.g., `perspective()`). Leverage the `transition` property to animate these changes smoothly.

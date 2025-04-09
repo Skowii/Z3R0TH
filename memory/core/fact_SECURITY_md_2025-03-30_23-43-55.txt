@@ -1,0 +1,8 @@
+# SOURCE: SECURITY.md
+# TIME: 2025-03-30_23-43-55
+
+Security Policy: 
+1. Report vulnerabilities privately: Send to security@sylius.com instead of using issue tracker or posting publicly.
+2. Supported Versions: Check the release process for information on past releases and security updates.
+
+# TAGS: # Security Policy, Reporting a Vulnerability, Sylius, security@sylius.com, Release Process, Past Releases

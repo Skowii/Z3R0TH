@@ -1,0 +1,32 @@
+# SOURCE: getting-started.md
+# TIME: 2025-03-31_08-07-53
+
+based on instructions and parameters. These blocks can be composed into larger AI systems to create advanced agents with custom functionality.
+
+#### **composite_agent**
+
+This module is responsible for managing the composite multi-agent systems that utilize AutoGPT agents and other non-agent components as its primitives. The agent server will enable these complex systems where multiple agents interact, cooperate, or compete based on certain rules or objectives.
+
+#### **server**
+
+This is the main entry point for the project, providing a RESTful API to manage agent execution and monitoring.
+
+
+## Contribution Guidelines
+
+Please adhere to [contributing guidelines](./CONTRIBUTING.md).
+
+[AutoGPT Agent Server]: https://docs.agpt.co/#1-autogpt-server
+[AutoGPT Documentation]: https://docs.agpt.co/
+
+# TAGS: install
+  ```
+  This command will install all the dependencies needed to run the frontend application using Node Package Manager (NPM).
+
+* Finally, start the frontend application with:
+  ```
+   npm run dev
+  ```
+  It will launch a development server on `http://localhost:3000/`. Open this URL in your browser to see the AutoGPT application.
+
+This should be enough to get you started on setting up AutoGPT locally on your machine. Remember that the video tutorial is available for more detailed instructions, as well as help in case you face any issues during setup.

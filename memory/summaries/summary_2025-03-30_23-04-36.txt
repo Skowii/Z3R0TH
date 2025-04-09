@@ -1,0 +1,1 @@
+This cheatsheet provides a quick reference for CSS inherited properties, including font, color, direction, and more. These properties impact the layout and appearance of elements on a webpage. The full list is available in the original information.

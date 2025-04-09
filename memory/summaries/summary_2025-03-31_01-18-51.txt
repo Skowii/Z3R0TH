@@ -1,0 +1,5 @@
+The Luhn Algorithm is a checksum formula used to validate identification numbers. To implement it in JavaScript, follow these steps: 
+1. Split the number into an array of digits using `split()`.
+2. Reverse the array and convert each digit to a number using `map()` and `parseInt()`.
+3. Obtain the last digit and use `reduce()` to implement the algorithm, iterating over the array and calculating the sum based on even or odd indexes.
+4. Return true if the sum is divisible by 10, and false otherwise.

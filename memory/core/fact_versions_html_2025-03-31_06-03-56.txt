@@ -1,0 +1,6 @@
+# SOURCE: versions.html
+# TIME: 2025-03-31_06-03-56
+
+This is an HTML code that generates a sidebar with version information, download links and project home/builds on Read the Docs platform. It uses variables like current_version, versions, downloads, PRODUCTION_DOMAIN to display relevant information dynamically.
+
+# TAGS: READTHEDOCS, rst-badge, rst-versions, small badge style, Read the Docs, current_version, versions, downloads, PRODUCTION_DOMAIN

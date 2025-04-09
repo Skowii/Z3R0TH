@@ -1,0 +1,37 @@
+# SOURCE: grammar_splitter.py
+# TIME: 2025-03-31_02-26-50
+
+e not all nodes in pcfg.nodes():
+        node = random.choice(list(pcfg.nodes()))
+        if __node_split__(pcfg, node)[0]:
+            nodes.extend(__node_split__(pcfg, node)[1])
+            quantity -= 1
+            if quantity <= 0:
+                return nodes
+    return None
+
+def split(pcfg: PCFG, threshold: int) -> PCFG:
+    """
+    Given a PCFG and a threshold value, split the PCFG into a list of smaller trees.
+
+    Args:
+        pcfg (PCFG): Probabilistic Context Free Grammar
+        threshold (int): The maximum number of nodes in each tree produced by splitting.
+
+    Returns:
+        PCFG: A new PCFG with the node quantity constraint.
+    """
+    # Split most probable nodes until the quantity is reached
+    split_nodes = __split_nodes_until_quantity_reached__(pcfg, threshold)
+    if not split_nodes:
+        return pcfg
+    
+    # Initialize a new PCFG with one node
+    # It will be used to store all the trees.
+    new_pcfg = PCFG(pcfg.start, {})
+    for node in split_nodes:
+        new_tree = PCFG(node.context, {}, 0)
+        for child in node.children:
+            new_tree.
+
+# TAGS: Key Concepts: PCFG, Context, Node, PRules, common prefix, adapt ctx, to original, from original, create path, pcfg from

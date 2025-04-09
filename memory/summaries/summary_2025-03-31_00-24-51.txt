@@ -1,0 +1,8 @@
+Functional programming (FP) is a paradigm that treats computation as the evaluation of mathematical functions, avoiding state changes and mutable data. It emphasizes using pure functions and immutability concepts to solve problems in a functional way. Some key FP concepts include:
+
+1. Pure functions: Functions that always return the same output for the same input, without side effects.
+2. Immutability: Once created, a value cannot be changed (unlike mutable data).
+3. Higher-order functions: Functions that either take another function as an argument or return a new function.
+4. Recursion: A technique where a function calls itself to solve problems.
+
+Benefits of functional programming include improved code reasoning, easier testing and debugging, and increased readability and maintainability.

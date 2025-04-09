@@ -1,0 +1,3 @@
+Generate all permutations of an array's elements or a string's characters using recursion. The base cases for the recursive function are when the array's length is equal to 2 or 1. In this case, return the array itself or an array with the elements swapped, respectively. For other cases, use `Array.prototype.reduce()` and `Array.prototype.map()` to create partial permutations and combine them in one array.
+
+For string permutations, convert the string into an array of characters and follow a similar approach as for arrays. Convert the array back into a string using `String.prototype.join()`.

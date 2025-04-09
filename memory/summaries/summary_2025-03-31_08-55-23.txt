@@ -1,0 +1,7 @@
+The ui file creates a window with a layout containing:
+- A label for the current directory
+- A read-only line edit for the current directory
+- A push button to load files
+- A horizontal splitter to separate two QWidgets:
+  1. A vertical layout with a bold label and a srcFileList (source file list) QListWidget
+  2. A vertical layout with a bold label and a dstFileList (destination file list) QListWidget

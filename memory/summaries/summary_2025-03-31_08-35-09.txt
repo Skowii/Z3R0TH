@@ -1,0 +1,1 @@
+To add a project to the list, please open a Pull Request (PR) instead of creating an issue. If you believe there isn't a suitable location for the project and want to discuss options, feel free to open a PR and the maintainers will be happy to help.

@@ -1,0 +1,3 @@
+The Porter stemming algorithm strips English words of common suffixes to reduce them to their base forms, a process called stemming. It was devised by Martin F. Porter in 1980 and consists of five steps. Despite its limitations, it's still widely used as a simple method for natural language processing or building text-based search engines.
+
+The algorithm uses terminology such as consonants (C) and vowels (V), and defines rules with the format "(condition) S1 -> S2". These rules are applied in descending order, and only one is obeyed per step. The implementation involves applying each rule to a given word until no more changes can be made, then moving on to the next step.

@@ -1,0 +1,1 @@
+To undo a commit in Git without rewriting history, use the 'git revert' command. This command creates a new commit with the inverse of the original commit's changes. To revert the latest commit, use 'git revert HEAD'.

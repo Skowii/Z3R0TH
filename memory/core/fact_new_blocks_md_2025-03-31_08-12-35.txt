@@ -1,0 +1,11 @@
+# SOURCE: new_blocks.md
+# TIME: 2025-03-31_08-12-35
+
+sum media, DeepLink, Poll, Place, Quote] = SchemaField(
+    discriminator='discriminator',
+    description="Attach either media, deep link, poll, place or quote - only one can be used",
+    is_optional=True)
+```
+
+# TAGS: Contributing to AutoGPT Agent Server: Creating and Testing Blocks
+Block, BlockSchema, BlockOutput, WikipediaSummaryBlock, GetRequest, Input, Output, UUID generator, uuid4(), testing the block

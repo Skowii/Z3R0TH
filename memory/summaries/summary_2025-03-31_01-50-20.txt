@@ -1,0 +1,1 @@
+Check if localStorage or sessionStorage is enabled using a simple JavaScript function. First, check if localStorage is available by trying to set and remove an item using a try...catch block. If both operations are successful, return true; otherwise, return false. The same approach can be used for sessionStorage by replacing window.localStorage with window.sessionStorage.

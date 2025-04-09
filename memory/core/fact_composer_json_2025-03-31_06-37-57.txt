@@ -1,0 +1,25 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-37-57
+
+Name: Sylius/Review
+Type: Library
+Description: Review system for commenting and rating shop components.
+Keywords: Shop, Ecommerce, Review, Rating
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Mateusz Zalewski, Grzegorz Sadowski, Daniel Richter, Sylius project, Community contributions
+Requirements: PHP 7.4 or 8.0, Doctrine/Collections 1.6, Sylius/Resource 1.7
+Dependencies (Dev): PhpSpec/PhpSpec 7.0
+Configuration: Bin-dir: bin
+Extra: Branch Alias "dev-master": "1.9-dev"
+Autoload: PSR-4 "Sylius\\Component\\Review\\"
+Autoload-dev: PSR-4 "Sylius\\Component\\Review\\spec\\": "spec/"
+Repositories: Path, URL ../../*/*
+Minimum Stability: Dev
+Prefer Stable: True
+
+# TAGS: key concepts: review, rating, shop, ecommerce
+keywords: library, commenting, rating, shop, ecommerce, review
+people: Paweł Jędrzejewski, Mateusz Zalewski, Grzegorz Sadowski, Daniel Richter, Sylius project, Community contributions
+dates: not specified
+description: Review system for commenting and rating shop components

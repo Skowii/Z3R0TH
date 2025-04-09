@@ -1,0 +1,1 @@
+Group array elements based on a function using JavaScript's Array.prototype.reduce() method to create an object with the grouped values. The grouping criterion can be either a function or a property name, with the former being called with value, index, and array as arguments, and the latter accessing the value through the provided property.

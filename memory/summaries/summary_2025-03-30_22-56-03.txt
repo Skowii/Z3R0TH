@@ -1,0 +1,1 @@
+Learn how to split a Git commit into multiple commits by using the interactive rebase feature. Find the commit to split, mark it with `edit`, unstage your changes, and then commit them separately. This process can be adapted to suit your needs and repeated as necessary. Be cautious when rewriting Git history, especially if you're working on a shared branch.

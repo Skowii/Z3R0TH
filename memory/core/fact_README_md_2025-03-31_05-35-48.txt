@@ -1,0 +1,46 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_05-35-48
+
+droid devices).
+6. In some cases, Appium provides better support for accessibility APIs than native frameworks. For
+   instance, on Android devices using TalkBack or See-All-AcessibilityService.
+7. Appium is community-driven with an active contributor base.
+8. It supports testing of responsive web design (RWD), adaptive content, and fluid grids using
+   Desired Capabilities and Grid configurations.
+
+# TAGS: npm install -g appium-assistant
+
+# Use the installed driver with the Appium server:
+appium --driver driverName [--serverUrl http://localhost:4723/wd/hub] [options...]
+```
+
+The `serverUrl` is optional and defaults to `http://127.0.0.1:4723/wd/hub`.
+
+## Clients
+
+Appium's core functionality is implemented in JavaScript, but support for other languages can be added by using [clients](https://github.com/appium/client-appium). These clients are language bindings that allow you to write Appium tests in the programming language of your choice.
+
+Some popular clients include:
+
+* [`appium-java-client`](https://github.com/appium/java-client) (Java)
+* [`appium-python-client`](https://github.com/appium/python-client) (Python)
+* [`appium-ruby-client`](https://github.com/appium/ruby-client) (Ruby)
+* [`appium-ts-driver`](https://github.com/appium/appium-ts-driver) (TypeScript / JavaScript)
+
+You can find a full list of available clients in the [Appium Ecosystem's Clients page](http://appium.io/docs/en/latest/ecosystem/clients/).
+
+## Plugins
+
+Appium is modular and extensible, allowing you to customize its functionality through plugins. These plugins allow you to add features not included in the core Appium server or to modify existing features. You can find a list of available plugins on the [Appium Ecosystem's Plugins page](http://appium.io/docs/en/latest/ecosystem/plugins/).
+
+Plugins are managed using [Appium's Extension command-line interface](http://appium.io/docs/en/latest/cli/extensions/):
+
+```bash
+# Install a plugin from npm:
+npm install -g appium-pluginName
+
+# Use the installed plugin with the Appium server:
+appium --plugin pluginName [--serverUrl http://localhost:4723/wd/hub] [options...]
+```
+
+The `serverUrl` is optional and defaults to `http://127.0.0.1:4723/wd/hub`.

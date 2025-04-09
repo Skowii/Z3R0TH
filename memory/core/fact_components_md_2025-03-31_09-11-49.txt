@@ -1,0 +1,64 @@
+# SOURCE: components.md
+# TIME: 2025-03-31_09-11-49
+
+nents with `_enabled` set to False will be disabled and not executed:
+
+```python
+class MyAgent(Agent):
+    def __init__(self):
+        self.hello_component = HelloComponent()
+        self.calculator_component = CalculatorComponent().run_after(self.hello_component)
+        # Disable the calculator component
+        self.calculator_component._enabled = False
+```
+
+# TAGS: components, like their classes or protocols they implement.
+For example, to use a custom component named "MyCustomComponent" with configuration defined in a JSON file:
+
+```py
+from pathlib import Path
+import json
+
+# Load configuration from the file
+with open(Path(__file__).parent / 'config.json') as fp:
+    config_dict = json.load(fp)
+
+agent = MyAgent()
+agent.dump_component_configs(config_dict)
+agent.load_component_configs(config_dict)
+```
+
+# 🔗 Connections
+
+Connections establish communication channels between agents and allow them to share messages, data, or control signals. They are created using the `Connection` class that inherit from `AgentComponent`.
+
+A connection can be:
+1. Incoming: Receives messages from other agents
+1. Outgoing: Sends messages to other agents
+1. Bi-directional: Both receives and sends messages
+
+To create a new incoming connection, first you need to define the connection class inheriting from `AgentComponent` or implementing one or more protocols. Then you can register this connection in your agent's `__init__`. For example:
+
+```py
+from forge.agent import BaseAgent
+from forge.agent.connections import Connection, IncomingConnection
+
+class MyAgent(BaseAgent):
+    def __init__(self):
+        self.incoming_connection = IncomingConnection()
+```
+
+To create a new outgoing connection, replace `IncomingConnection` with `OutgoingConnection`. For bi-directional connections, use the `BiDirectionalConnection` class instead.
+
+# 📜 Datastores
+
+Agents often need to persist their data, which can be achieved by using a [datastore](./datastores.md). A datastore is a component that interacts with various data storages like SQL databases or filesystems. It's inherited from `AgentComponent` or implemented one of more protocols.
+
+Datastores provide methods to read, write, update and delete records. Some datastores can be asynchronous for better performance on large datasets.
+
+# 🏷️ Tags
+- agents
+- components
+- protocols
+- pydantic
+- UserConfigurable

@@ -1,0 +1,1 @@
+This information covers working with HTML element classes in JavaScript, including checking if an element has a class, adding and removing classes, as well as toggling between them using `Element.classList` property and various methods like `contains()`, `add()`, `remove()`, and `toggle()`.

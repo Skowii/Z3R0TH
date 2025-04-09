@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-36-30
+
+Payment Component is an Open Source eCommerce solution built from decoupled components with powerful API and the highest quality code. It does not provide any gateways but can be integrated with many different services, using Payum by default. Documentation is available on docs.sylius.com and for bug tracking, follow GitHub issues. The component was originally created by Paweł Jędrzejewski and has a list of contributors.
+
+# TAGS: Payment Component, Sylius, Payum, Open Source eCommerce, documentation, contributing, GitHub issues, MIT License, authors

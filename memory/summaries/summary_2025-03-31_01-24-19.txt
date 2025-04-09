@@ -1,0 +1,1 @@
+To check if a JavaScript string contains a substring regardless of case, use a regular expression with the 'i' flag. Create a regular expression using the RegExp() constructor and the 'i' flag, then use the test() method on it to determine if the string contains the substring. Example: includesCaseInsensitive('Blue Whale', 'blue') returns true.

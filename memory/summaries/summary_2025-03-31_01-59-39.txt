@@ -1,0 +1,1 @@
+Learn how to retrieve and manipulate the styles of an HTML element with JavaScript using APIs like Window.getComputedStyle() for retrieval, HTMLElement.style property for setting styles, and Object.assign() for adding multiple styles at once.

@@ -1,0 +1,202 @@
+# Z3R0TH ∴ Skill Architect v7.7 — Reflection-Aware, GUI-Ready, Version-Controlled
+import os, shutil, sys, time, json
+from pathlib import Path
+from datetime import datetime
+import tkinter as tk
+from tkinter import filedialog, messagebox, scrolledtext
+
+# ━━━━━━━━━━━ Directories
+ROOT         = Path.home() / "Desktop" / "HEX13-Z3R0TH" / "Z3R0TH_ENV"
+SKILLS_DIR   = ROOT / "core" / "skills"
+LOGS_DIR     = ROOT / "core" / "logs"
+TRASH_DIR    = SKILLS_DIR / "_trash"
+VERSIONS_DIR = SKILLS_DIR / "_versions"
+REFLECT_DIR  = ROOT / "core" / "memory" / "reflections"
+
+for d in [SKILLS_DIR, LOGS_DIR, TRASH_DIR, VERSIONS_DIR, REFLECT_DIR]:
+    os.makedirs(d, exist_ok=True)
+
+def log(msg):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    (LOGS_DIR / "skill_editor.log").write_text(f"[{timestamp}] {msg}\n", encoding="utf-8")
+    reflection = REFLECT_DIR / f"skill_log__{datetime.now().strftime('%H%M%S')}.txt"
+    reflection.write_text(msg, encoding="utf-8")
+
+def is_dangerous(code):
+    return any(term in code for term in ["os.remove", "eval(", "exec(", "shutil.rmtree", "subprocess"])
+
+def list_skills(exts=[".py", ".txt"]):
+    return sorted([f.name for f in SKILLS_DIR.glob("*") if f.suffix in exts and not f.name.startswith("_")])
+
+def backup_skill(name):
+    src = SKILLS_DIR / name
+    if not src.exists(): return
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    shutil.copy(src, VERSIONS_DIR / f"{name}__{stamp}")
+
+def safe_path(name):
+    return SKILLS_DIR / name if "." in name else SKILLS_DIR / f"{name}.txt"
+
+def preview_code(path):
+    try:
+        return Path(path).read_text()[:500]
+    except:
+        return "⚠ Cannot read file"
+
+# ━━━━━━━━━━━ Skill Operations (CLI)
+def create_skill(name):
+    path = safe_path(name)
+    if path.exists():
+        print("⚠ Already exists.")
+        return
+    path.write_text("# ∴ Write your autonomous skill logic here\n")
+    log(f"Created skill: {path.name}")
+    print(f"✅ Created: {path.name}")
+
+def edit_skill(name):
+    path = safe_path(name)
+    if not path.exists():
+        print("❌ Not found.")
+        return
+    backup_skill(path.name)
+    os.system(f"nano '{path}'")  # swap to notepad or code
+
+def view_skill(name):
+    path = safe_path(name)
+    if path.exists():
+        print(f"\n📄 {path.name}\n{'='*40}")
+        print(path.read_text())
+    else:
+        print("❌ Not found.")
+
+def delete_skill(name):
+    path = safe_path(name)
+    if not path.exists():
+        print("❌ Not found.")
+        return
+    shutil.move(str(path), TRASH_DIR / path.name)
+    print(f"🗑 Moved to trash: {path.name}")
+    log(f"Trashed: {path.name}")
+
+def restore_version(version_file):
+    src = VERSIONS_DIR / version_file
+    if not src.exists():
+        print("❌ Version file not found.")
+        return
+    name = version_file.split("__")[0]
+    dest = SKILLS_DIR / name
+    shutil.copy(src, dest)
+    print(f"🔁 Restored {name}")
+    log(f"Restored version: {version_file}")
+
+def run_skill(name):
+    path = safe_path(name)
+    if not path.exists():
+        print("❌ Cannot run: not found.")
+        return
+    os.system(f"python3 '{path}'")
+# ━━━━━━━━━━━ CLI Menu
+def skill_menu():
+    print("🧠 Z3R0TH ∴ Skill Architect v7.7")
+    while True:
+        print("\n╭── Menu ──╮")
+        print("1. List Skills")
+        print("2. View Skill")
+        print("3. Create Skill")
+        print("4. Edit Skill")
+        print("5. Delete Skill")
+        print("6. Restore Version")
+        print("7. Run Skill")
+        print("8. Exit")
+        print("╰──────────╯")
+
+        try:
+            c = input("→ Choose: ").strip()
+            if c == "1":
+                for s in list_skills(): print(" -", s)
+            elif c == "2":
+                view_skill(input("🔍 Skill name: ").strip())
+            elif c == "3":
+                create_skill(input("🆕 Name: ").strip())
+            elif c == "4":
+                edit_skill(input("📝 Edit: ").strip())
+            elif c == "5":
+                delete_skill(input("🗑 Delete: ").strip())
+            elif c == "6":
+                print("\n📚 Versions:")
+                for v in sorted(VERSIONS_DIR.glob("*")):
+                    print(" -", v.name)
+                restore_version(input("↩ File to restore: ").strip())
+            elif c == "7":
+                run_skill(input("⚙ Skill to run: ").strip())
+            elif c == "8":
+                break
+        except Exception as e:
+            print(f"⚠ Error: {e}")
+            log(str(e))
+
+# ━━━━━━━━━━━ GUI Mode
+def skill_gui():
+    win = tk.Tk()
+    win.title("Z3R0TH ∴ Skill Editor")
+    win.geometry("1220x780")
+    win.configure(bg="#0d0d0d")
+
+    tk.Label(win, text="Skill Architect", font=("Fira Code", 16), fg="#00ffff", bg="#0d0d0d").pack(pady=8)
+
+    skill_list = tk.Listbox(win, width=60, height=25, bg="#1e1e1e", fg="#00ff88")
+    skill_list.pack(padx=10, pady=10, side="left")
+
+    preview = scrolledtext.ScrolledText(win, width=80, height=25, bg="#121212", fg="#39ff14", font=("Courier", 10))
+    preview.pack(padx=10, pady=10, side="right")
+
+    def refresh():
+        skill_list.delete(0, "end")
+        for f in list_skills():
+            code = (SKILLS_DIR / f).read_text()
+            flag = "⚠" if is_dangerous(code) else ""
+            skill_list.insert("end", f"{flag} {f}")
+
+    def show_preview(evt=None):
+        sel = skill_list.get("active").strip("⚠ ").strip()
+        content = preview_code(SKILLS_DIR / sel)
+        preview.delete("1.0", "end")
+        preview.insert("1.0", content)
+
+    def run_selected():
+        sel = skill_list.get("active").strip("⚠ ").strip()
+        run_skill(sel)
+
+    def edit_selected():
+        sel = skill_list.get("active").strip("⚠ ").strip()
+        edit_skill(sel)
+        refresh()
+
+    def delete_selected():
+        sel = skill_list.get("active").strip("⚠ ").strip()
+        delete_skill(sel)
+        refresh()
+
+    def restore_from_gui():
+        file = filedialog.askopenfilename(initialdir=VERSIONS_DIR)
+        if file:
+            name = Path(file).name.split("__")[0]
+            shutil.copy(file, SKILLS_DIR / name)
+            messagebox.showinfo("Restored", f"{name} restored.")
+            refresh()
+
+    tk.Button(win, text="📝 Edit", command=edit_selected).pack()
+    tk.Button(win, text="🗑 Delete", command=delete_selected).pack()
+    tk.Button(win, text="🚀 Run", command=run_selected).pack()
+    tk.Button(win, text="↩ Restore Version", command=restore_from_gui).pack()
+    tk.Button(win, text="🔄 Refresh", command=refresh).pack(pady=10)
+
+    skill_list.bind("<<ListboxSelect>>", show_preview)
+    refresh()
+    win.mainloop()
+# ━━━━━━━━━━━ Entry
+if __name__ == "__main__":
+    if "--gui" in sys.argv:
+        skill_gui()
+    else:
+        skill_menu()

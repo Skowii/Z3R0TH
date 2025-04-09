@@ -1,0 +1,1 @@
+To sort a Python list by indexes, use the `zip()` function to combine the two lists into a list of tuples. Then, apply the `sorted()` function based on the values of the indexes. Lastly, use a list comprehension to obtain the first element of each tuple in the sorted result. Optionally, use the `reverse` parameter for reverse sorting.

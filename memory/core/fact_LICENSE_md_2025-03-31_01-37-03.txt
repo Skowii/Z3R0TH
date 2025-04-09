@@ -1,0 +1,28 @@
+# SOURCE: LICENSE.md
+# TIME: 2025-03-31_01-37-03
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License is not a law firm and does not provide legal services or advice. Distribution of licenses does not create a lawyer-client relationship. Licenses are provided on an "as-is" basis, with no warranties regarding their use. Creative Commons disclaims liability for damages resulting from their use to the fullest extent possible.
+
+To use this public license, authors and rights holders may grant permission to others to share, remix, and reuse their original work under specified terms and conditions. Licensors should read and understand the terms before applying the licenses and ensure they secure all necessary rights to allow for reuse. Proper marking is necessary for material not subject to the license, such as other CC-licensed material or content used under exceptions or limitations to copyright.
+
+By exercising the Licensed Rights, users accept and agree to be bound by the terms of this Public License. The License grants rights in consideration of the benefits Creative Commons receives from making materials available under these terms. Definitions include key terms such as Adapted Material, Adapter's License, Copyright and Similar Rights, Effective Technological Measures, Exceptions and Limitations, Licensed Material, Licensed Rights, Licensor, NonCommercial, Share, Sui Generis Database Rights, and You.
+
+Under this Public License, the Licensor grants a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material for NonCommercial purposes only, as well as the right to produce, reproduce, and Share Adapted Material for NonCommercial purposes only. Exceptions and Limitations apply to this use.
+
+# TAGS: Creative Commons Corporation
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+Public licenses
+terms and conditions
+irrevocable licenses
+licensors
+copyright and certain other rights
+considerations for licensors
+considerations for the public
+Copyright and Similar Rights
+Licensed Material
+Licensor's permission
+public permissions
+reasonable requests
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+Licensed Rights
+Adapted Material

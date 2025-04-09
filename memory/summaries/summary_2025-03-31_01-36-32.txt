@@ -1,0 +1,1 @@
+Static methods belong to a class and can't be called on instances; they are typically utility functions. Instance methods act on class instances and can be called on them, belonging to the class prototype inherited by all instances. In ES6 classes, the `static` keyword is used for defining static methods.

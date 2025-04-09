@@ -1,0 +1,7 @@
+Shuffle an array: Use the Fisher-Yates algorithm to reorder elements without bias. The implementation creates a new array and shuffles the original array's elements into it.
+
+Sample a random element from an array: Get a random index by generating a random number in the range of the array's length, then return the element at that index. Use `Math.random()` and `Array.prototype.length`.
+
+Sample multiple random elements from an array: Shuffle the array first, then use `Array.prototype.slice()` to get the first n elements from the shuffled array. If no second argument is provided, you'll get one element at random.
+
+Weighted sample from an array: Use `Array.prototype.reduce()` to create an array of partial sums for each value in weights. Then use `Math.random()` to select elements based on their probability of being chosen.

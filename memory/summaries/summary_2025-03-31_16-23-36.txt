@@ -1,0 +1,10 @@
+Title: Summary of content changes
+Description: The text provides a general summary, describing motivation, context, testing details, types of changes, and checklist for your changes. 
+
+Motivation and Context: This change is required as it addresses an issue or updates an existing submission by making adjustments.
+
+How Has This Been Tested: The change has been thoroughly tested in the development environment, ensuring its impact on other areas of the codebase.
+
+Types of changes: This code introduces a content update.
+
+Checklist: Ensure your code follows the project's code style, updated documentation, read the CONTRIBUTING document, and verified the validity of URLs and resources.

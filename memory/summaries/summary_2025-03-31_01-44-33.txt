@@ -1,0 +1,39 @@
+JavaScript has two equality operators: 
+1. The double equals (`==`), also known as the loose equality operator, compares only the values of the operands after applying type coercion.
+2. The triple equals (`===`), also known as the strict equality operator, compares both the type and value of the operands without any type coercion. 
+
+Example:
+```js
+const num = 0;
+const str = '0';
+const obj = new String(0);
+const bool = false;
+const undef = undefined;
+const nil = null;
+
+console.dir([
+  num == str, // 0 == 0, true
+  num == bool, // 0 == 0, true
+  str == obj, // '0' == '0', true
+  obj == num, // 0 == 0, true
+  bool == str, // 0 == 0, true
+  bool == obj, // 0 == 0, true
+  bool == nil, // false
+  undef == nil, // true
+  undef == bool, // false
+]);
+
+console.dir([
+  num === str, // types don't match, false
+  num === bool, // types don't match, false
+  str === obj, // types don't match, false
+  obj === num, // types don't match, false
+  bool === str, // types don't match, false
+  bool === obj, // types don't match, false
+  bool === nil, // types don't match, false
+  undef === nil, // types don't match, false
+  undef === bool, // types don't match, false
+]);
+```
+
+The examples above show that the triple equals (`===`) operator is more predictable and intuitive. Therefore, it is recommended to use the triple equals (`===`) operator for most cases unless type coercion is explicitly required.

@@ -1,0 +1,10 @@
+# SOURCE: ai_shortform_video_block.md
+# TIME: 2025-03-31_08-47-20
+
+AI Shortform Video Creator:
+
+- Generates short-form videos using artificial intelligence techniques
+- Takes user inputs such as API key, script, resolution, ratio, frame rate, generation preset, background music, voice, and video style to create the video
+- Outputs a video URL and an error message if there are any issues during video creation
+
+# TAGS: AI Shortform Video Creator, revid.ai API, inputs, outputs, social media marketer, use case

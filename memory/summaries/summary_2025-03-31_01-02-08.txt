@@ -1,0 +1,3 @@
+Convert between miles and kilometers in JavaScript using the following formulas:
+- Miles to kilometers: km = mi * 1.609344
+- Kilometers to miles: mi = km * 0.621371

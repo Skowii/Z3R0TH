@@ -1,0 +1,11 @@
+Trigger an event on an HTML element using JavaScript by calling the `dispatchEvent()` method of `EventTarget`. Create an `Event` object using either the regular [`Event`](https://developer.mozilla.org/en-US/docs/Web/API/Event) constructor or the [`CustomEvent`](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) constructor, with `CustomEvent` allowing you to pass custom data via its constructor arguments. Then, call `dispatchEvent()`, passing the created `Event` object as the argument. For example:
+
+```js
+const triggerEvent = (el, eventType, detail) => el.dispatchEvent(new CustomEvent(eventType, { detail }));
+
+const myElement = document.getElementById('my-element');
+myElement.addEventListener('click', e => console.log(e.detail));
+
+triggerEvent(myElement, 'click'); // logs null
+triggerEvent(myElement, 'click', { username: 'bob' }); // logs { username: 'bob' }
+```

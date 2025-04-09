@@ -1,0 +1,662 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_01-16-52
+
+-   **Multi-Agent**: Multiple language agents can be run in parallel, communicating and collaborating with each other.
+
+</details>
+
+<details>
+
+![Image](https://github.com/aiwaves-cn/agents/raw/master/assets/agents-logo.png)
+
+</details>
+
+## [Agents+](https://github.com/jbexta/Agents+)
+
+A modular agent framework for OpenAI's GPT models.
+
+<details>
+
+![Image](https://github.com/jbexta/Agents+/raw/master/docs/screenshot.png)
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+
+![Image](https://github.com/jbexta/Agents+/raw/master/docs/screenshot.png)
+
+</details>
+
+## [AIPilot](https://github.com/kasuganet/AiPilot)
+
+A pilot framework for Auto-GPT like agents on local environments.
+
+<details>
+
+![Image](https://github.com/kasuganet/AiPilot/raw/master/docs/aipilot_01.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/kasuganet/AiPilot/raw/master/docs/aipilot_01.png)
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+
+![Image](https://github.com/kasuganet/AiPilot/raw/master/docs/aipilot_01.png)
+
+</details>
+
+## [AutoGPT-UI](https://github.com/yuweiz/AutoGPT-UI)
+
+An OpenAI Auto-GPT UI Framework that allows you to easily create, train and manage AI assistants.
+
+<details>
+
+![Image](https://github.com/yuweiz/AutoGPT-UI/raw/master/docs/img/auto_gpt_ui_v1.3_demo_1.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/yuweiz/AutoGPT-UI/raw/master/docs/img/auto_gpt_ui_v1.3_demo_1.png)
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+
+![Image](https://github.com/yuweiz/AutoGPT-UI/raw/master/docs/img/auto_gpt_ui_v1.3_demo_1.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [Awesome-Agents](https://github.com/awesome-agents/awesome-agents)
+
+A curated list of awesome agents, agent frameworks, and resources for building autonomous language agents using large language models.
+
+<details>
+
+![Image](https://github.com/awesome-agents/awesome-agents/raw/main/docs/logo.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/awesome-agents/awesome-agents/raw/main/docs/logo.png)
+
+</details>
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+
+![Image](https://github.com/awesome-agents/awesome-agents/raw/main/docs/logo.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [BabbageAI](https://github.com/babbalabs/babbageai)
+
+BabbageAI is a framework for creating and managing AI agents, using LLMs to help them reason, learn, and take actions. It aims to be an accessible and powerful tool for building autonomous agents.
+
+<details>
+
+![Image](https://github.com/babbalabs/babbageai/raw/main/docs/babbageai_logo.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/babbalabs/babbageai/raw/main/docs/babbageai_logo.png)
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+
+![Image](https://github.com/babbalabs/babbageai/raw/main/docs/babbageai_logo.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [BuckinghamAI](https://github.com/buckingham-ai)
+
+A framework for building AI agents using OpenAI's GPT models. It provides a simple and powerful interface to create, train, and manage self-improving AI systems.
+
+<details>
+
+![Image](https://github.com/buckingham-ai/buckinghamai/raw/main/docs/buckinghamai_logo.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/buckingham-ai/buckinghamai/raw/main/docs/buckinghamai_logo.png)
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+
+![Image](https://github.com/buckingham-ai/buckinghamai/raw/main/docs/buckinghamai_logo.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [CogITo](https://github.com/cognitionai/cogito)
+
+A modular AI agent development platform for OpenAI's GPT models, enabling users to create self-improving AI systems. CogITo is designed with extensibility in mind, allowing developers to easily build new modules and integrate them into existing agents.
+
+<details>
+
+![Image](https://github.com/cognitionai/cogito/raw/main/docs/cogito_logo.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/cognitionai/cogito/raw/main/docs/cogito_logo.png)
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+
+![Image](https://github.com/cognitionai/cogito/raw/main/docs/cogito_logo.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [GPT-Agent](https://github.com/sasamich/gpt-agent)
+
+An agent framework for running autonomous AI agents based on OpenAI's GPT models. It supports self-learning, goal setting, and task execution.
+
+<details>
+
+![Image](https://github.com/sasamich/gpt-agent/raw/main/docs/logo_icon.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/sasamich/gpt-agent/raw/main/docs/logo_icon.png)
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+
+![Image](https://github.com/sasamich/gpt-agent/raw/main/docs/logo_icon.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [GPT3-Agent](https://github.com/nkhoro/gpt3-agent)
+
+A lightweight and extensible framework to build AI agents using OpenAI's GPT-3 model. It supports goal setting, task execution, and self-improvement through reinforcement learning.
+
+<details>
+
+![Image](https://github.com/nkhoro/gpt3-agent/raw/main/docs/logo.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/nkhoro/gpt3-agent/raw/main/docs/logo.png)
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+
+![Image](https://github.com/nkhoro/gpt3-agent/raw/main/docs/logo.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [OpenAI Gym](https://github.com/openai/gym)
+
+A toolkit for developing and comparing reinforcement learning algorithms. It supports various environments, including classic control tasks, Atari games, and MuJoCo simulations.
+
+<details>
+
+![Image](https://github.com/openai/gym/raw/main/docs/logo.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/openai/gym/raw/main/docs/logo.png)
+
+### Category
+General purpose, Reinforcement learning
+
+</details>
+
+<details>
+
+![Image](https://github.com/openai/gym/raw/main/docs/logo.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [OpenAI Baselines](https://github.com/openai/baselines)
+
+A library for training and evaluating reinforcement learning algorithms. It includes implementations of state-of-the-art baselines, as well as tools for benchmarking and comparing methods.
+
+<details>
+
+![Image](https://github.com/openai/baselines/raw/main/docs/logo.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/openai/baselines/raw/main/docs/logo.png)
+
+### Category
+General purpose, Reinforcement learning
+
+</details>
+
+<details>
+
+![Image](https://github.com/openai/baselines/raw/main/docs/logo.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [OpenAI Universe](https://github.com/openai/universe)
+
+A platform for training and evaluating AI agents on diverse tasks and environments, using reinforcement learning algorithms. It supports simulations of web browsing, game playing, and other general-purpose tasks.
+
+<details>
+
+![Image](https://github.com/openai/universe/raw/main/docs/logo.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/openai/universe/raw/main/docs/logo.png)
+
+### Category
+General purpose, Reinforcement learning
+
+</details>
+
+<details>
+
+![Image](https://github.com/openai/universe/raw/main/docs/logo.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+## [RLLab](https://github.com/ray-project/rllab)
+
+A library for training and evaluating reinforcement learning algorithms, built on top of Ray and RLlib. It provides various environments, including Atari games, MuJoCo simulations, and benchmark tasks.
+
+<details>
+
+![Image](https://github.com/ray-project/rllab/raw/main/docs/logo.png)
+
+</details>
+
+<details>
+
+![Image](https://github.com/ray-project/rllab/raw/main/docs/logo.png)
+
+### Category
+General purpose, Reinforcement learning
+
+</details>
+
+<details>
+
+![Image](https://github.com/ray-project/rllab/raw/main/docs/logo.png)
+
+</details>
+
+<!-- This is a comment that appears only in the raw text -->
+
+# TAGS: ng" width="256" height="256"></p>
+
+### Category
+General purpose, Recommender systems
+
+### Description
+
+- **1,000 agents**: The dataset includes 1,000 agents for a diverse set of use cases.
+- **Recommender system simulator**: A comprehensive platform that helps developers understand the performance and limitations of various recommendation algorithms.
+- **Flexible configuration**: Customize the dataset, model architecture, hyperparameters, and evaluation metrics according to your needs.
+- **Extensible**: Easy integration with existing or new models and datasets.
+- **Open-source**: Contribute and improve the platform to enhance the AI agent ecosystem.
+
+</details>
+
+## [AIDA](https://github.com/aida-ai/aida)
+AI Data Assistant: A framework for training data assistants with reinforcement learning
+
+<details>
+<p><img src="https://avatars.githubusercontent.com/u/73659120?s=200&amp;v=4" width="256" height="256"></p>
+
+### Category
+General purpose, Build your own, Reinforcement learning
+
+### Description
+
+- **Train AI data assistants**: AIDA trains AI data assistants for various tasks using reinforcement learning.
+- **Customizable**: AIDA's framework supports a wide range of customization options to fit different data processing needs.
+- **Open-source**: The project is open-source, encouraging contributions from the community.
+- **Flexible**: AIDA can be easily integrated into existing systems or used as a standalone solution.
+- **Continuous improvement**: AIDA continuously learns and adapts to improve its performance over time.
+
+</details>
+
+## [Agents-AI](https://github.com/agents-ai)
+Platform for building and running AI agents
+
+<details>
+<p><img src="https://raw.githubusercontent.com/agents-ai/agents-ai-platform/master/documents/images/logo_agentsai.png" width="256" height="256"></p>
+
+### Category
+General purpose, Build your own, Multi-agent
+
+### Description
+
+- **Platform for AI agents**: A development platform to create and run AI agents on a unified framework.
+- **Multi-agent support**: Supports multiple types of agents working together in a cooperative or competitive manner.
+- **Easy deployment**: Deploy agents easily in different environments like localhost, docker, and Kubernetes.
+- **Flexible agent models**: Agents can be built using reinforcement learning, deep learning, rule-based systems, or other techniques.
+- **Community driven**: Open-source project with active community contributions and discussions.
+- **Scalable**: Designed to handle a large number of agents in complex environments.
+
+</details>
+
+## [Alice AI Assistant](https://github.com/alice-ai-research/alice)
+Open source AI framework for multi-tasking and knowledge integration
+
+<details>
+<p><img src="https://github.com/alice-ai-research/alice/raw/master/src/assets/logo_color.png" width="256" height="256"></p>
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+<p><img src="https://github.com/alice-ai-research/alice/raw/master/src/assets/logo_color.png" width="256" height="256"></p>
+
+### Description
+
+- **Open source AI framework**: Alice is an open-source, modular, and extensible AI framework for building multi-tasking and knowledge integration agents.
+- **Flexible agent models**: Supports various AI models such as reinforcement learning, rule-based systems, neural networks, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions.
+- **Multi-agent support**: Agents can work together or compete with each other in complex environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [Artificial Intelligence for Robotics (AIRobots)](https://github.com/jakubforemny/airobots)
+Open source platform for building AI robots with reinforcement learning
+
+<details>
+<p><img src="https://raw.githubusercontent.com/jakubforemny/airobots/master/documents/logo_color.png" width="256" height="256"></p>
+
+### Category
+General purpose, Build your own, Multi-agent, Reinforcement learning
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/jakubforemny/airobots/master/documents/logo_color.png" width="256" height="256"></p>
+
+### Description
+
+- **Open source platform**: AIRobots is an open-source, modular, and extensible platform for building AI robots using reinforcement learning.
+- **Flexible agent models**: Supports various AI models such as deep reinforcement learning, rule-based systems, neural networks, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex robotics scenarios.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [Cognitive Code](https://github.com/cognitivecode)
+Cognitive Computing Platform for Developers
+
+<details>
+<p><img src="https://raw.githubusercontent.com/cognitivecode/cognitive-code/master/documents/logo_cognitivecode_white_2x.png" width="256" height="256"></p>
+
+### Category
+General purpose, Build your own, Multi-agent
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/cognitivecode/cognitive-code/master/documents/logo_cognitivecode_white_2x.png" width="256" height="256"></p>
+
+### Description
+
+- **Cognitive Computing Platform**: Cognitive Code is a cognitive computing platform designed for developers to create AI agents capable of human-like reasoning and problem-solving skills.
+- **Flexible agent models**: Supports various AI models such as reinforcement learning, deep learning, rule-based systems, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex environments.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [Deep Reinforcement Learning Agents](https://github.com/sclion/deep_rl_agents)
+Open source framework for reinforcement learning with deep learning
+
+<details>
+<p><img src="https://raw.githubusercontent.com/sclion/deep_rl_agents/master/docs/_static/deep-reinforcement-learning-logo.png" width="256" height="256"></p>
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/sclion/deep_rl_agents/master/docs/_static/deep-reinforcement-learning-logo.png" width="256" height="256"></p>
+
+### Description
+
+- **Open source framework**: Deep Reinforcement Learning Agents is an open-source framework for reinforcement learning with deep learning, focused on providing efficient and flexible tools to create intelligent agents.
+- **Flexible agent models**: Supports various AI models such as reinforcement learning, deep learning, rule-based systems, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex environments.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [Dexter](https://github.com/google/dexter)
+Open source AI platform for building intelligent agents
+
+<details>
+<p><img src="https://raw.githubusercontent.com/google/dexter/master/doc/images/logo_color.png" width="256" height="256"></p>
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/google/dexter/master/doc/images/logo_color.png" width="256" height="256"></p>
+
+### Description
+
+- **Open source AI platform**: Dexter is an open-source, modular, and extensible platform for building intelligent agents capable of human-like reasoning and problem-solving skills.
+- **Flexible agent models**: Supports various AI models such as reinforcement learning, deep learning, rule-based systems, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex environments.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [KERMIT](https://github.com/google/kermit)
+Open source AI platform for building intelligent agents with reinforcement learning
+
+<details>
+<p><img src="https://raw.githubusercontent.com/google/kermit/master/documents/logo_color.png" width="256" height="256"></p>
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/google/kermit/master/documents/logo_color.png" width="256" height="256"></p>
+
+### Description
+
+- **Open source AI platform**: KERMIT is an open-source, modular, and extensible platform for building intelligent agents with reinforcement learning capabilities.
+- **Flexible agent models**: Supports various AI models such as deep reinforcement learning, rule-based systems, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex environments.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [MADDPG](https://github.com/openai/maddpg)
+OpenAI's Multi-Agent Deep Deterministic Policy Gradients
+
+<details>
+<p><img src="https://raw.githubusercontent.com/openai/maddpg/master/docs/_images/icon.png" width="256" height="256"></p>
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/openai/maddpg/master/docs/_images/icon.png" width="256" height="256"></p>
+
+### Description
+
+- **OpenAI's Multi-Agent Deep Deterministic Policy Gradients**: MADDPG is a multi-agent reinforcement learning algorithm that extends the popular DDPG (Deep Deterministic Policy Gradient) approach to cooperative and competitive scenarios.
+- **Flexible agent models**: Supports various AI models such as deep reinforcement learning, rule-based systems, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex environments.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [OpenAI Baselines](https://github.com/openai/baselines)
+Open source RL baselines and benchmarks
+
+<details>
+<p><img src="https://raw.githubusercontent.com/openai/baselines/master/docs/_images/icon.png" width="256" height="256"></p>
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/openai/baselines/master/docs/_images/icon.png" width="256" height="256"></p>
+
+### Description
+
+- **Open source RL baselines and benchmarks**: OpenAI Baselines provides an open source framework for reinforcement learning research, with a focus on implementing state-of-the-art algorithms in a reproducible manner.
+- **Flexible agent models**: Supports various AI models such as deep reinforcement learning, rule-based systems, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex environments.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [OpenSpiel](https://github.com/openai/openspiel)
+Open source framework for reinforcement learning research
+
+<details>
+<p><img src="https://raw.githubusercontent.com/openai/openspiel/master/doc/images/logo_color.png" width="256" height="256"></p>
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/openai/openspiel/master/doc/images/logo_color.png" width="256" height="256"></p>
+
+### Description
+
+- **Open source framework for reinforcement learning research**: OpenSpiel is an open source framework aimed at facilitating reinforcement learning research, particularly in multi-agent scenarios and complex environments.
+- **Flexible agent models**: Supports various AI models such as deep reinforcement learning, rule-based systems, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex environments.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [RLlib](https://github.com/ray-project/rllib)
+Open source library for scalable reinforcement learning
+
+<details>
+<p><img src="https://raw.githubusercontent.com/ray-project/rlib/master/docs/_images/icon.png" width="256" height="256"></p>
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/ray-project/rlib/master/docs/_images/icon.png" width="256" height="256"></p>
+
+### Description
+
+- **Open source library for scalable reinforcement learning**: RLlib is an open source library that provides distributed execution and efficient scalability for reinforcement learning algorithms, making it easy to train complex agents quickly.
+- **Flexible agent models**: Supports various AI models such as deep reinforcement learning, rule-based systems, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex environments.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+## [Stable Baselines](https://github.com/hill-a/stable-baselines)
+Open source implementations of reinforcement learning baselines
+
+<details>
+<p><img src="https://raw.githubusercontent.com/hill-a/stable-baselines/master/docs/_images/icon.png" width="256" height="256"></p>
+
+</details>
+
+<details>
+<p><img src="https://raw.githubusercontent.com/hill-a/stable-baselines/master/docs/_images/icon.png" width="256" height="256"></p>
+
+### Description
+
+- **Open source implementations of reinforcement learning baselines**: Stable Baselines offers open source implementations of state-of-the-art reinforcement learning algorithms, focusing on providing stable, easy-to-use, and efficient building blocks for researchers and practitioners.
+- **Flexible agent models**: Supports various AI models such as deep reinforcement learning, rule-based systems, etc.
+- **Scalable**: Built to handle a large number of tasks and interactions in complex environments.
+- **Multi-agent support**: Agents can work together or compete with each other in different environments.
+- **Active community**: A growing community of researchers, developers, and users contribute to the project.
+- **Easy deployment**: Easy setup and configuration for running agents on different platforms.
+
+</details>
+
+These open source projects aim to provide a platform for researchers, developers, and users to collaborate on the development of efficient and scalable reinforcement learning algorithms, making it easier to design and evaluate complex artificial intelligence models in various environments.

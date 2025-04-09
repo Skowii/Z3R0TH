@@ -1,0 +1,1 @@
+To eliminate the annoyance of copying the dollar sign along with terminal commands from the web, create a bash alias by adding the following line to your `.bashrc` or `.zshrc` file: `alias '$'=''`. This ensures that only the first dollar sign on a line is replaced, leaving your scripts intact.

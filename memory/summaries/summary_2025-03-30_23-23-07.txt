@@ -1,0 +1,1 @@
+When stripping a prefix from a string in Python, avoid using `str.lstrip()`. It expects a list of characters to strip, not a prefix. Instead, use `str.removeprefix()` to specifically remove the desired prefix from the string.

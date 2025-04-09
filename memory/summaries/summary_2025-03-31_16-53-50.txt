@@ -1,0 +1,1 @@
+Imports various JavaScript and CSS libraries, including jQuery, Semantic UI, Sylius UI resources, custom stylesheets, and logos for the application.

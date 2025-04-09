@@ -1,0 +1,65 @@
+# SOURCE: tests.md
+# TIME: 2025-03-31_08-56-43
+
+This is an example of a focused test for building agents. It tests that you can build an agent and then run it. The focus is on the process of building and running an agent.
+
+# TAGS: updated when something changes in the UI instead of needing to be updated every time you write a new test.
+
+To create a new page object, do the following:
+
+1. Create a new folder called "pages" under the "tests" directory if it doesn't exist already.
+2. Create a new file for your new page object in this folder.
+3. Make sure the filename is related to the page you are testing (e.g., `home-page.ts`).
+4. Export a class with a name that represents the page, and within it create methods for interacting with elements on the page.
+5. Add locators to each method so that Playwright knows how to find the elements on the page.
+
+```typescript
+import { expect } from '@playwright/test';
+import { test, Page } from '@playwright/test';
+
+class HomePage {
+  constructor(private readonly page: Page) {}
+
+  async clickOnElement() {
+    const element = this.page.locator('#element-id');
+    await element.click();
+  }
+}
+
+export class HomePageTests extends Page {
+  async testExample() {
+    // Use your newly created page object to interact with the page and perform tests.
+    const homePage = new HomePage(this);
+    await homePage.clickOnElement();
+    await expect(this.locator('#result-id')).toBeVisible();
+  }
+}
+```
+
+### Making a new Test File
+
+To create a new test file, do the following:
+
+1. Create a new folder called "tests" if it doesn't exist already in your project root directory.
+2. Create a new file for your test inside this folder.
+3. Make sure the filename is related to the page you are testing (e.g., `home-page-test.ts`).
+4. Import the page object class and other necessary classes from playwright or your project.
+5. Extend the `Page` class with your new test class, and create a new method for each test case.
+6. Use the methods from your page object class in these test methods to perform interactions and assertions on the page.
+
+```typescript
+import { test } from '@playwright/test';
+import { HomePage } from './pages/home-page';
+
+class HomePageTests extends Page {
+  @test('Test example')
+  async testExample() {
+    // Use your newly created page object to interact with the page and perform tests.
+    const homePage = new HomePage(this);
+    await homePage.clickOnElement();
+    await expect(this.locator('#result-id')).toBeVisible();
+  }
+}
+```
+
+After writing your test, you can run it with the command `yarn test`.

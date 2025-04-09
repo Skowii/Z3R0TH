@@ -1,0 +1,12 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_03-54-10
+
+Contributing to freqtrade:
+- Create PRs against the `develop` branch
+- New features must have unit tests, conform to PEP8, and be documented
+- Discuss feature implementation on Discord or in issues before creating a PR
+- Before sending a PR, run unit tests, check for PEP8 compliance, and ensure type-hints are correct
+- Core committers prioritize pull requests based on urgency and importance
+- Be welcoming to new contributors and follow the Python Community Code of Conduct
+
+# TAGS: Contributing, freqtrade, pull requests, unit tests, PEP8 compliance, type-hints, formatting, core committers, pull request prioritization, issue management, code changes, cross-platform compatibility, malicious code, feature versions, welcoming new contributors

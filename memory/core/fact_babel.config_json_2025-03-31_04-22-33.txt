@@ -1,0 +1,17 @@
+# SOURCE: babel.config.json
+# TIME: 2025-03-31_04-22-33
+
+The given configuration sets public class fields, enables the use of plugins like "@babel/plugin-transform-typescript", and ignores files with .d.ts extensions. Plugins include "@babel/plugin-transform-export-namespace-from", "@babel/plugin-transform-class-properties", "@babel/plugin-transform-logical-assignment-operators", "@babel/plugin-transform-nullish-coalescing-operator", "@babel/plugin-transform-optional-chaining", and "@babel/plugin-transform-modules-commonjs".
+
+# TAGS: Key Concepts:
+1. plugins
+2. setPublicClassFields
+3. allowDeclareFields
+4. transform-typescript
+5. export-namespace-from
+6. class-properties
+7. logical-assignment-operators
+8. nullish-coalescing-operator
+9. optional-chaining
+10. modules-commonjs
+11. ignore

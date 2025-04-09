@@ -1,0 +1,1 @@
+Get the current URL in JavaScript using `Window.location.href`. This property returns the current URL as a string, making it easy to access and manipulate. Example: `const currentURL = () => window.location.href; currentURL(); // 'https://www.google.com/'`

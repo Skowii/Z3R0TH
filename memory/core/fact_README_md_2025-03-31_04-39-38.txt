@@ -1,0 +1,12 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_04-39-38
+
+Workflow automation platform for technical teams; 400+ integrations, native AI capabilities, fair-code license, self-hosting option, enterprise-ready with advanced permissions, SSO, air-gapped deployments, active community; quick start using npx or Docker; support available through community forum; available under the fair-code and n8n Enterprise licenses.
+
+# TAGS: Key concepts: Workflow automation, technical teams, no-code, AI capabilities, self-hosting, enterprise-ready, active community, integrations, templates, deployment, Docker, Node.js, LangChain, SSO, fair-code license, tutorials, support, licenses, contributing, job opportunities, nodemation
+
+Keywords: n8n, technical teams, workflow automation, no-code, AI capabilities, self-hosting, enterprise-ready, active community, integrations, templates, deployment, Docker, Node.js, LangChain, SSO, fair-code license, tutorials, support, licenses, contributing, job opportunities, nodemation
+
+People: Jan Oberhauser (Founder and CEO)
+
+Dates: Not mentioned

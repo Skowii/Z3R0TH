@@ -1,0 +1,60 @@
+# SOURCE: llm.md
+# TIME: 2025-03-31_08-54-37
+
+AI Large Language Model Blocks
+
+# TAGS: o an LLM for interpretation and response, and returns structured conversation history.
+
+### How it works
+The block iterates through each message in the conversation history, sending each message to the chosen LLM along with other parameters. After receiving the AI's response, the block adds the response to the conversation history and continues with the next message until reaching the end of the conversation.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Messages | A list of conversation messages to be processed by the LLM |
+| Model | The specific LLM to use for conversation interpretation and response |
+| API Key | The secret key for accessing the LLM service |
+| System Prompt | An optional prompt to guide the LLM's behavior |
+| Retry | Number of attempts to generate a valid response |
+| Conversation History | (Optional) A starting conversation history to be used with the given input messages |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Response | The final structured conversation history, including AI responses |
+| Error | Any error message if the process fails |
+
+### Possible use case
+Simulating human-like conversations with AI, such as in chatbot applications or customer support systems.
+
+---
+
+## AI Question Answerer
+
+### What it is
+A block that answers specific questions using a Large Language Model (LLM).
+
+### What it does
+It takes a list of question and answer pairs, sends them to an LLM, and returns the structured response.
+
+### How it works
+The block iterates through each question in the list, sends the question to the chosen LLM along with other parameters, receives the AI's response, compares the response to the given answer, and stores the result. If the response matches the expected answer, the result is marked as correct. Otherwise, it continues with the next question until reaching the end of the list.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Questions | A list of question-answer pairs to be processed by the LLM |
+| Model | The specific LLM to use for question answering |
+| API Key | The secret key for accessing the LLM service |
+| System Prompt | An optional prompt to guide the LLM's behavior |
+| Retry | Number of attempts to generate a valid response |
+| Expected Answer Format | A dictionary specifying the structure of the expected answer format |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Response | The final list of question-answer pairs, with correct answers highlighted |
+| Error | Any error message if the process fails |
+
+### Possible use case
+Automating the process of answering frequently asked questions in FAQ sections or knowledge bases.

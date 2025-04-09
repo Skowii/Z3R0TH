@@ -1,0 +1,30 @@
+# SOURCE: 2020_03_03_feature_coverage_in_api.md
+# TIME: 2025-03-31_05-59-06
+
+Context and Problem Statement: We want our API to cover all the functionalities that are currently implemented in the UI.
+
+Decision Drivers: 
+1. All the functionalities implemented for API should be tested
+2. Tracking whether a feature has been covered in the API or not should be easy
+
+Considered Options:
+1. Using Behat for the feature coverage
+2. Using PHPUnit for the feature coverage
+
+Decision Outcome: Chosen *Using Behat for the feature coverage*, because it meets all the decision drivers criteria and will gradually add `@api` tag to scenarios and implement a testing tool in Behat contexts.
+
+# TAGS: # Feature Coverage in API
+- Status: Accepted
+- Date: 2020-03-03
+
+Context and Problem Statement: We want our API to cover all the functionalities that are currently implemented in the UI.
+
+Decision Drivers:
+1. All the functionalities implemented for API should be tested.
+2. Tracking whether a feature has been covered in the API or not should be easy.
+
+Considered Options:
+1. Using Behat for the feature coverage
+2. Using PHPUnit for the feature coverage
+
+Decision Outcome: Chosen *Using Behat for the feature coverage*, because it's the only option, that meets all the decision drivers criteria. We will gradually add `@api` tag to the scenarios currently tagged with `@ui` and then implement the API contexts. As a consequence, we will have to create a testing tool to use it in Behat contexts.

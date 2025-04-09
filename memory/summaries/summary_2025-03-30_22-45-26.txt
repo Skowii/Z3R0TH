@@ -1,0 +1,1 @@
+View a visual graph of the Git repository using a single command, `git log --pretty=oneline --graph --decorate --all`. This displays a visual representation of all commits and branches in the repository. Use arrow keys to navigate or press Q to exit.

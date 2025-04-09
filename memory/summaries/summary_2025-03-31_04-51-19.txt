@@ -1,0 +1,9 @@
+The Event Aggregator is a structural design pattern that allows multiple entities to share events without the need for direct interaction between each of them. It serves as a central source of events for many objects, allowing them to register and receive notifications of various occurrences. This simplifies the process of subscribing to and unsubscribing from different events across numerous components.
+
+In a concrete example, King Joffrey listens to events from Yad al-Malik (the King's Hand), who has several advisors providing him with important information. The Event Aggregator acts as an intermediary, collecting these events from multiple sources and delivering them to subscribed listeners like King Joffrey.
+
+In a programming example, the EventObserver interface is implemented by the KingJoffrey class, which is notified of any received event. Similarly, the EventEmitter abstract class serves as a base for the KingsHand class that acts as an Event Aggregator, maintaining a map of events and observers registered to those events.
+
+For example, Lord Varys discovers a traitor every Saturday and notifies the KingsHand by sending the "TRAITOR_DETECTED" event. The same principle applies to other events like STARK_SIGHTED, WARSHIPS_APPROACHING, and WHITE_WALKERS_SIGHTED.
+
+To connect and configure the different entities, their respective classes are instantiated and registered with each other through the EventAggregator interface. For example, Lord Varys registers to notify the KingsHand about TRAITOR_DETECTED and WHITE_WALKERS_SIGHTED events, while King Joffrey subscribes to all these events.

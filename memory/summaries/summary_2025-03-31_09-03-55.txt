@@ -1,0 +1,1 @@
+The code computes cosine similarity between two sentences using the SentenceTransformer and "all-MiniLM-L6-v2" model. The input texts include a dog barking, eating pizza, and devouring pizza pie scenarios. Cosine similarities are computed between various pairs of text embeddings, such as between two dog barks or between two types of pizza consumption.

@@ -1,0 +1,1 @@
+This module provides the main window for RP Renamer with a UI using PyQt5 and contains the `Window` class, which is a QWidget subclass that sets up the user interface and connects signals to slots. The window allows users to load files to rename, configure the prefix, and initiate renaming through a threaded process.

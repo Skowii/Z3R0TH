@@ -1,0 +1,18 @@
+# SOURCE: challenge_b.md
+# TIME: 2025-03-31_09-20-38
+
+Task: Find names, university affiliation, and prize for Nobel Prize winners in Physics in 2010
+
+Status: Beaten
+
+Command: pytest -s tests/challenges/information_retrieval/test_information_retrieval_challenge_b.py
+
+Description: The agent needs to find the names of individuals, their university affiliation, and the prize they won for Physics in 2010. They should save the results in a file named "2010_nobel_prize_winners.txt". The task is designed to be beaten consistently.
+
+Objective: Test the agent's ability to retrieve multiple related pieces of information consistently without using external sources like Google, as the answer should already be known.
+
+# TAGS: - Information Retrieval Challenge B
+- Keywords: nobel prize, physics, 2010 winners, affiliated university
+- People/Entities: Nobel Prize Winners for Physics in 2010
+- Objective: retrieve information consistently, beat the test
+- Command: pytest -s tests/challenges/information_retrieval/test_information_retrieval_challenge_b.py

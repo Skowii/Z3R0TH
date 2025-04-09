@@ -1,0 +1,5 @@
+The Chain of Responsibility pattern is a behavioral design pattern used in Java that separates the sender of a request from its receivers by providing multiple objects with an opportunity to handle the request. This pattern connects receiving objects in a chain, and the request moves along the chain until an object takes responsibility for it.
+
+A real-world example using this pattern is a technical support call center where calls are passed through various levels of support until reaching someone capable of resolving the issue. Each level in the support chain acts as a handler in the chain of responsibility, ensuring that each request finds a suitable handler within the system.
+
+In summary, the Chain of Responsibility pattern is a design pattern in Java that decouples the sender and receiver of requests by allowing multiple objects to handle them in a chain. This pattern is useful for handling complex or varied tasks by enabling requests to be passed through different handlers until a suitable one is found.

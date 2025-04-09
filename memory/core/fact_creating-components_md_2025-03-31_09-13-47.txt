@@ -1,0 +1,134 @@
+# SOURCE: creating-components.md
+# TIME: 2025-03-31_09-13-47
+
+parand 
+        es to work with it
+        parameters={
+            "question": JSONSchema(
+                type=JSONSchema.Type.STRING,
+                description="The question or prompt to the user",
+                required=True,
+            )
+        },
+    )
+    def ask_user(self, question: str) -> str:
+        """If you need more details or information regarding the given goals,
+        you can ask the user for input."""
+        print(f"\nQ: {question}")
+        resp = input("A:")
+        return f"The user's answer: '{resp}'"
+
+    # 2.
+    def ask_user(self, question: str) -> str:
+        """If you need more details or information regarding the given goals,
+        you can ask the user for input."""
+        print(f"\nQ: {question}")
+        resp = input("A:")
+        return f"The user's answer: '{resp}'"
+```
+
+# TAGS: yield Command(
+            "multiply",
+            "Multiply two numbers",
+            "Multiply a and b, return result"
+        )
+```
+
+This component provides a `multiply` command to be used by the agent. It takes two numbers as input and returns their product.
+
+```py
+class MyAgent(Agent):
+    self.multiplicator_component = MultiplicatorComponent()
+    
+def handle_command(self, command: str) -> Any:
+    if command == "multiply":
+        a, b = eval(input("Enter two numbers: "))
+        return self.multiplicator_component.multiply(a, b)
+```
+
+In the agent class, you handle the `multiply` command by getting input from user, evaluating it and passing it to the component's multiply function, then returning the result.
+
+!!! note
+    Currently, there is no support for validation or type checking of parameters passed to commands in components. The API may change in future versions.
+
+Now when you run the agent, you can use the `multiply` command:
+
+```
+Agent: What should I do?
+User: multiply 3 5
+Agent: 15
+```
+
+# Creating Agents
+
+To create an agent, you need to inherit from `Agent` and implement one or more protocols. These protocols allow the agent to interact with different components.
+
+## Basic Agent Example
+
+Here's a simple example of an agent that implements the `MessageProvider` protocol:
+
+```py
+class MyAgent(Agent):
+    self.hello_component = HelloComponent()
+    
+    def get_messages(self) -> Iterator[ChatMessage]:
+        yield from self.hello_component.get_messages()
+```
+
+In this example, the agent inherits from `Agent` and has a component named `HelloComponent`. The agent will call `get_messages` on its `hello_component`, which in turn will yield messages to be displayed in the prompt.
+
+## Implementing additional protocols
+
+To make your agent more capable, you can implement additional protocols such as `CommandProvider` or `EventProvider`:
+
+```py
+class MyAgent(Agent, CommandProvider):
+    def get_commands(self) -> Iterator[Command]:
+        yield Command(
+            "greet",
+            "Greet the user with a message",
+            "Print a greeting"
+        )
+        
+    def handle_command(self, command: str) -> None:
+        if command == "greet":
+            print("Hello!")
+```
+
+In this example, the agent has implemented `CommandProvider`, which provides a `get_commands` method that returns available commands. The `handle_command` method is called when an agent receives a specific command, and it must return an action to be performed. In this case, when "greet" command is received, the agent prints a greeting message.
+
+# Component Configuration
+
+To configure components, you can use a pydantic model to define your configuration class, inheriting from `BaseModel`. This allows you to load configuration from files and serialize/deserialize it easily for any agent.
+
+```py
+from typing import Optional
+from pydantic import BaseModel
+
+class UserGreeterConfiguration(BaseModel):
+    user_name: str = "World"  # default value can be set
+    greeting_message: str = "Hello,"
+
+class UserGreeterComponent(MessageProvider, ConfigurableComponent[UserGreeterConfiguration]):
+    def get_messages(self) -> Iterator[ChatMessage]:
+        if self.config.greeting_message:
+            yield ChatMessage.system(f"{self.config.greeting_message} {self.config.user_name}!")
+```
+
+In this example, `UserGreeterConfiguration` is a pydantic model used to configure the `UserGreeterComponent`. You can pass an instance of this configuration class when initializing your component or set its `config` property directly.
+
+To store sensitive information such as API keys in the configuration, you can use environment variables. For example:
+
+```py
+class MyAgent(Agent):
+    self.hello_component = HelloComponent()
+    
+    def get_messages(self) -> Iterator[ChatMessage]:
+        if "OPENAI_API_KEY" in os.environ:
+            api_key = os.environ["OPENAI_API_KEY"]
+            yield ChatMessage.system("Hello from a component with API key!")
+        else:
+            yield ChatMessage.system("Hello without API key.")
+```
+
+Here, the agent checks if an environment variable `OPENAI_API_KEY` is set and, if so, it yields a message displaying that the agent has an API key. Otherwise, it yields a message stating that there is no API key.

@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-55-28
+
+SyliusCurrencyBundle is a Symfony2 integration for Sylius Currency processing component which helps in managing currencies and conversions in an eCommerce solution. The bundle was created by Paweł Jędrzejewski and has active contributors. It uses the MIT license and has good documentation available on docs.sylius.com.
+
+# TAGS: SyliusCurrencyBundle, Symfony2, Sylius, Open Source eCommerce solution, API, documentation, contributing, following development, GitHub issues, MIT License, authors, Paweł Jędrzejewski

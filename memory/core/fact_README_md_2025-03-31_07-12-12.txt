@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-12-12
+
+SyliusAdminBundle is a bundle that includes the Sylius administration panel for an open-source eCommerce solution with powerful API and high-quality code. It is built from decoupled components, and its documentation can be found on docs.sylius.com. This bundle was originally created by Paweł Jędrzejewski and has contributors listed at github.com/Sylius/Sylius/contributors.
+
+# TAGS: Sylius, SyliusAdminBundle, eCommerce solution, API, Open Source, Sylius.com, documentation, docs.sylius.com, contributing, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

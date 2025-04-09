@@ -1,0 +1,20 @@
+# SOURCE: program_as_list.py
+# TIME: 2025-03-31_02-43-41
+
+Evaluate a compressed program and its sub-programs using an accumulating stack to store evaluated values and the target type for each primitive.
+- Start with the outermost program (P) and sub-program (sub_program).
+- If P is a New or BasicPrimitive, evaluate it with the environment and target_type, then reverse the arguments and apply them in order to the evaluation result.
+- If P is a Variable, directly evaluate it using the dsl and environment.
+- If P is a Lambda, evaluate the lambda with the environment, then apply the argument to it.
+- For sub-programs, continue from the beginning of that program.
+- Continue until all programs have been evaluated, returning the final evaluation on the stack.
+
+Reconstruct a compressed program from a list using the target_type for each primitive.
+- If only one element is in the program_as_list, return it directly.
+- Otherwise, start at the end of the list and reconstruct the programs and their sub-programs, following the same process as the evaluation function.
+
+# TAGS: BasicPrimitive, Function, Lambda, New, Variable
+evaluation_from_compressed, reconstruct_from_compressed, list_from_compressed, reconstruct_from_list
+P, sub_program, target_type, dsl, environment
+
+No dates mentioned.

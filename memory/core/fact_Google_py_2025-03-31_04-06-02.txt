@@ -1,0 +1,11 @@
+# SOURCE: Google.py
+# TIME: 2025-03-31_04-06-02
+
+Summary: This code creates a service by authenticating with Google using the client_secret_file, api_name, and api_version. It first checks if there is an existing valid token in a pickle file and refreshes it if necessary. The function then builds a service with the provided credentials. If any error occurs, it returns None.
+
+Tags: #Authentication, #GoogleAPIClient, #BuildService, #PickleFile
+
+# TAGS: key concepts: pickle, os, google_auth_oauthlib.flow, Flow, InstalledAppFlow, googleapiclient.discovery, build, MediaFileUpload, MediaIoBaseDownload, Google, client_secret_file, api_name, api_version, scopes, CLIENT_SECRET_FILE, API_SERVICE_NAME, API_VERSION, SCOPES, credential, token file
+keywords: service creation, build, pickle.load/dump, refresh token, local server
+people: None
+dates: 1900-1 (RFC RFC_datetime)

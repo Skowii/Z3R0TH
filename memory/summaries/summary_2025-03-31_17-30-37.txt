@@ -1,0 +1,1 @@
+Share logs with AutoGPT to help improve it. Enable debug logs in the `./logs` folder by running the script with --debug option on Linux, macOS, or Windows. You can inspect and share logs via e2b.dev, signing in and uploading your own logs or viewing others'. Add custom tags with different severity levels to better organize logs.

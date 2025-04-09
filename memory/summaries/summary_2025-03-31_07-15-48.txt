@@ -1,0 +1,14 @@
+Título: Localidad de datos
+Categoría: Comportamiento
+Idioma: español
+Etiqueta: - Programación de juegos - Rendimiento
+
+Objetivo: Acelera el acceso a la memoria organizando los datos para aprovechar la caché de la CPU. Modernas CPU disponen de cachés para acelerar el acceso a la memoria, las cuales pueden acceder mucho más rápido a la memoria adyacente a la que se ha accedido recientemente. Aprovéchate de ello para mejorar el rendimiento aumentando la localidad de los datos, manteniéndolos en memoria contigua en el orden en que los procesas.
+
+Diagrama de clases: ![alt text](./etc/data-locality.urm.png "Data Locality pattern class diagram")
+
+Aplicabilidad: Como la mayoría de las optimizaciones, la primera pauta para usar el patrón Data Locality es cuando se tiene un problema de rendimiento. Con este patrón específicamente, también querrás estar seguro de que tus problemas de rendimiento son causados por pérdidas de caché.
+
+Ejemplo real del mundo: El motor de juego Artemis es uno de los primeros y más conocidos frameworks que utilizan IDs simples para las entidades del juego.
+
+Créditos: Game Programming Patterns Optimization Patterns: Data Locality

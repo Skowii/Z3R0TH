@@ -1,0 +1,30 @@
+# SOURCE: create-basic-agent.md
+# TIME: 2025-03-31_08-13-39
+
+Title: Creating a Basic AI Agent with AutoGPT
+
+Overview: This guide explains how to create a simple question-answer AI agent using AutoGPT's visual builder, which can be expanded into more complex agents.
+
+Example Agents:
+1. Q&A (with AI): Step-by-step instructions on setting up an AI-powered question and answer agent.
+2. Calculator (without AI): A simple calculator agent that does not require an AI model for calculations, focusing on input blocks, a calculator block, and output blocks.
+
+Components Required:
+1. Input Block
+2. AI Text Generator Block
+3. Output Block
+4. Calculator Block
+
+Steps to Create an Agent:
+1. Set up the basic structure: Add input, text generator (AI), or calculator block, and output blocks.
+2. Connect components: Ensure all relevant connections are made between the blocks.
+3. Configure block names.
+4. Save the agent configuration.
+5. Test the agent by entering inputs and observing the results in either "View More" or "Agent Outputs."
+
+Tips:
+- Always save your agent after making changes.
+- Verify all connections are properly made before running.
+- Use the "View More" option for detailed output information.
+
+# TAGS: AI agent, AutoGPT, visual builder, simple question-answer agent, Q&A agent, Input Block, AI Text Generator Block, Output Block, basic structure, connect components, configure block names, save agent, testing agent, example agent, calculator agent, Calculator Block, output block, Calculate Agent

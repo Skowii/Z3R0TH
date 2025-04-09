@@ -1,0 +1,5 @@
+Calculate the width of a browser's vertical scrollbar using JavaScript by following these steps:
+
+1. Get the window's inner width using `Window.innerWidth`.
+2. Get the document element's client width using `Element.clientWidth`.
+3. Subtract the two values to obtain the scrollbar width.

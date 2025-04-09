@@ -1,0 +1,1 @@
+To copy a file from one Git branch to another, use the command: `git checkout <branch> <pathspec>`. This can be used to copy multiple files at once by specifying pathspec. For example: `git checkout patch-2 git checkout patch-1 "30seconds.txt" #patch-2 now contains 30seconds.txt from patch-1`.

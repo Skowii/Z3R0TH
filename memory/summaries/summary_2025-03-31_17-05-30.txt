@@ -1,0 +1,1 @@
+SyliusPayumBundle is an integration for Payum with Sylius, an open-source eCommerce solution built with decoupled components and a powerful API. The bundle was originally created by Paweł Jędrzejewski, and contributions are welcome. Documentation is available on docs.sylius.com, and bug tracking occurs through GitHub issues.

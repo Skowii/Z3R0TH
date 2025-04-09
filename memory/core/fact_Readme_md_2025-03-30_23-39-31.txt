@@ -1,0 +1,8 @@
+# SOURCE: Readme.md
+# TIME: 2025-03-30_23-39-31
+
+InventoryPapa is a dropshipping automation tool that features multi-source inventory management, sales channel fields, routing order items to the best available inventory, order reconciliation, tracking, returns management, and reporting.
+
+# TAGS: Key Concepts: Dropshipping Automation, InventoryPapa, Product Multi-source Inventories, Sales Channel Fields, Route Order Item to Best Inventory, Order Reconciliation, Order Tracking, Returns Management, Reporting
+People: None mentioned
+Dates: None mentioned

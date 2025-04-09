@@ -1,0 +1,117 @@
+# SOURCE: dsl.py
+# TIME: 2025-03-31_02-16-19
+
+treated:
+                                continue
+                        # print("Adding primitive %s to non-terminal %s" % (P.primitive, current_type))
+                        rules[non_terminal][P] = decorated_arguments_P
+
+            else:
+                break
+
+        return rules
+    def generate_random_program(self, type_request):
+        self.instantiate_polymorphic_types()
+
+        if isinstance(type_request, Arrow):
+            return_type = type_request.returns()
+            args = type_request.arguments()
+        else:
+            return_type = type_request
+            args = []
+
+        non_terminal = encode_non_terminal(return_type, [], 0)
+        
+        rules = self.DSL_to_CFG(type_request)
+
+        if non_terminal in rules:
+            for primitive in rules[non_terminal]:
+                return [primitive] + rules[non_terminal][primitive]
+        else:
+            return []
+    def get_random_program(self, n):
+        programs = []
+        
+        while len(programs) < n:
+            type_request = random.choice(self.type_requests)
+            program = self.generate_random_program(type_request)
+            
+            if program != []:
+                programs.append(program)
+        return programs
+
+    def filter_by_size(self, size):
+        for i in range(len(self.list_primitives)):
+            P = self.list_primitives[i]
+            if len(P.body) > size:
+                del self.list_primitives[i]
+                continue
+            
+    def filter_by_probability(self, probability):
+        keep_indexes = []
+        for i in range(len(self.list_primitives)):
+            P = self.list_primitives[i]
+            if random.random() < probability:
+                keep_indexes.append(i)
+                
+        for index in sorted(keep_indexes, reverse=True):
+            del self.list_primitives[index]
+            
+    def filter_by_type(self, type_request):
+        
+        filtered_list = []
+        
+        for P in self.list_primitives:
+            if P.type == type_request:
+                filtered_list.append(P)
+                
+        self.list_primitives[:] = filtered_list
+            
+    def filter_by_termination(self):
+        for i in range(len(self.list_primitives)):
+            P = self.list_primitives[i]
+            if not P.is_terminating():
+                del self.list_primitives[i]
+                    continue
+            
+    def filter_by_no_repetitions(self):
+        for i in range(len(self.list_primitives)):
+            P = self.list_primitives[i]
+            if P.primitive in self.no_repetitions:
+                del self.list_primitives[i]
+                    continue
+            
+    def generate_random_program(self, type_request):
+        self.instantiate_polymorphic_types()
+
+        if isinstance(type_request, Arrow):
+            return_type = type_request.returns()
+            args = type_request.arguments()
+        else:
+            return_type = type_request
+            args = []
+
+        non_terminal = encode_non_terminal(return_type, [], 0)
+
+        
+        rules = self.DSL_to_CFG(type_request)
+
+        if non_terminal in rules:
+            for primitive in rules[non_terminal]:
+                return [primitive] + rules[non_terminal][primitive]
+        else:
+            return []
+    def get_random_program(self, n):
+        programs = []
+
+        while len(programs) < n:
+            type_request = random.choice(self.type_requests)
+            program = self.generate_random_program(type_request)
+            
+            if program != []:
+                programs.append(program)
+        
+        return programs
+
+# TAGS: key concepts: DSL, semantics, primitive types, no_repetitions, list_primitives, BasicPrimitive, New, primitive_types, return_types, all_type_requests, instantiate_polymorphic_types, upper_bound_type_size
+keywords: DSL, semantics, primitive_types, New, BasicPrimitive, list_primitives, return_types, all_type_requests, instantiate_polymorphic_types, upper_bound_type_size

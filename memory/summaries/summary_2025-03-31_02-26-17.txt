@@ -1,0 +1,1 @@
+In JavaScript, you can get the first or last date of a month using the `Date` object. To get the first date of a month, use `date.getFullYear()`, `date.getMonth()`, and set the day to `1`. For the last date of a month, use `date.getFullYear()`, `date.getMonth() + 1`, and set the day to `0`.

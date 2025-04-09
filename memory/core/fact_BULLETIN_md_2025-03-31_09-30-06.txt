@@ -1,0 +1,10 @@
+# SOURCE: BULLETIN.md
+# TIME: 2025-03-31_09-30-06
+
+Summary: Autogpt, an AI system, released version 0.5.0 which includes cloud readiness, a new UI, support for the newest Agent Protocol version, and many other updates. The official website is https://agpt.co, user guide is at https://docs.agpt.co/autogpt, contributors wiki is available on https://github.com/Significant-Gravitas/AutoGPT/wiki/Contributing. The release notes can be found on Github: https://github.com/Significant-Gravitas/AutoGPT/releases.
+
+# TAGS: - Official Website: https://agpt.co
+- User Guide: https://docs.agpt.co/autogpt
+- Contributors Wiki: https://github.com/Significant-Gravitas/AutoGPT/wiki/Contributing
+- v0.5.0 Release Highlights: Cloud-readiness, new UI, support for Agent Protocol version, more
+- Release Notes on Github: https://github.com/Significant-Gravitas/AutoGPT/releases

@@ -1,0 +1,1 @@
+SyliusPromotionBundle is an open-source promotions engine for Symfony2 eCommerce applications. It is part of the Sylius project, which provides a decoupled components eCommerce solution with powerful API and high-quality code. Documentation can be found on docs.sylius.com and the MIT license is available at github.com/Sylius/Sylius/blob/master/LICENSE.

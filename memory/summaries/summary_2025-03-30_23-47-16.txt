@@ -1,0 +1,1 @@
+Iterate over object properties using `Object.keys()` and `Array.prototype.forEach()`. The callback should receive three arguments - the value, the key, and the object itself. Optionally, reverse the order of keys for iterating in reverse order by using `Array.prototype.reverse()`. Keep in mind that the original order may not be preserved as objects are unordered.

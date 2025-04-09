@@ -1,0 +1,1 @@
+The Auto-GPT Benchmark was executed with an agent commit from Significant-Gravitas on August 12, 2023. The benchmark metrics report a completion time of 40.13 seconds, but no successful tests were completed due to issues with the async def function and the lack of an async plugin installed.

@@ -1,0 +1,1 @@
+The Auto-GPT benchmark metrics were run with a completion time of August 12, 2023 at 03:46. The tests included in the benchmark are TestWriteFile, TestSearch, TestReadFile, and TestPlanCreation, all under the interface and content_gen categories. Difficulty levels varied, but no successful tests were recorded.

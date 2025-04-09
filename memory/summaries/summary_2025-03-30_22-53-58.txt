@@ -1,0 +1,1 @@
+Viewing a short summary of Git commits is useful when working with Git. The 'git log' command can be used for this purpose, and the option '--oneline' or its full form '--pretty=oneline --abbrev-commit' helps to show a short summary of all commits in a single line format. Using '--no-merges', merge commits can also be excluded from the output.

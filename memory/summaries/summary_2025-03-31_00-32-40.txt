@@ -1,0 +1,7 @@
+This information is about removing an element from the Document Object Model (DOM) using JavaScript. JavaScript plays a significant role in DOM manipulation, and this involves one of the frequent tasks developers encounter. Instead of directly deleting an element, it's crucial to access its parent node first, then use the Node.removeChild() method to remove it from there. This operation can be demonstrated with the following code snippet:
+
+```js
+const removeElement = el => el.parentNode.removeChild(el);
+removeElement(document.querySelector('#my-element'));
+// Removes #my-element from the DOM
+```

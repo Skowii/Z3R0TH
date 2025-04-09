@@ -1,0 +1,1 @@
+El patrón Observer es un diseño de software que permite que un objeto (sujeto) mantenga una lista de dependientes (observadores) y los actualice automáticamente cuando cambia su estado. La interfaz WeatherObserver se utiliza para notificar a observadores sobre cambios en la condición meteorológica, y el patrón se illustra con ejemplos prácticos de cómo funciona en la práctica.

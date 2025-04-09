@@ -1,0 +1,73 @@
+# SOURCE: layout_old.html
+# TIME: 2025-03-31_06-05-41
+
+{% extends "layout.html" %}
+
+{% block title %}{{ document.title }}{% endblock %}
+
+{% block extrahead %}
+    <link rel="stylesheet" href="/static/sphinx/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/sphinx/css/layout.css" type="text/css" />
+    <script src="/static/sphinx/js/jquery.min.js"></script>
+    <script src="/static/sphinx/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block header %}
+  {%- if title_image -%}
+    <div class="header">
+      <img src="{{ title_image }}" alt="{{ document.title }}" width="200" height="54" />
+    </div>
+  {%- endif -%}
+
+  <h1 id="sphinx-main-title">{{ document.title }}</h1>
+{% endblock %}
+
+{% block relbar1 %}{% endblock %}
+
+{% block content %}
+  {%- if sidebar1 %}
+    <div class="bodywrapper">
+      {{ sidebar1 }}
+      <div class="mainbody">
+        {{ document.content }}
+      </div>
+    </div>
+  {% else %}
+    <div class="bodywrapper">
+      <div class="mainbody">
+        {{ document.content }}
+      </div>
+    </div>
+  {%- endif %}
+{% endblock %}
+
+{% block sidebar2 %}{% endblock %}
+
+{% block relbar2 %}{% endblock %}
+
+{% block footer %}
+  <div class="footer">
+    {%- if show_copyright %}
+      {%- if hasdoc('copyright') %}
+        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+      {%- else %}
+        {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
+      {%- endif %}
+    {%- endif %}
+    {%- if last_updated %}
+      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+    {%- endif %}
+    {%- if show_sphinx %}
+      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+    {%- endif %}
+  </div>
+{% endblock %}
+
+# TAGS: basic/layout.html
+Master layout template for Sphinx themes.
+:copyright: Copyright 2007-2013 by the Sphinx team, see AUTHORS.
+:license: BSD, see LICENSE for details.
+relbar
+sidebar
+script
+css

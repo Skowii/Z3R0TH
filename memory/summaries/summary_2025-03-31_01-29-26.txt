@@ -1,0 +1,1 @@
+Calculate vertical offset: Calculate the distance between an element's top and document top using JavaScript. Use HTMLElement.offsetTop and HTMLElement.offsetParent properties and a while loop to traverse parents until the top of the document is reached. The function returns the total vertical offset.

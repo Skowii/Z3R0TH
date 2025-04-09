@@ -1,0 +1,20 @@
+# SOURCE: basic.md
+# TIME: 2025-03-31_08-40-09
+
+Summary:
+This repository includes basic operations blocks which can be used in various workflows. These include storing value, printing to console, finding in dictionary, agent input, agent output, adding to dictionary and list, as well as displaying notes. Each block is explained in detail with its functionality, inputs, outputs, and possible use cases.
+
+# TAGS: ption |
+|--------|-------------|
+| Value | The final result of the workflow |
+| Name | A name for the output field |
+| Description | An optional description of the output |
+| Format String | Optional string to format the input value |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Result | The formatted or unformatted input value, depending on the presence of a format string |
+
+### Possible use case
+Displaying a personalized greeting based on a user's name and preferences at the end of a recommendation workflow.

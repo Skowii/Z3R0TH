@@ -1,0 +1,8 @@
+To redirect a page from HTTP to HTTPS using JavaScript, follow these steps:
+1. Check the current protocol using `location.protocol`.
+2. If not already on HTTPS, replace the existing page with the HTTPS version by using `location.replace()` and appending the original URL without the protocol.
+3. Use `location.href.split('//')[1]` to get the remaining part of the URL (without the protocol).
+4. Replace the protocol in the original URL with "https://".
+5. Call the redirection function, which will replace the current page with the HTTPS version.
+
+This method ensures that the back button doesn't take you back to the HTTP page as it's replaced in history.

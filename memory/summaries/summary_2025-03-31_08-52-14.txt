@@ -1,0 +1,1 @@
+The RP Renamer GUI is a Python module that offers an interface for renaming files with .rp extension. This tool helps users to simplify the process of batch renaming these types of files, making it easier and more efficient.

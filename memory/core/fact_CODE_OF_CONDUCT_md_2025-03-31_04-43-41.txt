@@ -1,0 +1,12 @@
+# SOURCE: CODE_OF_CONDUCT.md
+# TIME: 2025-03-31_04-43-41
+
+The Contributor Covenant Code of Conduct is a pledge that aims to create a harassment-free environment in the project and community for everyone regardless of diverse personal attributes. This code defines acceptable behavior and the responsibilities of project maintainers in maintaining the standard of conduct within the community. Instances of unacceptable behavior can be reported, leading to an investigation and appropriate response. The code is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+
+# TAGS: Key concepts: Contributor Covenant Code of Conduct, pledge, harassment-free environment, participation, community, standards, unacceptable behavior, project maintainers, enforcement, scope, confidentiality, leadership
+
+Keywords: welcoming and inclusive language, respectful, gracefully accepting constructive criticism, professional setting, private information, inappropriate behavior, corrective action, representations, representation, project spaces, public spaces, enforcement policy
+
+People: Contributors, maintainers, project team
+
+Dates: N/A

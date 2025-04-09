@@ -1,0 +1,12 @@
+# SOURCE: challenge_a.md
+# TIME: 2025-03-31_09-21-26
+
+Task: Follow a series of instructions from text files, keeping track of the task ID.
+
+Files: Various instruction files (instructions_1.txt, instructions_2.txt, etc.)
+
+Objective: Complete each instruction and write the final task ID in the output.txt file.
+
+# TAGS: Status: Challenge Completed
+
+Keywords: Memory, Challenge, Follow-Instructions-GPT, Command, read_file, instructions_1.txt, File, Task ID, Objective

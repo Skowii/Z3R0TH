@@ -1,0 +1,6 @@
+# SOURCE: CODE_OF_CONDUCT.md
+# TIME: 2025-03-31_03-59-56
+
+Contributor Covenant Code of Conduct: Aiming for a harassment-free environment, this code sets standards and responsibilities. Unacceptable behavior includes sexual language, trolling, insults, harassment, or anything deemed inappropriate in a professional setting. Project maintainers are responsible for clarifying standards and taking corrective action. The scope applies within project spaces as well as public spaces where contributors represent the project or its community. Instances of abusive behavior can be reported to the project team for investigation and enforcement.
+
+# TAGS: contributor covenant, code of conduct, pledge, harassment-free experience, age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, sexual identity and orientation, welcoming and inclusive language, respectful, constructive criticism, professional setting, project maintainers, unacceptable behavior, representation, enforcement, reporter, investigation, confidentiality, good faith, adaptation

@@ -1,0 +1,151 @@
+# SOURCE: program.py
+# TIME: 2025-03-31_02-09-59
+
+AttributeError, IndexError, ValueError, OverflowError, TypeError:
+            return None
+
+    def is_constant(self):
+        return self.body.is_constant()
+
+    def count_constants(self):
+        return self.body.count_constants()
+
+    def derive_with_constants(self, constants):
+        return Lambda(self.body.derive_with_constants(constants), self.type, self.probability)
+
+class BasicType:
+    def __init__(self, type_name):
+        self.type_name = type_name
+
+    def is_constant(self):
+        return True
+
+    def count_constants(self):
+        return 0
+
+    def derive_with_constants(self, constants):
+        return self
+
+class NumberType(BasicType):
+    pass
+
+class BoolType(BasicType):
+    pass
+
+class FunctionType:
+    def __init__(self, domain_type, range_type):
+        self.domain_type = domain_type
+        self.range_type = range_type
+
+    def is_constant(self):
+        return self.domain_type.is_constant() and self.range_type.is_constant()
+
+    def count_constants(self):
+        return self.domain_type.count_constants() + self.range_type.count_constants()
+
+    def derive_with_constants(self, constants):
+        return FunctionType(self.domain_type.derive_with_constants(constants), self.range_type.derive_with_constants(constants))
+
+class Type:
+    def __init__(self, type_name):
+        self.type_name = type_name
+
+    def is_constant(self):
+        return True
+
+    def count_constants(self):
+        return 0
+
+    def derive_with_constants(self, constants):
+        return self
+
+class AnyType(Type):
+    pass
+
+class TypeError(Exception):
+    pass
+
+def index_of_first_non_constant(xs: list[Program]):
+    for i, x in enumerate(xs):
+        if not x.is_constant():
+            return i
+    return None
+
+def type_checking(xs: list[Program], types: list[Type]) -> list[int]:
+    n = len(xs)
+    assert len(types) == n
+    for i in range(n):
+        if not xs[i].type.is_constant():
+            raise TypeError("Expected constant type, got non-constant: {}".format(xs[i]))
+
+def index_of_non_constant(xs: list[Program]):
+    for i in range(len(xs)):
+        if not xs[i].is_constant():
+            return i
+    return None
+
+def program_to_str(program: Program) -> str:
+    if isinstance(program, BasicType):
+        return program.type_name
+    elif isinstance(program, NumberType):
+        return format(1)
+    elif isinstance(program, BoolType):
+        return "True" if program.type_name == "Bool" else "False"
+    elif isinstance(program, FunctionType):
+        domain_str = program_to_str(program.domain_type)
+        range_str = program_to_str(program.range_type)
+        return format(lambda x: range_str(x))
+    else:
+        raise TypeError("Invalid type encountered in program_to_str")
+
+def main():
+    # Test cases
+    # 1. Basic types are constants
+    for basic_type_name in ['Number', 'Bool']:
+        type = eval(basic_type_name)
+        assert type.is_constant()
+        assert type.count_constants() == 0
+
+    # 2. Function type with constant basic types is a constant
+    domain_type = NumberType('Number')
+    range_type = BoolType('Bool')
+    function_type = FunctionType(domain_type, range_type)
+    assert function_type.is_constant()
+    assert function_type.count_constants() == 0
+
+    # 3. Any type is a constant
+    any_type = AnyType('Any')
+    assert any_type.is_constant()
+    assert any_type.count_constants() == 0
+
+    # 4. Programs with constants are constants and have no non-constant index
+    assert Lambda(NumberType('Number'), BoolType('Bool')).is_constant()
+    assert not index_of_non_constant([Lambda(NumberType('Number'), BoolType('Bool'))])
+
+    # 5. Program to string for basic types returns a string representation of their type
+    assert program_to_str(NumberType('Number')) == '1'
+    assert program_to_str(BoolType('Bool')) == 'True' if True else 'False'
+
+    # 6. Type checking for lists of programs and types
+    x = Lambda(NumberType('Number'), BoolType('Bool'))
+    y = x + 10
+    z = x * 20
+    type_checking([x, y, z], [FunctionType(NumberType('Number'), BoolType('Bool')), NumberType('Number'), NumberType('Number')])
+
+if __name__ == '__main__':
+    main()
+
+# TAGS: ror, ValueError, OverflowError, TypeError):
+            return None
+
+    def type_check_naive(self, dsl, environment):
+        try:
+            result = index(environment, self.variable)
+            return self.type.__contains__(result)
+        except (AttributeError, IndexError, ValueError, OverflowError, TypeError):
+            return False
+    
+class Function(Program):
+    def __init__(self, function_name, arguments=[], type_=UnknownType(), probability={}):
+        self.function = function_name
+        self.arguments = list(

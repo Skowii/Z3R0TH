@@ -1,0 +1,1 @@
+Imports requests and uses an HTTPAdapter with a maximum of 2 retries for connecting to Github API. Creates a Session object with this adapter, and tries to get the API's main page. Catches RetryErrors and prints them if any. The code closes the session finally.

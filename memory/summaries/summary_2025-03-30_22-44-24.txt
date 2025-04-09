@@ -1,0 +1,1 @@
+To view the last Git commit, use the `git log` command followed by `-1`. This will display the commit hash, author, date, and commit message of the last commit. You can navigate through the history with arrow keys and exit using <kbd>Q</kbd>.

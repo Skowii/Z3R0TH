@@ -1,0 +1,1 @@
+Convert an integer to a Roman numeral in JavaScript using a lookup table and algorithm. Divide the input number by the values in the lookup table and add the corresponding Roman numeral to the result. The code snippet supports numbers between 1 and 3999, as that's the maximum value represented using standard Roman numerals (MMMCMXCIX).

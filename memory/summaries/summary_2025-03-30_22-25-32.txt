@@ -1,0 +1,1 @@
+This discusses setting up number-only inputs using plain HTML. The `inputmode="numeric"` attribute is used to ensure a mobile keyboard is numeric-only, while adding `pattern="[0-9]+"` constrains the input value. Either `type="text"` or `type="number"` can be chosen, with validation logic required for most browsers not validating numeric inputs.

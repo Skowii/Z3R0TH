@@ -1,0 +1,24 @@
+# SOURCE: plot_results_semantic.py
+# TIME: 2025-03-31_02-46-05
+
+dataset: dreamcoder_gen
+folder: ./results_semantics/dreamcoder
+cutoff_time: 101
+plot_max: False
+max_variables_per_task: 1
+
+data: {algo_name: [algo_data], ...}
+total_tasks: number of tasks
+processed_data: {algo_name: output_matrix, ...}
+
+Plot success wrt time
+
+# TAGS: dataset: dreamcoder
+folder: results_semantics/dreamcoder
+cutoff_time: 101
+plot_max: False
+max_variables_per_task: 1
+algorithms: algo_names
+total_tasks: total number of tasks
+processed_data: preprocessed data
+plots: mean_success, std_deviation, mean_time, all tasks completed

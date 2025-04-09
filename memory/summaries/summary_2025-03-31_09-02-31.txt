@@ -1,0 +1,1 @@
+This code defines a function called "compute_cosine_similarity" that computes the cosine similarity between two numpy arrays. It returns the dot product of the two vectors divided by the norms of the individual vectors.

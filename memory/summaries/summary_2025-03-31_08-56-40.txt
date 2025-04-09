@@ -1,0 +1,1 @@
+This Python module creates a graphical user interface (GUI) for the RP Renamer tool. The primary function of the GUI is to simplify and streamline the process of renaming files or directories, making it more accessible for users.

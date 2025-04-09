@@ -1,0 +1,1 @@
+Calculate the number of days in a month using JavaScript with the `Date.prototype.getDate()` method for a given year. By setting the days parameter to 0 and using zero-indexed months, you can determine the last day of the previous month and then find the number of days in the desired month.

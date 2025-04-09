@@ -1,0 +1,1 @@
+This content extends the jQuery function to make elements searchable based on an input value. The main functionality involves filtering items in the menu based on a regular expression generated from the input and displaying only relevant results.

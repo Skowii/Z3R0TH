@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-08-07
+
+Sylius, shipping component, eCommerce applications, flexible calculators engine, Symfony2, weight based, item count based, pricing, rules system, open source eCommerce solution, contributing, documentation, development, blog, Twitter, Facebook, GitHub issues, MIT License, Paweł Jędrzejewski, contributors
+
+# TAGS: Sylius, Symfony2, shipping component integration, eCommerce applications, flexible calculators engine, weight based, item count based, pricing, customizable rules system, SyliusShippingBundle, Sylius, decoupled components, powerful API, Open Source eCommerce solution, documentation, contributing, following development, GitHub issues, MIT License, Paweł Jędrzejewski

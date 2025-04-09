@@ -1,0 +1,1 @@
+This Python script serves as an entry point for the "RP Renamer" application, using the provided "rprename.app" module. When executed directly, it launches the main function of the program.

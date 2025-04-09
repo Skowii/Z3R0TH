@@ -1,0 +1,22 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-33-09
+
+Name: Sylius Review Bundle
+Type: Symfony Bundle
+Description: Review system for Symfony ecommerce applications.
+Keywords: review, shop, webshop, ecommerce, sylius
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Mateusz Zalewski, Grzegorz Sadowski, Daniel Richter, Sylius project, Community contributions
+Requirements: PHP 7.4 or 8.0, stof/doctrine-extensions-bundle, sylius/mailer-bundle, sylius/resource-bundle, sylius/review, sylius/user-bundle, symfony/framework-bundle
+Conflict: twig/twig 3.0
+Development Requirements: phpspec/phpspec, phpunit/phpunit, polishsymfonycommunity/symfony-mocker-container, symfony/browser-kit, symfony/dependency-injection, symfony/form, symfony/security-bundle, symfony/swiftmailer-bundle, symfony/validator
+Config: bin-dir -> bin
+Extra: branch-alias (dev-master => 1.9-dev)
+Autoload: psr-4 (Sylius\Bundle\ReviewBundle\)
+Autoload-dev: psr-4 (Sylius\Bundle\ReviewBundle\spec\\), classmap [test/app/AppKernel.php]
+Repositories: type path, url ../../*/*
+Minimum Stability: dev
+Prefer Stable: true
+
+# TAGS: sylius/review-bundle, symfony-bundle, review, shop, webshop, ecommerce, sylius, homepage: https://sylius.com, MIT license, authors, Paweł Jędrzejewski, Mateusz Zalewski, Grzegorz Sadowski, Daniel Richter, Sylius project, Community contributions, php^7.4 || ^8.0, stof/doctrine-extensions-bundle: ^1.4, sylius/mailer-bundle: ^1.4, sylius/resource-bundle: ^1.7, sylius/review: ^1.6, sylius/user-bundle: ^1.6, symfony/framework-bundle: ^4.4 || ^5.2, twig/twig: ^3.0, phpspec/phpspec: ^7.0, phpunit/phpunit: ^8.5, polishsymfonycommunity/symfony-mocker-container: ^1.0, symfony/browser-kit, symfony/dependency-injection, symfony/form, symfony/security-bundle, symfony/swiftmailer-bundle, symfony/validator, branch-alias: dev-master: "1.9-dev", autoload psr-4, autoload-dev psr-4, spec/, test/app/AppKernel.php, minimum-stability: dev, prefer-stable

@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-26-05
+
+SyliusApiBundle is an Open Source eCommerce solution with powerful API and the highest quality code, built by Paweł Jędrzejewski. It can be found on https://docs.sylius.com and uses MIT License. To contribute, follow instructions on https://docs.sylius.com/en/latest/contributing/index.html.
+
+# TAGS: Sylius, SyliusApiBundle, eCommerce, API, Open Source, decoupled components, Sylius.com, documentation, contributing, GitHub issues, MIT License, Paweł Jędrzejewski, contributors, testing, phpunit

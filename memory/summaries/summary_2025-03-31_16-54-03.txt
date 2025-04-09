@@ -1,0 +1,1 @@
+The file is part of the Sylius package and is copyrighted by Paweł Jędrzejewski. It contains jQuery extensions for moving taxon elements up or down using Semantic-UI CSS components API method PUT calls. On click, the position value is updated, and after successful request, the window is reloaded to reflect the changes.

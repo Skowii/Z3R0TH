@@ -1,0 +1,10 @@
+# SOURCE: .prettierrc.json
+# TIME: 2025-03-31_03-22-35
+
+Leveraging JSON format, the given object contains the following key-value pairs: 
+
+1. "semi": false: This means that semi-colons are not used to separate statements in the code.
+2. "trailingComma": "none": This indicates that there is no usage of a trailing comma (,) at the end of lines within the code.
+3. "singleQuote": true: It signifies that single quotes (' ') are utilized instead of double quotes (“ ”) for string literals in the code.
+
+# TAGS: Key Concepts: semi, trailingComma, singleQuote

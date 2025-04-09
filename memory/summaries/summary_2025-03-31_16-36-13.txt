@@ -1,0 +1,1 @@
+This is the master layout template for Sphinx themes. It includes basic HTML structure and provides blocks for content like titles, sidebar, script, and CSS files. The template can be customized to include related links, search options, sidebars with different templates, and various stylesheets and JavaScript scripts.

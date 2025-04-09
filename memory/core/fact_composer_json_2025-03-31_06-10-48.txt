@@ -1,0 +1,51 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-10-48
+
+Name: Sylius/Customer
+Type: Library
+Description: Customer handling for PHP applications
+Keywords: customer, groups
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Michał Marcinkowski, Łukasz Chruściel, Sylius project, Community contributions
+Requirements: php 7.4 or 8.0, doctrine/collections ^1.6, sylius/resource ^1.0
+Dev Requirements: phpspec/phpspec ^7.0
+Config: bin-dir
+Extra: branch-alias
+Autoload: psr-4
+Autoload-dev: psr-4
+Repositories: path, type
+Minimum Stability: dev
+Prefer Stable: true
+
+# TAGS: name: sylius/customer
+type: library
+description: Customer handling for PHP applications.
+keywords: customer, groups
+homepage: https://sylius.com
+license: MIT
+authors:
+  - Paweł Jędrzejewski
+  - Michał Marcinkowski
+  - Łukasz Chruściel
+  - Sylius project
+  - Community contributions
+require:
+  - php: ^7.4 || ^8.0
+  - doctrine/collections: ^1.6
+  - sylius/resource: ^1.0
+require-dev:
+  - phpspec/phpspec: ^7.0
+config:
+  - bin-dir: bin
+extra:
+  - branch-alias: dev-master: "1.9-dev"
+autoload:
+  - psr-4: { Sylius\Component\Customer\": "" }
+autoload-dev:
+  - psr-4: { Sylius\Component\Customer\spec\: "spec/" }
+repositories:
+  - type: path
+    url: "../../*/*"
+minimum-stability: dev
+prefer-stable: true

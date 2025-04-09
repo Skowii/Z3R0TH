@@ -1,0 +1,4 @@
+Determine if the current JavaScript environment is Node.js or a browser by checking for specific global objects:
+
+- For Node.js, use `process.versions.node`.
+- For browsers, check for the existence of `window` and `document` global objects using `typeof` operator.

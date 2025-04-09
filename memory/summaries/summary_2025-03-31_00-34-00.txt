@@ -1,0 +1,1 @@
+Using JavaScript `for` loops can be beneficial when you need to break out early. While array methods like `forEach()` cannot break out of a loop early, using a `for` loop with an early `return` allows for efficient execution and better performance in certain scenarios.

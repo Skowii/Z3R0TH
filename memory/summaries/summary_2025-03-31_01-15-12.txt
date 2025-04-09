@@ -1,0 +1,5 @@
+Transform object keys to upper or lower case using JavaScript:
+
+1. Use `Object.keys()` to obtain an array of the object's keys.
+2. Map the array to an object using either `String.prototype.toUpperCase()` for uppercase conversion or `String.prototype.toLowerCase()` for lowercase conversion. 
+3. Return the updated object with transformed key names.

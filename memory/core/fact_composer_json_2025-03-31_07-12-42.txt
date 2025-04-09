@@ -1,0 +1,28 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-12-42
+
+Name: sylius/inventory-bundle
+Type: symfony-bundle
+Description: Flexible inventory management for Symfony applications
+Keywords: shop, ecommerce, stock, inventory, sylius
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Requirements: php (^7.4 || ^8.0), sylius/inventory (^1.6), sylius/resource-bundle (^1.7), symfony/framework-bundle (^4.4 || ^5.2), symfony/templating (^4.4 || ^5.2), symfony/validator (^4.4 || ^5.2)
+Conflict: twig/twig (^1.0)
+Requirements Dev: doctrine/orm (^2.7), phpspec/phpspec (^7.0), phpunit/phpunit (^8.5), polishsymfonycommunity/symfony-mocker-container (^1.0), symfony/browser-kit (^4.4 || ^5.2), symfony/dependency-injection (^4.4 || ^5.2), twig/twig (^2.12)
+Config: bin-dir (bin)
+Extra: branch-alias (dev-master => 1.9-dev)
+Autoload psr-4: Sylius\Bundle\InventoryBundle\ (empty)
+Autoload dev psr-4: Sylius\Bundle\InventoryBundle\spec\ (spec/)
+Autoload dev classmap: test/app/AppKernel.php
+Repositories: path, type (path, url: ../../*/*)
+Minimum Stability: dev
+Prefer Stable: True
+
+# TAGS: Key Concepts: flexible inventory management, Symfony applications
+Keywords: shop, ecommerce, stock, inventory, sylius
+People: Paweł Jędrzejewski, Sylius project, Community contributions
+Dates: Not mentioned in the provided data
+Homepage: https://sylius.com
+License: MIT

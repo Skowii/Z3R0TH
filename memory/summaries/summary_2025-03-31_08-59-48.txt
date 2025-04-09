@@ -1,0 +1,1 @@
+The module provides a Renamer application using PyQt5, which creates a main window, shows it, and runs the event loop.

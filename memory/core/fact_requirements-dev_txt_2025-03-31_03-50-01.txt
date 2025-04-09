@@ -1,0 +1,56 @@
+# SOURCE: requirements-dev.txt
+# TIME: 2025-03-31_03-50-01
+
+To run the bot, you need to install all the required packages listed in the given requirements files:
+
+- requirements.txt
+- requirements-plot.txt
+- requirements-hyperopt.txt
+- requirements-freqai.txt
+- requirements-freqai-rl.txt
+- docs/requirements-docs.txt
+- coveralls==4.0.1
+- ruff==0.11.2
+- mypy==1.15.0
+- pre-commit==4.2.0
+- pytest==8.3.5
+- pytest-asyncio==0.25.3
+- pytest-cov==6.0.0
+- pytest-mock==3.14.0
+- pytest-random-order==1.1.1
+- pytest-timeout==2.3.1
+- pytest-xdist==3.6.1
+- isort==6.0.1
+- time-machine==2.16.0 (for datetime mocking)
+- nbconvert==7.16.6 (to convert Jupyter notebooks to markdown documents)
+
+Additionally, you need the following types for mypy:
+
+- types-cachetools==5.5.0.20240820
+- types-filelock==3.2.7
+- types-requests==2.32.0.20250306
+- types-tabulate==0.9.0.20241207
+- types-python-dateutil==2.9.0.20241206
+
+# TAGS: requirements
+python dependencies
+coveralls
+ruff
+mypy
+pre-commit
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+pytest-random-order
+pytest-timeout
+pytest-xdist
+isort
+time-machine
+nbconvert
+types
+cachetools
+filelock
+requests
+tabulate
+python-dateutil

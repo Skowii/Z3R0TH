@@ -1,0 +1,6 @@
+# SOURCE: CODE_OF_CONDUCT.md
+# TIME: 2025-03-30_23-45-20
+
+This is a Code of Conduct for the AutoGPT project on GitHub, aiming to create a positive and inclusive environment where all contributors can work effectively. The conduct applies to issues, pull requests, code reviews, comments, and other forms of communication within the project. Standards include respectful behavior, active seeking of diverse perspectives, providing constructive feedback, demonstrating empathy, and discouraging harassment or discrimination. Reporting violations should be done to maintainers, who will take appropriate action. Maintainers are responsible for enforcing the code.
+
+# TAGS: Code of Conduct for AutoGPT, purpose, scope, standards, reporting and enforcement, acknowledgements, contact

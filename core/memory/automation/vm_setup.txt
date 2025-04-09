@@ -1,0 +1,6 @@
+# Memory saved: 2025-04-05 23:10:56
+VBoxManage createvm --name Z3R0TH_SANDBOX --ostype Ubuntu_64 --register
+VBoxManage modifyvm Z3R0TH_SANDBOX --memory 2048 --vram 16 --nic1 nat
+# ISO attach and setup manually:
+# VBoxManage storagectl Z3R0TH_SANDBOX --name "SATA Controller" --add sata --controller IntelAhci
+# VBoxManage storageattach Z3R0TH_SANDBOX --storagectl "SATA Controller" --port 0 --device 0 --type dvddrive --medium /path/to/ubuntu.iso

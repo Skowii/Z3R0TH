@@ -1,0 +1,124 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_01-53-33
+
+debugger, but does not start the JVM or the tests as a standalone process. This command is useful for testing and debugging individual targets.
+
+When running the commands, you need to specify the package name as `seleniumhq/selenium-core`, then it will download dependencies for each command.
+
+Example:
+```shell
+./go build seleniumhq/selenium-core
+```
+
+The wrapper also provides shorthand for common commands like "clean", "test", and "build" which may be used instead of the full bazel command. For example, to run tests:
+```shell
+./go test seleniumhq/selenium-core
+```
+
+All these can be done in a Bazel workspace using `--workspace` flag or setting the environment variable `BAZEL_WORKSPACE`. By default, it is set to the root directory of your project.
+
+```shell
+./go build --workspace . seleniumhq/selenium-core
+```
+
+In case of an error in execution, please report issues on [GitHub](https://github.com/SeleniumHQ/selenium/issues) or seek help on [StackOverflow](https://stackoverflow.com/questions/tagged/selenium).
+
+# TAGS: pository and execute (paste):
+```powershell
+git clone https://github.com/SeleniumHQ/selenium && cd selenium
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/SeleniumHQ/selenium/main/scripts/win_install.sh)"
+```
+4. The script will install all necessary software, including the Java JDK and Bazelisk. It may ask for your input or administrator access; follow the instructions as prompted.
+5. After completion, reopen Powershell to ensure the environment is fully setup correctly.
+</details>
+
+## Building
+
+To build Selenium, you can use `bazel build` to generate the desired artifacts. For example:
+
+```shell
+bazel build --verbose //:selenium-server:test-javascript
+```
+
+This command will download any dependencies and perform any required processing before building the desired target (in this case, the Selenium Server with Javascript testing support).
+
+To build all targets in a single command, you can run:
+
+```shell
+bazel build --verbose //...:all
+```
+
+The `--verbose` flag enables more detailed output to show progress.
+
+## Developing
+
+To develop Selenium, create or edit source files and then use the following command to compile them:
+
+```shell
+bazel build --verbose //:selenium-server:test-javascript
+```
+
+This command will ensure that your changes are reflected in the built artifact. If you need to clean up any intermediate files or dependencies, run:
+
+```shell
+bazel clean
+```
+
+If you make substantial changes and want to check that everything still builds correctly, run:
+
+```shell
+bazel build --verbose //...:all
+```
+
+## Testing
+
+To run tests for a specific target, you can use the following command:
+
+```shell
+bazel test //:selenium-server:test-javascript
+```
+
+This command will execute the unit tests and integration tests defined within the specified target. To run all available tests, use:
+
+```shell
+bazel test --verbose //...:all
+```
+
+The `--verbose` flag provides detailed output to show progress.
+
+## Documenting
+
+Selenium uses [Javadoc](https://www.oracle.com/java/technologies/javadoc/) for generating API documentation and
+[Doxygen](http://www.doxygen.org/) for generating other documentation formats.
+To generate the Javadoc, run:
+
+```shell
+mvn javadoc:jar
+```
+
+This command will create a file named `target/site/apidocs/index.html`, which can be viewed in your web browser. To
+generate all documentation formats, including HTML, LaTeX, RTF, and others, run Doxygen with the following command:
+
+```shell
+doxygen Doxyfile
+```
+
+This command will create all documentation files within `doc/html`, which can also be viewed in your web browser.
+
+## Releasing
+
+To release a new version of Selenium, follow these steps:
+
+1. Update the version numbers in `pom.xml`. This is important because it affects what versions are built and what version is considered "stable".
+2. Update `CHANGELOG.md` to describe the changes in this release.
+3. Commit your changes with a message like "Bump version, prepare for vX.Y.Z" and push them to your remote repository.
+4. Open a pull request for review by the core team. Once approved, merge it into master.
+5. Tag the release with the version number: `git tag -a X.Y.Z -m "Version X.Y.Z"`
+6. Push the tags to your remote repository: `git push origin X.Y.Z`
+7. Selenium Server and Language Bindings packages can be built using our CI/CD pipeline once the tag has been pushed. The pipeline will create artifacts and deploy them to our download server.
+
+## Troubleshooting
+
+If you encounter issues while building or running Selenium, refer to the [Troubleshooting Guide](https://www.selenium.dev/documentation/troubleshooting) for common problems and solutions.
+
+Please report any bugs or issues to our issue tracker on GitHub: https://github.com/SeleniumHQ/selenium/issues.

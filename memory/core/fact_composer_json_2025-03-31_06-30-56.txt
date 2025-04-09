@@ -1,0 +1,21 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-30-56
+
+Summary: Sylius/Currency is a PHP library that handles currency management for applications. It is used to process and display cash, money, currencies, and financial transactions. The library requires PHP version 7.4 or 8.0 and other dependencies such as Symfony/Intl, Laminas/Laminas-Stdlib, and Sylius/Resource. The project homepage is https://sylius.com, and it follows the MIT license. Various authors have contributed to this library, including Paweł Jędrzejewski, the Sylius project, and community members.
+
+# TAGS: name: sylius/currency
+type: library
+description: Currency handling for PHP applications
+keywords: cash, currency, money, currencies
+homepage: https://sylius.com
+license: MIT
+authors: Paweł Jędrzejewski, Sylius project, Community contributions
+require: php ^7.4 || ^8.0, sylius/resource ^1.7, symfony/intl ^4.4 || ^5.2, laminas/laminas-stdlib ^3.2
+require-dev: phpspec/phpspec ^7.0
+config: bin-dir
+extra: branch-alias dev-master 1.9-dev
+autoload: psr-4 Sylius\\Component\\Currency\\
+autoload-dev: psr-4 Sylius\\Component\\Currency\\spec\\
+repositories: path type url ../../*/*
+minimum-stability: dev
+prefer-stable: true

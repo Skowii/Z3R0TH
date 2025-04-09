@@ -1,0 +1,1 @@
+Converts a stereo WAV file by widening the stereo field, takes input and output paths as arguments, and sets a default strength of 1.0. If only one channel is present in the input file, an error message is displayed.

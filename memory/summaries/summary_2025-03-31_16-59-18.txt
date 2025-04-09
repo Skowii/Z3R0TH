@@ -1,0 +1,1 @@
+This file is part of the Sylius package and provides code related to extending jQuery functions for API toggling. The function extends $.fn with apiToggle, which allows for handling visible elements based on API responses. The method, dataType, throttle, debug, beforeSend, successTest parameters determine how the API call is made and what actions to take on success or failure.

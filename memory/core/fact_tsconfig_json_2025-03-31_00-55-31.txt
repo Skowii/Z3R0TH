@@ -1,0 +1,15 @@
+# SOURCE: tsconfig.json
+# TIME: 2025-03-31_00-55-31
+
+Compiler options for a TypeScript project:
+- Use the ES2022 library
+- Module set to CommonJS
+- Target ES2022 version
+- Enable strict mode, esModuleInterop and skipLibCheck
+- Enforce consistent casing in file names
+- Set module resolution to 'node'
+- Disable unused labels, allow unreachable code, fallthrough cases, no implicit returns, unchecked indexed access, unused parameters, property access from index signatures, and unused locals
+- No implicit overrides or Javascript checks
+- Exclude node_modules from compilation
+
+# TAGS: compilerOptions, lib, module, target, strict, esModuleInterop, skipLibCheck, forceConsistentCasingInFileNames, moduleResolution, allowUnusedLabels, allowUnreachableCode, noFallthroughCasesInSwitch, noImplicitReturns, noUncheckedIndexedAccess, noUnusedParameters, exactOptionalPropertyTypes, resolveJsonModule, noPropertyAccessFromIndexSignature, noUnusedLocals, noImplicitOverride, checkJs, exclude

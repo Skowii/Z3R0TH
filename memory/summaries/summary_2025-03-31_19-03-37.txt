@@ -1,0 +1,1 @@
+The content is about an AI benchmarking report for various tasks including reading, writing, planning and searching. It mentions different test categories such as interface, safety, content generation, and memory with varying levels of difficulty and success.

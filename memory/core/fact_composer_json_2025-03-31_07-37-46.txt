@@ -1,0 +1,33 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-37-46
+
+The Sylius Locale Bundle is a Symfony bundle that manages locales for Symfony projects. It focuses on language, localization, locale handling, and internationalization. This bundle requires PHP version 7.4 or 8.0 and other required dependencies include Sylius/Locale, Symfony/FrameworkBundle, and Symfony/Templating. The project has a MIT license and is developed by Paweł Jędrzejewski and the Sylius project with contributions from the community. It conflicts with Twig/Twig version 1.0 and has additional dependencies for testing purposes.
+
+# TAGS: sylius/locale-bundle
+symfony-bundle
+locales management for symfony projects
+language, localization, locale, i18n, internationalization
+sylius.com
+MIT
+Paweł Jędrzejewski
+pjedrzejewski.com
+Sylius project
+https://sylius.com
+Community contributions
+https://github.com/Sylius/Sylius/contributors
+php 7.4, 8.0
+sylius/locale: ^1.6
+sylius/resource-bundle: ^1.7
+symfony/framework-bundle: ^4.4 || ^5.2
+symfony/templating: ^4.4 || ^5.2
+twig/twig: ^1.0
+doctrine/orm: ^2.7
+ocramius/proxy-manager: ^2.2
+phpspec/phpspec: ^7.0
+phpunit/phpunit: ^8.5
+polishsymfonycommunity/symfony-mocker-container: ^1.0
+symfony/browser-kit: ^4.4 || ^5.2
+symfony/dependency-injection: ^4.4 || ^5.2
+twig/twig: ^2.12
+branch-alias, dev-master: 1.9-dev
+Sylius\\Bundle\\LocaleBundle\\, Sylius\\Bundle\\LocaleBundle\\spec\\

@@ -1,0 +1,3 @@
+Title: Modeling money, currencies & exchange rates using JavaScript
+
+Summary: This article provides a deep dive into modeling money, currencies, and exchange rates using JavaScript with the help of Intl library. The process starts by structuring currency with Intl.NumberFormat, setting up currency information through Intl.supportedValuesOf for ISO 4217 codes, and creating an object for all currencies that formats values on demand. Retrieving currency objects is done using Map.prototype.get() to ensure the correct currency code matches the key. The example demonstrates formatting a number into a currency string.

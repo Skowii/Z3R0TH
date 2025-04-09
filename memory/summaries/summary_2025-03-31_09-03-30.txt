@@ -1,0 +1,1 @@
+This code builds a ChromaDB collection using a given path and inputs such as embedding function, document ids, and metadata. The function iterates through the documents in batches of 166 and adds them to the collection with their respective IDs and metadatas.

@@ -1,0 +1,7 @@
+# SOURCE: email_block.md
+# TIME: 2025-03-31_08-51-37
+
+Title: Send Email
+Summary: The Send Email block is used to send an email using SMTP credentials, allowing users to customize the recipient's email address, subject, body, and SMTP server details. This block can be utilized in various applications such as customer support systems or automation processes.
+
+# TAGS: SMTP, Simple Mail Transfer Protocol, Send Email block, inputs, outputs, SMTP credentials, Subject, Body, To Email, Status, Error, use case, customer support system

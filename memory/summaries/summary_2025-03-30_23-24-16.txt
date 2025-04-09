@@ -1,0 +1,12 @@
+This Python script calculates the day, month, or year difference between two dates. It uses `datetime.timedelta.days` and `math.ceil()` to find the differences in days, months, or years:
+
+```python
+def days_diff(start, end): return (end - start).days
+def months_diff(start, end): return ceil((end - start).days / 30)
+def years_diff(start, end): return ceil((end - start).days / 365)
+```
+
+For example:
+- days_diff(date(2020, 10, 25), date(2020, 10, 28)) returns 3
+- months_diff(date(2020, 10, 25), date(2020, 11, 25)) returns 1
+- years_diff(date(2020, 10, 25), date(2021, 10, 25)) returns 1

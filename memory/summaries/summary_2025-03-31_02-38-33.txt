@@ -1,0 +1,1 @@
+Indent a JavaScript string by specifying the number of spaces or custom indentation character using String.prototype.replace() and a regular expression with ^ anchor and m flag for matching start of each line. Optionally, use count and indent parameters to customize the process. Example: `indentString('Lorem\nIpsum', 2); // '  Lorem\n  Ipsum'`.

@@ -1,0 +1,1 @@
+Display a menu overlay when the user hovers over an image using HTML and CSS techniques, including adjusting the `opacity` and `right` attributes for sliding effect, setting the `left` attribute for menu visibility, and using `display`, `flex-direction`, and `justify-content` to vertically center the menu items. Visit the provided codepen link for a practical example.

@@ -1,0 +1,6 @@
+# SOURCE: package.json
+# TIME: 2025-03-31_03-13-29
+
+The given knowledge is a configuration file for a headless dropshipping starter project, written in Next.js. The project is private and uses the following scripts: dev, build, start, and lint. The author of the project is Jamie Barton from notrab.dev. It has dependencies on various libraries including TailwindCSS and React, as well as devDependencies such as ESLint, Prettier, and TypeScript for development purposes.
+
+# TAGS: headless-dropshipping-starter, author: Jamie Barton, scripts (dev, build, start, lint), depenencies, devDependencies, TailwindCSS, NextJS, React

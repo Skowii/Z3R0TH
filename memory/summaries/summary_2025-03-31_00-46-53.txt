@@ -1,0 +1,1 @@
+Aborting a fetch request in JavaScript involves using the Fetch API's `signal` option with an instance of `AbortController`. To cancel the request, use `AbortController.abort()`. This is useful for scenarios where a request takes too long or the response is no longer needed.

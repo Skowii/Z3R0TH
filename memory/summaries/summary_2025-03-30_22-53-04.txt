@@ -1,0 +1,1 @@
+View merged branches in Git repository using `git branch -a --merged`. This command lists all merged local branches into the current branch, making it easy to identify and clean up unnecessary ones. Additionally, use `git checkout` to navigate between different branches.

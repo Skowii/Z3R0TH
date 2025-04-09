@@ -1,0 +1,1 @@
+Aggregator Microservices is an architectural pattern that involves a centralized aggregator service which calls multiple microservices to retrieve data, and then returns an aggregate response. This pattern helps decouple services and simplifies application architecture. It is useful when an API is needed for various microservices, regardless of the client device being used.

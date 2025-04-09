@@ -1,0 +1,1 @@
+The dependencies include Babel polyfill, Chart.js, jQuery, DirtyForms, Lightbox2, Semantic UI CSS, and Slick Carousel. DevDependencies consist of tools like Webpack Encore, Babel core, and ESLint. There are scripts for build, gulp, linting JS, and others. The repository is hosted at https://github.com/Sylius/Sylius with MIT license.

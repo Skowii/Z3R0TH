@@ -1,0 +1,6 @@
+# SOURCE: requirements-plot.txt
+# TIME: 2025-03-31_03-55-20
+
+To run the bot, include all requirements mentioned in the "requirements.txt" file. Additionally, ensure that Plotly is installed with version 6.0.1 (plotly==6.0.1). This summary helps to tag and store the knowledge related to running the bot.
+
+# TAGS: plotly, 6.0.1

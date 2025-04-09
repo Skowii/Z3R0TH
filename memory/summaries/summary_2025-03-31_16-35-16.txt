@@ -1,0 +1,1 @@
+This content is about a navigation bar with breadcrumbs and other elements. The breadcrumb links show the document hierarchy, while other options include editing the page on GitHub or Bitbucket, or viewing the source. Additionally, there's an image advertisement for Sylius at the bottom of the navbar.

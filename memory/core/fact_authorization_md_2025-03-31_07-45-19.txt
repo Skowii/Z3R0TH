@@ -1,0 +1,8 @@
+# SOURCE: authorization.md
+# TIME: 2025-03-31_07-45-19
+
+Sylius API now requires JWT token authorization for use. Two separate endpoints are provided: one for Admin User and another for Shop User. There is a known edge case where both users with the same email can authorize, but all responses will be prepared as if the user were a Shop User. 
+
+To generate SSH keys for JWT, create private and public keys in the config folder. Request for JWT token using an authentication request and include the token in each subsequent request header. You can also set the authentication token for each API call when using Api Platform Swagger docs by clicking "Authorize" and pasting the authentication token.
+
+# TAGS: Sylius API, Authorization, JWT token, Admin User, Shop User, SSH keys, JSON Web Tokens (JWT), authentication request, curl, Swagger docs

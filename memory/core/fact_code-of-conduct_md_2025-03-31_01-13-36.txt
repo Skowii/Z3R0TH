@@ -1,0 +1,10 @@
+# SOURCE: code-of-conduct.md
+# TIME: 2025-03-31_01-13-36
+
+The Kubernetes Community Code of Conduct (https://git.k8s.io/community/code-of-conduct.md) is a set of guidelines that promote respectful and inclusive behavior among members of the Kubernetes community. This code helps to ensure a safe and welcoming environment for everyone, regardless of their background or experience level.
+
+# TAGS: - Kubernetes Community
+- Code of Conduct
+- Git.k8s.io
+- Community Code of Conduct
+- Code-of-conduct.md

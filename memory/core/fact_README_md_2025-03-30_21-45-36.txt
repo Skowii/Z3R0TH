@@ -1,0 +1,131 @@
+# SOURCE: README.md
+# TIME: 2025-03-30_21-45-36
+
+Create a program that finds the shortest path through a graph using Dijkstra's Algorithm. The input should be a weighted and undirected graph, and the starting node. The output should be a path from the starting node to every other node in the graph with the minimum total weight. If there is no valid path from the start to some nodes, include these nodes in the result as well.
+
+**A* Algorithm** - Create a program that uses A* algorithm to find the shortest path through a graph. The input should be a graph with weights on edges and a start node and end node. The output should be the shortest path from the starting node to the ending node. 
+
+Data Structures
+-----------------
+
+**Queue using arrays** - Create a program that implements a queue data structure using an array. 
+
+**Stack using arrays** - Create a program that implements a stack data structure using an array. 
+
+**Linked List Implementation** - Write code that uses linked list for the basic operations of insertion, deletion, and traversal.
+
+**Binary Search Tree Implementation** - Implement a binary search tree and demonstrate its functionality with various operations like insertion, deletion, and searching.
+
+**Hash Table** - Create a program that implements a hash table data structure, with support for adding elements, finding elements by key, removing elements by key, and resizing if required. 
+
+**Trie Implementation** - Implement a trie data structure using the programming language of your choice. A trie is a tree-like data structure used to efficiently store and retrieve keys in a collection. 
+
+**AVL Tree Implementation** - Create an AVL Tree implementation in your preferred language. An AVL tree is a self-balancing binary search tree, keeping the height of the tree balanced by rotating nodes when needed. 
+
+**K-d tree** - A K-d tree (k-dimensional tree) is a space partitioning data structure for organizing points in a k-dimensional space. Implement one in your programming language of choice and demonstrate its functionality, including insertions and queries.
+
+**Set Union/Intersection** - Create two programs: one to compute the union of two sets and another to compute their intersection. The input should be two sets, and the output should be the union or intersection. 
+
+**Suffix Array Implementation** - Implement a suffix array data structure. A suffix array is an efficient way to represent a string in such a way that one can quickly find all occurrences of a given pattern within the string.
+
+Data Compression
+-----------------
+
+**Run-Length Encoding** - Write a function or method that takes a string as input and returns a compressed version using run-length encoding (RLE). The output should be a sequence of characters followed by their frequencies. 
+
+**LZW Compression** - Implement Lempel-Ziv-Welch (LZW) data compression algorithm. The input is a stream of uncompressed data, and the output will be a compressed version.
+
+**Huffman Coding** - Write a program that uses Huffman coding to compress a given set of characters. The output should be a binary string representing the encoded data.
+
+String Functions
+-----------------
+
+**Check Palindrome** - Write a function or method to check if a given string is a palindrome (a word, phrase, or sequence that reads the same forward and backward). 
+
+**Permutations** - Create a program to generate all permutations of a given string. 
+
+**Anagrams** - Create a program that takes two input strings as input and checks if they are anagrams (meaning the letters from one string can form another string in a different order). 
+
+**Caesar Cipher** - Write a method or function to encrypt/decrypt text using a Caesar cipher, where each letter is shifted by a certain number of positions. 
+
+**Pig Latin** - Write a function that takes a sentence as input and translates it into Pig Latin (a language game, modifying the original sentence so that the first part of the sentence becomes the last).
+
+**URL Encoding/Decoding** - Create a program or function to URL-encode/decode strings. 
+
+**Base Conversion** - Write a method or function that converts a number from one base to another (e.g., from decimal to binary, hexadecimal, etc.).
+
+Text Analysis
+------------------
+
+**Word Frequency Counter** - Create a program that counts the frequency of words in a given text. The input will be a string or file, and the output should be a dictionary with word frequencies. 
+
+**Sentiment Analysis** - Implement a sentiment analysis function that takes a text input and returns its sentiment score (positive/negative).
+
+**Part-of-Speech Tagging** - Create a program that tags parts of speech in a given sentence using a predefined set of rules or machine learning model. 
+
+**Text Mining** - Write a program to mine information from text data, such as finding keywords, topics, or relationships between words in a document. 
+
+File System Operations
+-------------------------
+
+**File Copying** - Create a function or method to copy files and directories recursively while maintaining the file system structure.
+
+**File Compression/Decompression** - Write a program that compresses or decompresses a given file using a specified compression algorithm. 
+
+**File Search** - Implement a function to search for files based on specific criteria, such as name, size, or modification date, within a given directory or an entire file system.
+
+# TAGS: Classifying the above text into categories and sub-categories for easy comprehension:
+
+1. Project Categories:
+   - Numbers
+   - Classic Algorithms
+   - Graph
+   - Data Structures
+   - Text
+   - Networking
+   - Classes
+   - Threading
+   - Web
+   - Files
+   - Databases
+   - Graphics and Multimedia
+   - Security
+
+2. Examples under these categories:
+
+   Numbers:
+    1. Find PI to the Nth Digit
+    2. Find e to the Nth Digit
+    3. Fibonacci Sequence
+    4. Prime Factorization
+    5. Next Prime Number
+    6. Find Cost of Tile to Cover W x H Floor
+    7. Mortgage Calculator
+    8. Change Return Program
+    9. Binary to Decimal and Back Converter
+   10. Calculator
+   11. Unit Converter (temp, currency, volume, mass and more)
+
+   Classic Algorithms: [To be added]
+
+   Graph: [To be added]
+
+   Data Structures: [To be added]
+
+   Text: [To be added]
+
+   Networking: [To be added]
+
+   Classes: [To be added]
+
+   Threading: [To be added]
+
+   Web: [To be added]
+
+   Files: [To be added]
+
+   Databases: [To be added]
+
+   Graphics and Multimedia: [To be added]
+
+   Security: [To be added]

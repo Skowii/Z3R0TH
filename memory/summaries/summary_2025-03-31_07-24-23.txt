@@ -1,0 +1,17 @@
+Title: Role Object
+Short title: Role Object
+Category: Structural
+Language: es
+Tag:
+- Extensibility
+
+Also known as Post Pattern, Extension Object
+Purpose: To adapt an object to the needs of different clients through attachable role objects, each representing a role the object should play in the context of that client. The object manages its roles dynamically. By representing roles as individual objects, different contexts are kept separate and system configuration is simplified.
+
+Diagram of classes: Role Object pattern class diagram (pictured)
+
+Applicability: Use the Object Role pattern if:
+- You want to handle a key abstraction in different contexts without putting specific context interfaces on the same class interface.
+- You want to manage roles dynamically, so they can be attached and removed on demand, i.e., during runtime, instead of being fixed at compile time.
+- You wish to treat extensions transparently and need to preserve the logical identity of the object in the resulting aggregation of objects.
+- You want to maintain role/client pairs independently from each other so that changes in one role don't affect clients not interested in that role.

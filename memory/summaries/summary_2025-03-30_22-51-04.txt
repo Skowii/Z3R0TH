@@ -1,0 +1,1 @@
+Automate upstream branch creation by enabling a simple Git config setting, `git config --global --add --bool push.autoSetupRemote true`. This automates creating new branches on remote repositories when they don't exist. Best suited for workflows where local branches match remote names.

@@ -1,0 +1,1 @@
+The given content is a JSON object containing a single key-value pair. The key is "name" and the value is "example/test-application". This indicates that the name of the application or component is "example/test-application."

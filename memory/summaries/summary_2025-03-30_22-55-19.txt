@@ -1,0 +1,1 @@
+To view differences between two Git branches, use the "git diff" command with the syntax: `git diff <branch>..<other-branch>`. This compares the changes made in one branch compared to another. You can also export or apply these changes using the command.

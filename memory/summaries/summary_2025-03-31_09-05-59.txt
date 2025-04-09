@@ -1,0 +1,1 @@
+Reads data from the "products" file using the read function.

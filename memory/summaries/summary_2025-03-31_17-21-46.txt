@@ -1,0 +1,1 @@
+The Step Through Items block iterates through a list or dictionary, processing each item in sequence. It takes a list or dictionary as input and outputs the current item and its index/value at each step. This block is useful for performing actions on individual items in a collection.

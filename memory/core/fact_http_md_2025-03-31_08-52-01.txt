@@ -1,0 +1,8 @@
+# SOURCE: http.md
+# TIME: 2025-03-31_08-52-01
+
+Summary: Send Web Request is a tool that allows making HTTP requests to specified URLs and processing the response based on status code. It takes inputs such as URL, request method, headers, and body and outputs data in categories like successful response, client error, or server error. Common use cases include API interaction for registration, retrieving product info, or posting updates.
+
+Tags: Web Request, HTTP, API, Interaction, Data Transfer
+
+# TAGS: Key Concepts: Send Web Request, HTTP requests, URL, request method, headers, body, response data, status code, inputs, outputs, use case

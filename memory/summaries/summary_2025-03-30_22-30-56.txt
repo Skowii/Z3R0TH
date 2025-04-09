@@ -1,0 +1,1 @@
+Create a password revealer component in React using the `useState()` hook to toggle the `type` attribute of an input element between 'password' and 'text'. This allows users to show or hide the password as desired.

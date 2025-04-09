@@ -1,0 +1,18 @@
+Convert an `rgb()` color string to a JavaScript array or object using the following methods:
+
+1. To convert the string to an **array of values**:
+```js
+const toRGBArray = rgbStr => {
+  return rgbStr.match(/\d+/g).map(Number);
+};
+toRGBArray('rgb(255, 12, 0)'); // [255, 12, 0]
+```
+
+2. To convert the string to an **object with the values of each color**:
+```js
+const toRGBObject = rgbStr => {
+  const [red, green, blue] = rgbStr.match(/\d+/g).map(Number);
+  return { red, green, blue };
+};
+toRGBObject('rgb(255, 12, 0)'); // {red: 255, green: 12, blue: 0}
+```

@@ -1,0 +1,1 @@
+The information refers to grpc-interceptor version 0.11.0, grpcio-tools version 1.30, and pytest version 5.4.

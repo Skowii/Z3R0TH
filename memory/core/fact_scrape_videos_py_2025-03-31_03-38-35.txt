@@ -1,0 +1,9 @@
+# SOURCE: scrape_videos.py
+# TIME: 2025-03-31_03-38-35
+
+script for scraping videos from Instagram accounts using InstaLooter and Instaloader libraries. Login or load session, scrape videos from following accounts, specify timeframe, output folder and mode (M - Manual, A - Automatic).
+
+# TAGS: key concepts: scraping, videos, login, instaloader, profile, days, account
+keywords: username, password, output_folder, modeAM, days, timeframe, following
+people: chewymemes_v3
+dates: datetime.date.today(), today, today - dateutil.relativedelta.relativedelta(days=days)

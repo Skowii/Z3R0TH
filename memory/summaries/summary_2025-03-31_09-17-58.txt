@@ -1,0 +1,1 @@
+The Employee class initializes employees with a name, birth date, and start date. It uses properties for easy access to the name, birth date, and start date attributes, with setters that handle formatting.

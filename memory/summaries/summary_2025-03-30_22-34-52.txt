@@ -1,0 +1,1 @@
+React hooks enable developers to manage window and environment events more efficiently. The `useUnload` hook handles the `beforeunload` event, while the `useOnline` hook checks if a client is online or offline using the `Navigator.onLine` web API. Both hooks utilize various other hooks such as `useRef`, `useEffect`, and `useState` to ensure proper implementation and cleanup.

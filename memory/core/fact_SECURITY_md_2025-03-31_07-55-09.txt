@@ -1,0 +1,34 @@
+# SOURCE: SECURITY.md
+# TIME: 2025-03-31_07-55-09
+
+- [AutoGPT](#autoGPT)
+   * [Using AutoGPT Securely](#using-autogpt-securely)
+      * [Restrict Workspace](#restrict-workspace)
+      * [Untrusted inputs](#untrusted-inputs)
+      * [Data privacy](#data-privacy)
+      * [Untrusted environments or networks](#untrusted-environments-or-networks)
+      * [Multi-Tenant environments](#multi-tenant-environments)
+   * [Reporting a Vulnerability](#reporting-a-vulnerability)
+
+AutoGPT is an AI model trained using the OpenAI API to perform general tasks. It requires precautions to ensure security while using it, as agents can read and write files, potentially exposing sensitive data if not handled carefully. The following are some guidelines for safe use of AutoGPT:
+
+1. **Restrict Workspace**: By default, AutoGPT is restricted to a specific workspace unless RESTRICT_TO_WORKSPACE is set to False. If this is disabled, it's best to run AutoGPT in a sandboxed environment to mitigate risks.
+
+2. **Untrusted inputs**: Handle untrusted inputs cautiously, isolating the execution and pre-processing data to prevent script injection attacks.
+
+3. **Data privacy**: Ensure sensitive data is kept secure by running AutoGPT in a trusted environment and using encrypted data transmission when necessary.
+
+4. **Untrusted environments or networks**: Always run AutoGPT in trusted environments and networks to avoid exposing your API KEY or sensitive data to attackers.
+
+5. **Multi-Tenant environments**: In multi-tenant scenarios, it's essential to isolate tenants from one another to prevent unauthorized access to their data. This includes resource allocation, model sharing, and hardware attacks prevention. 
+
+In case of any security vulnerability discovered in AutoGPT, report privately as a [security advisory](https://github.com/Significant-Gravitas/AutoGPT/security/advisories/new) instead of disclosing it publicly. This gives the team time to work on a fix before public exposure and reduces the risk of exploitation.
+
+# TAGS: Using AutoGPT Securely:
+1. Restrict Workspace
+2. Untrusted inputs
+3. Data privacy
+4. Untrusted environments or networks
+5. Multi-Tenant environments
+
+Reporting a Vulnerability: N/A (not a vulnerability)

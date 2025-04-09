@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-21-17
+
+SyliusPayumBundle is a Payum integration for Sylius, an Open Source eCommerce solution built with decoupled components and powerful API. Sylius offers high-quality code and documentation available on docs.sylius.com. Contributions are welcomed through GitHub issues. The license is under the MIT License, and it was originally created by Paweł Jędrzejewski.
+
+# TAGS: Sylius, SyliusPayumBundle, Payum integration, eCommerce solution, API, decoupled components, highest quality code, sylius.com, docs.sylius.com, contributing, GitHub issues, MIT License, contributors

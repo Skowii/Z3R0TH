@@ -1,0 +1,14 @@
+# SOURCE: discord.md
+# TIME: 2025-03-31_08-35-59
+
+Block to read messages from Discord channels using a bot token; block connects and retrieves messages, optionally continuously; output includes message content, channel name, and username; use case: monitoring support requests on Discord
+Block to send messages to a Discord channel using a bot token; sends specified message to designated channel, automatically splitting long messages into smaller chunks; use case: automated notifications in other systems, such as new user signups or critical errors
+
+# TAGS: - Discord Bot Token: Authentication token for the bot
+- Continuous Read: Flag for continuous or single message retrieval
+- Message Content: Retrieved message content with attached file content (if available)
+- Channel Name: Name of the Discord channel where the message was received
+- Username: Name of the user who sent the message
+- Send Discord Message: Sends a specified message to a designated channel
+- Inputs: Discord Bot Token, Message Content, Channel Name
+- Outputs: Status

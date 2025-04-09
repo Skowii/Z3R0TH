@@ -1,0 +1,6 @@
+# SOURCE: CODE_OF_CONDUCT.md
+# TIME: 2025-03-31_04-27-53
+
+The project has adopted the Microsoft Open Source Code of Conduct, which can be found at https://opensource.microsoft.com/codeofconduct/. This code provides a framework for respectful behavior and communication within the open source community. For more information, refer to the FAQ at https://opensource.microsoft.com/codeofconduct/faq/ or contact opencode@microsoft.com with any questions or concerns.
+
+# TAGS: Keywords: Microsoft Open Source Code of Conduct, adoption, conduct

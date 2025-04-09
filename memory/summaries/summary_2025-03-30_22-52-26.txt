@@ -1,0 +1,1 @@
+Git's staging area is used to prepare changes for commit, where you can add or remove files using commands such as `git add <pathspec>` and `git restore --staged <pathspec>`. These commands help control which changes are included in the next commit.

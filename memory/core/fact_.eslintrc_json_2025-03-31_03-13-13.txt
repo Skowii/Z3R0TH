@@ -1,0 +1,10 @@
+# SOURCE: .eslintrc.json
+# TIME: 2025-03-31_03-13-13
+
+Summary: This object extends the Next.js core web vitals, likely improving website performance and user experience.
+
+Tag: Extends Next Core Web Vitals
+
+Keywords: extends, next, core web vitals, performance, user experience
+
+# TAGS: extends, next, core-web-vitals

@@ -1,0 +1,1 @@
+Set default push branch name in Git: Automate specifying remote branch names by configuring Git to use the current branch name as default. Use `git config push.default current` and add `--global` for machine-wide setting. Example command: `git config --global push.default current; git checkout -b my-branch; git push -u`.

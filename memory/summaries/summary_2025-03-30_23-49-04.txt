@@ -1,0 +1,1 @@
+JavaScript's `instanceof` operator is primarily used for class instances, but it cannot be used with primitive values. However, there are ways to use it with primitives by defining a `class` for each primitive type and utilizing [`Symbol.hasInstance`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/hasInstance) to customize its behavior.

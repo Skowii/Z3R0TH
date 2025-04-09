@@ -1,0 +1,1 @@
+This code snippet provides two functions to determine if a given date is a weekend or a weekday. The `is_weekend` function uses the `datetime.datetime.weekday()` method and checks if the day of the week is greater than `4`. The `is_weekday` function uses the same method, but checks if the day of the week is less than or equal to `4`.

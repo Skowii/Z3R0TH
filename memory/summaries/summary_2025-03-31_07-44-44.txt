@@ -1,0 +1,21 @@
+### Concurrency
+
+Concurrency is the property of a system where multiple tasks or threads can be carried out at the same time. This can increase productivity and responsiveness, as it allows for multiple processes to occur simultaneously rather than waiting in line for their turn. However, it also introduces challenges such as synchronization and deadlocks.
+
+To better understand concurrency, let's examine some common patterns:
+
+1. Thread-per-task (or "worker pool"): In this model, each task has its own thread, and a pool of worker threads is used to execute these tasks concurrently. This can improve performance and responsiveness but requires careful management of threads to avoid resource exhaustion.
+
+2. Event-driven: In this pattern, the system reacts to events as they occur. These events are typically received from an external source or generated internally by a timer or other process. When an event occurs, relevant tasks are executed in response. This can be efficient but requires thorough event handling and synchronization mechanisms.
+
+3. Asynchronous processing: In this pattern, tasks are executed asynchronously, often using non-blocking I/O operations. This can improve overall system performance and responsiveness by allowing tasks to execute concurrently without blocking other tasks. However, it requires careful design and programming techniques to ensure correctness and manage potential race conditions.
+
+4. Locking: In order to synchronize access to shared resources, locks are used. A lock is an object that can be acquired by a thread when it needs to access a resource, and released when it's done. This helps ensure that only one thread at a time has access to the resource, avoiding race conditions and data corruption.
+
+5. Thread-safe design: To make sure objects can be accessed concurrently without issues, they should be designed with thread safety in mind. This typically involves using synchronization primitives like locks or atomic operations, as well as carefully considering how different threads might access shared resources or objects.
+
+6. Deadlock avoidance: A deadlock occurs when two or more tasks are waiting for each other to release a resource, creating a stalemate. To prevent deadlocks, it is important to understand the potential for deadlocks in your system and implement strategies to avoid them, such as using lock ordering or prioritizing threads that acquire locks.
+
+7. Load balancing: In systems with many tasks or high traffic, load balancing is essential to distribute work evenly across available resources. This can help improve performance, responsiveness, and resource utilization. There are various techniques for load balancing, including round-robin scheduling, hashing, and least-connection algorithms.
+
+In summary, concurrency enables tasks to be executed at the same time, improving productivity and responsiveness. However, it comes with its challenges such as synchronization and deadlocks. By understanding common patterns like thread-per-task, event-driven, asynchronous processing, locking, and load balancing, you can effectively design and implement concurrent systems.

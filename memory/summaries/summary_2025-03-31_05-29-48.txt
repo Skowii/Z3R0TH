@@ -1,0 +1,1 @@
+Facade, um padrão de projeto estrutural, fornece uma interface unificada para um conjunto de interfaces em um subsistema. Ele simplifica a interface do usuário para o subsistema, tornando-o mais fácil de ser utilizado e decouplando as classes complexas internamente. Essa interface simples é útil quando se trabalha com subsistemas complexos.

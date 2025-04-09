@@ -1,0 +1,1 @@
+Factory Method 是一种创建型设计模式，用于将实例化的逻辑委托给子类。它允许类在接口中指定要创建的对象，但由子类选择实现或者重写。通俗地讲，工厂方法模式解决了创建对象问题，而不需要明确指定所要创建的对象的确切类型。例如，在铁匠这个场景中， ironBlacksmith 接口会定义一个 manufactureWeapon() 方法，用于生成武器，具体子类 ElfBlacksmith、OrcBlacksmith 会根据客户的要求生成不同种类的武器。Java 中有多个内置库使用了 Factory Method 模式。

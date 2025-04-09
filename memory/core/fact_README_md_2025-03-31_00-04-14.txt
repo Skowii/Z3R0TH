@@ -1,0 +1,18 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_00-04-14
+
+SyPet is a program synthesis tool for Java libraries that creates programs by composing APIs. SyPet 2.0 has additional features such as an Atom plug-in for improved usability, use of program analysis to eliminate infeasible programs, machine learning guidance for search, and better performance improvements through caching, incremental construction of SAT encoding, and running multiple instances in parallel. Users can provide hints using keywords or APIs, but support for conditionals and loops is limited. SyPet is maintained by Ruben Martins at CMU, with contributions from various researchers and collaborators.
+
+# TAGS: # Key Concepts:
+- SyPet 2.0
+- Program synthesis tool for Java libraries
+- Automatic program construction by composing APIs
+- POPL paper: "Component-Based Synthesis for Complex APIs"
+- Additional features in v2.0
+- Atom plug-in
+- Program analysis to prune equivalent infeasible programs
+- Machine learning to guide search
+- Webserver version
+- Improved performance
+- User hints
+- Limited support for conditionals and loops

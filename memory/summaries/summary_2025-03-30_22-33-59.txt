@@ -1,0 +1,1 @@
+Create a custom hook called "useTitle" to change the title of a page in a React app. Check if you're in a browser environment using `typeof` and store the original title using `useRef()`. Use `useEffect()` to set the title when mounting and clean up when unmounting.

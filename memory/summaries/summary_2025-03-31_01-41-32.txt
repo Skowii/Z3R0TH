@@ -1,0 +1,20 @@
+Bubble sort is a simple sorting algorithm that compares adjacent elements in an array and swaps them if they are out of order, iterating through the array repeatedly until it's sorted. The complexity of bubble sort is O(n^2). Here's a JavaScript implementation:
+
+```js
+const bubbleSort = arr => {
+  let swapped = false;
+  const a = [...arr];
+  for (let i = 1; i < a.length; i++) {
+    swapped = false;
+    for (let j = 0; j < a.length - i; j++) {
+      if (a[j + 1] < a[j]) {
+        [a[j], a[j + 1]] = [a[j + 1], a[j]];
+        swapped = true;
+      }
+    }
+    if (!swapped) return a;
+  }
+  return a;
+};
+bubbleSort([2, 1, 4, 3]); // [1, 2, 3, 4]
+```

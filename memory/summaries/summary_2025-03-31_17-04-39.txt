@@ -1,0 +1,1 @@
+The file is part of the Sylius package and contains code for updating product images. It uses jQuery to change main image links and sources when a user selects an option or variant. The code also adds event listeners for changes in product options and variants, updating the main image accordingly.

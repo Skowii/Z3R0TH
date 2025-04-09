@@ -1,0 +1,1 @@
+To compare two arrays in JavaScript, use deep equality by checking if both arrays have the same length and every element is equal. This technique works better than using JSON.stringify, which is slow, or simple equality comparison operators like `===`.

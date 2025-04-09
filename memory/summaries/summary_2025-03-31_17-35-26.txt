@@ -1,0 +1,1 @@
+This content provides the URLs, branches, and commit hashes for various AI models such as Auto-GPT, gpt-engineer, mini-agi, smol-developer, SuperAGI, babyagi, beebot, PolyGPT, and Auto-GPT-Turbo. These are hosted on GitHub in different branches and commits.

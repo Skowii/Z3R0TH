@@ -1,0 +1,1 @@
+The given code uses the fibonacci sequence to find the value of n (up to 35), profiles it, and prints a summary using pstats.

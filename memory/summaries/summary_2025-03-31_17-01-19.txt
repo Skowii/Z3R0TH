@@ -1,0 +1,1 @@
+The content describes a file, "example/test-application," which serves to ensure appropriate behavior for directories in Symfony applications.

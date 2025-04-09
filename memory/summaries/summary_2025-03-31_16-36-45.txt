@@ -1,0 +1,1 @@
+A search form is provided for users to input their query and find documents or resources. The form submits the query via a GET request to the specified search path, taking into consideration specific keywords and settings like default area.

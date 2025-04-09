@@ -1,0 +1,1 @@
+The difference between `Array.prototype.map()` and `Array.prototype.forEach()` lies in their return values. `Array.prototype.map()` creates a new array based on the original one, whereas `Array.prototype.forEach()` simply performs an action on each element without returning a value. In essence, `map()` is used for transformation, while `forEach()` is used for iteration.

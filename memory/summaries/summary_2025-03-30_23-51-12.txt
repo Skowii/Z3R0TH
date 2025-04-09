@@ -1,0 +1,1 @@
+Generate a UUID in JavaScript using native APIs in both the browser and Node.js. In modern environments, use `crypto.randomUUID()` for easy generation of a compliant UUID with RFC4122 version 4. For older environments, use `crypto.getRandomValues()` and follow the given technique to create a cryptographically strong pseudo-random data that fits the UUID template.

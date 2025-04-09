@@ -1,0 +1,9 @@
+Title: Template View Pattern in Java: Streamlining Dynamic Webpage Rendering
+
+The Template View design pattern separates the structure and static parts of a webpage from its dynamic content, making it easier to build reusable and maintainable UI components. This pattern allows for consistency in layout while allowing flexibility for different types of views. The intent is to encapsulate shared layouts in base classes and delegate rendering of main content to subclasses.
+
+In a real-world example, the Template View pattern can be applied to a blog website where each post page follows the same structure with a header, footer, and main content area. The Template View pattern encapsulates the consistent layout in a base class while delegating the rendering of the main content to subclasses.
+
+The Template View pattern aligns closely with the Template Method pattern, defining a skeleton for rendering webpages or views and delegating dynamic parts to subclasses while keeping the structure consistent.
+
+In Java, a programmatic example demonstrates rendering different types of views (HomePageView and ContactPageView) with a common structure: header, dynamic content, and footer. The Abstract Base Class, TemplateView, defines the skeleton for rendering a view, and subclasses provide implementations for rendering dynamic content. Concrete classes like HomePageView and ContactPageView extend TemplateView and override the renderDynamicContent method to display specific content. The Application class, App, demonstrates rendering different views using the Template View pattern.

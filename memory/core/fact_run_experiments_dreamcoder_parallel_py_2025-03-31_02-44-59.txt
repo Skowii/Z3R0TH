@@ -1,0 +1,28 @@
+# SOURCE: run_experiments_dreamcoder_parallel.py
+# TIME: 2025-03-31_02-44-59
+
+Task: Summarize and tag this knowledge for memory storage
+
+Summary: This code snippet is used to gather data parallel results for a specific algorithm, namely "heap search", on the Dreamcoder dataset using various CPU splits. The code builds the required model, loads the tasks, filters them according to the model, creates a dataset, and then gathers data parallel results. The resulting data is saved in a CSV file with specific columns for each parameter.
+
+Knowledge tags: 
+- Dreamcoder Dataset
+- Model Loading
+- Task Loading and Filtering
+- Data Gathering and Saving
+
+# TAGS: Key Concepts:
+1. dreamcoder dataset
+2. build_dreamcoder_intlist_model
+3. model_name
+4. get_model_name
+5. list_algorithms
+6. algo_index
+7. algorithm name (heap search)
+8. splits
+9. save_folder
+10. dataset
+11. task_set2dataset
+12. n_filters
+13. csv
+14. data gathering

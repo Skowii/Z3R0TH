@@ -1,0 +1,1 @@
+The Get Current Time block provides the current time in hours, minutes, and seconds. The Get Current Date block gives the current date with an optional offset. The Get Current Date and Time block outputs both the current date and time combined. The Countdown Timer block acts as a countdown timer that triggers after a specified duration and outputs a message when finished.

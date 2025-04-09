@@ -1,0 +1,16 @@
+# SOURCE: setup.py
+# TIME: 2025-03-31_09-30-31
+
+Python script to generate a summary of the given text and knowledge for memory storage:
+- Imports platform, pathlib, pkgutil, typing, cx_Freeze, and poetry.
+- Sets up executables using Executable class from cx_Freeze with icon based on the platform.
+- Converts LICENSE to LICENSE.rtf using txt_to_rtf function.
+- Provides options for building the application: build_exe, bdist_mac, bdist_dmg, and bdist_msi.
+
+# TAGS: key concepts: cx-Freeze, Executable, setup, packages, includes, excludes, bdist_mac, bundle_name, iconfile, include_resources, bdist_dmg, applications_shortcut, volume_label, bdist_msi, target_name, add_to_path, install_icon, license_file
+
+keywords: poetry, platform, pkgutil, pathlib, typing, union, icon, rtf, txt_to_rtf, LICENSE
+
+people: Not mentioned
+
+dates: Not mentioned

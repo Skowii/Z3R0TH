@@ -1,0 +1,1 @@
+This article discusses Git's autocorrect feature, which automatically fixes mistyped commands. The `help.autocorrect` setting can be set to an integer value between 0 and 50 to determine the waiting time before executing the corrected command. Values such as "never," "immediate," and "prompt" are available for additional behavior options.

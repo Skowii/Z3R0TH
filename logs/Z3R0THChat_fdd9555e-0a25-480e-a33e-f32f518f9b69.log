@@ -1,0 +1,82 @@
+[2025-04-05 18:31:17] [INFO] 🤖 Z3R0THChat initialized with model mistral-openorca (UUID: fdd9555e-0a25-480e-a33e-f32f518f9b69)
+[2025-04-05 18:32:26] [INFO] 🌐 Web memory ingested: 20250405_183226__superagi_home.txt
+[2025-04-05 18:32:28] [INFO] 🌐 Web memory ingested: 20250405_183228__a_dev_first_open_source_autonomous_ai_agent_framework__enabl.txt
+[2025-04-05 18:32:29] [INFO] 🌐 Web memory ingested: 20250405_183229__introduction_to_superagi.txt
+[2025-04-05 18:32:37] [INFO] 🌐 Web memory ingested: 20250405_183237__autogpt.txt
+[2025-04-05 18:32:39] [INFO] 🌐 Web memory ingested: 20250405_183239__significant_gravitas_autogpt__autogpt_is_the_vision_of_acces.txt
+[2025-04-05 18:32:40] [INFO] 🌐 Web memory ingested: 20250405_183240__wikipedia.txt
+[2025-04-05 18:33:04] [INFO] 🌐 Web memory ingested: 20250405_183304__ai_agent_that_bridges_minds_and_actions.txt
+[2025-04-05 18:33:48] [INFO] 🌐 Web memory ingested: 20250405_183348__amd_radeon_rx_9070_xt_gpu_review___benchmarks_vs__5070_ti__5.txt
+[2025-04-05 18:33:49] [INFO] 🌐 Web memory ingested: 20250405_183349__amd_radeon_rx_9070_xt_and_rx_9070_review__excellent_value__i.txt
+[2025-04-05 18:34:02] [INFO] 🌐 Web memory ingested: 20250405_183402__ubuntu_vs_kubuntu__what_s_the_difference_.txt
+[2025-04-05 18:34:02] [INFO] 🌐 Web memory ingested: 20250405_183402__should_you_choose_kubuntu_or_ubuntu__an_in_depth_comparison_.txt
+[2025-04-05 18:34:26] [INFO] 🌐 Web memory ingested: 20250405_183426__github___build_and_ship_software_on_a_single__collaborative_.txt
+[2025-04-05 18:34:27] [INFO] 🌐 Web memory ingested: 20250405_183427__sign_in_to_github___github.txt
+[2025-04-05 18:34:29] [INFO] 🌐 Web memory ingested: 20250405_183429__github.txt
+[2025-04-05 18:35:21] [INFO] 🌐 Web memory ingested: 20250405_183521__dropbox_com.txt
+[2025-04-05 18:39:03] [INFO] 🌐 Web memory ingested: 20250405_183903__14_ai_powered_side_hustles__how_to_make_money_with_ai.txt
+[2025-04-05 18:39:04] [INFO] 🌐 Web memory ingested: 20250405_183904__how_to_make_money_with_ai_in_2025__15_best_ways___top_tools_.txt
+[2025-04-05 18:39:05] [INFO] 🌐 Web memory ingested: 20250405_183905__15__effective_ways_to_make_money_with_ai.txt
+[2025-04-05 18:39:09] [INFO] 💬 Prompting LLM: Train yourself using the following knowledge:
+
+🤖 IDENTITY:
+# Memory saved: 2025-...
+[2025-04-05 18:39:37] [INFO] ✅ LLM responded.
+[2025-04-05 18:39:37] [INFO] 🧠 Memory saved: [reflections/train_183937]
+[2025-04-05 18:39:56] [INFO] 🌐 Web memory ingested: 20250405_183956__advanced_scripting_concepts__comprehensive_guide.txt
+[2025-04-05 18:39:57] [INFO] 🌐 Web memory ingested: 20250405_183957__advanced_shell_script_with_examples__free_downloads_.txt
+[2025-04-05 18:39:57] [INFO] 🌐 Web memory ingested: 20250405_183957__building_powershell_applications__a_step_by_step_guide.txt
+[2025-04-05 18:43:49] [INFO] 🌐 Web memory ingested: 20250405_184349__java_tutorial.txt
+[2025-04-05 18:43:49] [INFO] 🌐 Web memory ingested: 20250405_184349__100_days_of_java__a_complete_guide_for_beginners.txt
+[2025-04-05 18:43:50] [INFO] 🌐 Web memory ingested: 20250405_184350__java_tutorial.txt
+[2025-04-05 18:44:11] [INFO] 🌐 Web memory ingested: 20250405_184411__welcome_to_python_org.txt
+[2025-04-05 18:44:11] [INFO] 🌐 Web memory ingested: 20250405_184411__download_python.txt
+[2025-04-05 18:44:12] [INFO] 🌐 Web memory ingested: 20250405_184412__python_tutorial.txt
+[2025-04-05 18:44:23] [INFO] 🌐 Web memory ingested: 20250405_184423__wikipedia.txt
+[2025-04-05 18:44:24] [INFO] 🌐 Web memory ingested: 20250405_184424__the_young_programmer_c_cpp_programming__c_c___programming_fo.txt
+[2025-04-05 18:44:26] [INFO] 🌐 Web memory ingested: 20250405_184426__operators_in_c_and_c__.txt
+[2025-04-05 18:44:36] [INFO] 🌐 Web memory ingested: 20250405_184436__c_sharp__programming_language_.txt
+[2025-04-05 18:44:38] [INFO] 🌐 Web memory ingested: 20250405_184438__c_sharp_syntax.txt
+[2025-04-05 18:44:39] [INFO] 🌐 Web memory ingested: 20250405_184439__packtpublishing_c_sharp_basics_for_absolute_beginners_in_c_s.txt
+[2025-04-05 18:44:43] [INFO] 🌐 Web memory ingested: 20250405_184443__rust_on_steam.txt
+[2025-04-05 18:44:45] [INFO] 🌐 Web memory ingested: 20250405_184445__rust_programming_language.txt
+[2025-04-05 18:44:45] [INFO] 🌐 Web memory ingested: 20250405_184445__rust.txt
+[2025-04-05 18:45:02] [INFO] 🌐 Web memory ingested: 20250405_184502__html__ruby__tag.txt
+[2025-04-05 18:45:03] [INFO] 🌐 Web memory ingested: 20250405_184503___ruby___the_ruby_annotation_element___html__hypertext_markup.txt
+[2025-04-05 18:45:04] [INFO] 🌐 Web memory ingested: 20250405_184504__html_ruby_markup_extensions.txt
+[2025-04-05 18:45:19] [INFO] 🌐 Web memory ingested: 20250405_184519__ruby_programming_language.txt
+[2025-04-05 18:45:20] [INFO] 🌐 Web memory ingested: 20250405_184520__ruby_in_twenty_minutes.txt
+[2025-04-05 18:45:21] [INFO] 🌐 Web memory ingested: 20250405_184521__ruby__programming_language_.txt
+[2025-04-05 18:45:28] [INFO] 🌐 Web memory ingested: 20250405_184528__html_basic.txt
+[2025-04-05 18:45:29] [INFO] 🌐 Web memory ingested: 20250405_184529__html_tutorial.txt
+[2025-04-05 18:45:29] [INFO] 🌐 Web memory ingested: 20250405_184529__html_online_editor__compiler__interpreter___runner_.txt
+[2025-04-05 18:45:36] [INFO] 🌐 Web memory ingested: 20250405_184536__bic_codes_for_banks_in_australia.txt
+[2025-04-05 18:45:36] [INFO] 🌐 Web memory ingested: 20250405_184536__swift_codes___bic_codes_for_all_the_banks_in_the_world.txt
+[2025-04-05 18:45:46] [INFO] 🌐 Web memory ingested: 20250405_184546__javascript_examples.txt
+[2025-04-05 18:45:47] [INFO] 🌐 Web memory ingested: 20250405_184547__javascript_tutorial.txt
+[2025-04-05 18:45:48] [INFO] 🌐 Web memory ingested: 20250405_184548__javascript_examples.txt
+[2025-04-05 18:45:55] [INFO] 🌐 Web memory ingested: 20250405_184555__java_tutorial.txt
+[2025-04-05 18:45:55] [INFO] 🌐 Web memory ingested: 20250405_184555__java_examples.txt
+[2025-04-05 18:45:55] [INFO] 🌐 Web memory ingested: 20250405_184555__java_programs___java_programming_examples.txt
+[2025-04-05 18:46:06] [INFO] 🌐 Web memory ingested: 20250405_184606__python_examples.txt
+[2025-04-05 18:46:06] [INFO] 🌐 Web memory ingested: 20250405_184606__python_programs.txt
+[2025-04-05 18:46:06] [INFO] 🌐 Web memory ingested: 20250405_184606__top_100__python_program_examples_with_output.txt
+[2025-04-05 18:46:11] [INFO] 💬 Prompting LLM: Train yourself using the following knowledge:
+
+🤖 IDENTITY:
+# Memory saved: 2025-...
+[2025-04-05 18:46:43] [INFO] ✅ LLM responded.
+[2025-04-05 18:46:43] [INFO] 🧠 Memory saved: [reflections/train_184643]
+[2025-04-05 18:47:00] [INFO] 🌐 Web memory ingested: 20250405_184700__writing_a_dockerfile.txt
+[2025-04-05 18:47:00] [INFO] 🌐 Web memory ingested: 20250405_184700__dockerfile_reference.txt
+[2025-04-05 18:47:01] [INFO] 🌐 Web memory ingested: 20250405_184701__19_dockerfile_instructions_with_examples___complete_guide.txt
+[2025-04-05 18:47:12] [INFO] 🌐 Web memory ingested: 20250405_184712__json_introduction.txt
+[2025-04-05 18:47:12] [INFO] 🌐 Web memory ingested: 20250405_184712__json_tutorial.txt
+[2025-04-05 18:47:12] [INFO] 🌐 Web memory ingested: 20250405_184712__json_syntax.txt
+[2025-04-05 18:47:21] [INFO] 🌐 Web memory ingested: 20250405_184721__dart_programming_language.txt
+[2025-04-05 18:47:21] [INFO] 🌐 Web memory ingested: 20250405_184721__introduction_to_dart.txt
+[2025-04-05 18:47:22] [INFO] 🌐 Web memory ingested: 20250405_184722__dart_tutorial.txt
+[2025-04-05 18:47:32] [INFO] 🌐 Web memory ingested: 20250405_184732__css_tutorial.txt
+[2025-04-05 18:47:32] [INFO] 🌐 Web memory ingested: 20250405_184732__html_styles_css.txt
+[2025-04-05 18:47:33] [INFO] 🌐 Web memory ingested: 20250405_184733__css_examples.txt
+[2025-04-05 18:47:35] [INFO] 💬 Prompting LLM: traine...

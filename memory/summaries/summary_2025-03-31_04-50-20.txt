@@ -1,0 +1,32 @@
+Aggregator Microservices is an architectural approach that enables a user to interact with a single service aggregator, which then communicates with all related microservices. The main idea of this pattern is to simplify the interaction between multiple microservices by providing a single endpoint for the user.
+
+In a real-world example, an online shopping application requires information about products and current inventory. Aggregator Microservices comes into play here. It communicates with multiple Product Information and Inventory microservices to gather relevant data. The aggregator then combines this information into a single response.
+
+An example Java code snippet for the `Aggregator`:
+
+```java
+@RestController
+public class Aggregator {
+    @Resource
+    private ProductInformationClient informationClient;
+    @Resource
+    private ProductInventoryClient inventoryClient;
+    
+    @RequestMapping(path = "/product", method = RequestMethod.GET)
+    public Product getProduct() {
+        var product = new Product();
+        var productTitle = informationClient.getProductTitle();
+        var productInventory = inventoryClient.getProductInventories();
+        
+        //Fallback to error message
+        product.setTitle(requireNonNullElse(productTitle, "Error: Fetching Product Title Failed"));
+        
+        //Fallback to default error inventory
+        product.setProductInventories(requireNonNullElse(productInventory, -1));
+        
+        return product;
+    }
+}
+```
+
+An Aggregator Microservice simplifies the interaction between microservices and improves overall application stability.

@@ -1,0 +1,1 @@
+Learn how to capitalize or decapitalize the first letter of a JavaScript string using array destructuring and `String.prototype.toUpperCase()` or `String.prototype.toLowerCase()`. To capitalize, combine `first.toUpperCase() + rest.join('').toLowerCase()`, or for decapitalize use `first.toLowerCase() + rest.join('').toLowerCase()`.

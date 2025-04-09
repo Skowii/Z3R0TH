@@ -1,0 +1,36 @@
+# SOURCE: index.md
+# TIME: 2025-03-31_08-26-45
+
+AutoGPT Classic was a project that aimed to create an AI agent that could execute various tasks on a computer with minimal human intervention. It utilized the Agent Protocol from the AI Engineer Foundation, which allowed it to work with many agents, both from within the project and externally. The project had four main components: the agent itself, the benchmark for measuring performance, the Forge for creating your own agent, and a frontend for user interaction.
+
+# TAGS: "focus on what matters: your agent's logic and functionality.
+
+- 🔧 **Setup** - Setting up your environment is as simple as running `pip install agforge`, then you can create an agent with just a few lines of code. Check out the [quickstart](../forge/get-started.md) for more details.
+
+- 🤖 **Create your Agent** - After setting up, all it takes is adding some logic to the `run` function to create an agent. You can also use the built-in prompt feature to provide initial instructions and allow your agent to learn from its surroundings!
+
+- 👨‍💻 **Development** - The Forge's modular design allows for easy expansion of functionality, enabling a smooth transition from simple to complex AI applications.
+
+---
+
+## 🖥 Frontend
+
+**[📰 Blog](../blog/)**
+&ensp;|&ensp;
+**[🔧 Setup](setup/frontend_installation.md)**
+&ensp;|&ensp;
+**[💻 Usage](./frontend_usage.md)**
+
+The Frontend is a web application that serves as a portal for users to interact with their AutoGPT Classic agents. It offers an array of features, including:
+
+- 🖥 **Agent Interaction** - The Frontend allows you to safely interact and communicate with your agent by submitting tasks or asking questions.
+
+- 📄 **Task Submission** - You can use the Frontend to submit any text-based tasks to be executed, such as searching for information or writing a report.
+
+- 🔧 **Agent Configuration** - The Frontend allows you to configure your agent's settings and preferences, including prompt templates, API keys, and more.
+
+- 📜 **Task History** - All tasks executed by the agent are logged in the task history, providing a transparent record of what the agent has done.
+
+---
+
+[CLI]: https://github.com/Significant-Gravitas/AutoGPT/tree/master/cli

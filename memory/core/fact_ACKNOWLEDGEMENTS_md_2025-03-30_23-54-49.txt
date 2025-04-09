@@ -1,0 +1,6 @@
+# SOURCE: ACKNOWLEDGEMENTS.md
+# TIME: 2025-03-30_23-54-49
+
+Acknowledgements: Dana Harris and Mark Diangelo provided sounds used in alarm and skill. Their contributions are appreciated and licensed under Creative Commons and Attribution 3.0 respectively.
+
+# TAGS: Key Concepts: acknowledgements, Dana Harris, lotusware@gmail.com, alarm.wav, Creative Commons, Mark Diangelo, block-mark-diangelo.wav, Attribution 3.0

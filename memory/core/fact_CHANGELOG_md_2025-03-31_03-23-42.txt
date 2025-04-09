@@ -1,0 +1,44 @@
+# SOURCE: CHANGELOG.md
+# TIME: 2025-03-31_03-23-42
+
+ut for the current utterance [a9c24af0](https://github.com/leon-ai/leon/commit/a9c24af013f7430e58b9a62b6509c73a85383d14)
+  - add context_id to the actions [64ac7462](https://github.com/leon-ai/leon/commit/64ac7462e5160c956f816eddaf3a4c52d5a1d4b2)
+  - add context_id to the skill [1ba3a003](https://github.com/leon-ai/leon/commit/1ba3a0039e627315e874841f19d5522c7d453951)
+  - add context_id to the skill when using it in an action [b1e72bca](https://github.com/leon-ai/leon/commit/b1e72bca8a5067daf19d35c4d7905539fc5a228c)
+
+# TAGS: (https://github.com/leon-ai/leon/commit/244d08c0a94e261100f537a8e9f693855674a123)
+  - add support for multiple entities in the context [cba50daf](
+    https://github.com/leon-ai/leon/commit/cba50dafc55ffb1d9168e8fa49459b032c73d6a5)
+  - add support for context and slot filling in dialog skill type [5f2a145f](
+    https://github.com/leon-ai/leon/commit/5f2a145fa45ed9e0888ff3693d441075c381bcc5)
+  - support for dynamic variables in NLU [bca62441](
+    https://github.com/leon-ai/leon/commit/bca6244143ce4fda39dffa09c3077e4c815e6465)
+  - shared NLU settings for logic type [f50a41de](
+    https://github.com/leon-ai/leon/commit/f50a41ded223d97b07feb682c52a37179fa8f5e4)
+  - support for context and slot filling (wip) [3a09ad2f](
+    https://github.com/leon-ai/leon/commit/3a09ad2fc4d043c752b21628b5e146af5977b5f3)
+  - add support for multiple entities in the context [783505d4](
+    https://github.com/leon-ai/leon/commit/783505d4a62a41e63359cafde32ed5f629a0acaa)
+  - support for dynamic variables in NLU [d63a3e5b](
+    https://github.com/leon-ai/leon/commit/d63a3e5ba7198445bef24c5f12d04d84480ab3ea)
+  - add support for context and slot filling in dialog skill type [73f6604c](
+    https://github.com/leon-ai/leon/commit/73f6604cee3054d41670ff8b2fa99a558ac23916)
+  - annotate entities on the fly [d004f42c](
+    https://github.com/leon-ai/leon/commit/d004f42c76ed7d7e12b5018e2939d2ff44b5daa6)
+  - new NLP training [0035f5f6](
+    https://github.com/leon-ai/leon/commit/0035f5f6c3693987e18be60a24c58dab23237b71)
+
+### Features:
+
+- New NLP model training and integration
+- Support for multiple entities in the context
+- Shared NLU settings for logic type
+- Dynamic variables support in NLU
+- Context and slot filling preparation for dialog skill type
+- Annotation of entities on the fly
+- Share data across domains
+- Prepare for dynamic variable binding on NLG
+- Temporary resolvers mapping
+- Support for Python TCP server and Node.js TCP client for IPC (wip)
+- Introduce spaCy for complete NER (wip)
+- Slot filling support (wip)

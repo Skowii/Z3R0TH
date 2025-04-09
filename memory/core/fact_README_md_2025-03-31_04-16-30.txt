@@ -1,0 +1,40 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_04-16-30
+
+To use GPT Engineer, you can follow these steps:
+
+1. **Installation**: You need to install the gpt-engineer package first. For this, you'll need a terminal or command prompt. If you are using a Unix-like system such as Linux, MacOS, run this command in your terminal:
+```sh
+pip3 install gpt-engineer
+```
+For Windows users, you can use PowerShell or Git Bash.
+
+2. **Setup API Key**: If you're using the OpenAI model, you need to set up an OpenAI API key by creating a .env file in your project directory. The format of this file should be:
+```sh
+OPENAI_API_KEY=your-api-key-here
+```
+Replace 'your-api-key-here' with the actual API key you get from OpenAI. If you want to use Azure OpenAI, create an environment variable called `AZURE_OPENAI_DEPLOYMENT` and set it to a deployment name in your region. You can find the deployment names at https://docs.microsoft.com/en-us/azure/cognitive-services/openai/how-to-create-deployment
+
+3. **Usage**: With everything set up, you can now use GPT Engineer. In a terminal or command prompt, navigate to the directory where your input files are present and run the following command:
+```sh
+gpte <path_to_directory> [-o output_file] [-m model] [-p prompt] [-i image_directory] [-d debug] [-v verbose] [-h help]
+```
+For example, let's say you have a folder called 'prompt' that contains your input files (prompt and images), you want to output the result to a file named 'result.py', use the GPT-4 model, set a custom prompt and specify that there are images in the directory:
+```sh
+gpte prompt -o result.py -m gpt-4 -p "Generate a Python script that says hello to everyone." -i prompt/images
+```
+
+4. **Debugging**: If you ever encounter any issues, you can use the '-d debug' flag with your command to get more information and potentially find the cause of the problem.
+
+5. **Help**: For a detailed list of options and arguments, run 'gpte --help'.
+
+That's it! You have successfully set up GPT Engineer and can start generating code using your chosen model.
+
+# TAGS: are also conducting research on different AI models, as described in [this Loom](https://www.loom.com/share/77a1290f451c438f81e2b556b127dca6?sid=8d822144-10da-4bcf-8493-d19de7982e96) video.
+
+### Contributing
+Please check [CONTRIBUTING.md](https://github.com/gpt-engineer-org/gpt-engineer/blob/main/CONTRIBUTING.md) and feel free to contribute by opening an issue or submitting a pull request!
+
+If you find this project useful, please consider leaving a star on GitHub. It helps us grow the community. If you have any questions or need help, join our Discord server: [![Discord Follow](https://dcbadge.vercel.app/api/server/8tcDQ89Ej2?style=flat)](https://discord.gg/8tcDQ89Ej2).
+
+License: [MIT License](https://github.com/gpt-engineer-org/gpt-engineer/blob/main/LICENSE)

@@ -1,0 +1,1 @@
+This module creates a PyQt5-based RP Renamer application, featuring a main window (Window) to interact with users. The main function instantiates the QApplication object, initializes and displays the Window instance, then runs the event loop using sys.exit() and app.exec().

@@ -1,0 +1,1 @@
+Synchronous code runs sequentially, waiting for each operation to finish before moving on, whereas asynchronous code executes operations in parallel. Asynchronous code is beneficial in situations where execution can be blocked indefinitely, such as network requests or long-running calculations. It maintains responsiveness and a better user experience in the browser.

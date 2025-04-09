@@ -1,0 +1,1 @@
+The code creates a Tkinter-based GUI application with a button that, when clicked, checks the user's age. If the user is above 18 years old, they are labeled an adult; otherwise, they are a minor. The main function includes creating a window and button, while on_click defines the action taken upon the button being pressed.

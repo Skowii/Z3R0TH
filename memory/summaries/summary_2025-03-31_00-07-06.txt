@@ -1,0 +1,4 @@
+Create a JavaScript promise that resolves after a given amount of time: 
+- Use the `Promise()` constructor.
+- Call the `resolve` function with the passed `value` using `setTimeout()`.
+- Example: `const resolveAfter = (value, delay) => new Promise(resolve => setTimeout(() => resolve(value), delay));`

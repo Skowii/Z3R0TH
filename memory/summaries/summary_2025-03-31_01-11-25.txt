@@ -1,0 +1,8 @@
+The information concisely is:
+
+- In JavaScript, you can manipulate dates by adding minutes, hours or days using Date object methods such as setTime() and setDate().
+- To add seconds to a date: `d.setTime(d.getTime() + n * 1000)`.
+- To add minutes to a date: `d.setTime(d.getTime() + n * 60_000)`.
+- To add hours to a date: `d.setTime(d.getTime() + n * 3_600_000)`.
+- To add days to a date: `d.setDate(d.getDate() + n)`.
+- For weekday calculations, use Date object methods along with additional libraries or functions for more advanced manipulations.

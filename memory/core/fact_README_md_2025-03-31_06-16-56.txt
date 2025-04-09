@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-16-56
+
+The Promotion Component is a powerful marketing tool for e-commerce projects, offering time-based promotions, fixed and percentage discounts, custom actions, rules system, promotion coupons with usage limits. It is part of the Sylius Open Source eCommerce solution built from decoupled components with a powerful API and high-quality code. The documentation can be found on docs.sylius.com, and contributing information can be found here. Follow Sylius' development through their official blog, Twitter, Facebook, or report bugs via GitHub issues. The component was originally created by Paweł Jędrzejewski with contributions from various developers. The project is licensed under MIT License.
+
+# TAGS: This text discusses Sylius, an Open Source eCommerce solution with rich features such as time based promotions, fixed and percentage discounts, custom actions, rules systems, promotion coupons, and a strong API. The documentation is available on docs.sylius.com and contributions can be made through GitHub issues. Sylius uses the MIT License and was originally created by Paweł Jędrzejewski with contributions from various authors.

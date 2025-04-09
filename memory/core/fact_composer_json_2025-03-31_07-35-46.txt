@@ -1,0 +1,31 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-35-46
+
+The Sylius Attribute Bundle is a Symfony bundle designed to manage object attributes in Symfony applications, particularly for ecommerce purposes. This bundle is used in managing products and assortments within a shop. The homepage can be found at https://sylius.com and the bundle requires a specific set of dependencies including PHP versions 7.4 or 8.0, ramsey/uuid and various Symfony packages. It also has several authors, including Paweł Jędrzejewski, the Sylius project team, and community contributors. The bundle's configuration is defined through its autoload settings, and it is tagged with keywords such as "shop," "ecommerce," "products," "product," and "assortment."
+
+# TAGS: sylius/attribute-bundle
+symfony-bundle
+managing object attributes for symfony applications
+shop, ecommerce, products, product, assortment
+sylius.com
+MIT
+Paweł Jędrzejewski, Sylius project, Community contributions
+php 7.4 || 8.0
+ramsey/uuid ^3.9
+stof/doctrine-extensions-bundle ^1.4
+sylius/attribute ^1.6
+sylius/resource-bundle ^1.7
+symfony/framework-bundle ^4.4 || ^5.2
+doctrine/orm ^2.7
+phpspec/phpspec ^7.0
+phpunit/phpunit ^8.5
+symfony/browser-kit ^4.4 || ^5.2
+symfony/dependency-injection ^4.4 || ^5.2
+symfony/form ^4.4 || ^5.2
+bin
+dev-master branch alias to 1.9-dev
+autoload psr-4 for Sylius\\Bundle\\AttributeBundle\
+autoload-dev for Sylius\\Bundle\\AttributeBundle\\spec\ and test/app/AppKernel.php
+path repository type
+minimum-stability dev
+prefer-stable true

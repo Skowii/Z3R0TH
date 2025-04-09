@@ -1,0 +1,14 @@
+# SOURCE: SECURITY.md
+# TIME: 2025-03-31_03-46-59
+
+Security Policy: OpenAI has a Coordinated Vulnerability Disclosure Policy that focuses on ensuring security. Their PGP key can be found at the given address.
+
+# TAGS: # Security Policy
+Coordinated Vulnerability Disclosure Policy
+OpenAI security
+Disclosure Policy
+Security is essential
+OpenAI's coordinated vulnerability disclosure policy
+expect from us in return
+PGP key
+address

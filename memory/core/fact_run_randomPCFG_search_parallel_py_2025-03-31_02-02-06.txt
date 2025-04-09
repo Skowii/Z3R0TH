@@ -1,0 +1,8 @@
+# SOURCE: run_randomPCFG_search_parallel.py
+# TIME: 2025-03-31_02-02-06
+
+es are ", times, "
+
+# TAGS: - Algorithm implementations as functions: bfs, dfs, sort_and_add, sqrt_sampling_with_sbsur, threshold_search, a_star
+- Algorithms that need to reconstruct the programs: dfs, bfs, threshold_search, a_star, sort_and_add, sqrt_sampling_with_sbsur
+- Randomised algorithms: sqrt_sampling, sqrt_sampling_with_sbsur

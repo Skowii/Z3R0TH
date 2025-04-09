@@ -1,0 +1,16 @@
+# SOURCE: main.html
+# TIME: 2025-03-31_08-05-42
+
+{% extends "base.html" %}: Inherits the base template for rendering the layout.
+
+{% block extrahead %}: Used to add custom styles and script tags before closing the <head> section in a webpage's HTML.
+
+<style>: Adding CSS rules to modify font sizes and other elements on the page.
+
+<div id="my-component-root" class="mendable-search"></div>: Creating a div element with the Mendable Search component, which is used for searching.
+
+<script src="https://unpkg.com/@mendable/search@0.0.155/dist/umd/mendable-bundle.min.js"></script>: Including a script to load the Mendable Search component functionality.
+
+Mendable.initialize(): Initializing the Mendable Search component with specific options, such as an anonymous key, type, style settings, floating button style, icon, and bot icon.
+
+# TAGS: extrahead, style, svg, ms-w-12, ms-h-12, headlessui-dialog-panel-2, p, textarea, span, div, a, button, font-size, line-height, Temporary solution for the font sizes, Mendable.initialize, anon_key, type, floatingButton, style, accentColor, darkMode, icon, botIcon

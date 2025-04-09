@@ -1,0 +1,11 @@
+# SOURCE: SECURITY.md
+# TIME: 2025-03-31_00-36-41
+
+Puppeteer: A project that takes security seriously; use Chromium's process to report issues (Category: Security Policy, Reporting Vulnerabilities)
+
+# TAGS: #SecurityPolicy
+#VulnerabilityReporting
+#ChromiumProject
+#PuppeteerProject
+#Process
+#Chromium

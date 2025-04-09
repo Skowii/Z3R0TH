@@ -1,0 +1,10 @@
+The prototype pattern is a creational design pattern that involves creating new objects by copying an existing prototype instance. It is used when the type of the object to be created is specified as a prototype, rather than through direct instantiation. The performance advantage can be achieved by not using the prototype pattern when there is no need for cloning. The pattern allows developers to create and modify objects based on existing objects' instances instead of creating them from scratch.
+
+In Java, this can be easily implemented by implementing Cloneable interface and overriding the clone() method in the Object class. An example shows how a Sheep object is cloned and modified. The prototype pattern can be applied when:
+- Products need to be generated, configured, represented, and expressed independently
+- Classes are instantiated at runtime (e.g., dynamic loading)
+- A class's instance should only have one specific state combination
+- It's more convenient to install and clone prototypes instead of manually instantiating classes each time with a specific state
+- The cost of creating objects is high compared to cloning them
+
+Real-world examples include Java.lang.Object#clone() method, and books like "Design Patterns: Elements of Reusable Object-Oriented Software" and "Head First Design Patterns: A Brain-Friendly Guide."

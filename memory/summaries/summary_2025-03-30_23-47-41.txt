@@ -1,0 +1,1 @@
+When working with JavaScript objects, you may need to check if a value or key exists. To check if an object has a given value, use `Object.values()` and `Array.prototype.includes()`. To check for a given key, use `Object.keys()` and `Array.prototype.includes()`. For nested keys, use `Array.prototype.every()` and `Object.prototype.hasOwnProperty()`.

@@ -1,0 +1,4 @@
+Remove attributes from an HTML element using JavaScript:
+1. Use `Element.removeAttribute()` to specify and remove a single attribute.
+2. For removing all attributes, use `Object.values()` with `Element.attributes` to list the attributes.
+3. Iterate the array using `Array.prototype.forEach()`, calling `Element.removeAttribute()` on each attribute's name.

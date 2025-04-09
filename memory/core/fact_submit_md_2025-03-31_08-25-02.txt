@@ -1,0 +1,17 @@
+# SOURCE: submit.md
+# TIME: 2025-03-31_08-25-02
+
+Task: Submit a new challenge to improve AutoGPT's abilities
+
+1. Create a new `.md` file in the `challenges` directory in the AutoGPT GitHub repository
+2. Use a descriptive title with hyphens (e.g., `improve-context-understanding.md`)
+3. Follow the challenge_template.md to define the problem, scope, and success criteria
+4. Commit the file and create a pull request
+5. Community reviews and adds it to List of Challenges if appropriate
+
+# TAGS: # Submit a Challenge
+- Create new `.md` file in the `challenges` directory in AutoGPT GitHub repository
+- Name the file using descriptive title and hyphens
+- Follow challenge_template.md for problem description, scope, and evaluation success
+- Commit the file and create a pull request
+- Challenge will be reviewed and discussed by the community

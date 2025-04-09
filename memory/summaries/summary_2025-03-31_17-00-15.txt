@@ -1,0 +1,1 @@
+This file is part of the Sylius package and is licensed under Paweł Jędrzejewski's copyright and license information. It includes jQuery extension methods that provide a requirement for confirmation on various elements before an action is performed, using Semantic-UI CSS components like modal to display a popup confirmation message.

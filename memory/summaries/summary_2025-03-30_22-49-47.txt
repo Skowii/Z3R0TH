@@ -1,0 +1,1 @@
+Create a new Git repository by running `git init` in the desired project directory. This sets up configuration files for tracking changes. You only need to run this command once per repository, and it's safe to run on an existing repository without breaking anything.

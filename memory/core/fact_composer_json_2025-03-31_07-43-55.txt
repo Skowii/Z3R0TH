@@ -1,0 +1,9 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-43-55
+
+The given information is a JSON object representing an application named "example/test-application". It contains one key-value pair with the key 'name' having the value "example/test-application". This can be used to identify or categorize the application for various purposes.
+
+# TAGS: Key Concepts: example, test-application
+Keywords: name
+People: None
+Dates: None

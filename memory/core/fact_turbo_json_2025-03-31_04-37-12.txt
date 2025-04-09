@@ -1,0 +1,27 @@
+# SOURCE: turbo.json
+# TIME: 2025-03-31_04-37-12
+
+Task summary:
+- clean: No cache
+- build:backend: Depends on n8n#build
+- build:frontend: Depends on n8n-editor-ui#build
+- build:nodes: Depends on n8n-nodes-base#build and @n8n/n8n-nodes-langchain#build
+- build: All: Outputs dist/**
+- typecheck: No deps
+- format: None
+- format:check: None
+- lint:backend: Depends on n8n-api-types, etc.
+- lint:frontend: Depends on @n8n/chat, etc.
+- lint:nodes: Depends on n8n-nodes-base, etc.
+- lint: All: None
+- lintfix: None
+- test:backend: Depends on n8n-api-types, etc.
+- test:frontend: Depends on @n8n/chat, etc.
+- test:nodes: Depends on n8n-nodes-base, etc.
+- test: All: Outputs coverage/**
+- test: None
+- watch: No cache, persistent
+- dev: No cache, persistent
+
+# TAGS: key concepts: build, backend, frontend, nodes, typecheck, format, lint, test, coverage, clean, cache, watch, dev, globalEnv, ui, CI, COVERAGE_ENABLED
+keywords: n8n, api-types, config, di, client-oauth2, imap, permissions, task-runner, n8n-workflow, n8n-core, n8n-node-dev, n8n, chat, codemirror-lang, storybook, cypress, composables, design-system, editor-ui, lintcheck, json-schema-to-zod

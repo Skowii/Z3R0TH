@@ -1,0 +1,1 @@
+Convert tabs to spaces in JavaScript using the String.prototype.replace() method with a regular expression (/\t/g) and control the number of spaces per tab via the count argument. This allows customization for personal preference: `expandTabs('\t\tlorem', 3); // '      lorem'`.

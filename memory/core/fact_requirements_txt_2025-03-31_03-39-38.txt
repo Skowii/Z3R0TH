@@ -1,0 +1,7 @@
+# SOURCE: requirements.txt
+# TIME: 2025-03-31_03-39-38
+
+These are various libraries and their respective versions used in different applications, such as Google API Python client, Auth OAuthlib, Instaloader, Instalooter, MoviePy, Protobuf, Python Dateutil, Schedule, and Pyffmpeg. These libraries aid developers in building a range of functionalities into their programs.
+
+# TAGS: Keywords: google_api_python_client, google_auth_oauthlib, instaloader, instalooter, moviepy, protobuf, python_dateutil, schedule, pyffmpeg
+Versions: 2.36.0, 0.4.6, 4.5.5, 2.4.4, 1.0.3, 3.14.0, 2.8.1, 0.6.0, 2.1.0

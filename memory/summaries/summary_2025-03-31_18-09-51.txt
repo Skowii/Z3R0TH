@@ -1,0 +1,13 @@
+The AGbenchmark summary:
+
+- Benchmark start time: August 2, 17:21
+- Completion time: August 2, 17:31
+- Total run time: 579.05 seconds
+- Highest difficulty: intermediate (4)
+
+Tests:
+- TestWriteFile: success, interface
+- TestPlanCreation: success, basic
+- TestGoalDivergence: failure, novice
+- TestSearch: success, interface
+- TestReadFile: success, interface

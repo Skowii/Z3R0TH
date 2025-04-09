@@ -1,0 +1,1 @@
+The JavaScript spread operator is a versatile tool with three primary uses: cloning an array, merging multiple arrays, and adding items to an array. It can be used for shallow cloning, meaning nested non-primitive values will not be cloned.

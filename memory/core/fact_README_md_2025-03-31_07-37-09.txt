@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-37-09
+
+SyliusAttributeBundle is a bundle that provides an attributes system for entities in Symfony2 applications, created by Paweł Jędrzejewski and other contributors. It is part of the Sylius Open Source eCommerce solution which is built from decoupled components with a powerful API and high-quality code. The bundle follows the MIT License and the project has various channels for staying updated on its development such as the official blog, Twitter, Facebook, and GitHub issues for bug tracking.
+
+# TAGS: Attribute, system, entities, Symfony2 applications, Sylius, Open Source eCommerce, API, documentation, contributing, channels, Official Blog, Twitter, Facebook, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

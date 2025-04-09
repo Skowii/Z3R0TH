@@ -1,0 +1,1 @@
+The module provides the RP Renamer application using PyQt5. It creates a QApplication, initializes the Window view, and runs the event loop upon user interaction.

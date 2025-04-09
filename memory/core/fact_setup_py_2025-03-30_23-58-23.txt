@@ -1,0 +1,23 @@
+# SOURCE: setup.py
+# TIME: 2025-03-30_23-58-23
+
+Alpaca Trade API Python client summary:
+
+- Name: alpaca-trade-api
+- Version: [redacted]
+- Description: Alpaca API python client for financial, timeseries, and trade tasks.
+- Author: Alpaca
+- URL: https://github.com/alpacahq/alpaca-trade-api-python
+- Keywords: financial, timeseries, api, trade
+- Packages: alpaca_trade_api
+- Install requirements: [redacted]
+- Tests requirements: [redacted]
+- Setup requirements: pytest-runner, flake8
+
+# TAGS: keywords: financial, timeseries, api, trade
+people: Alpaca
+date: not mentioned
+package name: alpaca_trade_api
+version: not mentioned
+requirements: requirements.txt, requirements_test.txt
+description: Alpaca API python client

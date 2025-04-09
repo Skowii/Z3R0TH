@@ -1,0 +1,13 @@
+# SOURCE: instaloader_test.py
+# TIME: 2025-03-31_03-42-57
+
+Summary:
+- Download posts with the hashtag #urbanphotography
+- Set SINCE and UNTIL dates for filtering posts
+- Increment k when a post's date is on or before SINCE and not greater than UNTIL, breaking after 50 posts.
+- Download the post if the date matches the range and reset k to 0
+- Optionally save the value of k in a list for tuning purposes
+
+# TAGS: key concepts: instaloader, downloads, hashtag urbanphotography, datetime, posts, SINCE, UNTIL, postdate
+people: not mentioned
+dates: 2020-5-10, 2020-5-11

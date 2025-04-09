@@ -1,0 +1,8 @@
+# SOURCE: requirements-freqai-rl.txt
+# TIME: 2025-03-31_03-47-11
+
+requirements: freqai, torch, gymnasium, stable_baselines3, sb3_contrib, tqdm
+
+tags: bot, requirements, freqai-rl, x86_64, darwin, torch, gymnasium, stable_baselines3, sb3_contrib, tqdm
+
+# TAGS: requirements, freqai, r, requirements-freqai, torch, sys_platform, darwin, x86_64, gymnasium, SB3, Stable Baselines 3, stable_baselines3, sb3_contrib, tqdm

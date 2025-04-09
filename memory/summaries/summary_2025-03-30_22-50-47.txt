@@ -1,0 +1,1 @@
+Git's stashing feature temporarily saves local changes, allowing users to switch branches or commit without losing progress. To use it, use `git stash push` to save changes, and view them with `git stash list`. View the changes with `git stash show`, and apply a stash with `git stash apply` or `git stash pop`.

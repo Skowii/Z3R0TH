@@ -1,0 +1,1 @@
+Dynamically added object properties can slow down performance in JavaScript due to engines optimizing for static typing and creating transition chains for new properties. To optimize, define all possible properties with empty values ahead of time, allowing the engine to create a shape for improved property access.

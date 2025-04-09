@@ -1,0 +1,9 @@
+# SOURCE: package.json
+# TIME: 2025-03-31_02-00-07
+
+Selenium is a package managed by pnpm@9.15.4, and its workspaces include javascript/grid-ui and javascript/selenium-webdriver. The repository is located at https://github.com/SeleniumHQ/selenium and uses git as its type.
+
+# TAGS: name: selenium
+packageManager: pnpm@9.15.4
+workspaces: javascript/grid-ui, javascript/selenium-webdriver
+repository: type: git, url: https://github.com/SeleniumHQ/selenium.git

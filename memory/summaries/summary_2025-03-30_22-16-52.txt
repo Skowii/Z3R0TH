@@ -1,0 +1,1 @@
+The code generates a list of source files (using the RELATIVE flag if necessary) and creates an executable for each file. It sets the target properties to CXX language and adds OpenMP library support if available. The executables are installed in the "bin/numerical_methods" directory.

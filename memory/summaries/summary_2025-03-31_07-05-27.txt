@@ -1,0 +1,15 @@
+Título: Respuesta parcial
+Nombre abreviado: Respuesta parcial
+Categoría: Comportamiento
+Lengua: es
+Etiqueta: - Desacoplamiento
+
+Objetivo: Enviar una respuesta parcial del servidor al cliente según sus necesidades. El cliente especificará los campos que necesita al servidor, en lugar de recibir todos los detalles del recurso.
+
+Diagrama de clases: ![alt text](./etc/partial-response.urm.png "Respuesta parcial")
+
+Aplicabilidad: Utilice el patrón de respuesta parcial cuando
+* El cliente solo necesita un subconjunto de datos del recurso.
+* Para evitar una transferencia excesiva de datos por cable
+
+Créditos: [Common Design Patterns](https://cloud.google.com/apis/design/design_patterns)

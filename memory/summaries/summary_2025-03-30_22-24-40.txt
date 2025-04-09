@@ -1,0 +1,1 @@
+Using the `<base>` element, you can set all links in an HTML document to open in a new tab by adding `<base target="_blank">` in the `<head>`. However, be aware of security risks and follow tips on safeguarding `target="_blank"` links.

@@ -1,0 +1,1 @@
+Summary: To remove a file from the last Git commit, use "git rm --cached <file>" to delete the specified file from the index and then amend the commit using "git commit --amend". If you've pushed changes, create a new commit or rewrite history with caution.

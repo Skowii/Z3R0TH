@@ -1,0 +1,49 @@
+In this article, we will discuss several number formatting operations in JavaScript, including rounding, padding, optional decimal marks, currency, seconds, bytes, and more. Let's explore some common scenarios and how to handle them.
+
+1. Fixed-point notation without trailing zeros:
+   - Use `Number.prototype.toFixed()` to convert the number to a fixed-point notation string.
+   - Use `Number.parseFloat()` to convert the fixed-point notation string to a number, removing trailing zeros.
+   - Use a template literal to convert the number to a string.
+
+Example:
+```js
+const toOptionalFixed = (num, digits) =>   `${Number.parseFloat(num.toFixed(digits))}`;
+toOptionalFixed(1, 2); // '1'
+toOptionalFixed(1.001, 2); // '1'
+toOptionalFixed(1.500, 2); // '1.5'
+```
+
+2. Round number to given precision:
+   - Use `Math.round()` and a template literal to round the number to the specified number of digits.
+   - Optionally provide a second argument for decimal places. If not provided, it will round to an integer.
+
+Example:
+```js
+const round = (n, decimals = 0) =>   Number(`${Math.round(`${n}e${decimals}`)}e-${decimals}`);
+round(1.005, 2); // 1.01
+```
+
+3. Format duration:
+   - Convert a number of milliseconds to a human-readable format using an object with values for day, hour, minute, second, and millisecond.
+   - Use `Object.entries()` with `Array.prototype.filter()` to keep only non-zero values.
+   - Use `Array.prototype.map()` to create the string for each value, pluralizing appropriately.
+   - Use `Array.prototype.join()` to combine the values into a single string.
+
+Example:
+```js
+const formatDuration = ms => {
+  if (ms < 0) ms = -ms;
+  const time = {
+    day: Math.floor(ms / 86_400_000),
+    hour: Math.floor(ms / 3_600_000) % 24,
+    minute: Math.floor(ms / 60_000) % 60,
+    second: Math.floor(ms / 1000) % 60,
+    millisecond: ms % 1000
+  };
+  return Object.entries(time)
+    .filter(([key, value]) => value > 0)
+    .map(([key, value]) => (value === 1) ? `${value} ${key}` : `${value}s ${key}`)
+    .join(' ');
+};
+formatDuration(65892430577); // '1 year, 190 days, 2 hours, 4 minutes and 43 seconds'
+```

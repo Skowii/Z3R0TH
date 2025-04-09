@@ -1,0 +1,1 @@
+Create a typewriter effect animation with CSS variables and JavaScript by defining two animations, `typing` for characters and `blink` for the caret. Use the `::after` pseudo-element for the caret. Set text using JavaScript, and use CSS properties like `white-space`, `nowrap`, and `overflow` to make content invisible as necessary.

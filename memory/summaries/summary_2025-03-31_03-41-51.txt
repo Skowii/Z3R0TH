@@ -1,0 +1,31 @@
+TreasureChestIterator(items, itemType);
+   }
+
+   private class TreasureChestIterator implements Iterator<Item> {
+       private final List<Item> items;
+       private final ItemType itemType;
+       private int index = 0;
+
+       public TreasureChestIterator(List<Item> items, ItemType itemType) {
+           this.items = items;
+           this.itemType = itemType;
+       }
+
+       @Override
+       public boolean hasNext() {
+           return index < items.size();
+       }
+
+       @Override
+       public Item next() {
+           while (index < items.size()) {
+               if (items.get(index).getType().equals(itemType)) {
+                   return items.get(index);
+               }
+               index++;
+           }
+
+           throw new NoSuchElementException();
+       }
+   }
+}

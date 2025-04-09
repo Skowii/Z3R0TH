@@ -1,0 +1,7 @@
+This folder contains sample code from a Real Python tutorial about the difference between expressions and statements in Python. The code includes:
+
+1. A Code Inspector to identify if a piece of Python code is an expression or statement.
+2. A GUI App that registers a lambda expression as a callback, delegating to a function with statements.
+3. An Echo Program that compiles a C compiler and pipes stdin into the echo program.
+4. A HEX Reader for reading binary files and displaying their bytes in hexadecimal format.
+5. Generators that generate a random signal and use a low-pass filter to make it smooth.

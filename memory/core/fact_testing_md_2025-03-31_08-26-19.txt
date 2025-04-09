@@ -1,0 +1,6 @@
+# SOURCE: testing.md
+# TIME: 2025-03-31_08-26-19
+
+Running tests with pytest: `pytest`, using `--without-integration`, `--without-slow-integration`, or `--cov=autogpt` for coverage. Linter with flake8 rules is also available.
+
+# TAGS: pytest, running tests, Running specific test suites, Running the linter, flake8

@@ -1,0 +1,1 @@
+The `useRequestAnimationFrame` hook allows for efficient animation in React components using the browser's native `requestAnimationFrame()` method. By creating variables to hold last request id and timestamp, defining an animation function, and using `useEffect()`, this custom hook can create smooth animations without affecting repaint performance.

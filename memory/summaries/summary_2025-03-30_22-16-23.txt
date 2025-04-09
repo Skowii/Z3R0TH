@@ -1,0 +1,10 @@
+Guidelines for reviewers: 
+1. Only one active reviewer per PR
+2. Assign reviewers only for specific tasks
+3. Reviewers should be those who've had their code merged before
+4. Ensure pull-requests follow checklists and repo standards
+5. Label PRs appropriately, including "invalid"
+6. Look for duplicate code or PRs, merge branches into one
+7. Discourage direct repo branching, use forked repos
+8. Use GitPod for online coding, testing, and CI checks
+9. Prioritize quality over speed when merging PRs

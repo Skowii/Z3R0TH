@@ -1,0 +1,94 @@
+# SOURCE: free-programming-books-hu.md
+# TIME: 2025-03-30_21-57-54
+
+: Árvai Zoltán, Farkas Bálint, Fülöp Dávid, Fár Attila Gergő, Fülöp Dávid, Komjáthy Szabolcs, Turóczi Attila, Velvárt András
+
+
+### iOS
+
+* [Apple Developer Portal](https://developer.apple.com/library) (HTML) *(in English)*
+* [ObjC.io – Objective-C és Swift Programozás](http://objc.io/) (HTML) *(in English)*
+* [Swift 2: A Kézikönyv](https://itunes.apple.com/us/book/swift-2-the-swift-programming-language-book/id888904176?l=hu&mt=11) (eBook) *(in English)*
+* [iOS Application Programming for dummies](https://www.amazon.com/iOS-Application-Programming-For-Dummies-ebook/dp/B00A0W23Z8/) (eBook) *(in English)*
+
+
+#### Xamarin
+
+* [Xamarin Forms: Mobile Apps Fejlesztése C# Nyelven](http://xam.pl/book/) (HTML, eBook) *[in English]*
+
+
+### Erőforrások
+
+* [W3Schools](https://www.w3schools.com/) (HTML) *(:construction: in process)*
+* [Learn X in Y Minutes](http://learnxinyminutes.com/) (HTML) *(:construction: in process)*
+* [Tutorialspoint](https://www.tutorialspoint.com/index.htm) (HTML) *[in English]*
+* [Codeacademy](https://www.codecademy.com/) (HTML) *[in English]*
+* [Stack Overflow](http://stackoverflow.com/) (HTML) *[in English]*
+* [FreeCodeCamp](https://www.freecodecamp.org/) (HTML) *[in English]*
+* [GitHub Learning Lab](https://lab.github.com/github/developer-handbook) (HTML) *(:construction: in process)*
+* [Programiz](http://www.programiz.com/) (HTML) *(:construction: in process)*
+
+
+## Fordítás
+
+- Ez a szócikk részben vagy egészben az *[Internet Archive Wayback Machine] szerinti eredeti lehetőséggel* https://web.archive.org/web/20180917064310/http://ade.web.elte.hu/programozas/szakaszok/nevezetes-szakaszok-konyvek-kot
+
+# TAGS: * [ASP.NET alapjai](http://weblabor.hu/cikkek/aspnetalapjai) - Bártházi András (HTML)
+* [Közös alkalmazások fejlesztése ASP.NET és Java Web alkalmazások használatával](http://mek.oszk.hu/01300/01306/index.phtml) - Csizmazia Balázs (PDF)
+* [Visual Basic .NET](http://mek.oszk.hu/05800/05800/index.phtml) - Keresztesi József, Németh András, Varga László (PDF)
+* [Windows Forms alkalmazások fejlesztése Visual Studio .NET-vel](http://mek.oszk.hu/06100/06132/index.phtml) - Kocsis György, Sánta Gábor (PDF)
+* [Windows Forms alkalmazások fejlesztése Visual Studio .NET-vel](http://mek.oszk.hu/07400/07428/index.phtml) - Kocsis György, Sánta Gábor (PDF)
+* [Windows Forms alkalmazások fejlesztése Visual Studio .NET-vel](http://mek.oszk.hu/07700/07724/index.phtml) - Kocsis György, Sánta Gábor (PDF)
+* [Windows Forms alkalmazások fejlesztése Visual Studio .NET-vel](http://mek.oszk.hu/08100/08135/index.phtml) - Kocsis György, Sánta Gábor (PDF)
+* [Windows Forms alkalmazások fejlesztése Visual Studio .NET-vel](http://mek.oszk.hu/08400/08417/index.phtml) - Kocsis György, Sánta Gábor (PDF)
+* [Windows Forms alkalmazások fejlesztése Visual Studio .NET-vel](http://mek.oszk.hu/09500/09519/index.phtml) - Kocsis György, Sánta Gábor (PDF)
+
+
+### Python
+
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/09300/09314/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/10800/10829/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/11600/11624/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/12700/12724/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/13500/13527/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/14100/14125/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/14600/14632/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/15000/15037/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/15500/15526/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/15900/15923/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/16300/16324/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/16700/16732/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/17000/17038/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/17400/17429/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/17800/17825/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/18200/18230/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/18600/18632/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/19000/19027/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/19400/19427/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/19800/19834/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/20100/20136/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/20500/20537/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/20900/20935/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/21200/21236/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/21600/21634/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/22000/22037/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/22400/22438/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/22800/22841/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/23200/23245/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/23600/23648/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/24000/24053/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/24400/24456/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/24800/24863/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/25100/25138/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/25500/25543/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/25900/25948/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/26300/26354/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/26700/26759/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/27100/27165/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/27500/27569/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/27900/27975/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/28300/28381/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/28700/28796/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/29100/29199/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/29500/29604/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)
+* [Python nyelv használata az alapoktól a közepfelé](http://mek.oszk.hu/30000/30109/index.phtml) - Mészáros Dávid, Tóth Gábor (PDF)

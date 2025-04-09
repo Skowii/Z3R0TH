@@ -1,0 +1,6 @@
+This content is about three GitHub blocks:
+1. GitHub List Tags block - retrieves tags for a specified GitHub repository.
+2. GitHub List Branches block - fetches branches from the given GitHub repository.
+3. GitHub List Discussions block - retrieves recent discussions in a specified GitHub repository.
+4. GitHub List Releases block - collects all releases from a given GitHub repository. 
+These blocks use GitHub API credentials to access repository data, and they output information about each tag/branch/discussion/release with their respective names and URLs.

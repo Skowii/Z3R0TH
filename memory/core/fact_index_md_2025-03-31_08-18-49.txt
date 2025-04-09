@@ -1,0 +1,25 @@
+# SOURCE: index.md
+# TIME: 2025-03-31_08-18-49
+
+- Contributing to documentation
+- Clone repository
+- Install dependencies
+- Use mkdocs live server
+- Add new page in content folder
+- Update nav section in mkdocs.yml
+- Check for broken links with mkdocs build
+- Submit a Pull Request
+
+# TAGS: # Contributing to the Docs
+- Contributions welcome
+- Setting up docs:
+  1. Clone repository
+  2. Install dependencies
+  3. Use mkdocs' live server
+- Adding a new page:
+  1. Create markdown file in `docs/content`
+  2. Update nav section in `mkdocs.yml`
+  3. Add content to the new markdown file
+  4. Run `mkdocs serve` to see changes
+- Checking links: run `mkdocs build` for broken link warnings
+- Submitting a Pull Request

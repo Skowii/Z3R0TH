@@ -1,0 +1,37 @@
+Flattening or unflattening a JavaScript object involves converting nested objects into flat ones or vice versa. This can be done using recursive strategies. To flatten an object, every leaf node should be converted to a flattened path node. An example of this is shown below:
+
+```js
+const fileSizes = {
+  package: 256,
+  src: {
+    index: 1024,
+    styles: {
+      main: 128,
+      colors: 16
+    },
+  },
+  assets: {
+    images: {
+      logo: 512,
+      background: 512
+    },
+    fonts: {
+      serif: 64
+    }
+  }
+};
+
+const flattenedFileSizes = {
+  'package': 256,
+  'src.index': 1024,
+  'src.styles.main': 128,
+  'src.styles.colors': 16,
+  'assets.images.logo': 512,
+  'assets.images.background': 512,
+  'assets.fonts.serif': 64
+};
+```
+
+To build a recursive solution for this, the base case is defined as keys whose values are not objects. In this scenario, we simply add the key-value pair to the result. For keys with object values, we call the function recursively, adding the current key as a prefix. As we go deeper, previous prefixes should be prepended to the current key.
+
+In JavaScript, the flattening and unflattening of objects can be achieved using `Object.keys()` and `Array.prototype.reduce()`. The recursive calls are made using `Object.assign()`.

@@ -1,0 +1,50 @@
+[2025-04-02 19:09:13] [INFO] 🤖 YouTubeBot initialized with model deepseek-r1 (UUID: 00cb13dc-0d2a-4e8c-adf2-e5cbe87c1a55)
+[2025-04-02 19:09:13] [INFO] 🎬 YouTubeBot initialized.
+[2025-04-02 19:09:13] [INFO] ⚙ Starting new script cycle...
+[2025-04-02 19:09:13] [INFO] 🔍 Recalled memory: [youtube/last_idea]
+[2025-04-02 19:09:13] [INFO] 🧠 Memory saved: [youtube/last_idea]
+[2025-04-02 19:09:13] [INFO] 💬 Prompting LLM: Write a short, punchy 30-45 second YouTube script for this topic: # Memory saved...
+[2025-04-02 19:09:51] [INFO] ✅ LLM responded.
+[2025-04-02 19:09:51] [INFO] 💬 Prompting LLM: Generate a catchy title for this YouTube Shorts script:
+<think>
+Okay, so I'm try...
+[2025-04-02 19:10:34] [INFO] ✅ LLM responded.
+[2025-04-02 19:10:34] [INFO] 💬 Prompting LLM: Optimize this YouTube title for virality: <think>
+Okay, so I need to help create...
+[2025-04-02 19:11:03] [INFO] ✅ LLM responded.
+[2025-04-02 19:11:03] [INFO] 💬 Prompting LLM: Generate 8 SEO-boosted hashtags for the YouTube video titled:
+<think>
+Alright, s...
+[2025-04-02 19:11:43] [INFO] ✅ LLM responded.
+[2025-04-02 19:11:43] [INFO] 💬 Prompting LLM: Refine this hashtag list to make it cleaner:
+<think>
+Alright, let me break down ...
+[2025-04-02 19:12:33] [INFO] ✅ LLM responded.
+[2025-04-02 19:12:33] [INFO] 💬 Prompting LLM: Give me a thumbnail idea prompt based on this title: <think>
+Alright, so the use...
+[2025-04-02 19:12:56] [INFO] ✅ LLM responded.
+[2025-04-02 19:12:56] [INFO] ✅ Script + metadata successfully saved.
+[2025-04-02 19:12:56] [INFO] ⚙ Starting new script cycle...
+[2025-04-02 19:12:56] [INFO] 🔍 Recalled memory: [youtube/last_idea]
+[2025-04-02 19:12:56] [INFO] 🧠 Memory saved: [youtube/last_idea]
+[2025-04-02 19:12:56] [INFO] 💬 Prompting LLM: Write a short, punchy 30-45 second YouTube script for this topic: # Memory saved...
+[2025-04-02 19:13:33] [INFO] ✅ LLM responded.
+[2025-04-02 19:13:33] [INFO] 💬 Prompting LLM: Generate a catchy title for this YouTube Shorts script:
+<think>
+Alright, so the ...
+[2025-04-02 19:13:56] [INFO] ✅ LLM responded.
+[2025-04-02 19:13:56] [INFO] 💬 Prompting LLM: Optimize this YouTube title for virality: <think>
+Alright, the user provided a s...
+[2025-04-02 19:14:40] [INFO] ✅ LLM responded.
+[2025-04-02 19:14:40] [INFO] 💬 Prompting LLM: Generate 8 SEO-boosted hashtags for the YouTube video titled:
+<think>
+Okay, so I...
+[2025-04-02 19:15:21] [INFO] ✅ LLM responded.
+[2025-04-02 19:15:21] [INFO] 💬 Prompting LLM: Refine this hashtag list to make it cleaner:
+<think>
+Alright, so I need to come ...
+[2025-04-02 19:15:56] [INFO] ✅ LLM responded.
+[2025-04-02 19:15:56] [INFO] 💬 Prompting LLM: Give me a thumbnail idea prompt based on this title: <think>
+Okay, so I need to ...
+[2025-04-02 19:16:44] [INFO] ✅ LLM responded.
+[2025-04-02 19:16:44] [INFO] ✅ Script + metadata successfully saved.

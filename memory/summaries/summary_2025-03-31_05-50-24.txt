@@ -1,0 +1,7 @@
+Event Driven Architecture (EDA) is a design pattern that enables applications to notify other applications about specific object state changes and send related events. It can be used in situations where you want to:
+
+1. Build loosely coupled systems.
+2. Develop reactive systems.
+3. Create scalable systems.
+
+Real-life examples include Chargify's API, AWS Lambda, and MySQL triggers that respond to database table updates. EDA has multiple definitions and real-world applications as provided in the referenced resources.

@@ -1,0 +1,9 @@
+# SOURCE: CONTRIBUTOR_LICENSE_AGREEMENT.md
+# TIME: 2025-03-31_04-39-11
+
+Contributor License Agreement:
+- Gives n8n permission to license contributions on any terms
+- Enables acceptance of contributions into the project
+- Contributions come without warranty or condition and author waives liability for damages related to software or license.
+
+# TAGS: n8n, Contributor License Agreement, permission, terms, project, contributions, warranty, condition, liability, damages, software, license

@@ -1,0 +1,1 @@
+Convert a JSON object with circular references to a JavaScript string using `stringifyCircularJSON` function. The custom replacer omits values already seen in a `WeakSet`. This allows serialization without `TypeError`, but results in data loss.

@@ -1,0 +1,1 @@
+The debate between `dict[key]` and `dict.get(key)` in Python revolves around accessing dictionary values. While both can be used, `dict.get()` is usually preferred due to its ability to accept a default value when the key doesn't exist in the dictionary, which results in a non-error outcome compared to `dict[key]`.

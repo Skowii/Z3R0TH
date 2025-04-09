@@ -1,0 +1,1 @@
+This module offers the primary interface for the RP (Role Play) Renamer tool, with version 0.1.0 available.

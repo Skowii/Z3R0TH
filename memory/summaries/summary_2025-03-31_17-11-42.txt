@@ -1,0 +1,1 @@
+Robots.txt is a file that provides instructions for web robots (such as search engine crawlers) about how to interact with the pages on a website, often including directives like "User-agent: *," which means allowing all robots access. This text can be found at www.robotstxt.org/#www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449.

@@ -1,0 +1,1 @@
+This code creates two numpy vectors, vector1 and vector2, using NumPy array function. It also creates a third vector, v3, with elements of square root 2 each. The script then prints the dimensions, magnitudes, and dot products of these vectors.

@@ -1,0 +1,21 @@
+private Session session;
+}
+
+public interface Server {
+    public void process(Request request);
+}
+
+public interface Client {
+    public Response handleRequest(Session session, Object request);
+}
+
+public class LocalServer implements Server {
+    public Server(String host, int port) {}
+    public Session getSession(String id) { return null; }
+}
+
+public class StubClient implements Client {
+    public Response handleRequest(Session session, Object request) {
+        return new Response();
+    }
+}

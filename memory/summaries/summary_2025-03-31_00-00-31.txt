@@ -1,0 +1,8 @@
+This JavaScript method copies the sign of a number without changing its absolute value. It uses the `Math.sign()` function to compare and change signs if necessary. The resulting code is simple and efficient:
+
+```js
+const copySign = (x, y) => Math.sign(x) === Math.sign(y) ? x : -x;
+copySign(2, 3); // 2
+copySign(2, -3); // -2
+copySign(-2, 3); // 2
+copySign(-2, -3); // -2

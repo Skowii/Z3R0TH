@@ -1,0 +1,5 @@
+{
+  "override": true,
+  "kill_switch": false,
+  "allowed_agents": []
+}

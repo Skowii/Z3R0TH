@@ -1,0 +1,1 @@
+Use `Array.isArray()` to reliably check if a JavaScript object is an array, as it works with cross-realm objects like those created in iframes. This method is more reliable than using the `instanceof` operator.

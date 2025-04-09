@@ -1,0 +1,1 @@
+Insertion sort is a simple sorting algorithm that builds a sorted array one element at a time using comparisons to find the correct position to insert each element. This can be implemented in JavaScript using the reduce() function, some() for iterating over the results, and splice() to insert elements into the accumulator. The algorithm has an average time complexity of O(n^2).

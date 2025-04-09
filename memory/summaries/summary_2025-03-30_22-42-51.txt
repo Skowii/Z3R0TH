@@ -1,0 +1,1 @@
+Accidentally committed to master? To move commits to a new branch, create a new branch at the tip of current master using "git branch." Rewind back commits and discard changes with "git reset HEAD~<n> --hard." Switch to new branch with "git checkout <branch>." This method works for any branch, just replace "master" with the desired branch name.

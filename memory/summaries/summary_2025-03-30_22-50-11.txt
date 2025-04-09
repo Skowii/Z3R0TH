@@ -1,0 +1,1 @@
+Get the name of the current branch in Git using the command `git rev-parse --abbrev-ref HEAD`. This can be useful for various purposes like scripting, debugging, or tracking work. Pipe the output to other commands as needed.

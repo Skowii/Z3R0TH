@@ -1,0 +1,1 @@
+Data Access Object (DAO) is an architectural pattern that provides an abstract interface for interacting with a specific type of data storage, such as a database or other persistent mechanism. It separates the concerns of business logic and data access, simplifying maintenance and allowing for easier unit testing. This results in cleaner, more scalable code.

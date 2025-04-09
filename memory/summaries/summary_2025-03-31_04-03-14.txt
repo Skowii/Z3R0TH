@@ -1,0 +1,5 @@
+The Acyclic Visitor pattern is a behavioral design pattern that allows new functions to be included in an existing hierarchical structure without affecting the current hierarchy or coupling. It enables adding new functions to an existing structure without changing its type, extending it, or creating subclasses.
+
+The example provided shows a class diagram where `Modem` is the base class and two child classes, `Zoom` and `Hayes`, extend it. Both the classes have different functionalities, requiring specific visitor patterns for their functionality. The visitor pattern is implemented through interfaces, like `ModemVisitor`, `HayesVisitor`, and `ZoomVisitor`.
+
+The main idea of this design pattern is to create a system where visitors can interact with the components without altering the structure or adding new classes or subclasses. This allows for modular and easy-to-maintain code, as the functionality can be changed independently from the existing hierarchy.

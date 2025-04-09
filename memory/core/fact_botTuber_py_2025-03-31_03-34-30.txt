@@ -1,0 +1,110 @@
+# SOURCE: botTuber.py
+# TIME: 2025-03-31_03-34-30
+
+def addMetaData_to_youtube(youtube_client, title, desc, tags):
+        youtube.channel_id = "UCmV2G6kpYZJzEj-bK0L3M1w"
+        video = youtube.videos().insert(part='status,snippet', body={'resource': {
+            'status': {'privacyStatus': 'private'},
+            'snippet': {
+                'title': title,
+                'description': desc,
+                'tags': tags,
+                'categoryId': 20,
+            }
+        }}).execute()
+        return video.get('id')
+
+    # Step 3: Upload & Schedule the Video on YouTube
+    print("[+] Uploading the Compilation to YouTube...")
+    try:
+        upload_id = addMetaData_to_youtube(youtube, title, description, tags)
+        youtube.videos().statuses().update(part='snippet,contentDetails', body={
+            'videoId': upload_id,
+            'snippet': {
+                'publishedAt': datetime.datetime.utcnow() + timedelta(minutes=5),
+                'tag': tags
+            },
+            'contentDetails': {
+                'duration': 'PT1H',
+            }
+        }).execute()
+    except Exception as e:
+        print(e)
+        
+    print("[+] Uploading Successfull!")
+    
+    # Step 4: Schedule Email Alert for video publishing
+    from email.mime.text import MIMEText
+    from email.mime.multipart import MIMEMultipart
+    from email.utils import formatdate
+    import smtplib, ssl
+
+    port = 465  # For SSL
+    server = 'smtp.gmail.com'
+    sender_email = "samsepi0l@gmail.com"
+    password = "qwdhsdjyw"
+    
+    subject = "New Video Uploaded - Best Dank Video Memes Compilation"
+    email_body = f"""Subject: {subject}
+
+YouTube Channel - https://youtube.com/c/pwnos
+GitHub - https://github.com/sam5epi0l
+LinkedIn - https://linkedin.com/in/sam-sepi0l
+Twitter - https://twitter.com/sam5epi0l
+Quora - https://pwnos.quora.com/
+Patreon - https://www.patreon.com/pwnOS
+Buymeacoffee - https://www.buymeacoffee.com/sam5epi0l
+medium - https://medium.com/@sam5epi0l
+
+In this video, I show you the best Dank Video Memes on the internet😁😂😂.
+Links To Sources & Credit to owners⬇️:
+
+"""
+    message = MIMEMultipart('alternative', '')
+    message.attach(MIMEText(email_body, 'html', 'utf-8'))
+    
+    recipient = "samsepi0l@gmail.com"
+    msg = email.message()
+    msg['From'] = sender_email
+    msg['To'] = recipient
+    msg['Date'] = formatdate(localtime=True)
+    msg['Subject'] = subject
+    msg.attach(message)
+    
+    server = smtplib.SMTP('smtp.gmail.com', port)
+    server.starttls()
+    server.login(sender_email, password)
+    server.sendmail(sender_email, [recipient], msg.as_string())
+    server.quit()
+    
+    print("[+] Email Sent!")
+
+# TAGS: if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(
+                client_secrets_file, SCOPES)
+            creds = flow.credentials()
+    #print("Credential is",creds)
+
+    service = build('youtube', 'v3', credentials=creds)
+    channel_id = config.CHANNEL_ID
+    
+    # 1.Scraping Videos From IGTV/IG Reels
+    print("[+] Scrapping IG TV/Reels")
+    scrappedVids = scrapeVideos(IG_USERNAME, IG_PASSWORD)  #scrappedVids is list of dictionaries. Each dictionary represents a video.
+
+    # 2. Editing A Compilation
+    print("[+] Making a compilation")
+    makeCompilation(videoDirectory, scrappedVids, title, description, tags, INTRO_VID, OUTRO_VID, WATER_MARK)
+
+    # 3. Uploading the video to youtube
+    print("[+] Uploading the Video to Youtube")
+    uploadYtvid(service, channel_id, outputFile, title, description, tags, MAX_CLIP_LENGTH, MIN_CLIP_LENGTH, TOTAL_VID_LENGTH)
+
+def main():
+  if mode == "A":
+    schedule.every().day.at(DAILY_SCHEDULED_TIME).do(routine, title, description, tags)
+  elif mode == "M":
+    routine(title, description, tags)

@@ -1,0 +1,18 @@
+Learn how to change the lightness component of an `hsl()` color string using JavaScript. First, parse the color string and separate its components using a regular expression and the `String.prototype.match()` method. Modify the lightness value within the valid range (between 0 and 100) using `Math.max()` and `Math.min()`, then create a new `hsl()` string with the updated value using a template literal.
+
+Example:
+
+```js
+const changeLightness = (delta, hslStr) => {
+    const [hue, saturation, lightness] = hslStr.match(/\d+/g).map(Number);
+    const newLightness = Math.max(
+        0,
+        Math.min(100, lightness + Number.parseFloat(delta))
+    );
+    return `hsl(${hue}, ${saturation}%, ${newLightness}%)`;
+};
+changeLightness(10, 'hsl(330, 50%, 50%)'); // 'hsl(330, 50%, 60%)'
+changeLightness(-10, 'hsl(330, 50%, 50%)'); // 'hsl(330, 50%, 40%)'
+changeLightness(-100, 'hsl(330, 50%, 50%)'); // 'hsl(330, 50%, 0%)'
+changeLightness(100, 'hsl(330, 50%, 50%)'); // 'hsl(330, 50%, 100%)'
+```

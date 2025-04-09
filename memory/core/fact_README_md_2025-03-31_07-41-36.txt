@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-41-36
+
+SyliusChannelBundle is a Symfony2 bundle used to handle multiple channels in e-commerce applications. It is part of the Sylius project, an Open Source eCommerce solution with a powerful API and high-quality code. The bundle's documentation can be found on docs.sylius.com, and it uses the MIT License.
+
+# TAGS: SyliusChannelBundle, e-commerce applications, Sylius, Open Source eCommerce solution, API, documentation, contributing, GitHub issues, MIT License, authors

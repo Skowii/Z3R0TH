@@ -1,0 +1,1 @@
+A callback function is a function passed as an argument to another function, executed once an event occurs or a task completes. In JavaScript, there are two types of callbacks - synchronous and asynchronous. Synchronous callbacks execute immediately, while asynchronous callbacks are used for executing code after an asynchronous operation has completed.

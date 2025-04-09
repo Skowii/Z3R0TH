@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_04-07-50
+
+Fully Automated YouTube Channel: A project that scrapes content from Instagram, edits a compilation video, and uploads it to YouTube daily. The process involves downloading the Github repository, installing Python3 and required libraries, setting up a YouTube API project, configuring Instagram credentials, and running the main script. After authorization, the channel scrapes content and uploads videos regularly.
+
+# TAGS: automated youtube channel, Python3, pip, YouTube API, Instagram, scrape content, compilation, upload to Youtube daily, Medium article, Github repository, requirements.txt, Project setup, OATH file, config.py, instalooter, instaloader, login, main.py, terminal/cmd, authentication code, Google documentation

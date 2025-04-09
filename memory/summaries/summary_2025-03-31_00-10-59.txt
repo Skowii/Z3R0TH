@@ -1,0 +1,11 @@
+The SDBM algorithm is a simple, non-cryptographic hash function that converts strings into whole numbers for unique identifiers. Implemented in JavaScript using bit shifting and Unicode values, it is not suitable for cryptographic purposes but ideal for creating unique identifiers. Here's a JavaScript implementation:
+
+```js
+const sdbm = str => {
+  let arr = str.split('');
+  return arr.reduce(
+    (hashCode, currentVal) => (
+      hashCode = currentVal.charCodeAt(0) + (hashCode << 6) + (hashCode << 16) - hashCode),
+    0);
+};
+```

@@ -1,0 +1,1 @@
+Create HTML elements in JavaScript using `Document.createElement()`. Abstract the creation logic into a function, iterating over an object to pass attributes and setting them. This can be used to create and append multiple elements with the same set of attributes. Alternatively, use an HTML string to create an element.

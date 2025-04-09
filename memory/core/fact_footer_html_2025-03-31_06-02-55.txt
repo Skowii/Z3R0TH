@@ -1,0 +1,6 @@
+# SOURCE: footer.html
+# TIME: 2025-03-31_06-02-55
+
+Summary: The given knowledge is a code snippet for a footer in a documentation template. It contains navigation buttons (next and previous), copyright information, last updated details, and credits to the Sphinx theme provided by Read the Docs.
+
+# TAGS: next, prev, btn-neutral, float-right, fa fa-arrow-circle-left, Previous, fa fa-arrow-circle-right, Next, copyright, hr, role="contentinfo", show_copyright, hasdoc, pathto, trans, last_updated, github, Sphinx theme, Read the Docs

@@ -1,0 +1,20 @@
+# SOURCE: 2021_04_15_using_iri_as_api_resource_identifier_in_request_instead_of_code_id.md
+# TIME: 2025-03-31_05-51-13
+
+Title: Using IRI as API resource identifier in requests instead of code/id
+
+Context: In the new Sylius API design, we are trying to unify the API structure by replacing codes and ids with IRIs everywhere. The challenge is using IRIs in requests while maintaining the usage of `id`/`code` in commands and command handlers.
+
+Considered Options:
+1. Using `id`/`code` instead of IRI
+2. Handling and transforming IRI to `id`/`code`
+
+Decision Outcome: Chosen option is "Handling and transforming IRI to `id`/`code`". Request should get the needed information like `code`/`id` as an IRI. This choice unifies the API structure and makes it easier to use while adding a new abstraction layer for commands.
+
+# TAGS: - Status: proposed
+- Date: 2021-04-15
+- Context and Problem Statement: Using IRI as API resource identifier in requests instead of code/id. API Platform recommends using IRI as an identifier, but the new API has been designed with commands in many endpoints which causes a challenge in using IRI in requests while having id/code in commands and command handlers.
+- Considered Options: 
+  1. Using `id`/`code` instead of IRI (easier to implement, not consistent with API Platform)
+  2. Handling and transforming IRI to `id`/`code` (unifies the API structure, makes the API easier to use, imposes a new abstraction layer for commands)
+- Decision Outcome: "Handling and transforming IRI to `id`/`code`". Request that is based on command and needed information like `code`/`id` should get it as IRI.

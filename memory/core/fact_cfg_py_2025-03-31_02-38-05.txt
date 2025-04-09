@@ -1,0 +1,7 @@
+# SOURCE: cfg.py
+# TIME: 2025-03-31_02-38-05
+
+CFG: An object that represents a context-free grammar with normalised probabilities. It has a start non-terminal, rules as dictionaries, and optionally a maximum program depth. Methods include cleaning, converting to LogProbPCFG, uniform PCFG, or random PCFG.
+
+# TAGS: Object: CFG
+Tags: context-free grammar, probabilites, start, rules, hash_table_programs, remove_non_productive, remove_non_reachable, max_program_depth, Q_to_LogProbPCFG, LogProbPCFG, CFG_to_Uniform_PCFG, PCFG, CFG_to_Random_PCFG, alpha

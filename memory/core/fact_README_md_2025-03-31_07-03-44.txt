@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-03-44
+
+Sylius, taxation system, e-commerce applications, Symfony2, Sylius documentation, contributing to Sylius, GitHub issues, MIT License, Paweł Jędrzejewski, contributors
+
+# TAGS: SyliusTaxationBundle, Symfony2, Sylius, eCommerce, documentation, contributing, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

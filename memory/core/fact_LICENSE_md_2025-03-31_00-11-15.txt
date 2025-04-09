@@ -1,0 +1,12 @@
+# SOURCE: LICENSE.md
+# TIME: 2025-03-31_00-11-15
+
+MIT License:
+
+Copyright (c) 2021 practical-tutorials
+
+Permission to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the Software is granted without restrictions, provided that this license notice and any copyright notices are included in all copies or substantial portions of the Software.
+
+The Software is provided "as is" without warranty of any kind, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement. The authors and copyright holders cannot be held liable for any claims, damages, or other liability arising from the use or handling of the Software.
+
+# TAGS: MIT License, Copyright (c) 2021 practical-tutorials, software, associated documentation files, permission notice, copyright notice, Software, deal, rights, use, copy, modify, merge, publish, distribute, sublicense, sell, conditions, warranties, merchantability, fitness for a particular purpose, noninfringement, authors, copyright holders, claim, damages, liability, contract, tort

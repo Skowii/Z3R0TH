@@ -1,0 +1,10 @@
+# SOURCE: upload_ytvid.py
+# TIME: 2025-03-31_03-34-06
+
+- Uploads a YouTube video using the provided file, title, description, and tags.
+- Supports automatic or manual thumbnail upload.
+- Uses Google API for video and thumbnail management.
+- Uses datetime to get current date and time for video metadata.
+- Requires a valid GoogleAPI object to execute the process.
+
+# TAGS: VIDEO_FILE_NAME, title, description, tags, modeAM, googleAPI

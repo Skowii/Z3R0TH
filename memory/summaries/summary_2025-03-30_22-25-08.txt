@@ -1,0 +1,1 @@
+Add essential HTML social tags, including OpenGraph and Twitter tags, to your `<head>` element to ensure proper sharing on social media platforms. These tags provide information such as title, description, image, and site details for Facebook, Twitter, and other sites to display previews when content is shared.

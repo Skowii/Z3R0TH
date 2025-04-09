@@ -1,0 +1,16 @@
+Calculate the date of `n` days ago from today or the date of `n` days from now using JavaScript's `Date.prototype.getDate()` and `Date.prototype.setDate()` methods:
+
+```js
+const daysAgo = n => {
+  let d = new Date();
+  d.setDate(d.getDate() - Math.abs(n));
+  return d;
+};
+const daysFromToday = n => {
+  let d = new Date();
+  d.setDate(d.getDate() + Math.abs(n));
+  return d;
+};
+```
+
+Example: `daysAgo(20)` returns the date of 20 days ago, and `daysFromToday(20)` returns the date of 20 days from now.

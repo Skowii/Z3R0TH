@@ -1,0 +1,1 @@
+Le modèle Arrange/Act/Assert (AAA) est un modèle de conception de tests unitaires qui divise les tests en trois étapes distinctes : arrangement, action et affirmation. Il sépare clairement la configuration, les opérations et les résultats pour rendre le code plus facile à lire et comprendre. AAA impose une certaine discipline dans l'écriture des tests et facilite la maintenance.

@@ -1,0 +1,12 @@
+# SOURCE: LICENSE.md
+# TIME: 2025-03-31_01-11-45
+
+MIT License:
+Copyright (c) 2022 DAIR.AI
+- Permission to deal with the Software without restrictions
+- Include copyright and permission notice in all copies/substantial portions
+- No warranty, liability or claims against authors or copyright holders
+
+Tagged as: software license, MIT License
+
+# TAGS: Key Concepts: MIT License, Copyright, DAIR.AI, Software, Permission, Copy, Documentation Files, Deal in Software, Use, Copy, Modify, Merge, Publish, Distribute, Sublicense, Sell, Above Copyright Notice, Permission Notice, Software Provided "As Is", Warranty, Noninfringement, Liability

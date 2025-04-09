@@ -1,0 +1,32 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_03-11-31
+
+To do this, follow the steps below:
+
+1. Log in to Snipcart Dashboard.
+2. Click on Account > API Keys.
+3. Copy your Public API Key and save it for later use.
+4. Under Account > Regional Settings, set the currency used by Printful and Snipcart.
+5. Create a recovery campaign under Campaigns.
+6. Add a credit card to cover the monthly fee if required.
+7. Set up webhooks as described above.
+
+# TAGS: alue once it's generated. You will need to paste this in `.env.local` file under the variable `PRINTFUL_PRIVATE_TOKEN`.
+
+</details>
+
+<details>
+  <summary>Configure Snipcart</summary>
+  
+  Visit [Snipcart Dashboard](https://app.snipcart.com/dashboard). You can create a new store, or link to an existing one.
+
+You will need to provide your store details, your email and password for the storefront (which will be used by Snipcart's SDK), and a secret key. Make sure to save this somewhere safe as you will need it later when deploying.
+
+</details>
+
+<details>
+  <summary>Set up your store</summary>
+  
+Once you have completed the setup, you can head over to [https://demo.headlessdropshipping.com](https://demo.headlessdropshipping.com) and follow the instructions in the README.md. You'll want to make sure you have all the necessary configuration done, before running the storefront locally or deploying it on Vercel.
+  
+</details>

@@ -1,0 +1,1 @@
+To save a JSON object to a file using JavaScript, you can use Node.js or in the browser. In Node.js, use the built-in `fs` module and its `writeFileSync()` method, along with `JSON.stringify()`. In the browser, create a downloadable file using `Blob`, `URL.createObjectURL()`, an anchor element, and triggering a click event.

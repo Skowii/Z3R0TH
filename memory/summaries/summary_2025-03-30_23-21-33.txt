@@ -1,0 +1,1 @@
+Calculate dates relative to today or a given date by adding or subtracting days using Python's datetime library. To find the date `n` days ago from now or a given date, use timedelta and either subtract (days_ago function) or add (days_from_now function) the days. To add or subtract days from a specific date, use add_days or subtract_days functions.

@@ -1,0 +1,1 @@
+To obtain the numeric value of an HTML input element, use the "valueAsNumber" attribute instead of parsing it manually. This works only for inputs of type "number", and returns a number or NaN if conversion is not possible. It's more efficient for forms with multiple input fields.

@@ -1,0 +1,1 @@
+Create a JavaScript generator function that repeats one or more values indefinitely using `while` loops and the `yield` statement for updating returned values. For a single value, use a non-terminating `while` loop with `yield`. For an array of values, use the same approach and modulo operator (`%`) to cycle through the array's indices.

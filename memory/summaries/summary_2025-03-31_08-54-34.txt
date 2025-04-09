@@ -1,0 +1,1 @@
+This module offers the main window for the RP Renamer with version 0.1.0. It is used for renaming files or folders based on specific rules and requirements.

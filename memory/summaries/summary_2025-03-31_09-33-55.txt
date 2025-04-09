@@ -1,0 +1,1 @@
+The flashcards URL Configuration involves routing URLs to views for the `urlpatterns` list. Examples of function views and class-based views are provided, along with instructions on including another URLconf. The specific code includes an import from django.contrib and uses include() and path() functions to create the urlpatterns list.

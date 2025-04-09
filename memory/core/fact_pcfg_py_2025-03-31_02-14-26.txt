@@ -1,0 +1,20 @@
+# SOURCE: pcfg.py
+# TIME: 2025-03-31_02-14-26
+
+non-terminal S in the PCFG G
+        """
+        if len(P.arguments) == 0:
+            return self.rules[S][P][1]
+        else:
+            probability = self.rules[S][P][1]
+            for arg in P.arguments:
+                probability *= self.probability_program(arg, P.arguments[arg])
+            return probability
+
+# TAGS: key concepts: PCFG, probabilistic context-free grammar, normalised weights, start, rules, max_program_depth, clean, hash, type_request, Variable, Arrow, List, UnknownType, INT, BOOL, vose.Sampler, init_vose, sort, normalise, return_unique
+
+keywords: PCFG, probabilistic context-free grammar, start, rules, max_program_depth, clean, hash, type_request, Variable, Arrow, List, UnknownType, INT, BOOL, vose.Sampler
+
+people: N/A
+
+dates: N/A

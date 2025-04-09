@@ -1,0 +1,8 @@
+Find the head and tail of a JavaScript array without mutating it using the following methods:
+
+1. Destructuring assignment: `const [head, ...tail] = arr;`. This also works with empty arrays.
+2. Individual functions for getting the head or tail:
+   - Head: `head(arr) => (arr && arr.length ? arr[0] : undefined);`
+   - Tail: `tail(arr) => (arr && arr.length > 1 ? arr.slice(1) : []);`
+
+Both functions need to check if the value is array-like and apply extra handling for edge cases.

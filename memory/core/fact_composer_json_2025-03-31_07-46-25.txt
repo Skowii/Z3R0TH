@@ -1,0 +1,7 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-46-25
+
+Name: example/test-application
+
+# TAGS: example
+ test-application

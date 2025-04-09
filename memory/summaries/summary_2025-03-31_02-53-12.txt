@@ -1,0 +1,7 @@
+The main differences between cookies, local storage, and session storage are:
+
+1. Capacity: Cookies have a capacity of 4KB, while both local storage and session storage offer larger capacities (10MB for local storage and 5MB for session storage).
+2. Expiration: Cookies have an expiration that can be set manually by the server or client, whereas local storage and session storage don't have any expiration dates.
+3. Storage location: Cookies store data on both the browser and server, while local storage is only stored on the browser and session storage is limited to the current browser tab.
+4. Sent with requests: Cookies are sent with subsequent requests, whereas local storage and session storage aren't.
+5. Accessibility: Cookies can be accessed by any window, while local storage and session storage are accessible only from their respective windows.

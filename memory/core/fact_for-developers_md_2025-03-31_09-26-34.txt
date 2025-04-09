@@ -1,0 +1,12 @@
+# SOURCE: for-developers.md
+# TIME: 2025-03-31_09-26-34
+
+Title: AutoGPT development with VSCode and devcontainer
+
+Summary: This article provides an overview of developing AutoGPT using a VSCode + devcontainer setup. It includes resources such as prompt engineering guides, related projects, and relevant papers for further learning.
+
+Tags: AutoGPT, VSCode, devcontainer, prompt engineering, resources, technical documentation
+
+# TAGS: Key concepts: AutoGPT, VSCode, devcontainer, prompt engineering, related projects, papers, technical documentation
+People: (not mentioned)
+Dates: (not mentioned)

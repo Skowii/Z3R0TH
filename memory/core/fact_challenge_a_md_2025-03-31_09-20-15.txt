@@ -1,0 +1,13 @@
+# SOURCE: challenge_a.md
+# TIME: 2025-03-31_09-20-15
+
+Challenge: Information Retrieval Challenge A
+Level: Current level to beat - level 2
+Command: pytest -s tests/challenges/information_retrieval/test_information_retrieval_challenge_a.py --level=2
+Description: Agent must find Tesla's revenue for 2022 without explicitly searching for 'tesla revenue 2022'.
+Objective: Test the agent's ability to consistently retrieve information.
+
+# TAGS: Key Concepts: Information Retrieval Challenge A, testing, agent, consistent performance
+Keywords: Tesla revenue, 2022, search query
+People: n/a
+Dates: 2022, since Tesla's creation

@@ -1,0 +1,1 @@
+View the current Git status using the `git status` command to see staged, unstaged, and untracked files along with your branch information. For a more concise output, use the `-sb` flag.

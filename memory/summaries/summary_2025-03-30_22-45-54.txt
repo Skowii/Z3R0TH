@@ -1,0 +1,1 @@
+Configure the text editor used by Git for commit messages and other tasks to improve convenience by using `git config --global core.editor <editor-command>`. Replace `<editor-command>` with the command that opens your preferred text editor, e.g., "code --wait" for VS Code or "vim" for Vim.

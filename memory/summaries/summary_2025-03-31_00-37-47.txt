@@ -1,0 +1,8 @@
+Digitize a number in JavaScript by converting it to a string using template literal syntax and then converting each character into an array of digits. Remove the sign from the number for positive and negative handling. Use `Math.abs()`, spread operator (`...`), `Number.parseInt()`, and `Array.prototype.map()`.
+
+Example code:
+```js
+const digitize = n => [...`${Math.abs(n)}`].map(i => Number.parseInt(i, 10));
+digitize(123); // [1, 2, 3]
+digitize(-123); // [1, 2, 3]
+```

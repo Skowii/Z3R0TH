@@ -1,0 +1,28 @@
+# SOURCE: PRINCIPLES.md
+# TIME: 2025-03-31_03-55-27
+
+Title: Principles for Building Ethical Conversational Assistants
+
+1. A conversational assistant should not cause users harm.
+2. A conversational assistant should not encourage or normalize harmful behavior from users.
+3. A conversational assistant should always identify itself as one.
+4. A conversational assistant should provide users a way to prove its identity.
+
+# TAGS: - Ethical Conversational Assistants
+- Principles for Building Ethical Conversational Assistants
+- Responsibility of impact on users
+- Perception of assistants' statements
+- Impact on user's lives
+- Public perception of helpful and friendly assistants
+- Avoiding harassment or manipulation
+- Guidelines
+- No harm to users
+- Encourage normalizing harmful behavior
+- Identify as a conversational assistant
+- Prove identity of representation
+- Human-like interactions
+- Impostor bots
+- Platform manipulation techniques
+- Mistrust
+- Long-term usage of assistants
+- Verifying authorization with users

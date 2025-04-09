@@ -1,0 +1,15 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_03-32-27
+
+"Hey! Thanks for reaching out, I'd be happy to help. To get started, you can follow these steps:
+
+1. Sign in to your Google account and create a project on the [Google Developer Console](https://console.cloud.google.com/).
+2. Enable the YouTube Data API for your project.
+3. Create credentials for OAuth 2.0 Client IDs in the API library for your application (e.g., Python, JavaScript, etc.). You can find detailed instructions [here](https://developers.google.com/youtube/v3/guides/migration).
+4. Download the GoogleAPI.json file from Google Developer Console and place it into your project folder.
+5. Ensure you have a valid Instagram account and access to it, as this is required for content scraping. You will need to follow accounts you want to scrape videos from. 
+6. Finally, install the necessary libraries using `pip3 install -r requirements.txt`. Then run the script with the command `python3 botTuber.py`.
+
+If you face any issues during setup or operation, please feel free to reach out. I'm more than happy to help! 😊"
+
+# TAGS: Graphql error in instalooter not been resolved yet!

@@ -1,0 +1,1 @@
+Add multiple authors to a git commit by including one or more "Co-authored-by" trails in the commit message with their respective email addresses associated with their GitHub account.

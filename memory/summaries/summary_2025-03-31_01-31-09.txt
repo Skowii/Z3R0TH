@@ -1,0 +1,1 @@
+Deferring a JavaScript function involves invoking it when the current call stack has cleared, typically using `setTimeout()` with a timeout of `1` ms. This improves web application responsiveness, allowing UI updates before running long-running functions. The spread operator can be used to supply the function with arbitrary arguments.

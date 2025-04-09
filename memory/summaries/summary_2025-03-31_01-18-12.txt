@@ -1,0 +1,1 @@
+This article discusses six useful features of JavaScript regular expressions to help users start using them effectively in their projects. These features include capturing groups, non-capturing groups, named capturing groups, capturing group backreferences, positive lookaheads, and negative lookaheads.

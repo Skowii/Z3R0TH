@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-58-49
+
+SyliusOrderBundle is a Sales order bundle for Symfony2 ecommerce applications, providing default forms, controllers, entities, mappings and everything needed to build an application. It includes an order and order item total value adjustments system based on the Spree adjustments concept. The documentation can be found at docs.sylius.com and bug tracking is available through GitHub issues.
+
+# TAGS: Key Concepts: SyliusOrderBundle, Symfony2, ecommerce applications, sensible and flexible models, default forms, controllers, entities, mappings, adjustments, Spree adjustments, Open Source eCommerce solution, API, documentation, contributing, contributing guide, blog, Twitter, Facebook, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

@@ -1,0 +1,13 @@
+# SOURCE: SECURITY.md
+# TIME: 2025-03-30_23-46-44
+
+Summary: If you find a security vulnerability, report it privately through GitHub Security Advisory or Huntr.dev and follow the reporting process outlined above. Supported versions for security updates are found on the master branch and pre-master development commits. Classic folder code is deprecated and not supported. Always update dependencies and use the latest stable version.
+
+# TAGS: # Security Policy
+- Report security issues privately, not through public GitHub issues or pull requests
+- Important Note: Code within the classic/ folder is deprecated and out of scope for security reports
+- Report security vulnerabilities using either a GitHub Security Advisory or Huntr.dev
+- Submit report, response time, collaboration, resolution process
+- Disclosure policy: detailed reports, version/commit hash, 90-day security fix window, 30 days update before public disclosure
+- Supported versions: latest stable version, development commits, not classic or other versions
+- Security best practices: use latest version, follow documentation and guidelines, keep dependencies up to date, avoid deprecated code

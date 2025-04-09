@@ -1,0 +1,20 @@
+# SOURCE: produce_network.py
+# TIME: 2025-03-31_02-24-00
+
+Training dataset: dreamcoder
+Model: BigramsPredictor
+Type Request: generic
+Dataset size: 10,000
+Epochs: 1
+Batch size: 128
+Max examples in minibatch: 5
+Metrics reported during training
+
+Training model: bigramspredictor on dreamcoder
+Type Request: generic
+
+# TAGS: deepcoder dataset loader
+model invariant
+type request
+dataset_name
+generic

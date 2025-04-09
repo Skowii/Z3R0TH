@@ -1,0 +1,19 @@
+# SOURCE: SPONSORS.md
+# TIME: 2025-03-31_05-43-19
+
+The Appium project has several sponsors and backers who support its development and maintenance. These include:
+
+- Microsoft (Platinum Sponsor)
+- Sauce Labs (Gold Sponsor)
+- IBM MobileFirst (Silver Sponsor)
+- Google (Silver Sponsor)
+- Facebook (Contributor)
+- AWS Device Farm (Contributor)
+- Genymotion (Contributor)
+- The Appium Community (Community Contributors)
+
+# TAGS: # Sponsors & Backers
+
+Key Concepts/Keywords: Appium, sponsors, backers
+People: Not mentioned in the provided text
+Dates: Not mentioned in the provided text

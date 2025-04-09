@@ -1,0 +1,6 @@
+# SOURCE: CLI-USAGE.md
+# TIME: 2025-03-31_07-50-28
+
+The CLI documentation provides instructions for interacting with the project's Command Line Interface. It includes details on various commands, their usage and outputs. The commands include setup command, agents command to list, create, start or stop agents, and benchmark command which allows listing categories and tests, as well as running them for an agent.
+
+# TAGS: CLI Documentation, Entry Point for the CLI, Setup Command, Agents Commands - List All Agents, Create a New Agent, Start an Agent, Stop an Agent, Benchmark Commands - List Benchmark Categories, List Benchmark Tests, Show Details of a Benchmark Test, Start Benchmark for the Agent

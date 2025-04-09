@@ -1,0 +1,37 @@
+Callback is an idiom used in the Korean language. It refers to executable code that is passed as an argument to another function and is executed at a specific time or when certain conditions are met. In programming, callback functions are also known as "post-call" functions. They receive data from other code as an argument and are expected to be called again at a later time.
+
+A simple example of using a callback would involve passing it to a task class that executes the task and then calls the callback afterward. This can be done with the following steps:
+
+1. Define a simple interface that represents the callback, such as:
+```java
+public interface Callback {
+    void call();
+}
+```
+2. Create an abstract class called Task that extends from the previously defined interface:
+```java
+public abstract class Task {
+    final void executeWith(Callback callback) {
+        execute();
+        Optional.ofNullable(callback).ifPresent(Callback::call);
+    }
+    public abstract void execute();
+}
+```
+3. Create a subclass of the Task class that defines the execution:
+```java
+@Slf4j
+public final class SimpleTask extends Task {
+    @Override
+    public void execute() {
+        LOGGER.info("우선순위의 작업을 마친 이후 콜백 메서드를 호출한다.");
+    }
+}
+```
+4. Use the task to execute a code and call the callback afterward:
+```java
+var task = new SimpleTask();
+task.executeWith(() -> LOGGER.info("완료되었음."));
+```
+
+The Callback pattern can be applied when there is any asynchronous or synchronous operation that needs to execute after a specific action has been completed.

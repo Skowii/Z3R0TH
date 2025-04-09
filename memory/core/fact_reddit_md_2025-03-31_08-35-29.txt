@@ -1,0 +1,6 @@
+# SOURCE: reddit.md
+# TIME: 2025-03-31_08-35-29
+
+Reddit Interaction Blocks are used for fetching and posting content on Reddit. They allow users to gather data from a specified subreddit and interact with it through commenting. These blocks connect to Reddit using provided credentials, making them useful tools in content curation, moderation, and analysis processes.
+
+# TAGS: Key concepts: Reddit Interaction Blocks, Get Reddit Posts, Post Reddit Comment

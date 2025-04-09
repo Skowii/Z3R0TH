@@ -1,0 +1,1 @@
+Calculate the nth root of a number in JavaScript using `Math.pow()` by passing the number `x` and a power of `1/n`. For example: `const nthRoot = (x, n) => Math.pow(x, 1/n); nthRoot(32, 5); // 2`.

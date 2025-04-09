@@ -1,0 +1,1 @@
+Essential HTML head element includes metadata such as charset, viewport, title, and description for proper document structure and improved search engine display. A recommended minimal head template is provided.

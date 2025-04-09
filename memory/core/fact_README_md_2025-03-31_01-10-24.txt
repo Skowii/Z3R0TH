@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_01-10-24
+
+Prompt Engineering - O]
+
+# TAGS: prompt_engineering, large_language_models, LLMs, research, application, development, prompt engineering skills, language models capabilities and limitations, question answering, arithmetic reasoning, DAIR.AI Academy, courses, services, self-paced, consulting, talks, translation, languages, learners, web version, announcements, updates, guides, introduction, settings, basics, elements, tips, examples, techniques, zero-shot prompting, few-shot prompting, chain-of-thought prompting, self-consistency, generate knowledge prompting, prompt chaining, tree of thoughts, retrieval augmented generation, automatic reasoning and tool-use, automatic prompt engineer

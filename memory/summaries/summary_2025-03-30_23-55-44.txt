@@ -1,0 +1,1 @@
+Transpose a matrix in JavaScript by using the Array.prototype.map() method to convert rows into columns and vice versa. Create a new array with each column of the original matrix as a row in the transposed matrix by mapping over the columns and selecting the corresponding element from each row.

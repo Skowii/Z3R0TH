@@ -1,0 +1,21 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-16-17
+
+Name: Sylius Taxonomy Bundle
+Type: Symfony Bundle
+Description: Flexible categorization system for Symfony
+Keywords: Shop, Ecommerce, Taxonomies, Taxonomy, Category, Categorization, Sylius
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Sylius project, Community contributions
+Requirements: PHP 7.4 or 8.0, stof/doctrine-extensions-bundle 1.4, sylius/resource-bundle 1.7, sylius/taxonomy 1.6, symfony/framework-bundle 4.4 or 5.2
+Conflict: Twig/Twig 3.0
+Requirements (dev): Doctrine/ORM 2.7, phpspec/phpspec 7.0, phpunit/phpunit 8.5, symfony/dependency-injection 4.4 or 5.2
+Config: Bin dir set to bin
+Extra: Branch-alias dev-master to 1.9-dev
+Autoload (default): PSR-4, excluding Tests from classmap
+Autoload (dev): PSR-4 tests/, files for functional appKernel.php
+Repositories: Path type with URL ../../*/*
+Minimum Stability: Dev, prefer stable
+
+# TAGS: sylius/taxonomy-bundle, symfony-bundle, flexible categorization system, shop, ecommerce, taxonomies, taxonomy, category, categorization, sylius, Paweł Jędrzejewski, pjedrzejewski.com, Sylius project, sylius.com, Community contributions, github.com/Sylius/Sylius/contributors, PHP 7.4, PHP 8.0, stof/doctrine-extensions-bundle, sylius/resource-bundle, sylius/taxonomy, symfony/framework-bundle, twig/twig, phpspec/phpspec, phpunit/phpunit, doctrine/orm, php dependency injection, extra branch-alias, dev-master, psr-4, exclude-from-classmap, Autoload, autoload-dev, repositories, minimum-stability, prefer-stable

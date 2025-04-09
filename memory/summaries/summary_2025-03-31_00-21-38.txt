@@ -1,0 +1,9 @@
+Partial function application is a technique to fix some arguments of a function, creating another function with fewer arguments. In JavaScript, you can prepend or append arguments using the spread operator. To partially apply by prepending arguments:
+
+1. Use the partial function: `const partial = (fn, ...partials) => (...args) => fn(...partials, ...args);`
+2. Call the function with desired arguments: `greetHello = partial(greet, 'Hello'); greetHello('John'); // 'Hello John!'`
+
+To partially apply by appending arguments:
+
+1. Use the partialRight function: `const partialRight = (fn, ...partials) => (...args) => fn(...args, ...partials);`
+2. Call the function with desired arguments: `greetJohn = partialRight(greet, 'John'); greetJohn('Hello'); // 'Hello John!'`

@@ -1,0 +1,1 @@
+This folder contains code examples related to an article about managing attributes in Python using Getters and Setters. The purpose of Getters and Setters is to control access and manipulation of class attributes.

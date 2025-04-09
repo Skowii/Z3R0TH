@@ -1,0 +1,42 @@
+# SOURCE: issues.md
+# TIME: 2025-03-31_09-04-04
+
+| Status | A message indicating whether the issue was successfully unassigned |
+| Error | Any error message if unassigning the issue fails |
+
+### Possible use case
+Automatically removing user assignments when they are no longer relevant or when their workload needs to be rebalanced.
+
+# TAGS: e issue on GitHub |
+| Error | Any error message if listing issues fails |
+
+### Possible use case
+Displaying a list of open issues on a dashboard or providing information for further processing.
+
+---
+
+## Github Close Issue
+
+### What it is
+A block that closes an existing GitHub issue.
+
+### What it does
+This block allows users to close a specified GitHub issue.
+
+### How it works
+The block takes the GitHub credentials, repository URL, and the issue number as inputs. It then sends a request to the GitHub API to close the specified issue.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Credentials | GitHub authentication information |
+| Repo URL | The URL of the GitHub repository where the issue is located |
+| Issue Number | The unique identifier assigned to the issue by GitHub |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Error | Any error message if closing the issue fails |
+
+### Possible use case
+Automating the process of marking issues as resolved once they have been fixed or addressed.

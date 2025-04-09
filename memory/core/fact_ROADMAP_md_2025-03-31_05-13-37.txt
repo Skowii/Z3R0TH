@@ -1,0 +1,6 @@
+# SOURCE: ROADMAP.md
+# TIME: 2025-03-31_05-13-37
+
+Summary: This roadmap consists of several projects to improve Appium, a mobile testing tool. The primary areas are core projects like implementing WebDriver BiDi support in the Appium server and redeveloping automatically generated command docs. Driver/platform-specific projects include maintaining Android and iOS drivers and updating appium-ios-device. Client library updates involve Selenium compatibility client improvements, and Appium Inspector enhancements cover full web inspection support, record/playback functionality, locator analysis and comparison, a dark theme option, export/import of saved gestures and bulk export/import of saved sessions.
+
+# TAGS: Key Concepts: Roadmap, WebDriver BiDi support, automatically generated command docs, Android drivers, iOS driver, appium-ios-device, Selenium compatibility client updates, Appium Inspector, Record/Playback, Support for more platforms, Locator analysis and comparison, Dark theme, Export/import of saved gestures, Bulk export/import saved sessions

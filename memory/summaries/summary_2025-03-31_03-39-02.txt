@@ -1,0 +1,10 @@
+The Hexagonal Architecture Pattern is a design pattern in Java that promotes decoupling of core business logic from external interfaces like databases and user interfaces. This architectural approach enhances maintainability and testability of software systems. It organizes an application into a central core of business logic surrounded by ports and adapters, which manage interactions with external systems.
+
+Real-world example: In online banking systems, the core banking logic remains unaffected by changes in user interfaces or third-party services due to this decoupling. This ensures flexibility and maintainability. The core banking logic, such as processing transactions, managing accounts, and calculating interest, is surrounded by adapters that allow the system to interact with different external interfaces without affecting the business logic.
+
+In summary: 
+
+1. Hexagonal Architecture Pattern separates an application's core logic from external systems like user interfaces and databases.
+2. Core logic remains independent of external concerns, facilitating maintainability and flexibility.
+3. External interactions are managed by ports and adapters that translate external calls to internal APIs.
+4. This design pattern is useful in software systems with changing external interfaces or requirements.

@@ -1,0 +1,1 @@
+The provided text contains three packages and their respective versions: asgi-ref (3.5.2), Django (4.0.4), and sqlparse (0.4.2). These are likely used in a software project for different purposes like web development, data parsing, and application framework.

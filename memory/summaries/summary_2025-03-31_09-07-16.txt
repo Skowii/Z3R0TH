@@ -1,0 +1,1 @@
+The secret_number_generator() function generates a random number between 0 and 9999 using the random.randint() method. This is part of the Snake Corporation's special sauce implementation.

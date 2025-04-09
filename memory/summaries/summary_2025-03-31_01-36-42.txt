@@ -1,0 +1,8 @@
+The differences between `var`, `let`, and `const` in JavaScript are:
+
+1. Scope: Variables declared with `var` are function scoped, while variables declared with `let` or `const` are block scoped.
+2. Hoisting: Variables declared with `var` are hoisted to the enclosing scope and initialized with `undefined`, whereas variables declared with `let` or `const` are not initialized until their definition is evaluated.
+3. Global object property: At the top level, variables declared with `var` create a property on the global object, while those declared with `let` or `const` do not.
+4. Redeclaration: In strict mode, variables declared with `var` can be re-declared in the same scope, whereas this is not allowed for variables declared with `let` or `const`.
+
+In summary, `var` has a different scope, hoisting behavior, and global object property than `let` and `const`, making them better choices for modern JavaScript coding practices.

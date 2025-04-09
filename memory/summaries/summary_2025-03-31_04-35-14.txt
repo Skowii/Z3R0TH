@@ -1,0 +1,1 @@
+The Dirty Flag pattern is a behavioral design pattern used to avoid expensive resource retrievals. It retains the identity of resources in fast access storage and reuses them to prevent multiple acquisitions. This pattern is applied when there are repeated, unnecessary performance overheads due to resource initialization and release.

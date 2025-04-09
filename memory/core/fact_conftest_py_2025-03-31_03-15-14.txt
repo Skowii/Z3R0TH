@@ -1,0 +1,28 @@
+# SOURCE: conftest.py
+# TIME: 2025-03-31_03-15-14
+
+summarized knowledge:
+- From the given text, we can identify key elements like: pathlib, pytest, twisted.web.http, Scrapy, install_reactor, tests and generate_keys(). We also have a list of ignored files named collect_ignore which are not considered for testing. There's usage of pytest fixtures like reactor_pytest, chdir and few conditions for test execution. Additionally, there is a fixture to check the availability of required libraries like uvloop, botocore, and boto3.
+
+# TAGS: Path
+pytest
+twisted.web.http
+H2_ENABLED
+scrapy.utils.reactor
+tests.keys
+collect_ignore
+base_dir
+ignore_file_path
+tmpdir
+chdir
+pytest_addoption
+parser
+asyncio
+doctests
+only_asyncio
+only_not_asyncio
+requires_uvloop
+requires_botocore
+requires_boto3
+pytest_configure
+generate_keys

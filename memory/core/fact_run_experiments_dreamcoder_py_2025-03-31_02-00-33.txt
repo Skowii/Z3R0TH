@@ -1,0 +1,17 @@
+# SOURCE: run_experiments_dreamcoder.py
+# TIME: 2025-03-31_02-00-33
+
+dataset: dreamcoder
+save_folder: .
+model: build_dreamcoder_intlist_model
+model_name: get_model_name(model)
+dataset: task_set2dataset(load_tasks(), model, dsl)
+algorithms: list_algorithms
+gather data and results: gather_data(dataset, algo_index), save to csv with algorithm name, model name, dataset name
+write rows of data to csv: [[el[0]] + list(el[1]) for el in data], using csv.writer
+filename format: {save_folder}/algo_{algo_name}_model_{model_name}_dataset_{datataset_name}_results_semantic.csv
+
+# TAGS: key concepts: data gathering, experiment, model loader, dreamcoder dataset, csv file, search time, evaluation time, nb_programs, cumulative probability, probability
+keywords: torch, csv, os, run_experiment, model_loader, experiment_helper, dreamcoder_dataset_loader, build_dreamcoder_intlist_model, load_tasks, filter_tasks_for_model, task_set2dataset, get_model_name
+people: not mentioned
+dates: not mentioned

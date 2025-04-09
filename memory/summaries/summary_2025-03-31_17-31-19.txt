@@ -1,0 +1,5 @@
+The AutoGPT Agent User Guide provides instructions on how to use the Autogpt script in different modes. In "CLI mode," the `run` subcommand starts AutoGPT with the legacy command-line interface. This mode allows running a single agent and saves its state when terminated, enabling resume functionality later.
+
+The `serve` subcommand starts an Agent Protocol compliant AutoGPT server that creates an API for the agent to interact with.
+
+In "CLI mode," Continuous Mode runs the AI without user authorization, which is potentially dangerous and not recommended. Other options include enabling Speak Mode or Debug Mode, specifying AI name and role, adding constraints, resources, and best practices, installing external dependencies for plugins, and using a configuration file for custom settings.

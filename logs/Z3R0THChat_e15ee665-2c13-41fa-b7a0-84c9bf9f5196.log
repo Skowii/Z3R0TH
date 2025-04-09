@@ -1,0 +1,48 @@
+[2025-04-05 15:36:34] [INFO] 🤖 Z3R0THChat initialized with model deepseek-r1 (UUID: e15ee665-2c13-41fa-b7a0-84c9bf9f5196)
+[2025-04-05 15:37:50] [INFO] 🌐 Web memory ingested: 20250405_153750__learn_about_artificial_intelligence__ai_.txt
+[2025-04-05 15:37:54] [INFO] 🌐 Web memory ingested: 20250405_153754__learn_how_to_code_with_ai.txt
+[2025-04-05 15:38:36] [INFO] 🌐 Web memory ingested: 20250405_153836__top_20_programming_languages_to_learn__2025_updated_.txt
+[2025-04-05 15:38:59] [INFO] 🌐 Web memory ingested: 20250405_153859__how_does_an_ai_chatbot_work__and_what_does_it_mean_for_the_f.txt
+[2025-04-05 15:39:01] [INFO] 🌐 Web memory ingested: 20250405_153901__what_is_an_ai_chatbot__and_how_do_they_work_.txt
+[2025-04-05 15:40:41] [INFO] 🌐 Web memory ingested: 20250405_154041__nobleupgrades_kubuntu.txt
+[2025-04-05 15:40:42] [INFO] 🌐 Web memory ingested: 20250405_154042__essential_and_strongly_recommended_things_to_do_directly_aft.txt
+[2025-04-05 15:40:59] [INFO] 🌐 Web memory ingested: 20250405_154059__how_to_run_a_virtual_machine_on_windows_11__step_by_step_gui.txt
+[2025-04-05 15:41:57] [INFO] 💬 Prompting LLM: 👤 You: how do ai bots work?...
+[2025-04-05 15:42:55] [INFO] ✅ LLM responded.
+[2025-04-05 15:43:40] [INFO] 🌐 Web memory ingested: 20250405_154340__our_11_favorite_chatgpt_alternatives_in_2025.txt
+[2025-04-05 15:43:41] [INFO] 🌐 Web memory ingested: 20250405_154341__the_11_best_chatgpt_alternatives_of_2025.txt
+[2025-04-05 15:43:43] [INFO] 🌐 Web memory ingested: 20250405_154343__i_test_ai_chatbots_for_a_living_and_these_are_the_best_chatg.txt
+[2025-04-05 15:44:28] [INFO] 🌐 Web memory ingested: 20250405_154428__java_tutorial.txt
+[2025-04-05 15:44:30] [INFO] 🌐 Web memory ingested: 20250405_154430__getting_started_with_java_in_vs_code.txt
+[2025-04-05 15:44:42] [INFO] 🌐 Web memory ingested: 20250405_154442__python_tutorial.txt
+[2025-04-05 15:44:43] [INFO] 🌐 Web memory ingested: 20250405_154443__python_examples.txt
+[2025-04-05 15:44:43] [INFO] 🌐 Web memory ingested: 20250405_154443__python_for_beginners.txt
+[2025-04-05 15:45:03] [INFO] 🌐 Web memory ingested: 20250405_154503__kali_linux_tutorial_2025__beginners_easy_step_by_step_guide_.txt
+[2025-04-05 15:45:04] [INFO] 🌐 Web memory ingested: 20250405_154504__kali_linux_penetration_testing_tutorial__how_to_use_kali_lin.txt
+[2025-04-05 15:45:42] [INFO] 💬 Prompting LLM: create me a script for a simple snake game...
+[2025-04-05 15:48:12] [INFO] ❌ Attempt 1 failed: Command '['ollama', 'run', 'deepseek-coder:33b']' timed out after 150 seconds
+[2025-04-05 15:50:42] [INFO] ❌ Attempt 2 failed: Command '['ollama', 'run', 'deepseek-coder:33b']' timed out after 150 seconds
+[2025-04-05 16:19:06] [INFO] 💬 Prompting LLM: hello...
+[2025-04-05 16:19:37] [INFO] ✅ LLM responded.
+[2025-04-05 16:20:11] [INFO] 💬 Prompting LLM: can you upgrade yourself to run better and more effienctly...
+[2025-04-05 16:20:59] [INFO] ✅ LLM responded.
+[2025-04-05 16:22:36] [INFO] 💬 Prompting LLM: what memory do you have now bro? like what stuff do you know how to do in summar...
+[2025-04-05 16:23:12] [INFO] ✅ LLM responded.
+[2025-04-05 16:24:11] [INFO] 💬 Prompting LLM: okay then what is step one for you to start doing to upgrade yourself and become...
+[2025-04-05 16:24:42] [INFO] ✅ LLM responded.
+[2025-04-05 16:26:17] [INFO] 💬 Prompting LLM: No. I'm talking to you Z3R0TH, how do you get smarter...
+[2025-04-05 16:26:50] [INFO] ✅ LLM responded.
+[2025-04-05 16:27:44] [INFO] 💬 Prompting LLM: so right now you are remembering our conversations and are learning from them?...
+[2025-04-05 16:28:15] [INFO] ✅ LLM responded.
+[2025-04-05 16:30:42] [INFO] 💬 Prompting LLM: You are Z3R0TH. Z3R0TH is you. You are designed to talk your own way. You dont n...
+[2025-04-05 16:31:44] [INFO] ✅ LLM responded.
+[2025-04-05 17:57:31] [INFO] 💬 Prompting LLM: hey bro...
+[2025-04-05 17:58:00] [INFO] ✅ LLM responded.
+[2025-04-05 17:59:21] [INFO] 💬 Prompting LLM: can you modify this script please to your liking so you can grow and expand # z3...
+[2025-04-05 18:01:51] [INFO] ❌ Attempt 1 failed: Command '['ollama', 'run', 'deepseek-coder:33b']' timed out after 150 seconds
+[2025-04-05 18:04:01] [INFO] ✅ LLM responded.
+[2025-04-05 18:04:01] [INFO] 💬 Prompting LLM: import os, sys, json, shutil, subprocess...
+[2025-04-05 18:04:47] [INFO] ✅ LLM responded.
+[2025-04-05 18:04:47] [INFO] 💬 Prompting LLM: from datetime import datetime...
+[2025-04-05 18:05:15] [INFO] ✅ LLM responded.
+[2025-04-05 18:05:15] [INFO] 💬 Prompting LLM: from pathlib import Path...

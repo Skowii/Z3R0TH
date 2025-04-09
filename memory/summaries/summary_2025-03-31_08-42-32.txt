@@ -1,0 +1,1 @@
+The code compares the real time and CPU time for two functions, sleeper and spinlock. It measures the execution time for each function using `time.perf_counter()` and `time.process_time()`. Sleeper uses a 1.75-second sleep, while spinlock loops 100 million times. The execution times are printed in seconds after running both functions.

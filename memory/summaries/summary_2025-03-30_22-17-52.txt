@@ -1,0 +1,1 @@
+This script uses the RELATIVE flag to simplify the listing of source files. It creates an executable using a list of sources (APP_SOURCES) and sets target properties, including linker language as CXX. If OpenMP is found, the target is linked with OpenMP libraries. The executables are installed in the "bin/probability" directory.

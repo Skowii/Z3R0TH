@@ -1,0 +1,1 @@
+The double negation operator (`!!`) in JavaScript is used to convert a value to a boolean by inverting the truth value of its operand twice. It is functionally equivalent to using the `Boolean()` function but may not be as readable or clear in usage.

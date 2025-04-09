@@ -1,0 +1,7 @@
+Propósito: Evita que un objeto se cargue más de una vez almacenándolo en un mapa y buscando objetos utilizando el mapa cuando se refiere a ellos.
+
+Explicación: Imagina un programa que encuentra registros de personas en una base de datos. Se construye un mapa de identidades para almacenar los registros buscados recientemente en la base de datos, evitando así cargar los mismos datos en memoria desde la base de datos.
+
+Ejemplo: Supongamos una clase Person con campos personNationalId, name y phoneNum. Se crea una instancia de PersonFinder para buscar registros en db y mantiene un IdentityMap para almacenar los registros leídos recientemente. Al buscar un registro en la base de datos, se comprueba si el mapa tiene ese registro; si no lo tiene, se busca en la base de datos y se agrega al mapa si se encuentra.
+
+ identityMap: Almacena los registros leídos recientemente en memoria para evitar cargar nuevamente de la base de datos.

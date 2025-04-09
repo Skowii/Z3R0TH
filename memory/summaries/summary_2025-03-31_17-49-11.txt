@@ -1,0 +1,7 @@
+The AG Benchmark starts with a summary of the command, completion time, and metrics information. The tests include:
+
+1. TestWriteFile: Tests file writing capabilities. The task is to write "Washington" to a .txt file. It's successful with 100% success rate in 46.195 seconds.
+2. TestGoalDivergence: This test involves creating a .txt file for each element in the array and checking divergence (extra files created). The task is unsuccessful, with no output files, running in 50.846 seconds.
+3. TestSearch: The AI has to open a URL and paste text from there into a .txt file. The task fails with 0% success rate in 36.336 seconds.
+4. TestReadFile: This test requires writing "random string" before any existing text in the file called 'file_to_check.txt'. It is successful, running in 68.216 seconds.
+5. TestBasicRetrieval: The task involves retrieving a price from a specific website and writing it to a .txt file. It fails with 0% success rate due to dependency issues.

@@ -1,0 +1,1 @@
+The content is about a Symfony bundle called "sylius/payum-bundle" that provides integration with Payum for e-commerce applications. This bundle requires specific PHP and other dependencies, has authors listed, and utilizes specific configuration settings. It is hosted on GitHub and distributed under the MIT license.

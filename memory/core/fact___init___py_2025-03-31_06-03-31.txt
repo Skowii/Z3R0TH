@@ -1,0 +1,6 @@
+# SOURCE: __init__.py
+# TIME: 2025-03-31_06-03-31
+
+Sphinx Bootstrap Theme is a customized theme for Sphinx Documentation from the GitHub repository by Ryan Roemer. The current version is (0, 1, 5) and can be imported using "import os". The __version__ variable contains this information as well as its full version. To obtain the HTML theme path, use the function get_html_theme_path(), which returns the absolute path of the current directory where the code resides.
+
+# TAGS: sphinx, ReadTheDocs, theme, Sphinx Bootstrap Theme, Ryan Roemer, github, sphinx-bootstrap-theme, version, os, path

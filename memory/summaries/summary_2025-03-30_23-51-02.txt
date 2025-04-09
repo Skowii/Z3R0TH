@@ -1,0 +1,1 @@
+Avoid using "javascript:void(0)" for empty links as it introduces security vulnerabilities and unnecessary processing. Instead, use `href=""`, `href="#"`, a button, div, or span tag to create an empty link, ensuring proper behavior and accessibility.

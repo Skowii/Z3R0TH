@@ -1,0 +1,1 @@
+The Employee class takes a name and birth_date as arguments. It has properties for the name and birth_date which are accessed using getters and setters. The name property is converted to uppercase when set, while the birth_date property is converted to a date object from an ISO format.

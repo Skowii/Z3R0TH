@@ -1,0 +1,16 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_00-12-11
+
+Contribution Guidelines:
+1. Check if tutorial does not exist and place under appropriate language/technology
+2. Encourage improvement of existing tutorials
+3. Use descriptive pull request titles
+4. Create new language/technology entry if needed
+5. Make separate PR for each tutorial
+6. Use format `[Title](link_to_tutorial)` and multi-part series format
+7. Check spelling, grammar, and CONTRIBUTING file if available
+8. Remove trailing whitespaces
+9. Use full URLs or Google URL Shortener for long links
+10. Suggest improvements by contacting tuvtran97@gmail.com
+
+# TAGS: Contribution guidelines, tutorials, pull request, descriptive title, table of contents, language/technology, separate pull request, format, multi-part series, spelling and grammar, commit messages, CONTRIBUTING file, trailing whitespaces, URL shortener, Google URL Shortener

@@ -1,0 +1,40 @@
+# SOURCE: repo.md
+# TIME: 2025-03-31_09-05-22
+
+working on a new feature or task by creating a separate branch without disrupting the main development line.
+
+---
+
+## GitHub Merge Branch
+
+### What it is
+A block that merges a specified branch into another branch in a GitHub repository.
+
+### What it does
+This block merges a source branch into a target branch, effectively incorporating changes from the source branch into the target branch.
+
+### How it works
+The block connects to the GitHub API, retrieves the latest commits from both branches, and then merges the changes into the target branch.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Credentials | GitHub authentication credentials required to access the repository |
+| Repository URL | The URL of the GitHub repository containing the branches to be merged |
+| Target Branch | The name of the branch into which the changes from the source branch will be merged |
+| Source Branch | The name of the branch containing the changes to merge into the target branch |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Status | A message indicating the success or failure of the branch merging operation |
+| Error | Any error message if the merge process fails |
+
+### Possible use case
+A developer wants to combine changes from a feature branch into the main development branch before pushing updates to a shared repository.
+
+# TAGS: ease, including its name and URL |
+| Error | Any error message if the release listing process fails |
+
+### Possible use case
+A QA engineer wants to check all published releases for a project to identify which version is being used in an upcoming test or to verify if a new release has been deployed.

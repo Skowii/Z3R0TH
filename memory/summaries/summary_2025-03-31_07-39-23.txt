@@ -1,0 +1,9 @@
+Propósito: Almacena objetos de una clase y ofrece acceso global a ellos, similar al patrón Multiton.
+
+Explicación: Es un objeto conocido que otros objetos pueden utilizar para encontrar objetos y servicios comunes.
+
+Ejemplo Programático: Clase CustomerRegistry se encarga de almacenar y acceder a objetos de tipo Customer.
+
+Aplicabilidad: Usar el patrón Registry cuando el cliente quiere una referencia de un objeto.
+
+Consecuencias: Un gran número de objetos en el registro puede conllevar consumo de memoria debido al almacenamiento de objetos no recolectados de la basura.

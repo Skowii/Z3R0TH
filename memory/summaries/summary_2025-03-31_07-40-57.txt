@@ -1,0 +1,44 @@
+Java Design Patterns:
+
+1. [Creational Patterns](https://java-design-patterns.com/patterns/#creational): Αρχείου για δημιουργία αντικειμενολογίας
+- [Singleton](https://refactoring.gumboo.com/design-patterns/creational/singleton.html)
+- [Factory Method](https://refactoring.gumboo.com/design-patterns/creational/factory-method.html)
+- [Abstract Factory](https://refactoring.gumboo.com/design-patterns/creational/abstract-factory.html)
+- [Builder](https://refactoring.gumboo.com/design-patterns/creational/builder.html)
+- [Prototype](https://refactoring.gumboo.com/design-patterns/creational/prototype.html)
+- [Lazy Initialization or Eager Initialization](https://refactoring.gumboo.com/design-patterns/creational/lazy-initialization) (also known as Lazy Loading, On-Demand Loading)
+
+2. [Structural Patterns](https://java-design-patterns.com/patterns/#structural): Σχεδιαστικά μοτίβα για συνείρηση και αναλυτική περιοχή
+- [Adapter](https://refactoring.gumboo.com/design-patterns/structural/adapter.html)
+- [Bridge](https://refactoring.gumboo.com/design-patterns/structural/bridge.html)
+- [Composite](https://refactoring.gumboo.com/design-patterns/structural/composite.html)
+- [Decorator](https://refactoring.gumboo.com/design-patterns/structural/decorator.html)
+- [Facade](https://refactoring.gumboo.com/design-patterns/structural/facade.html)
+- [Flyweight](https://refactoring.gumboo.com/design-patterns/structural/flyweight.html)
+- [Proxy](https://refactoring.gumboo.com/design-patterns/structural/proxy.html)
+
+3. [Behavioral Patterns](https://java-design-patterns.com/patterns/#behavioral): Σχεδιαστικά μοτίβα για προγραμματική χρήση
+- [Observer](https://refactoring.gumboo.com/design-patterns/behavioral/observer.html)
+- [Strategy](https://refactoring.gumboo.com/design-patterns/behavioral/strategy.html)
+- [Template Method](https://refactoring.gumboo.com/design-patterns/behavioral/template-method.html)
+- [Visitor](https://refactoring.gumboo.com/design-patterns/behavioral/visitor.html)
+- [Command](https://refactoring.gumboo.com/design-patterns/behavioral/command.html)
+- [Interpreter](https://refactoring.gumboo.com/design-patterns/behavioral/interpreter.html)
+- [Mediator](https://refactoring.gumboo.com/design-patterns/behavioral/mediator.html)
+- [Memento](https://refactoring.gumboo.com/design-patterns/behavioral/memento.html)
+- [State](https://refactoring.gumboo.com/design-patterns/behavioral/state.html)
+- [Chain of Responsibility](https://refactoring.gumboo.com/design-patterns/behavioral/chain-of-responsibility.html)
+- [Iterator](https://refactoring.gumboo.com/design-patterns/behavioral/iterator.html)
+- [Specification](https://refactoring.gumboo.com/design-patterns/behavioral/specification.html)
+
+4. [Concurrency Patterns](https://java-design-patterns.com/patterns/#concurrency): Σχεδιαστικά μοτίβα για προόδη προγράμματα
+- [Producer-Consumer Pattern](https://refactoring.gumboo.com/design-patterns/concurrency/producer-consumer-pattern.html)
+- [Observer (revisit)](https://refactoring.gumboo.com/design-patterns/behavioral/observer.html)
+- [Double-Checked Locking](https://refactoring.gumboo.com/design-patterns/concurrency/double-checked-locking.html)
+- [Monitor Pattern](https://refactoring.gumboo.com/design-patterns/concurrency/monitor-pattern.html)
+- [Lazy Loading (revisit)](https://refactoring.gumboo.com/design-patterns/creational/lazy-initialization.html)
+- [Immutable Objects](https://refactoring.gumboo.com/design-patterns/concurrency/immutable-objects.html)
+- [Lock-Based Synchronization](https://refactoring.gumboo.com/design-patterns/concurrency/lock-based-synchronization.html)
+- [Wait-Free Algorithms](https://refactoring.gumboo.com/design-patterns/concurrency/wait-free-algorithms.html)
+- [Event-Driven Architecture](https://refactoring.gumboo.com/design-patterns/concurrency/event-driven-architecture.html)
+- [Reactive Programming](https://refactoring.gumboo.com/design-patterns/concurrency/reactive-programming.html)

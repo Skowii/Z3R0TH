@@ -1,0 +1,1 @@
+Opening links in new tabs with target="_blank" can pose a security risk as they have access to the original site via Window.opener. Tabnabbing is a potential issue if external resources are not trustworthy or have changed ownership. To protect users, add rel="noopener noreferrer" to all target="_blank" links for enhanced security.

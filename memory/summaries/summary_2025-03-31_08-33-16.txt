@@ -1,0 +1,1 @@
+The user wants to report an issue with expected and current behavior, possibly offering a solution. The context is optional but could involve explaining the real-world effects of the problem or intended use.

@@ -1,0 +1,1 @@
+PyQt5 is a Python library that provides a powerful and convenient way to develop graphical applications using the Qt framework, with version 5.15.2 offering enhanced features and improvements for developers.

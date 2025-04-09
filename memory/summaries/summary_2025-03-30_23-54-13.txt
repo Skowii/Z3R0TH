@@ -1,0 +1,30 @@
+To define an enum in JavaScript, you can use a plain object and `Object.freeze()` to prevent mutation. An alternative is creating a simple `class`, which provides better integration with object-oriented programming languages. By using ES6 symbols, it's possible to make the enum iterable. A potential implementation for an Enum class:
+
+```js
+class Enum {
+  constructor(...keys) {
+    keys.forEach((key, i) => {
+      this[key] = i;
+    });
+    Object.freeze(this);
+  }
+  *[Symbol.iterator]() {
+    for (let key of Object.keys(this)) yield key;
+  }
+}
+```
+
+Usage:
+
+```js
+const daysEnum = new Enum(
+  'monday',
+  'tuesday',
+  'wednesday',
+  'thursday',
+  'friday',
+  'saturday',
+  'sunday'
+);
+const days = [...daysEnum]; // Array of the enum values as strings
+```

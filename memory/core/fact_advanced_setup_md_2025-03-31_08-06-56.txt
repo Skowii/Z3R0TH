@@ -1,0 +1,13 @@
+# SOURCE: advanced_setup.md
+# TIME: 2025-03-31_08-06-56
+
+Advanced Setup for AutoGPT Agent Server with External Postgres Database
+
+1. Install Poetry, configure it to use .venv in your project directory and enter the poetry shell.
+2. Install dependencies using Poetry.
+3. Configure environment variables in a .env file or set them directly in your shell.
+4. Generate the Prisma client for PostgreSQL.
+5. Run the postgres database from the /rnd folder and run migrations from the backend directory.
+6. Start the server by running the command `poetry run app` directly.
+
+# TAGS: advanced setup, sysadmin experience, environment variables, .env file, secrets directory, PostgreSQL, Prisma client, Poetry, dockerized set up, external DB

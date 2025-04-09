@@ -1,0 +1,1 @@
+Report security vulnerabilities privately by emailing security@sylius.com, not through the issue tracker or publicly. Ensure proper support for versions by checking the release process at https://docs.sylius.com/en/latest/contributing/organization/release-process.html

@@ -1,0 +1,78 @@
+# SOURCE: built-in-components.md
+# TIME: 2025-03-31_09-17-30
+
+Maximum number of DuckDuckGo API requests before an error. *ENV:* `DUCKDUCKGO_MAX_ATTEMPTS` | `int`                        | `10`                       |
+| `use_google_search`           | Use Google Search             | `bool`, defaults to *False* | `False`                    |
+| `use_duckduckgo_search`      | Use DuckDuckGo Search          | `bool`, defaults to *True*  | `True`                     |
+
+### CommandProvider
+
+- `web_search` used to search the web
+
+## `TranslationComponent`
+
+Translation component allows agent to translate text between languages. OpenAI API key or Google Translation API key required. [Instructions how to set up OpenAI API key](../../classic/configuration/openai.md) and [how to set up Google Translation API key](../../classic/configuration/translate.md)
+
+### `TranslationConfiguration`
+
+| Config variable                 | Details                            | Type      | Default |
+| ------------------------------- | ---------------------------------- | --------- | ------- |
+| `openai_api_key`               | OpenAI API key, *ENV:* `OPENAI_API_KEY` | `str`     | `None`  |
+| `google_translation_api_key`   | Google Translation API key, *ENV:* `GOOGLE_TRANSLATION_API_KEY` | `str`     | `None`  |
+
+### CommandProvider
+
+- `translate` used to translate a text between languages
+
+# TAGS: | None                   | No configuration options for this component.          | No         
+
+## `ConversationContextComponent`
+
+Stores conversation history for the agent in a structured format.
+
+### `ConversationContextConfiguration`
+
+| Config variable         | Details                                      | Type       | Default            |
+| ----------------------- | -------------------------------------------- | ---------- | ------------------ |
+| `storage_path`          | Path to store conversation history files   | `str`      | `agents/{agent_id}/conversation_context/`[^1] |
+| `workspace_path`        | Path to access files agent has              | `str`      | `agents/{agent_id}/workspace/`[^1]          |
+| `retention_policy`      | Determines the retention policy for history | `enum`     | `"infinite"`       |
+|                         | `"memory_only"` - Store in memory only       |            |                    |
+|                         | `"file_only"`  - Store only on disk          |            |                    |
+|                         | `"combined"`   - Store both memory and file |            |                    |
+
+[^1] This option is set dynamically during component construction as opposed to by default inside the configuration model, {agent_id} is replaced with the agent's unique identifier.
+
+### CommandProvider
+
+- `add_message` add a message to the conversation history
+- `clear_messages` clear all messages in conversation history
+- `get_messages` get all messages from conversation history
+
+## `OpenAIAPIComponent`
+
+Interacts with OpenAI's API. This is the main component that allows agents to make calls to OpenAI's models and services.
+
+### `OpenAIConfiguration`
+
+| Config variable     | Details                                       | Type            | Default                   |
+| ------------------- | --------------------------------------------- | --------------- | ------------------------- |
+| `api_key`           | API Key for authenticating with OpenAI's API    | `str`           | None                      |
+| `base_url`          | Base URL for accessing OpenAI's API            | `str`           | `https://api.openai.com`  |
+| `organization`      | Organization ID used for authenticating        | `str`           | None                      |
+| `max_retries`       | Maximum number of retries when making requests | `int`           | 0                         |
+| `prompt_templates`  | List of prompt templates to use              | `List[str]`     | `[]`                      |
+| `api_version`       | OpenAI API version used                       | `str`           | Defaults to latest available |
+| `wait_on_retry`      | Wait before retrying a request                 | `bool`          | False                     |
+
+### CommandProvider
+
+- `complete` complete text prompt using OpenAI's GPT model
+- `embeddings` get embedding for text
+- `create_image` generate image from text prompt using CLIP model
+- `edit_image` edit an existing image using text prompt using Stable Diffusion's Edit Image model
+- `generate_image` generate an image using text prompt using DALL·E 2 or Stable Diffusion
+- `create_moderation` check if a given text is offensive, toxic, harassment, etc. using OpenAI's Moderation model
+- `create_search` search for an image or text based on a query
+- `create_transcription` transcribe an audio file into text using Whisper model
+- `create_translation` translate between languages using Translation model

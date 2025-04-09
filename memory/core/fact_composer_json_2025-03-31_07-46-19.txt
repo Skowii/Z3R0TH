@@ -1,0 +1,6 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-46-19
+
+Summary: The given information is a JSON object with the key "name" and value "example/test-application". This represents the name of an application, possibly used in software development or testing purposes. Tag: Application Name.
+
+# TAGS: name: example/test-application

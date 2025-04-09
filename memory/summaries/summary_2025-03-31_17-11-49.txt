@@ -1,0 +1,1 @@
+The content is an API response representing a paginated list of products. The list is paginated with the current page at 1 out of 3, showing a limit of 10 products per page. There are total 22 products listed. The products are embedded in the response with their respective ids, names, codes, average ratings, and images.

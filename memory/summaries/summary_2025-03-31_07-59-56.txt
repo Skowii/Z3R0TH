@@ -1,0 +1,1 @@
+The Intercepting Filter Pattern in Java is a design pattern used to enhance web request processing in web applications. It allows multiple filters to be applied sequentially to process and modify requests and responses. This pattern can improve performance, security, API design, decoupling, layered architecture, and web development in Java applications.

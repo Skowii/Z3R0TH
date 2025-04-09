@@ -1,0 +1,1 @@
+Adapter là mẫu thiết kế phần mềm cho phép giao diện của một lớp hiện có được sử dụng như một giao diện khác. Nó thường được sử dụng để làm cho các lớp hiện có làm việc với các lớp khác mà không cần sửa đổi mã nguồn của chúng. Ví dụ, trong ví dụ trên, mẫu thiết kế Adapter được sử dụng để cho phép thuyền trưởng vận hành thuyền câu với kỹ năng chèo.

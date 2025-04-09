@@ -1,0 +1,1 @@
+The main difference between Python lists and tuples lies in their mutability: lists allow element changes, while tuples don't. Lists have a variable length, take up more memory, and provide an accessible API. Tuples are immutable with a fixed length and take less memory. Use lists for expected data changes and tuples for constants.

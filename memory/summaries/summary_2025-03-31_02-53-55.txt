@@ -1,0 +1,7 @@
+The "this" keyword in JavaScript refers to the object currently executing the code. In various contexts, it evaluates as follows:
+
+1. Global Context: In the global execution context, "this" refers to the global object (e.g., window).
+2. Function Context: When not in strict mode, a function's "this" refers to the global object; when in strict mode, it is undefined. 
+3. Object Context: When a function is called as an object method, "this" refers to the object the method is called on, including methods defined in the prototype chain. It also refers to the object being constructed within a constructor call.
+4. Arrow Function Context: In arrow functions, "this" retains the value of the enclosing lexical context's "this". 
+5. Event Handler Context: When used in an event handler, "this" refers to the element on which the listener is placed.

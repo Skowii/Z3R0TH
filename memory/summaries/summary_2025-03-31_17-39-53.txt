@@ -1,0 +1,1 @@
+The AI was tested on several challenges, including writing to a .txt file, creating a two_sum function, searching for text from a website, reading a file quickly, and finding the three_sum function. However, all tests failed, with none having successful results. The tests had varying difficulty levels and failure reasons, but they did not reach cutoff in any case.

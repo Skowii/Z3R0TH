@@ -1,0 +1,10 @@
+Pull Request Summary:
+
+1. Description of change has been added.
+2. File name follows guidelines.
+3. Tests and example pass.
+4. Documentation is self-explanatory and educational.
+5. Relevant documentation/comments updated or added.
+6. PR title follows semantic commit guidelines.
+7. No duplicate suggestions found.
+8. Contributions made under the project's license.

@@ -1,0 +1,24 @@
+Create a JavaScript generator function based on a condition:
+
+1. Take a predicate function as an argument
+2. Initialize current value using seed
+3. Use while loop with condition based on the predicate function
+4. Iterate as long as the condition is met
+5. Use yield to return the current val and optionally receive new seed
+6. Use next function to calculate next value from current val and new seed
+7. Return the final value
+
+Example:
+
+```js
+const generateWhile = function* (seed, predicate, next) {
+  let val = seed;
+  let nextSeed = null;
+  while (predicate(val)) {
+    nextSeed = yield val;
+    val = next(val, nextSeed);
+  }
+  return val;
+};
+[...generateWhile(1, v => v <= 5, v => ++v)] // [1, 2, 3, 4, 5]
+```

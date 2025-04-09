@@ -1,0 +1,1 @@
+This is a list of programming tutorials for various languages, where developers learn to build an application from scratch. The languages covered include C#, C/C++, Clojure, Dart, Elixir, Erlang, F#, Go, Haskell, HTML/CSS, Java, JavaScript, Kotlin, Lua, OCaml, PHP, Python, R, Ruby, Rust, Scala, and Swift. Tutorials may involve multiple technologies and languages.

@@ -1,0 +1,13 @@
+Title: Solved Problem and Solution
+Status: Accepted
+Date: YYYY-MM-DD
+
+Context and Problem Statement: This problem statement discusses the context in which a decision needed to be made, including any concerns or forces that influenced it.
+
+Decision Drivers: The factors or forces that influenced the decision are mentioned here, with some examples given.
+
+Considered Options: Two or more options are presented, along with their pros and cons. Examples of the options could be provided, as well as pointers to more information if available.
+
+Decision Outcome: The chosen option is stated, along with a justification for why this option was selected over others. This could include reasons such as meeting key criteria, resolving concerns or forces, or simply being the only viable option.
+
+References: Links can be provided to other ADRs that relate to the problem, either by refining or building upon them.

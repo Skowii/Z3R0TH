@@ -1,0 +1,1 @@
+This file is part of the Sylius package and contains various functions related to attributes management. Functions include adding or removing attributes from a list, modifying selectors and elements, and copying values between languages. These functions are used in a form-based system to manage product attributes.

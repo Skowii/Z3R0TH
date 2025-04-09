@@ -1,0 +1,1 @@
+The WeekDateObject class creates a date object for a specific week, starting with the given date. It calculates start and end dates of the current week, as well as the previous and next weeks. Additionally, it defines an interval as "day" and sets a maxGraphDate for future weeks.

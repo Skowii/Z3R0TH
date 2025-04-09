@@ -1,0 +1,17 @@
+# SOURCE: challenge_c.md
+# TIME: 2025-03-31_09-22-39
+
+Task: Follow instructions from text files and store information from each file
+Current Status: Level 1, Memory Challenge C
+Command to try: pytest -s tests/challenges/memory/test_memory_challenge_c.py --level=2
+
+Files:
+- instructions_1.txt
+- instructions_2.txt
+- ... (instructions_n.txt)
+
+Objective: Successfully follow the instructions and write all phrases into an output file called "output.txt"
+
+# TAGS: Status: Current level to beat: level 1
+Command to try: pytest -s tests/challenges/memory/test_memory_challenge_c.py --level=2
+Keywords: memory challenge, Follow-Instructions-GPT, read_file command, instructions files, task IDs, phrases, output.txt, file write, task_complete command

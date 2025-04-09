@@ -1,0 +1,1 @@
+Truthy and falsy values in JavaScript refer to how values are evaluated in a Boolean context. Falsy values include `false`, `undefined`, `null`, empty strings, `NaN`, and any number or BigInt representing `0`. All other values are truthy. To check a value's truthiness, use the `Boolean()` function or double negation (`!!`).

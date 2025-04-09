@@ -1,0 +1,1 @@
+Git allows you to configure line endings for a repository, addressing issues that may arise when working with team members using different operating systems. This can be done by setting the `core.eol` configuration option to either `lf` (UNIX line endings) or `crlf` (DOS line endings).

@@ -1,0 +1,1 @@
+The text explains the process of automatically extracting executable names and creating targets from source files. It uses a RELATIVE flag to list source files with relative paths, then converts the filenames into target names. It adds the target properties and installs them in a specific folder location. If OpenMP is found, it links the libraries for targeted applications.

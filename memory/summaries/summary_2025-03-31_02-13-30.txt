@@ -1,0 +1,1 @@
+Serialize specific properties from a JSON object using `JSON.stringify()`'s second argument. This can be done with an array of keys or a replacer function. An array of keys is useful when you know the exact shape of the serialized object, while a replacer function allows more versatility and can modify key values in the output.

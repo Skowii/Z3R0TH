@@ -1,0 +1,35 @@
+# SOURCE: options.md
+# TIME: 2025-03-31_09-27-29
+
+AutoGPT can be configured using environment variables, particularly through a .env file. Configuration options include API keys for OpenAI, ElevenLabs, and HuggingFace, among others. Environment variables specify the model to use for embedding, fast tasks, and smart tasks. Other settings involve disabling commands or providing voice options. The configuration can be set in the AutoGPT folder's .env file.
+
+# TAGS: - Configuration
+- Environment Variables
+- AUTHORISE_COMMAND_KEY
+- ANTHROPIC_API_KEY
+- AZURE_CONFIG_FILE
+- COMPONENT_CONFIG_FILE
+- DISABLED_COMMANDS
+- ELEVENLABS_API_KEY
+- ELEVENLABS_VOICE_ID
+- EMBEDDING_MODEL
+- EXIT_KEY
+- FAST_LLM
+- GITHUB_API_KEY
+- GITHUB_USERNAME
+- GOOGLE_API_KEY
+- GOOGLE_CUSTOM_SEARCH_ENGINE_ID
+- GROQ_API_KEY
+- HUGGINGFACE_API_TOKEN
+- HUGGINGFACE_IMAGE_MODEL
+- LLAMAFILE_API_BASE
+- OPENAI_API_KEY
+- OPENAI_ORGANIZATION
+- PLAIN_OUTPUT
+- RESTRICT_TO_WORKSPACE
+- SD_WEBUI_AUTH
+- SMART_LLM
+- STREAMELEMENTS_VOICE
+- TEMPERATURE
+- TEXT_TO_SPEECH_PROVIDER
+- USE_AZURE

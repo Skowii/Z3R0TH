@@ -1,0 +1,1 @@
+Git branches facilitate feature development, bug fixing, and experimentation. To easily switch between branches, use the `git checkout` command or its alternative, `git switch`. To change to an existing branch, enter `git checkout <branch>` or `git switch <branch>`, and for the previous branch, use `git checkout -` or `git switch -`.

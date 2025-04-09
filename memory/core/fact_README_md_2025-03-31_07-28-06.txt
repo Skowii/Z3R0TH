@@ -1,0 +1,8 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-28-06
+
+SyliusProductBundle is a product system for Symfony2 applications, offering support for simple catalogs as well as complex stores with customizable variants, options, and properties. It was inspired by the Spree product and variants system. Sylius is an open-source eCommerce solution with powerful API and high-quality code. The documentation can be found on docs.sylius.com, and contributions are welcome via GitHub issues. The bundle is licensed under MIT, and has been authored by Paweł Jędrzejewski and other contributors.
+
+# TAGS: Key concepts: SyliusProductBundle, Symfony2, eCommerce, Open Source, decoupled components, powerful API, highest quality code, documentation, contributing, bug tracking, MIT License, authors
+Keywords: Product system, catalogs, customizable variants, options, properties
+People: Paweł Jędrzejewski

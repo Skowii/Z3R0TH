@@ -1,0 +1,1 @@
+SyliusUiBundle is an Open Source eCommerce solution with powerful API and high-quality code, built from decoupled components. It has a comprehensive documentation available at docs.sylius.com and accepts contributions via GitHub issues. The project uses the MIT License and was originally created by Paweł Jędrzejewski.

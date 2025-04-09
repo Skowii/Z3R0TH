@@ -1,0 +1,1 @@
+The perfect duration for CSS transitions is around 0.4 seconds, based on the Doherty Threshold which ensures smooth user interactions. Most websites use durations closer to 0.3 seconds, aligning with modern expectations of fast interaction times.

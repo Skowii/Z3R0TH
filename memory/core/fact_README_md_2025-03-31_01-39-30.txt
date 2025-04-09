@@ -1,0 +1,99 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_01-39-30
+
+2. **Developer Functions (`packs/developer_functions.py`):**
+   - **Function Debugging:** Display function source code, inputs, and outputs.
+   - **System Information:** Retrieve system information such as environment version and usage statistics.
+   - **Log Management:** View logs for specific functions or filter logs by execution outcomes.
+   - **Dashboard Configuration:** Adjust dashboard settings like theme color and language.
+
+These pre-loaded functions provide a foundation for building more complex functions and applications. You can also create your own function packs to expand BabyAGI's capabilities further.
+
+
+
+**Remember that you can find all the mentioned features in the repository, as well as a lot of extra documentation and detailed examples!**
+
+# TAGS: . Here's an example:
+
+```python
+import babyagi
+from babyagi import builtin_functions as bf
+
+babyagi.load_function(bf.circle_area)
+print(babyagi.circle_area(2))  # Output: 12.566370614359172
+```
+
+## Key Dependencies
+
+Functions can depend on external secrets, such as API keys or tokens. You can set these dependencies using the `key_dependencies` parameter during registration or loading of functions. For example:
+
+```python
+import babyagi
+
+@babyagi.register_function(key_dependencies=["openai_api_key"])
+def openai_completion():
+    ...
+```
+
+In this case, the `openai_api_key` must be set before calling the function:
+
+```python
+import babyagi
+from dotenv import load_dotenv
+load_dotenv()
+
+babyagi.set_key("openai_api_key", os.environ["OPENAI_API_KEY"])
+print(babyagi.openai_completion())  # Output: Completes an OpenAI function using the provided API key.
+```
+
+## Execution Environment
+
+BabyAGI offers a controlled execution environment with automatic logging capabilities and various debugging tools. You can access logs through the dashboard or by inspecting files in the `logs/` directory. The execution environment is designed to be easily extended and customized for specific use cases.
+
+### Log
+
+BabyAGI records all function executions, including input arguments, output values, dependencies, and execution time. To access logs in real-time:
+
+1. Open the dashboard (`http://localhost:8080/dashboard`).
+2. Navigate to the "Logs" tab.
+3. Check the log for a specific function or search for logs containing specific keywords.
+
+## Dashboard
+
+The BabyAGI dashboard is designed as a centralized management and monitoring tool. It includes features like:
+
+1. A list of all functions registered with BabyAGI, including dependencies and metadata.
+2. The ability to load additional function packs or plugins using the "Load Function" button.
+3. Real-time logs of executed functions, along with their input arguments, output values, execution time, and dependencies.
+4. An option to reset all state and logs for debugging purposes.
+
+## Pre-loaded Functions
+
+BabyAGI comes pre-loaded with several useful functions:
+
+1. `circle_area`: Calculates the area of a circle.
+2. `world`: Returns "world".
+3. `hello_world`: Returns "Hello world!".
+4. `math`: Provides access to Python's built-in math functions and constants.
+5. `openai_completion`: Uses an OpenAI API key to perform text completion tasks.
+6. ...
+
+For a complete list, see the `builtin_functions` module in the source code. You can easily add your own functions or plugins by using the function packs or loading them manually with `load_function`.
+
+## Future/Draft Features
+
+- Expand on the execution environment to support multiple processes, asynchronous function execution, and customizable resource management.
+- Introduce a more sophisticated dependency management system, allowing users to version functions and manage dependencies across different versions of functions.
+- Implement an AI training framework that can adapt and learn from executed functions.
+
+## API Reference
+
+To see the full documentation for BabyAGI's core functions and features, refer to the [API reference](https://babyagi.readthedocs.io/).
+
+## Contributing
+
+BabyAGI is open-source and welcomes contributions. Feel free to submit issues, pull requests, or suggestions on how to improve the framework.
+
+## License
+
+BabyAGI is released under the MIT License. See LICENSE for more information.

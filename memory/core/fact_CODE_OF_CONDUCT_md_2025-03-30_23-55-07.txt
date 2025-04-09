@@ -1,0 +1,6 @@
+# SOURCE: CODE_OF_CONDUCT.md
+# TIME: 2025-03-30_23-55-07
+
+Contributor Covenant Code of Conduct is a pledge for fostering an open and welcoming environment in projects and communities, focusing on creating a harassment-free experience for everyone. Unacceptable behavior includes sexualized language, personal or political attacks, and publishing private information without permission. Project maintainers are responsible for clarifying acceptable behavior and taking corrective action if needed. This code applies to project spaces and public spaces where an individual is representing the project or its community.
+
+# TAGS: Contributor Covenant Code of Conduct, pledge, harassment-free experience, age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, sexual identity and orientation, welcoming and inclusive language, respectful, constructive criticism, community focus, empathy, unacceptable behavior, project maintainers, acceptable behavior, inappropriate conduct, private information, professional setting, scope, enforcement, abusive behavior, harassment, unacceptable behavior reporting, project team, confidentiality, project leadership repercussions

@@ -1,0 +1,62 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_00-50-31
+
+To get started using DeepPavlov, you can follow these simple steps:
+
+1. Install DeepPavlov by running `pip install deeppavlov`.
+2. Choose a model from the available list of pre-trained models or create your own custom model. You can find all available models at [https://docs.deeppavlov.ai/en/latest/models_and_pretraining/#available-models](https://docs.deeppavlov.ai/en/latest/models_and_pretraining/#available-models).
+3. Install the necessary requirements by running `pip install -r deeppavlov/requirements.txt`. This may take some time, depending on your internet connection and machine specifications.
+4. Once you have installed DeepPavlov and its dependencies, follow the documentation guides for each model to learn how to use it. You can find all documentation at [https://docs.deeppavlov.ai/en/latest/](https://docs.deeppavlov.ai/en/latest/).
+5. If you have any questions or issues while using DeepPavlov, feel free to join our discussion forum at [https://github.com/deep-pavlov/deeppavlov/discussions](https://github.com/deep-pavlov/deeppavlov/discussions) or reach out to us via email at info@deeppavlov.ai.
+
+Please cite our work as follows:
+```
+Maksim Savkin, Anastasia Voznyuk, Fedor Ignatov, Anna Korzanova, Dmitry Karpov, Alexander Popov, and Vasily Konovalov. "DeepPavlov 1.0: Your Gateway to Advanced NLP Models Backed by Transformers and Transfer Learning". In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. November, Miami, Florida, USA. Association for Computational Linguistics.
+```
+
+# TAGS: lol.train <config_path> [-d] [-i]
+```
+
+Evaluate model through CLI is also possible:
+
+```bash
+python -m deeppavlov eval <config_path> [-d] [-i]
+```
+
+Train and evaluate can be done in one step using `-t` option:
+
+```bash
+python -m deeppavlov train_and_eval <config_path> [-d] [-i]
+```
+
+For more details, see [docs](https://docs.deeppavlov.ai/en/master/intro/quick_start.html#cli)
+
+### Python
+
+You can also use a model using Python API:
+
+```python
+from deeppavlov import Model
+
+model = Model(config_path='<your config>')
+```
+
+To train a model:
+
+```python
+model.fit()
+```
+
+Evaluate a trained model:
+
+```python
+model.predict('test data')
+```
+
+Interact with the model (streaming input):
+
+```python
+model.interact(input_source='<your data source>')
+```
+
+To see more examples, please visit [Python docs](http://docs.deeppavlov.ai/en/master/python/index.html).

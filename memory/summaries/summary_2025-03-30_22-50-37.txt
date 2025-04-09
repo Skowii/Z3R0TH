@@ -1,0 +1,1 @@
+To view a summary of changes between two Git commits, use the command "git shortlog <commit>..<other-commit>". The commits don't have to be consecutive and can use commit hashes, branch names, or tags. This allows you to compare any two points in the repository history for quick understanding of differences.

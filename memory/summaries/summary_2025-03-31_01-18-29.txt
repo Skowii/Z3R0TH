@@ -1,0 +1,7 @@
+In JavaScript, you can sort an array using a shorthand method by providing a compare function that returns a positive or negative value to indicate the order of elements. For numeric arrays:
+- Sort in ascending order: `arr.sort((a, b) => a - b)`
+- Sort in descending order: `arr.sort((a, b) => b - a)`
+
+For string arrays, use the `localeCompare()` method to account for locales and unique needs:
+- Sort in ascending order: `arr.sort((a, b) => a.localeCompare(b))`
+- Sort in descending order: `arr.sort((a, b) => b.localeCompare(a))`

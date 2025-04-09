@@ -1,0 +1,1 @@
+Map an array to an object using the `Array.prototype.map()` and `Object.fromEntries()` functions with a mapping function that takes the element, index, and array as input. The result is used to create an object from key-value pairs. This can be extended for arrays of objects by using two mapping functions - one for keys and another for values.

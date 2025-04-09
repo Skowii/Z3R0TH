@@ -1,0 +1,1 @@
+This code subscribes to the document and selects all article tables without a class, then initializes a TableSort for each table found.

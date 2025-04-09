@@ -1,0 +1,1 @@
+Imports the necessary Django URL functions and includes a list of URL patterns for different view functions, including CardListView, CardCreateView, CardUpdateView, and BoxView, with specific names assigned for each path.

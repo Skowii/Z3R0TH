@@ -1,0 +1,43 @@
+# SOURCE: blocks.md
+# TIME: 2025-03-31_08-45-04
+
+hub/repo.md#github-make-branch) | Creates a new branch in a specified GitHub repository |
+| [GitHub Create Release](github/release.md#github-create-release) | Creates a new release on a specified GitHub repository |
+| [GitHub List Releases](github/release.md#github-list-releases) | Retrieves and lists all releases for a specified GitHub repository |
+| [GitHub Delete Release](github/release.md#github-delete-release) | Deletes a specific release on a specified GitHub repository |
+| [GitHub Create Commit Status](github/commit_status.md#github-create-commit-status) | Creates a new commit status for a specific GitHub commit |
+| [GitHub List Commit Statuses](github/commit_status.md#github-list-commit-statuses) | Retrieves and lists all commit statuses for a specified GitHub repository |
+| [GitHub Set Commit Status](github/commit_status.md#github-set-commit-status) | Updates the state of a specific GitHub commit status |
+| [GitHub List Commits](github/repo.md#github-list-commits) | Retrieves and lists commits for a specified GitHub repository |
+| [GitHub Pull Request Create](github/pull_request.md#github-create-pull-request) | Creates a new pull request on a specified GitHub repository |
+| [GitHub List Pull Requests](github/pull_request.md#github-list-pull-requests) | Retrieves and lists all pull requests for a specified GitHub repository
+
+# TAGS: AI Text Generator: Generates text responses using LLMs
+
+AI Structured Response Generator: Generates structured responses using LLMs
+
+AI Text Summarizer: Summarizes long texts using LLMs
+
+AI Conversation: Facilitates multi-turn conversations with LLMs
+
+AI List Generator: Creates lists based on prompts using LLMs
+
+Send Web Request: Makes HTTP requests to specified web addresses
+
+Read RSS Feed: Retrieves and processes entries from RSS feeds
+
+Get Weather Information: Fetches current weather data for a location
+
+Google Maps Search: Searches for local businesses using Google Maps API
+
+Post Reddit Comment: Posts comments on Reddit
+
+Publish to Medium: Publishes content directly to Medium
+
+Read Discord Messages: Retrieves messages from Discord channels
+
+Send Discord Message: Sends messages to Discord channels
+
+Search The Web: Performs web searches and returns results
+
+Extract Website Content: Retrieves and extracts content from websites

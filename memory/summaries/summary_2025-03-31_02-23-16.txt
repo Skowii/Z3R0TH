@@ -1,0 +1,6 @@
+Generate a random number or integer in a range with JavaScript:
+
+- Use `Math.random()` for random numbers between 0 and 1.
+- For random numbers in a specified range, multiply by the difference between max and min values, then add the min value: `randomNumberInRange(min, max) => Math.random() * (max - min) + min`.
+- For random integers, use `Math.floor()` to round down to nearest integer: `randomIntegerInRange(min, max) => Math.floor(Math.random() * (max - min + 1)) + min`.
+- For Gaussian distributed random numbers, use the Box-Muller transform: `randomGauss() => { const theta = 2 * Math.PI * Math.random(); const rho = Math.sqrt(-2 * Math.log(1 - Math.random())); return (rho * Math.cos(theta)) / 10.0 + 0.5; }`.

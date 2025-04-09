@@ -1,0 +1,11 @@
+The conflicts added to `composer.json` are due to compatibility issues between different versions of Symfony and related libraries. Specifically, the following issues were identified: 
+
+- Certain Symfony versions (5.2, 5.3, and 5.4) include older dependencies that conflict with Sylius version requirements.
+- The password hashing logic changed in Symfony 5.3 and was removed in version 6.0.
+- The DoctrineBundle version 2.3.0 causes issues with Gedmo Doctrine Extensions, particularly tree and position behavior.
+- JMSSerializerBundle version 3.9 has an issue related to DocBlockDriver, rendering docblocks inaccessible.
+- Symfony Serializer versions 4.4.19 and 5.2.2 introduce a bug with accessing private properties without getters.
+- Doctrine Bridge version 4.4.16 introduces a problem related to ChannelPricing mapping.
+- The Symfony PropertyInfo Component versions 4.4.22 and 5.2.7 have an issue with resolving wrong namespace for translation entities in Swagger UI docs for API.
+
+These conflicts are logged along with the relevant references and potential solutions for each issue.

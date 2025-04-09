@@ -1,0 +1,138 @@
+# SOURCE: package-lock.json
+# TIME: 2025-03-31_01-03-04
+
+```
+"@babel/helper-module-imports": "^7.23.6",
+      },
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    "node_modules/@babel/helper-create-regexp-plugin": {
+      "version": "7.23.7",
+      "resolved": "https://registry.npmjs.org/@babel/helper-create-regexp-plugin/-/helper-create-regexp-plugin-7.23.7.tgz",
+      "integrity": "sha512-r9Y+uN0zW4Hgj8Md9ZmVXGc1wzJ/sAeF3CaDlhS1/qfE+oJRyOi6I7v5kz8nUxL4P2YrI45/B+TuN4jx/0Zw==",
+      "dependencies": {
+        "@babel/helper-annotate-as-pure": "^7.23.6",
+        "@babel/helper-environment-visitor": "^7.22.20",
+        "@babel/helper-function-name": "^7.23.0"
+      },
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    "node_modules/@babel/helper-define-more-constructs-plugin": {
+      "version": "7.23.7",
+      "resolved": "https://registry.npmjs.org/@babel/helper-define-more-constructs-plugin/-/helper-define-more-constructs-plugin-7.23.7.tgz",
+      "integrity": "sha512-09NxrDXhL8ZlCwKvU+yiMJzEIyuFV3fHj7Pb/o61y4T+6/s0jqYDd1RQWn0t68G114jmY9a9H2xrRr2eKcSxw==",
+      "dependencies": {
+        "@babel/helper-annotate-as-pure": "^7.23.5",
+        "@babel/helper-environment-visitor": "^7.22.20",
+        "@babel/helper-function-name": "^7.23.0"
+      
+```
+
+# TAGS: name: neextra-docs-template
+version: 0.0.1
+lockfileVersion: 3
+requires: true
+packages:
+  "" : {
+    name: neextra-docs-template
+    version: 0.0.1
+    license: MIT
+    dependencies: {
+      "@fortawesome/fontawesome": "^6.2.1",
+      "next": ">=9.4.1 <9.5.0",
+      "react": "^18.2.0",
+      "react-dom": ">= 18.2.0 <19.0.0"
+    }
+  }
+dependencies: {
+  "@babel/code-frame": "7.23.5",
+  "@babel/compat-data": "7.23.5",
+  "@babel/core": "7.23.7",
+  "@babel/runtime": "7.23.4",
+  "@emotion/react": "^11.10.5",
+  "@emotion/styled": "^11.10.6",
+  "@fortawesome/fontawesome-svg-core": "^6.2.1",
+  "@fortawesome/free-brands": "^6.2.1",
+  "@fortawesome/free-solid": "^6.2.1",
+  "@fortawesome/react-fontawesome": "^0.2.0",
+  "@mui/material": "5.11.4",
+  "@mui/system": "5.11.4",
+  "@mui/utils": "5.11.4",
+  "@nomiclabs/client-nextjs": "^2.0.0",
+  "@nomiclabs/hardhat-ethers": "^2.3.0",
+  "@nomiclabs/solidity-coverage": "^1.6.0",
+  "@nomiclabs/vfile-formatter-pretty": "^1.7.0",
+  "@nomiclabs/webpack-dev-server": "^4.0.3",
+  "@snowpack/plugin-webpack": "5.3.2",
+  "@testing-library/jest-dom": "^5.16.4",
+  "@testing-library/react": "^13.3.4",
+  "@testing-library/user-event": "^13.5.0",
+  "acorn": "^8.7.0",
+  "amqplib": "^6.2.0",
+  "animate.css": "4.1.1",
+  "apollo-client": "3.x",
+  "apexcharts": "3.x",
+  "axios": "0.27.2",
+  "core-js": "3.25.3",
+  "crypto-browserify": "^3.12.0",
+  "date-fns": "2.28.0",
+  "dayjs": "1.11.4",
+  "dom-to-image": "2.9.5",
+  "dotenv": "^8.3.0",
+  "easy-peasy": "4.12.3",
+  "emotion": "^11.10.6",
+  "esbuild": "^0.17.42",
+  "ethers": "^5.8.12",
+  "fast-json-patch": "^2.0.3",
+  "file-loader": "^6.0.0",
+  "fs-extra": "10.1.0",
+  "html-webpack-plugin": "5.5.0",
+  "http-server": "^0.12.0",
+  "import-fns": "^1.4.0",
+  "intersection-observer": "^1.4.7",
+  "jest-mock-extend": "^1.0.0",
+  "jszip": "3.15.1",
+  "minimist": "1.2.9",
+  "moment": "2.29.4",
+  "next": "12.x",
+  "postcss": "8.4.6",
+  "prismjs": "1.22.0",
+  "prop-types": "15.8.1",
+  "react": "^18.2.0",
+  "react-dom": ">= 18.2.0 <19.0.0",
+  "recharts": "3.4.7",
+  "sass": "1.56.0",
+  "snowpack": "^4.x",
+  "styled-components": "^5.3.6",
+  "ts-loader": "9.2.5",
+  "tslib": "2.3.1",
+  "typescript": "^4.9.5",
+  "vfile": "3.0.4",
+  "webpack": "5.70.0",
+  "webpack-dev-server": "4.11.0"
+}
+devDependencies: {
+  "@nomiclabs/hardhat-etherscan": "^2.0.12",
+  "@solidity/typed-assembly": "^1.3.10",
+  "babel-eslint": "10.x",
+  "ethereum-waffle": "2.x",
+  "npm-run-all": "5.0.0",
+  "solidity": "^0.8.19",
+  "vitest": "^0.34.0"
+}
+peerDependencies: {
+  "@emotion/react": "^11.10.5",
+  "react": "^18.2.0",
+  "react-dom": ">= 18.2.0 <19.0.0",
+  "typescript": ">=4.9.5 < Next Release"
+}
+resolutions: {
+  "@emotion/core": "^11.10.6",
+  "react-is": "^18.2.0",
+  "styled-components": "^5.3.6"
+}
+}

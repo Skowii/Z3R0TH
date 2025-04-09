@@ -1,0 +1,9 @@
+# SOURCE: model_loader.py
+# TIME: 2025-03-31_02-07-26
+
+from flashfill import utils, semantics
+    from flashfill.
+
+# TAGS: (dreamcoder, max_program_depth, nb_arguments_max, lexicon, size_max, size_hidden, embedding_output_dimension, number_layers_RNN)
+
+    return dreamcoder, cfg, model

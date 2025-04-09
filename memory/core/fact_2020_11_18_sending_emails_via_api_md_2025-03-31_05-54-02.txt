@@ -1,0 +1,12 @@
+# SOURCE: 2020_11_18_sending_emails_via_api.md
+# TIME: 2025-03-31_05-54-02
+
+API - Sending emails
+- Context: Achieve 100% API coverage by handling emails through API
+- Problem Statement: Email functionality needs to be incorporated via API
+- Considered Options:
+  1. Using Events
+  2. Direct email call
+- Decision Outcome: "Using events" is chosen, as it allows us to send emails using events, commands and handlers, which provides the capability of queuing multiple messages in async transport.
+
+# TAGS: api coverage, sending emails, events, Sylius\ApiBundle\Event\OrderCompleted, OrderCompletedHandler, SendOrderConfirmation, SendOrderConfirmationHandler, emailSender, Emails::ORDER_CONFIRMATION_RESENT, email server downs, abstraction, direct email call, emailManager, CompleteOrderHandler

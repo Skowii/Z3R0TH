@@ -1,0 +1,12 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_05-44-56
+
+Sylius Documentation is an Open Source eCommerce platform on top of Symfony, available at docs.sylius.com. The documentation uses GitHub issues for reporting any problems or suggestions. You can follow Sylius updates on Twitter and contribute to the project by installing Sphinx to build and view the HTML files in the "build" directory.
+
+# TAGS: Key concepts: Sylius, Open Source eCommerce platform, Symfony, documentation, readthedocs.org, GitHub issues, Sphinx, twitter, Sylius account.
+
+Keywords: Sylius Documentation, Sylius, Open Source, eCommerce, platform, Symfony, documentation repository, readthedocs.org, GitHub issues, Sphinx, Twitter account.
+
+People: Contributors to Sylius
+
+Dates: None mentioned

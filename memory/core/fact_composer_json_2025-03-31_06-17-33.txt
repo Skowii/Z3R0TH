@@ -1,0 +1,22 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-17-33
+
+Summary: Addressing and zone management library for PHP applications, used in ecommerce and shop systems. Homepage: https://sylius.com. License: MIT. Authors: Paweł Jędrzejewski, Sylius project, Community contributions. Requirements: PHP 7.4 or 8.0, sylius/registry, sylius/resource, symfony/intl. Dev dependencies: phpspec/phpspec. Extra information: branch-alias and autoload configuration for library namespace. Minimum stability: dev, prefer stable.
+
+# TAGS: sylius/addressing
+library
+Addressing and zone management for PHP applications
+shop, ecommerce, address, addressing, zones
+homepage: https://sylius.com
+license: MIT
+authors:
+  - Paweł Jędrzejewski
+  - Sylius project
+  - Community contributions
+require: php: ^7.4 || ^8.0, sylius/registry: ^1.5, sylius/resource: ^1.7, symfony/intl: ^4.4 || ^5.2
+require-dev: phpspec/phpspec: ^7.0
+config: bin-dir: "bin"
+extra: branch-alias: dev-master: "1.9-dev"
+autoload: psr-4: Sylius\\Component\\Addressing\\
+autoload-dev: psr-4: Sylius\\Component\\Addressing\\spec\\
+repositories: type: path, url: "../../*/*", minimum-stability: dev, prefer-stable: true

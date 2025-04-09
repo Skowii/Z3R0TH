@@ -1,0 +1,1 @@
+The given information discusses using Python's `collections.Counter` to filter unique or non-unique values in a list. The Counter function is used to count each value in the list and then a list comprehension is used to filter out either unique or non-unique values based on specified conditions.

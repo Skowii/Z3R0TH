@@ -1,0 +1,1 @@
+The `alt` attribute provides alternative text for images, displayed if the user cannot view it, while the `title` attribute offers additional information as a tooltip when hovering over the image. Both are important for accessibility and SEO, with `alt` being essential for all images and `title` being optional for extra information.

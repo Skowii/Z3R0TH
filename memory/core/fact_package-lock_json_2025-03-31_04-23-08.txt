@@ -1,0 +1,17 @@
+# SOURCE: package-lock.json
+# TIME: 2025-03-31_04-23-08
+
+```json
+{
+    "name": "@babel/traverse",
+    "version": "7.26.9",
+    "resolved": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.26.9.tgz",
+    "integrity": "sha512-d8U4wIJXk/ZyjBfV+H8hY70xKrA7G39NQDnRq5MzEg9sLvC97bS96DZz4pF/tq13y0eOdNpJl2YaZWmB9kIw==",
+    "license": "MIT",
+    "dependencies": {},
+    "engines": {
+        "node": ">=6.9.0"
+    }
+}
+
+# TAGS: playwright-internal, version 1.52.0-next, lockfileVersion 3, requires true, workspaces [packages/*], devDependencies, @actions/core, @actions/github, @babel/cli, @babel/code-frame, @babel/plugin-transform-class-properties, @babel/plugin-transform-export-namespace-from, @babel/plugin-transform-logical-assignment-operators, @babel/plugin-transform-modules-commonjs, @babel/plugin-transform-nullish-coalescing-operator, @babel/plugin-transform-optional-chaining, @babel/plugin-transform-typescript, @babel/preset-react, @eslint/compat, @eslint/eslintrc, @eslint/js, @stylistic/eslint-plugin, @types/various packages, engines {node >=18}, @actions/core, @actions/exec, @actions/github, @octokit/core, @octokit/plugin-paginate-rest, @octokit/plugin-rest-endpoint-method

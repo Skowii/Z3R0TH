@@ -1,0 +1,1 @@
+This code uses logging, requests, and urllib3 libraries to establish a retry mechanism for HTTP calls. It initializes a session with a github adapter allowing three retries when status codes are between 400-499. The code then attempts two requests: one successful and the other to an invalid URL. If an error occurs, it's caught as RetryError. Finally, the session is closed.

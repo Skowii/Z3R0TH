@@ -1,0 +1,8 @@
+Iterate over an array from right to left in JavaScript using `Array.prototype.reverse()` and `Array.prototype.slice()`. Create a shallow clone of the array using `slice()`, then reverse it with `reverse()`. Finally, use `forEach()` to execute a function for each element of the reversed array. For example:
+
+```js
+const forEachRight = (arr, callback) => {
+  arr.slice().reverse().forEach(callback);
+}
+forEachRight([1, 2, 3, 4], val => console.log(val)); // '4', '3', '2', '1'
+```

@@ -1,0 +1,21 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_00-08-45
+
+art-3-event-driven/)
+  - [Part 4 - Processes](https://eli.thegreenplace.net/2017/concurrent-servers-part-4-processes/)
+
+- Writing a simple HTTP server:
+
+  - [Part 1: Introduction and setup](https://www.samizi.com/posts/writing-a-simple-http-server-pt-1/)
+  - [Part 2: Reading and parsing HTTP requests](https://www.samizi.com/posts/writing-a-simple-http-server-pt-2/)
+  - [Part 3: Creating an HTTP response](https://www.samizi.com/posts/writing-a-simple-http-server-pt-3/)
+  - [Part 4: Implementing HTTP methods (GET, POST, etc.)](https://www.samizi.com/posts/writing-a-simple-http-server-pt-4/)
+
+# TAGS: orasandler.com/2018/01/03/Write-a-Compiler-5.html)
+  - [Part 6: Functions](https://norasandler.com/2018/01/10/Write-a-Compiler-6.html)
+  - [Part 7: Arrays](https://norasandler.com/2018/01/24/Write-a-Compiler-7.html)
+  - [Part 8: If Statements and Loops](https://norasandler.com/2018/02/07/Write-a-Compiler-8.html)
+  - [Part 9: Error Handling and More Operators](https://norasandler.com/2018/02/21/Write-a-Compiler-9.html)
+  - [Part 10: Structures, Enums, Classes, and Inheritance](https://norasandler.com/2018/03/07/Write-a-Compiler-10.html)
+  - [Part 11: Input/Output and Exceptions](https://norasandler.com/2018/03/21/Write-a-Compiler-11.html)
+  - [Part 12: Compilation Pipeline, Debugging, and Optimization](https://norasandler.com/2018/04/04/Write-a-Compiler-12.html)

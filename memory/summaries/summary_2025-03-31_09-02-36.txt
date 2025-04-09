@@ -1,0 +1,1 @@
+The function prepares the car reviews dataset for use with ChromaDB. It defines a schema to ensure proper data types are enforced, scans the car reviews datasets, extracts vehicle title and year as new columns, filters on selected years, creates ids, documents, and metadatas in the format required by ChromaDB, and returns the final dataset.

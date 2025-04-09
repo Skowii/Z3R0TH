@@ -1,0 +1,24 @@
+# SOURCE: setup.py
+# TIME: 2025-03-31_00-49-19
+
+package: deeppavlov
+version: None
+description: None
+author: Neural Networks and Deep Learning lab, MIPT
+author_email: None
+license: Apache License, Version 2.0
+url: https://github.com/deeppavlov/DeepPavlov
+download_url: https://github.com/deeppavlov/DeepPavlov/archive/None
+keywords: None
+include_package_data: True
+extras_require: tests, docs, s3
+
+# TAGS: "license": "Apache License, Version 2.0",
+ "keywords": ["Deep Learning", "Neural Networks", "Natural Language Processing", "Pytorch", "Tensorflow"],
+ "author": "Copyright 2017 Neural Networks and Deep Learning lab, MIPT",
+ "author_email": "Unknown",
+ "email": "Unknown",
+ "name": "deeppavlov",
+ "description": "Framework for deep learning and natural language processing",
+ "version": "Unknown",
+ "url": "https://github.com/deeppavlov/DeepPavlov"

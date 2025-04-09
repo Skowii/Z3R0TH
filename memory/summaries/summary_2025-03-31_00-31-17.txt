@@ -1,0 +1,15 @@
+To read a text file and return an array of lines in Node.js, you can use either `fs.readFileSync()` or `fs.readFile()`. For synchronous reading:
+
+```javascript
+import { readFileSync } from 'fs';
+const fileContents = readFileSync('test.txt').toString('UTF8');
+const lines = fileContents.split('\n');
+```
+
+For asynchronous reading:
+
+```javascript
+import { readFile } from 'fs/promises';
+const readFileLines = (path) => readFile(path, 'UTF8').then(data => data.split('\n'));
+readFileLines('test.txt').then(lines => console.log(lines));
+```

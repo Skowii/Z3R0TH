@@ -1,0 +1,1 @@
+Learn to create a Git branch for feature development, bug fixing, or experimenting. Use the command `git checkout -b <branch>` to create a new local branch and switch to it. Alternatively, use `git branch <branch> [-t <remote>/<branch>]` then `git checkout <branch>`. To create an empty branch with no history, use `git checkout --orphan <branch>`.

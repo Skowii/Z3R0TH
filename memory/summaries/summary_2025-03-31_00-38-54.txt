@@ -1,0 +1,13 @@
+In JavaScript, arrays have a robust API with numerous useful tools. Four key array methods are:
+
+1. map(): Creates a new array by applying a transformation to each element of the original array.
+Example: `arr.map(double);`
+
+2. filter(): Creates a new array by using a filtering function to keep only elements that return true based on the provided function.
+Example: `arr.filter(isOdd);`
+
+3. reduce(): Creates an output value of any type depending on a reducer function and an initial value.
+Example: `arr.reduce(sum, 0);`
+
+4. find(): Returns the first element for which a matcher function returns true.
+Example: `arr.find(isOdd);`

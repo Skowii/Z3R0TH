@@ -1,0 +1,1 @@
+The "currentColor" CSS keyword sets a color to match the current color of an element, useful for maintaining consistency in designs. It precedes custom properties and can be useful when applying colors to multiple properties like border-color or background-color.

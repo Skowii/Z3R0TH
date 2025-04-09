@@ -1,0 +1,9 @@
+To make a pull request for adding tutorials:
+1. Ensure they don't already exist and are placed under the correct language/technology.
+2. Improvements to existing tutorials are welcome.
+3. Provide descriptive titles for each tutorial in your pull request.
+4. Create separate pull requests for each tutorial.
+5. Use the format [Title](link_to_tutorial) or [Title][Part #] for multi-part series with links to tutorials, not shorteners.
+6. Check spelling and grammar, use good commit messages, and read CONTRIBUTING file if available.
+7. Remove trailing whitespaces and ensure links are straight to tutorials (up to 80 characters; URL Shortener allowed for long URLs).
+8. Contact tuvtran97@gmail.com for suggestions on guidelines improvements.

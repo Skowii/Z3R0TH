@@ -1,0 +1,10 @@
+Pad a string with a character on both sides if it's shorter than the specified length. JavaScript provides built-in methods `padStart()` and `padEnd()`, but you can combine them to pad both sides of a string using:
+
+```js
+const pad = (str, length, char=' ') => str.padStart((str.length + length) / 2, char).padEnd(length, char);
+```
+
+Example usage:
+- `pad('cat', 8)` becomes 'cat'
+- `pad(String(42), 6, '0')` becomes '004200'
+- `pad('foobar', 3)` remains as 'foobar'

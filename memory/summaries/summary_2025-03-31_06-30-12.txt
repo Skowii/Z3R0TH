@@ -1,0 +1,2 @@
+@param result LinkedList of PrinterItems
+*/   public static void addA4Papers(LinkedList<PrinterItem> result) {     for (int i = 0; i < 5; i++) {         PrinterItem printerItem = new PrinterItem(PaperSizes.A4, i, false, false);         result.add(printerItem);     }   } } ``` प्रत्येक मुद्रण कार्य नीचे एन्कोड किया गया है। इसके बावजूद, सभी उदाहरणों के लिए, हम और प्रश्न के मुख्य हिस्सेदार कार्य के लिए इसे प्रत्यक्ष उपयोग करते हैं, इसे नई वस्तु और मूल्य जोड़ने के अनुसार।

@@ -1,0 +1,10 @@
+To contribute to the Rust awesome list, follow these steps:
+
+1. Visit the repo at https://github.com/rust-unofficial/awesome-rust/blob/main/README.md
+2. Click the "pen" icon to edit the file and make your changes.
+3. Ensure the project is valuable with 50 stars on GitHub, 2000 downloads on crates.io, or equivalent popularity metrics.
+4. Use the template: `[ACCOUNT/REPO](https://github.com/ACCOUNT/REPO) [[CRATE](https://crates.io/crates/CRATE)] - DESCRIPTION`
+5. If you don't have a crate on crates.io, remove the `[[CRATE](...)]` part.
+6. Add any build badges (e.g., Travis or GitHub Actions) after the description with proper branch information.
+7. Follow instructions to create a pull request for your changes.
+8. The maintainers will only remove projects if they are broken or deprecated.

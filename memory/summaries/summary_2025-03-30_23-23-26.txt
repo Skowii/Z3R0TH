@@ -1,0 +1,1 @@
+The binomial coefficient is calculated in Python using the `math.comb()` function. It represents the number of ways to choose 'k' items from 'n' items without repetition and without order. For example, in the code snippet provided, the binomial coefficient for 8 items with a selection of 2 is computed as 28.

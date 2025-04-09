@@ -1,0 +1,1 @@
+Create a card that reveals additional content on hover by using `overflow: hidden` to hide overflowing elements and applying the `:hover` or `:focus-within` pseudo-class selectors to change the card's styling. Utilize transitions and adjust `margin` and `padding` properties to push the image and title upwards, revealing extra content.

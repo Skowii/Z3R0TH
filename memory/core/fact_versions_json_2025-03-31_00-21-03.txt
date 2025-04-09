@@ -1,0 +1,35 @@
+# SOURCE: versions.json
+# TIME: 2025-03-31_00-21-03
+
+{
+    "chrome": "113.0.5672.84",
+    "firefox": "latest"
+  }
+],
+[
+  "v19.8.6",
+  {
+    "chrome": "113.0.5672.44",
+    "firefox": "latest"
+  }
+],
+[
+  "v19.8.1",
+  {
+    "chrome": "113.0.5672.34",
+    "firefox": "latest"
+  }
+]
+}
+
+# TAGS: {
+        "firefox": "stable_129.0"
+      }
+    ],
+    [
+      "v22.14.0",
+      {
+        "chrome": "127.0.6533.88",
+        "firefox": "stable_128.0"
+      }
+    ],

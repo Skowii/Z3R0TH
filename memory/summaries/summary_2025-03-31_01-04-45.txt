@@ -1,0 +1,7 @@
+Get the name of a weekday from a JavaScript `Date` object using methods like `toLocaleDateString()`. You can get the full, short, or single-letter names of the weekday depending on your requirements. For example:
+
+1. Full weekday name: `{ weekday: 'long' }`
+2. Short weekday name: `{ weekday: 'short' }`
+3. Single-letter weekday name: `{ weekday: 'narrow' }`
+
+Use the locale code to specify a language for the weekday names.

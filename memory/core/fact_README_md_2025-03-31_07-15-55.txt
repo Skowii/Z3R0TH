@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-15-55
+
+SyliusUiBundle is an Open Source eCommerce solution built with decoupled components and a powerful API. It was originally created by Paweł Jędrzejewski, and contributions are accepted from the community. The bundle is licensed under MIT License and documented on docs.sylius.com.
+
+# TAGS: Sylius, eCommerce solution, Open Source, API, highest quality code, sylius.com, docs.sylius.com, contributing, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

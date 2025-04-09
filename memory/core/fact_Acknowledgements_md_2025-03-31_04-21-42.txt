@@ -1,0 +1,14 @@
+# SOURCE: Acknowledgements.md
+# TIME: 2025-03-31_04-21-42
+
+Summary: Thank you to Paul Gauthier for the inspiration in creating the "improve code" prompt.
+
+Tagged Knowledge:
+| Person | Content | File(s) | Source |
+|---|---|---|---|
+| Paul Gauthier | Improve code prompt, based on Aider's prompt by Paul Gauthier | /preprompts/improve.txt | https://github.com/paul-gauthier/aider/blob/main/aider/coders/editblock_coder.py
+
+# TAGS: Person: Paul Gauthier
+Content: The prompt for the `improve code` step is strongly based on Paul's prompt in Aider
+File(s): /preprompts/improve.txt
+Source: https://github.com/paul-gauthier/aider/blob/main/aider/coders/editblock_coder.py

@@ -1,0 +1,5 @@
+Event-Driven Architecture (EDA) is a design pattern that helps create responsive and scalable Java systems. It focuses on orchestrating behavior around the production, detection, consumption of, and reaction to events, allowing for highly decoupled, efficient, and dynamic interconnections between event producers and consumers.
+
+Real-world examples include air traffic control systems and airport operations, where events such as aircraft entering airspace or changes in weather conditions trigger specific responses. In plain words, EDA lets systems respond dynamically to various events.
+
+Java implementation involves using key classes like Event (abstract class), UserCreatedEvent, and UserUpdatedEvent. The EventDispatcher class dispatches events to their respective handlers, while UserCreatedEventHandler and UserUpdatedEventHandler contain the logic to execute when these events occur. This design pattern promotes efficient, asynchronous communication and dynamic event handling in Java systems.

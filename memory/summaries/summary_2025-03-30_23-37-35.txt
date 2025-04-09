@@ -1,0 +1,1 @@
+This information concisely is: To check if all values of an array are equal in JavaScript, use the `Array.prototype.every()` method and compare each element to the first element or apply a mapping function for complex values.

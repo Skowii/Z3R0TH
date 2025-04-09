@@ -1,0 +1,24 @@
+# SOURCE: run_experiment.py
+# TIME: 2025-03-31_02-30-30
+
+evaluations_times, self.evaluated_programs
+
+    data_collector = ray.remote.connect(DataCollectorActor).options(num_gpus=0).remote
+    search_times = [data_collector.remote(n_filters, 1)] * splits
+    search_result = ray.get([search_times[i].add_search_data.remote(
+        i, 0, 0) for i in range(splits)])
+    results = [ray.get(item) for item in search_result]
+    if not any(result for result in results):
+        return None, None, None, None, None, None, 0
+    data_collector_instance = ray.get(search_times[0].remote.get_reference())
+    search_times, probabilities, generated_programs = data_collector_instance.search_data()
+    evaluation_times, evaluated_programs = data_collector_instance.evaluation_data()
+    nb_programs = sum(generated_programs)
+    cumulative_probability = sum(probabilities)
+    last_probability = probabilities[-1]
+    search_time_sum = sum(search_times)
+    evaluation_time_sum = sum(evaluation_times)
+    return None, search_time_sum, [item for item in search_times], [item for item in evaluation_times], generated_programs, probabilities, cumulative_probability, last_probability
+
+# TAGS: :   break  # The correct program was found
+    return (program, search_time, evaluation_time, nb_programs, cumulative_probability, probability)

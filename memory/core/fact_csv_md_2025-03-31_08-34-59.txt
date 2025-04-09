@@ -1,0 +1,10 @@
+# SOURCE: csv.md
+# TIME: 2025-03-31_08-34-59
+
+Block: Read CSV
+Function: Reads and processes CSV files
+Input: Contents (CSV data as a string), Delimiter (default comma), Quotechar (default double quote), Escapechar (default backslash), Has_header, Skip_rows, Strip, Skip_columns
+Output: Row (a dictionary representing a single row of the CSV), All_data (a list of dictionaries containing all rows from the CSV)
+
+# TAGS: Inputs: Contents, Delimiter, Quotechar, Escapechar, Has_header, Skip_rows, Strip, Skip_columns
+Outputs: Row, All_data

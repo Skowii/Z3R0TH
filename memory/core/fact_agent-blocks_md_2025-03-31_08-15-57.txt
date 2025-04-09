@@ -1,0 +1,28 @@
+# SOURCE: agent-blocks.md
+# TIME: 2025-03-31_08-15-57
+
+Overview: Creating an AI Agent as a Block in AutoGPT allows you to create reusable, modular AI agents that can be combined with other workflows or shared with others.
+
+What are Agent Blocks?
+- Pre-configured, reusable AI workflows in AutoGPT.
+- Can accept specific inputs, process data using AI and traditional automation, produce defined outputs, and be easily reused in different contexts.
+
+Creating the Base Agent:
+1. Add an Input Block, AI Text Generator Block, and Output Block.
+2. Connect components: input to prompt, AI text generator's response to output.
+3. Name components: question for input block, answer for output block.
+4. Save the agent with a descriptive name (e.g., "Weather Agent").
+
+Converting to a Block:
+1. Access the Block Menu and search or click on the desired agent tag.
+2. Add the agent block to your workflow, save it with a new name if needed.
+
+Testing the Agent Block:
+1. Run the agent by entering a test question.
+2. View results in the "Agent Outputs" section or under "View More."
+
+Advanced Usage:
+- Combine different agents for more complex workflows.
+- Share and use other people's agent blocks to build your own automations.
+
+# TAGS: AI Agent Creation, AutoGPT, Blocks, Overview, Modularity, Input Block, Output Block, AI Text Generator Block, Reusability, Creating Agent Blocks, Advanced Usage

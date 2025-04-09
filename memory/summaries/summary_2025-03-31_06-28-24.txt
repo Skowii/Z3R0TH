@@ -1,0 +1,62 @@
+Ambassador category: Structural language
+Tag: Decoupling, Cloud distributed
+
+In this example, a remote service interface is provided and common skills are kept away from the client. It separates the application logic from the client-side logging, thus enabling better decoupling and reducing problems caused by a large number of requests. The new rule for throttling should be implemented along with client-side logging.
+
+The Ambassador pattern utilizes an embedded server pattern to enable load balancing on the client side. It can act as an out-of-process proxy that stays alongside the client. This pattern supports common client connectivity tasks such as monitoring, routing, and load balancing. 
+
+The Microservice architecture is often utilized with this pattern to help scale applications more efficiently. The downside is that it can sometimes be difficult to integrate older functionality into new frameworks. For this reason, a dedicated team should be assembled to handle any necessary integrations.
+
+This example illustrates implementing the interface and separating the remote service from the main application:
+
+```java
+interface RemoteServiceInterface {
+    long doRemoteFunction(int value) throws Exception;
+}
+
+@Slf4j
+public class RemoteService implements RemoteServiceInterface {
+    private static RemoteService service = null;
+    static synchronized RemoteService getRemoteService() {
+        if (service == null) {
+            service = new RemoteService();
+        }
+        return service;
+    }
+    private RemoteService() {}
+    @Override
+    public long doRemoteFunction(int value) {
+        long waitTime = (long) Math.floor(Math.random() * 1000);
+        try {
+            sleep(waitTime);
+        } catch (InterruptedException e) {
+            LOGGER.error("Thread sleep interrupted", e);
+        }
+        return waitTime >= 200 ? value * 10 : -1;
+    }
+}
+```
+
+A Service Ambassador is implemented, which includes additional features like logging and latency checking:
+
+```java
+@Slf4j
+public class ServiceAmbassador implements RemoteServiceInterface {
+    private static final int RETRIES = 3;
+    private static final int DELAY_MS = 3000;
+    
+    ServiceAmbassador() {}
+    @Override
+    public long doRemoteFunction(int value) {
+        return safeCall(value);
+    }
+    private long checkLatency(int value) {
+        var startTime = System.currentTimeMillis();
+        var result = RemoteService.getRemoteService().doRemoteFunction(value);
+        var timeTaken = System.currentTimeMillis() - startTime;
+        LOGGER.info("Time taken (ms): " + timeTaken);
+        return result;
+    }
+    private long safeCall(int value) {
+        var retries =
+```

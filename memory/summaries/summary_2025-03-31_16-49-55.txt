@@ -1,0 +1,1 @@
+The sylius/order-bundle is a Symfony application bundle for sales order management. It is designed to handle sales, orders, and ecommerce tasks in Sylius applications. The package requires PHP 7.4 or 8.0, along with various other dependencies. It has multiple authors and is licensed under the MIT license. The minimum stability is set as dev, and prefers stable packages.

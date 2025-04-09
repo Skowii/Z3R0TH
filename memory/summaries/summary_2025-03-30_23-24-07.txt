@@ -1,0 +1,1 @@
+Python has two distinct comparison operators: the double equals (==) and the `is` keyword. The double equals checks for value equality while the `is` operator checks for reference (identity) equality. These operators are often confused, but this guide helps clarify their differences.

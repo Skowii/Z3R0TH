@@ -1,0 +1,30 @@
+To initialize a JavaScript array with a given numeric range, use the function `range()` as follows:
+
+```js
+const range = (end, start = 0, step = 1) => Array.from(
+    { length: Math.ceil((end - start) / step) },
+    (_, i) => i * step + start
+);
+```
+
+To initialize an array with a reversed numeric range, use the function `rangeReverse()`:
+
+```js
+const rangeReverse = (end, start = 0, step = 1) => Array.from(
+    { length: Math.ceil((end - start) / step) },
+    (_, i) => i * -step + end
+);
+```
+
+A generalized `range()` function can be created that matches Python's signature, and infer the correct behavior based on the supplied arguments:
+
+```js
+const range = (end, ...args) => {
+    if (args.length === 0) return range(end);
+    const [start = end - 1, step = 1] = args;
+    return Array.from(
+        { length: Math.ceil((end - start) / step) },
+        (_, i) => i * step + start
+    );
+};
+```

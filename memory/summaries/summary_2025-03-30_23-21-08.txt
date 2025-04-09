@@ -1,0 +1,1 @@
+To find the index of the minimum or maximum element in a list, use Python's `min()` and `max()` functions to get their respective values, then use the `list.index()` method on the list to obtain their indices. Examples: min_element_index([3, 5, 2, 6, 10, 7, 9]) returns 2, max_element_index([3, 5, 2, 6, 10, 7, 9]) returns 4.

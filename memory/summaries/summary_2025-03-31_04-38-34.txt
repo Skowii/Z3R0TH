@@ -1,0 +1,9 @@
+Decorator, also known as a wrapper or adapter pattern, is a structural design pattern that allows dynamic addition of extra responsibilities to an object without the need to create a subclass. It is useful when extending objects with multiple independent features and when subclassing is not practical.
+
+In simple terms, the decorator pattern lets you change an object's behavior at runtime by wrapping it in another class (decorator). This way, you don't need to create new subclasses for each additional feature; rather, you can extend the existing functionality through dynamic wrappers.
+
+Example: In a game scenario, we have a SimpleTroll that attacks and flees battles. We want to add the ability for the troll to use a club as a weapon. We achieve this by creating a ClubbedTroll class that extends the SimpleTroll and adds the club attack functionality. By wrapping the original object with the decorator, we can modify its behavior without altering the original code or affecting other similar objects' behavior.
+
+UML class diagram:
+
+![alt text](./etc/decorator.urm.png "Decorator pattern class diagram")

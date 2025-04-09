@@ -1,0 +1,1 @@
+Calculate the ranking of a JavaScript array using a comparator function. Iterate over each element and map it to its position based on the comparator. Use `Array.prototype.map()` for this operation. The example provided shows how to calculate the ranking for both numeric and alphanumeric arrays.

@@ -1,0 +1,5 @@
+O Adapter, também conhecido como Wrapper, é um padrão de projeto que permite converter a interface de uma classe em outra que o cliente espera. Isso acontece com a finalidade de permitir que uma classe funcione em conjunto com outras classes que não poderiam por causa de problemas de incompatibilidade de interfaces.
+
+Neste padrão, a classe existente é "embolada" em um adaptador que a transforma em um objeto compatível com outra classe. O exemplo clássico é o leitor de cartões de memória, onde uma entrada de computador não pode conectar a um cartão de memória sem um adaptador, permitindo a comunicação entre ambos.
+
+Na programação, esse padrão permite que um objeto incompatível seja usado como outra interface, sem modificar seu código fonte. Por exemplo, um capitão familiar com apenas botes a remo pode ser adaptado para controlar um bote de pesca com uma interface RowingBoat.

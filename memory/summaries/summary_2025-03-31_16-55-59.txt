@@ -1,0 +1,1 @@
+The content is about a function named "drawChart" that takes in canvas, labels, values, and currency as parameters. This function returns a new chart using the given inputs. It creates a bar chart using Chart.js library, setting type as 'bar'. The chart options include scale settings, layout padding, responsive option, maintain aspect ratio, and legend display control.

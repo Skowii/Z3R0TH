@@ -1,0 +1,22 @@
+A superset in JavaScript refers to an array that contains all the elements of another, without duplicate values. To check if one array is a superset of another, you can use a combination of `Set` object and the methods `every()` and `has()`. The function below checks if array 'a' is a superset of array 'b':
+
+```js
+const superset = (a, b) => {
+  const sA = new Set(a), sB = new Set(b);
+  return [...sB].every(v => sA.has(v));
+};
+```
+
+The `superset()` function can be used for any iterable, not just arrays. To check if array 'a' is a subset of array 'b', simply reverse the order of arguments:
+
+```js
+const subset = (a, b) => superset(b, a);
+```
+
+Example usage:
+```js
+superset([1, 2, 3, 4], [1, 2, 2]); // true
+superset([1, 2, 3, 4], [1, 3, 5]); // false
+subset(new Set([1, 2]), new Set([1, 2, 3, 4])); // true
+subset(new Set([1, 5]), new Set([1, 2, 3, 4])); // false
+```

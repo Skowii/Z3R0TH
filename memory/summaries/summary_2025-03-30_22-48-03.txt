@@ -1,0 +1,1 @@
+To edit the Git configuration file, use `git config -e`. Add `--global` to edit the global settings or leave it out for local repository settings. The command opens the configuration file in the default text editor.

@@ -1,0 +1,1 @@
+"CSS :any-link" pseudo-class allows styling all links on a page without worrying about their visited status, acting as a catch-all for all links. It is less verbose than using ":link" and ":visited", and different from the "[href]" attribute selector, which selects empty links.

@@ -1,0 +1,5 @@
+JavaScript's `Date` objects hold time information which can be extracted using various methods. To obtain the **time part** of a `Date` object in the format **HH:MM:SS**, one needs to do some **string manipulation**. The method `Date.prototype.toTimeString()` returns a string representation of the time but includes unnecessary **timezone information**. To remove this and get only the time, use `String.prototype.slice()` to extract the first 8 characters:
+```js
+const getColonTimeFromDate = date => date.toTimeString().slice(0, 8);
+getColonTimeFromDate(new Date()); // '08:38:00'
+```

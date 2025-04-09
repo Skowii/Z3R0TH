@@ -1,0 +1,9 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-02-43
+
+Summary: The Sylius Taxation Bundle is a flexible tax system for Symfony ecommerce applications. It is described by the keywords 'tax', 'taxes', 'taxation', 'shop', 'webshop', and 'ecommerce'. The bundle requires PHP versions of 7.4 or 8.0, along with various other dependencies. It allows for testing through a variety of tools such as PHPUnit, Symfony Browser Kit and others. The package is licensed under the MIT license and maintained by Paweł Jędrzejewski and contributors from the Sylius project.
+
+# TAGS: key concepts: taxation, ecommerce
+keywords: tax, taxes, taxation, shop, webshop
+authors: Paweł Jędrzejewski, Sylius project, Community contributions
+tags: symfony-bundle, flexible taxation system, ecommerce applications

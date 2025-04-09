@@ -1,0 +1,1 @@
+Create an animated shadow effect on a text element when hovered using CSS. This is achieved by applying perspective and translateZ functions to create a 3D space for the element and modifying the box-shadow with hover, active, and focus pseudo-class selectors. The code can be found in this pen: https://codepen.io/chalarangelo/pen/xxvVyoB

@@ -1,0 +1,6 @@
+# SOURCE: requirements.txt
+# TIME: 2025-03-31_02-36-53
+
+ContourPy 1.0.5, Cycler 0.11.0, Cython 0.29.32, Fonttools 4.37.4, Kiwisolver 1.4.4, Matplotlib 3.6.0, Numpy 1.23.3, Packaging 21.3, Pillow 9.2.0, Pyparsing 3.0.9, Python-dateutil 2.8.2, Scipy 1.9.1, Six 1.16.0, Torch 1.8+, Tqdm 4.64.1, Typing_extensions 4.4.0, and Vose (vose@a72ee6540c0d5b21158340d377ca5f11dc5ffb67) are various libraries used for data analysis, scientific computing, image processing, and more in Python projects.
+
+# TAGS: contourpy, cycler, Cython, fonttools, kiwisolver, matplotlib, numpy, packaging, Pillow, pyparsing, python-dateutil, scipy, six, torch, tqdm, typing_extensions, vose, a72ee6540c0d5b21158340d377ca5f11dc5ffb67

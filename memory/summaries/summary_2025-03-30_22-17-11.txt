@@ -1,0 +1,1 @@
+The code generates a list of source files using the GLOB command, considering relative or full pathnames. It then processes each file to extract an executable name, adds it as a target with CXX linker language, and checks for OpenMP support before installing the executable in a specific destination folder.

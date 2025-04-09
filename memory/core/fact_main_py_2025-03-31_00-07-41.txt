@@ -1,0 +1,23 @@
+# SOURCE: main.py
+# TIME: 2025-03-31_00-07-41
+
+Summary: This code imports the necessary modules and defines a function to set cookies for specific websites (bing.com, google.com). It uses environment variables for BING_COOKIE and GOOGLE_PSID to store cookie values. Finally, it runs the Discord bot.
+
+# TAGS: Key Concepts:
+- bot
+- run_discord_bot
+- set_cookies
+- cookies
+- os
+- dotenv
+- g4f
+
+Keywords:
+- BING_COOKIE
+- GOOGLE_PSID
+
+People:
+- Not mentioned
+
+Dates:
+- Not mentioned

@@ -1,0 +1,1 @@
+Immutability is a key concept in functional programming, where data cannot be altered once created. Unlike traditional programming, immutable data leads to preventing unintended consequences and makes reasoning about programs easier. In functional programming, instead of modifying data, new data is created based on the old data using techniques like spread operators.

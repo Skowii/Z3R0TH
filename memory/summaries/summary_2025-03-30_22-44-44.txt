@@ -1,0 +1,1 @@
+Cherry-picking allows you to isolate and apply changes from one or more Git commits to a different branch. You can use git cherry-pick with a single commit, multiple commits specified space-separated, ranges of commits, or inclusive ranges. This command applies the desired changes on top of your current branch for reuse or further development.

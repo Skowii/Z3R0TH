@@ -1,0 +1,1 @@
+Customize and animate checkboxes and radio buttons with CSS using SVG symbols, flexbox layout, and the transform property for animations. Hide the input element and use a label to display the desired text and checkmark symbol. Use `stroke-dashoffset` to animate the checkmark on state change and apply a zoom effect with `transform: scale(0.9)`.

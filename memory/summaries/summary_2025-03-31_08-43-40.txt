@@ -1,0 +1,1 @@
+The Python calendar module is a useful tool for creating various types of calendars. In this folder, you'll find example codes from the Real Python tutorial on utilizing the calendar module to create calendars in Python.

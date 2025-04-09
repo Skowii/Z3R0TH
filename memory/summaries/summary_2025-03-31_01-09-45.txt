@@ -1,0 +1,9 @@
+To compare two dates in JavaScript, follow these steps:
+
+1. For date equality comparison, use `Date.prototype.toISOString()` to convert the dates into a standardized format and then use the `==` or `===` operators.
+
+2. To check if one date comes before another, use the less than operator (`<`).
+
+3. To check if one date comes after another, use the greater than operator (`>`).
+
+4. To check if a date is between two other dates, combine the previous steps and use operators `>` and `<`.

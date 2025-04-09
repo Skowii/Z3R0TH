@@ -1,0 +1,11 @@
+# SOURCE: CONTRIBUTING.md
+# TIME: 2025-03-31_03-16-28
+
+Tag: Contributing Guidelines, Issue Tracker, Support Channels
+
+Summary: The guidelines for contributing are found at https://docs.scrapy.org/en/master/contributing.html. If you have a support question, do not use the issue tracker; instead, use the support channels available at https://scrapy.org/community/.
+
+# TAGS: Key Concepts: guidelines, contributing, issue tracker, support questions, scrapy
+Keywords: master, community, rephrasing, topic
+People: N/A
+Dates: N/A

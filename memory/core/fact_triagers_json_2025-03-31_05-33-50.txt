@@ -1,0 +1,18 @@
+# SOURCE: triagers.json
+# TIME: 2025-03-31_05-33-50
+
+Appium repository has a triaging bot called 'triager' with the following potential labels: 1.5-beta, Android, Bug, Cannot Reproduce, Documentation, DriverIssue, Enhancement, GUI, Hybrid Apps, iOS, Linux, LogRequested, Mac, Mobile Chrome, Mobile Safari, NeedsTriage, NoActivity, NotABug, OnGoing, Question, Real Devices, ReproNeeded, Robots, SemVer:Breaking, TechDebt, ThirdpartyIssue, Windows. The triagers for this repository are SrinivasanTarget, jlipps, and vikramvi.
+
+# TAGS: Key concepts and keywords:
+- Appium repository
+- Triagers
+- AutoLabels
+- ValidLabels
+
+People:
+- SrinivasanTarget
+- jlipps
+- vikramvi
+
+Dates:
+- Not mentioned in the input

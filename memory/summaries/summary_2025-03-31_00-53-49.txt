@@ -1,0 +1,20 @@
+To initialize a JavaScript array with specified values, use the Array() constructor for desired length and fill it with the required value using Array.prototype.fill(). For multiple values, use rest parameters to accept any number of values and map them to the array using modulo operator. Examples:
+
+1. Initialize an array with the same value:
+```js
+const initializeArrayWithValues = (n, val = 0) => Array(n).fill(val);
+initializeArrayWithValues(5, 2); // [2, 2, 2, 2, 2]
+```
+
+2. Initialize an array with multiple values:
+```js
+const initializeArrayWithValues = (n, ...vals) => {
+    if (vals.length === 0) return Array(n).fill(0);
+    if (vals.length === 1) return Array(n).fill(vals[0]);
+    return Array.from({ length: n }, (_, i) => vals[i % vals.length]);
+};
+initializeArrayWithValues(5); // [0, 0, 0, 0, 0]
+initializeArrayWithValues(5, 2); // [2, 2, 2, 2, 2]
+initializeArrayWithValues(5, 2, 3); // [2, 3, 2, 3, 2]
+initializeArrayWithValues(3, [2, 3]); // [[2, 3], [2, 3], [2, 3]]
+```

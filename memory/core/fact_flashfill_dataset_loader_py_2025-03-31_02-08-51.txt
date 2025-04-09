@@ -1,0 +1,12 @@
+# SOURCE: flashfill_dataset_loader.py
+# TIME: 2025-03-31_02-08-51
+
+problem("Take first %d characters" % n,
+                [((x,), x[:n])
+                 for _ in range(NUMBEROFEXAMPLES)
+                 for x in [randomWord(minimum=n)]],
+                needToTrain=True)
+
+# TAGS: lcs, key concepts, keywords: longest common sequence, t-matrix, characters, delimiters
+people: None
+dates: None

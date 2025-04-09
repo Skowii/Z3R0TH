@@ -1,0 +1,1 @@
+Calculate the byte size of a JavaScript string by converting it into a Blob object and using the Blob.size property. This is important for handling Unicode characters, which can have varying byte sizes.

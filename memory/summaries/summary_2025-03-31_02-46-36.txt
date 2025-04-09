@@ -1,0 +1,17 @@
+Generate all consecutive element subarrays from a JavaScript array:
+
+Getting `n`-tuples of consecutive elements from an array can be done with the following function using Array.prototype.map() and Array.prototype.slice():
+
+```js
+const aperture = (n, arr) => n > arr.length ? [] : arr.slice(n - 1).map((v, i) => arr.slice(i, i + n));
+aperture(2, [1, 2, 3, 4]); // [[1, 2], [2, 3], [3, 4]]
+aperture(3, [1, 2, 3, 4]); // [[1, 2, 3], [2, 3, 4]]
+aperture(5, [1, 2, 3, 4]); // []
+```
+
+To apply a function to each subarray, simply apply the function during the mapping process:
+
+```js
+const apertureMap = (arr, n, fn) => n > arr.length ? [] : arr.slice(n - 1).map((v, i) => fn(arr.slice(i, i + n)));
+apertureMap([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3, x => x.join('-')); // ['1-2-3', '2-3-4', '3-4-5', '4-5-6', '5-6-7', '6-7-8', '7-8-9', '8-9-10']
+```

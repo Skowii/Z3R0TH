@@ -1,0 +1,1 @@
+Invert a dictionary with non-unique hashable values using Python. Create a `collections.defaultdict` with a list as the default value for each key, then use `dict.append()` to map values to keys and finally convert it to a regular dictionary with `dict()`.

@@ -1,0 +1,5 @@
+The Dependency Injection pattern in Java aims to boost maintainability by decoupling the creation of object dependencies from their usage, enabling more flexible and testable code. It's also known as Inversion of Control (IoC). 
+
+In a real-world example, the design pattern can be compared to a high-end restaurant where a trusted supplier delivers all required ingredients daily, allowing the chef to focus on cooking without worrying about sourcing the ingredients. The supplier acts like an "injector", providing necessary dependencies (ingredients) to the object.
+
+A programmatic example in Java shows a wizard who likes to enjoy different brands of tobacco. By implementing the Dependency Injection pattern, it becomes easy to give the old wizard any brand of tobacco without changing his code.

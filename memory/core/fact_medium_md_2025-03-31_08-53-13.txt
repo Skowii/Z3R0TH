@@ -1,0 +1,11 @@
+# SOURCE: medium.md
+# TIME: 2025-03-31_08-53-13
+
+Summary: The Publish to Medium block is used for directly publishing blog posts with associated metadata to the Medium platform. It uses the provided API key and author ID to authenticate, handles formatting, and publishes the content. Inputs include details such as title, content, tags, and publish status. Outputs consist of post ID, URL, published timestamp, and error messages if any.
+
+Tags: Medium, publishing, automation, block, API
+
+# TAGS: - Publish to Medium
+- Block for direct publication on Medium platform
+- Inputs: Author ID, Title, Content, Tags, Canonical URL, Publish Status, API Key, Notify Followers
+- Outputs: Post ID, Post URL, Published At, Error

@@ -1,0 +1,6 @@
+The AI benchmarking test was performed, with a completion time of July 22, taking 41.53 seconds and highest difficulty set to advanced: 5. This test consisted of several tasks:
+- TestWriteFile: Write the capital of America to a .txt file, success rate at 100%.
+- TestBasicCodeGeneration: Create a two_sum function in a Python file, success rate at 100%.
+- TestSearch: Open a website and paste its text into a .txt file, failed with a success rate of 0%.
+- TestReadFile: Add a string to an existing file's text, failed with a success rate of 0%.
+- TestThreeSum: Create a three_sum function in a Python file, failed with a success rate of 0%.

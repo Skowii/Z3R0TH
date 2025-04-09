@@ -1,0 +1,6 @@
+# SOURCE: edit-agent.md
+# TIME: 2025-03-31_08-17-21
+
+AutoGPT allows users to edit their agents in a few simple steps. First, access the Monitor Tab and find the desired agent. Then, click on the agent name to select it. Next, enter Edit Mode by clicking on the pencil icon next to the selected agent. The editor will load with the existing components, allowing you to modify the agent as needed. Once finished, save changes to your local instance of the agent. All agents can be edited, regardless of origin.
+
+# TAGS: AutoGPT, Edit Agent, Monitor Tab, Marketplace, Configuration, Modifications

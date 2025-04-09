@@ -1,0 +1,7 @@
+# SOURCE: iteration.md
+# TIME: 2025-03-31_08-49-05
+
+Step Through Items is a block that iterates through a given list or dictionary, processing items one at a time. It's useful for performing actions on individual items in a collection. The inputs are the items, either a list or dictionary. The outputs are the current item being processed and its key or index (position).
+
+# TAGS: Key concepts: block, iterate, list, dictionary, input, output, item, key, index
+Keywords: Step Through Items, block, processing items, list, dictionary, input, outputs, Item, Key, index

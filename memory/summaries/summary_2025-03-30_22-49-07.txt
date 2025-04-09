@@ -1,0 +1,1 @@
+Summary: To find the merge commit for a given Git commit, add the alias "find-merge" to your configuration file. Use the command "git find-merge <commit>" to get the merge commit's hash. This method uses git rev-list and sorts/filters output to find the merge commit between the given commit and the branch.

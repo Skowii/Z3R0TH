@@ -1,0 +1,19 @@
+Check if a number is even or odd in JavaScript using the modulo operator or bitwise AND operator. 
+
+1. Using the modulo operator: `num % 2 === 0` for even numbers, and `num % 2 === 1` for odd numbers. 
+```js
+const isEven = num => num % 2 === 0;
+const isOdd = num => num % 2 === 1;
+isEven(3); // false
+isOdd(3); // true
+```
+
+2. Using the bitwise AND operator: `!Boolean(num & 1)` for even numbers, and `Boolean(num & 1)` for odd numbers.
+```js
+const isEven = num => !Boolean(num & 1);
+const isOdd = num => Boolean(num & 1);
+isEven(3); // false
+isOdd(3); // true
+```
+- While both approaches work, the modulo operator is more readable and should be preferred.
+- Other bitwise operators can also be used for this task.

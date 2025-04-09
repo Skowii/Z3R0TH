@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_06-24-37
+
+Sylius, Taxation Component, eCommerce solution, API, highest quality code, Sylius component, decoupled components, Open Source, documentation, contributing, blog, Twitter, Facebook, GitHub issues, MIT License, Paweł Jędrzejewski, contributors
+
+# TAGS: The key concepts and keywords from this text are: Sylius, Taxation Component, documentation, contributing, eCommerce solution, components, Open Source, API, highest quality code, Sylius.com, blogs, Twitter, Facebook, GitHub issues, MIT License, authors, Paweł Jędrzejewski, contributors.

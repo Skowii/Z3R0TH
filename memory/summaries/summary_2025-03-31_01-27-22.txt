@@ -1,0 +1,6 @@
+Compare two JavaScript arrays' contents by checking if they contain the same elements regardless of order using the following method:
+
+1. Use `Array.prototype.every()` and `Array.prototype.filter()` to iterate over the first array, and check if each element is present in the second array with the same frequency.
+2. Alternatively, use a `Set` to store unique values from both arrays and compare their frequencies using `[...new Set([...a, ...b])]`.
+
+This approach minimizes calculations and ensures efficiency for large arrays.

@@ -1,0 +1,6 @@
+# SOURCE: tsconfig.json
+# TIME: 2025-03-31_05-34-14
+
+This knowledge is related to a tsconfig file, which is a configuration file for TypeScript. It contains the settings for the compiler and references to different packages in the project. These packages are used by various drivers, plugins, and support components within the project. The main settings include 'allowJs', 'allowSyntheticDefaultImports', and 'resolveJsonModule' which allow for JavaScript files, synthetic default exports, and the resolution of JSON modules respectively. The file also mentions that ts-node should only transpile files, meaning it should convert TypeScript code into a format that can be executed directly, like JavaScript.
+
+# TAGS: "allowJs", "allowSyntheticDefaultImports", "resolveJsonModule", "ts-node", "compilerOptions", "files", "references", packages, appium, driver-test-support, plugin-test-support, schema, types, support, base-driver, base-plugin, test-support, fake-plugin, images-plugin, relaxed-caps-plugin, universal-xml-plugin, opencv, execute-driver-plugin, docutils, fake-driver, strongbox, logger, storage-plugin

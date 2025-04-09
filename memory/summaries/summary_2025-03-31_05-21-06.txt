@@ -1,0 +1,53 @@
+Converter pattern is a creational design pattern that provides a general and common way for bidirectional conversion between types, allowing types to not need knowledge of each other. It also offers a two-way transformation for pairs of groups. This pattern reduces duplicate code to the minimum. In real-life applications, there is often a data layer with entities that need to be converted into DTOs (Data Transfer Objects) to be used in a business logic layer. To solve this problem, Converter provides a way to map objects from one class to another. An example Java code for converter pattern is shown below:
+
+```java
+public class Converter<T, U> {
+   private final Function<T, U> fromDto;
+   private final Function<U, T> fromEntity;
+   public Converter(final Function<T, U> fromDto, final Function<U, T> fromEntity) {
+      this.fromDto = fromDto;
+      this.fromEntity = fromEntity;
+   }
+   public final U convertFromDto(final T dto) {
+      return fromDto.apply(dto);
+   }
+   public final T convertFromEntity(final U entity) {
+      return fromEntity.apply(entity);
+   }
+   public final List<U> createFromDtos(final Collection<T> dtos) {
+      return dtos.stream().map(this::convertFromDto).collect(Collectors.toList());
+   }
+   public final List<T> createFromEntities(final Collection<U> entities) {
+      return entities.stream().map(this::convertFromEntity).collect(Collectors.toList());
+   }
+}
+```
+
+Specialized converters extend this basic class as shown in the example below:
+
+```java
+public class UserConverter extends Converter<UserDto, User> {
+   public UserConverter() {
+      super(UserConverter::convertToEntity, UserConverter::convertToDto);
+   }
+   private static UserDto convertToDto(User user) {
+      return new UserDto(user.getFirstName(), user.getLastName(), user.isActive(), user.getUserId());
+   }
+   private static User convertToEntity(UserDto dto) {
+      return new User(dto.getFirstName(), dto.getLastName(), dto.isActive(), dto.getEmail());
+   }
+}
+```
+
+The conversion between `User` and `UserDto` is now straightforward:
+
+```java
+var userConverter = new UserConverter();
+var dtoUser = new UserDto("John", "Doe", true, "whatever[at]wherever.com");
+var user = userConverter.convertFromDto(dtoUser);
+```
+
+Applications of the Converter pattern include:
+1. When types need to match logically with each other and conversion between them is required.
+2. When different forms of data transfer are needed based on context.
+3. When a data transfer object (DTO) needs to be transformed into its equivalent in a specific field.

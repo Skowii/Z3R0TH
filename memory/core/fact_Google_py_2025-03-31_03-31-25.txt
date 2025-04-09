@@ -1,0 +1,10 @@
+# SOURCE: Google.py
+# TIME: 2025-03-31_03-31-25
+
+Create_Service: Creates a Google API service using provided client secret file, api name, and api version. Returns the service if successful.
+
+Convert to RFC datetime: Converts a given date, time, year, month, day, hour, and minute into a standardized RFC datetime format.
+
+# TAGS: key concepts: Create_Service, client_secret_file, api_name, api_version, SCOPES, pickle_file, InstalledAppFlow, build, credentials, service
+people: None
+dates: None

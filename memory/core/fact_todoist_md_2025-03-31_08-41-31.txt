@@ -1,0 +1,142 @@
+# SOURCE: todoist.md
+# TIME: 2025-03-31_08-41-31
+
+and other details.
+
+### How it works
+Uses Todoist API to create a project with the given parameters.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Credentials | Todoist API credentials |
+| Name | Project name |
+| Color | Project color |
+| Parent ID | Parent project ID (optional) |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Success | Whether creation succeeded |
+| Error | Error message if failed |
+
+### Possible use case
+Automated project creation as part of a workflow.
+
+---
+
+## Todoist Update Project
+
+### What it is
+A block that updates an existing project.
+
+### What it does
+Updates specified fields of an existing project.
+
+### How it works
+Uses project ID and updated fields to apply changes via Todoist API.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Credentials | Todoist API credentials |
+| Project ID | ID of the project to update |
+| Name | New name (optional) |
+| Color | New color (optional) |
+| Parent ID | New parent project ID (optional) |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Success | Whether update succeeded |
+| Error | Error message if failed |
+
+### Possible use case
+Modifying project details like name or parent project.
+
+---
+
+## Todoist Delete Project
+
+### What it is
+A block that deletes a project from Todoist.
+
+### What it does
+Removes a specified project along with its tasks and subprojects.
+
+### How it works
+Uses the project ID to delete via Todoist API.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Credentials | Todoist API credentials |
+| Project ID | ID of the project to delete |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Success | Whether deletion succeeded |
+| Error | Error message if failed |
+
+### Possible use case
+Removing unwanted or obsolete projects from the system.
+
+# TAGS: ter by label |
+| Priority | Optional priority (1-4) |
+| Order | Optional sort order |
+| Limit | Optional limit of number of tasks to return |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Task IDs | List of task IDs |
+| Task Names | List of task names |
+| Section | Filtered section data if specified |
+| Labels | Filtered label data if specified |
+| Project | Filtered project data if specified |
+| Ordered Tasks | Sorted tasks list based on order |
+| Error | Error message if request failed |
+
+### Possible use case
+Retrieving tasks that match specific filters to display or organize.
+
+---
+
+## Todoist Update Task
+
+### What it is
+A block that updates a task in Todoist.
+
+### What it does
+Modifies an existing task based on new content, description and other optional parameters.
+
+### How it works
+Connects to Todoist API using provided credentials and updates the task with new details.
+
+### Inputs
+| Input | Description |
+|-------|-------------|
+| Credentials | Todoist API credentials |
+| Task ID | ID of the task to update |
+| Content | New content or title for task |
+| Description | Optional updated description |
+| Project ID | Updated project assignment (or empty if removing) |
+| Section ID | Updated section assignment (or empty if removing) |
+| Parent ID | Updated parent task ID (or empty if removing) |
+| Order | Updated order number |
+| Labels | Updated labels |
+| Priority | Updated priority (1-4) |
+| Due Date | Updated due date |
+| Deadline Date | Updated deadline date |
+| Assignee ID | Updated assignee |
+| Duration Unit | Updated duration unit |
+| Duration | Updated duration amount |
+
+### Outputs
+| Output | Description |
+|--------|-------------|
+| Error | Error message if request failed |
+
+### Possible use case
+Updating an existing task with new parameters or modifying its details.

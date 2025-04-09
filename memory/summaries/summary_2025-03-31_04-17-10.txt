@@ -1,0 +1,1 @@
+Data Transfer Object (DTO) is an architectural pattern used to transfer data between processes or systems. It aims to reduce the number of method calls by aggregating the required data into a single object, improving performance and reducing remote service calls' costs. DTOs are particularly useful when multiple pieces of information need to be retrieved and they are related.

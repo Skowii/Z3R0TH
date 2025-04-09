@@ -1,0 +1,13 @@
+# SOURCE: talking_head.md
+# TIME: 2025-03-31_08-48-10
+
+AI: Create Talking Avatar Video
+
+- AI-powered tool to generate video clips featuring a talking avatar using D-ID service
+- Customizable voice, presenter, and visual settings for digital avatars
+- Inputs include API key, script input, provider, voice ID, presenter ID, driver ID, result format, crop type, subtitles, SSML, max polling attempts, and polling interval
+- Output includes video URL and error messages if the creation failed
+
+# TAGS: Key concepts: Create Talking Avatar Video, D-ID service, AI-powered tool, customizable voice, presenter, visual settings, API key, Script Input, Provider, Voice ID, Presenter ID, Driver ID, Result Format, Crop Type, Subtitles, SSML, Max Polling Attempts, Polling Interval, Video URL, Error
+
+Keywords: AI-powered tool, D-ID service, create video, talking avatar, customizable voice, presenter, visual settings, API key, script input, provider, voice id, presenter id, driver id, result format, crop type, subtitles, SSML, max polling attempts, polling interval, video URL, error

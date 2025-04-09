@@ -1,0 +1,41 @@
+# SOURCE: package-lock.json
+# TIME: 2025-03-31_00-15-51
+
+r/cli/node_modules/@angular-devkit/core/node_modules/ajv": {
+      "version": "8.17.1",
+      "resolved": "https://registry.npmjs.org/ajv/-/ajv-8.17.1.tgz",
+      "integrity": "sha512-J0W9Nq6HmK/xwMlZX7Oy/L0d1Ua/I4kjY3o0GgYyFKTkE1DVyu/zC9B45vR0+9rZQ5b4sJ8P2j6/nq6fhNjg==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/@angular/cli/node_modules/@angular-devkit/core/node_modules/ajv-formats": {
+      "version": "3.0.1",
+      "resolved": "https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz",
+      "integrity": "sha512-9kdY4XZePuQRJKoU+fNfDW1/GsBgCmzOIy7rZcwzq+/j9Mxv8i8n58pSfhV7/j3Fq8Ew2dYXH46k0YvR+oJQ==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/@angular/cli/node_modules/@angular-devkit/core/node_modules/jsonc-parser": {
+      "version": "3.3.1",
+      "resolved": "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.3.1.tgz",
+      "integrity": "sha512-49xTvYkXZWJ6I8zjNK/oHMUrJDyG47eD+gqS1FdRbY/Pn5fV/yf304pz7uFvO+590Cw6h2H5E0LW3l0mNx8jQ==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/@angular/cli/node_modules/@angular-devkit/core/node_modules/picomatch": {
+      "version": "4.0.2",
+      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz",
+      "integrity": "sha512-8r7zxv3yqf9Ds1oZW6YTKCjNgU+hvBzI4bzEcR4VwXkH/n7/3S210M7QF8yHJkA5Y1d3zC0p4a/r0X105DZfLs9eUY3OoY==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/@angular/cli/node_modules/@angular-devkit/core/node_modules/source-map": {
+      "version": "0.7.4",
+      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.7.4.tgz",
+      "integrity": "sha512-9yRHoYUfIx4z+u9jBgPkqLF3W8CsNHk/6ZvJn72KdDpCi0wMmYTG3V4rX/j3jb871Od+lEa5XUx/oHkQjGz7A==",
+      "dev": true,
+      "license": "Apache-2.0"
+    }
+  },
+
+# TAGS: puppeteer-repo, lockfileVersion: 3, requires: true, packages: {}, name: "puppeteer-repo", hasInstallScript: true, workspaces: [packages/*, test, test/installation, tools/eslint, tools/doctest, tools/docgen, tools/mocha-runner], devDependencies: { "@actions/core": "1.11.1", "@babel/plugin-transform-class-properties": "7.25.9", "@babel/plugin-transform-class-static-block": "7.26.0", ...

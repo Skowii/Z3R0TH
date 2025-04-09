@@ -1,0 +1,55 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-19-32
+
+Library: Sylius/User
+Description: User handling for PHP applications.
+Keywords: user, registration, login, groups
+Homepage: https://sylius.com
+License: MIT
+Authors: Paweł Jędrzejewski, Michał Marcinkowski, Łukasz Chruściel, Sylius project, Community contributions
+Requirements: php (^7.4 || ^8.0), doctrine/collections (^1.6), sylius-labs/polyfill-symfony-security (^1.0), sylius/resource (^1.7), symfony/polyfill-mbstring (^1.17), symfony/security-core (^4.4 || ^5.2)
+Dev Requirements: phpspec/phpspec (^7.0)
+Suggestions: ext-mbstring for better performance than using Symfony Polyfill Component
+Config: bin-dir = "bin"
+Branch-alias: dev-master = "1.9-dev"
+Autoloading: psr-4, psr-4 (for tests)
+Repositories: path (with wildcard for local paths)
+Minimum Stability: dev
+Prefer Stable: true
+
+# TAGS: name: sylius/user
+type: library
+description: User handling for PHP applications.
+keywords: user, registration, login, groups
+homepage: https://sylius.com
+license: MIT
+authors:
+    - Paweł Jędrzejewski (pjedrzejewski.com)
+    - Michał Marcinkowski (michal.marcinkowski@lakion.com)
+    - Łukasz Chruściel (lukasz.chrusciel@lakion.com)
+    - Sylius project (sylius.com)
+    - Community contributions (github.com/Sylius/Sylius/contributors)
+require:
+    - php (^7.4 || ^8.0)
+    - doctrine/collections (^1.6)
+    - sylius-labs/polyfill-symfony-security (^1.0)
+    - sylius/resource (^1.7)
+    - symfony/polyfill-mbstring (^1.17)
+    - symfony/security-core (^4.4 || ^5.2)
+require-dev:
+    - phpspec/phpspec (^7.0)
+suggest:
+    - ext-mbstring (For better performance than using Symfony Polyfill Component)
+config:
+    - bin-dir: bin
+extra:
+    - branch-alias: dev-master (1.9-dev)
+autoload:
+    - psr-4: { "Sylius\\Component\\User\\": "" }
+autoload-dev:
+    - psr-4: { "Sylius\\Component\\User\\spec\\": "spec/" }
+repositories:
+    - type: path
+      url: "../../*/*"
+minimum-stability: dev
+prefer-stable: true

@@ -1,0 +1,8 @@
+Implement Python's `divmod()` function in JavaScript using the built-in `Math.floor()` and modulo operator (`%`). This will return a 2-tuple with the quotient and remainder of a division:
+
+```js
+const divmod = (x, y) => [Math.floor(x / y), x % y];
+divmod(8, 3); // [2, 2]
+divmod(3, 8); // [0, 3]
+divmod(5, 5); // [1, 0]
+```

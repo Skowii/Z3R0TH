@@ -1,0 +1,30 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-36-55
+
+library: sylius/attribute
+description: Handles object attributes in PHP projects for ecommerce and shop features
+authors: Paweł Jędrzejewski, Sylius project, Community contributions
+dependencies: php ^7.4 || ^8.0, doctrine/collections, sylius/registry, sylius/resource, symfony/validator
+tags: ecommerce, attribute, feature
+
+# TAGS: sylius/attribute
+library
+handling object attributes in PHP projects
+shop
+ecommerce
+attribute
+feature
+Paweł Jędrzejewski
+pjedrzejewski.com
+Sylius project
+sylius.com
+Community contributions
+github.com/Sylius/Sylius/contributors
+php ^7.4 || ^8.0
+doctrine/collections ^1.6
+sylius/registry ^1.5
+sylius/resource ^1.7
+symfony/validator ^4.4 || ^5.2
+phpspec/phpspec ^7.0
+Sylius\\Component\\Attribute\\
+spec/

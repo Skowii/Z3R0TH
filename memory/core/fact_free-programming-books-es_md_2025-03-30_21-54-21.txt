@@ -1,0 +1,38 @@
+# SOURCE: free-programming-books-es.md
+# TIME: 2025-03-30_21-54-21
+
+#### emas Operativos y Redes
+
+* [Básico de la Computación Distribuida](http://bcd.ugr.es/wp-content/uploads/2013/10/BASICO_DISTRIBUIDA.pdf) - Juan M. Cámara Ltdo, Antonio Fernández Anta (PDF)
+* [Introducción a la Seguridad de Sistemas Informáticos](http://www.unex.es/docencia/catedras/catedra_sistemas_informaticos_y_comunicacion/bibliografia/Introduccion%20a%20la%20seguridad%20de%20sistemas%20informaticos.pdf) - Carlos Fernández, Jesús Sáez (PDF)
+* [Sistemas Operativos](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/Sistemas%20Operativos-1.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Principios y Técnicas de Alta Eficiencia](http://www.docentes.uned.es/%7Efernandez/docentes/sopre/sopre_2013.pdf) - Juan M. Cámara, Antonio Fernández (PDF)
+* [Sistemas Operativos: Conceptos y Técnicas de Eficiencia](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre1.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre2.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre3.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre4.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre5.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre6.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre7.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre8.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre9.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre10.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre11.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre12.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre13.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre14.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre15.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre16.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre17.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre18.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre19.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre20.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre21.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre22.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre23.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre24.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre25.pdf) - Carlos A. Fernández (PDF)
+* [Sistemas Operativos: Técnicas de Eficiencia y Protección](http://www.unex.es/docencia/catedras/catedra_sistemas_operativos/bibliografia/sopre26.pdf) - Carlos A. Fernández (PDF)
+
+# TAGS: mx/jloa/publicaciones/estructuras_de_datos.pdf) - Universidad Nacional Autónoma de México, Jorge L. Ortega Arjona (PDF)
+* [Temas selectos sobre algoritmos y estructuras de datos](http://www.fciencias.unam.mx/~lozoya

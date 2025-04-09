@@ -1,0 +1,1 @@
+The rock_paper_scissors function takes a number input (0-2) and returns one of the three choices based on it. If the input is invalid, it raises a ValueError.

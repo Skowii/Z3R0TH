@@ -1,0 +1,1 @@
+Convert a Map to an object using `Map.prototype.entries()` and `Object.fromEntries()`. Convert an object to a Map using `Object.entries()` and the `Map()` constructor.

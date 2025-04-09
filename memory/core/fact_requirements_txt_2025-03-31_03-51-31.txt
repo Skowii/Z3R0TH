@@ -1,0 +1,18 @@
+# SOURCE: requirements.txt
+# TIME: 2025-03-31_03-51-31
+
+Numpy 1.26.4 is a Python library for mathematical and scientific computing. Pandas 2.2.3 is a Python library providing fast, flexible, and easy-to-use data structures and data analysis tools. Bottleneck 1.4.2 is a GPU-accelerated Numpy extension library. Numexpr 2.10.2 is an optimized numerical expression evaluation engine. Pandas-ta 0.3.14b is a Python package that adds technical analysis capabilities to pandas DataFrames.
+
+Ccxt 4.4.69 is a Python library for trading on cryptocurrency exchanges. Cryptography 44.0.2 provides cryptographic primitives and protocols, and Aiohttp 3.9.5 is an async HTTP client and server for Python. SQLAlchemy 2.0.39 is a Python SQL toolkit and Object Relational Mapper.
+
+Python-telegram-bot 22.0 is a Python library that allows you to create Telegram bots in Python. HTTPx >= 0.24.1 is an async HTTP client for Python. Humanize 4.12.1 provides utilities for converting numbers and dates to strings. Cachetools 5.5.2 is a high-performance cache and memoization library.
+
+Requests 2.32.3 is a Python library for making HTTP requests. Urllib3 2.3.0 is a Python URL libary with a focus on security. JsonSchema 4.23.0 is a JSON schema validation tool in Python. TA-Lib 0.4.38 is a Python library of technical analysis indicators. Technical 1.5.0 is a Python library for technical trading analysis tools. Tabulate 0.9.0 is a Pythonic terminal table formatter.
+
+Pycoingecko 3.2.0 provides API access to the CoinGecko cryptocurrency market data and statistics website. Jinja2 3.1.6 is a fast, flexible and secure template engine for Python. Joblib 1.4.2 is a Python library that provides tools for machine learning, data mining and other technical applications. Rich 13.9.4 adds rich text and interactive features to the Python prompt.
+
+Python-rapidjson 1.20 allows loading JSON files 30% faster in Python. Orjson 3.10.15 is a fast, low-dependency, zero-library, and secure JSON encoder/decoder for Python. SDNotify 0.3.2 provides a systemd interface for notifications. Fastapi 0.115.12 is a fast, async web framework for Python, Pydantic 2.10.6 is a data validation library for Python and Uvicorn 0.34.0 is an ASGI-based HTTP server for Python. Pyjwt 2.10.1 is a Python implementation of JSON Web Tokens. Aiofiles 24.1.0 allows working with files asynchronously in Python. Psutil 7.0.0 provides tools for monitoring and managing system resources.
+
+Questionary 2.1.0 allows building config files interactively in Python. Prompt-toolkit 3.0.50 is a cross-platform, feature-rich toolkit for building interactive command-line applications. Python-dateutil 2.9.0.post0 extends the datetime library with additional capabilities. Pytz 2025.1 handles timezone information in Python programs. Schedule 1.2.2 provides timing and scheduling utilities. Websockets 15.0.1 allows creating WebSocket-based applications in Python, while Janus 2.0.0 is a microservices framework for building web applications with Python. Ast-comments 1.2.2 provides syntax tree inspection and comment management. Packaging 24.2 assists with package management in Python projects.
+
+# TAGS: numpy, pandas, bottleneck, numexpr, pandas-ta, ccxt, cryptography, aiohttp, SQLAlchemy, python-telegram-bot, httpx, humanize, cachetools, requests, urllib3, jsonschema, TA-Lib, technical, tabulate, pycoingecko, jinja2, joblib, rich, py_find_1st, python-rapidjson, orjson, sdnotify, fastapi, pydantic, uvicorn, pyjwt, aiofiles, psutil, questionary, prompt-toolkit, python-dateutil, pytz, schedule, websockets, janus, ast-comments, packaging

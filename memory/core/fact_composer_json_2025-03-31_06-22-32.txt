@@ -1,0 +1,21 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_06-22-32
+
+Sylius/Order is a PHP library for managing orders in ecommerce applications. It deals with sales, shops, webshops, and related aspects of online commerce. The library requires PHP 7.4 or 8.0 and relies on other libraries such as "sylius/resource", "webmozart/assert" and "laminas/laminas-stdlib". It has a MIT license and contributions from various authors including the Sylius project and community members. The library is hosted at https://github.com/Sylius/Sylius and documentation can be found at https://sylius.com.
+
+# TAGS: name: sylius/order
+type: library
+description: Orders management library for PHP.
+keywords: order, sales, shop, webshop, ecommerce
+homepage: https://sylius.com
+license: MIT
+authors: [Paweł Jędrzejewski, Sylius project, Community contributions]
+require: {php: ^7.4 || ^8.0, sylius/resource: ^1.7, webmozart/assert: ^1.8, laminas/laminas-stdlib: ^3.2}
+require-dev: {phpspec/phpspec: ^7.0}
+config: {bin-dir: bin}
+extra: {branch-alias: dev-master: 1.9-dev}
+autoload: {psr-4: {Sylius\\Component\\Order\\: ""}}
+autoload-dev: {psr-4: {Sylius\\Component\\Order\\spec\\: "spec/"}}
+repositories: [type: path, url: "../../*/*"]
+minimum-stability: dev
+prefer-stable: true

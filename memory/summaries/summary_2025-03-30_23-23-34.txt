@@ -1,0 +1,1 @@
+Avoid using bare "except" in Python as it can catch keyboard interrupts (e.g., Ctrl+C) and prevent users from exiting the program. Use specific error types like ValueError instead of generic exceptions such as Exception. Only use "except" for expected failure states, letting the program naturally fail and exit in case of unexpected errors.

@@ -1,0 +1,6 @@
+# SOURCE: LICENSE.md
+# TIME: 2025-03-31_03-46-03
+
+The license for this repository is Apache License 2.0.
+
+# TAGS: MIT License, Open Data Commons Attribution License, Creative Commons CC0 license, Creative Commons Attribution-ShareAlike 3.0 Unported License, GNU Free Documentation License, Creative Commons Attribution 4.0 International License

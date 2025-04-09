@@ -1,0 +1,10 @@
+This cheatsheet provides common JavaScript regular expressions for various tasks:
+
+1. Exact string match: Use anchors (`^` and `$`) with the exact string between them.
+2. Match empty string: No characters between the anchors.
+3. Match whitespace sequences: Use `\s` meta-sequence and quantifier `+`.
+4. Match line breaks: Use `\r`, `\n`, or `\r\n` depending on the environment, with global (`g`) and multiline (`m`) flags.
+5. Match non-word characters: Negation (`^`) with `\w` and `\s`.
+6. Alphanumeric, dashes and hyphens match: Use anchors with pattern `a-zA-Z0-9-`.
+7. Letters and whitespaces match: Anchor with pattern `a-zA-Z\s`, using quantifier `+`.
+8. Pattern not included: Negative lookahead (`?!`) followed by a list of patterns to exclude, with the global flag (`g`).

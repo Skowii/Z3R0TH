@@ -1,0 +1,1 @@
+Styling elements when in fullscreen mode is possible using the :fullscreen pseudo-class in CSS, allowing for adjustments such as text size, background color, or layout. This can be particularly beneficial for media players, slideshows, and other content that benefits from a fullscreen view.

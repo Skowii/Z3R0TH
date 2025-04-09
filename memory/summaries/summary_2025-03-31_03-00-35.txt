@@ -1,0 +1,1 @@
+This CSS guide provides four easy ways to center content: using flexbox, grid, transform, and table centering methods. Flexbox is the preferred method, while older browsers may require table centering.

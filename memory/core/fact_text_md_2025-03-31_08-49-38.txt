@@ -1,0 +1,24 @@
+# SOURCE: text.md
+# TIME: 2025-03-31_08-49-38
+
+Match Text Pattern:
+- Purpose: Matches text against a specified pattern and forwards data to positive or negative output based on match
+- Inputs: Text, Match, Data, Case sensitive, Dot all
+- Outputs: Positive, Negative
+
+Extract Text Information:
+- Purpose: Extract specific information from text using a pattern
+- Inputs: Text, Pattern, Group, Case sensitive, Dot all
+- Outputs: Positive, Negative
+
+Fill Text Template:
+- Purpose: Fills a text template with provided values
+- Inputs: Values, Format
+- Outputs: Output
+
+Combine Texts:
+- Purpose: Combines multiple texts into a single output
+- Inputs: Input, Delimiter
+- Outputs: Output
+
+# TAGS: Key Concepts: Block, Match Text Pattern, Extract Text Information, Fill Text Template, Combine Texts

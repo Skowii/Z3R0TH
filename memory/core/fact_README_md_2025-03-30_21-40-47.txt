@@ -1,0 +1,36 @@
+# SOURCE: README.md
+# TIME: 2025-03-30_21-40-47
+
+Topic: Learn Machine Learning in 3 Months Curriculum
+
+Tags: #Learn_Machine_Learning_in_3_Months, #Curriculum, #Linear_Algebra, #Calculus, #Probability, #Algorithms, #Python, #Tensorflow, #Intro_to_ML, #Deep_Learning
+
+# TAGS: # Learn_Machine_Learning_in_3_Months
+
+1. Month 1
+   - Week 1: Linear Algebra
+       * [Linear Algebra course on MIT OpenCourseWare](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+       * [Linear Algebra video by Siraj Raval](https://www.youtube.com/watch?v=kjBOesZCoqc&index=1&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+   - Week 2: Calculus
+       * [Calculus playlist by Siraj Raval](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+   - Week 3: Probability
+       * [Introduction to Probability course on EdX](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2)
+   - Week 4: Algorithms
+       * [Algorithm Design and Analysis course on EdX](https://www.edx.org/course/algorithm-design-analysis-pennx-sd3x)
+
+2. Month 2
+   - Week 1: Learn Python for Data Science
+       * [Learn Python for Data Science video by Siraj Raval](https://www.youtube.com/watch?v=T5pRlIbr6gg&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
+   - Week 2: Math of Intelligence and Intro to Tensorflow
+       * [Math of Intelligence video by Siraj Raval](https://www.youtube.com/watch?v=xRJCOz3AfYY&list=PL2-dafEMk2A7mu0bSksCGMJfmeddU_H4D)
+       * [Introduction to Tensorflow video by Siraj Raval](https://www.youtube.com/watch?v=2FmcHiLCwTU&list=PL2-dafEMk2A7EEME489DsI468AB0wQsMV)
+   - Week 3-4: Intro to ML (Udacity) and ML Project Ideas
+       * [Intro to Machine Learning course on Udacity](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
+       * [Machine Learning project ideas repository on GitHub](https://github.com/NirantK/awesome-project-ideas)
+
+3. Month 3 (Deep Learning)
+   - Week 1: Introduction to Deep Learning
+       * [Introduction to Deep Learning video by Siraj Raval](https://www.youtube.com/watch?v=vOppzHpvTiQ&list=PL2-dafEMk2A7YdKv4XfKpfbTH5z6rEEj3)
+   - Week 2: Deep Learning by Fast.ai
+       * [Deep Learning course by Fast.ai](http://course.fast.ai/)
+   - Week 3-4: Re-implement DL projects from personal GitHub

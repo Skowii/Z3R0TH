@@ -1,0 +1,11 @@
+The window.location object is used for working with a page's URL information. Here are the properties of the object and their meanings:
+
+1. protocol - The protocol schema, usually http or https.
+2. hostname - The domain name of the URL.
+3. port - The port number of the URL.
+4. host - The domain name and port number combined.
+5. origin - The protocol schema, domain name, and port number together.
+6. pathname - The path of the URL, including the leading slash.
+7. search - The query string of the URL, with the question mark included.
+8. hash - The fragment identifier of the URL, with the hash included.
+9. href - The full URL, which includes the protocol schema, domain name, port number, path, query string, and fragment identifier.

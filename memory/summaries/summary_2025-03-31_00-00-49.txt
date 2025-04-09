@@ -1,0 +1,1 @@
+Replace or append a value in a JavaScript array using `findIndex()`, `splice()`, and `push()`. Create a shallow copy of the original array and use a comparison function to determine if the item exists. If it exists, replace it; if not, append it. Return the updated array instead of mutating the original one.

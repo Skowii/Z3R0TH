@@ -1,0 +1,11 @@
+# SOURCE: TROUBLESHOOTING.md
+# TIME: 2025-03-31_07-52-02
+
+Issues:
+1. Poetry configuration invalid
+2. Pydantic Validation Error
+
+Solutions:
+1. Update poetry
+
+# TAGS: Forge, Poetry configuration invalid, Pydantic Validation Error, Update poetry, Benchmark, Frontend

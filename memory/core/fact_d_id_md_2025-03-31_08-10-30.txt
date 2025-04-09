@@ -1,0 +1,22 @@
+# SOURCE: d_id.md
+# TIME: 2025-03-31_08-10-30
+
+To find available voices for D-ID, follow these steps:
+
+1. ElevenLabs Voices:
+   - Visit https://api.elevenlabs.io/v1/voices
+   - Copy the voice_id
+   - Use it in the voice_id field in CreateTalkingAvatarClip Block
+
+2. Microsoft Azure Voices:
+   - Visit https://speech.microsoft.com/portal/voicegallery
+   - Click on "Sample code" tab
+   - Copy the voice name, e.g., en-GB-AbbiNeural
+   - Use it in the voice_id field in CreateTalkingAvatarClip Block
+
+3. Amazon Polly Voices:
+   - Visit https://docs.aws.amazon.com/polly/latest/dg/available-voices.html
+   - Copy the voice name / ID
+   - Use it as a string in the voice_id field in CreateTalkingAvatarClip Block
+
+# TAGS: ElevenLabs voices, Select any voice from the voice list, Copy the voice_id, voice_id field in the CreateTalkingAvatarClip Block, Microsoft Azure Voices, voice gallery, Sample code, voice name, en-GB-AbbiNeural, Amazon Polly Voices, voice list, voice name/ID, string in the voice_id field in the CreateTalkingAvatarClip Block

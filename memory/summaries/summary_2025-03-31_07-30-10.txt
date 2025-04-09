@@ -1,0 +1,3 @@
+Value Object es un patrón creacional que proporciona objetos que siguen la semántica de valor en lugar de la semántica de referencia. Esto significa que la igualdad de los objetos de valor no se basa en la identidad, sino en el valor mismo. Dos objetos de valor son iguales cuando tienen el mismo valor, no necesariamente siendo el mismo objeto.
+
+El objetivo principal es utilizar este patrón cuando la igualdad del objeto depende de su valor y no de su identidad. Algunas clases conocidas que utilizan esta técnica incluyen java.util.Optional, java.time.LocalDate, y joda-time.

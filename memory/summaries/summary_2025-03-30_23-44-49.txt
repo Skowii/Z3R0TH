@@ -1,0 +1,12 @@
+JavaScript doesn't have a built-in sleep function, so you can use setTimeout(), promises, or async/await functions for pausing execution. The closest equivalent is using setTimeout(), but there are also asynchronous methods available. For example, you can create a sleep function using promises with the following code:
+
+```js
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+const greet = async () => {
+  console.log('I will be with you in just a moment.');
+  await sleep(300);
+  console.log('Hello there!');
+};
+greet();
+```
+This function is asynchronous and can help achieve the desired pause in execution for a specified amount of time (in this case, 300ms).

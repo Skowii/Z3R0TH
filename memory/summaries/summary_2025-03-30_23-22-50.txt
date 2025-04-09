@@ -1,0 +1,1 @@
+This article discusses various tips and tricks for using Python f-strings, a feature that provides an improved way to format strings. Some of the features include string interpolation, variable names, mathematical operations, printable representation, number formatting, and date formatting.

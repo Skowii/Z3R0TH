@@ -1,0 +1,6 @@
+# SOURCE: README.md
+# TIME: 2025-03-31_07-39-10
+
+Sylius Locale Bundle is a Symfony2 integration of Sylius Locale management component, which is an Open Source eCommerce solution with powerful API and the highest quality code. The documentation for this bundle can be found on docs.sylius.com and the development updates can be followed on Sylius' official blog, Twitter account, and Facebook page. It uses GitHub issues to track bugs and is licensed under MIT License.
+
+# TAGS: SyliusLocaleBundle, Symfony2, Sylius, Open Source eCommerce, documentation, contributing, GitHub issues, MIT License, Paweł Jędrzejewski, contributors

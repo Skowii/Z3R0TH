@@ -1,0 +1,1 @@
+The code uses the requests library to search GitHub for popular Python projects. It retrieves repositories with "language:python", sorts by stars, and orders in descending order. The first three repositories' names, descriptions, and star counts are then printed.

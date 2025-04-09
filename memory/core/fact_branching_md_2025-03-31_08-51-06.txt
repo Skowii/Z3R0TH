@@ -1,0 +1,12 @@
+# SOURCE: branching.md
+# TIME: 2025-03-31_08-51-06
+
+Condition Block is a logical component that compares two values using a specified comparison operator, outputs a boolean value indicating if the condition is true or false, and provides corresponding output values based on the result. It takes in inputs such as Value 1, Operator, Value 2, Yes Value, and No Value, and outputs Result, Yes Output, and No Output. This block can be used in various scenarios, like determining eligibility for discounts or offers.
+
+# TAGS: Condition Block
+Logical component
+Evaluates comparisons between two values
+Determines true or false
+Outputs boolean result and corresponding output values
+Inputs: Value 1, Operator, Value 2, Yes Value, No Value
+Outputs: Result, Yes Output, No Output

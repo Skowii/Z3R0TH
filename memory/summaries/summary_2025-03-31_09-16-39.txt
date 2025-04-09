@@ -1,0 +1,1 @@
+The provided code creates a class called WordCountString derived from the str type. This class has a method named words that returns the count of words in the string when given a separator. If no separator is specified, it splits on whitespace. It inherits from UserString and overrides the same method with similar functionality.

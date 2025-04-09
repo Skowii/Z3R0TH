@@ -1,0 +1,14 @@
+In JavaScript, you can check if a string is uppercase or lowercase using simple tricks. For uppercase strings:
+
+1. Use the `String.prototype.toUpperCase()` method to convert the string to uppercase.
+2. Compare the original string with the converted string. If they are equal, it's an uppercase string.
+
+For lowercase strings:
+
+1. Use the `String.prototype.toLowerCase()` method to convert the string to lowercase.
+2. Compare the original string with the converted string. If they are equal, it's a lowercase string.
+
+However, this approach doesn't work for non-alphabetic characters. To handle them:
+
+1. Use regular expressions with anchors (^ and $), character ranges ([A-Z] or [a-z]), positive lookahead (?=), quantifiers (+) and the end of string anchor ($).
+2. Use `RegExp.prototype.test()` method to check if the string matches the regular expression.

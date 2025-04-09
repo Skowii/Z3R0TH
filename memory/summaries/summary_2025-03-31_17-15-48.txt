@@ -1,0 +1,6 @@
+The guide explains how to create and test a new block for the AutoGPT Agent Server, using the WikipediaSummaryBlock as an example. Blocks are reusable components with inputs, outputs, and specific functions. Testing is crucial for ensuring correct and consistent behavior. To create and test a new block:
+
+1. Create a Python file in the appropriate directory.
+2. Import necessary modules and inherit from Block class.
+3. Define input and output schemas using BlockSchema.
+4. Implement __init__ method, including test data and mocks.

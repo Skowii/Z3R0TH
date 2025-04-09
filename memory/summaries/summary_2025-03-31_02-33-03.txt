@@ -1,0 +1,1 @@
+Learn how to get the index of an array item in a JavaScript for...of loop using Array.prototype.entries(). This method allows you to access both the index and value of each array item. You can use this technique with strings, arrays, Maps, and Sets.

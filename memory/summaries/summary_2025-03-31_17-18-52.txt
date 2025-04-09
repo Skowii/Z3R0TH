@@ -1,0 +1,4 @@
+Get Wikipedia Summary: This block fetches a summary about a given topic from Wikipedia's API.
+Search The Web: This block searches the web for relevant content based on search queries and returns results.
+Extract Website Content: This block extracts main content from specified websites, removing non-essential parts.
+Get Weather Information: This block fetches current weather data for a specified location using an OpenWeatherMap API.

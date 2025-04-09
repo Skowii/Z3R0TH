@@ -1,0 +1,23 @@
+# SOURCE: Feature_request.md
+# TIME: 2025-03-30_21-52-57
+
+"Feature or Enhancement": Suggest an Idea or Enhancement
+
+Description: This proposal suggests a new feature or enhancement to be implemented for the users. The feature/enhancement should provide benefits to users, including more efficient operations and improved functionality.
+
+Why: The addition of this feature or enhancement is important because it can make the application more user-friendly and efficient. It would help streamline tasks and improve overall productivity. 
+
+How can it benefit other users? Other users will benefit from the new feature/enhancement as well, making their experience with the application more enjoyable and functional. It could increase efficiency, save time, or provide a better understanding of the app's features.
+
+Possible Implementation & Open Questions: It would be useful to discuss how this new feature can be integrated seamlessly into the existing structure without causing any conflicts in the current system. There should also be discussions regarding user feedback and possible improvements based on their experiences.
+
+Is this something you're interested in working on? YES
+
+# TAGS: Name: Feature or Enhancement
+About: Suggest an Idea or Enhancement
+
+Description: Provide a detailed description of the change or addition you are proposing.
+Why: This change is important to me because it would make my work easier/more efficient/more enjoyable. I can use this feature to improve my experience and contribute to the betterment of the tool or application.
+How can it benefit other users: Other users will also find it beneficial, as it could enhance their workflow, improve their experience, or fix a problem they have faced before.
+Possible Implementation & Open Questions: Suggest an idea for implementing the addition or change (not obligatory). What still needs to be discussed?
+Is this something you're interested in working on?: Yes or No

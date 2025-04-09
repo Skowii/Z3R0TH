@@ -1,0 +1,1 @@
+The Label class has an init function for setting text and font attributes. It also has a get_text method to retrieve the current text and a set_text method to update it with uppercase letters.

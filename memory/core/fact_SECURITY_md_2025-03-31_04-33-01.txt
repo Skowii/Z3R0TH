@@ -1,0 +1,6 @@
+# SOURCE: SECURITY.md
+# TIME: 2025-03-31_04-33-01
+
+Security: Microsoft takes security seriously and manages various GitHub organizations, including Microsoft, Azure, DotNet, AspNet, and Xamarin source code repositories. Report any vulnerability in Microsoft-owned repositories to the Microsoft Security Response Center (MSRC) at https://msrc.microsoft.com/create-report or email secure@microsoft.com with proof-of-concept or exploit code if possible. Include the requested information like type of issue, affected source code location, and reproduction steps to help triage the report quickly. Prefer English for all communications. Microsoft follows Coordinated Vulnerability Disclosure principle.
+
+# TAGS: Key concepts: Microsoft, security, source code repositories, GitHub organizations, vulnerability, Microsoft Security Response Center (MSRC), reporting issues, Type of issue, full paths, location, configuration, reproduction instructions, proof-of-concept, exploit code, impact, Bug Bounty Program.

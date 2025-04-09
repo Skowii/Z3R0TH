@@ -1,0 +1,6 @@
+# SOURCE: LICENSE.md
+# TIME: 2025-03-30_21-48-12
+
+MIT License: Open-source software license that allows for free distribution and modification with minimal restrictions. Includes copyright notice and disclaimer of warranty.
+
+# TAGS: key concepts: MIT License, Copyright, Software, permission, use, copy, modify, merge, publish, distribute, sublicense, sell, copyright notice, permission notice, warranty, liability

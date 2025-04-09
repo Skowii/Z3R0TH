@@ -1,0 +1,1 @@
+The code defines a Person class with an init method that initializes the name attribute and two methods for getting and setting the name. An Employee subclass is defined, which inherits from Person and has an overridden get_name method that returns the name in uppercase using super().get_name().

@@ -1,0 +1,1 @@
+This article explains how to view or change the remote URL of a Git repository. To view, use `git config --get remote.origin.url` and to change it, use `git remote set-url origin <url>`. The remote URL is the address of your repo on services like GitHub, GitLab, or Bitbucket.

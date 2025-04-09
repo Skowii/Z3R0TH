@@ -1,0 +1,6 @@
+# SOURCE: replicate_flux_advanced.md
+# TIME: 2025-03-31_08-53-55
+
+Replicate Flux Advanced Model: AI-powered image generation tool that creates images based on text prompts and customizable settings; generates high-quality images using advanced AI models from Replicate, specifically the Flux series of models; input parameters include API key, prompt, model choice, seed, steps, guidance, interval, aspect ratio, output format, output quality, and safety tolerance; outputs a URL to the generated image.
+
+# TAGS: Replicate Flux Advanced Model, API Key, Prompt, Image Generation Model, Seed, Steps, Guidance, Interval, Aspect Ratio, Output Format, Output Quality, Safety Tolerance, Result, Error

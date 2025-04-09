@@ -1,0 +1,9 @@
+# SOURCE: robots.txt
+# TIME: 2025-03-31_06-00-17
+
+Robots.txt is a file that webmasters create to instruct robots (e.g., search engine crawlers) how to crawl and index pages on their website, including instructions like "Allow", "Disallow", or "Noindex". This helps protect sensitive content from being accessed by search engines. An example of such a file can be found at www.robotstxt.org/. Additionally, Google provides webmasters with guidelines on how to create and use a Robots.txt file to optimize their website for search engine crawling at www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449.
+
+# TAGS: Key Concepts: Robots.txt, Google Webmaster Guidelines, User-Agent
+Keywords: www.robotstxt.org, www.google.com/support/webmasters
+People: N/A
+Dates: N/A

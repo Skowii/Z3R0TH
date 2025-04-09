@@ -1,0 +1,6 @@
+Create a shadow matching the colors of an element using CSS by:
+1. Positioning an absolute pseudo-element (::after) to fill available space.
+2. Setting background: inherit for pseudo-element to inherit parent's background.
+3. Offsetting the pseudo-element with top and applying blur() filter, opacity.
+4. Setting z-index of pseudo-element to -1 for it to display behind its parent.
+5. Adjust the blur() value to control shadow effect intensity.

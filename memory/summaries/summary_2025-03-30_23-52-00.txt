@@ -1,0 +1,1 @@
+The task involves finding the longest element in a JavaScript array. This could be useful when solving coding challenges and it can be achieved by using `Array.prototype.reduce()` to compare lengths of objects, returning the longest one. If multiple objects have the same length, the first one will be returned. If no arguments are provided, the function will return undefined.

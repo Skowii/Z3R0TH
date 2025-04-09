@@ -1,0 +1,26 @@
+# SOURCE: run_comparison_heapsearch_astar.py
+# TIME: 2025-03-31_02-28-47
+
+tag: deepcoder-run-algorithm, semantics, primitive_types, deepcoder, DSL, CFG, PCFG, reconstruct_from_compressed, heap_search, a_star, program, run_algorithm, mean, std, plot comparison
+
+# TAGS: algorithm, name_algo, param = list_algorithms[algo_index]
+
+result_mean = []
+result_std = []
+
+for x in range(number_timepoints):
+    result_mean.append(float(next(reader)[1]))
+    result_std.append(float(next(reader)[2]))
+
+plt.figure()
+plt.loglog(timepoints, result_mean, marker='o', label='Mean')
+plt.fill_between(timepoints, np.add(result_mean, result_std), np.subtract(result_mean, result_std), alpha=0.15, edgecolor='none', color='lightgrey')
+plt.plot(timepoints, result_mean, 'o-', label='Mean')
+plt.plot(timepoints, result_mean + result_std, '-')
+plt.plot(timepoints, result_mean - result_std, '-')
+plt.loglog(timepoints, result_mean, marker='o')
+plt.xlabel('Time')
+plt.ylabel('Number of Programs')
+plt.title(name_algo)
+plt.legend()
+plt.show()

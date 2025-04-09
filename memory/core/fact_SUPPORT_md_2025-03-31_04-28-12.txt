@@ -1,0 +1,17 @@
+# SOURCE: SUPPORT.md
+# TIME: 2025-03-31_04-28-12
+
+Support:
+- File issues and feature requests on GitHub
+- Search for existing issues to avoid duplicates
+- Use appropriate templates for new issues
+- Visit the Playwright docs site for help and questions
+- Join the Discord Server for community support
+
+# TAGS: - Support
+- GitHub issues
+- bugs and feature requests
+- Playwright
+- docs site
+- Discord Server
+- Microsoft Support Policy

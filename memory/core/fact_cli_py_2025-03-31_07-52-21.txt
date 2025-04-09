@@ -1,0 +1,71 @@
+# SOURCE: cli.py
+# TIME: 2025-03-31_07-52-21
+
+"agents",
+        agent_name,
+    )
+    if not os.path.exists(agent_dir):
+        click.echo(click.style("Agent directory does not exist", fg="red"))
+        return
+
+    benchmark_dir = os.path.join(script_dir, "benchmark")
+    subprocess_args = ["serve"] + subprocess_args  # add serve argument to start the server
+    subprocess.Popen(["./run", "serve"], cwd=agent_dir)
+    wait_until_conn_ready(8000)
+    click.echo("✅ Agent application started and available on port 8000")
+    time.sleep(1)  # add a delay to let the agent start up
+    subprocess.Popen([os.path.join(benchmark_dir, "run"), "serve"], cwd=benchmark_dir)
+
+# TAGS: ore starting the agent.",
+)
+def start(agent_name: str, no_setup: bool):
+    """Starts an existing agent with the provided name"""
+    import os
+    import subprocess
+
+    if not re.match(r"\w*$", agent_name):
+        click.echo(
+            click.style(
+                f"😞 Agent name '{agent_name}' is not valid. It should not contain spaces or special characters other than -_",
+                fg="red",
+            )
+        )
+        return
+    if os.path.exists(f"./agents/{agent_name}"):
+        agent_dir = f"./agents/{agent_name}"
+        if no_setup:
+            click.echo(click.style("💡 No setup script running.", fg="green"))
+        else:
+            subprocess.check_call([os.path.join(agent_dir, "run.sh")])
+    else:
+        click.echo(
+            click.style(
+                f"😞 Agent '{agent_name}' does not exist. Please create a new agent or check the name.",
+                fg="red",
+            )
+        )
+
+
+@agent.command()
+@click.argument("agent_name")
+def stop(agent_name: str):
+    """Stops an existing agent with the provided name"""
+    import os
+    if not re.match(r"\w*$", agent_name):
+        click.echo(
+            click.style(
+                f"😞 Agent name '{agent_name}' is not valid. It should not contain spaces or special characters other than -_",
+                fg="red",
+            )
+        )
+        return
+    if os.path.exists(f"./agents/{agent_name}"):
+        agent_dir = f"./agents/{agent_name}"
+        subprocess.check_call([os.path.join(agent_dir, "stop.sh")])
+    else:
+        click.echo(
+            click.style(
+                f"😞 Agent '{agent_name}' does not exist. Please create a new agent or check the name.",
+                fg="red",
+            )
+        )

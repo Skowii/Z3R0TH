@@ -1,0 +1,26 @@
+# SOURCE: LICENCE.txt
+# TIME: 2025-03-31_08-01-35
+
+The PolyForm Shield License 1.0.0 is a license agreement that outlines the terms and conditions for using specific software. It provides copyright, distribution, changes, and new works licenses, as well as patent and non-compete agreements. The licensor grants a copyright license for the software to be used for any permitted purpose, with distribution and modifications allowed under certain conditions. A patent license is granted to cover patent claims that might be infringed by using the software. There are also provisions for fair use, no other rights, patent defense, violations, and liability limitations.
+
+# TAGS: [Patent License](#patent-license) terminates.
+
+## Termination
+
+The licensor may terminate these terms at any time if you
+violate any of them.  If the licensor does so, it must provide
+a copy of the URL for these terms to anyone who got a copy of
+the software from you under [Distribution License](#distribution-license).
+
+## Export Controls
+
+You agree to comply with all export laws and regulations
+of relevant jurisdictions.
+
+## Governing Law
+
+The terms are governed by the law of your country of
+residence, or if you have none, the law of the licensor's
+country of incorporation.
+
+This is a brief explanation of the main concepts found in the PolyForm Shield License 1.0.0.

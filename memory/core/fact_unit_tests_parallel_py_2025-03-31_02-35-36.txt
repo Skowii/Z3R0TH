@@ -1,0 +1,9 @@
+# SOURCE: unit_tests_parallel.py
+# TIME: 2025-03-31_02-35-36
+
+Summary: The given code performs tests on the grammar splitter functionality and deepcoder algorithms in a DSL context. It utilizes concepts such as semantics, primitive types, ray-parallel algorithms, and a specialized test case for checking if the grammar splitter generates disjoint valid grammars.
+
+# TAGS: key concepts: TestSum, unittest, DSL, semantics, primitive_types, grammar_splitter, heap_search, make_parallel_pipelines, start, seen_programs
+keywords: PolymorphicType, Arrow, List, INT, BOOL, STRING, Program, Function, Variable, BasicPrimitive, New, evaluation_from_compressed, reconstruct_from_compressed, Algorithms, ray_parallel, make_parallel_pipelines, start
+people: (not mentioned)
+dates: (not mentioned)

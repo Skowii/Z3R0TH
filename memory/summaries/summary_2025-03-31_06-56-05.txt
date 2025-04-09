@@ -1,0 +1,5 @@
+Propósito: Utilizar propiedades dinámicas y mantener la seguridad de tipos en un lenguaje no tipado.
+
+Explicación: El patrón Abstract Document permite gestionar propiedades adicionales sin que los objetos sean conscientes de ello, ofreciendo flexibilidad entre componentes en un lenguaje de tipado fuerte. El patrón utiliza atributos para separar diferentes propiedades de una clase en distintas interfaces, permitiendo añadir nuevas propiedades sin perder la seguridad de tipos.
+
+Ejemplo: Se define una clase base Document y AbstractDocument, que contienen un mapa de propiedades y cualquier número de objetos hijo. También se crean interfaces para tipo, precio, modelo y partes, permitiendo definir clases estáticas para la clase Car en el ejemplo programático proporcionado.

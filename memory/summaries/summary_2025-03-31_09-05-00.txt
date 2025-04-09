@@ -1,0 +1,1 @@
+This code creates a Flask app to display basic information on a webpage using templates. The home page displays the base template with the title "Jinja and Flask". The results page, accessible at /results, uses a different template and displays a table of students' names, their scores as percentages (out of 100), and the test name.

@@ -1,0 +1,6 @@
+This guide explains how to edit an existing agent in AutoGPT. To do this:
+1. Access the Monitor Tab to view your list of agents.
+2. Select the desired agent.
+3. Enter Edit Mode by clicking the pencil icon next to the selected agent.
+4. Modify the agent's configuration as needed.
+5. Save changes after completing modifications. Note that all agents can be edited, and changes are saved to your local instance.

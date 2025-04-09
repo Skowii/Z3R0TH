@@ -1,0 +1,1 @@
+Swap two variables in JavaScript using ES6 destructuring assignments with a single line of code. Example: `let a = 10; let b = 20; [a, b] = [b, a];`. This method avoids the need for intermediate variables and is more concise than previous approaches.

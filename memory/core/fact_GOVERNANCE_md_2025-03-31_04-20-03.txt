@@ -1,0 +1,13 @@
+# SOURCE: GOVERNANCE.md
+# TIME: 2025-03-31_04-20-03
+
+Knowledge:
+- Governance Model of GPT-Engineer
+- Project Board Structure and Roles
+- Decision-Making Process and Scope of Voting
+- Data Access and Confidentiality
+- Transparency
+- Amendments to the Governance Structure
+- The GPT-Engineer Brand
+
+# TAGS: governance model, project structure, decision making process, data access, voting scope, transparency, amendments and the brand.

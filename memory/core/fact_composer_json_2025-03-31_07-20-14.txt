@@ -1,0 +1,6 @@
+# SOURCE: composer.json
+# TIME: 2025-03-31_07-20-14
+
+The sylius/payum-bundle is a Symfony bundle that integrates Payum, an e-commerce payment system, with Symfony applications. It supports multiple payment methods and currencies. This package requires PHP 7.4 or 8.0 and other Sylius modules like core, currency, order-bundle, and payment-bundle for proper functioning. It also depends on the php-http/guzzle6-adapter for network communication. The bundle is maintained by a team that includes key contributors such as Paweł Jędrzejewski, Kotlyar Maksim, Sylius project, and community contributions.
+
+# TAGS: sylius/payum-bundle, symfony-bundle, Payum integration for Symfony e-commerce applications, payments, payment, payum, https://sylius.com, MIT license, Paweł Jędrzejewski, Kotlyar Maksim, Sylius project, Community contributions, https://github.com/Sylius/Sylius/contributors, php7.4, php8.0, payum/payum, php-http/guzzle6-adapter, sylius/core, sylius/currency, sylius/order-bundle, sylius/payment-bundle, sylius/resource-bundle, phpspec/phpspec, symfony/dependency-injection, bin-dir, dev-master, 1.9-dev, autoload psr-4, Sylius\\Bundle\\PayumBundle\\, spec/, path, type, prefer-stable

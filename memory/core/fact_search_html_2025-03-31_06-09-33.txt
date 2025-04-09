@@ -1,0 +1,6 @@
+# SOURCE: search.html
+# TIME: 2025-03-31_06-09-33
+
+basic/search.html - Template for the search page. This file contains the HTML and JavaScript code necessary to create a functional search page using Sphinx search tools. The script files required are included in the layout, and the search index is loaded dynamically via AJAX. The template also provides fallback content for users with JavaScript disabled.
+
+# TAGS: basic/search.html, Template for the search page, copyright, license, Sphinx team, AUTHORS, LICENSE, layout.html, title, script_files, Search.loadIndex, pathto('searchindex.js'), noscript, admonition warning, trans, JavaScript, search functionality, fallback, h2, Search Results, search_performed, not search_results, selected categories

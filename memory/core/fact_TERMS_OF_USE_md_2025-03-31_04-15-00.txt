@@ -1,0 +1,11 @@
+# SOURCE: TERMS_OF_USE.md
+# TIME: 2025-03-31_04-15-00
+
+Terms of Use:
+- Acknowledge and agree to use gpt-engineer at your own risk, as there is no direct attribution of information to any individual.
+- OpenAI's terms of use apply, which you can find [here](https://openai.com/policies/terms-of-use).
+- Data collection may occur during usage for the purpose of enhancing gpt-engineer; however, no attempts will be made to attribute information directly to an individual.
+- Usage data is collected with consent, as indicated by the presence of a .gpte_consent file in the directory.
+- Note that data streams passing through gpt-engineer may still be stored by third parties (e.g., OpenAI).
+
+# TAGS: Terms of Use, OpenAI, L.L.C., data collection, user privacy, natural text inputs, prompt, feedback files, storage, connections to real-life identity, assurance, OpenAI's overarching terms of use, optional usage data collection, .gpte_consent file, third party data storage, ethical conduct
