@@ -1,0 +1,218 @@
+{
+    "core/plugins/plugin_updater.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/plugins/plugin_updater.py",
+        "sha256": "7da091cff6f13c06a31a4bbb5f9a2e36c2966e44543459a7cd23e365dfa29ed4"
+    },
+    "core/memory/__init__.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "core/memory/piper/piper-master/notebooks/translator.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/notebooks/translator.py",
+        "sha256": "246eabdbdd0d361d03f460aaa15cfc4c7bcc53a7d73ffea3f8d3b6c721681b48"
+    },
+    "core/memory/piper/piper-master/script/generate_voices_md.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/script/generate_voices_md.py",
+        "sha256": "30e18aa519d5be2fbf1bfda18b755b730ca7afb57d9529072c0a380d5f9d8e9b"
+    },
+    "core/memory/piper/piper-master/src/benchmark/benchmark_generator.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/benchmark/benchmark_generator.py",
+        "sha256": "0670855cabbe1b37c3b4a307f05264fab1d604bae12814c32e03b188a8697568"
+    },
+    "core/memory/piper/piper-master/src/benchmark/benchmark_onnx.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/benchmark/benchmark_onnx.py",
+        "sha256": "bdca6328d9ca87fc44277dc245ae639b6625aa338120ad2281f509f12025bab9"
+    },
+    "core/memory/piper/piper-master/src/benchmark/benchmark_torchscript.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/benchmark/benchmark_torchscript.py",
+        "sha256": "7a5daa2f16982f12dd9d2b6edea37fae2d25a0f10df6c6970d8852a862918ce3"
+    },
+    "core/memory/piper/piper-master/src/python/setup.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/setup.py",
+        "sha256": "30ad59ecb88b0625cd478d259ef98bd5bc4299c318e4cde7b3fa8859c93fd78c"
+    },
+    "core/memory/piper/piper-master/src/python_run/setup.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/setup.py",
+        "sha256": "ec4853448727cf0d25808419625d7e67938efca08eee7bf8ebba9f1e7b308439"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/infer_generator.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/infer_generator.py",
+        "sha256": "034936d62df6a38bd65f99b6817735fcf3def262a1e03c2c845edd9ef0723185"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/filter_utterances.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/filter_utterances.py",
+        "sha256": "4fb4083b256801106594eeb743cb4b7c130c62feebc7a08a78218a5814318094"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/infer_onnx_streaming.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/infer_onnx_streaming.py",
+        "sha256": "819f742d9bb2b8a5f4a90e42e50807d25af731b583339fa35dace6bfb721fbe8"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/export_onnx_streaming.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/export_onnx_streaming.py",
+        "sha256": "7c2b43f9905da6f7a3484cc586ac9167dc25b1b2381738e2c7d43dd320370aea"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/preprocess.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/preprocess.py",
+        "sha256": "a12d74e6461a91ca78e5dcc462cf0b2eb2a0f4fe0a760f0bdff034af7651970a"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/clean_cached_audio.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/clean_cached_audio.py",
+        "sha256": "9581f8f08378e08bd33a4b2c32da51d53695d0d8ffc4b1130566e9fd76ff5b83"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/check_phonemes.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/check_phonemes.py",
+        "sha256": "3f1c826a85c62d986abca4262c62909eb67b557dd2e31a2ba456082ac936fd3a"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/export_onnx.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/export_onnx.py",
+        "sha256": "7c8f8467c0e12d373be576116d2ffd2226f80802cb734a6ed2627e78cf5765b4"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/voice_conversion.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/voice_conversion.py",
+        "sha256": "13403f4ceac84273c164abae1e29a8d5380ab13fc51f2154181e75db54bede3c"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/export_torchscript.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/export_torchscript.py",
+        "sha256": "3a33be890f8a99141aa91f20d20e5eaf40e11c6b9d9a488b4d3c1b40f04e6e6e"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/__init__.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/infer.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/infer.py",
+        "sha256": "d2043b689e14570d3b05612d239fdc064278b4fbb403fb8e8b33de1e25b0a540"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/select_speaker.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/select_speaker.py",
+        "sha256": "60c112496928d0639de574aa778349231d6fb3f6838977ab3944d895f8faa43d"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/infer_torchscript.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/infer_torchscript.py",
+        "sha256": "869334538e61c1c2fcbf769f689dd5b0d305fa45ccc0d72ef63d4d829aee3390"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/_resources.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/_resources.py",
+        "sha256": "d96f98779f31ac2ac56ee2bc204b32c4b47aa00c69a26ed2127b290f83dd9c7f"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/infer_onnx.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/infer_onnx.py",
+        "sha256": "53ae5bc6557cf7acc0bb20e46c45a3c7570e6edc5477e322631863821076fb7d"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/export_generator.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/export_generator.py",
+        "sha256": "2aca9c2f5910c9ca07106efb406a48944b3febd059674e5d6389768abe0bbb91"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/__main__.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/__main__.py",
+        "sha256": "5733085bdb9a4b97b2e65c8a0f3954c6f64c46ece771efdebbacbc231a5a9740"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/norm_audio/trim.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/norm_audio/trim.py",
+        "sha256": "fd9b04dd26216a14127447412de4b0c8524672f11bb7ee44fe59d6c134f8b5c6"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/norm_audio/__init__.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/norm_audio/__init__.py",
+        "sha256": "3ed44bcf74856138471d33ad92e8a00f4b8025ffed1421ac920734cf64a58ae8"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/norm_audio/vad.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/norm_audio/vad.py",
+        "sha256": "0d71df443d2aa85279d858cfbeb2f92e537a91e256b9cf4d7fa4cd871a700bfe"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/models.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/models.py",
+        "sha256": "f4fce2a6b46d91d050e80a3015ed6f1b84130a4d36072f8b0d2f56f04b591af1"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/transforms.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/transforms.py",
+        "sha256": "3a7f2123c58f0fa9e83ff5f444aac6bf917327b6e7985546942f9227f52e018d"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/mel_processing.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/mel_processing.py",
+        "sha256": "86e2236d081ec1298cdfd85dcd166f654088edf4cd48c98b700bf77fccd86fc9"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/modules.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/modules.py",
+        "sha256": "0cc35ebf9836de0912ab510fd0647e8c3237d03be8cb7df9938ab8cd828ed58d"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/__init__.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/wavfile.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/wavfile.py",
+        "sha256": "a106624c8addc34a0b4db715c0a7c65f27b55ad2ad7baa8aff9daa57088cbdf7"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/losses.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/losses.py",
+        "sha256": "8feb8836105c63155716f16eb627b04294eec3ea85f89e8cea174955e38aa8d1"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/commons.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/commons.py",
+        "sha256": "26c0fc09d67765c618b9b621c3c4a8e61202073885942aca2ebbf594c0d10833"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/lightning.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/lightning.py",
+        "sha256": "88924d013d7e8e6d3062f4df072f53fde65aa4337ad8f9f2f587471299c0a6ca"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/utils.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/utils.py",
+        "sha256": "7b18b2aed3c76e79c6bdc1d649b687f7e811eacac7e593c794a8aa57620752b4"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/dataset.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/dataset.py",
+        "sha256": "0cb2c6482927dc617dba4b684e9ac7d4445b959d7c18eebe42c0a540a59af7ca"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/config.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/config.py",
+        "sha256": "a12b94221c3d026ec14392700e0b423be3f5cd1c8dee73e047e5355ee9dc265b"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/attentions.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/attentions.py",
+        "sha256": "c9cfd5885f3347ccfaf03ce9866555567dbb7fdc4aff9c22f12e084cb5d540bd"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/monotonic_align/setup.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/monotonic_align/setup.py",
+        "sha256": "d0ae62249da6288925c7a9dc11f0904b7e2c926e611cf8b3f6f465404bdebef6"
+    },
+    "core/memory/piper/piper-master/src/python/piper_train/vits/monotonic_align/__init__.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python/piper_train/vits/monotonic_align/__init__.py",
+        "sha256": "e48740383d59ed496831be9dffd35116c5e83488c443787d9af39287f02d3b79"
+    },
+    "core/memory/piper/piper-master/src/python_run/piper/file_hash.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/piper/file_hash.py",
+        "sha256": "1ccbb0ae010883e6c23971c6d30137bed8eba860fb41a03f50d7ef04c5de51c6"
+    },
+    "core/memory/piper/piper-master/src/python_run/piper/util.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/piper/util.py",
+        "sha256": "4109efc7f1d919493d8070acaa27d1d686fbfb64117cdf6364ca85d29a104bc9"
+    },
+    "core/memory/piper/piper-master/src/python_run/piper/__init__.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/piper/__init__.py",
+        "sha256": "d7e2d6dd45a6aa51001c981b1d78c8321eadaf1ad2c6cf4f482ff168bb33fde9"
+    },
+    "core/memory/piper/piper-master/src/python_run/piper/download.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/piper/download.py",
+        "sha256": "cf2176a32bee66242bd47880201b2989007201c18e91725f4e3fca39e7089b15"
+    },
+    "core/memory/piper/piper-master/src/python_run/piper/voice.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/piper/voice.py",
+        "sha256": "8976d26fe6a427b13b6a2fdf946eb6602674aab446e077810cc75258c2c490ff"
+    },
+    "core/memory/piper/piper-master/src/python_run/piper/const.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/piper/const.py",
+        "sha256": "9bf578c2823ccd3e51c266fdcbf061d52e9c87a1c3a31ef05bde58dbc48a6aec"
+    },
+    "core/memory/piper/piper-master/src/python_run/piper/config.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/piper/config.py",
+        "sha256": "91bf93077be8dce5c1b9d96026dd53ae38d668b43b40e05a127610ce63ab4680"
+    },
+    "core/memory/piper/piper-master/src/python_run/piper/http_server.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/piper/http_server.py",
+        "sha256": "d7607d3c9098e1437f7dca07fa0ba7c6aee8de86e3ecd11fa57828f6d112291e"
+    },
+    "core/memory/piper/piper-master/src/python_run/piper/__main__.py": {
+        "url": "https://raw.githubusercontent.com/Skowii/Z3R0TH/main/core/memory/piper/piper-master/src/python_run/piper/__main__.py",
+        "sha256": "681964ccf79d693155ab62d54f28005396af8cba0b4f2bd19dfc8076f3241cd4"
+    }
+}
